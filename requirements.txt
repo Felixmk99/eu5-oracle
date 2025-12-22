@@ -1,0 +1,13 @@
+llama-index-core
+llama-index-vector-stores-chroma
+llama-index-llms-openai
+llama-index-llms-anthropic
+llama-index-llms-ollama
+llama-index-embeddings-openai
+llama-index-embeddings-huggingface
+streamlit
+chromadb
+beautifulsoup4
+youtube-transcript-api
+python-dotenv
+pathlib
