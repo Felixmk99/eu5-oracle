@@ -12,20 +12,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # --- Core Knowledge Sources ---
-# Add your hardcoded YouTube URLs here
-CORE_YOUTUBE_URLS = [
-    "https://youtu.be/gJjNtlK2XJM?si=0ltK_KTXp5El-tAS",
-    "https://youtu.be/iA0cMW6QjDY?si=y6riu4f6T7_ZGcDr",
-    "https://youtu.be/CcQaUI9n9FE?si=nAW9y5I92NoywNz2",
-    "https://youtu.be/f5eh3yCicto?si=iV62uEChJCQGBgiF",
-    "https://youtu.be/UiFufnxIugU?si=BxX6ykm3YsdHE3un",
-    "https://youtu.be/U4J-oYJbADU?si=BT1u4DnxeHvQDW3b",
-    "https://youtu.be/sFvDcUiukZ8?si=8VsyNNiP0qbnUFVl",
-    "https://youtu.be/Yv9enZYQV_Y?si=mlUKQH4mgdZS7PoP",
-    "https://youtu.be/X9Qqxi50UFA?si=8sk6p2NmQLICHA5T",
-    "https://youtu.be/qP0a4iAm5nU?si=LqthlZ1PVaYkUnfQ",
-    "https://youtu.be/K9kXW-Cdjl8?si=42wlpf3Hk5X9GFdu"
-]
+# Hardcoded Wiki Sources
 
 CORE_WIKI_URLS = [
     "https://eu5.paradoxwikis.com/Europa_Universalis_5_Wiki",
@@ -347,24 +334,53 @@ class DataIngestor:
             return False
     def ingest_core_knowledge(self) -> None:
         """
-        Ingests the hardcoded core YouTube transcripts and Wiki pages if they don't exist yet.
+        Ingests the hardcoded Wiki pages and any manually uploaded transcripts.
         """
-        # 1. Ingest YouTube
-        for url in CORE_YOUTUBE_URLS:
-            video_id_match = re.search(r'(?:v=|\/)([0-9A-Za-z_-]{11}).*', url)
-            if video_id_match:
-                video_id = video_id_match.group(1)
-                filename = f"yt_{video_id}.txt"
-                if not (self.data_dir / filename).exists():
-                    logger.info(f"Ingesting core video: {url}")
-                    self.get_youtube_transcript(url)
+        # 1. Ingest Manual Sources (e.g., YouTube Transcripts)
+        # We look for a folder at the project root level
+        root_dir = self.data_dir.parent
+        manual_dir = root_dir / "manual_sources"
+        
+        if manual_dir.exists():
+            for txt_file in manual_dir.glob("*.txt"):
+                # Avoid re-processing if the output file already exists
+                # We prefix with 'manual_' to keep them organized
+                dest_filename = f"manual_{txt_file.name}"
+                dest_path = self.data_dir / dest_filename
+                
+                if not dest_path.exists():
+                    logger.info(f"Processing manual source: {txt_file.name}")
+                    try:
+                        content = txt_file.read_text(encoding='utf-8')
+                        
+                        # Add Metadata Header for RAG consistency
+                        # We use the current date so the RAG engine knows when we learned this
+                        current_date = datetime.now().strftime("%Y-%m-%d")
+                        final_content = (
+                            f"Source: Manual Upload ({txt_file.name})\n"
+                            f"Source Date: {current_date}\n"
+                            f"URL: local_file\n\n"
+                            f"{content}"
+                        )
+                        
+                        with open(dest_path, 'w', encoding='utf-8') as f:
+                            f.write(final_content)
+                    except Exception as e:
+                        logger.error(f"Failed to process {txt_file.name}: {e}")
                 else:
-                    logger.debug(f"Core video {video_id} already exists, skipping.")
+                    logger.debug(f"Manual source {txt_file.name} already processed.")
 
-        # 2. Ingest Wiki
+        # 2. Ingest Wiki (unchanged)
         for url in CORE_WIKI_URLS:
-            # Create a filename from the URL slug
-            slug = url.split("/")[-1]
+            # Use URL slug for consistent filename matching (Predictable Naming)
+            slug = url.split("/")[-1].split("?")[0] # Remove query params if any
+            if not slug or slug == "index.php": 
+                # Fallback for root or weird URLs
+                # We can't know the title without scraping, but for the check we need a slug.
+                # If we really can't guess, we might skip or force scrape.
+                # For the core list, they are all reliable slugs.
+                slug = "wiki_index"
+            
             filename = self._sanitize_filename(slug) + ".txt"
             if not (self.data_dir / filename).exists():
                 logger.info(f"Ingesting core wiki page: {url}")
