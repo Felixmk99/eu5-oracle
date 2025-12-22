@@ -1,68 +1,66 @@
 # EU5 Oracle 🌍
+### Your Private, Local Expert on Project Caesar
 
-The **EU5 Oracle** is a local-first RAG (Retrieval-Augmented Generation) chatbot designed to help you explore and understand information about **Project Caesar** (Europa Universalis 5). 
+The **EU5 Oracle** is a 100% local, offline-capable RAG (Retrieval-Augmented Generation) chatbot designed to help you explore and understand information about **Project Caesar** (Europa Universalis 5).
 
-Built for the Paradox community, it allows you to ingest developer diaries, forum posts, and YouTube transcripts to create a searchable mathematical index of all known information.
+Built for the Paradox community, it ingests developer diaries, wiki pages, and YouTube transcripts to create a searchable index of all known information, powered entirely by your local machine.
 
-## 🚀 How to Install
+## 🌟 Features
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/your-username/eu5-oracle.git
-   cd eu5-oracle
-   ```
+*   **100% Local & Private**: Powered by [Ollama](https://ollama.com/) and local embeddings. No API keys, no clouds, no data leaves your PC.
+*   **Smart Ingestion**: Automatically scrapes and cleans text from the EU5 Wiki and YouTube transcripts.
+*   **Vector Search**: Uses ChromaDB to find the exact paragraphs relevant to your question.
+*   **Instant Context**: Answers questions like *"How does the population system work?"* with cited sources.
 
-2. **Set up a Virtual Environment** (Recommended):
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
+## 🛠 Prerequisites
 
-3. **Install Dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
+1.  **Python 3.9+** installed.
+2.  **[Ollama](https://ollama.com/)** installed and running.
+    *   You must have the `llama3.1` model pulled:
+        ```bash
+        ollama pull llama3.1
+        ```
 
-4. **Environment Variables**:
-   Create a `.env` file in the root directory for your API keys (optional if using Local models):
-   ```env
-   OPENAI_API_KEY=your_openai_key
-   ANTHROPIC_API_KEY=your_anthropic_key
-   ```
+## 🚀 Installation
 
-## 📥 How to Scrape Data
+1.  **Clone the Repository**:
+    ```bash
+    git clone https://github.com/your-username/eu5-oracle.git
+    cd eu5-oracle
+    ```
 
-You can add knowledge to the Oracle directly through the web interface:
+2.  **Set up a Virtual Environment**:
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows: venv\Scripts\activate
+    ```
 
-1. Launch the app (see below).
-2. In the **Knowledge Ingestion** section of the sidebar, paste a URL:
-   - **Forums/Wikis**: Paste a link to a dev diary or wiki page.
-   - **YouTube**: Paste a link to a Tinto Talk or interview.
-3. Click **"Ingest Knowledge"**. The text will be saved to the `data/` folder and indexed.
+3.  **Install Dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+    *Note: This project uses specific pinned versions of LlamaIndex and Torch to ensure stability.*
 
-## 💬 How to Chat
+## 💬 How to Run
 
-1. **Launch the App**:
-   ```bash
-   streamlit run src/ui.py
-   ```
-2. **Configure the Brain**:
-   - In the sidebar, select your AI Provider.
-   - Click **"Initialize Brain"**.
-3. **Ask Away**: Use the chat input at the bottom to ask things like:
-   - *"How does the population system work?"*
-   - *"What are the mechanics for diplomacy?"*
+1.  **Start the App**:
+    ```bash
+    streamlit run src/ui.py
+    ```
 
-## 🧠 Supported Models
+2.  **Auto-Initialization**:
+    *   The app will automatically check if Ollama is running (and try to start it if not).
+    *   It will connect to your local `llama3.1` model.
+    *   It will check your `data/` folder and build the brain if needed.
 
-The EU5 Oracle uses a **Factory Pattern**, allowing you to switch between different "Brains" seamlessly:
+3.  **Chat**:
+    *   Simply type your question! e.g., *"What are the mechanics for diplomacy?"*
 
-- **OpenAI**: Uses `gpt-4o` for high-reasoning capabilities. Requires an API key.
-- **Anthropic**: Uses `claude-3-5-sonnet` for nuanced understanding. Requires an API key.
-- **Local (Ollama)**: **CRITICAL for local-first privacy.** 
-  - Install [Ollama](https://ollama.com/).
-  - Run `ollama pull llama3`.
-  - Select "Local (Ollama)" in the sidebar and click "Initialize". No internet or API key required!
+## 📥 Adding Knowledge
+
+To make the Oracle smarter:
+1.  **Wiki/Forum**: Paste a URL into the "Knowledge Base" field in the sidebar and click **Ingest**.
+2.  **Manual Files**: Drop any `.txt` file (e.g., transcripts) into the `manual_sources/` folder and restart the app.
 
 ---
 *Disclaimer: This is a fan-made tool. "Europa Universalis 5" and "Project Caesar" are trademarks of Paradox Interactive.*

@@ -1,6 +1,5 @@
 import chromadb
 from pathlib import Path
-from typing import Optional
 from llama_index.core import (
     VectorStoreIndex,
     StorageContext,
@@ -8,7 +7,6 @@ from llama_index.core import (
     Settings
 )
 from llama_index.vector_stores.chroma import ChromaVectorStore
-from llama_index.core.base.base_query_engine import BaseQueryEngine
 from llama_index.core.postprocessor import FixedRecencyPostprocessor
 from llama_index.core.llms import LLM
 from datetime import datetime
@@ -52,27 +50,6 @@ class RAGEngine:
         self._db = chromadb.PersistentClient(path=str(self.chroma_dir))
         self._chroma_collection = self._db.get_or_create_collection("eu5_docs")
 
-    def build_index(self) -> VectorStoreIndex:
-        """
-        Creates a new VectorStoreIndex from scratch.
-        Uses SimpleDirectoryReader to load data and persists it to ChromaDB.
-        """
-        # 1. Load Documents
-        documents = SimpleDirectoryReader(
-            str(self.data_dir),
-            file_metadata=extract_metadata_from_file
-        ).load_data()
-        
-        # 2. Setup Vector Store & Storage Context
-        vector_store = ChromaVectorStore(chroma_collection=self._chroma_collection)
-        storage_context = StorageContext.from_defaults(vector_store=vector_store)
-        
-        # 3. Create and return the index (it persists automatically via Chroma)
-        index = VectorStoreIndex.from_documents(
-            documents, storage_context=storage_context
-        )
-        return index
-
     def load_index(self) -> VectorStoreIndex:
         """
         Loads the index from ChromaDB.
@@ -90,8 +67,12 @@ class RAGEngine:
             )
 
         # 3. Slow Path: First time setup or empty DB
+        txt_files = list(self.data_dir.glob("*.txt"))
+        if not txt_files:
+            txt_files = [p for p in self.data_dir.iterdir() if p.is_file() and not p.name.startswith(".")]
+
         documents = SimpleDirectoryReader(
-            str(self.data_dir),
+            input_files=txt_files,
             file_metadata=extract_metadata_from_file
         ).load_data()
         

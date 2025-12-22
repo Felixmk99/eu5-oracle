@@ -1,8 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-from youtube_transcript_api import YouTubeTranscriptApi
 from pathlib import Path
-from typing import List, Optional
 import logging
 import re
 from datetime import datetime
@@ -281,57 +279,6 @@ class DataIngestor:
             logger.error(f"Failed to scrape {url}: {e}")
             return False
 
-    def get_youtube_transcript(self, video_url: str) -> bool:
-        """
-        Fetches transcript from a YouTube video and saves to a .txt file.
-
-        Args:
-            video_url (str): The full URL of the YouTube video.
-
-        Returns:
-            bool: True if successful, False otherwise.
-        """
-        try:
-            # 1. Get Publication Date from the watch page
-            headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
-            page_response = requests.get(video_url, headers=headers, timeout=10)
-            pub_date = self._extract_publish_date(page_response.text, video_url)
-
-            # 2. Extract video ID and transcript
-            video_id_match = re.search(r'(?:v=|\/)([0-9A-Za-z_-]{11}).*', video_url)
-            if not video_id_match:
-                raise ValueError("Could not extract Video ID from URL.")
-            
-            video_id = video_id_match.group(1)
-            
-            # Using the instance-based API as per version 1.2.3
-            api = YouTubeTranscriptApi()
-            transcript_list = api.list(video_id)
-            
-            # Try to find English, then any available
-            try:
-                transcript = transcript_list.find_transcript(['en'])
-            except:
-                # Fallback to the first available transcript
-                transcript = next(iter(transcript_list))
-            
-            transcript_data = transcript.fetch()
-            transcript_text = "\n".join([item.text for item in transcript_data])
-            
-            filename = f"yt_{video_id}.txt"
-            file_path = self.data_dir / filename
-            
-            with open(file_path, "w", encoding="utf-8") as f:
-                f.write(f"Source YouTube: {video_url}\n")
-                f.write(f"Source Date: {pub_date}\n\n")
-                f.write(transcript_text)
-                
-            logger.info(f"Successfully saved transcript for video {video_id}")
-            return True
-
-        except Exception as e:
-            logger.error(f"Failed to get YouTube transcript for {video_url}: {e}")
-            return False
     def ingest_core_knowledge(self) -> None:
         """
         Ingests the hardcoded Wiki pages and any manually uploaded transcripts.
