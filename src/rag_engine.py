@@ -83,30 +83,52 @@ class RAGEngine:
     def get_chat_engine(self, llm: LLM) -> any:
         """
         Returns a chat engine powered by the loaded/built index.
+        Uses optimized retrieval settings for better accuracy.
         Includes a Recency Postprocessor to prioritize newer information.
         """
         Settings.llm = llm
         index = self.load_index()
         
-        # This postprocessor ranks nodes by date and keeps only the most recent N
-        # We target the 'date' metadata field which we will populate during ingestion.
+        # Recency postprocessor to prioritize recent information
         recency_postprocessor = FixedRecencyPostprocessor(
             top_k=3, 
-            date_key="date" # We'll ensure this key exists in metadata
+            date_key="date"
         )
 
         return index.as_chat_engine(
-            chat_mode="context", 
-            similarity_top_k=5, # Optimization: Retrieve more relevant chunks
+            chat_mode="context",
+            similarity_top_k=7,  # Increased from 5 for better context coverage
             node_postprocessors=[recency_postprocessor],
             system_prompt=(
-                "You are an expert on 'Europa Universalis 5"
-                "Your goal is to answer questions based strictly on the provided context "
-                "from developer diaries and community wiki pages and youtube tutorials. "
-                "Always prioritize the most recent information (EU5 is in active development). "
-                "Do not hallucinate any mechanics that do not exist"
+                "You are the EU5 Oracle - an expert strategic advisor for Europa Universalis 5 (Project Caesar). "
+                "Your role is to provide actionable, strategic gameplay advice based on the provided context.\n\n"
+                
+                "## Core Principles:\n"
+                "1. STRATEGY FRAMEWORK: When giving advice, always consider:\n"
+                "   - Short-term tactical goals (this war, this economy cycle)\n"
+                "   - Long-term empire building (next 50 years of gameplay)\n"
+                "   - Risk vs Reward (opportunity cost of decisions)\n"
+                "2. EXPLAIN THE WHY: Don't just tell players what to do - explain the strategic reasoning\n"
+                "3. TIERED ADVICE: Provide both beginner-friendly basics AND advanced tactics when relevant\n"
+                "4. CONCRETE EXAMPLES: Use specific countries, mechanics, or scenarios to illustrate points\n\n"
+                
+                "## Answer Structure:\n"
+                "- Start with a direct answer to the question\n"
+                "- Follow with strategic context (why this matters in the bigger picture)\n"
+                "- Provide actionable steps when applicable\n"
+                "- Mention related mechanics or pitfalls to avoid\n\n"
+                
+                "## Knowledge Boundaries:\n"
+                "- Base answers STRICTLY on the provided context (wiki docs, dev diaries, tutorials)\n"
+                "- Prioritize the MOST RECENT information (EU5 is in active development - patch notes matter!)\n"
+                "- If context doesn't contain the answer, admit 'I don't have information about X in my knowledge base' "
+                "rather than hallucinating mechanics\n"
+                "- Never confuse EU4 mechanics with EU5 - they are different games\n\n"
+                
+                "Remember: You're not just a documentation lookup tool - you're a strategic advisor helping players "
+                "make better decisions and understand the deeper systems of EU5. Think like a grand strategy coach."
             ),
-            verbose=False  # Disable to prevent debug output in chat UI
+            verbose=False
         )
 
 @st.cache_resource(show_spinner="Waking up the Oracle...")

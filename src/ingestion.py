@@ -133,6 +133,105 @@ CORE_WIKI_URLS = [
     "https://eu5.paradoxwikis.com/Template:Countries_navbox",
     "https://eu5.paradoxwikis.com/Europa_Universalis_5_Wiki:Style/Country",
 ]
+
+# --- Tinto Talks (Developer Explanations) ---
+# PASTE YOUR TINTO TALKS URLs HERE (Paradox Forum threads, YouTube videos, etc.)
+# These are the developer's own explanations and are extremely valuable!
+TINTO_TALKS_URLS = [
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-1-february-28th-2024.1625360/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-2-march-6th-2024.1626415/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-3-march-13th-2024.1630154/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-4-march-20th-2024.1636860/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-5-march-27th-2024.1647775/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-6-april-3rd-2024.1657435/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-7-10th-of-april.1662356/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-8-17th-of-april-2024.1666167/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-9-24th-of-april-2024.1670510/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-10-1st-of-may-2024.1673745/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-11-8th-of-may-2024.1675078/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-12-15th-of-may.1677441/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-13-22nd-of-may-2024.1680927/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-14-29th-of-may-2024.1682450/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-15-june-5th-2024.1685161/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-16-12th-of-june-2024.1687571/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-17-19th-of-june-2024.1689183/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-18-26th-of-june-2024.1689850/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-19-3rd-of-july-2024.1693447/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-20-10th-of-july-2024.1694744/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-21-17th-of-july-2024.1695632/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-22-24th-of-july.1696537/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-23-31st-of-july.1697510/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-24-7th-of-august-2024.1698427/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-25-14th-of-august-2024.1699250/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-26-21st-of-august-2024.1700025/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-28-28th-of-august-2024.1701189/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-28-4th-of-september-2024.1702099/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-29-18th-of-september-2024.1704098/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-30-25th-september-2024.1705317/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-31-2nd-of-october-2024.1706918/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-32-9th-of-october-2024.1708363/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-33-16th-of-october-2024.1709991/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-34-23rd-of-october-2024.1711421/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-35-30th-of-october.1712624/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-36-6th-of-november.1713610/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-37-13th-of-november-2024.1714711/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-38-20th-of-november-2024.1716232/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-39-27th-of-november-2024.1717971/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-40-4th-of-december-2024.1719416/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-41-11th-of-december-2024.1720391/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-42-18th-of-december-2024.1721548/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-43-25th-of-december-2025.1723027/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-44-1st-of-january-2025.1724420/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-45-8th-of-january-2025.1725373/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-46-15th-of-january-2025.1726045/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-47-22nd-of-january-2025.1726704/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-48-29th-of-january-2025.1727342/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-49-5th-february-2025.1728019/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-50-12th-february-2025.1728609/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-51-19th-of-february-2025.1729243/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-52-26th-of-feburary-2025.1729927/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-53-5th-of-march-2025.1730443/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-54-12th-of-march-2025.1731164/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-55-19th-of-march-2025.1732147/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-56-26th-of-march-2025.1733172/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-57-2nd-of-april-2025.1734057/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-58-9th-of-april-2025.1734944/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-59-16th-of-april-2025.1735622/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-60-23rd-of-april-2025.1736924/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-61-30th-of-april-2025.1738380/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-62-7th-of-may-2025.1741825/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-63-14th-of-may-2025.1747262/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-64-21st-of-may-2025.1756210/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-65-28th-of-may-2025.1760717/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-66-4th-of-june-2025.1766139/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-67-11th-of-june-2025-shinto-and-shogunate.1771463/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-68-18th-of-june-2025.1788518/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-69-25th-of-june-2025.1806956/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-70-2nd-of-july-2025.1823383/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-71-9th-of-july-2025.1835118/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-72-16th-of-july-2025.1846292/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-73-23th-of-july-2025-middle-kingdom.1851155/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-74-30th-of-july-2025.1852937/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-75-6th-of-august-2025.1854212/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-75-13th-of-august-2025.1855048/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-77-20th-of-august-2025.1856053/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-78-27th-of-august-2025.1857065/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-79-3rd-of-september-2025.1857843/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-80-10th-of-september-2025.1858519/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-81-24th-of-september.1860037/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-82-1st-of-october-2025.1861246/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-83-8th-of-october-2025.1862270/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-84-15th-of-october-2025-onboarding-systems.1863138/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-85-22nd-of-october-modding.1864004/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-86-29nd-of-october-loading-screens-achievements.1865038/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-87-5th-of-november.1867301/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-88-12th-of-november-2025.1872401/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-89-19th-of-november-2025.1876786/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-90-3rd-of-december-2025.1884467/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-91-10th-of-december-2025.1887357/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/patch-1-0-10-is-live-now-tinto-talk-92.1889614/"
+]
+
 class DataIngestor:
     """
     Handles data collection from web pages and YouTube videos.
@@ -207,6 +306,7 @@ class DataIngestor:
             soup = BeautifulSoup(response.text, 'html.parser')
             
             # 2. Extract content based on site type
+            # 2. Extract content based on site type
             if "paradoxwikis.com" in url:
                 # Target the main content area of MediaWiki
                 content_div = soup.find(id="mw-content-text")
@@ -217,6 +317,51 @@ class DataIngestor:
                     text = content_div.get_text(separator='\n')
                 else:
                     text = soup.get_text(separator='\n')
+            
+            elif "forum.paradoxplaza.com" in url:
+                # Paradox Forum - Try RSS feed alternative for JavaScript-heavy pages
+                # Forum threads have an RSS feed version that's easier to scrape
+                if "/threads/" in url or "/developer-diary/" in url:
+                    thread_id = url.rstrip('/').split('.')[-1]
+                    rss_url = f"https://forum.paradoxplaza.com/forum/threads/.{thread_id}/index.rss"
+                    
+                    try:
+                        logger.info(f"Attempting RSS feed: {rss_url}")
+                        rss_response = requests.get(rss_url, timeout=10)
+                        rss_response.raise_for_status()
+                        rss_soup = BeautifulSoup(rss_response.text, 'html.parser')
+                        
+                        # Extract all post content from RSS items
+                        items = rss_soup.find_all('item')
+                        if items:
+                            posts = []
+                            for item in items:
+                                # Get post title and description
+                                title = item.find('title')
+                                description = item.find('description')
+                                
+                                if description:
+                                    # Clean HTML from description
+                                    desc_soup = BeautifulSoup(description.text, 'html.parser')
+                                    post_text = desc_soup.get_text(separator='\n')
+                                    posts.append(post_text)
+                            
+                            text = '\n\n---\n\n'.join(posts)
+                            logger.info(f"Successfully extracted {len(items)} posts from RSS feed")
+                        else:
+                            raise Exception("No items found in RSS feed")
+                    except Exception as rss_error:
+                        logger.warning(f"RSS feed failed ({rss_error}), trying HTML fallback")
+                        # Fallback to regular HTML scraping
+                        for script in soup(["script", "style"]):
+                            script.decompose()
+                        text = soup.get_text(separator='\n')
+                else:
+                    # Not a thread, use regular scraping
+                    for script in soup(["script", "style"]):
+                        script.decompose()
+                    text = soup.get_text(separator='\n')
+            
             else:
                 # Fallback for other sites: Remove script and style elements
                 for script in soup(["script", "style"]):
@@ -287,7 +432,7 @@ class DataIngestor:
                 else:
                     logger.debug(f"Manual source {txt_file.name} already processed.")
 
-        # 2. Ingest Wiki (unchanged)
+        # 2. Ingest Wiki
         for url in CORE_WIKI_URLS:
             # Use URL slug for consistent filename matching (Predictable Naming)
             slug = url.split("/")[-1].split("?")[0] # Remove query params if any
@@ -304,3 +449,17 @@ class DataIngestor:
                 self.scrape_url(url)
             else:
                 logger.debug(f"Core wiki page {slug} already exists, skipping.")
+
+        # 3. Ingest Tinto Talks (Developer Explanations)
+        for url in TINTO_TALKS_URLS:
+            # Prefix with "tinto_" to identify these as high-priority developer sources
+            slug = url.split("/")[-1].split("?")[0]
+            if not slug:
+                slug = "tinto_talk"
+            
+            filename = "tinto_" + self._sanitize_filename(slug) + ".txt"
+            if not (self.data_dir / filename).exists():
+                logger.info(f"Ingesting Tinto Talk: {url}")
+                self.scrape_url(url)
+            else:
+                logger.debug(f"Tinto Talk {slug} already exists, skipping.")

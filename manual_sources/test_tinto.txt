@@ -1,0 +1,8 @@
+Test Tinto Talk Content
+
+This is a developer explanation about game mechanics.
+
+Example mechanic 1: Economy works by...
+Example mechanic 2: Combat involves...
+
+This is test content to verify manual ingestion works.
