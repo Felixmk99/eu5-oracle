@@ -1,7 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
 venv/
 .env
-__pycache__/
-.DS_Store
+
+# LlamaIndex & ChromaDB
 chroma_db/
-*.pyc
-.ipynb_checkpoints/
+data/
+
+# Streamlit
+.streamlit/
+
+# OS
+.DS_Store
