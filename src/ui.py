@@ -40,7 +40,7 @@ st.set_page_config(
 ROOT_DIR = Path(__file__).parent.parent.absolute()
 DATA_DIR = str(ROOT_DIR / "data")
 CHROMA_DIR = str(ROOT_DIR / "chroma_db")
-OLLAMA_MODEL = "llama3.1"
+OLLAMA_MODEL = "llama3.1:8b"
 
 # --- Session State ---
 if "messages" not in st.session_state:
@@ -86,7 +86,14 @@ def initialize_brain():
     """Sets up the LLM and RAG engine in session state."""
     try:
         # 1. Initialize the LLM & Embeddings (Local-First)
-        Settings.embed_model = HuggingFaceEmbedding(model_name="BAAI/bge-small-en-v1.5")
+        import torch
+        device = "mps" if torch.backends.mps.is_available() else "cpu"
+        
+        Settings.embed_model = HuggingFaceEmbedding(
+            model_name="BAAI/bge-small-en-v1.5",
+            device=device,
+            embed_batch_size=32  # Optimization: Increase batch size for faster processing
+        )
         llm = get_llm_model(model_name=OLLAMA_MODEL)
         st.session_state.llm_instance = llm
         
@@ -135,23 +142,10 @@ with st.sidebar:
         if st.button("Retry Connection"):
             st.rerun()
 
-    st.divider()
-    
-    st.title("📥 Knowledge Base")
-    st.caption("Add specific info via URL:")
-    source_url = st.text_input("Enter Wiki/Forum URL")
-    if st.button("Ingest"):
-        if source_url:
-            ingestor = DataIngestor(DATA_DIR)
-            with st.spinner("Reading..."):
-                if ingestor.scrape_url(source_url):
-                    st.success("Added!")
-                else:
-                    st.error("Failed.")
 
 # --- Main Interface ---
 st.title("🌍 EU5 Oracle")
-st.markdown("*Your private, local expert on Project Caesar.*")
+st.markdown("*Your private, local expert on Europa Universalis V.*")
 
 # Chat History
 for message in st.session_state.messages:
@@ -159,7 +153,7 @@ for message in st.session_state.messages:
         st.markdown(message["content"])
 
 # User Input
-if prompt := st.chat_input("Ask about Project Caesar..."):
+if prompt := st.chat_input("Ask about Europa Universalis V..."):
     if not st.session_state.chat_engine:
         st.warning("Oracle is offline. Please check Ollama.")
     else:

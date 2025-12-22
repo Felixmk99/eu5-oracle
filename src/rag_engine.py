@@ -96,9 +96,17 @@ class RAGEngine:
         )
 
         return index.as_chat_engine(
-            chat_mode="condense_question", 
+            chat_mode="context", 
+            similarity_top_k=5, # Optimization: Retrieve more relevant chunks
             node_postprocessors=[recency_postprocessor],
-            verbose=True
+            system_prompt=(
+                "You are an expert on 'Europa Universalis 5"
+                "Your goal is to answer questions based strictly on the provided context "
+                "from developer diaries and community wiki pages and youtube tutorials. "
+                "Always prioritize the most recent information (EU5 is in active development). "
+                "Do not hallucinate any mechanics that do not exist"
+            ),
+            verbose=False  # Disable to prevent debug output in chat UI
         )
 
 @st.cache_resource(show_spinner="Waking up the Oracle...")

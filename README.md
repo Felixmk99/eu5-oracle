@@ -62,5 +62,14 @@ To make the Oracle smarter:
 1.  **Wiki/Forum**: Paste a URL into the "Knowledge Base" field in the sidebar and click **Ingest**.
 2.  **Manual Files**: Drop any `.txt` file (e.g., transcripts) into the `manual_sources/` folder and restart the app.
 
+## 🧪 How to Test
+
+This project includes a comprehensive test suite using `pytest`.
+
+1.  **Run all tests**:
+    ```bash
+    pytest tests/ -v
+    ```
+
 ---
 *Disclaimer: This is a fan-made tool. "Europa Universalis 5" and "Project Caesar" are trademarks of Paradox Interactive.*
