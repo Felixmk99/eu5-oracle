@@ -1,0 +1,317 @@
+Source URL: https://eu5.paradoxwikis.com/Norway
+Source Date: 2025-12-23
+
+This is a
+compilation
+and strategy article for
+Norway
+.
+Mechanics and flavor content are
+transcluded
+from other pages.
+Norway
+Country type
+Settled
+Government type
+Monarchy
+Primary culture
+Norwegian (Scandinavian)
+Primary religion
+Catholicism
+Capital location
+Oslo (352)
+Norway
+is a country located in the two areas of Syd-Norge and Nord-Norge in the region of Scandinavia; also ruling over Torshavn (Faroe Islands) in the province of Northern Isles. Norway is the overlord of
+Orkeny
+(Vassal),
+Iceland
+(Dominion) and
+Greenland
+(Dominion). Norway is bordering Sweden to the east, is seperated from Denmark by Skagerrak in the south, from
+Scania
+by Kattegatt in the south-east, and from
+Scotland
+by Orkney and Shetland in the far west. In 1337 Norway is a junior partner in a union under
+Sweden
+.
+King Magnus VII av Bjälbo
+is the leader of the
+Swedish-Norwegian Union
+and has the following titles; King of Norway, King of Sweden, King of Scania, Jarl of Greenland and Jarl of Iceland.
+Noway is one of the six recommended countries to play in 1337 for learning the game, with the
+Learning Walkthrough
+focusing on politics.
+Government
+[
+edit
+|
+edit source
+]
+Estates
+[
+edit
+|
+edit source
+]
+Norway has 6 estates,
+Crown
+,
+Nobility
+,
+Clergy
+,
+Burghers
+,
+Commoners
+and
+Tribes
+. Some reforms and privileges have allready been enacted at game start. The Tribes estate would disapear should the
+Sámi
+culture become fully assimilated. Should the Sámi culture reappear, the Tribes estate would come back, allthough it would then be renamed "The Clan" estate.
+The Estates and their active privileges: WIP
+Parliament
+[
+edit
+|
+edit source
+]
+Every 60 months you can call a
+Storting
+(Parliament). The player can chose where the Parliament takes place and what should be debated. Should the player chose the capital (Oslo) to host the Parliament, the country goes towards
+Centralization
+, if another location/town/city is chosen, the country goes towards
+Decentralization
+, but the chosen spot gets increased control.
+Cabinet
+[
+edit
+|
+edit source
+]
+Norway starts with two available Cabinet Seats. At game start there are 4 characters that can be appointed as a cabinet member:
+Can be appointed as Cabinet members:
+Name
+Dynasty
+Age
+Estate
+Abillities
+Character ID
+Fertillity
+Life Expectency
+Bengt
+av Oslo
+34
+Nobility
+10 / 65 / 12
+11294
+38.00
+44
+Johan
+av Sudrheimætten
+25
+Nobility
+59 / 34 / 57
+10
+56.00
+44
+Lars
+av Eidsvoll
+25
+Nobility
+37 / 80 / 80
+11293
+62.00
+38
+Sigurd
+av Sudrheimætten
+22
+Nobility
+52 / 52 / 32
+11
+48.00
+44
+Laws
+[
+edit
+|
+edit source
+]
+At game start the only law that is yet to be coded is
+Precious Metal Distribution
+.
+The current active laws and policies: WIP
+Geopolitics
+[
+edit
+|
+edit source
+]
+Norway has a population of 474k and is extremely decentralized at game start with overall low control. They don't start with any founded cities, but have 6 towns spread around. Should the player want to play a centralized campaign, they might considered waiting on centralizing the country untill after the subjects have been annexed, since being decentralized gives a bonus
+Loyality of Subjects
+modifer. Greenland and Orkney can be annexed pretty early in the game since they are small and have a low population.
+Norn
+culture is allready accepted in Norway, so concilidating Orkney and Shetland shoudln't bring many difficulties.
+Icelandic
+culture is in the same culture group as Norwegian, but is not a tolerated culture at game start, and the population in Greenland is not big enough to tolerate it after annexed, which could cause rebellions. Annexing Iceland is another story, without any modifers it could take 60 years to annex them. Consider enacting
+Feudal Nobility
+as a
+Institute Government Reform
+early which gives a small
+Loyality of Subjects
+modifer, especially if both Greenland and Orkney was annexed quickly because that gives Iceland a 2x
+Annexed Subject
+negative modifer opinion of Norway.
+Norway has a presence in 3 markets at game start;
+Oslo Market
+,
+Stockholm Market
+and
+Edinburgh Market
+. The player could at a peace deal with either Sweden or Scotland force to take over their markets in order to consolidate Norway's trade. The player also gains a presence (and takes over the market) in
+Garðar Market
+after annexing Greenland, and
+Skálholt Market
+upon annexing Iceland.
+Norway borders colonizable locations in Northern Scandinavia, allthough only the locations in the provinces of Nordland and Finnmark can be colonised by Norway. The rest of Scandinavia have been claimed by Sweden and Novgorod through the
+Treaty of Oreshek
+. Should the player wish to colonise these areas they must force Sweden and Novgorod to revoke their claims in a peace deal at the cost of some Antagonism, or conquer it from them should they allready have finnished their colonial charter in the respected provinces. It is also possible for Norway to colonise the rest of Greenland after annexing them.
+Rivals
+[
+edit
+|
+edit source
+]
+Very often, in many of the games, it is usually the same 3 countries that will rival Norway at game start. The 3 being; Scotland, Scania and Denmark.
+International Organizations
+[
+edit
+|
+edit source
+]
+At the start of the game Norway is a part of two IO's.
+Catholic Church:
+As a member
+Swedish-Norwegian Union:
+As a Junior Partner
+Breaking free from the Union
+[
+edit
+|
+edit source
+]
+In the early game Norway cannot declare war on Sweden due to being in the union, but it can be done once a
+Union Policy
+changes. Around the time when the
+Black Death
+breaks out (on historical), Sweden will implement the
+Establish Seniority
+policy under the
+Foundation Laws
+in the
+Swedish-Norwegian Union
+. Norway can also vote to enect that policy. Once the bill have been passed and the new policy have become active, Norway can create one of two types of CBs;
+Union Independence Casus Belli
+can be used to break free from the union, or
+War for Seniority Casus Belli
+can be used to take over the union. Both CB's require a spynetwork of 20 in Sweden to fabricate. Whichever CB the player uses when declaring war, the game will randomly generate a new charatcer to become the new king of Norway.
+Countries
+Tabber requires Javascript to function.
+Eastern Europe
+Albania
+Arianiti
+Armenia
+Bosnia
+Bulgaria
+Byzantium
+Croatia
+Epirus
+Georgia
+Halych
+Hungary
+Kyiv
+Lithuania
+Mataranga
+Muscovy
+Muzaka
+Perm
+Poland
+Samtskhe
+Serbia
+Smolensk
+Teutonic Order
+Thopia
+Velikiy Novgorod
+Volhynia
+Vyatka
+Wallachia
+Western Europe
+Aragon
+Austria
+Aquitaine
+Balliol
+Brandenburg
+Brittany
+Bohemia
+Castile
+Denmark
+Dithmarschen
+England
+Florence
+France
+Guelders
+Granada
+Holland
+Iceland
+Moravia
+Milan
+Naples
+Navarre
+Norway
+Papal States
+Portugal
+Scania
+Scotland
+Sicily
+Spain
+Sweden
+Valencia
+Venice
+Wales
+Central Africa
+East Africa
+Ethiopia
+Kitara
+North Africa
+Morocco
+Tlemcen
+Tunis
+South Africa
+Zimbabwe
+West Africa
+Middle East
+Oman
+Ottomans
+Yemen
+Central Asia
+Timurid
+East Asia
+Chūzan
+Hokuzan
+Japan
+Míng
+Nanzan
+Ryūkyū
+Yuan
+South Asia
+Delhi
+Mughal
+South East Asia
+Khmer
+Majapahit
+North America
+Cahokia
+South America
+Australasia
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=Norway&oldid=21677
+"

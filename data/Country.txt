@@ -1,0 +1,596 @@
+Source URL: https://eu5.paradoxwikis.com/Country
+Source Date: 2025-12-22
+
+Please help with verifying or updating older sections of this article.
+At least some were last verified for
+version
+pre-release.
+Europa Universalis 5
+Country
+Starting countries
+Formable countries
+A Country is a political entity that can participate in
+Diplomacy
+. It has a
+Government
+, a
+Primary Culture
+, and a
+Primary Religion
+. It may control
+Armies
+and
+Navies
+to project its power.
+Each Country is played either by a human player or by an AI.
+Country base values
+[
+edit
+|
+edit source
+]
+All countries start with these basic modifiers.
+Country base values
+[1]
+Allow Males in Cabinet
+Allow Males to Command
++50
+Logistics Distance
++0.5%
+Army Tradition Decay
++5
+Artillery Bonus vs Fort
++10%
+Bank Interest
+Burghers Allowed in Cabinet
+Burghers Allowed to Command
+Can Gather Amber
+Can Extract Beeswax
+Can Gather Chili
+Can Extract Clay
+Can Gather Cloves
+Can Farm Cocoa
+Can Farm Coffee
+Can Farm Cotton
+Can Gather Dyes
+Can Capture Elephants
+Can Farm Fiber Crops
+Can Farm Fish
+Can Farm Fruit
+Can Hunt for Fur
+Can Mine Gems
+Can Gather Incense
+Can Hunt for Ivory
+Can Maintain Livestock
+Can Cut Lumber
+Can Gather Medicaments
+Can Farm Olives
+Can Gather Pearls
+Can Gather Pepper
+Can Extract Pottery
+Can Gather Saffron
+Can Gather Salt
+Can Gather Sand
+Can Farm Silk
+Can Farm Sugar
+Can Gather Tea
+Can Farm Tobacco
+Can Hunt for Wild Game
+Can Farm Wine
+Can Farm Wool
++4%
+Casus Belli Creation Speed
+Clergy Allowed in Cabinet
++1000
+Colonial Range
+Cossacks Allowed to Command
++75%
+Education of Heirs
++10%
+Expected Cost of Court
+Crown Allowed in Cabinet
+Crown Allowed to Command
++0
+Cultures Capacity
+Dhimmi Allowed to Command
++1
+Diplomatic Capacity
++1000
+Diplomatic Range
++3
+Diplomatic Reputation
++10%
+Expected Diplomatic Spending
+−1%
+Estate Satisfaction from Destroying Estate Buildings
++5%
+Estate Satisfaction from New Buildings
++5%
+Monthly Experience Decay
++0%
+Exploration Cost
++0.05
+Exploration Monthly Progress
++1
+Fort Limit
+Allows Burghers to Migrate
+Allows Clerics to Migrate
++30%
+Maximum Tax
++0%
+Minimum Tax
++5%
+Estates Satisfaction Decay
++0.2%
+Estates Satisfaction Recovery
+Allows Laborers to Migrate
++0.5%
+Maritime Presence Decay
++0.0001
+Pop Migration Speed
++10%
+Artist Monthly Start Chance
+−0.5%
+Monthly Control Decline
+Allows Nobles to Migrate
+Allows Peasants to Migrate
++1
+Pop Assimilation Speed
++2
+Pop Conversion Speed
+Allows Slaves to Migrate
+Allows Soldiers to Migrate
++100%
+Burghers Trade Capacity
+Allows Tribesmen to Migrate
++1
+Possible Government Reforms
++2
+Cabinet Seats
++10
+Proximity Cost of going downstream along a River
++30
+Proximity Cost of going upstream along a River
++40
+Proximity Cost without infrastructure
++20
+Proximity Cost on Frozen Water
++1%
+Army Morale Attrition Cost
++0.1%
+Army Morale Movement Cost
++5%
+Army Morale Recovery Speed
+(Unrecognized modifier type "levy_combat_efficiency" for
+Module:Modifier type
+)
++1
+Maximum Diplomats
++20
+Maximum War Exhaustion
++100
+Maximum Religious Influence
++500
+Mercenary Range
++0.05
+Maritime Trade Advantage
++1
+Military Tactics
++5%
+Minting Threshold
++0.1
+Monthly Diplomats
+−0.1%
+Monthly Inflation
++0.01
+Monthly Karma Decay
++0.1%
+Monthly Rebel Growth
+−0.025
+Monthly War Exhaustion
++25%
+Morale Recovery in Friendly Territory
++20%
+Movement Time when Attached to Another Unit
++0%
+Naval Morale Attrition Cost
++0%
+Naval Morale Movement Cost
++5%
+Navy Morale Recovery Speed
++1000
+Naval Range
++0.5%
+Navy Tradition Decay
+Nobility Allowed in Cabinet
+Nobility Allowed to Command
+Nobility in Parliament
++50%
+Parliament Request Issue Support Needed
+Commoners Allowed to Command
++20%
+Pop Join Rebels Threshold
++35%
+Pop Leave Rebels Threshold
++40
+Proximity Cost through Port
++1%
+Prestige Decay
++5%
+Privateer Durability
++10%
+Local Access to Raw Materials
++20
+Proximity Cost through Roads
++30
+Proximity Cost without Maritime Presence
++5
+Proximity Cost with Maritime Presence
++10%
+Skill of New Artists
++2%
+Slave Raid Efficiency
++0.5%
+Stability Decay
++5
+Loyalty of Subjects
++50
+Supply Depot Capacity
+−5
+Tolerance of Heathen Beliefs
+−2.5
+Tolerance of Heretical Beliefs
++1
+Tolerance of the True Faith
++1000
+Trade Range
+Tribes Allowed to Command
++0.1%
+Unemployed Slave Promotion
++0
+War Declaration Stability Hit Tolerance
++0
+War Declaration War-Exhaustion Tolerance
++66%
+Win War Chance Threshold
+−75%
+Non-Culture Levy Size
+Capital
+[
+edit
+|
+edit source
+]
+Each country has a capital, which is the location where the government resides. Getting the capital
+Occupied
+in a
+War
+can be devastating.
+The capital can be moved to any core location provided there are enough goods in the market at the new location. Moving the capital costs 20
+Stability and takes a minimum of 180
+[2]
+days, increased by the distance between the old capital and the new one. The
+Gold cost to move it depends on the goods prices in the market where the new capital is located. After the capital is moved, any buildings that required the previous location to be the capital will be destroyed. Moving the capital can be cancelled at any point.
+Country type
+[
+edit
+|
+edit source
+]
+The country type defines the condition of existence of a country and has enormous gameplay implications. There are four country types. Most countries are settled countries and are selected on the world map. Other country types have to be selected from the Country Selection tab.
+Country type
+Must own
+Unlocks
+Settled
+Locations
+Call of the Frontier advance
+Settle the Frontier cabinet action
+Demand Additional Tribute country interaction
+Return Land country interaction
+Seize Territory country interaction
+Start War in Colony country interaction
+Invite Settlers country interaction
+Army Based
+Armies
+Call of the Frontier advance
+Settle the Frontier cabinet action
+Group of Conquistadors government reform
+Legacy of Činggis Khān government reform
+Sich Rada government reform
+Extraterritorial
+Buildings
+Banking Family government reform
+Hanseatic Merchant Federation government reform
+Clan Retainers unit type
+Clan Retainer Cavalry unit type
+Clan Shipyards building
+Family Shrine building
+Gosho building
+Kokufu building
+Shōen building
+Tatara building
+Yamashiro building
+Navy Based
+Navies
+Society of Pops
+Pops
+Not playable
+Country rank
+[
+edit
+|
+edit source
+]
+Country ranks at the start of the game
+The country rank represents the respect countries inspire among their peers. The country rank can be increased for a
+Gold cost once certain requirements are met. Once increased, country rank can never be reduced.
+Country rank
+[3]
+Uses victory cards
+Language power per political power
+Effects
+Upgrade requirements
+Upgrade cost
+[4]
+County
+This Country Rank represents the smallest Countries. Usually those with only a single Location. A small tribe may usually be represented by this rank as well.
+0.05
+Can Sign Alliance
++1
+Possible Rivals
+—
+—
+Duchy
+This Country Rank represents a small- to medium-sized Country, usually with a single Province, but it is larger or more populous than a County.
+0.25
+Can Sign Alliance
+Can Guarantee
++0.5
+Cultures Capacity
++1
+Diplomatic Capacity
++200
+Diplomatic Range
++50
+Great Power Score (Exempt from Forfeit)
++25%
+Mercenary Range
++2
+Possible Rivals
+Not blocked from becoming a duchy
+25 Prestige
+Not in HRE or is leader of HRE
+Any of the following:
+200K Pops
+150K Primary religion pops
+100K Primary or accepted culture pops
+100 + half monthly income
+Kingdom
+This is the Country Rank that represents the larger Countries. They have multiple Provinces and can project a fair amount of power.
+1
+Can Sign Alliance
+Can Guarantee
+Can Support Rebels
++1
+Cultures Capacity
++2
+Diplomatic Capacity
++500
+Diplomatic Range
++1
+Fort Limit
++100
+Great Power Score (Exempt from Forfeit)
++1
+Maximum Diplomats
++50%
+Mercenary Range
++1
+Possible Number of Artists
++3
+Possible Rivals
+Not blocked from becoming a kingdom
+50 Prestige
+Independent
+Any of the following:
+2M Pops
+1.5M Primary religion pops
+1M Primary or accepted culture pops
+250 + monthly income
+Empire
+This is the highest Country Rank and represents the most prestigious or powerful Countries in the world.
+2
+Can Sign Alliance
+Can Guarantee
+Can Support Rebels
++2
+Cultures Capacity
++3
+Diplomatic Capacity
++1000
+Diplomatic Range
++2
+Fort Limit
++1
+Cabinet Seats
++200
+Great Power Score (Exempt from Forfeit)
++2
+Maximum Diplomats
++100%
+Mercenary Range
++2
+Possible Number of Artists
++4
+Possible Rivals
+Not blocked from becoming a empire
+Not Catholic monarchy or in HRE
+70 Prestige
+Great power
+Independent
+Any of the following:
+10M Pops
+7.5M Primary religion pops
+5M Primary or accepted culture pops
+1000 + twice monthly income
+Control
+[
+edit
+|
+edit source
+]
+Each capital, including Vassals and Fiefdoms generate proximity. By default, this is 100% in the capital location which spreads out and is gradually reduced over land and over sea if you own a town with a port building.
+The reduction is scaled by % Proximity Loss reduction, flat modifiers and constructed buildings.
+This is then modified by your Land vs. Naval societal value to arrive at a final control.
+Proximity is then multiplied by 0.75 to form your base control which is then modified by buildings, population satisfaction and if it is a core or not. This is then applied to the produced value of the the location, and distributed to your estates in accordance to their power. This is rounded down.
+Example:
+You have a
+town
+with a
+temple
+in a location of your culture (
+core
+) that is 4 locations away from your capital. The population is missing goods, and is not happy giving them a satisfaction reduction in control of 13%. The proximity to your capital is 45%.
+Your total control would then be 45*0,75(Proximity) + 20(Core) + 5(Town) + 5(Temple) - 13(Low Pop satisfaction) = 50,75 ->
+50 Control
+The share that goes to your non-crown estates is then taxed in accordance to their tax level.
+Example:
+The location, described above produces
+100
+gold in value, with 50 control.
+All of your estates; Crown, Nobles, Clergy and Peasants have 25% power share.
+Result:
+The location produces
+100
+gold, which is reduced to
+50
+by your control value.
+You have a crown power of 25%, which means that
+12.5
+gold goes straight to your monthly income.
+Your Estates also have 25% power each (75% total), which means that
+37.5
+gold goes into their monthly income (which they can construct buildings with and loan to you).
+This is then taxed, depending on the individual tax level of your estates which is also added to your monthly income. Let us assume that all of the estates have 20% tax. (This is manually adjustable by each estate on the slider setting).
+In this situation you would gain
+12.5
+gold +
+7.5
+gold (20% tax of
+37.5
+)
+Maritime presence
+[
+edit
+|
+edit source
+]
+Each country has a maritime presence, which reduces the proximity that is lost between sea zones when calculating control. Maritime presence in the coastal sea zones of a market is also an important source of trade advantage. While at peace, each port will gradually increase maritime presence, while a blockade will quickly reduce it. A navy of light ships in a sea zone will rapidly increase maritime presence.
+Privateers can be created from 250 Sailors by countries that meet the requirements to hire privateers. Privateers will reduce the maritime presence of rebels and countries at war with. For other countries, privateers display as pirates.
+Rebels
+[
+edit
+|
+edit source
+]
+Please help improve this article or section by
+expanding it
+with: difference between secession and civil war.
+If pops do not have sufficient satisfaction, they will create a rebellion or join a rebellion with the same objectives. If enough pops in a location join a rebellion, the location will join the rebellion too.
+Every rebellion has progress that goes from 0% to 100%. Rebellions gain progress at a rate of
+0.1%
+every month, and the rate is increased if control is low in the locations where pops joined the rebellion. When a rebellion reaches 100% progress, all locations that joined the rebellion will form a new country and start a war against their previous owner. There are five types of rebellions:
+Rebels
+Pop requirements
+Notes
+Nationalist Rebels
+Same culture as existing rebel pops
+Religious Rebels
+Same religion as existing rebel pops
+Slave Rebels
+Slaves social class
+Estate Rebels
+Estate's social class
+Gains additional monthly progress depending on Estate Power
+References
+[
+edit
+|
+edit source
+]
+↑
+From
+/Europa Universalis V/game/in_game/common/auto_modifiers/country.txt
+↑
+NDefines.NCountry.CAPITAL_MOVE_BASE_DAYS = 180
+in
+Defines
+.
+↑
+Country ranks are defined in
+/Europa Universalis V/game/in_game/common/country_ranks/00_default.txt
+↑
+Rank upgrade costs are defined in
+/Europa Universalis V/game/in_game/common/prices/04_government.txt
+Mechanics
+Realm
+Country
+•
+Government
+•
+Parliament
+•
+Estate
+•
+Reforms
+•
+Laws
+•
+Characters
+•
+Missions
+Economy & Research
+Economy
+•
+Goods
+•
+R.G.O.
+•
+Market
+•
+Building
+•
+Population
+•
+Age
+Diplomacy & Warfare
+Diplomacy
+•
+Subjects
+•
+International organization
+•
+Warfare
+•
+Combat
+•
+Military
+The world
+Location
+•
+Culture
+•
+Religion
+•
+Language
+•
+Exploration
+•
+Situations
+•
+Disasters
+•
+Diseases
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=Country&oldid=21656
+"

@@ -1,0 +1,437 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-43-25th-of-december-2025.1723027/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #43 - 25th of December 2025
+Thread starter
+Johan
+Start date
+Dec 25, 2024
+Hello everyone and Merry Christmas to you all! Today we are celebrating the birth of Jesus Christ, and thus here is a special gift for you all.
+So for today we’ll be talking a little bit about how it is when you start playing in Project Caesar, and we’ll start as Norway..
+We start in a union with Sweden, as we have the same king, who is only 20 years old at the start of the game. He is married though to Blanche of Namur, who in history gave birth to Håkon who became the King of Norway.  The current heir is Eufemia, the king's younger sister, who is married to Albrech of Mecklenburg.
+Norway is a rather big country, but most is sparsely populated and not much developed.  There are a few main concentrations of population.  Around the Oslo Fjord in the south, around Tröndelag in the north, and on the western coast around Bergen & Stavanger.
+These are the 6 towns of Norway, and these populations include the entire countryside of the location, including all peasants.  Oslo has about 900 burghers at the start of the game.  This creates a bit of a challenge, as we do not have either a  concentrated population nor a big population.
+These population numbers are of course going to change dramatically in a few decades, as the Black Death is not exactly avoidable.
+There are a few other challenges to consider as well.   We do not have our own market and trade through the Lübeck market.
+This has some benefits and some challenges.  First of all, it's a market which has a lot of Hanseatic Merchants and access to goods will be plenty.  The heartland around our capital in the south also has great market access.   However, the rest of the country is not as lucky.
+So what shall we do at the start though?
+First of all, as Norway has a small population, I can’t rely on large scale raw material production, but should perhaps aim for a more capital economy.  One way to achieve that is to grant a privilege to the Burghers.  It will make them more powerful, but I think it's worth it.
+Another way is to check the alerts and we see that our population has some needs that are not fulfilled.  While we may not care all that much if the pops in Orkney get what they need from the Dublin Market, we can at least look into addressing the needs in Lübeck.
+A lack of wine, beer and silver.  The amount of wine needed is nothing I care about now, but it is clear that we could benefit from addressing the other needs.
+First of all, we have a Silver Mine in Kongsberg, which we can expand.
+We currently have a level 1 mine here, and due to the development of the area we can get up to a level 6 mine, employing up to 6,000 peasants in total.   There is a demand far higher than supply in the market, but fully upgraded we should be able to supply it fully.   It will be an important part of our economy, and we are already able to collect 5% of our taxes only from this location.
+I start expanding the mines, with 1 level for now, and look into doing more diversification for my economy.  The beer demand will easily solve itself over the next few months, as either the burghers will import more, or The Hansa or someone else will import to fulfill demands or some AI minor will build more breweries.
+I want to get a higher trade capacity.  I could build market or fishing villages in the countryside, but for now I think a Wharf in every coastal town would be the best benefit, as they impact the proximity calculations and give some sailors as well.
+Wharfs are not the most expensive to build for us, especially with the access to lumber and masonry in the market.
+There are other things to consider at the start of the game as well. Assigning the cabinet to their duties is one.   As we start with 70 legitimacy, I assign a noble to increase the legitimacy of the King.
+Probably only Norwegians or some very knowledgeable people about scandinavian medieval history who find it absolutely hilarious for this guy to do this
+The goal now is to slowly build up an economy based around my towns and survive the Black Death as best as possible.
+The goal during the next few decades would be to build up a simple gravel road from Oslo past Hamar over Tynset to Nidaros.
+This is just a quick small overview of the start of the game in one country…
+Next year we'll be back with another "bonus style" Tinto Talks, where we'll look into every trade goods.
+324
+151
+7
+7
+1
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+10
+Next
+1 of 10
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+GenericUsername1444
+Colonel
+Jun 25, 2024
+805
+10.781
+Dec 25, 2024
+Add bookmark
+#2
+Emperor Johan delivers upon his promise
+Toggle signature
+Professional Georgian
+91
+41
+23
+4
+2
+Reactions:
+Reply
+Report
+inchony
+Private
+14 Badges
+Sep 27, 2022
+12
+91
+Dec 25, 2024
+Add bookmark
+#3
+Thank you johan! merry christmas to you and the team as well.
+57
+5
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Dec 25, 2024
+Add bookmark
+#4
+It's official! We've been good this year!
+47
+8
+7
+1
+Reactions:
+Reply
+Report
+D
+Dongerino
+Evropa's Gemmiest Herald
+43 Badges
+Jun 27, 2015
+1.131
+10.921
+Dec 25, 2024
+Add bookmark
+#5
+Love the Tinto coins
+13
+1
+Reactions:
+Reply
+Report
+Mef
+Field Marshal
+19 Badges
+Feb 4, 2010
+3.482
+11.153
+Dec 25, 2024
+Add bookmark
+#6
+bokorthedust said:
+It's official! We've been good this year!
+Click to expand...
+But we did get coal in the header...
+58
+5
+2
+Reactions:
+Reply
+Report
+Basileus2
+Colonel
+66 Badges
+Feb 1, 2015
+1.043
+4.832
+Dec 25, 2024
+Add bookmark
+#7
+That’s a tasty Christmas present
+Toggle signature
+Author of
+The German Century,
+a Kaiserreich AAR - Now complete!
+Author of
+Black Eagle Sun
+,
+sequel to
+The German Century -
+In progress
+13
+2
+Reactions:
+Reply
+Report
+Tissaia
+Major
+48 Badges
+Dec 4, 2019
+579
+4.327
+Dec 25, 2024
+Add bookmark
+#8
+Now I really want to start a game in the PC.
+Byzantium... I can fix him! I swear!
+47
+13
+3
+Reactions:
+Reply
+Report
+P
+Polesie Admiral
+Owns EU5
+45 Badges
+Nov 7, 2022
+2.436
+8.655
+Dec 25, 2024
+Add bookmark
+#9
+Is this the flavour talks you've been talking about? A guide for every nation?
+Toggle signature
+my EU5 suggestions:
+expanding the Tatar Yoke mechanics
+IO-Based short term alliances for targeted wars
+Representation of Jewish pops using estates and laws mechanics
+Suggestion to harden conquest of small nations
+Reworking the Thirty Years War with Multiple Leagues
+Suggestion for Northern wars situation
+Subsidizing countries grant favours on them
+High inflation directly lowers satisfaction
+46
+1
+1
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Dec 25, 2024
+Add bookmark
+#10
+Can you tell us how much monthly income Norway has from that tax base? Or do we start with some ducats in the treasury? I'm trying to get a sens of how quickly you can build things, and understand if spending around 164 ducats as a country with 416k pops is a small economic miracle pulled off for the sake of this TT, or par for the course.
+35
+1
+Reactions:
+Reply
+Report
+M
+MasterPaw
+Lt. General
+50 Badges
+Apr 6, 2019
+1.451
+4.760
+Dec 25, 2024
+Add bookmark
+#11
+Thanks!
+Can mark some area as unimportant/important to show when they lack good in different warnings colors
+I hope we will get a TT about alerts at some point
+9
+2
+Reactions:
+Reply
+Report
+kaszlnikk
+Private
+38 Badges
+Jan 28, 2021
+24
+121
+Dec 25, 2024
+Add bookmark
+#12
+I hope we get AAR's coming in next couple months from now
+17
+5
+1
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Dec 25, 2024
+Add bookmark
+#13
+Polesie Admiral said:
+Is this the flavour talks you've been talking about? A guide for every nation?
+Click to expand...
+No, it's the Christmas present he promised. Flavor talks will start in January in place of the map posts and will be (presumably) delivered by Pavía.
+42
+4
+2
+Reactions:
+Reply
+Report
+GenericUsername1444
+Colonel
+Jun 25, 2024
+805
+10.781
+Dec 25, 2024
+Add bookmark
+#14
+O Johan, may I ask for another gift?
+A picture of the kingdom of Georgia - 'tis what I seek.
+Toggle signature
+Professional Georgian
+11
+Reactions:
+Reply
+Report
+onodera
+Major
+65 Badges
+Jun 25, 2012
+541
+973
+Dec 25, 2024
+Add bookmark
+#15
+That's an interesting start that is very different from "which small neighboring country should I fabricate claims on?" in EU4. I hope we can have a rapid, but violent consolidation/expansion stage as well when cannons become available.
+33
+5
+1
+1
+Reactions:
+Reply
+Report
+LeandroB
+Captain
+91 Badges
+May 29, 2017
+360
+1.724
+Dec 25, 2024
+Add bookmark
+#16
+Merry Christmas! ^^
+Toggle signature
+SI VIS PACEM, PARA BELLVM.
+15
+2
+2
+Reactions:
+Reply
+Report
+AntarcticRanger
+Captain
+19 Badges
+Mar 13, 2024
+461
+1.873
+Dec 25, 2024
+Add bookmark
+#17
+Merry Christmas to all! This is a joyous day!
+Also i think
+this
+is the wikipedia article for that cabinet member? If so, yeah it is funny
+9
+2
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Dec 25, 2024
+Add bookmark
+#18
+Wow. Interesting choice of country for Christmas present. Not complaining but just curious as to why Norway and not like Sweden or Aragon for completely unrelated reasons?
+30
+1
+1
+Reactions:
+Reply
+Report
+K
+kittybird
+Private
+23 Badges
+May 11, 2024
+11
+79
+Dec 25, 2024
+Add bookmark
+#19
+We have to wait until next year for the next Tinto Talk!
+5
+1
+Reactions:
+Reply
+Report
+K
+kittybird
+Private
+23 Badges
+May 11, 2024
+11
+79
+Dec 25, 2024
+Add bookmark
+#20
+Old_Sealand said:
+Wow. Interesting choice of country for Christmas present. Not complaining but just curious as to why Norway and not like Sweden or Aragon for completely unrelated reasons?
+Click to expand...
+Norway was where Jesus Christ was born, of course.
+45
+6
+4
+2
+1
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+10
+Next
+1 of 10
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

@@ -1,0 +1,46 @@
+Source URL: https://eu5.paradoxwikis.com/Succession_laws
+Source Date: 2025-12-12
+
+Please help with verifying or updating older sections of this article.
+At least some were last verified for
+version
+pre-release.
+Europa Universalis 5
+Laws
+Succession
+Religious
+Military
+Administrative
+Socioeconomic
+Estate
+International organization
+Every
+Country
+has a Succession Law which defines which
+Character
+shall be the next
+Ruler
+once the current one dies or abdicates. Many Succession Laws define a heir before the succession occurs based on the Heir Selection Score of that character, while others trigger an election. Each different Succession Law has its own rules, such as whether an heir may be of the same Dynasty, or if they must belong to specific
+Estates
+.
+Changing the succession law costs 50
+Stability and Government Power.
+This table is planned to be
+automatically generated
+and should not be edited directly.
+Instead, suggest changes on the
+talk page
+.
+Succession law
+Eligibility rules
+Succession scoring
+Requirements
+References
+[
+edit
+|
+edit source
+]
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=Succession_laws&oldid=20952
+"

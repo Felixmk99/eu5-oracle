@@ -1,0 +1,174 @@
+Source URL: https://eu5.paradoxwikis.com/Ry%C5%ABky%C5%AB
+Source Date: 2025-11-25
+
+This is a
+compilation
+and strategy article for
+Ryūkyū
+.
+Mechanics and flavor content are
+transcluded
+from other pages.
+This is a
+compilation
+and strategy article for
+Ryūkyū
+.
+Mechanics and flavor content are
+transcluded
+from other pages.
+Ryūkyū
+Country type
+Settled
+Government type
+Monarchy
+Primary culture
+Ryūkyū
+Primary religion
+Utaki
+Capital location
+Urasoe
+Located southwest of Japan and northeast of Taiwan, the Kingdom of Ryūkyū is a formable country at the start of Europa Universalis 5. Ryūkyū can be formed by the counties of
+Chūzan
+(historical),
+Hokuzan
+, or
+Nanzan
+by controlling the three locations of Ōzato, Urasoe, and Nakijin. Ryūkyū is a Kingdom-rank country. Its primary culture is Ryūkyū culture, its religion is Utaki, and its common language, court language, and liturgical language are all Ryūkyū. The Satsunan Islands to the north and the Sakishima Islands to the south also are Ryūkyū culture and Utaki.
+Formation
+[
+edit
+|
+edit source
+]
+Ryūkyū can be formed by any country with Ryūkyū culture that owns all three locations of Ōzato, Urasoe, and Nakijin. Three countries start with Ryūkyū culture and are in the best positions for forming Ryūkyū:
+Hokuzan
+,
+Chūzan
+, and
+Nanzan
+. Chūzan historically formed the Ryūkyū Kingdom in 1429 after conquering Hokuzan and Nanzan. From the starting date, Ryūkyū can be formed as early as June 1337.
+Upon meeting the requirements, the player will be given the decision to form Ryūkyū, bringing their country rank to Kingdom if it was not already.
+Strategy
+[
+edit
+|
+edit source
+]
+Ryūkyū is best suited for a naval-trade-colonization focus. It is strongly encouraged to begin colonization of the Satsunan Islands and Sakishima Islands immediately, encourage the Tribesmen to settle into Commoners, and build up Urasoe into a town. Continued expansion can go north into Hokkaido, Siberia, and the Americas or south into Taiwan, the Philippines, Indonesia, and Australia. Ryūkyū falls between the Jinjiāng Market and the Kyoto Market; it could be advantageous to create a new Market in Ōzato to take advantage of its good harbor. Diplomatically, Ryūkyū should increase opinion with all its neighbors and form a defensive alliance with
+Goryeo
+, and possibly join the Middle Kingdom.
+The
+Ashikaga
+will declare war eventually, and
+Yuan
+will be too busy to help due to the Red Turban Rebellion, however Goryeo will help if you have a defensive alliance. Ryūkyū can initially only raise just under 2,000 army levies and 3 navy levies, however Ryūkyū can use a “hit and run” strategy by transporting an army to a coastal provincial capital, capturing it, and then relocating to another provincial capital some distance away while avoiding combat with larger armies. This strategy will allow Ryūkyū to capture large swaths of undefended territory before the enemy can react. Sieges are possible to win, however the longer they last the likelihood of a larger army arriving increases. Ryūkyū should avoid wars with larger countries as a rule.
+Achievements
+[
+edit
+|
+edit source
+]
+The Three Mountains
+The Three Mountains achievement is earned by forming Ryūkyū. It is Medium difficulty.
+Countries
+Tabber requires Javascript to function.
+Middle East
+Oman
+Ottomans
+Yemen
+Central Asia
+Timurid
+East Asia
+Chūzan
+Hokuzan
+Japan
+Míng
+Nanzan
+Ryūkyū
+Yuan
+South Asia
+Delhi
+Mughal
+South East Asia
+Khmer
+Majapahit
+Central Africa
+East Africa
+Ethiopia
+Kitara
+North Africa
+Morocco
+Tlemcen
+Tunis
+South Africa
+Zimbabwe
+West Africa
+Eastern Europe
+Albania
+Arianiti
+Armenia
+Bosnia
+Bulgaria
+Byzantium
+Croatia
+Epirus
+Georgia
+Halych
+Hungary
+Kyiv
+Lithuania
+Mataranga
+Muscovy
+Muzaka
+Perm
+Poland
+Samtskhe
+Serbia
+Smolensk
+Teutonic Order
+Thopia
+Velikiy Novgorod
+Volhynia
+Vyatka
+Wallachia
+Western Europe
+Aragon
+Austria
+Aquitaine
+Balliol
+Brandenburg
+Brittany
+Bohemia
+Castile
+Denmark
+Dithmarschen
+England
+Florence
+France
+Guelders
+Granada
+Holland
+Iceland
+Moravia
+Milan
+Naples
+Navarre
+Norway
+Papal States
+Portugal
+Scania
+Scotland
+Sicily
+Spain
+Sweden
+Valencia
+Venice
+Wales
+North America
+Cahokia
+South America
+Australasia
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=Ryūkyū&oldid=19322
+"

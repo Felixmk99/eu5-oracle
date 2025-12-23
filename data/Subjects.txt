@@ -1,0 +1,482 @@
+Source URL: https://eu5.paradoxwikis.com/Subjects
+Source Date: 2025-12-12
+
+Please help with verifying or updating older sections of this article.
+At least some were last verified for
+version
+pre-release.
+The Manage Subjects menu
+A Subject is any
+Country
+that is subordinate to an
+Overlord
+. Any subject may in turn be the
+Overlord
+of other
+Countries
+, allowing long chains of Subject-
+Overlord
+relationships. It typically has limitations on its
+Diplomacy
+in return for protection in a
+War
+.
+Subjects may also suffer
+Subject Taxation
+, and have a certain percentage of their
+Great Power Score
+exacted by their
+Overlord
+. Additionally, a subject may not become a
+Great Power
+. The exact rules are dependent on the
+Subject Type
+. However, subjects receive the following bonuses:
++10%
+Estates Satisfaction Equilibrium
+−10%
+Pop Join Rebels Threshold
+Countries can release provinces as “custom subjects”. Subjects created this way will use the province capital's dominant religion and culture as primary.
+Historical countries can also be released as subjects if any of their locations are owned, and they do not currently exist.
+Overlords can begin the construction of buildings in locations owned by their subjects. The overlord will pay the Gold cost, but the construction materials must be supplied from the location's market. Overlords cannot cancel the construction of subject buildings, even if they started the construction.
+Loyalty
+[
+edit
+|
+edit source
+]
+Every subject has a loyalty towards their overlord, ranging from 0 to 100. If it drops below 50 the subject will no longer join the overlord's wars and cannot be annexed. Loyalty depends on the relative power difference between the subject, the country strength of all subjects of the same type compared to the overlord, and also increases or decreases at a rate equal 15% of the subject's opinion of the overlord.
+Every subject also has a Liberty Desire value, which ranges from
++100
+or
+−100
+and decays monthly towards
+0
+but can be increased or decreased by events or subject interactions.
+Technologies that give loyalty:
+Technology
+Modifier
+Late Feudal Relations
++10
+Absolute Loyalty
++10
+Diplomatic Annexation
+[
+edit
+|
+edit source
+]
+An overlord can annex its subject if several conditions are met (primarily, tied to years the relationship has existed, the loyalty of the subject, and the subject's opinion of the overlord).
+When an overlord annexes a subject that has additional subjects, the overlord inherits the additional subjects.
+Military stance
+[
+edit
+|
+edit source
+]
+Each AI subject has a military stance, which decides what the AI will try to do during war and can be changed by the overlord at any time. They can be set individually for each subject or at once for every subject. There are five military stances:
+Normal: Subject will take a balanced approach to military tactics.
+Aggressive: Subject will try to start sieges and chase units in enemy territory.
+Supportive: Subject will try to help overlord units.
+Passive: Subject will try to do low-risk actions like blockading and defending friendly territory.
+Defensive: Subject will try to stop enemies from doing anything in allied lands only.
+Subject types
+[
+edit
+|
+edit source
+]
+This section is planned to be
+automatically generated
+and should not be edited directly.
+Instead, suggest changes on the
+talk page
+.
+Every subject has a subject type, which essentially outlines the rules that it must follow in regard to aspects like war and succession law. Subject Types also dictate the subject taxation and great power score that each subject must surrender to its overlord.
+Vassal
+Fiefdom
+March
+Colonial nation
+Dominion
+Tributary
+Appanage
+HRE-Imp
+HRE-DirImp
+Trade company
+State bank
+Requirements
+!samanta
+Monarchy
+x
+x
+ENG
+Steppe/Tribe
+FR_feudal_nobility
+-
+-
+x
+-
+gold
+20%
+20%
+10%
+3%
+20%
+20%
+20%
+-
+-
+50%
+20%
+sailors
+0%
+0%
+0%
+10%
+-
+5%
+0%
+-
+-
+-
+0%
+manpower
+0%
+0%
+0%
+10%
+-
+5%
+0%
+-
+-
+-
+0%
+level
+2
+3
+1
+1
+3
+-
+3
+1
+2
+1
+2
+Joins offensive wars
+x
+x
+x
+x
+x
+-
+?
+-
+x
+-
+-
+Joins defensive wars
+x
+x
+x
+x
+x
+?
+?
+-
+x
+-
+-
+has_overlords_ruler
+-
+x
+-
+-
+x
+-
+-
+-
+-
+-
+x
+annexation_speed
+1
+1
+-
+-
+1
+-
+2
+-
+2
+-
+-
+annexation_min_years_before
+10
+10
+-
+-
+100
+-
+15
+-
+10
+-
+-
+annexation_min_opinion
+150
+150
+-
+-
+150
+-
+200
+-
+150
+-
+-
+annexation_stall_opinion
+125
+125
+-
+-
+125
+-
+175
+-
+125
+-
+-
+diplomatic_capacity_cost_scale
+100%
+100%
+100%
+50%
+50%
+20%
+25%
+0%
+0%
+50%
+100%
+strength_vs_overlord
+-50%
+-50%
+-100%
+-10%
+-25%
+-25%
+-33%
+-50%
+-50%
+-10%
+-10%
+warscore_cost
+-
+0.5
+-
+-
+0.5
+-
+-
+-
+-
+-
+-
+can_overlord_build (Road, Bld,  RGO)
+RBR
+RBR
+RBR
+-
+-
+-
+RBR
+Ships
+Ships
+-
+-
+has_limited_diplomacy
+x
+x
+x
+x
+x
+-
+x
+-
+x
+x
+x
+can_declare_wars
+-
+-
+-
+x
+-
+x
+x
+x
+-
+-
+-
+food_access
+x
+x
+-
+-
+x
+-
+x
+x
+x
+-
+x
+minimum_opinion_for_offer
+150
+150
+150
+100
+175
+150
+200
+-
+-
+100
+-
+government
+-
+-
+-
+republic
+monarchy
+-
+monarchy
+-
+-
+republic
+-
+monthly_institution_spread
+20%
+50%
+50%
+50%
+50%
+10%
+50%
+20%
+20%
+50%
+50%
+----- Overlord modifiers -----
+monthly_prestige
+0.01
+0.01
+-
+-
+0.01
+0.01
+stability_decay
+0%
+monthly_legitimacy
+3%
+global_crown_estate_power
+-1%
+bank_interest
+-0.5%
+----- Subject modifiers -----
+country_cabinet_efficiency
+5%
+5%
+5%
+15%
+pop_capacity
+10%
+allow_slaves
+x
+discipline
+5%
+global_defensive
+10%
+fort_maintenace_cost
+-10%
+fort_limit
+1
+legislative_efficiency
+10%
+monthly_prestige
+0.1
+global_manpower_modifier
+15%
+trade_efficiency
+1%
+diplomatic_reputation
+2
+References
+[
+edit
+|
+edit source
+]
+Mechanics
+Realm
+Country
+•
+Government
+•
+Parliament
+•
+Estate
+•
+Reforms
+•
+Laws
+•
+Characters
+•
+Missions
+Economy & Research
+Economy
+•
+Goods
+•
+R.G.O.
+•
+Market
+•
+Building
+•
+Population
+•
+Age
+Diplomacy & Warfare
+Diplomacy
+•
+Subjects
+•
+International organization
+•
+Warfare
+•
+Combat
+•
+Military
+The world
+Location
+•
+Culture
+•
+Religion
+•
+Language
+•
+Exploration
+•
+Situations
+•
+Disasters
+•
+Diseases
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=Subjects&oldid=20968
+"

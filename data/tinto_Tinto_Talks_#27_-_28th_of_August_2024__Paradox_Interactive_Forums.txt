@@ -1,0 +1,482 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-28-28th-of-august-2024.1701189/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #27 - 28th of August 2024
+Thread starter
+Johan
+Start date
+Aug 28, 2024
+Welcome to Tinto Talks number #28, another Happy Wednesday, the day in the week where we give your information about our almost entirely super secret Project Caesar, so we can listen to your feedback.
+This week, we will delve into more details about buildings, and how buildings are not just something you do inside your own borders, but something you do outside them as well. We usually call these types of buildings ‘foreign buildings’.
+Common Foreign Buildings
+One common building many countries can build in foreign towns and cities is a Trade Office, which requires that the owner of that location has an opinion of at least 100 of your country.  This is one way to get a foothold into another market. The caveat is that the merchant power is relying entirely on the maritime presence it can provide,
+Time to build in every port, town or city….
+Another building that you can build in capitals of countries of the same rank or above is an Embassy. They increase your diplomatic capacity by +0.10 and lift the fog of war over the location, but it is rather costly in upkeep, requiring lots of paper and jewelry.
+Not all foreign buildings can be built in an owned location though. And some require that the location has no current owner to be allowed to be built.
+One such building that you want to build in any area where you are doing a colonial charter is a mission. This is a building that will convert 100 pops every month to your state religion if the building is fully staffed and has access to its goods.
+Saving souls for God!
+Unique Foreign Buildings
+There are many unique foreign buildings in the game, many depending on what type or which country you may be playing. Today we will show off a few of these unique ones that make some countries play differently.
+While the Hanseatic League has multiple buildings they can build, one of their truly unique is their shipwrights, as this can be built in any port of their subjects, giving sailors to the owner of the building, while also increasing the ship building capacity in the location.
+If you play a banking country, you can always place a banking office in any town or city, which will give you a small amount of merchant power, while also giving you a fair amount of gold.
+Military Orders in the Catholic faith can set up an Order Commandery in any location in another Catholic country, if they have negotiated a Sponsorship. If a country agrees to Sponsor a Military Order, they will gain religious influence and prestige every month. Each of these commanderies that you build will give you some gold and manpower.
+Each does not give much, but it all adds up…
+Destroying Foreign Buildings
+For the foreign buildings in your country that require good relations to build, you always have the option to destroy them if your opinion of that country goes below 0, and you are at peace again. This will obviously lower their opinion of you further, and give them a casus belli to be used against your country. Other buildings may require a peace treaty to be removed though.
+While this may be very interesting and fun, I realize that this Tinto Talk is a bit short, so let's do some more information here..
+Recent Changes
+We constantly update and tweak the game from feedback and such, and today I was gonna show off a few examples of what we have changed recently, mostly due to the great feedback we have been given.
+First of all, we have added a small staging time to all explorations, where they need to prepare, and require resources, tying the exploration mechanics closer to the economy system of the game. For the first few months of an exploration, there will be a type of construction in the closest location that fits, requiring goods to progress.
+You can’t go sailing without a lot of rum can you?
+The cooldown on assigning generals to armies was not too popular when we talked about it, so instead we now have a system where it takes time until you get the benefits of a new general in your army.  This time is connected to the travel time it takes from your capital to the army, and some extra time for the character to get up to speed. This will make assigning generals and admirals much more of a strategic choice.
+One topic that has been raised in various map talks we have had has been the lack of ethno-religions. Now we have made it so we can lock some religions from allowing their pops to be assimilated before they can be converted.
+Yes, there is more than one israelite religion…
+Stay tuned, as next week, Winter is coming…
+Last edited:
+Aug 29, 2024
+241
+121
+11
+7
+2
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+18
+Next
+1 of 18
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Aug 28, 2024
+Add bookmark
+#2
+Wow.
+101
+44
+38
+15
+9
+6
+Reactions:
+Reply
+Report
+L
+LampoDomi
+Recruit
+21 Badges
+Jan 27, 2022
+1
+8
+Aug 28, 2024
+Add bookmark
+#3
+Wow
+110
+4
+2
+2
+Reactions:
+Reply
+Report
+Z
+ZarkinDrife
+Second Lieutenant
+31 Badges
+Oct 6, 2022
+114
+466
+Aug 28, 2024
+Add bookmark
+#4
+Neat
+56
+4
+2
+1
+1
+Reactions:
+Reply
+Report
+Lechi8
+Recruit
+22 Badges
+Oct 14, 2018
+3
+11
+Aug 28, 2024
+Add bookmark
+#5
+Wow.
+77
+3
+2
+1
+Reactions:
+Reply
+Report
+bluepotato81
+Second Lieutenant
+24 Badges
+Jun 12, 2024
+145
+1.862
+Aug 28, 2024
+Add bookmark
+#6
+wow.
+Toggle signature
+Deliver me from mine enemies, O my God: defend me from them that rise up against me. Defend me from the workers of iniquity, and save me from bloody men. The mighty are gathered against me, awake to help me, and behold.
+Nor is there pain, or cause of pain, Or cease in pain, or noble path to lead from pain;
+The Master said, "Is it not pleasant to learn with a constant perseverance and application? Is it not delightful to have friends coming from distant quarters? Is he not a man of complete virtue, who feels no discomposure though men may take no note of him?"
+Do not despair of the mercy of Allāh. Indeed, Allāh forgives all sins. Indeed, it is He who is the Forgiving, the Merciful.
+The Tao that can be told is not the eternal Tao, and the name that can be named is not the eternal Name.
+It is not your duty to finish the work, but neither are you at liberty to neglect it;
+The finest essence here—that constitutes the self of this whole world; that is the truth; that is the self.
+O Son of Man! Veiled in My immemorial being and in the ancient eternity of My essence, I knew My love for thee; therefore I created thee, have engraved on thee Mine image and revealed to thee My beauty.
+Rise up for me, O Ahura, through Armaiti give strength, through the holiest Spirit give might, O Mazda, through the good Recompense, through the Right give powerful prowess, through Good Thought give the reward.
+O my mind, remember the Lord in meditation; He is the Destroyer of pain, the Eradicator of fear, the Sovereign Lord King. He is the Greatest Lover, the Merciful Master, the Enticer of the mind, the Support of His devotees - this is His very nature.
+In some ways, it is, in some ways, it is not, in some ways, it is, and it is not, in some ways, it is indescribable, in some ways, it is, and it is indescribable, in some ways, it is not, and it is indescribable, in some ways, it is, it is not, and it is indescribable.
+So be diligent in seeking knowledge, keeping company with those of understanding, and studying at all times, and you will attain goodness and blessings.
+An ash I know there stands, - Yggdrasill is its name, - a tall tree, showered - with shining loam. - From there come the dews - that drop in the valleys. - It stands forever green over - Urðr's well.
+Our God, with His mercy - Brought for us beauty and loveliness - He gave a command to the Pen of Power - We were thrown into the Mystery of Love.
+I saw my father, I saw him, and I gave him three requests. I asked him for a great heart, which can be carried by the big and the little. I asked him for calmness, in which there is no rebellion. I asked him for a level path, to rise to light’s place in peace.
+68
+3
+2
+1
+Reactions:
+Reply
+Report
+Cagallo
+Major
+41 Badges
+Mar 7, 2017
+525
+1.485
+Aug 28, 2024
+Add bookmark
+#7
+Old_Sealand said:
+Wow.
+Click to expand...
+Damn!
+25
+8
+3
+1
+Reactions:
+Reply
+Report
+U
+unohare
+Recruit
+24 Badges
+May 31, 2024
+4
+16
+Aug 28, 2024
+Add bookmark
+#8
+wow
+57
+3
+2
+Reactions:
+Reply
+Report
+Wikaaa444
+Corporal
+51 Badges
+Mar 6, 2024
+28
+392
+Aug 28, 2024
+Add bookmark
+#9
+Old_Sealand said:
+Wow.
+Click to expand...
+Wow.
+52
+3
+2
+Reactions:
+Reply
+Report
+bluepotato81
+Second Lieutenant
+24 Badges
+Jun 12, 2024
+145
+1.862
+Aug 28, 2024
+Add bookmark
+#10
+lmao 6 wows
+Toggle signature
+Deliver me from mine enemies, O my God: defend me from them that rise up against me. Defend me from the workers of iniquity, and save me from bloody men. The mighty are gathered against me, awake to help me, and behold.
+Nor is there pain, or cause of pain, Or cease in pain, or noble path to lead from pain;
+The Master said, "Is it not pleasant to learn with a constant perseverance and application? Is it not delightful to have friends coming from distant quarters? Is he not a man of complete virtue, who feels no discomposure though men may take no note of him?"
+Do not despair of the mercy of Allāh. Indeed, Allāh forgives all sins. Indeed, it is He who is the Forgiving, the Merciful.
+The Tao that can be told is not the eternal Tao, and the name that can be named is not the eternal Name.
+It is not your duty to finish the work, but neither are you at liberty to neglect it;
+The finest essence here—that constitutes the self of this whole world; that is the truth; that is the self.
+O Son of Man! Veiled in My immemorial being and in the ancient eternity of My essence, I knew My love for thee; therefore I created thee, have engraved on thee Mine image and revealed to thee My beauty.
+Rise up for me, O Ahura, through Armaiti give strength, through the holiest Spirit give might, O Mazda, through the good Recompense, through the Right give powerful prowess, through Good Thought give the reward.
+O my mind, remember the Lord in meditation; He is the Destroyer of pain, the Eradicator of fear, the Sovereign Lord King. He is the Greatest Lover, the Merciful Master, the Enticer of the mind, the Support of His devotees - this is His very nature.
+In some ways, it is, in some ways, it is not, in some ways, it is, and it is not, in some ways, it is indescribable, in some ways, it is, and it is indescribable, in some ways, it is not, and it is indescribable, in some ways, it is, it is not, and it is indescribable.
+So be diligent in seeking knowledge, keeping company with those of understanding, and studying at all times, and you will attain goodness and blessings.
+An ash I know there stands, - Yggdrasill is its name, - a tall tree, showered - with shining loam. - From there come the dews - that drop in the valleys. - It stands forever green over - Urðr's well.
+Our God, with His mercy - Brought for us beauty and loveliness - He gave a command to the Pen of Power - We were thrown into the Mystery of Love.
+I saw my father, I saw him, and I gave him three requests. I asked him for a great heart, which can be carried by the big and the little. I asked him for calmness, in which there is no rebellion. I asked him for a level path, to rise to light’s place in peace.
+23
+10
+1
+Reactions:
+Reply
+Report
+P
+Pollllo
+Master
+Jul 17, 2022
+100
+397
+Aug 28, 2024
+Add bookmark
+#11
+Wowzers.
+41
+2
+1
+1
+Reactions:
+Reply
+Report
+bluepotato81
+Second Lieutenant
+24 Badges
+Jun 12, 2024
+145
+1.862
+Aug 28, 2024
+Add bookmark
+#12
+e
+Old_Sealand said:
+Wow.
+Click to expand...
+never falter my guy I'll always support you
+Toggle signature
+Deliver me from mine enemies, O my God: defend me from them that rise up against me. Defend me from the workers of iniquity, and save me from bloody men. The mighty are gathered against me, awake to help me, and behold.
+Nor is there pain, or cause of pain, Or cease in pain, or noble path to lead from pain;
+The Master said, "Is it not pleasant to learn with a constant perseverance and application? Is it not delightful to have friends coming from distant quarters? Is he not a man of complete virtue, who feels no discomposure though men may take no note of him?"
+Do not despair of the mercy of Allāh. Indeed, Allāh forgives all sins. Indeed, it is He who is the Forgiving, the Merciful.
+The Tao that can be told is not the eternal Tao, and the name that can be named is not the eternal Name.
+It is not your duty to finish the work, but neither are you at liberty to neglect it;
+The finest essence here—that constitutes the self of this whole world; that is the truth; that is the self.
+O Son of Man! Veiled in My immemorial being and in the ancient eternity of My essence, I knew My love for thee; therefore I created thee, have engraved on thee Mine image and revealed to thee My beauty.
+Rise up for me, O Ahura, through Armaiti give strength, through the holiest Spirit give might, O Mazda, through the good Recompense, through the Right give powerful prowess, through Good Thought give the reward.
+O my mind, remember the Lord in meditation; He is the Destroyer of pain, the Eradicator of fear, the Sovereign Lord King. He is the Greatest Lover, the Merciful Master, the Enticer of the mind, the Support of His devotees - this is His very nature.
+In some ways, it is, in some ways, it is not, in some ways, it is, and it is not, in some ways, it is indescribable, in some ways, it is, and it is indescribable, in some ways, it is not, and it is indescribable, in some ways, it is, it is not, and it is indescribable.
+So be diligent in seeking knowledge, keeping company with those of understanding, and studying at all times, and you will attain goodness and blessings.
+An ash I know there stands, - Yggdrasill is its name, - a tall tree, showered - with shining loam. - From there come the dews - that drop in the valleys. - It stands forever green over - Urðr's well.
+Our God, with His mercy - Brought for us beauty and loveliness - He gave a command to the Pen of Power - We were thrown into the Mystery of Love.
+I saw my father, I saw him, and I gave him three requests. I asked him for a great heart, which can be carried by the big and the little. I asked him for calmness, in which there is no rebellion. I asked him for a level path, to rise to light’s place in peace.
+13
+11
+8
+5
+Reactions:
+Reply
+Report
+pheonicia
+Field Marshal
+90 Badges
+Feb 2, 2015
+3.510
+23.853
+Aug 28, 2024
+Add bookmark
+#13
+Where do the goods for the buildings in foreign nation's come from?  Your own markets or the locations markets?  If the owner of a market embargoes you in a place where you have a foreign building in a different nation, how can it get goods?
+Toggle signature
+Will HOI4 be released on H hour CET of D Day? - Mannstien
+Once again though, there are no actual zombies, it is all hysteria and panic. - Darkrenown
+No, cats were invented in 1902 by Satan, but we included them for gameplay reasons. - Darkrenown
+ubi solitudinem faciunt pacem appellant; they make a wasteland and call it peace.
+Pronoun: 3rd person (use my name)
+29
+3
+Reactions:
+Reply
+Report
+B
+BlyatMan502
+Recruit
+Mar 15, 2024
+6
+53
+Aug 28, 2024
+Add bookmark
+#14
+Wow
+40
+2
+1
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Aug 28, 2024
+Add bookmark
+#15
+1. What happens when you go to war with a nation, that has your Embassy? Other than that nation can destroy that building.
+2. Is it possible for Military Orders to get out of hand? Where giving too much power results them trying to do some hostile takeover or something like that?
+14
+3
+1
+Reactions:
+Reply
+Report
+Robspierre138
+Second Lieutenant
+47 Badges
+May 21, 2021
+186
+1.264
+Aug 28, 2024
+Add bookmark
+#16
+Wow.
+33
+2
+1
+Reactions:
+Reply
+Report
+M
+Mrkew
+Captain
+50 Badges
+Aug 13, 2013
+394
+907
+Aug 28, 2024
+Add bookmark
+#17
+Come for the TT, stay for the wow
+Toggle signature
+Deus Vult
+14
+13
+4
+4
+Reactions:
+Reply
+Report
+The_Real_Player
+Corporal
+79 Badges
+Dec 25, 2018
+34
+179
+Aug 28, 2024
+Add bookmark
+#18
+Wow.
+32
+2
+1
+Reactions:
+Reply
+Report
+TheCleanerDragon
+Squad Leader
+35 Badges
+Sep 15, 2017
+78
+645
+Aug 28, 2024
+Add bookmark
+#19
+18
+6
+5
+4
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Aug 28, 2024
+Add bookmark
+#20
+Presumably foreign buildings will get their goods from the market their location is part of. Who gets priority between the host nation and the foreign building in the same location?
+Also, love the changes.
+10
+1
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+18
+Next
+1 of 18
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

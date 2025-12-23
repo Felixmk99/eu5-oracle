@@ -1,0 +1,812 @@
+Source URL: https://eu5.paradoxwikis.com/Estate_laws
+Source Date: 2025-12-19
+
+Please help with verifying or updating older sections of this article.
+At least some were last verified for
+version
+pre-release.
+Europa Universalis 5
+Laws
+Succession
+Religious
+Military
+Administrative
+Socioeconomic
+Estate
+International organization
+This page is
+automatically generated
+from the game files. It should not be edited directly.
+Instead, please suggest changes or improvements on the
+talk page
+.
+List
+[
+edit
+|
+edit source
+]
+Fouage Tax Levy
+[
+edit
+|
+edit source
+]
+A large Hearth Tax levied against the peasantry in order to assist in covering the growing expenses of the treasury.
+Potential
+has_variable: enabled_fouage_tax
+Policy
+Country Modifier
+Estate Preferences
+Levying Fouage Tax
+The state will collect a Hearth tax to assist in covering the growing expenses of the treasury. Levying the tax however will greatly anger members of the peasantry.
+−5.00%
+Peasant Estate Satisfaction Equilibrium
++10.00%
+Maximum Tax for Peasants Estate
++2.50%
+Noble Estate Satisfaction Equilibrium
+−5.00%
+Expected Cost of Court
+Nobility
+Rescinded Levying of the Fouage Tax
+The levying of the Fouage Hearth tax has been rescinded, making the peasantry less dissatisfied with the state.
++2.50%
+Peasant Estate Satisfaction Equilibrium
+−4.00%
+Efficiency of Our Cabinet
+−0.50%
+Monthly Commoners Rebel Growth
++3.00%
+Expected Cost of Court
+Commoners
+Taille
+[
+edit
+|
+edit source
+]
+The
+taille
+is a tax imposed on each household based on the amount of land it occupies. The Clergy and Nobility are exempt.
+Potential
+has_variable: enable_taille_tax
+Policy
+Country Modifier
+Estate Preferences
+Permanent Tax
+Establishes the
+taille
+as an ordinary tax, expanding the state's potential revenue collection.
++0.025
+Monthly Progress to Centralization
++10.00%
+Maximum Tax for Burgher Estate
++10.00%
+Maximum Tax for Peasants Estate
+−5.00%
+Burgher Estate Satisfaction Equilibrium
+−5.00%
+Peasant Estate Satisfaction Equilibrium
+Nobility
+Clergy
+Exceptional Only
+Establish the
+taille
+as an exceptional tax, which can only be collected in times of need.
+−5.00%
+Crown Power
++0.025
+Monthly Progress to Decentralization
++10.00%
+Estate Enrichment
++5.00%
+Estates Satisfaction Equilibrium
+Burghers
+Commoners
+Distribution of Power
+[
+edit
+|
+edit source
+]
+Distribution of Power determines how authority is divided among the ruler, administrative bodies, and estates. The state is a complex and fragile entity — a well-balanced power distribution ensures stability, while giving any single institution too much power risks breeding tyranny or administrative paralysis.
+Policy
+Allow
+Country Modifier
+Estate Preferences
+On Activate
+On Deactivate
+Potential
+Traditional Distribution
+Power is traditionally distributed among the ruling sovereign and the leading elites of our society. It does not challenge the status, and is favorable to neither the head of the state nor to the aristocracy.
++2.50%
+Estates Satisfaction Equilibrium
+−10.00%
+Crown Power
++0.05
+Monthly Legitimacy
++0.02
+Monthly Republican Tradition
++0.05
+Monthly Devotion
++0.05
+Monthly Horde Unity
++0.03
+Monthly Tribal Cohesion
++0.10
+Monthly Progress to Decentralization
++0.025
+Monthly Progress to Liberalism
+Nobility
+Clergy
+Burghers
+Favor the Ruler
+The balance of power should favor the head of state, as they alone can be trusted to have the best interests of the nation at heart.
++20.00%
+Crown Power
+−5.00%
+Estates Satisfaction Equilibrium
++5.00%
+Maximum Tax
++0.10
+Monthly Progress to Absolutism
+Crown
+Favor the Elites
+The Nobility form the backbone of our society, and we could not do without their leadership. We would do well to cultivate their influence.
++10.00%
+Maximum Tax for Noble Estate
++10.00%
+Agenda Impact for Nobility
++10.00%
+Nobles Food Consumption
++0.10
+Monthly Progress to Aristocracy
+Nobility
+Favor the Wealthy
+The guilds and Burghers are the lifeblood of our people! And, of course, our treasury. We would do well to cultivate their influence.
++10.00%
+Maximum Tax for Burgher Estate
++10.00%
+Agenda Impact for Burghers
++10.00%
+Burghers Food Consumption
++0.50
+Prefers Court Language to be Market Language
++0.10
+Monthly Progress to Plutocracy
+Burghers
+Favor the Clergy
+Our faith has held our society together in the face of adversity time and time again, thanks to the guidance of our wise Clergy. We would do well to cultivate their influence.
++10.00%
+Maximum Tax for Clergy Estate
++10.00%
+Agenda Impact for Clergy
++10.00%
+Clergy Food Consumption
++0.50
+Prefers Court Language to be Liturgical Language
++0.10
+Monthly Progress to Spiritualist
+Clergy
+Favor the Common People
+The Commoners have are the ones who toil daily to provide the basic resources, such as food, that everyone needs regardless of their social status. They, perhaps more than anyone, wish to raise our domain to new heights of prosperity and greatness. We would do well to cultivate their influence.
++10.00%
+Maximum Tax for Peasants Estate
++10.00%
+Agenda Impact for Commoners
++10.00%
+Peasants Food Consumption
++10.00%
+Laborers Food Consumption
++0.50
+Prefers Court Language to be Common Language
++0.10
+Monthly Progress to Free Subjects
++0.10
+Monthly Progress to Liberalism
+Commoners
+Gbara
+The Gbara is the deliberative assembly of Mali and is defined in the Malian constitution, the Kouroukan Fouga. The Nobility represent the many clans in our state, and check the power of the ruling [GetCountry('MAL').GetGovernment.GetRulerTitle].
++20.00%
+Agenda Impact for Nobility
++2.50%
+Noble Estate Satisfaction Equilibrium
++1.00
+Cultures Capacity
+−20.00%
+Add Accepted Culture Cost
++0.10
+Monthly Progress to Decentralization
+Nobility
+has_advance: kouroukan_fouga_advance
+English Parliament
+Parliament is the de facto successor of the
+Magnum Concilium
+, and a major pillar of the English government. Parliament's primary function is to check the power of the [GetCountry('ENG').GetGovernment.GetRulerTitle] by requiring mandatory consultation on taxation and legislation, preventing absolute rule.
+Not:
+has_reform: government_reform:royal_decree
+−33.00%
+Crown Power
++0.05
+Monthly Legitimacy
++10.00%
+Maximum Tax
++10.00%
+Agenda Impact for Nobility
++10.00%
+Agenda Impact for Burghers
+Nobility
+Burghers
+if:
+limit:
+is_subject: True
+add_liberty_desire: liberty_desire_mild_plus
+if:
+limit:
+is_subject: True
+add_liberty_desire: liberty_desire_mild_minus
+At least one of:
+has_advance: magna_carta_advance
+overlord:
+At least one of:
+has_or_had_tag: ENG
+has_or_had_tag: GBR
+Cortes de Navarra
+The Nobility, the Clergy, and the Burghers have formed a deliberative assembly called the
+Cortes de Navarra
+, which has the duty to approve laws and taxes, and to investigate legal transgressions. While all Estates debate together, each of them votes as a separate assembly. The position of each Estate is previously decided internally by the majority. In order to achieve a resolution to any issue they deliberate, all Three Estates must agree on the action. Their power allows them to dethrone and elect rulers when needed, and overall to keep the power of the monarch in check.
+has_reform: government_reform:pyrenean_fueros_reform
++5.00%
+Agenda Impact for Nobility
++5.00%
+Agenda Impact for Clergy
++5.00%
+Agenda Impact for Burghers
++1
+Cabinet Seats
++0.10
+Monthly Progress to Decentralization
+Nobility
+Clergy
+has_reform: government_reform:pyrenean_fueros_reform
+At least one of:
+has_or_had_tag: NAV
+culture:
+Basque
+Governing Senate
+The Governing Senate is the highest governmental body of the Russian State, and has been created as a replacement of the Boyar Duma. Combining the roles of the legislative, judicial, and executive powers, the Senate is a powerful institution which is subordinate to none but the rulers themselves.
++10.00%
+Crown Power
++1
+Cabinet Seats
++0.05
+Monthly Progress to Centralization
++0.025
+Monthly Progress to Absolutism
+Nobility
+Burghers
+culture:
+has_culture_group: East Slavic
+country_rank_level:
+GREATER_THAN_EQUAL: 4
+State Council
+The State Council is the supreme state advisory body of [GetCountry('RUS').GetGovernment.GetName], and was created to act as a mediating party between the autocratic regime and the regional Dumas introduced by the Speransky Liberalization Reform reform. The Council examines proposed laws and oversees the budget and state expenditures, but lacks authority to propose changes. Instead, it makes recommendations based on the current situation.
++15.00%
+Crown Power
++10.00%
+Tax Efficiency
++10.00%
+Legislative Efficiency
++0.025
+Monthly Progress to Absolutism
+Crown
+Nobility
+culture:
+has_culture_group: East Slavic
+has_reform: government_reform:speransky_liberalization_reform
+Estates General
+The Estates General is the assembly of the feudal government of French. It has a legislative and consultative role, and represents the three estates of the country: the Nobility, the Clergy, and the Commoners, which itself encompasses the Burghers. Unlike other Parliaments and Assemblies, the approval of the Estates General when making adjustments to the law, such as tax increases, is optional.
++1
+Cabinet Seats
++20.00%
+Agenda Impact for Nobility
++20.00%
+Agenda Impact for Clergy
+Nobility
+Clergy
+has_advance: estates_general
+Assemblée Nationale
+Born from the ashes of the Ancien Régime, the Assemblée Nationale is the conversion of the old Estates General into a modern parliament. The Nobility and Clergy are no longer the dominant powers of the assembly, while the Burghers and the Commoners take a more active role in the events of the State.
++1
+Cabinet Seats
+−25.00%
+Change Policy Cost
+−5.00%
+Estates Satisfaction Equilibrium
++20.00%
+Agenda Impact for Burghers
++20.00%
+Agenda Impact for Commoners
+Burghers
+Commoners
+current_age: age_6_revolutions
+culture:
+has_culture_group: French
+Cortes de Castilla
+The
+Cortes de Castilla
+represent the estates and several cities with voting rights in the [GetCountry('CAS').GetLongName].
+has_reform: government_reform:crown_castile_reform
++10.00%
+Crown Power
++20.00%
+Agenda Impact for Nobility
++5.00%
+Maximum Tax
++0.025
+Monthly Progress to Absolutism
+Crown
+Nobility
+has_reform: government_reform:crown_castile_reform
+At least one of:
+has_or_had_tag: CAS
+has_or_had_tag: SPA
+culture:
+Castilian
+Empowered Cortes
+The Cortes, our Parliament, has been empowered as the primary political force in our country thanks to the efforts and fight of the Comuneros.
+−33.00%
+Crown Power
++0.05
+Monthly Legitimacy
++20.00%
+Parliament Base Support
+Burghers
+Commoners
+has_unlocked_policy_trigger:
+type: dop_law_comuneros_parliament
+At least one of:
+has_or_had_tag: CAS
+culture:
+Castilian
+All of:
+has_or_had_tag: SPA
+culture:
+Castilian
+Reinforced Cortes de Castilla
+As a result of the Revolt of the
+Comuneros
+, Crown will now have a stronger grip on the
+Cortes de Castilla
+.
+has_reform: government_reform:crown_castile_reform
++20.00%
+Crown Power
++10.00%
+Agenda Impact for Nobility
++5.00%
+Maximum Tax
+Crown
+has_unlocked_policy_trigger:
+type: dop_law_castilian_courts_reinforced
+At least one of:
+has_or_had_tag: CAS
+culture:
+Castilian
+All of:
+has_or_had_tag: SPA
+culture:
+Castilian
+Favor the Kontors
+The Hanseatic Kontor is the basis of our financial success. The many offices we hold across Europe serve as diplomatic ties between us and the host countries, as well as providing seats of power for our local Burghers.
+modifier:allows_hanseatic_federation_buildings: True
+−5.00%
+Foreign Buildings Cost
++20.00%
+Agenda Impact for Burghers
+Burghers
+modifier:allows_hanseatic_federation_buildings: True
+Office of the Eristavi
+One of the most influential cornerstones of our administration, the title of
+Eristavi
+is granted to powerful noble families, allowing them the undisputed authority to recruit and lead armies under their banner. Those who hold this office also enjoy a dominant position in our internal affairs.
+−33.00%
+Head of the Cabinet Promotion Cost Modifier
++0.025
+Monthly Progress to Aristocracy
++5.00%
+Levy Size
++20.00%
+Agenda Impact for Nobility
+Nobility
+has_or_had_tag: GEO
+Reformed House Rules
+The Reformed House Rules are a system of joint governance for the Austrian lands, granting all male family members equal status while reserving special privileges for the eldest.
+−10.00%
+Crown Power
++0.05
+Monthly Progress to Decentralization
++0.10
+Monthly Legitimacy
++10.00%
+Tax Efficiency
+Nobility
+has_unlocked_policy_trigger:
+type: dop_rudolfine_house_rules
+Rights of the Nobility
+[
+edit
+|
+edit source
+]
+The position of the Nobility is not only reinforced by their privileges, but also by our laws.
+Policy
+Country Modifier
+Estate Preferences
+On Activate
+On Deactivate
+Potential
+Strengthen Rights of the Nobility
+The Nobility class has served our state well for generations. As it grows, it is only fitting that we continue to confer great privileges to those families who are devoted to our cause.
++5.00%
+Noble Estate Satisfaction Equilibrium
++10.00%
+Nobles Power
++20.00%
+Nobles Levy Size
+Crown Blocked from Cabinet:
+yes
+Nobility
+Curtail the Nobility
+As the state grows, it is becoming apparent that the old noble families have too much influence and power. Their jealous concern over these ancient privileges greatly hinders the development of our government.
+−5.00%
+Noble Estate Satisfaction Equilibrium
+−10.00%
+Nobles Power
++10.00%
+Maximum Tax for Noble Estate
++0.05
+Monthly Progress to Centralization
+Nobility Blocked from Cabinet:
+yes
+Burghers
+Rural Noble Authority
+The aristocratic class is not an enemy to the government, but an extension of the central power. Giving them the right to rule over the rural areas, while separating from national concerns, ensures a distinct separation of roles in the government.
++2.50%
+Noble Estate Satisfaction Equilibrium
++0.10
+Monthly Progress to Serfdom
++5.00%
+Nobles Power
+−20.00%
+Fortification Maintenance
+Nobility
+Nobility Electorate
+It is becoming quite difficult to keep the Nobility loyal to the Crown. Establishing an electoral system will guarantee their allegiance, and has the additional bonus of ensuring a safe succession.
++5.00%
+Noble Estate Satisfaction Equilibrium
++10.00%
+Nobles Power
++0.05
+Monthly Legitimacy
+Nobility
+unlock_heir_selection_effect:
+type: elective_succession
+unlock_heir_selection_effect:
+type: dynastic_elective_succession
+lock_heir_selection_effect:
+type: elective_succession
+lock_heir_selection_effect:
+type: dynastic_elective_succession
+government_type: government_type:monarchy
+Lei Mental
+Lei Mental defines the royal territories as inalienable. As such, land grants made by the monarch cannot be subdivided, and only eldest sons can inherit territories granted to members of the Nobility.
++0.05
+Monthly Progress to Centralization
+−5.00%
+Noble Estate Satisfaction Equilibrium
+−25.00%
+Nobles Power
++0.50%
+Monthly Control
+Crown
+has_unlocked_policy_trigger:
+type: por_lei_mental
+Leyes de Toro
+A compilation of the laws of the realm, made to please the different estates of our realm, especially the nobles, as it sets 'mayorazgo', the entail of a family group, as the main inheritance system.
++0.10
+Monthly Progress to Aristocracy
++5.00%
+Noble Estate Satisfaction Equilibrium
++15.00%
+Nobles Power
++0.005
+Possible Nobles in Towns and Cities
+−0.20%
+Monthly Nobility Rebel Growth
+Nobility
+has_unlocked_policy_trigger:
+type: leyes_de_toro_policy
+Rights of the Burghers
+[
+edit
+|
+edit source
+]
+The position of the Burghers is not only reinforced by their privileges, but also by our laws.
+Policy
+Country Modifier
+Estate Preferences
+Potential
+Strengthen Rights of the Burghers
+The Burghers are a powerful entity within our state with strong influence over the economy. Strengthening and reaffirming their rights will bolster their loyalty to our government and protect our economic stability.
++5.00%
+Burgher Estate Satisfaction Equilibrium
++0.05
+Monthly Progress to Plutocracy
++10.00%
+Burghers Power
++2.50%
+Trade Efficiency
+Burghers
+Curtail the Burghers
+The merchant families are rapidly growing more powerful. Positions once reserved for the Burghers can now be snatched up by any merchant with a fat purse and enough sway. They must be reminded of their proper place in our society.
+−5.00%
+Burgher Estate Satisfaction Equilibrium
+−10.00%
+Burghers Power
++10.00%
+Maximum Tax for Burgher Estate
++0.05
+Monthly Progress to Centralization
+Burghers Blocked from Cabinet:
+yes
+Nobility
+Clergy
+Strong Guilds
+Urban life is dominated by the influence of guilds, or groups of Burghers who organize themselves in order to protect national trade concerns and traders. Strengthening the power of these guilds will both obtain their loyalty towards the state, and preserve urban stability.
++2.50%
+Burgher Estate Satisfaction Equilibrium
++0.05
+Monthly Progress to Plutocracy
++5.00%
+Burghers Power
++5.00%
+Production Efficiency
+Commoners Allowed in Cabinet:
+yes
+Burghers
+Commoners
+Grant Colonial Authority
+The New World is an unimaginable opportunity for many who seek fortune. By granting the Burghers authority over the economic affairs of our colonies, we can keep them busy and away from economic matters in our urban centers.
++5.00%
+Burghers Power
++25.00%
+Monthly Colonial Migration
++0.05
+Monthly Progress to Outward
+Burghers
+Increased Trade Regulations
+We must not allow foreign Burghers to dominate our markets! Increasing our regulatory oversight will curb the influence of foreign merchants and provide a competitive advantage to our own.
++5.00%
+Burgher Estate Satisfaction Equilibrium
++25.00%
+Burghers Power
++0.10
+Monthly Progress to Mercantilism
+Crown
+Burghers
+current_age_or_later:
+age: age_4_reformation
+Reduced Mercantile Regulations
+Stifling the flow of commerce from abroad is by no means wise. We should ensure that any potential trading partners feel welcome in our lands in order to safeguard a steady flow of their valuable goods into our markets.
++5.00%
+Burgher Estate Satisfaction Equilibrium
++25.00%
+Burghers Power
++0.10
+Monthly Progress to Free Trade
+Burghers
+current_age_or_later:
+age: age_4_reformation
+Rights of the Clergy
+[
+edit
+|
+edit source
+]
+The position of the Clergy is not only reinforced by their privileges, but also by our laws.
+Policy
+Country Modifier
+Estate Preferences
+Potential
+Strengthen Rights of the Clergy
+The importance of the Clergy to the masses is undeniable. After all, it is the local cleric who guides the common man directly towards finding divine favor. Guaranteeing rights for our Clergy will win their loyalty, and, by extension, the loyalty of our Commoners.
++5.00%
+Clergy Estate Satisfaction Equilibrium
++10.00%
+Clergy Power
++15.00%
+Pop Conversion Speed %
++0.05
+Monthly Progress to Traditionalist
+Clergy
+Curtail the Clergy
+Often enough, the clerical class sees itself as an arbiter for whether state decisions are spiritually and morally correct. They meddle with mundane matters far outside the spiritual world, and as such, their influence must be reduced significantly.
+Burghers
+Secularization of the State
+While religion itself is not a problem for us, the extensive rights and influence held by the  Clergy is of great concern for our state and its people. No religious institution shall ever be allowed to intrude on worldly issues. Officially separating the Clergy from the government is therefore necessary.
+−25.00%
+Clergy Estate Satisfaction Equilibrium
+−50.00%
+Clergy Power
++100.00%
+Maximum Tax for Clergy Estate
+−1.00
+Prefers Court Language to be Liturgical Language
+Clergy Blocked from Cabinet:
+yes
+Crown
+Burghers
+Not:
+government_type: government_type:theocracy
+Šayḵ al-Islām
+A senior member of the
+ulamā
+will be given supreme authority to appoint
+Muftī
+and interpret Sharī'ah, and also confirm the new rulers of the realm - but there will be no question that regardless of this, our leader still holds higher authority. This policy can be seen as a compromise that ensures state power, while also enshrining the sanctioned faith's role in state affairs.
++10.00%
+Clergy Power
++10.00%
+Efficiency of Our Cabinet
+Clergy
+religion.group:
+Islam
+Not:
+government_type: government_type:theocracy
+Rights of the Crown
+[
+edit
+|
+edit source
+]
+The position of the Crown is not only reinforced by their privileges, but also by our laws.
+Locked
+All of:
+has_policy: absolute_rule_policy
+situation:the_revolution:
+situation_is_active: True
+Policy
+Allow
+Country Modifier
+Estate Preferences
+Absolute Rule
+The state is best served through fully realizing the will of its ruler. Through absolute rule, we can ensure our every pronouncement is carried out without delay — surely, to the greater benefit of all.
+Not:
+has_reform: government_reform:rule_of_the_sejm
+Not:
+has_country_modifier: reinstated_the_parliament_modifier
++20.00%
+Crown Power
+−5.00%
+Estates Satisfaction Equilibrium
++0.10
+Monthly Progress to Absolutism
+Crown
+Equal Power Relation
+The balance of power between the
+Estates
+and the Crown is a delicate matter. Our best option is to keep this balance intact by neither promoting the rights of the ruler, nor curtailing their power.
+Not:
+has_reform: government_reform:rule_of_the_sejm
++5.00%
+Crown Power
++5.00%
+Nobles Power
++5.00%
+Burghers Power
++5.00%
+Clergy Power
++5.00%
+Peasants Power
+Crown
+Nobility
+Clergy
+Burghers
+Commoners
+Figurehead Position
+The ruler represents the state, but holds little actual power. All government actions and decisions go through multiple apparatuses of the government rather than being approved by a single ruler.
++5.00%
+Noble Estate Satisfaction Equilibrium
++5.00%
+Burgher Estate Satisfaction Equilibrium
++5.00%
+Clergy Estate Satisfaction Equilibrium
++5.00%
+Peasant Estate Satisfaction Equilibrium
+Crown Blocked from Cabinet:
+yes
+Nobility
+Clergy
+Burghers
+Commoners
+Rights of the Commoners
+[
+edit
+|
+edit source
+]
+The position of the Commoners is not only reinforced by their privileges, but also by our laws.
+Policy
+Country Modifier
+Estate Preferences
+Strengthen Rights of the Commoners
+Where other classes derive their power from material wealth and land ownership, the strength of the Commoners comes from their sheer quantity. They outnumber other estate greatly, and once organized, could pose a serious threat to our national stability. Safeguarding and strengthening the rights of the working class will reduce the chance that they will revolt.
++5.00%
+Peasant Estate Satisfaction Equilibrium
++10.00%
+Peasants Power
++5.00%
+Estates Satisfaction Equilibrium
++0.50
+Prefers Court Language to be Common Language
+Commoners Allowed in Cabinet:
+yes
+Commoners
+Curtail the Commoners
+The teeming population of our underclass poses a perpetual threat to the stability and survival of our state. Without a strong and persuasive ruler to keep them in check, the state could fall into anarchy. We cannot allow them to have a taste of the rights and privileges afforded to their betters, which could seduce them into rebellion.
+−5.00%
+Peasant Estate Satisfaction Equilibrium
+−10.00%
+Peasants Power
++10.00%
+Maximum RGO Size
+−0.50
+Prefers Court Language to be Common Language
++0.05
+Monthly Progress to Centralization
+Nobility
+Colonial Representation
+[
+edit
+|
+edit source
+]
+Our own influence on the land we govern is detetmined by the whims of our overlord.
+Potential
+is_colonial_subject: True
+Policy
+Country Modifier
+On Activate
+Potential
+No Representation
+We are not allowed to participate in the parliament and our overlord has significant influence over our economy.
+Parliament Abolished:
+yes
+set_parliament_active: False
+Representation in Parliament
+We have been granted a voice within the parliamentary decisions of our land and restricted the influences of our overlord.
+Overlord Blocked from Recruiting Regiments:
+yes
+Overlord Blocked from Building Ships:
+yes
+Overlord Blocked from Building RGO:
+yes
+Overlord Blocked from Building Roads:
+yes
+Overlord Blocked from Building Buildings:
+yes
++10.00
+Loyalty to Overlord
+always: False
+References
+[
+edit
+|
+edit source
+]
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=Estate_laws&oldid=21233
+"

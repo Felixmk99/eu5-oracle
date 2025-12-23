@@ -1,0 +1,395 @@
+Source URL: https://eu5.paradoxwikis.com/Market
+Source Date: 2025-12-13
+
+Please help with verifying or updating older sections of this article.
+At least some were last verified for
+version
+pre-release.
+Markets
+A Market is where
+Goods
+are bought and sold. It is named after and based in a Market Center, but extends into other locations as well. All locations within a market will exclusively buy from and sell to that market. The market price of all goods on it depends on supply and demand but can deviate based on Price Stability, which is determined by the current age. Hovering over a market will show which goods are in surplus and which goods are needed the most as well as which countries trade on the market the most.
+Every location will decide which market to use depending on each market's
+Market Attraction and
+Market Protection, and the location Market Access to each one.
+Market Attraction scales with the
+Prestige of the country owning the Market Center,
+Development in the Market Center, staffed buildings in the Market Center, and the market's Trade Income against the location's Tax Base.
+Every country has a
+Trade Capacity within each market, which can be spent to either import or export goods to and from that market. Profits from trade are divided among estates, including the Crown, according to their power. Selecting a market will display all import routes with a
+blue
+line and all export routes with an
+orange
+line. The Trading tab will list all current trades as well as suggest the most profitable trades that can be made.
+A country can choose to create a new market at any time, which takes 3 months. An owned location will have to be selected as the new Market Center and this will cost an amount of
+Gold that scales with the location's current
+Market Attraction. Once the new market is created, every location will recalculate its market and decide whether to join the new market or stay in their existing one.
+Every country has a
+Trade Advantage value, which is used to determine the order in which countries fulfill their exports within a market. If there are insufficient goods in a market, they will get distributed by the Trade Advantage of every country in the market.
+Market center
+[
+edit
+|
+edit source
+]
+A location that is a market center receives the following bonuses:
++5
+Supported Building Levels
++25%
+Institution Growth
++2
+Trade Capacity
++20
+Trade Advantage
++0.025
+Migration Attraction
++250
+Maximum Stockpile Capacity
+The owner of a market center unlocks the following abilities:
+Can embargo another country that uses the same market. An embargoed country cannot establish trade routes within the market or use owned locations when deciding where to route trade. This costs 25
+Opinion with the embargoed country.
+Can move the market center to another owned location. This costs 800
+Gold.
+Can destroy the market. This costs 50
+Stability and 25
+Prestige.
+Each owned market center gives the following country bonuses:
++1%
+Burgher Estate Satisfaction Equilibrium
+−10%
+Destroy Market Cost
++0.05
+Monthly Progress to Mercantilism
+Creating a market
+[
+edit
+|
+edit source
+]
+If you notice that your market access is very low, or that you are split in between several markets, you may want to create your own market
+market. To create your own market, the following conditions must be met:
+The province can be owned.
+AND
+(The province is in an urban location
+OR
+the province has less than 25% market attraction in its current market.)
+(The new market location is owned by you
+OR
+the new market location has buildings owned by you
+OR
+the new market center is in a province that is your subject.)
+You do not have any treaties preventing you from creating a new market, such as the
+Market Access Preference Treaty
+Holland starts with.
+Market access
+[
+edit
+|
+edit source
+]
+Market access of a location determine the profits of its
+RGO
+and the throughput of its buildings.
+Trade
+[
+edit
+|
+edit source
+]
+Trades can be created in markets to export or import
+goods
+to or from another market. A trade will use the owner's
+trade capacity
+based on the amount of goods to trade multiplied by the good's transport cost and a
+distance modifier
+. This means that trades over a longer distance will move fewer goods per unit of trade capacity.
+The profit for a trade is computed by
+(
+I
+m
+p
+o
+r
+t
+P
+r
+i
+c
+e
+)
+(
+G
+o
+o
+d
+s
+Q
+u
+a
+n
+t
+i
+t
+y
+)
+(
+T
+r
+a
+d
+e
+E
+f
+f
+i
+c
+i
+e
+n
+c
+y
+)
+−
+(
+E
+x
+p
+o
+r
+t
+P
+r
+i
+c
+e
+)
+(
+G
+o
+o
+d
+s
+Q
+u
+a
+n
+t
+i
+t
+y
+)
+(
+E
+x
+p
+o
+r
+t
+C
+o
+s
+t
+M
+o
+d
+i
+f
+i
+e
+r
+s
+)
+−
+(
+T
+r
+a
+d
+e
+M
+a
+i
+n
+t
+e
+n
+a
+n
+c
+e
+)
+−
+(
+S
+o
+u
+n
+d
+T
+o
+l
+l
+s
+)
+{\displaystyle (ImportPrice)(GoodsQuantity)(TradeEfficiency)-(ExportPrice)(GoodsQuantity)(ExportCostModifiers)-(TradeMaintenance)-(SoundTolls)}
+where:
+(Import Price) is the price of the good in the importing market
+(Export Price) is the price of the good in the exporting market
+(Goods Quantity) is the total amount of goods moved
+(
+Trade Efficiency
+) is the trade efficiency modifier of the trade's owner
+(Export Cost Modifiers) currently represents the Export Cost from Market for Foreign Traders modifier, which will increase the cost of purchasing goods in foreign markets owned by countries with the modifier. The most notable source is from
+Mercantilism (societal value)
+.
+(
+Trade Maintenance
+) is the cost of transporting goods
+(
+Sound Tolls
+) are a tax on trade routes passing through certain narrow straits
+Prices
+[
+edit
+|
+edit source
+]
+Prices trend up or down towards a target price depending on the difference between effective supply and Demand as well as the price stability which depends on the current age.
+Target Price = Base Price * min( (1 + Supply-Demand Ratio * Price Stability) / ( Supply-Demand Ratio + Price Stability), Max Price)
+Effective Demand = Demand + Burgher Exports * 0.75 + Manual Exports * 0.5
+Effective Supply = Domestic RGO Production + Common Goods + Burghers Import * 0.75 + Manual Import * 0.5
+Supply-Demand Ratio = (1 + Effective Supply) / (1 + Effective Demand)
+So if you want to increase effective supply it is better to import yourself instead of letting the burghers do that so if the burghers import something and you want to drop the price of it you can manually import it instead and thus making it unprofitable for them but the same amount of good are in your market but due to manual imports being weighted more in the effective supply you are dropping the price by doing so. The same logic goes if you want to decrease demand you want to replace your exports with burgher exports, if they are profitable enough for the burghers to import and if you want to increase demand and drive up the price you want to replace burgher exports with your own.
+Trade Capacity
+[
+edit
+|
+edit source
+]
+Trade capacity represents the capacity of your merchants to move goods between markets. It primarily is provided by a country's trade buildings in a market, and is used by their trades based in that market.
+Trade Route Maintenance
+[
+edit
+|
+edit source
+]
+The maintenance cost for each trade route is
+-0.5
+per
+trade capacity
+used in the trade.
+The following are a non-exhaustive list of common modifiers which can affect trade maintenance:
+Mercantilism (societal value)
+: scaling up to
+−10%
+Trade Maintenance
+Age of Reformation:
+−25%
+Trade Maintenance
+Global Trade (
+Age of Reformation advance):
+−10%
+Trade Maintenance
+Development of Maritime Law (
+Age of Reformation advance):
+−10%
+Trade Maintenance
+Fast Negotiations (
+Age of Reformation advance,
+Ability dip):
+−10%
+Trade Maintenance
+Free Cities (
+Age of Reformation advance,
+Republic
+):
+−10%
+Trade Maintenance
+Bank Ledgers System (
+Age of Renaissance government reform):
+−5%
+Trade Maintenance
+Merchant Republic (
+Republic
+):
+−25%
+Trade Maintenance
+Expand our Market
+parliament issue:
+−25%
+Trade Maintenance while in debate
+Trade Efficiency
+[
+edit
+|
+edit source
+]
+Trade efficiency modifies the sale cost of goods for trades, increasing profits.
+References
+[
+edit
+|
+edit source
+]
+Mechanics
+Realm
+Country
+•
+Government
+•
+Parliament
+•
+Estate
+•
+Reforms
+•
+Laws
+•
+Characters
+•
+Missions
+Economy & Research
+Economy
+•
+Goods
+•
+R.G.O.
+•
+Market
+•
+Building
+•
+Population
+•
+Age
+Diplomacy & Warfare
+Diplomacy
+•
+Subjects
+•
+International organization
+•
+Warfare
+•
+Combat
+•
+Military
+The world
+Location
+•
+Culture
+•
+Religion
+•
+Language
+•
+Exploration
+•
+Situations
+•
+Disasters
+•
+Diseases
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=Market&oldid=21086
+"

@@ -1,0 +1,1131 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/patch-1-0-10-is-live-now-tinto-talk-92.1889614/
+Source Date: 2025-12-23
+
+Previous dev diary
+Show only dev responses
+Patch 1.0.10 is live now + Tinto Talk #92
+Thread starter
+PDX Ryagi
+Start date
+Wednesday at 14:03
+Hello Rulers! Today we release patch 1.0.10 to live Branch, various iterations of this patch have been in our beta branch since December 4th. Patch 1.0.10 is the last "Major" patch before the Holiday Period. That being said, if we need to make any critical fixes to 1.0.10, we still have room for a potential hotfix.
+But of course, it's also a Happy Wednesday! Which means another
+Tinto Talk.
+This time hosted by friendly neighborhood Community Manager Ryagi.
+Firstly I'd like to acknowledge once again that both our patches and the patch notes themselves have thus far been very chaotic.  It's something all of Tinto is aware of, and looking to improve actively over time. We hope by the end of 2026 we'll all be giggling at our pre 1.1 patch notes. It's not something any one of us can fix alone at Tinto, but a team effort in making sure all our notes are consistent with each other, and make sense to you, the player.
+While the notes below are not perfect, I think they're a small step in the correct direction and we'll continue to improve on them for future patches. Feedback on our notes, and generally our methods of communication is always helpful, lucky for me that is my domain, so I'm very happy to comment on it or answer any questions you might have.
+So what's next? And how long is this Holiday Period?
+Though the Holiday Period varies from person to person, generally it begins at the end of this week, and goes into mid January. It's a time for when many of those at Paradox (Not just Tinto!) can get some well deserved rest and enjoy the holidays. In my case as a Community Manager, it means I will have to resist the urge commenting on reddit when I see something EU5 related pop up... alas.
+Once we have all returned in mid January, we'll be focusing on our next major update, 1.1 Rossbach, which we'll share more details on when we return! Though
+@Johan
+has already dropped bits and pieces of plans for 1.1
+which include HRE changes, some heavily requested QOL, and more.
+A rather short Tinto Talk this time around, but we have patch notes to cover!
+We wish you all a very happy holidays and can't wait to see you next year <3
+- Ryagi
+Checksum:
+1cb4
+Date: December 17th, 2025 Previous Patch:
+1.0.9 (hotfix)
+,
+1.0.8 (primary)
+Links to the notes related to patch 1.0.10 beta process:
+Initial Patch Notes Open Beta 1.0.10
+1.0.10 - Update (10th of December 2025)
+Open Beta update #4
+Open Beta update #5/6
+===================
+1.0.10 Patch Notes
+​
+===================
+Added several new advances for
+Kurdistan
+Manchu
+Sokoto
+Italy
+Malacca
+Malaya
+Added a new government reform for Sweden's Alsnö stadga
+The war of religions situation now has an action for non-members of the HRE to join the ongoing war of religions
+Rich countries should now field significantly larger armies in the mid and late game
+------------
+Added 6 new advances for the Kurdistan formable country
+Added 6 new advances for the Manchu formable country
+Added a new government reform for Sweden's Alsnö stadga'
+Added 6 new advances for the Sokoto formable country
+Added 7 new advances for the Italy formable country
+Added 6 new advances for the Malacca formable country
+Added 6 new advances for the Malaya formable country
+--------
+Government:
+The "ruler must be commander during war" now allows female rulers to be generals. Gender is no excuse to avoid dying for your nation, royal peasant!
+Cognatic primogeniture goes through dead children in the right order
+The Magna Carta now also gives some levy combat efficiency.
+Enforcing culture on a subject will cancel their attempts to assimilate into other cultures
+Fiefdoms and dominions can no longer pump up stats of their ruler through the parliament.
+Reduced the op byzantine conscription from insanity to "decent"
+Gaelic Clergy & Burghers are also part of the clans, just like the nobles now.
+Economy:
+Further revisions of the population demands to balance estate economies.
+Increased the strength of navies' anti-piracy by a large amount.
+Both exporting and importing now spread institutions
+Nobles' recruitment center now gives 25 nobles, down from 250.
+Pop demands for weaponry for peasants are now checking the privilege again.
+Paved and later roads are now giving a bit better paths for market access, changed from 15% -25% to 20%-40%. The downstream river is still 50%.
+Market villages now add 10 burghers per level
+Market access uses the best of upstream river, downstream river, or road connection now, instead of a weird combination.
+Proximity bonuses from rivers now work through lakes
+Colonial charters will not benefit the original location if colonial maintenance is 0.
+A lot of trade-related buildings, like marketplaces and market villages, now improve local market access.
+Rebalanced a few stacking development benefits.
+Prosperity gains have been adjusted for better balance.
+Rough vegetation slows down road building much further.
+Fixed so lakes have maxed maritime presence always.
+Roads now make proximity costs ignore vegetation!
+Improved market range pathfinding to include different coastlines, for example, Alexandria can make trades with India
+Increased payment from colonial nations in the age of absolutism and the age of revolutions
+Bank Ledgers gets 25% of the inflation reduction it previously had, but the trade maintenance reduction is instead 4x as big.
+The province's Starvation status will now update
+Fixed war reparations income
+Adjusted some inflation reduction modifiers for better game balance
+Upstream proximity costs are now as good as downstream proximity costs.
+Fixed a bug where automated trade would not be maximizing its available Trade Capacity.
+Production:
+Can no longer build worse forts in locations with better ones
+Society:
+You now need to have researched the 'patron of the arts' to advance to commission art.
+Fiefdoms, dominions, and state banks can no longer change religion on their own.
+Religion and culture country lists get updated properly when releasing historical subjects
+Tweaked a lot of bonuses to population growth that could stack rather high.
+Limited the marriage rules to the ruling dynasty closely related to the ruler.
+Cultures that have 0 pops will no longer cost any cultural upkeep.
+Reworked a bit how non-ruling dynasties marry and when, and added support for dynasties to be tagged as more important for this.
+Randomly Generated Characters will now only be from primary, accepted, or tolerated cultures.
+Cossack Identity privilege now completely blocks tribal promotion.
+The maximum number of married males in a country, when considering Dynasty Marrying logic, now ignores close relatives to the current ruler.
+Non-Accepted cultures ' characters will no longer join the court of their annexer.
+Diplomacy:
+Fixed the they do not desire anything more peace acceptance factor is not triggering when the peace offer was set to demanding.
+Fixed the current sieges peace acceptance impact being calculated differently when the peace offer was set to demanding and offering.
+Fixed the start annexation diplomatic action being visible on subjects that were already being annexed.
+Asking for money via favor is now capped at 4 times of requester's tax base
+Diplomats work properly once above the limit, allowing a monthly reduction but no further monthly increase
+Acceptance of marriage offers will now include the age of the consort before selecting the recipient country, fixing the issue of inconsistent acceptance of marriage offers in different target selection windows.
+Fixed various bugs with denied military access CB
+Isolating from allies now requires you to be allied
+Seizing territory from your subjects makes the locations conquered, and the amount of liberty desire scales with population, buildings, and development.
+Calling Ally uses the correct border distance calculation for AI acceptance
+Fixed a bug where the 'Intervene in War' action would fail and incorrectly consume a diplomat
+Can now cede locations through corridors
+No longer give out claim throne CBS for heirs under a regency
+Failure to give adequate land to an ally in a peace treaty will give a trust hit rather than a trust bonus
+Violating sovereignty is not instantly cancelled if you're already allowing them military access
+When subjects break free of their overlord, they (and their subjects) will also leave any wars they were called into by their overlord
+Fixed the case where junior partners don't get called into war properly
+Independence movements trump subject relations when declaring war, and subjects trump unions
+Increased the impact of opinion on subject loyalty by 50%.
+Allow choosing a leader for created subjects
+Fix incorrect Spynetwork calculation and tooltips
+Vassal can no longer invite Overlord to the independence movement against them after reloading the save file
+There is no longer any penalty for being a higher rank and taking land from lower-ranked countries.
+The estimated annexation date of union partners and subjects will no longer display the end date of the game if the opinion of the target country is too low to annex them. Many of the union annexations are actually much faster than the tooltip was implying...
+The Annexation action is now in the "Union Action" category if the actor and recipient are in a union. In every other instance, it continues to be a subject action
+Changed the rules for rivals so that it's their opinion of you that matters, ie, the one you can affect. So, if you improve your opinion of someone by over 100 points on a rival, they will stop being your rival, etc.
+Military:
+Rebalanced how good levies are with a decent progression through the ages.
+Battles will now begin with a maximum frontage of 125% in each section. Any units exceeding this limit will be moved to reserves.
+Reduced frontage bonus from defensive societal values
+Fixed a bug where morale was not scaled by strength.
+Drilling now sets a forced 100% maintenance for that unit
+Transport costs now scale with how many men you have in the unit.
+Armies now take damage to morale from attrition, instead of gaining morale from it
+Garrison recovery ticks are on daily ticks, not on monthly, but slower.
+The threshold of recruiting a new group of levies is now 20% instead of 50% recovered.
+Increased Frontage for Heavy Ships from 1.25 to 1.5
+Increased Flanking Ability for Light Ships from 1.1 to 1.2
+Reduced Frontage from 0.75 to 0.5 for Galleys, while also increasing initiative from 1 to 2.
+Merc leaders are no longer part of the court
+Added a levy_recovery_modifier that is gained from many ways to get levies to recover faster.
+Expected Army Size has been tweaked to scale better over time.
+Military leaders don't get downtime if they're not actually moving location when assigned to new units or merged in the same location
+You now restore levies even if you explicitly try to delete the unit.
+Cavalry now takes 25% less damage, not 75% less damage.
+Increased impact from high peasant satisfaction on levy recovery from 20% to 50%.
+Increased levy recovery from revancism by 4x and increased from 10% to 33% in defensive wars.
+Levies now revover 20% faster when at peace.
+Naval combat now stackwipes as it did in 1.04
+Geopolitics:
+War score calculated correctly for vassals
+Fixed a bug that would make maritime presence drop to 0 when annexing a country
+Colonial charters keep to their source location, with more restrictions on where you can specify as source (min 1k peasants in location)
+Colonial charters no longer need a source province (too restrictive) and instead just take pops from the capital region
+Fixed some disease outbreaks that were never-ending
+Advances:
+Invalid advances have now been removed from the research queue and won't be researched
+Other:
+Claim throne CB can now include the claimant, so you get to install specific people on the throne (i.e., people who do actually have a claim)
+Disease stats get transferred from the old country to the new when losing a revolt
+Added individual disease resistance modifiers, pumped up the initial malaria death rate
+Hiring Advisor now costs government power, generals' army tradition, admiral navy tradition, and artists costs prestige.
+-------
+Map:
+Tweaked the dynamic localization in the Hungarian language of the location 'debrc' to 'debrecen mačvában' ('debrecen in mačvá'), so it doesn't get confused with the other 'debrecen' location.
+Removed all the lakes placed beside the sea, as it was breaking some calculations.
+Made the British and Irish natural harbor capacity more accurate
+Setup:
+Forming Belgium also considers locations in the Brabant area
+Added the dyes guild to the Chinese town and city setup to improve lacquerware industry functionality.
+Removed the French guarantee of Scotland at the start, preventing them from being called into the Scottish civil war. England now starts with a mutual truce with Scotland and Balliol.
+Fixed the tooltip of the religious aspect to worship the mexica god Ixchel
+Added a truce on start between Portugal and Castile, 6 months before the real date, due to gameplay reasons.
+England now starts with the "primacy of the nobility," "shipwright contracts," and "common militias," estate privileges to give England a better chance during the Hundred Years' War
+London now starts with a dock
+Inês de Castro now correctly appears as a member of the 'Castro' dynasty.
+Adjusted the starting building setup of Athens and Thessaloníki, so they use the one for Greek cities instead of the current one for Greek towns.
+Reverted the raw material of Lohja to fur, so now the Swedish event "the iron mines of Ojamo" (flavor_swe.44) makes sense once again.
+Knights Hospitaller began as a duchy rank
+Added Old St Paul's Cathedral as a building in setup.
+Fixed the birth date of Gongmin of Goryeo
+Fixed starting heir selection for Florence
+Corrected the Hungarian name of 'Debrc' from 'Debrecen Mačvában' to 'Végdebrecen', as per forum feedback.
+Added a "Good relations" starting modifier between Castile and Portugal, so they are less likely to go after each other at the start of the game, and also made it easier to trigger the 'Battle of Río Salado' event chain.
+Situations:
+Embracing the reformation action in the reformation situation will no longer remove the current heir policy
+Cardinal seats are no longer destroyable during the Western Schism situation
+Removing locations from a league during the Italian Wars will no longer tank the league leader's opinion of you
+The Golden Age of Piracy action "Create a Subject Pirate Nation," now has requirements that make it easier to be used, and also reworked its AI reasoning
+The rise of the Turks' situation will no longer end if the primary contender, due to a civil war, temporarily drops below the 100 location threshold after the year 1400
+Removed an obsolete situation trigger for the rise of the Turks situation
+Improved display of the declaration of war for the regional supremacy action of the Red Turban rebellions
+Reworked the AI behind the action "request war entry" in the Hundred Years' War
+The event "France wins the Hundred Years' War" now takes into account France having a regent in the event's description
+The war between the leading countries now has less of an impact on choosing a religious league to join
+Fixed some issues with the legend keys in the Rise of the Turks situation map modes
+The war of religions situation now has an action for non-members of the HRE to join the ongoing war of religions
+The rise of the Turks' action "press claims" now informs the player that they can't have levies raised to use this action
+The event "pious call to arms" of the Hussite Wars will no longer occur for the subject countries
+Added localization to some unlocalized reasons to join a league during the Italian Wars
+Multiplying the willingness of the AI to use the Columbian Exchange actions
+English AI will now be more strategic and capable when it comes to "buying out" French subjects via the "influence French subject" action during the Hundred Years War
+Fixed an issue with displaying the wrong beylik in the opening event of the Rise of the Turks
+The HRE emperor will no longer be able to "enforce religious unity" on the Hussite countries during the Hussite Wars situation
+Fixed an issue with the post-1400 situation trigger of the rise of the Ottomans
+The Defection action during the Hundred Years' War is only available for subjects of either side on the European Continent
+Winning the Hundred Years' War now grants a strong modifier as a complementary reward
+Rebalanced some weights for the Defection action in the Hundred Years' War
+Bohemia will be more likely to convert to Hussitism
+Rewrote many calculations for the Hundred Years' War actions
+The AI is now better at using the actions of the Hundred Years' War
+The French AI will now make a more informed decision in the "The Influence of <Subject>" event (triggered via the "Demand Appanage Promotion" action
+The Hundred Years' War actions no longer cost ducats, they will now only cost 10 Legitimacy
+Removing the Anatolian Beylik reform can now only be done after the conclusion of the Rise of the Turks situation
+The Guelphs and Ghibellines situation now removes the "Force into our Faction" casus belli from all Guelphs and Ghibellines members when the IO disbands. Additionally, leaving the faction will also remove this casus belli from you, as you are no longer part of any faction to force an enemy into
+Added a negative opinion modifier towards annexable neighbors for Beyliks during the start of the Rise of the Turks
+Adjusted the territorial requirements to end the Hundred Years' War
+Newly appearing Beyliks are now properly counted as part of the Rise of the Turks Situation
+Subjects that use the "Defect" action during the Hundred Years' War will have their "Diplomatic Betrayal" Subject Loyalty malus removed, as that would be unfair to the new overlord
+Henceforth, only subjects with their capitals in France (region) or in the Flanders, Brabant, or Holland areas will be able to defect during the Hundred Years War via the "Defect" action
+The modifier "Appanage Betrayal" is now -10 Subject Loyalty instead of -100
+Slightly lowered the chance that an AI subject uses the "Betray our Allegiance" action during the Hundred Years' War situation
+Added the "Attempt Defection" action for subjects of England or France during the Hundred Years' War situation
+Disasters:
+The hook and cod wars event "foreign interference" will no longer target rebel countries
+Fixed a wrong trigger possibility in the Castilian Civil War, which was using the 'ivrée' dynasty, instead of the 'Castile' one.
+The succession disasters (byzantine, castilian, and generic) no longer allow the creation of subjects and have rebalanced modifiers
+The effects of the opening event of the Ciompi revolt disaster are now more readable
+Teenagers and children will no longer rebel against their parents during the succession crisis disaster
+International Organizations:
+You can now create the "dissolve the tatar yoke" casus belli if you are an empire
+PLC revoking empower orthodox nobility will no longer trigger daily pop-up spam for leaving autocephalous patriarchates
+The subjugate high kingship member CB now only targets members of that io type
+Improved the AI logic for proposing, voting for, and against polices in the HRE
+Polished the AI logic for proposing, voting for, and against policies in unions
+The HRE policies "treasury taxation" and "imperial taxation" now unlock the "contribute to organization treasury" action, which allows countries to just donate money to the IO at a one-year cooldown in exchange for an opinion bonus with the emperor / the electors (if done by the emperor)
+Added more refined logic to the AI's wishes to vote for and keep a policy in an IO. This should make the AI circle vote for the same two policies in an IO
+It is now possible to add new locations to the HRE if the location borders an HRE location across one seazone
+Kingdoms in the HRE now receive a much higher special status score than normal members
+The opinion penalty from removing locations from the HRE now has a yearly decay of 2 u,p from 1, and caps at -200 instead of being uncapped
+Being the Emperor of the HRE now grants you +1 Cabinet Slot, +2 Diplomats, +500 Diplomatic Range, +1 Culture Capacity, +0.1 Monthly Prestige, +1 Fort Limit, and +1 Possible Artists. These modifiers should bring the HRE Emperor more on the same level as other Empires
+The HRE Emperor now has the option to join the HRE if they are not already a member
+Reforming your government type will now only remove you as the Holy Roman Emperor if you form out of a monarchy into a different government type. In other words, a monarchy that reforms its government into a monarchy (again) will not lose its role as Emperor
+Added Regnal Numbers to the Holy Roman Empire, so future emperors will use the expected regnal numbers
+Marriage Unions now automatically disband if the royal marriage is broken due to the other country being annexed
+The policies "Unprotected Free Cities" and "Free Cities Abolished" will no longer grant Imperial Authority. Additionally, cleaned up the tooltip of "Direct Imperial Cities" and "Cities of the Emperor" to show the average antagonism gain across all Free Cities
+Fixed the display of the number of Celestial Governors in the Middle Kingdom
+Made the Emperor despise the very idea of even proposing the "Holy Roman Figurehead" policy (Emperor now has a malice of -10000 for both proposing and voting for it)
+Events:
+Fixed the first name of Giacomo Bussolari, character created by the Pavese event "exoulsion of the beccaria" (flavor_pav.1).
+Byzantium will now get a notification when the Genoese event "Reconquest of Chios" (flavor_gen.16) happens.
+Replaced the ‘Claim Throne’ Casus Belli from the "Expulsion of the <dynasty>" (flavor_pav.2) event with a ‘Subjugation’ CB
+The Neapolitan event ‘Sicily Accepts to Pay Homage’ (flavor_nap.106) should not trigger now if they go to war.
+Fixed an issue for the event, ‘The <Emperors> Response’ (free_cities.5), that would cost money instead of granting it
+Fixed an issue with ‘The Great Contract’ event (flavor_eng.164) where two event options used the incorrect text
+Enabled many Florentine events and the "Florentine school" advance for Tuscany
+Added a third option to the event ‘The Fluitschip’ (flavor_hol.9), so that the government reform ‘Dutch Shipbuilding Industry’ is unlocked by it, but automatically implemented.
+Lower Bavaria can no longer be directly subjugated by Upper Bavaria if it is a subject of another country already
+Scottish 'honoring the auld alliance' event can no longer fire when Scotland is at war or in a civil war. Also expanded the time window in which Scotland can receive the event by 20 years.
+The Ottoman event "demand Albanian hostages" now correctly targets an Albanian dynasty
+Fixed an issue with the event "the hand of Lithuania" whose option B incorrectly gave Lithuania a pu cb on Lithuania
+Fixed an issue where the Florentine event "consolidation of power" (flavor_flo.49) did not clear the current major reform properly
+Fixed a typo in the first option of the language event "the ruler's speech."
+The event "common lineage" should no longer exile 1-year-olds
+Fixed some errors in the dynamic localization of the events ‘Independence from the Patriarchate’ (flavor_eth.110) and ‘The Dawn of a New Empire’ (flavor_ser.31).
+Added a historical option for the event ‘Gold found in Lece’ (flavor_ser.120) so AI chooses getting gold as rgo
+The heart of Armenia event (miaphysite_flavor.5) now properly targets the Yerevan location
+The fate of Luxembourg event (flavor_boh.32) will no longer be able to offer dead characters as rulers
+The House of York will now be properly founded by the English event ‘The Founding of House York’ (flavor_eng.45), as there was a bug preventing it.
+Make the Treaty of Vilnius event create Courland, the subject territories
+The Teutonic crusader fervor event will no longer target friendly pagans
+The Crusade of Smyrna will no longer fire on Christian targets
+Fixed the event ‘Saint George's Night Uprising’ (flavor_dan_teu.1), only starting with 1 location
+The event "a marriage proposal for <character>" (flavor_mlo.37) will no longer offer dead characters as marriage candidates
+The event Jacobite uprising (flavor_eng.29) now checks correctly for any province with a highlander culture over 50%
+The event Russia looks to the east (flavor_rus.3) can no longer trigger without any available country to target with its effects
+The event the >ruler title> education (flavor_sco.14) will no longer overwrite an already set expensive education child education
+Added AI weights to many generic events to help the AI make better choices
+Fixed wrong localization key in protestant_tolerance policy from event "the edict of Fontainebleau" (flavor_fra.330)
+The event "the return of Ibn Battuta" now correctly grants a dynamic institution to your capital instead of to a random location in Arabia, and always involves "professional armies."
+Hindu modifier withdrawn in contemplation from event "planning for the end" (hindu_events.2400) changed to be -50% diplomatic relations
+Forming Ayutthaya will now properly get the correct ruler and dynasty
+Keeping a patriarchate in the event "autocephalous patriarchate seat falls" (autocephalous_patriarchates.2) no longer has the potential to give a worse modifier
+The byzantine event "reforming the imperial army" now removes the theme of systemic government reform.
+The event "Kyiv-Mohyla Academy" can now fire for Ruthenia as well.
+The event disagreeing advisor (random_event.93) can no longer target your heir
+Editing the "forever lost" event so it can only trigger for native american countries
+Editing the dynamic historical events of Naples so that the two Sicilies can also receive Neapolitan events that are appropriate
+Changed the "the kebra nagast" event option rewards so all the admin traits are obtainable on the first option
+The casus belli received by Morocco to conquer Tunisia now lasts longer than their truce
+Fixed an error in the text of the first option of the event "visit of the patriarch" (flavor_plc.1001).
+The rise of the turks event "the integration of <province>" (rise_of_the_ottomans.105) will no longer always reference the ottomans
+Milanese events that require you to pay at the start of the game will now only occur when the country is at peace with a positive treasury, to avoid frontloading costs too much
+The event "the guns of <rival>" (flavor_tur.120) no longer targets deceased children
+The event "the first celali rebellion" (flavor_tur.16) now correctly applies a tooltip on the character's name
+The Ottoman event "the phanariots" now has a correct historical option indication
+Family ties event (consort_events.51) will now only fire when the two countries actually have ties
+Adjusted triggers of flavor_plc.14 to make it more likely to fire
+The Joseon code can only be able to be unlocked by the Joseon dynasty
+The event ‘Soirée’ (dynastic.6) will no longer produce the same offspring from couples of the same sex.
+Rebalanced certain unique content for Byzantium, making their modifiers more appealing but at the same time not as strong as before
+The Ottoman event "cats of Constantinople" will now give disease resistance to the location
+The government reform "Malian tribute system" has been changed to be a non-major reform, and it does not give +1 possible government reforms
+The French event 'the edict of Fontainebleau' will no longer trigger if France is not catholic.
+The French event 'Rise of étienne marcel' has been improved, along with strengthening Marcel's influence among the burghers.
+Reduced antagonism gain from Cahokia's 'worsening food condition' event from +50 to +25.
+Cahokia's 'worsening food conditions' event now properly decreases demand for food if warbands are sent to raid nearby tribes. The first event option now also reduces demand for maize.
+The event "the knights hospitaller" (flavor_kni.100) will no longer trigger for a country that was the knights
+Fixed an issue wherein the event "evolution of the commune of Venice" (flavor_ven.1) allowed for multiple major reforms
+The event "the four articles of Prague" (flavor_boh.36) now correctly displays the title
+The Byzantine event "Reforming the Imperial Army" now requires you to have 10k standing regiments to trigger
+Event A Royal Influence (consort_events.61) will now properly refer to the correct religion
+The event "The Assassination of Gerhard von Schauenburg" (flavor_dan.19) will only annex Schleswig if it is a subject of Denmark
+The event "Bid for Independence" (flavor_ere.1) will now remove the Eretnids from all wars the Jalayrids are involved in, making it possible for them to declare their independence war against the Jalayrids
+The "Premature End of the Wars" (hook_and_cod_wars.1203) event will always end the Hook and Cods Wars for good
+Henry Tudor now has a proper father
+Support Dissidents Abroad (random_event.39) will no longer be able to target countries already in a civil war
+Pitt the Elder will no longer be able to marry an old lady
+Event Soirée (dynastic.6) will no longer be able to get old or dead characters pregnant
+Fixed options not being capitalized in event The Insane <Title> (flavor_swe.47)
+Fixed wrong scope for localization in event A Traveling Preacher (western_schism.15)
+Event "A Moment of Weakness" (sengoku.4) will no longer be able to give CBs against oneself
+Fixed gender of characters in Soirée event (dynastic.6)
+The event "A Heathen <Title>" (culture_religion_events.5) will no longer be able to target rulers ruling more than one country
+Event Liaising Advisor (court_flavor_events.1) can no longer target countries at war
+Fixed missing localization in the option of event The Acquisition of Landsberg (flavor_mei.122)
+Fixed an error in the description of the event "Popularization of Silk Fabrics" (prices.24), it should now correctly read 'Middle East'.
+Event "The Insane King" (flavor_swe.47) will no longer put dead characters on the throne
+Updated all events that give you merchant power in a market to use standardized values
+Fixed a bug for "Demands of a Professional Army" (institution_events.51), which could, in rare cases, cause a complete break of the event description. Also added some gold for good measure
+The False Waldemar can no longer be targeted by character interactions
+Fixed wrong localization scope in event The Doctrine of Particular Judgment (catholic_flavor.8)
+The event Fear and Loathing in <Capital> (dynastic.19) will only be able to trigger for male rulers
+Fixed the title of the event cultural_event.4, so it now reads "Supporting the Florentine School".
+Replaced an incorrect (death) Edmund Mortimer with the correct one, script-wise, in 3 DHEs for England and Wales (flavor_eng.91, flavor_eng.95, flavor_wls.15), so they can now work properly.
+Government:
+The papal ban on empires will now accurately be lifted once the Holy Roman Empire is dismantled
+Added unique government names for the landgraviate and magraviate government reforms
+The "ruler is not a commander during a war" penalty from the ruler's general policy and other similar sources now checks if the ruler is not the leader of the largest army or navy.
+Adopting the Anatolian beylik government reform now makes you eligible to be a contender for the ‘Rise of the Turks’ situation.
+The reform "council of clan heads" for Kanem-Borno now gives better bonuses
+Blocked the joint ruling on government reform for fiefdoms
+Fixed an error in the flavour description of the 'Order of the Dragon' policy, it now should read correctly 'Christianity'.
+"promote integration progress" (parliament issue) now picks a more suitable province, applies its effects across the entire province, and is more likely to occur depending on how many unintegrated provinces you have
+The Kanem-Bornu burgher privilege will no longer be shown until it's unlocked
+The Council of Ten, Venetian government reform, no longer takes a reform slot
+The merchant republic reform is no longer locked forever
+Fixed an error in the description of the 'gbara' policy; it should now read 'nobility' (or equivalent) correctly.
+The potential trigger for formable countries is now wider, they will generally be more visible in the selection list
+The Sokoto formable is now also formable by the Fulbe culture
+Ireland remains formable now in case both the high kingship and the lordship of Ireland are destroyed
+Byzantium can form the Roman Empire tag again
+The ‘Invite German Settlers’ privilege should no longer depopulate the original German locations, as it now can only trigger in locations with at least 2,000 pops.
+The reform "Signoria of Venice" is no longer a major reform
+Fixed instances of the "tag =" requirement wrongly having "c:" callsigns in several events and the Rome formable, which was preventing some content from triggering/working correctly.
+Malacca can now be properly formed via owning certain locations, as well as spawned via the Majapahit event "The Demise of Temasek"
+The "Only Nobility as Leaders" estate privilege no longer has duplicated modifiers active in it
+The Swedish unique 'Support New Farms in North or East' cabinet action can still be used if Sweden forms the Scandinavia tag.
+You are no longer blocked from favoring an heir when your already favored heir becomes your ruler
+Improved the tooltip of the Pikazi government reform
+The Venetian Noble privilege "Zontas" now requires the Crown Estate to have more power than the Noble Estate, instead of a set number
+Limited Shogunate reform to the leader of the Shogunate
+Corrected the implementation time of the 'Knights Companion' Policy of the 'Order of the Garter' Law, so it takes 2 years, instead of 20.
+The Government Reform "Shahbandariyya" is no longer available to everyone
+Economy and Production:
+Yamashiro can now only be built in locations without any other clan present or in those with an allied clan
+Nerfed the proximity cost of the Seljuk mint unique building so it does not max out before it hits max level
+Changed Peel Towers modifier to devastation recovery
+Society:
+The "deport heretics" religious actions can no longer deport people of your own religion.
+Rejection of a cardinal request will now accurately refund the invested religious influence
+South Slavic patronyms correctly change from 'ovič' to 'ović'
+The Rosenberg dynasty is now known as "z Rožmberka" in Czech instead of "z Rosenberg"
+Corrected the name 'Mandean' religion and culture, so it now correctly reads 'Mandaean'.
+Diplomacy:
+The "propose ruler" diplomatic action now has proper ai_will_do and acceptance values. In other words, the AI will now properly use this action
+Bank subjects now give 10% of their total treasury instead of 50% via the siphon income country interaction
+Appanages can no longer spawn outside of the French region
+Appanage subjects are now annexed with the same speed as vassals, and the required opinion to start annexation is now 190 instead of 200
+Tweaked the estate opinions of other countries based on external factors
+Fixed missing localization for make tributary cb
+Fixed broken tooltip in bestow elector status action
+Fixed broken descriptions of peace treaties
+Members of the lordship of Ireland will no longer fall into a lordship regency unless the leader of the IO uses the similarly named country interaction on them
+The Claim Throne casus belli is no longer blocked from different religious groups
+The Fleet Basing Rights relationship is now available to building-based countries, even if they have no ports. This change is specifically made for the Hansa
+The Enforce Religion subject action is now always available to Military Orders against subjects that also have the Military Orders government reform
+Subjects created by theocracies will now always have the religion of their overlord on creation
+Added missing localization for the message of calling an Appanage to war "
+Colonial nations now give food access to their overlord
+Added missing localization for the message of calling an Appanage to war
+Military:
+Balanced the Panokseon (Unique Korean Ship) build cost and maintenance to be roughly twice as expensive as a normal galleass
+The Baochuan ship is now buildable after being unlocked
+Mercenary captains from locations with the age 4 military institution "siege artillery" get the prefix "colonel"
+Advances:
+Fixed the missing description of the 'porcelain kiln', which now appears correctly.
+Moved the muscovite seat of metropolitan bishop advance into the free tree of the age of renaissance, so it can more easily enable the metropolitan alexius event (flavor_mos.14)
+The Venetian printing industry now gives a bonus to paper and books instead of diplomatic reputation.
+Added two late-game advances to give malaria resistance.
+Fixed the triggers for the 'Cattle Booleying' advance, an issue that was also blocking two Irish advances down the line, whose modifiers will now be available from the start.
+Achievements:
+Fixed the Achievement "Hóngwǔ Dì", so it now uses 'has_or_had_tag = MNG' instead of just 'tag = MNG', so it's not bricked when the tag becomes CHI.
+Other:
+Ensured that cardinal seats can no longer be removed with random effects, preventing unintended consequences for the Western Schism situation
+The Hussite Wars event "Jan Želivský's Congregation" will not occur if Bohemia is neither Catholic nor Hussite
+The coronation of a new HRE emperor will now properly refer to the previous one
+Fixed events Sicily Accepts to Pay Homage (flavor_nap.106) and Sicily Denounces the Treaty (flavor_nap.107) broken localization when in a regency
+The "Hanseatic Merchant Federation" government reform now has the "Cannot Be Subjugated" modifier. That will make the country also break from being anyone's subject
+Generalized the use of has_or_had_tag in a lot of unique country-specific flavours (policies, estate privileges, unique buildings, some country interactions, customizable localization, some missing government reforms, parliament issues and types, and a couple of missing units), so it can be kept when forming a new formable country.
+Fixed description of Antagonism Change Modifier
+Forming Germany now requires 66% of the land instead of 75%.
+----------
+Missions:
+The task "control around the capital" will no longer potentially require more than 100% control
+The mission pack "estate cooperation" will now only be available if the country has 3 or more estates, and will only be applicable to choose from the existing estates within your country
+------
+Other:
+Updated render of ocean.dds and ocean_bigger.dds to match more the style of our other location illustrations
+Updated narrowsea.dds to have more similar values to our other location illustrations
+Updated the size of the atoll.dds to match the size of the other location illustrations
+Updated render or struggle_for_royal_power to match more the style of our other disaster illustrations
+Tweaked the mountain chain in the location panel to be more visible and slightly smaller. Also adjusted the height of the hills in the location panels to be higher and more visible
+--
+Government:
+Fixed an issue where AI didn't want to research an advance that unlocked a building when there was an upgrade available in the current age, even though they hadn't embraced that institution yet
+Fixed an issue where AI would not correctly hire new courtiers to fill their cabinet
+Added AI score for army levy size modifier
+AI score for Levy Combat efficiency modifier is now based on the AI score for Levies themselves
+AI score for levy size is no longer indirectly dependent on the size of the country
+AI cabinet crackdown, rebel action now only targets rebels with at least 30% progress
+Diplomacy:
+Fixed an issue where AI would create bordergore due to refusing to take locations with 0 score, even when literally nothing else was available
+Fixed several instances of AI creating border gore in peace deals
+Fixed an issue where AI would sometimes not take locations in a peace deal due to not having a pre-calculated conquer desire
+Improved Peace deal AI so it would always punish the player for trying to create new bordergore
+AI is now much more likely to take bordering continuous land in peace deals
+Fixed an issue where AI was too quick to declare peace in wars that they were clearly winning, settling for a suboptimal peace deal
+AI is now more willing to declare war without a CB
+Fixed an issue where AI would sometimes wait a long time between selecting their war target and actually declaring war
+Reduced A.I.'s cooldown to declare new wars, given that their country is in a stable state
+AIi will no longer drag in their allies in wars that they are clearly favoured in
+Fixed an issue where AI would get stuck in a loop trying to attack a country they had military access to, but deciding against it due to high stability cost; now they will break the military access
+AI will now declare fewer wars if it already has a lot of unintegrated land
+AI will now improve relations with strong countries that they have no desire to attack, to reduce their antagonism
+Fixed an issue where AI was improving opinions with weak neighbors that they would often want to attack
+AI will no longer forcefully relocate markets in peace deals
+Fixed an issue where all AI would incorrectly use the warleaders' alliance strength and not their own when deciding how much antagonism they were willing to accept in a peace deal
+Fixed an issue where AI's reluctance to accept a peace deal that was resulting in border gore would only apply when the enemy war leader themself caused the border gore
+Fixed an issue where AI anti-border-gore logic when taking land in peace deals would only apply to the enemy war leader and not everyone in the peace deal
+Fixed an issue where AI would always peace out when they had occupied 100% of the enemy war leader instead of 100% of all enemies combined
+Fixed an issue where AI would incorrectly think all antagonism in peace treaties would be given to the war leader, leading to situations where they would take too few treaties
+Fixed an issue where AI Ottomans would sometimes refuse to take land in expansion wars because they already had too much unintegrated land
+AI will now use all its available warscore to give its allies more treaties if they can not give themselves anything further
+Fixed an issue where AI was sometimes forbidden to take land in a peace deal, even if they had part of that province already
+Portugal, Castile, and Aragon will no longer rival each other at the game's start.
+Economy:
+Somewhat reduced AI priority to build forts
+Improved acceptance logic for taking over a colonial charter from debt.
+Banking Nations will now use the 'renegotiate loan' action.
+AI will no longer shut down granaries when trying to recover from economic doom spirals
+Military:
+AI will now transfer occupation to the war leader if the occupied locations are neighboring the war leader but not the controller
+Fixed an issue where AI would not want to use a transport fleet that was slightly damaged, even when the intended transport distance was very short
+AI will now keep empty regulars when consolidating units to prevent costly rebuilds after war
+Rich countries will now field significantly larger armies in the mid and late game
+Strong AI armies will now only wait for an army to join them if it is of relevant strength, otherwise, they keep doing other objectives
+Fixed an issue where AI would pull units away from sieges to merge those armies during war
+The AI is now willing to allocate a greater portion of its budget to the military in later ages.
+AI is now more reluctant to reassign units to a different objective based on how long that unit has been part of a siege
+AI is now more responsive when it comes to assisting ongoing battles close to their armies
+Fixed an issue where AI armies could get stuck waiting to attack a target indefinitely due to mismatched strength checks regarding attached units
+---------
+Map Modes:
+Improved localization of legend keys for the reformation situation map mode.
+The peace treaty map mode no longer shows unit markers, so that they don't hide the map
+The reformation situation map colors and tooltips have been improved, in particular, stripes are used instead of color mixes for preachers.
+The War of Religions situation legend keys received a few corrections.
+A map mode has been created for religious schools.
+Alerts:
+Fix the rebellious subjects alert, showing only subjects with zero subject loyalty
+The alerts for missing employees now advise you to wait before building new buildings, to help new players understand the situation
+Add a coalition icon in the coalition alert for those countries that are already in a coalition against the player.
+Add subjects' CBS to the unpressed casus belli alert. Mark the subjects' CBS with an icon in the select casus belli tab
+Panels:
+Automation ui doesn't reset the building gold limit
+Fixed terrain modifiers showing "none" when there is no modifier affecting the rolled dice. Now it specifies it.
+Added a warning indicator for unprofitable buildings in the location panel's building cards
+Loc fixes and improvements in dialog confirm pop-ups and tooltips
+Added a shortcut to the diplomatic macrobuilder by right-clicking on the button to open the diplomacy panel
+Estate satisfaction on the top bar is now red if under 50
+Fixed the tooltip in the diplomacy relations panel, flickering countries when the game was unpaused.
+Fixed the army and navy construction empty slots overflowing their card in the location panel. Now they will show only the first 5 slots of both current constructions and empty slots, and then the tooltip will show the rest.
+Fixed call to arms not saying when an ally is in a union with one of the declared war enemies.
+Now you can delist all possible mercenaries in a unit, right-clicking on its button in the unit panel and the unit cards in the "make available for hire" list.
+The macrobuilder now shows production efficiency on the list of buildings, so you know which locations have the bonus from having the relevant RGO in the province
+The categories view of the buildings tab now includes the total income and maintenance cost of all buildings inside it, so you can know how much each category is contributing to your income and expenses. Also added tooltips with detailed breakdowns of how much each building is producing or costing
+The war name was not showing custom country names
+There are fewer none:s on estate privileges tooltips in the lobby screen unique content list.
+In the lobby, you can no longer access culture/religion/io from tooltips.
+The sort order for sub-units shown on the single unit panel now continually updates while the sort by strength column is selected.
+The map legend key ledger has been made less tall when there are few legend keys to show.
+Fixed road builder and RGO texts being out of bounds
+Fixed the Crown Estate title not being fully visible for certain languages
+Fixed character portrait not being clickable in heir selection
+Longer character names can fit into the select mercenary leader panel
+Fixed the holy sites and work of art filter crash
+Fixed the diplomacy subject list showing an incorrect number
+Fixed unit recruitment cost not displaying correctly
+Fixed misaligned combat bonus banner and improved readability
+Fixed spacing, margins, and readability for laws and policies
+Fix laws are not populated immediately after loading a save game
+Fix cultural influence and tradition monthly values in the culture view.
+Reworked a bit the declare war panel: Repositioned some call to arms, promise land, and call cobelligerent. Changed card color behavior for green when joining an ally, blue when not joining an ally, red when joining an enemy, and brown when not joining an enemy. Some minor layout fixes were also reworked.
+Increase the size of the Change Explorer button in the Territory panel
+Harmonized outliner pie charts and icons
+Outliner:
+Made the outliner entry for exploration more consistent with the cabinet action entry
+You can now select all your armies at once by right-clicking the checkbox in the outliner entry, as in the military panel
+Added a pie chart to the outliner entry of the convert province cabinet action
+Allow changing explorers via the character's portrait in the outliner
+Tooltips:
+Add the truce end date to the demand/offer peace tooltip
+Fixed empty tooltips for progress icons in the cabinet actions strengthen the government and stabilize the country.
+Added text icons for all unit statistics in their tooltips for better readability
+Tooltip for proximity cost through maritime presence is a bit more understandable now. Probably.
+Improved the tooltip for sound tolls to explain that their income scales with your control over the location
+Added a shortcut to the antagonism map mode in the tooltip for the impending coalition alert
+Added a scrollbar to the sound toll tooltip
+Added the amount of money actually taxed to the list of locations in the tooltip for the country tax base
+Improved concept for tax efficiency
+Fixed trade advantage showing twice as a filter for buildings.
+Building maintenance tooltip in balance shows the whole list of buildings
+Prisoner hire price shown correctly
+Rajput society's privilege now conveys a bit better that its effects scale with the relative size of some cultures in your country
+Fixed a bug where the tooltip for market food would tell you food balance is positive when it's not
+Fixed the food consumption unit modifier not having a description
+The concept for the combat phase now says the length of the bombard phase correctly by calling the appropriate definition
+Improved the names of modifiers from estate satisfaction and estate power
+Unit type tooltip now mentions that maintenance values are per 1,000 men
+Added a scrollbar to the estate power tooltip if it gets too big
+Added the sum of the maintenance cost of all buildings in a location to its tax base tooltip, so you can compare how much a location is giving and how much it costs
+Improve the tooltip format of the declare war comparison
+Improve the tooltip of the supply limit in the location. Now it will accurately display the effects of being over the limit.
+Fix and improve the readability of the tooltip in the location window for the supply limit. Now it will inform more clearly when all the units are fully replenished, there can be supply issues.
+Fix privateers' maintenance showing in manpower costs."
+Fix the missing icon in the integrate province cabinet action
+Fix the wrong fort maintenance breakdown cost tooltip in the location. It now correctly matches the actual maintenance as shown in the balance panel.
+Fixed tooltips getting wider and wider
+Subject type concept tooltip now lists the whole list of subject types
+Fix missing icons in manpower/sailors breakdowns
+Fixed the global_monthly_control_decline modifier showing the wrong color
+The tooltip for the model unit types that claimed to be hidden is now properly hidden
+Fix modifiers for diplomatic income not showing when they are at 0.
+Add army costs by unit type in the army maintenance tooltip in the economy tab.
+Fix the succession law tooltip eating lines
+Show base gold cost maintenance for units in the generic unit tooltip
+Fixed an attrition tooltip where a number was x100 the size.
+Expose dynastic power math in the tooltip
+Fixed synchronization tooltip showing incorrect dates for the rest of the players
+The great power rank tooltip will now show the minimum great power score needed to achieve great power status
+The alert for union members leaving now mentions that you can address the situation by calling the union parliament
+The tooltip for the independence war goal now explains the conditions for victory a bit better, and mentions that a white peace returns to the status quo before the war
+Fix the building maintenance tooltip
+Add opinion penalty info when removing locations from IOs before the player executes the action.
+Removed the non-functional, misleading open indicator in the possible control groups alert tooltip
+The Ironman icon in the Ironman tooltip is now properly colored as disabled when unavailable
+The map tooltip and cursor now indicate for selected armies if they can't move to a location due to the zone of control of a fort.
+Fixed missing names of foreign buildings in the production view
+Fixed the tooltip for the breakdown entries of cultural influence
+The Royal Marriage tooltip will no longer tell you that the child you try to find a spouse for is already married
+Show which specific pop types can raise levies in the levy information tooltip.
+Combine proximity costs for Maritime into one value and add a breakdown tooltip to show more clearly between costs with Maritime presence and costs due to lack of maritime presence.
+Show previous siege status in Siege tooltip
+You can now see on the character tabs how many non-royal marriages there are, and how many capable characters and
+Integration breakdowns for Provinces now calculate correctly.
+Other:
+Clicking on province definition/area/region/sub-continent/continent tags, in e.g., tooltips now pans and zooms (approximately) to the related geographical area.
+Made the flags bigger in the war panel to fill up the space
+Fixed sort by used diplomatic capacity in the country selection view using the number of diplomatic relations, not diplomatic capacity.
+Fixed displaying twice the saving in progress label when forced into the lobby
+Fixed the +X buildings addon tooltip in Location Buildings doesn't repeat buildings already shown in the panel itself
+Fixed redundant default key binding between tax base and raw materials
+Renamed call into war with promised land now reads call with promised lands into war, so it looks different from the normal call into war action when the text is cut
+Remove hidden map modes from input bindings settings
+The pop-up when you are disbanding armies now warns you about disbanding your regulars a bit better
+Show the Casus belli duration in the parliament's actions
+Add a produce food filter to the RGO builder
+Fix the cabinet action pie charts being empty at 100% progress
+Add update logic to keep cached finish dates up to date
+Do not close all popups when pressing the confirm keyboard binding
+Changed the order and content in the right and left click functionality in the single and multiplayer main menu
+Updated so the scrollbar sticks to the top of the list when new messages arrive in the message log
+Fix missing effect localization in the administration infiltrated by another country message
+Sort the missing employees alert by the number of missing employees
+Made the message multiplayer inaccessible, please sign in to Steam visible from the main menu, also, since it was not visible before
+Fixed parts of the interface not being hidden when forcing the lobby
+The character comes of age message should only consider the ruler's family, those who are eligible for royal marriages
+Multiple bugs fixed in the pause menu, including disabling the load button in Iron Man mode
+Made the country rank number fit better in the layout
+Add changing target cabinet action and target to cabinet map markers
+Added the location migration attraction to the selector list of the encourage migration cabinet action
+Explain the causes of being in diplomatic range or not
+Track captured units and improve ui of the battle summary
+Fix parliament will pass on exactly 50.00%
+Qol pass on promote urbanization cabinet action info block, map marker, and outliner entries
+Added a missing message for when a country rejects your request to become their subject
+Ongoing trades will now show a distinctive icon when the trade is being INEFFICIENT for whatever reason. Furthermore, the trade tooltip will convey in a clearer manner the reasons why the trade is inefficient, as well as provide a clear explanation of what trade inefficiency might be.
+Updated so the automation frame takes the full panel
+Rival Removed message is now shown when a rivalry towards you or someone else is forced to end.
+Various improvements to the Middle East & Mongol random generation, starting setup, and dynasties
+Fixed Gediminas switching to the Jagiellon flag variant when converting
+Fixed missing flags for the fall of Delhi situation, sultanates
+Add building information in the demands tooltip from the market. For each pm that is shown in the demand, the building that uses that pm is shown.
+Improvements & additions to random generation for German, Dutch, Italian & Polish dynasties
+Added headers and truce pie chart to coalition tooltip
+------
+Portraits:
+Fix the issue with Valdemar of Denmark not having any hair at the start of the game
+Other:
+Brazilian and Amazonian native cultures now use North American models instead of Mesoamerican ones.
+Fixed Aztec cavalry weapons and added backpacks
+Fixed all ships' firing VFX timings so they line up better with the animations
+-------
+Script:
+Added the "largest_army" and "largest_navy" event targets, which scope to the biggest army/navy. "big" here is determined by how big the max strength of the unit is, not by its current strength, as the latter can be quite volatile
+Added the "is_indestructibe" trait for building types, which makes them indestructible by the player or by the destroy_building effect. Also added the destroy_building_forcefully effect to circumvent this prohibition. remove_if will still automatically remove the building, though.
+In formable countries, 'capital_required' no longer defaults to 'yes`
+Added religious_view_impact trigger
+Added a catch-all trigger for checking income and peace status for countries
+Added an ai_will_select section for resolutions, which determines when the AI will propose the resolution. If left empty, the AI will instead fall back to ai_will_do
+Fixed a bug where the on_accepted_call_to_arms would give a boolean instead of the war itself for scope:war
+Added the on_subject_created on_action, which only fires when a completely new country gets created. For already existing countries becoming subjects, the on_action still is on_dependency_gained
+Triggers:
+Added the "is_leading_largest_army_of" and "is_leading_largest_navy_of" character triggers
+The opinion, trust, and antagonism triggers will now always return 0 when the country scope and the target country are the same
+Added the building_can_be_destroyed_by trigger for buildings
+Added an is_eligible_for_royal_marriage trigger for character scope
+Added the has_casus_belli_of_type trigger
+Added the bias_value trigger, which returns the value of the specified bias modifier. Useful for script value calculations
+Added the has_rebel_modifier and has_dynasty_modifier triggers
+Effects:
+Added the remove_all_casus_belli_of_type effect
+Fixed a bug that made the "is_taking_land" argument in the drop_antagonism_bomb have no effect whatsoever
+Added the add_dynasty_modifier and remove_dynasty_modifier effects
+The add_merchant_power effect now accepts scripted values as power input
+Other:
+Map modes: custom secondary map colors have been decoupled from primary and can be added even when a color_mode is used.
+Secondary_map_color for custom map modes now defaults to transparency (color keyed by max white). See e.g., tactical map mode for how to selectively color through an if trigger.
+Dynasties are now capable of having modifiers that apply to all members of the dynasty. They can also have country modifiers, which are only applied if any character of the dynasty is the ruler of a country
+Dynasties, Cultures, and Wars are now inspectable objects in the in-game explorer
+Added a new country effect that clears the current major reform of a country
+-----------
+All:
+Fixed a problem that prevented the correct language from loading for the loading screen
+-----------
+Fixed out-of-sync error caused by generating different ruler title keys when using different languages
+Fixed some players not being forced into the lobby after a new client joins, if the game rule is set.
+Fixed desynch related to fired events
+Fixed out-of-sync error related to units retreating from a combat.
+Fixed desynch caused by siege status not being persisted with the default value
+MP chat commands fix for names with special characters
+Fixed desynch and bug caused by adding unit duplicates to combat info and modifying internal values when removing multiple times
+Fixed desynch caused by generating different ruler titles when using different languages
+-------------
+Settings:
+The autosave interval setting is blocked (tt showing a reason) rather than hidden in Ironman.
+Control group keys (default 0-9 and Ctrl) are now rebindable in input bindings settings.
+Other:
+Changed so Iron Man games will be autosaved yearly on April 1st instead of monthly
+Fixed the has_child_education_selected trigger not triggering on balanced education
+You can no longer destroy buildings in occupied locations.
+AI will no longer open/close foreign buildings in its lands.
+The commission art now checks if you have prestige before starting it.
+Fixed an issue that allowed the marriage finder for distant relatives of the ruler.
+Fixed an issue where rulers would move to a fiefdom if it had a higher great power score.
+Fixed loading a cloud save from the in-game menu
+Added scope checks for marry_noble action, resulting in more clearer tooltip in case of failures and preventing error log spam
+Fixed replacing explorers not clearing the previous explorer.
+Barracks can now upgrade to conscription centers
+Fixed a rare crash related to changing graphics settings while the game is loading.
+Lost levies no longer become regulars, but are properly disbanded.
+Fixed the close to equator being always maximum south of the equator.
+Building-based countries now get their parliament in the capital instead of the void.
+Slaves can now be converted when using the law to force their conversion.
+Fix the crash in the recruit screen
+Fix the crash related to the frontage percentage in the unit view
+Fix the crash when not possible to write the loading screen history file
+Threaten War is now properly restricted to revolters in a civil war.
+Fixed the bug where blocked_from_forming_countries was checked instead of blocked_from_creating_subjects when attempting to create a subject.
+Fixed the battle result window for naval battles, showing the wrong number on overrun
+Attachments
+AI.jpg
+18,9 KB
+· Views: 0
+104
+57
+21
+4
+3
+2
+Reactions:
+Reply
+Report
+Written by
+PDX Ryagi
+Community Manager @ PDX Tinto
+Administrator
+Paradox Staff
+Moderator
+Messages
+342
+Reaction score
+13.009
+1
+2
+3
+…
+Go to page
+Go
+33
+Next
+1 of 33
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+P
+Pufu13
+First Lieutenant
+Dec 31, 2023
+257
+175
+Wednesday at 14:08
+Add bookmark
+#2
+AI gen 1.0.10 beta to live patch notes when
+edit: ah, nvm, same checksum as last beta
+Last edited:
+Wednesday at 14:13
+6
+2
+Reactions:
+Reply
+Report
+TraditionalistLeo
+Sergeant
+19 Badges
+May 15, 2024
+84
+442
+Wednesday at 14:10
+Add bookmark
+#3
+Happy holidays, Tinto!
+23
+2
+Reactions:
+Reply
+Report
+PDX Ryagi
+Community Manager @ PDX Tinto
+Administrator
+Paradox Staff
+Moderator
+Apr 17, 2025
+342
+13.009
+Wednesday at 14:14
+Add bookmark
+#4
+Pufu13 said:
+AI gen 1.0.10 beta to live patch notes when
+Click to expand...
+Yeah fully AI gen notes won't be something I'll ever be supporting.
+Having AI help rephrase a particular note that just isn't working, maybe, so long as it does not turn from "A couple notes" to "Oh shit 50% of our notes are AI slop now".
+76
+12
+11
+2
+2
+2
+Reactions:
+Reply
+Report
+C
+CuJla_B_npaBge
+Private
+21 Badges
+Nov 16, 2025
+13
+123
+Wednesday at 14:15
+Add bookmark
+#5
+River Map mode won't be brought back until January?
+7
+Reactions:
+Reply
+Report
+PDX Ryagi
+Community Manager @ PDX Tinto
+Administrator
+Paradox Staff
+Moderator
+Apr 17, 2025
+342
+13.009
+Wednesday at 14:15
+Add bookmark
+#6
+TraditionalistLeo said:
+Happy holidays, Tinto!
+Click to expand...
+Happy Holidays
+@TraditionalistLeo
+^.^
+12
+4
+Reactions:
+Reply
+Report
+PDX Ryagi
+Community Manager @ PDX Tinto
+Administrator
+Paradox Staff
+Moderator
+Apr 17, 2025
+342
+13.009
+Wednesday at 14:16
+Add bookmark
+#7
+CuJla_B_npaBge said:
+River Map mode won't be brought back until January?
+Click to expand...
+We're investigating it, the way it was implemented before is not clean so we'll do improvements and see where we land. (No hard promises but probably 1.1 Rossbach, in Feb)
+45
+7
+2
+1
+Reactions:
+Reply
+Report
+P
+paper1
+Sergeant
+9 Badges
+Nov 13, 2025
+76
+340
+Wednesday at 14:16
+Add bookmark
+#8
+IS ASSIMILATION FOR AI FINALLY FIXED?
+EDIT: ITS NOT
+Last edited:
+Wednesday at 14:32
+27
+8
+4
+1
+Reactions:
+Reply
+Report
+Geredis
+Major
+125 Badges
+Mar 10, 2007
+799
+761
+Wednesday at 14:17
+Add bookmark
+#9
+PDX Ryagi said:
+Added 6 new advances for the Kurdistan formable country
+Added 6 new advances for the Manchu formable country
+Added a new government reform for Sweden's Alsnö stadga'
+Added 6 new advances for the Sokoto formable country
+Added 7 new advances for the Italy formable country
+Click to expand...
+Can we get a breakdown of what these reforms and advances are, in brief?
+Which ages? What categories? What is their general intent and purpose? "X new advances" or "a new government reform" is still far too vague to give us a sense of the direction you're planning to take changes and adjustments for these formables...and Sweden. It'd be a great help to know what they are, where they are, what they're supposed to do, etc - especially for those of us who may not have played the countries in question previously.
+17
+2
+Reactions:
+Reply
+Report
+D
+Dongerino
+Evropa's Gemmiest Herald
+43 Badges
+Jun 27, 2015
+1.131
+10.921
+Wednesday at 14:17
+Add bookmark
+#10
+Tweaked the dynamic localization in the Hungarian language of the location 'debrc' to 'debrecen mačvában' ('debrecen in mačvá'), so it doesn't get confused with the other 'debrecen' location.
+I could swear you guys changed this to Vegdebrecen or something like that in the last hotfix
+1
+Reactions:
+Reply
+Report
+A
+Aiendir
+Second Lieutenant
+34 Badges
+Nov 6, 2025
+113
+496
+Wednesday at 14:17
+Add bookmark
+#11
+Until next year, everyone! Happy holidays!
+3
+Reactions:
+Reply
+Report
+PDX Ryagi
+Community Manager @ PDX Tinto
+Administrator
+Paradox Staff
+Moderator
+Apr 17, 2025
+342
+13.009
+Wednesday at 14:18
+Add bookmark
+#12
+Dongerino said:
+Tweaked the dynamic localization in the Hungarian language of the location 'debrc' to 'debrecen mačvában' ('debrecen in mačvá'), so it doesn't get confused with the other 'debrecen' location.
+I could swear you guys changed this to Vegdebrecen or something like that in the last hotfix
+Click to expand...
+Hotfix for the beta? This is just essentially porting 1.0.10 from beta, into live. So some notes might seem familiar
+(Though not sure for this specific case)
+8
+1
+1
+Reactions:
+Reply
+Report
+D
+Dongerino
+Evropa's Gemmiest Herald
+43 Badges
+Jun 27, 2015
+1.131
+10.921
+Wednesday at 14:20
+Add bookmark
+#13
+Is this where we make our Christmas wishes? Please add a CB type check trigger to the always join war and autocall blocks in International Organisation script. This way we could mod in a special CB that always calls in the entire IO while others wouldn't, or conversely have an IO autodefend members except for when a specific CB is used.
+3
+Reactions:
+Reply
+Report
+C
+CuJla_B_npaBge
+Private
+21 Badges
+Nov 16, 2025
+13
+123
+Wednesday at 14:22
+Add bookmark
+#14
+PDX Ryagi said:
+We're investigating it, the way it was implemented before is not clean so we'll do improvements and see where we land. (No hard promises but probably 1.1 Rossbach, in Feb)
+Click to expand...
+Removing it entirely is questionable decision to say the least. It is now much less convenient to plan urbanization and road building without this map mode. I don't think people ever complained about it, and removing it is just straight up worsening the game.
+Can you give it back for a time being in the next hotfix, please? People should not have to resort to mods or changing game files themselves to get an access to info that should be ingame.
+23
+6
+Reactions:
+Reply
+Report
+D
+Dongerino
+Evropa's Gemmiest Herald
+43 Badges
+Jun 27, 2015
+1.131
+10.921
+Wednesday at 14:23
+Add bookmark
+#15
+PDX Ryagi said:
+Hotfix for the beta? This is just essentially porting 1.0.10 from beta, into live. So some notes might seem familiar
+(Though not sure for this specific case)
+Click to expand...
+Yeah, there was a whole thread about how the one in the patchnotes is a weird amalgamation of Hungarian and Serbian and the patchnote said it was specifically changed due to forum feedback, which is why it stuck in my mind.
+Reply
+Report
+Teutonic_Knight_2000
+Major
+63 Badges
+Apr 11, 2017
+628
+1.808
+Wednesday at 14:24
+Add bookmark
+#16
+I think a cool thing would be a Historical AI mode that makes decisions based on history. I think it would be interesting for players who would witness real events, but with freedom.
+The only question is whether it is possible. It would certainly be difficult to do.
+Toggle signature
+Nationality:
+Polish
+Home:
+Mazovia, Poland
+Age:
+25
+Studying:
+Administration (
+Master's degree
+)
+Religion:
+Roman Catholicism
+5
+3
+2
+Reactions:
+Reply
+Report
+M
+magistairs
+Major
+49 Badges
+Oct 4, 2022
+524
+2.214
+Wednesday at 14:24
+Add bookmark
+#17
+Hmm releasing the last beta patch yesterday and not adressing any issue is kind of sad
+But at least we have the 1.0.10 released on time in case some urgent fix is needed before Friday!
+7
+1
+Reactions:
+Reply
+Report
+P
+paper1
+Sergeant
+9 Badges
+Nov 13, 2025
+76
+340
+Wednesday at 14:24
+Add bookmark
+#18
+its been
+1 MONTH
+since game breaking bug was introduced in 1.0.8 beta, we have 1.0.10 live now and AI is still braindead and uses only 2 cabinet actions, and its still not fixed, can i get a refund for this joke of a game?
+60
+11
+6
+4
+3
+1
+Reactions:
+Reply
+Report
+Abnormalmind
+Lt. General
+26 Badges
+Feb 7, 2011
+1.553
+1.286
+Wednesday at 14:26
+Add bookmark
+#19
+Thanks for the updates, Paradox.
+The mod: Better Road Builder: does not break ironman and clearly shows all the rivers.
+@CuJla_B_npaBge
+Toggle signature
+For God and country, Geronimo is KIA.
+7
+1
+Reactions:
+Reply
+Report
+B
+Blayas
+Recruit
+2 Badges
+Nov 25, 2025
+7
+13
+Wednesday at 14:28
+Add bookmark
+#20
+Happy holidays!
+Any predictions for the efficiency tooltip of unbuild buildings?
+Is it possible to have a menu summarizing the total commercial capacity of my bourgeois state and what they are trading?
+1
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+33
+Next
+1 of 33
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

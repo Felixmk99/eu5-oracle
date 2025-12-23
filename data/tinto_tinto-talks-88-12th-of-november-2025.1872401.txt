@@ -1,0 +1,447 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-88-12th-of-november-2025.1872401/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #88 - 12th of November 2025
+Thread starter
+Johan
+Start date
+Nov 12, 2025
+Hello everyone and welcome to some updates from Paradox Tinto on what we are doing with Europa Universalis V.
+So what's happened in the last week since we last talked? First, we released 1.0.2, which contained hundreds of important fixes, and then we released a small update this Monday called 1.0.3, which was primarily fixing some crashes and added the setting where you can maximise tickspeed over fps.
+Since last week, the core of the team has been working on the next patch, which is now in the approval QA process and will be released early next week. What does this patch contain?  Well, the patch notes are 700 lines at the moment, but the highlights include:
+Pop Demands rework, where wealth impact what type of goods the pops want
+You can now decide how much you want your pops to starve when you don’t produce enough food and don’t want to spend money on buying food.
+Cores will no longer instantly disappear, so should help with the Emperor not getting exclaves around the world.
+Characters will no longer all be cleanshaven.
+What are we working on now for the weekly patches for the rest of the year:
+Further AI improvements
+Quality of Life in the UI, like easier ways to upgrade buildings.
+Performance, Stability and Multiplayer Improvements
+Improvements to China and other parts of the world not working as they should.
+Improvements to localisation
+And as much bugfixing as possible..
+We are also working on a big free update named 1.1 - ‘Rossbach’ to be released in early February for things that are more risky and take longer time to develop.  Our focus there is adding some more content to the german region, new clothes, hats & wigs for the 18th century europeans, new improved UI for army and mercenary recruitment and much more.
+Also, for those of you who wonder about the first dlc Fate of the Phoenix, we have now started the process of designing how it will work, basing it a lot on what type of mechanics you as a community have been enjoying.
+335
+112
+8
+2
+2
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+12
+Next
+1 of 12
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+D
+Dragonfire2025
+Second Lieutenant
+Sep 16, 2025
+171
+583
+Nov 12, 2025
+Add bookmark
+#2
+Holy shit I'm seeing this one minute after it was posted!
+Hope those AI improvements pay off...
+Love you guys for all the work you do!
+22
+17
+1
+Reactions:
+Reply
+Report
+F
+Flying_Rock
+Sergeant
+26 Badges
+Jun 21, 2013
+64
+344
+Nov 12, 2025
+Add bookmark
+#3
+How does pop demand work currently and how will it work? I.e. how do pops decide to start demanding a good they haven't demanded before, like tobacco or lacquerware.
+26
+2
+Reactions:
+Reply
+Report
+Phatkoch69
+Captain
+23 Badges
+Nov 1, 2015
+491
+2.393
+Nov 12, 2025
+Add bookmark
+#4
+Can we have some more Achievements please, the first lot were fine but a bit dull.
+Please dont create memey ones but some challenging and quirky ones.
+29
+9
+4
+3
+Reactions:
+Reply
+Report
+M
+Mercedes Romero
+Second Lieutenant
+42 Badges
+Nov 7, 2024
+102
+498
+Nov 12, 2025
+Add bookmark
+#5
+Anything about the extraordinarily fast colonization of Africa?
+62
+8
+1
+Reactions:
+Reply
+Report
+Rudolf Nechvile II
+Major
+80 Badges
+Aug 3, 2017
+579
+2.960
+Nov 12, 2025
+Add bookmark
+#6
+Johan said:
+You can now decide how much you want your pops to starve when you don’t produce enough food and don’t want to spend money on buying food.
+Click to expand...
+Big change for those crazy souls out there trying to play Qusqu.
+Has the auto-transport bug been addressed? It really kneecaps the AI.
+Toggle signature
+Unbothered. Moisturized. Happy. In My Lane. Focused. Flourishing.
+41
+2
+Reactions:
+Reply
+Report
+Aquila SPQR
+LEGATVS PROPRAETOR BYZABOO MEME-MAN
+Jul 3, 2010
+2.438
+18.068
+Nov 12, 2025
+Add bookmark
+#7
+Please, please, please give me the option to automate noble marriages, I have so many characters I have few pop ups monthly about it, and from what I read if I won't marry them manually they won't do it themselves and soon after I'll run out of characters...
+135
+20
+Reactions:
+Reply
+Report
+T
+titan.bevel
+Colonel
+Aug 1, 2024
+904
+3.356
+Nov 12, 2025
+Add bookmark
+#8
+Will / may the improvement to China and ROTW include institution rework or is that deemed too risky and the fixes will be less ambitious and more along the lines of adding bespoke advances for their cultural groups ?
+Toggle signature
+2 proposals
+on missions
+a proposal on religious influence
+a proposal on CB and peace deals
+maps ought to be more important !
+trade need some monopoly notion
+,
+and some import and export differences
+8
+Reactions:
+Reply
+Report
+denisevlogiev
+Sergeant
+3 Badges
+Jul 28, 2012
+79
+216
+Nov 12, 2025
+Add bookmark
+#9
+Love the fact that you're working non stop on fixing bugs and improving the performance, such a great dev team.
+I have a question since Fate of the Phoenix will be centered around the pesky byzantines will Bulgaria get some more content since we're so tied together?
+17
+12
+1
+Reactions:
+Reply
+Report
+M
+Mattsjo
+Corporal
+53 Badges
+May 1, 2021
+37
+85
+Nov 12, 2025
+Add bookmark
+#10
+These changes sound great - especially interested to see quality of life improvements for nations with many towns to construct buildings in, such as unemployment mapmodes or more fine-tuned automated construction (e.g. choose specific buildings to autobuild to max level whenever new valid targets for them become available)
+6
+5
+2
+Reactions:
+Reply
+Report
+Tasmosunt
+Captain
+128 Badges
+Jul 21, 2009
+303
+3.413
+Nov 12, 2025
+Add bookmark
+#11
+Johan said:
+Characters will no longer all be cleanshaven.
+Click to expand...
+What is cleanshaven?
+Johan said:
+Also, for those of you who wonder about the first dlc Fate of the Phoenix, we have now started the process of designing how it will work, basing it a lot on what type of mechanics you as a community have been enjoying.
+Click to expand...
+Will we be getting early designs in TTs?
+Toggle signature
+Liberty! Equality! Solidarity!
+2
+1
+Reactions:
+Reply
+Report
+PoopDawg
+First Lieutenant
+40 Badges
+Feb 8, 2007
+246
+529
+Nov 12, 2025
+Add bookmark
+#12
+Will we see another small update this week (as announced with the last hotfix)?
+8
+1
+Reactions:
+Reply
+Report
+GreenApple
+Second Lieutenant
+69 Badges
+Nov 10, 2015
+132
+842
+Nov 12, 2025
+Add bookmark
+#13
+Sounds great! Glad to hear the HRE emperor exclaves are being looked at. One thing I'd like to mention, and you probably are aware of this already, is that the Golden Horde never seems to collapse which in turn makes it harder for Russia to form.
+Since the GH is an ABC, I think this is linked to the fact that armies are very difficult to stackwipe at the moment which tends to lead to annoying cat-and-mouse and makes battles feel quite unimpactful. Sometimes armies even appear to withdraw during the first day of combat with no casualties, even if they're caught at low morale by a bigger army.
+Last edited:
+Nov 12, 2025
+36
+1
+Reactions:
+Reply
+Report
+T
+titan.bevel
+Colonel
+Aug 1, 2024
+904
+3.356
+Nov 12, 2025
+Add bookmark
+#14
+Also for the AI improvement, will it include some vassals loyalty rework or will it be more along the lines of AI calculating better and spending its money better but not much change for vassals AI ?
+Toggle signature
+2 proposals
+on missions
+a proposal on religious influence
+a proposal on CB and peace deals
+maps ought to be more important !
+trade need some monopoly notion
+,
+and some import and export differences
+3
+1
+Reactions:
+Reply
+Report
+Metz
+Field Marshal
+107 Badges
+Nov 21, 2008
+7.108
+13.741
+Nov 12, 2025
+Add bookmark
+#15
+How much of the UI will be edited in the following year? Minor changes or is a large overhaul possible (button positioning, color scheme, etc.)?
+26
+3
+Reactions:
+Reply
+Report
+D
+Dragonfire2025
+Second Lieutenant
+Sep 16, 2025
+171
+583
+Nov 12, 2025
+Add bookmark
+#16
+Tasmosunt said:
+What is cleanshaven?
+Click to expand...
+They're having a beard update, so not all characters are beardless.
+9
+7
+4
+Reactions:
+Reply
+Report
+T
+titan.bevel
+Colonel
+Aug 1, 2024
+904
+3.356
+Nov 12, 2025
+Add bookmark
+#17
+Love the game and having a blast with it, keep up the good work ! Love to see the focus on bugfixes and various pain points encountered.
+Toggle signature
+2 proposals
+on missions
+a proposal on religious influence
+a proposal on CB and peace deals
+maps ought to be more important !
+trade need some monopoly notion
+,
+and some import and export differences
+3
+Reactions:
+Reply
+Report
+Windshear
+Private
+41 Badges
+Jun 29, 2016
+15
+20
+Nov 12, 2025
+Add bookmark
+#18
+Thanks for the update, Johan!
+Should we expect to see a weekly patch every week for the remainder of 2025?
+7
+1
+Reactions:
+Reply
+Report
+Gurtannon
+General
+28 Badges
+Mar 10, 2024
+1.702
+9.943
+Nov 12, 2025
+Add bookmark
+#19
+Paradox: Many locations in the world are still violating our 3x rule of thumb and some regions are quite rushed
+Aldaron said:
+I do understand your frustation but if a bigger density is not given before release, I am quite confident we will be able to give it later. I do have a lot of bookmarks with information for India, we just lack time. Please be patient.
+Click to expand...
+Also, the issues with Muslim mechanics and Nahua mechanics couldnt be addressed either
+Pavía said:
+I've just finished all the posts in the Tinto Talks, so first things first, thanks for your feedback! I've been bookmarking posts and taking notes, with your suggestions to improve the current mechanics of Tonal religions.
+I'll ask you for a bit of patience on any major changes, as they need to be discussed and scoped internally, then implemented, and later tested and debugged. Let's see if in some weeks from now, I can present you with some changes based on the aforementioned feedback.
+Click to expand...
+Ottomans are tier 1 country but the situation designed for that tier 1 nation is fundamantelly against them as it encourages uniting Anatolia before conquering Balkans
+Also Paradox: Lets make Byzantine dlc
+Sorry but you should fix and rework the current mechanics and map setup before diving deep into fantasy stuff
+As it is harder to fix the map after making flavour (as cores of some nations are forgotten to be modified once some locations are splitted to increase the granularity ex: Cilicia)
+Toggle signature
+UltraOttomanist Turk
+30
+6
+6
+Reactions:
+Reply
+Report
+Tissaia
+Major
+48 Badges
+Dec 4, 2019
+579
+4.327
+Nov 12, 2025
+Add bookmark
+#20
+Tasmosunt said:
+What is cleanshaven?
+Click to expand...
+Clean-shaven, i.e. no beard or mustache.
+4
+1
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+12
+Next
+1 of 12
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

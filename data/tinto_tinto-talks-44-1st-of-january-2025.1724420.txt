@@ -1,0 +1,738 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-44-1st-of-january-2025.1724420/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #44 - 1st of January 2025
+Thread starter
+Johan
+Start date
+Jan 1, 2025
+Hello Everyone, and Welcome to a new Tinto Talks. This is the Happy Wednesday, where we give you information about our future upcoming top secret game with the codename Project Caesar.
+Today we’ll go over all the trade goods we have in the game. Goods that are raw materials may be extracted from RGO operations in the locations that have them present, but many of them also have buildings that can produce their goods at a slightly less efficiency or capacity for when you need access to it.
+Produced goods can only be produced from various buildings.
+Some goods have a base-production, which is added to each market, scaled by total development of that market.
+Some resources require more trade capacity than others to move a resource between markets. Unless specified, the transport cost is 1.
+Default prices is the price a goods would have if supply and demand are matching exactly. The price in each market depends on the supply and demand of the goods in that actual market.  The price range changes depending on the age, where in Age of Tradition, prices currently range from 50% to 200% of the default price, while in Age of Revolutions the prices range from 20% to 500% of the default price.
+Goods are required by pops, units, building inputs, constructions and more.  One important aspect is that you actually need the goods, and if the demand is higher than the supply, then buildings or pops in locations further away from the market center will not get the goods they require!
+Raw Materials
+Horses
+Default Price is 3 and Transport Cost is 2
+Horses were domesticated at an unknown point of the Eurasian Steppe around six thousand years ago. Since then, they have been used by people for a wide variety of tasks, although the most important has been waging war. In that sense, the Middle Ages were the Golden Age of cavalry, as it was closely linked to the development of feudal societies.
+Clay
+Default Price is 0.25 and it has a base production of 0.02
+Clay is a type of soil that has been used by humanity for the production of pottery and ceramics since prehistoric times. Another main use is in construction, in combination with other materials, or in the creation of bricks. Clay tablets were also one of the first writing methods invented, so its impact in the development of civilization is undeniable.
+Sand
+Default Price is 0.5 and it has a base production of 0.01
+Sand is one of the most common materials on Earth, and its uses are multiple and varied. It has been the most pervasive abrading material used to shape any kind of stone or metal due to it being coarse and rough, as a component of many building materials and as the main material for the production of glass, among many other uses.
+Stone
+Default price is 1, it has a transport cost of 5, and a base production of 0.01
+Stone has been one of the main building materials of humanity throughout all its history. Stronger and more durable than other options like clay or wood, it was the go-to material for any construction built to last. Buildings from long ago like the Pyramids have reached our times still standing due to the durability of the stone they were made of.
+Coal
+Default Price is 2 and has a transport cost of 2
+Coal has a long history as a source of fuel, but it is not until the invention and dissemination of the practical steam engine that demand would take off. As the Industrial Revolution swept across Europe, the use and export or import of coal would become a major business and an integral part of a modern economy.
+Iron
+Default Price is 3 and has a transport cost of 2
+Iron represents not just iron, but other ferrous metals and the production of alloys such as steel. Iron formed the basis of the metallurgical industry and was used extensively in the production of weapons and other military equipment.
+Copper
+Default Price is 3 and has a transport cost of 2
+Copper was the main component of bronze and was essential in the early production of cannons.
+Gold
+Default Price is 10, but the production impacts inflation.
+Gold was the basis of many formal currencies in Europe. The great gold mines of Central and South America would end the great bullion crisis that had gripped Europe in the previous century. However, unwise usage of this great wealth could lead to inflation and ruin.
+Silver
+Default Price is 8, but the production impacts inflation.
+Silver was one of the first metals used as money and the most successful along with gold. Central Europe became the center of silver production during the Middle Ages, although the Columbian Exchange shifted the focus of world production to the Americas, making it the main production center of a newborn global network since the 16th century.
+Tin
+Default Price is 2
+Tin was used extensively for the first time in metallurgy as part of the alloy to obtain bronze 5000 years ago. Later it has been widely used to coat other metals and alloys, such as iron, lead or steel, to prevent corrosion, as well as to make pewter, very common in tableware.
+Lead
+Default Price is 2
+Lead has been obtained since ancient times as a by-product of silver extraction by burning galena. Lead was then used in a wide range of household and manufactured products, especially by the Romans, whose levels of lead production were not reached until the Industrial Revolution. In the Modern Age, it became the main material for making bullets for firearms.
+Silk
+Default Price is 4
+The finest of all fabrics of the east was the silk produced in India, China, and East Asia. While less iconic than spices, the profits from silk and finely woven cotton cloth would in fact soon dwarf those of the spice trade for the European East India Companies. Due to increasing demand attempts were also made to produce the material locally in mercantilist Europe, with very varied degrees of success.
+Dyes
+Default Price is 4 and transport cost is 0.5
+For as long as textiles have been woven there has been a market for fine dyes. During the late Middle Ages expensive dyes such as indigo would be worth a fortune due to how distant the source in India was. As the world opened up dyes became easier to get hold of, both through the possibilities to produce them in America and the greater accessibility of the Indian market. Nonetheless, dyes remained rare and in the early 19th century; as the dye plantations in India fell into European hands, a veritable gold rush ensued.
+Incense
+Default Price is 2.5 and transport cost is 0.5
+To spread smoke and fragrance through the burning of materials has been common in ceremonial practices for centuries. Frankincense, agarwood, sandalwood, myrrh, and other goods suited for this use can be found in few places and their diffusion was an integral part in the formation of trade networks such as the Silk Road or the fittingly named Incense Route.
+Tea
+Default Price is 3
+Tea was an important luxury drink in China, India, and South-East Asia. It was often used in religious or social rituals. The English popularized tea in Europe. Never considered as noble a drink as coffee, it still produced large profit merely from the fact that the world supply was low.
+Cocoa
+Default Price is 4
+Cocoa was used as a stimulant by the Aztec, Incan, and Indian rulers since the early medieval times. It was popularized in Europe in the early 16th century when the Spaniards imported it from its American colonies. Cocoa became a luxury enjoyed by the rich.
+Coffee
+Default Price is 3
+Coffee was discovered in the northeast region of Ethiopia and coffee cultivation first took place in southern Arabia. From the Middle East, coffee spread to Italy in the 17th century and was then introduced to the rest of Europe. Coffee became more widely accepted after it was deemed a Christian beverage by Pope Clement VIII in 1600, despite appeals to ban the 'Muslim drink'.
+Fiber Crops
+Default Price is 2
+Many different fibrous crops are used all around the world to craft a multitude of products such as sails, ropes, fishing nets, and clothes. Beyond their use to produce coarse textiles, however, many are also used as a core part of the production of finer textiles, used in ceremonies, households, and elsewhere. Some examples are hemp, flax, jute, and sisal.
+Ivory
+Default Price is 4
+Ivory was one of the main exports of Africa apart from slaves. It was highly sought after by Europeans for use in various manufactured goods such as cutlery, gifts, small pieces of art, furniture, etc.
+Fur
+Default Price is 2
+Furs were one of the basic elements of high quality and warm clothing. Skins from all kinds of animals were supplied initially from Russia but more and more from North America where beavers would be the prize of choice at least till the late middle 18th century.
+Lumber
+Default Price is 1 and the base production is 0.005
+Lumber has been one of the main building materials for humanity throughout all its history. Although less durable than stone, it is more easily accessible have made it a staple of any building in all places of the world. Even structures designed to be resistant like castles and fortifications have also their versions made out of wood rather than stone.
+Salt
+Default Price is 3
+Salt is essential for human life. In addition, it was the most common means to preserve food for the long winter months. It was either mineral, brought from mines in Central Europe, or natural, from salt wetlands production via evaporation along sunny coastlines.
+Medicaments
+Default Price is 1 and transport cost is 0.5
+A wide variety of plants and animal products have been used throughout history to treat all kinds of illnesses, due to their medicinal properties or supposition thereof. Some were more based on actual properties than others, while in some cases it was more a matter of belief in their effectiveness.
+Gems
+Default Price is 4 and transport cost is 0.5
+Since the earliest times, stones such as rubies, sapphires, diamonds, emeralds, jade, or pearls, have been used in jewelry and ceremonial attire. For centuries the only source of diamonds in the world were the fabled mines at Golconda. While not all precious stones are as rare, they are all highly sought-after commodities.
+Pearls
+Default Price is 4
+Pearls are produced inside different kinds of shelled mollusks. The resulting product is a hard glistening object, ideally round but can take many shapes. They have been appreciated for their beauty and used like gemstones as ornaments all over the world through all human history.
+Amber
+Default Price is 4
+Amber is a valuable good made from fossilized resin that was primarily used in the manufacture of jewelry and ornaments. Its main source has been depots on the Prussian coast, mentioned for the first time in a 12th-century document.
+Saltpeter
+Default Price is 2
+Saltpeter has been known since antiquity, and its uses have been varied such as a fertilizer or as salt for meat processing. However, it was the invention of gunpowder and firearms during the Middle Ages that really raised its importance, as it is one of the main components of it, together with charcoal and sulfur. Mined in great quantities around the world, this metal will go on to acquire an infamous reputation.
+Alum
+Default Price is 3
+Alum is an essential ingredient in dye-making as well as specializing in the tanning process. Seeing use in a variety of artistic and craft contexts, it is primarily utilized in painting and illuminating processes. Originating mostly from the Chad region, it was traded in the markets of the entire Islamic world, but in the Late Middle Ages, other sources started to be exploited in Europe.
+Spices
+Default Price is 6 and the transport cost is 0.25
+Spices have been known in Europe since ancient times, mostly for their medicinal value, and for their ability to improve the taste of food. Pepper, ginger, nutmeg, chili, cinnamon, etc. came partly from East Africa but mostly from India, China, and the Spice Islands (current Indonesia), to be traded in Alexandria or the other terminals of the great caravan roads. The European desire for cheaper and more direct supply constituted the main motivation for the very first eastbound sea voyages of discoveries for Portugal.
+Wine
+Default Price is 2
+Wines have been produced since time immemorial in the southern parts of Europe. It still constituted an essential element of the everyday diet, except maybe in the Muslim world. Wine was not considered a luxury product but probably served as a welcome relief for hundreds to an otherwise dull diet.
+Elephants
+Default Price is 10
+Elephants have been used in warfare since ancient times in India, South East Asia, the Middle East, and North Africa. The use of elephantry persisted in some of these regions into the Middle Ages, although the advent of gunpowder warfare in the Modern Age outpaced its usefulness in battle.
+Marble
+Default Price is 5
+Marble has been used in sculptures and constructions since Antiquity, being considered a type of luxurious material due to its appearance and ductility. Some of the best works of art made by Renaissance and Baroque artists, such as Michelangelo or Bernini, are made of marble.
+Mercury
+Default Price is 3
+Mercury is used for medicine, but will also be of great importance to refine gold and silver ores of lesser qualities in order to make them profitable.
+Cotton
+Default Price is 3
+Cotton originated from Central Asia but was not widely used in Europe until it was introduced to the American colonies and used as a cheap but good complement or substitute for wool in the clothing industry of the late 18th century
+Sugar
+Default Price is 3
+Sugar was used not only as a sweetener but also for food preservation. The sugar cane was the only known means of obtaining sugar at this time and had been grown initially in some Mediterranean islands. But the labor-intensive plantation system in America, especially in the Caribbean islands, would soon move the major production sources overseas.
+Tobacco
+Default Price is 3
+Tobacco was unknown in Europe until brought from Americans in the late 16th century. It quickly became a fashion for the upper classes who could afford it and ensured the fast and profitable economic growth of the British colonies in North America, as well as in Portuguese Brazil.
+Food
+Wool
+Default Price is 2.5 and produces 5 food per unit produced.
+Wool came mostly from sheep that grazed in the more marginal lands not suited to other forms of agriculture. Prior to the use of cotton, it was the major raw material for clothing.
+Wild Game
+Default Price is 1 and produces 2.5 food per unit produced.
+Wild game is the source of food and nutrition for local populations, especially in sparsely populated rural communities. The hunt of wild animals such as elk, deer, boars and more, are an important cornerstone of a society due to the fact that the aforementioned animals contribute leather, bones, entrails and nutrition to the populace.
+Fish
+Default Price is 1 and produces 5 food per unit produced.
+Fish was one of the most basic foods for the European population in this age, as meat was more than a luxury for the great majority. Fishermen also provided the basic recruiting pool of the merchant and military navies of most nations.
+Wheat
+Default Price is 1 and produces 8 food per unit produced.
+Wheat represents the vegetable foodstuff that was the staple diet for humans and animals. Lack of it would always lead to revolts and riots. Other cereals and vegetable foodstuffs would later be augmented by tomatoes, corn, and even potatoes from America offering a wider choice both in food and agricultural production varieties.
+Soybeans
+Default Price is 1 and produces 6 food per unit produced.
+Soybeans are a type of legume that have been a staple crop in East Asia for almost ten thousand years. Their uses are quite versatile, as not only can they be eaten by themselves, but also milk can be extracted from them, which can also be further processed into tofu. Soybeans can also be fermented into products such as soy sauce and miso.
+Maize
+Default Price is 1 and produces 8 food per unit produced.
+A cultivated plant that was originally domesticated in Mexico, thousands of years ago, maize was traded between the new and the old world with the arrival of the Europeans in the 15th century. Due to its enduring nature as well as its higher dietary value, maize is destined to become a worldwide commodity.
+Rice
+Default Price is 1 and produces 10 food per unit produced.
+Rice is a type of grain that has been the staple food for Asia since its domestication more than ten thousand years ago. It was also independently domesticated in Africa more than three thousand years ago, and it has also been an important food source there ever since. It was brought to Europe through trade with Asia as far back as Classical Antiquity, although it did not manage to supersede other types of grain there.
+Sturdy Grains
+Default Price is 1 and produces 5 food per unit produced.
+Sturdy Grains are different kinds of cereal grasses that have been domesticated in many parts of the World at different points in time ever since the Neolithic. Their greater resistance to poor quality soils and dry conditions have made them into a more important food source in semi-arid regions compared to other kinds of grain.
+Legumes
+Default Price is 1 and produces 5 food per unit produced.
+Various civilizations across history have utilized legumes as a substantial source of nutrition for thousands of years. Much like maize, Europeans were introduced to new types of them with their eventual arrival on the shores of the New World. Legumes were not only filling but also cheap to produce and move on ships.
+Potato
+Default Price is 1 and produces 8 food per unit produced.
+The potato is a starchy tuber domesticated around Lake Titicaca by the native people of the Andes. It helped the rise of the Andean civilizations thanks to its hardiness and high caloric density. After the Columbian exchange, it spread all around the globe and by 1750 it was a staple food in Europe facilitating its 19th-century population boom.
+Livestock
+Default Price is 1.5 and produces 8 food per unit produced.
+Since the dawn of history, the care for domesticated animals has been one of the main occupations of humanity. Livestock includes everything from cows and horses in rich agricultural areas to the herds of pastoralists in the great plains and deserts of the world.
+Olives
+Default Price is 1 and produces 4 food per unit produced.
+Olives are harvested from the trees of the same name, which have been cultivated around the Mediterranean Sea for thousands of years. They are highly appreciated in gastronomy, especially the olive oil that is used to cook and dress a wide range of foods in Mediterranean cuisine.
+Dates
+Default Price is 1 and produces 4 food per unit produced.
+Dates are a type of fruit harvested from date palm trees, which grow in semi-arid, but fertile terrains throughout the Middle East and North Africa. Dates are widely used in the different cuisines of these regions.
+Fruit
+Default Price is 1 and produces 4 food per unit produced.
+Fruits cover a wide range of products found on trees such as citrus, bitter and sweet oranges, apples and more. For many, these products would be unattainable and a source of nutrition only for the elites. Nearly every region across the world is home to a different kind of fruit and the advent of global trade would go on to introduce different populations to various new fruits.
+Produced Goods
+Tar
+Default Price is 2
+Originally propped up as a cash crop, tar is a valuable ingredient of the ship-building business. Its appearance, that of a thick black liquid, is due to the aggressive distillation process that is required for its production. Tar is widely used as a seal for ship hulls and as a cheap way to waterproof sails.
+Porcelain
+Default Price is 3 and the transport cost is 0.5
+Porcelain is a type of ceramics characterized by its strength and translucence due to the vitrification of the materials caused by high temperatures. It was developed in China over a period of time starting more than three thousand years ago, with proper porcelain being developed already almost two thousand years ago, and from there, it eventually spread to all over the world as a highly sought-after commodity.
+Naval Supplies
+Default Price is 3
+Naval Supplies represent everything needed in ship construction, from basic wood to tar, ropes, linen, sails, and various other materials. The Baltic was initially the main supplier until North America became an alternate source of supply in the early 18th century. Colonial expansion into America was in part to secure supplies of such vital goods.
+Firearms
+Default Price is 3
+The conception and arrival of guns changed the dynamic of battlefields. Wars waged across Asia and Europe will now be subject to cultivating, importing and harnessing the potency of gunpowder. Guns have become a natural evolution of warfare and an essential part of protecting the sovereignty of domains across the earth.
+Cannons
+Default Price is 4 and transport cost is 1.5
+Although siege weapons have existed since antiquity, the discovery of gunpowder has given rise to some weapons with a potentially destructive power that has never been seen before. The ability to throw bigger projectiles at greater speed and distances than ever before will make all but the sturdiest of fortifications quickly fall before them, without mentioning the effect those projectiles can have when fired towards armies themselves.
+Weaponry
+Default Price is 3
+Various weapons such as swords, pikes, and bows make up the core weaponry of every army. The techniques behind their creation are an art refined throughout the ages. Despite that and regardless of how different the era may be, weaponry will always be a vital instrument to protect one's independence.
+Glass
+Default Price is 2 and transport cost is 0.5
+Glass has been valued for centuries as a useful material for art, architecture, or simply the crafting of vessels for daily use. Eventually, as glassmaking techniques improved, glass would also become crucial to the scientific field of optics, with glass lenses being used in the fabrication of spectacles, telescopes, and a plethora of other devices with wide-ranging applications from maritime navigation to the natural sciences.
+Steel
+Default Price is 5 and transport cost is 2
+Steel is widely used for the crafting of weaponry and guns. Various of its qualities are used for different weapons, blunt steel for axes and high-quality steel for swords and knives. As such, steel is also employed as the main metal for the forging of equipment and tools.
+Cloth
+Default Price is 3
+Cloth represents the various fabrics and clothing made from wool and linen. Later cotton, imported from India and the Americas, became a major material for cloth.
+Fine Cloth
+Default Price is 6
+Fine clothing was traditionally a marker of status for the elites and wealthy classes. Textiles such as damasks, muslins, or brocades were marketed and replicated throughout the world as a very profitable business in the Middle and Modern Ages.
+Liquor
+Default Price is 2.5
+Liquor is an alcoholic beverage produced by distillation of very different types of products of plant origin. Distillation is done to increase the alcohol by volume. Popular liquors distilled and consumed around the world were gin, rum, whisky, vodka, tequila, or shōchū.
+Beer
+Default Price is 2
+Beer has been a pillar of gastronomy since it was first brewed in the Neolithic. It became a widespread drink in the Middle Ages, and was the object of the oldest food-quality regulation still in use, the Bavarian 'Reinheitsgebot'.
+Slaves
+Default Price is 3
+Slaves had been a trading commodity since Antiquity, but demand increased sharply in the late 16th century when Slaves offered one of the cheapest sources of labor for European plantations in the Americas.
+Paper
+Default Price is 2
+Paper is a necessity for all types of advanced accounting, administration, and diffusion of knowledge. The process of its production was originally devised in China and then slowly made its way to all corners of the Old World. Far superior to other types of writing materials such as parchment, the large-scale production of paper requires a specialized set of skills and equipment, making it a rare and sought after commodity.
+Books
+Default Price is 5
+Books have been one of the main custodians of human knowledge since writing was invented thousands of years ago. They were usually made of leather parchment, paper, and other plant fibers. The invention and spread of movable type printing systems in the Middle Ages made books much more widespread and accessible to the population.
+Jewelry
+Default Price is 5 and transport cost is 0.5
+Jewelry represents a set of regalia or ornaments that are crafted by skilled smiths using jewels and precious stones. Their value is often associated with high social standing and even royalty.
+Leather
+Default Price is 3
+One of humanity's earliest discoveries, leather is largely used in the manufacturing of clothes, footwear, and decoration. Its success is largely attributed to its high level of comfort and durability, eventually becoming the choice material for the making of dinner-related furniture, due to leather being easy to maintain while being resistant to absorbing food odor.
+Tools
+Default Price is 3
+The production of tools is the main factor that allowed human society to flourish. From the more simple and primitive stone tools to the most advanced and precise implements developed through the use of metallurgy, they allow the further creation of equipment and weapons.
+Masonry
+Default Price is 1
+Construction techniques come in all shapes and sizes. The ability to fabricate smaller pieces with a regular size and shape to use in construction greatly increases not only the efficiency in which buildings can be constructed but also their durability once built.
+Lacquerware
+Default Price is 5
+Lacquerware was developed in China and Japan as far back as the Neolithic period, more than ten thousand years ago, and consists in covering products made of wood or metal with a decorative layer of lacquer, a product extracted from resin and wax. This lacquer layer can then be further decorated with paintings, carvings or dustings of gold or silver making it into a luxurious good.
+Stay Tuned, as next week we'll delve into the effects of all vegetations, topography and climate.
+218
+119
+14
+5
+5
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+27
+Next
+1 of 27
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Jan 1, 2025
+Add bookmark
+#2
+Happy New Year! Shouldn't this be 1st of January 2026?
+16
+2
+1
+Reactions:
+Reply
+Report
+Kotyk-durkotyk
+Colonel
+23 Badges
+May 26, 2024
+1.137
+15.631
+Jan 1, 2025
+Add bookmark
+#3
+Happy new year to all and thanks for all your Christmas presents! The art is rally gourgeous!
+One thing I want to address is that the game should probably keep
+consistesncy in naming
+- Resources / Raw Goods / Raw Materials
+. I am OK with all of them as well as the RGO acronym, but the game should use only one name I think.
+If you stick with the RGO (
+Resource Gathering Operation
+s) acronym, then they should be probably called
+Resources
+everywhere else in the game, not Raw goods / Raw Materials.
+Or if you use
+Raw Goods
+, then rename
+RGO
+into
+Raw Goods Output
+(my personal preference)
+,
+Raw Goods
+Operations
+:
+Last edited:
+Jan 4, 2025
+Toggle signature
+Check out my EU5 threads:
+Ruthenia and Steppe Fix
+–
+my EU5 Mod
+with historical corrections for the Ruthenian and Steppe Regions
+Ruthenian / Cossack / Ukrainian Content Pack
+Orthodoxy Needs a Full Rework in EU5
+145
+30
+7
+2
+1
+Reactions:
+Reply
+Report
+matfer13
+Field Marshal
+1 Badges
+Dec 17, 2023
+3.015
+18.591
+Jan 1, 2025
+Add bookmark
+#4
+Johan finally got the year right this time!
+15
+1
+1
+Reactions:
+Reply
+Report
+D
+Deleted user
+Guest
+Jan 1, 2025
+Add bookmark
+#5
+Are trade goods immortal or do they change over time/are affected by something? E.g.:
+1. can I genocide the world of horses?
+2. Do trade goods change over time in places, where it historically did happen?
+3. are mines connected to a infinite dimension of their ressource or can they collapse for good and spawn a different trade good?
+21
+14
+8
+1
+Reactions:
+Reply
+Report
+F
+Fruizzy
+Second Lieutenant
+6 Badges
+Oct 25, 2021
+133
+1.187
+Jan 1, 2025
+Add bookmark
+#6
+Johan said:
+Goods that are raw materials may be extracted from RGO operations
+Click to expand...
+Smh my head
+32
+9
+2
+Reactions:
+Reply
+Report
+P
+philipschall
+Captain
+12 Badges
+Nov 14, 2009
+323
+186
+Jan 1, 2025
+Add bookmark
+#7
+Why is the Transport cost of Horses 2, but the cost of Elephants 1?
+65
+14
+1
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Jan 1, 2025
+Add bookmark
+#8
+matfer13 said:
+Johan finally got the year right this time!
+Click to expand...
+But nearly fumbled the number
+6
+Reactions:
+Reply
+Report
+karasis65
+First Lieutenant
+2 Badges
+Jun 26, 2014
+203
+1.352
+Jan 1, 2025
+Add bookmark
+#9
+The elephants on the art looks amazing and cute! I loved it!
+11
+7
+1
+Reactions:
+Reply
+Report
+P
+Perkunvilkis
+Corporal
+May 30, 2024
+48
+294
+Jan 1, 2025
+Add bookmark
+#10
+Why not include honey?
+40
+8
+1
+Reactions:
+Reply
+Report
+Goblin Slave
+Goblin
+58 Badges
+Jul 6, 2018
+188
+2.402
+Jan 1, 2025
+Add bookmark
+#11
+What are the requirements to produce lacquerware, and is there anything g to represent the different styles of it? For example China is best known for its carved lacquer, very thick lacquer that is meticulously carved and colored red with cinnabar. Japan meanwhile is famous for the maki-e technique in which gold and silver are sprinkled and covered in thin lacquer, giving that famous gold and black look that European loved to imitate.
+(Chinese imitations of Japanese lacquerware made up most of the lacquer exports to Europe, with carved lacquer being made more for domestic consumption, there was a similar dynamic with the famous blue and white export porcelains)
+Attachments
+IMG_8218.jpeg
+1 MB
+· Views: 0
+IMG_7940.jpeg
+1,7 MB
+· Views: 0
+8
+3
+1
+Reactions:
+Reply
+Report
+M
+Miguelinileugim
+Major
+1 Badges
+May 6, 2021
+568
+1.937
+Jan 1, 2025
+Add bookmark
+#12
+Johan said:
+Medicaments
+Click to expand...
+RED ALERT Catalans got to Johan RED ALERT
+7
+4
+Reactions:
+Reply
+Report
+CorneliusBottomly
+First Lieutenant
+4 Badges
+Apr 3, 2018
+293
+2.004
+Jan 1, 2025
+Add bookmark
+#13
+65
+3
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Jan 1, 2025
+Add bookmark
+#14
+bokorthedust said:
+Happy New Year! Shouldn't this be 1st of January 2026?
+Click to expand...
+maybe.  or dunno
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+30
+1
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Jan 1, 2025
+Add bookmark
+#15
+Kotyk-durkotyk said:
+Happy new year to all and thanks for all your Christmas presents!
+One thing I want to address is that the game should probably keep
+consistesncy in naming
+- Resources / Raw Goods / Raw Materials
+. I am OK with all of them as well as the RGO acronym, but the game should use only one name I think.
+If you stick with the RGO (
+Resource Gathering Operation
+s) acronym, then they should be probably called
+Resources
+everywhere else in the game, not Raw goods / Raw Materials.
+Or if you use
+Raw Goods
+, then rename
+RGO
+into
+Raw Goods Output
+,
+,
+Raw Goods
+Operations
+:
+View attachment 1238150
+View attachment 1238151
+The game is going to be quite complicated for newer players, so this would be a small step towards less confusion.
+Click to expand...
+Good point
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+106
+8
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Jan 1, 2025
+Add bookmark
+#16
+matfer13 said:
+Johan finally got the year right this time!
+Click to expand...
+yeah, its confusing all the time
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+33
+20
+1
+Reactions:
+Reply
+Report
+Tasmosunt
+Captain
+128 Badges
+Jul 21, 2009
+303
+3.413
+Jan 1, 2025
+Add bookmark
+#17
+Think there should be some kind of wood and fine wood Produced Goods to represent furniture production.
+Toggle signature
+Liberty! Equality! Solidarity!
+12
+6
+1
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Jan 1, 2025
+Add bookmark
+#18
+karasis65 said:
+The elephants on the art looks amazing and cute! I loved it!
+Click to expand...
+They look so happy, don't they?
+9
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Jan 1, 2025
+Add bookmark
+#19
+GeneralNoob said:
+Are trade goods immortal or do they change over time/are affected by something? E.g.:
+1. can I genocide the world of horses?
+2. Do trade goods change over time in places, where it historically did happen?
+3. are mines connected to a infinite dimension of their ressource or can they collapse for good and spawn a different trade good?
+Click to expand...
+1 - in theory yes, if you control all locations producing it, and also remove all horse farm buildings.
+2 - in some places yes
+3 - we are looking into mine depletions, but in most previous games we have made  that tend to be very annoying for the player, or extremely gamey.
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+98
+16
+4
+3
+2
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Jan 1, 2025
+Add bookmark
+#20
+philipschall said:
+Why is the Transport cost of Horses 2, but the cost of Elephants 1?
+Click to expand...
+oversight.. should probably have 5 on elephants
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+108
+17
+8
+1
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+27
+Next
+1 of 27
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

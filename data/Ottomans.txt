@@ -1,0 +1,255 @@
+Source URL: https://eu5.paradoxwikis.com/Ottomans
+Source Date: 2025-12-17
+
+This is a
+compilation
+and strategy article for
+Ottomans
+.
+Mechanics and flavor content are
+transcluded
+from other pages.
+Ottomans
+Country type
+Settled
+Government type
+Monarchy
+Primary culture
+Turkish
+Primary religion
+Sunnism
+Capital location
+Bursa
+Country description
+[
+edit
+|
+edit source
+]
+In 1337, the Ottomans stands at the door of Europe, and will rise amongst the Turkish beyliks to unite Anatolia. Sooner or later their ambitions will have to collide with the crumbling empire of
+Byzantium
+, to claim the City of the World's Desire.
+Ottoman content
+[
+edit
+|
+edit source
+]
+Main article:
+Ottoman content
+Situations
+[
+edit
+|
+edit source
+]
+The Ottomans are the initial leading country in the
+Rise of the Turks
+situation, once it starts.
+Start conditions
+[
+edit
+|
+edit source
+]
+Population
+[
+edit
+|
+edit source
+]
+On the first of April 1337, the Ottomans start with the following 681k of pops :
+Culture
+[
+edit
+|
+edit source
+]
+61.87% Greek
+30.81% Turkish
+6.64% Turkoman
+0.67% Romanyoti
+Religion
+[
+edit
+|
+edit source
+]
+61.63% Orthodoxy
+31.06% Sunnism
+6.64% Shiism
+0.67% Judaism
+Strategy
+[
+edit
+|
+edit source
+]
+The below is
+one of many
+player suggested strategies for
+Ottomans
+. Bear in mind, due to the dynamic nature of the game, it may unfold differently for other players.
+Preface (Current Patch: 1.0.6)
+This guide is made by a single, dedicated Ottomans player. Thus, mistakes can happen or more optimal pathways can be missing (this strategy will be updated frequently). This strategy is crafted by multiple playthroughs and is aimed to appeal to a broad range of players. At some points, alternative options are mentioned, which can be taken for an alternative route, but are not generally advised for a casual game (These will be marked with as "
+Optional:
+").
+As mentioned above, every EU5 game varies. Don't worry if things line up perfectly for you in a certain playthrough. This strategy tries to explain general concepts, not specific decisions.
+Opening Moves and General Concept
+(Read before start)
+First expansion targets should be your neighboring countries in Anatolia.
+Germiyanids
+almost always loses their subjects
+Karasids
+,
+Saruhanids
+and
+Aydinids
+in the first couple of months, creating easy targets of expansion. As an alternate option at least as of patch 1.0.9, should remain unchanged for patch 1.0.10, if you manage to conquer and annex the
+Germiyanids
+before their subjects break free, you inherit their subjects allowing you to vassalize their three vassals in one war. Furthermore
+Ahis
+should be considered an early target too, before they eventually create an alliance with the larger Beyliks (
+Karamanids
+,
+Eretnids
+) or get conquered by them. Preferably use the "Press Claims" in the "Rise of the Turks" situation to get a quick casus belli and an additional '-25% Cost for Conquering Provinces' modifier in that particular war. Additionally, you'll get events to vassalize neighboring Beyliks (randomized). Always pick the option to make them a vassal, even if there is a chance of them denying the proposal. You should also consider looking for countries which can be made into a vassal manually via the "Ask them to become our vassal" subject action.
+Candarids
+for example start with a good opinion, making them an ideal candidate. Use the "Offer Diplomatic Protection" action in the "Rise of the Turks" situation to greatly improve opinion, increase trust and take one bordering location (integrated) from their lands. Bear in mind, this will guarantee said country, thus making it not easily conquerable if your focus shifts. You may get an event giving you the option of a free claim to Ahis.
+In conclusion, your first moves should be focused solely on Anatolia, establishing yourself as the leading Beylik in the "Rise of the Turks" situation. Since the Ottomans start with a majority of Greek pops, preferably vassalize countries with high Greek population (effectively letting your vassal convert pops) and focus conquering lands with high Turkish population yourself. A good balance between conquering lands and vassalizing is recommended.
+Understanding the Ottomans (Consolidation - Read before start)
+While you can very quickly expand as the Ottomans, a good strategy involves balancing your nation.This mainly revolves around the Greek/Turkish cultural divide and the Sunni/Orthodox religious divide. You can focus on converting (Religion) and assimilating (Culture) in various ways:
+Use the additional cabinet seat to actively convert or assimilate pops to Turkish / Sunni.
+Keep vassals which convert or assimilate for you (Check if your vassal is Turkish / Sunni first).
+Granting the "Feudal Theocracy" government reform, which gives a significant pop conversion speed modifier.
+Use "Invite Turkish Migration" action in the "Rise of the Turks" situation to invite a good amount of Turkish migrants into a location. (Only available when you have >120 locations)
+In addition, in the first months an event called "Persianate bureaucracy" will trigger, giving you the chance to change your court language to Greek. Although being a good starting point for an adventurous playthrough where you turn into Greek Ottomans, it is preferable to choose either the first option to keep your current language (granting Legitimacy and Prestige) or the third option to compromise (granting Greek pop satisfaction).
+Aside from the cultural and religious consolidation of your lands, focus on improving your best locations near the straight (
+Bursa
+,
+Iznik
+and
+Izmit
+). Those are the locations with the most population and highest control, thus roads, building and general improvements should be made there first. Even after moving the capital to Constantinople later, these areas are vital for your economy.
+Capturing Constantinople (1st Byzantine War - Second Phase of Expansion)
+After conquering good bits of Anatolia and consolidating, your prime target should be the city of world's desire,
+Konstantinopel
+. Since the
+Byzantine Empire
+is suffering in this timeframe, they'll most likely have fought a war against
+Bulgaria
+or
+Serbia
+at this point (although they're not guaranteed to loose it). Before you start conquering Byzantine lands, consider using the "Seek Byzantine Relations" action in the "Rise of the Turks" situation. This will only be available if you're stronger than Byzantium, so you hope for them to loose a war against Bulgaria or Serbia first - or outright be stronger due to heavy Anatolia conquest. While having a chance to fail this proposal, its a huge boost if accepted - granting the "Sovereign of Anatolia" bonus (-10% Integration Speed, +0.10 Monthly Legitimacy for 10 years). Do this before attacking Byzantium, since the chance of accepting is highest before the first war.
+Regardless of the outcome of this action, use the "Press Claims" action again to get a good casus belli on the Byzantines (only available since they hold lands in Anatolia). Since having to fight multiple wars against the Byzantines, in your first war you'll take all of their lands on the Anatolian mainland and the province of
+Constantinople
+, expect the siege of Constantinopole to take a long time. Consider taking additional locations to create a tiny vassal, preferably near
+Selanik
+where you'll have Gold and Gemstones as RGO's. Do not enforce Turkish culture on this vassal, keep it as Greek culture for later use. Enforcing Sunni religion on the other hand is advised (mind the disloyalty of the subject). Lastly, it is advised to not take Byzantium completely apart in the first war - you want them to survive long enough to not get swallowed up by Serbia or Bulgaria.
+References
+[
+edit
+|
+edit source
+]
+Countries
+Tabber requires Javascript to function.
+Middle East
+Oman
+Ottomans
+Yemen
+Central Asia
+Timurid
+East Asia
+Chūzan
+Hokuzan
+Japan
+Míng
+Nanzan
+Ryūkyū
+Yuan
+South Asia
+Delhi
+Mughal
+South East Asia
+Khmer
+Majapahit
+Central Africa
+East Africa
+Ethiopia
+Kitara
+North Africa
+Morocco
+Tlemcen
+Tunis
+South Africa
+Zimbabwe
+West Africa
+Eastern Europe
+Albania
+Arianiti
+Armenia
+Bosnia
+Bulgaria
+Byzantium
+Croatia
+Epirus
+Georgia
+Halych
+Hungary
+Kyiv
+Lithuania
+Mataranga
+Muscovy
+Muzaka
+Perm
+Poland
+Samtskhe
+Serbia
+Smolensk
+Teutonic Order
+Thopia
+Velikiy Novgorod
+Volhynia
+Vyatka
+Wallachia
+Western Europe
+Aragon
+Austria
+Aquitaine
+Balliol
+Brandenburg
+Brittany
+Bohemia
+Castile
+Denmark
+Dithmarschen
+England
+Florence
+France
+Guelders
+Granada
+Holland
+Iceland
+Moravia
+Milan
+Naples
+Navarre
+Norway
+Papal States
+Portugal
+Scania
+Scotland
+Sicily
+Spain
+Sweden
+Valencia
+Venice
+Wales
+North America
+Cahokia
+South America
+Australasia
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=Ottomans&oldid=21186
+"

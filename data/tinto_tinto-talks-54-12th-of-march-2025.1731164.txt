@@ -1,0 +1,528 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-54-12th-of-march-2025.1731164/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #54 - 12th of March 2025
+Thread starter
+Johan
+Start date
+Mar 12, 2025
+Hello Everyone and Welcome to another Tinto Talks. This is a Happy Wednesday, where we talk about our yet unannounced game with the codename Project Caesar.
+The main reason for us to do these Tinto Talks is to gather feedback and improve the game. What you have been telling us really matters, and now we will talk about some important changes that have happened during this last year. When we talk about external feedback here, it's primarily from people reacting to Tinto Talks, and when we say internal feedback it's from people at Paradox and our partners playtesting it.
+This first of four talks on feedback is about improvements to the economic system of Project Caesar.
+Goods Rework
+We added five goods and removed two by merging some goods, all from great feedback and suggestions we got.
+First of all, we listened to your arguments and split spices into three, with Saffron for Europe and Middle East, Pepper for Asia, and Chili for the Americas. We talked about naming them with generic terms, but these names we went with felt more immersive.
+Dates were merged into Fruits, and Soybeans was merged into Legumes. This was because we want to make sure Goods add interesting depth and flavor to the economy without cluttering the system, and we thought there are better candidates to split up.
+We also added Beeswax to simulate everything from honey to candles. This was heavily requested by the community, and this is a common raw material around most of the world.
+Two new produced goods were also added in Pottery and Furniture. Pottery is produced mainly from clay, and is demanded both by Pops and many buildings producing alcohol. Furniture requires lumber to be produced and is primarily demanded by pops, while some administrative buildings require a small amount of furniture regularly as well.
+Goods tooltips show market related information when applicable. Here Riga has a +7.94 surplus of pottery so it could be nicely exported.
+Some goods got increased base prices like Lumber and Salt, and many demands for goods have been changed from feedback, both external and internal. Salt as an example is now required for maintenance of auxiliary regiments and for market buildings.
+Productivity and Specialization
+Something that was suggested at many places was to improve specialization and make different locations more unique when it comes to the industry. This we have achieved by four mechanical changes.
+First of all, we added in a soft building cap, where every town can support 25 building levels, every city 100 building levels and each development point in a location adds another building level. Each level above the cap increases building costs in that location by 10%. This, besides making you want to diversify your cities, makes the decisions to go from guilds to manufactories to mills something you want to strive for. It has the added benefits of adding some minor diminishing returns for investments for the very rich, and adding another incentive to get cities where possible.
+Secondly, which ties into this specialization, is the fact that every single level of a building adds another +1% production efficiency. This serves to represent economies of scale, so if you have a town with a level 8 Brewery, you produce +8% more beer than having 8 towns with a level 1 brewery in each.
+Thirdly, we added a mechanic that we have used in previous games, and added benefits to having raw materials produced locally. If you have access to the input goods in the same province as a building is in, you can now get up to 10% more production efficiency for the building.
+Finally, we halved the base amount of levels of RGO you can have in a location, which were tied heavily to population and development, and then gave rural locations a +100% boost to RGO levels. This naturally makes the choice of where you build your towns and cities more interesting.
+This level 3 Brewery in Cambridge has access to what is nearby, but not enough lumber and tools... The lack of market access impacts throughput a bit though.
+Minting
+We reworked the minting and inflation mechanics to be more tied into the production of precious metals. In Project Caesar we have two precious metals in Gold and Silver, but a mod could have as many or few as they want. There are three different impacts from these precious metals on minting though.
+First of all, the amount of gold and silver that you produce has an impact on the income you get from minting new coins (ie, more actual metals used for coins instead of lost in “transactions”).
+Secondly, the production of gold and silver as a percentage of your total goods production of your economy will increase inflation.
+Finally, minting requires access to gold and silver, and if a country can’t get it from their market, then they can’t produce more money.
+Hungary has a fair amount of gold and silver produced, so they can benefit nicely from it.  Banning the exports of gold and silver in the Precious Metal Distribution Law has some nice benefits to income from minting, even if there are drawbacks.
+Population Changes
+One thing we noticed through testing was how the entire Raw Materials economy could basically ignore deaths as long as you had enough peasants around, because living peasants would just instantly fill the vacancies created by deaths.  We decided to change that by splitting peasants into three different pops: Laborers, Soldiers and Peasants. Laborers and Soldiers are still lowerclass pops, and belong to the same estates, but they need to be promoted from peasants to fill vacancies in RGOs and buildings..
+Peasants now represent the common people over whom we rule. Most of them live on subsistence farming, or in our villages.
+Laborers represent the people who work manual labour in our town, cities and rural locations. They work the land to create, harvest and gather the raw materials that are the backbone of the country, or work as unskilled labour in mills.
+Soldiers represent the common people that provide the manpower for our armies and garrisons, as well as sailors for our navies.
+Genoa has a rather diverse group of people.
+Promotion has been reworked as well, where not all types of pops promote as quickly. Pops promoting to clergy and nobles promote at 10% of the promotion speed, while pops promoting to Burghers promote at 50% of the speed.  Pops becoming Laborers though, promote at 150% of the speed.
+Laborers are easier to train…
+We also changed how pop demands work, and made the demands scale by development of a location, so pops in more advanced parts of the world will now demand far more goods. This creates a constant growth.
+We also changed a bit on how the economy works for pops and estates, and pops are now no longer getting their goods entirely for free, but instead the estates will now pay for the goods that the pops need, with the money they have left after taxes. The amount they spend per pop scales by control of the location, so it is balanced compared to the income they get. This severely limits the snowball effect of having rich estates invest in making themselves and the country richer.
+The nobility has needs and spends money on them!
+Another problem that was identified through testing was that basing the distribution of income in a location on the political power of the estates was that in almost all cases the commoners got nothing and the nobles got everything, which meant that you never wanted to tax your commoners but wanted to squeeze everything out from the nobles. While being an admirable goal, it does not reflect historical reality as much, so how to solve this?
+Well, before we added the cossacks, tribes and dhimmi estates from feedback there was a 1-to-1 direct connection between a specific poptype and which estate they belonged to, so the estates could get exactly the amount of money their pops were generating. And since we did not want to do something performance crippling -like splitting pops into 1 per building- we went with pooling all income in a location and distributing it by political power. Now though, that has changed and we instead distribute it per a fixed fraction per pop in the estates, so commoners and burghers get money you want to tax from their work.
+1337 is a bit early to embrace the reformation so I can tax the clergy, but we could build up the city more so burghers are more taxable…
+Next week we’ll go into changes that have been done to Politics, Proximity & Societal Values.
+249
+154
+12
+11
+4
+1
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+17
+Next
+1 of 17
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+So_MeOne
+Second Lieutenant
+Aug 3, 2020
+121
+1.880
+Mar 12, 2025
+Add bookmark
+#2
+Still can't believe it's been a year already...
+61
+1
+1
+Reactions:
+Reply
+Report
+_Corsario_
+Private
+Mar 9, 2024
+21
+79
+Mar 12, 2025
+Add bookmark
+#3
+Excited for the game more than ever , i have a question that i think i asked last year at some point and i went back to find it but with no luck. Its the only aspect of the game is still have a curiosity about. I asked it lately in multiple places but i dont seem to get a concrete answer. It has to do with natives , auxiliary armies and mercenary armies. Which of these systems will represent the native people that sided with the English or the French during the French Indian war ?
+Will this be tackled through traditional diplomacy or auxiliary ? i dont really see them being mercenaries especially in the case of the tribes in Brazil were the Potiguara fought alongside the Portuguese against the French and their Tupinamba allies.
+15
+2
+1
+Reactions:
+Reply
+Report
+GenericUsername1444
+Colonel
+Jun 25, 2024
+805
+10.781
+Mar 12, 2025
+Add bookmark
+#4
+Thanks for being so open to our suggestions.
+Toggle signature
+Professional Georgian
+26
+13
+Reactions:
+Reply
+Report
+So_MeOne
+Second Lieutenant
+Aug 3, 2020
+121
+1.880
+Mar 12, 2025
+Add bookmark
+#5
+Small correction, two Tinto Talks marked #53 in a row.
+3
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Mar 12, 2025
+Add bookmark
+#6
+_Corsario_ said:
+Excited for the game more than ever , i have a question that i think i asked last year at some point and i went back to find it but with no luck. Its the only aspect of the game is still have a curiosity about. I asked it lately in multiple places but i dont seem to get a concrete answer. It has to do with natives , auxiliary armies and mercenary armies. Which of these systems will represent the native people that sided with the English or the French during the French Indian war ?
+Will this be tackled through traditional diplomacy or auxiliary ? i dont really see them being mercenaries especially in the case of the tribes in Brazil were the Potiguara fought alongside the Portuguese against the French and their Tupinamba allies.
+Click to expand...
+through allies i'd say.
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+48
+9
+1
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Mar 12, 2025
+Add bookmark
+#7
+I stopped reading the paragraph here, so Im just gonna assume everything about this works fine and this will be the most historically accurate PDX game ever.
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+42
+4
+3
+1
+1
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Mar 12, 2025
+Add bookmark
+#8
+So_MeOne said:
+Small correction, two Tinto Talks marked #53 in a row.
+Click to expand...
+doh.. fixed
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+36
+1
+1
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Mar 12, 2025
+Add bookmark
+#9
+Thrudgelmir2333 said:
+View attachment 1264667
+I stopped reading the paragraph here, so Im just gonna assume everything about this works fine and this will be the most historically accurate PDX game ever.
+Click to expand...
+lol
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+32
+9
+1
+1
+Reactions:
+Reply
+Report
+Daniel the Finlander
+Colonel
+61 Badges
+Feb 2, 2016
+1.064
+8.242
+Mar 12, 2025
+Add bookmark
+#10
+jk im happy about bees
+Toggle signature
+modder and a lover of mods
+eu5 > imperator > eu4
+EU5 mod: Historically Accurate Courland
+EU5 mod: Historically Accurate Finland
+30
+2
+Reactions:
+Reply
+Report
+pheonicia
+Field Marshal
+90 Badges
+Feb 2, 2015
+3.510
+23.853
+Mar 12, 2025
+Add bookmark
+#11
+Down with legumes! I will replace all of them with potatoes!
+Toggle signature
+Will HOI4 be released on H hour CET of D Day? - Mannstien
+Once again though, there are no actual zombies, it is all hysteria and panic. - Darkrenown
+No, cats were invented in 1902 by Satan, but we included them for gameplay reasons. - Darkrenown
+ubi solitudinem faciunt pacem appellant; they make a wasteland and call it peace.
+Pronoun: 3rd person (use my name)
+4
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Mar 12, 2025
+Add bookmark
+#12
+Are there things, that you wanted to add/change from the feedback but turns out, it's not possible?
+15
+4
+1
+Reactions:
+Reply
+Report
+Jjjace55
+Second Lieutenant
+32 Badges
+Feb 29, 2024
+192
+550
+Mar 12, 2025
+Add bookmark
+#13
+Johan can we see a teaser of the physical map and or physical buildings?
+10
+2
+Reactions:
+Reply
+Report
+Z
+Zekash
+Recruit
+36 Badges
+Jan 13, 2025
+3
+6
+Mar 12, 2025
+Add bookmark
+#14
+Would you be open to creating a
+Situation
+where European countries can use their
+Cultural Influence
+to increase pop demand across Europe for a certain type of spice? This would open the door for making the different kinds of spice more distinct from each other, and create opportunities for making big money by controlling supply and creating demand for a particular variety of spice.
+4
+1
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Mar 12, 2025
+Add bookmark
+#15
+Nice! Now Portugal has good reason to sail around the Cape.
+....
+....other than Christianity and slaves, I mean
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+6
+2
+1
+1
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Mar 12, 2025
+Add bookmark
+#16
+Jjjace55 said:
+Johan can we see a teaser of the physical map and or physical buildings?
+Click to expand...
+when we announce the game officially
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+70
+44
+31
+5
+1
+1
+Reactions:
+Reply
+Report
+squid_whisperer
+Sergeant
+21 Badges
+Jun 27, 2024
+74
+614
+Mar 12, 2025
+Add bookmark
+#17
+"This serves to represent economies of scale, so if you have a town with a level 8 Brewery, you produce +8% more beer than having 8 towns with a level 1 brewery in each."
+This is cool - I suppose it has a nice interplay with the costs of moving goods from A to B? Is it always a no-brainer to just upgrade a production site or is there a nice tradeoff to think about, between that and diversifying locations?
+6
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Mar 12, 2025
+Add bookmark
+#18
+Thrudgelmir2333 said:
+View attachment 1264672
+Nice! Now Portugal has good reason to sail around the Cape.
+....
+....other than Christianity and slaves, I mean
+Click to expand...
+Portugal did not really get most of their slaves from the other side of the cape though.
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+44
+30
+3
+2
+1
+Reactions:
+Reply
+Report
+za3tarani
+Lt. General
+35 Badges
+Jan 26, 2014
+1.269
+4.971
+Mar 12, 2025
+Add bookmark
+#19
+will eu5 finally be announced tomorrow in the dev meeting in sthlm?
+Reply
+Report
+Goran42069
+Second Lieutenant
+18 Badges
+Jan 1, 2016
+115
+1.079
+Mar 12, 2025
+Add bookmark
+#20
+Very good changes imo, i have 2 questions tho.
+1. Why not add cloves too if you added saffron and chillies ?
+2. Whats the performance impact when adding 2 more pop types ?
+8
+1
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+17
+Next
+1 of 17
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

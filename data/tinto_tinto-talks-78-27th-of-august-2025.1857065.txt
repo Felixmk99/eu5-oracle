@@ -1,0 +1,480 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-78-27th-of-august-2025.1857065/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #78 - 27th of August 2025
+Thread starter
+Pavía
+Start date
+Aug 27, 2025
+Hello, and welcome to another
+Tinto Talks
+, the happy Wednesdays where we talk about
+Europa Universalis V
+!
+Today, we will talk about two Situations that may happen in the Mid Game, related to the discovery of America by foreign powers: the
+Treaty of Tordesillas
+, and the
+Great Pestilence
+!
+Treaty of Tordesillas
+​
+The Treaty of Tordesillas may be triggered after the Age of Discovery starts (so, later than 1437), when at least two Catholic countries with their capital in Europe hold any location or at least one subject each in America. We’re going to use as an example Castile having a colony in Hispaniola, and Portugal having a colony in Brazil. This is the event that will trigger the situation itself:
+The country that gets the event will have the option to decide where to have the meeting to discuss about the Treaty. The locations available are the capitals of the two countries, a bordering location, and an American one. The Treaty will take the name of the selected location:
+This way, the Situation will start:
+A location will be set as a fixed point to divide the world, and from that onwards, each of the countries will have a ‘sphere of influence’ in which it will be able to Claim Areas. The area in which the initial colonies will be granted to each country, and from there on, they will be able to Claim Areas that are adjacent to those initial claims. If two colonies were present in the same area, then the ‘Claim a Conflicting Area’ would be available to both countries. You can also try to Revoke a Claim from the other country, but that requires to request it to the Pope. The Claims ban colonization by other Catholic countries, but you will still have to colonize those areas using the regular game mechanics.
+​
+Besides that, there are three more actions related to the Treaty Line. You can Shift the Line to a different location, or Exchange the Sides. When the Progress to Ratification of the Treaty is 100%, a new phase will start; you can use the ‘Push to Settle Treaty’ to speed it up.
+​
+When the new phase starts, the world will be divided between the two signatory powers, including both the already claimed areas, and their respective half of the world. New actions will also be available:
+In this phase of the Situation, other Catholic countries that have discovered America now will be able to participate in the situation, and will have some of these actions available to them, while others will be restricted to the two Signatory Countries:
+The Relevance of the Treaty decreases monthly, and then additionally by each time that it is violated. The Situation will end when its relevance goes down to 0%; at that moment, the ban on colonization and the claims will disappear, and all Catholic countries will be free to colonize wherever they want again.
+Great Pestilence
+​
+The Great Pestilence is the Situation that portrays the numerous diseases brought by the European colonizers to America after 1492. As such, it will trigger after the first European colonies have been established in the New World:
+​
+It will have two different set of actions, for Colonizing and Native countries:
+The disease will spread throughout the Native population, pretty much as you saw with the Black Death, but in a much deadlier way - up to 90% of the native population, potentially:
+Random events will also pop up, both for colonizing and native countries:
+​
+And that’s all for today! We will come back on Friday, as we will talk in
+Tinto Flavour
+about
+Portugal
+! And next week in Tinto Talks, we’ll take a look at another Mid and Late Game Situations: the
+Columbian Exchange
+, and the Colonial Revolution.
+And also remember, you can
+Pre-Purchase Europa Universalis V now
+! Cheers!
+160
+69
+7
+6
+1
+Reactions:
+Reply
+Report
+Written by
+Pavía
+Content Design Lead PDX Tinto
+Paradox Staff
+12 Badges
+Messages
+4.509
+Reaction score
+192.684
+1
+2
+3
+…
+Go to page
+Go
+13
+Next
+1 of 13
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Aug 27, 2025
+Add bookmark
+#2
+The Great Pestilance of late TT has struck again!
+22
+2
+1
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Aug 27, 2025
+Add bookmark
+#3
+So the treaty is not automatically between Portugal and Castille? Excellent. This is the way it should be; a phased negotiation with determinable location. That way, if England and Brittany for some reason are the premier colonisers, they become the signataries and sites of the treaty.
+Nice work, Paradox.
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+67
+10
+5
+Reactions:
+Reply
+Report
+NotTheFBI
+Private
+63 Badges
+Aug 31, 2017
+13
+140
+Aug 27, 2025
+Add bookmark
+#4
+Ahh yes the Treaty of Tortilla
+24
+8
+3
+Reactions:
+Reply
+Report
+GenericUsername1444
+Colonel
+Jun 25, 2024
+805
+10.781
+Aug 27, 2025
+Add bookmark
+#5
+Only OGs remember the broken version of this post
+Toggle signature
+Professional Georgian
+14
+14
+Reactions:
+Reply
+Report
+I
+ItalianBeanChef
+First Lieutenant
+67 Badges
+Apr 21, 2025
+215
+1.048
+Aug 27, 2025
+Add bookmark
+#6
+I have pneumonoultramicroscopicsilicovolcanoconiosis and my final wish is a eu5 early access code
+18
+2
+Reactions:
+Reply
+Report
+B
+Big_birdy
+Major
+60 Badges
+Mar 13, 2023
+705
+4.297
+Aug 27, 2025
+Add bookmark
+#7
+I think you accidentally posted the Tinto talk twice
+Toggle signature
+Woman of some sort
+5
+1
+1
+Reactions:
+Reply
+Report
+M
+Miguelinileugim
+Major
+1 Badges
+May 6, 2021
+568
+1.937
+Aug 27, 2025
+Add bookmark
+#8
+Oh my god it WAS EU5, ALL ALONG
+4
+2
+Reactions:
+Reply
+Report
+Manst
+Gr. Ladr. Farabut. di Gr. Croc. Duca Conte
+66 Badges
+May 28, 2017
+335
+1.697
+Aug 27, 2025
+Add bookmark
+#9
+Don't you think we missed the first one! And it was still late! completely unacceptable. The only just compensation is to give us all the game early (me first)
+Toggle signature
+Pie charts and sliders are overrated
+8
+Reactions:
+Reply
+Report
+bluepotato81
+Second Lieutenant
+24 Badges
+Jun 12, 2024
+145
+1.862
+Aug 27, 2025
+Add bookmark
+#10
+pepperidge farm remembers when this tt was broken
+Toggle signature
+Deliver me from mine enemies, O my God: defend me from them that rise up against me. Defend me from the workers of iniquity, and save me from bloody men. The mighty are gathered against me, awake to help me, and behold.
+Nor is there pain, or cause of pain, Or cease in pain, or noble path to lead from pain;
+The Master said, "Is it not pleasant to learn with a constant perseverance and application? Is it not delightful to have friends coming from distant quarters? Is he not a man of complete virtue, who feels no discomposure though men may take no note of him?"
+Do not despair of the mercy of Allāh. Indeed, Allāh forgives all sins. Indeed, it is He who is the Forgiving, the Merciful.
+The Tao that can be told is not the eternal Tao, and the name that can be named is not the eternal Name.
+It is not your duty to finish the work, but neither are you at liberty to neglect it;
+The finest essence here—that constitutes the self of this whole world; that is the truth; that is the self.
+O Son of Man! Veiled in My immemorial being and in the ancient eternity of My essence, I knew My love for thee; therefore I created thee, have engraved on thee Mine image and revealed to thee My beauty.
+Rise up for me, O Ahura, through Armaiti give strength, through the holiest Spirit give might, O Mazda, through the good Recompense, through the Right give powerful prowess, through Good Thought give the reward.
+O my mind, remember the Lord in meditation; He is the Destroyer of pain, the Eradicator of fear, the Sovereign Lord King. He is the Greatest Lover, the Merciful Master, the Enticer of the mind, the Support of His devotees - this is His very nature.
+In some ways, it is, in some ways, it is not, in some ways, it is, and it is not, in some ways, it is indescribable, in some ways, it is, and it is indescribable, in some ways, it is not, and it is indescribable, in some ways, it is, it is not, and it is indescribable.
+So be diligent in seeking knowledge, keeping company with those of understanding, and studying at all times, and you will attain goodness and blessings.
+An ash I know there stands, - Yggdrasill is its name, - a tall tree, showered - with shining loam. - From there come the dews - that drop in the valleys. - It stands forever green over - Urðr's well.
+Our God, with His mercy - Brought for us beauty and loveliness - He gave a command to the Pen of Power - We were thrown into the Mystery of Love.
+I saw my father, I saw him, and I gave him three requests. I asked him for a great heart, which can be carried by the big and the little. I asked him for calmness, in which there is no rebellion. I asked him for a level path, to rise to light’s place in peace.
+3
+1
+Reactions:
+Reply
+Report
+Pavía
+Content Design Lead PDX Tinto
+Paradox Staff
+12 Badges
+Jan 3, 2006
+4.509
+192.684
+Aug 27, 2025
+Add bookmark
+#11
+Thrudgelmir2333 said:
+So the treaty is not automatically between Portugal and Castille? Excellent. This is the way it should be; a phased negotiation with determinable location. That way, if England and Brittany for some reason are the premier colonisers, they become the signataries and sites of the treaty.
+Nice work, Paradox.
+Click to expand...
+Yes, it's dynamic.
+Toggle signature
+Antiguo caballero villano del OT en español. Now member of EUIV & EUV Team at Paradox Tinto.
+91
+8
+1
+1
+Reactions:
+Reply
+Report
+Kotyk-durkotyk
+Colonel
+23 Badges
+May 26, 2024
+1.137
+15.631
+Aug 27, 2025
+Add bookmark
+#12
+Pavía said:
+The disease will spread throughout the Native population, pretty much as you saw with the Black Death, but in a much faster and deadlier way - up to 90% of the native population, potentially
+Click to expand...
+Shouldn’t it spread much more slowly as it happened historically? Like ~50 years.
+Or with such a high mortality it would be hard to tweak in the code?
+Last edited:
+Aug 27, 2025
+Toggle signature
+Check out my EU5 threads:
+Ruthenia and Steppe Fix
+–
+my EU5 Mod
+with historical corrections for the Ruthenian and Steppe Regions
+Ruthenian / Cossack / Ukrainian Content Pack
+Orthodoxy Needs a Full Rework in EU5
+10
+5
+1
+Reactions:
+Reply
+Report
+Pavía
+Content Design Lead PDX Tinto
+Paradox Staff
+12 Badges
+Jan 3, 2006
+4.509
+192.684
+Aug 27, 2025
+Add bookmark
+#13
+NotTheFBI said:
+Ahh yes the Treaty of Tortilla
+Click to expand...
+This was our internal development name for it, because the name dynamically changes (as you might have noticed).
+Toggle signature
+Antiguo caballero villano del OT en español. Now member of EUIV & EUV Team at Paradox Tinto.
+43
+35
+18
+1
+1
+Reactions:
+Reply
+Report
+M
+Miguelinileugim
+Major
+1 Badges
+May 6, 2021
+568
+1.937
+Aug 27, 2025
+Add bookmark
+#14
+I love how the treaty of tordesillas goes down over time rather than staying forever, I kinda wish there was a way to prop it up and keep it relevant if you go all in with catholicism. Perhaps with some sort of soft limit say an increasing decay rate with each age even if you successfully keep it high for the bonus.
+14
+Reactions:
+Reply
+Report
+D
+Davincie
+Captain
+80 Badges
+Feb 5, 2020
+323
+1.952
+Aug 27, 2025
+Add bookmark
+#15
+Will AI countries go for a historical treaty? Do natives have any chance of doing better than historical?
+1
+Reactions:
+Reply
+Report
+C
+ChemicalSmeller
+Private
+Aug 19, 2024
+16
+50
+Aug 27, 2025
+Add bookmark
+#16
+Slightly off topic, but on the topic of Castile: will there be a way to turn off country-specific bonuses (i.e no lucky nations)?
+Last edited:
+Aug 27, 2025
+Reply
+Report
+M
+Miguelinileugim
+Major
+1 Badges
+May 6, 2021
+568
+1.937
+Aug 27, 2025
+Add bookmark
+#17
+Pavía said:
+This was our internal development name for it, because the name dynamically changes (as you might have noticed).
+Click to expand...
+Regular or potato?
+3
+Reactions:
+Reply
+Report
+Pavía
+Content Design Lead PDX Tinto
+Paradox Staff
+12 Badges
+Jan 3, 2006
+4.509
+192.684
+Aug 27, 2025
+Add bookmark
+#18
+Big_birdy said:
+View attachment 1354909
+I think you accidentally posted the Tinto talk twice
+Click to expand...
+Forum decided to behave weirdly (and thus, the delay; it was not posted exactly at 15:00, I had to come and fix it, then it got duplicated... Jeez...).
+Toggle signature
+Antiguo caballero villano del OT en español. Now member of EUIV & EUV Team at Paradox Tinto.
+28
+10
+2
+Reactions:
+Reply
+Report
+GenericUsername1444
+Colonel
+Jun 25, 2024
+805
+10.781
+Aug 27, 2025
+Add bookmark
+#19
+I personally really like the dynamic naming and functionality of the in-game treaty of Tordesillas.
+Are there any other notable historical treaties/alliances modelled in this manner (Treaty of The Hague, Union of Utrecht, etc.)?
+Toggle signature
+Professional Georgian
+13
+1
+Reactions:
+Reply
+Report
+Fort_Dani
+Corporal
+31 Badges
+Mar 24, 2024
+26
+113
+Aug 27, 2025
+Add bookmark
+#20
+What happens to the treaty when one of the two sides changes religion? Does the treaty become void?
+11
+3
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+13
+Next
+1 of 13
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

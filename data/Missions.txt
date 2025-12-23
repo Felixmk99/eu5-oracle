@@ -1,0 +1,816 @@
+Source URL: https://eu5.paradoxwikis.com/Missions
+Source Date: 2025-11-09
+
+Please help with verifying or updating older sections of this article.
+At least some were last verified for
+version
+pre-release.
+The Humiliate a Rival mission
+Missions are packages of individual tasks which are available to a country and serve as a guidance for the country. Each country can have only one active mission at a time. The mission can be changed at any point but this will reset all progress.
+Missions are only available if they are enabled in
+game rules
+. Depending on game rules, missions or their tasks may or may not provide rewards.
+If a mission is aborted it cannot be selected again for 5 years. Missions are automatically aborted if the country no longer meets the requirements to have the mission.
+Economy missions
+[
+edit
+|
+edit source
+]
+Develop a Capital Economy
+[
+edit
+|
+edit source
+]
+Develop a Capital Economy is available to countries that own at least one urban location. When the mission is selected, a market must be picked for its tasks. Once the mission is completed it cannot be selected against for 25 years. Unlike other missions, Develop a Capital Economy has two mutually-exclusive paths depending on whether the Manufactory Focus or Trade Focus task is completed.
+Grant Privileges to the Burghers
+Have 60% Burghers Estate Satisfaction and grant them 2 privileges or have 90% satisfaction with them
+Reward: Mission market's capital and up to 4 urban locations gain
++10%
+pop promotion speed for 10 years
+Establish a Trade
+Have at least one import and one export from the mission market
+Reward: Choose an urban location for the next mission tasks
+Grow the Burghers
+Gain 200 Burghers in the mission location
+Reward:
++10
+Societal Values change towards Traditional Economy
+Embracing the Capital Economy
+Go through a number of random events for 1 year
+Reward:
++0.5
+Monthly Progress to Capital Economy for 1 year
+Manufactory Focus
+Mission location has 100% control, is owned and is not starving, under siege or occupied
+Reward:
++5%
+Production Efficiency and
++2
+Urban Migration Attraction for 10 years
+Trade Focus
+Have at least 5 Trade Capacity in the mission market
+Reward:
++5%
+Trade Capacity and efficiency for 10 years
+Expand Construction Materials
+A location with Clay, Lumber, Sand or Stone has an output of 40 or RGO fully expanded
+Reward:
+Surge of Prospects and Materials
+Country modifier
+Surge of Prospects and Materials
++10%
+Construction Speed
++10%
+Pop Promotion Speed %
+for 5 years
+Import Construction Materials
+Importing Clay, Lumber, Sand or Stone
+Reward:
+Import Center
+Location modifier
+Import Center
++100%
+Burghers Trade Capacity
+in 2 locations for 10 years
+Gain Production Goods
+A Paper production method has full goods supply
+Reward:
+Secured Raw Materials
+Location modifier
+Secured Raw Materials
++20%
+Raw Materials Output
+in a random location for 10 years
+Expanded Trade Capacities
+Gain 10 Trade Capacity in the mission market
+Reward:
+Rush of Merchants
+Country modifier
+Rush of Merchants
++25%
+Burghers Trade Capacity
+for 10 years
+Influential Merchants
+Gain 8 Trade Advantage in the mission market
+Reward:
+Better Exports
+Country modifier
+Better Exports
++5%
+Trade Advantage
++1%
+Trade Efficiency
+for 10 years
+Flow of Construction Goods
+Mission market has at least 5 trade surplus of Clay, Lumber, Sand or Stone
+Reward:
++10%
+Burghers Estate Satisfaction
+Art of Export
+4+ exports in the mission market make profit
+Reward: Scaled Gold
+Luxuries for the People
+4+ imports in the mission market make profit
+Reward: Scaled Gold
+Construct the Manufactories
+Construct or upgrade a building which produces Paper
+Reward:
++5%
+Production Efficiency for 10 years
+The Wealth of the Market
+Mission markets trades more Gold in goods than previously
+Reward: 5 locations with highest Market Access gain up to
++0.5
+Development scaling with Market Access
+Satisfy our Demands
+Pops in the mission location do not have a demand for Paper
+Reward:
++7
+Stability
+Export
+Country exports Paper in the mission market and makes profit
+Reward:
++5%
+Trade Income for 10 years
+Expand into new Markets
+Have merchants in two more markets
+Reward:
+Center of Urban Exchange
+Location modifier
+Center of Urban Exchange
+−10%
+Buildings Cost
++20%
+Burghers Trade Capacity
+in capital for 10 years
+Secure the Sea Trade
+Have at least 50% of Expected Navy Size, build a Light Ship or have no ports
+Reward:
++10
+Navy Tradition
+Creation of Profit
+Country exports Paper in the mission market and makes a profit greater than 1 Gold
+Reward:
++5%
+Trade Efficiency and
++10%
+Trade Income for 20 years
+The Rich Merchant
+Increase monthly income from trade by at least 8
+Reward:
+New Capital Economy
+Country modifier
+New Capital Economy
+−2.5%
+Bank Interest
++0.33
+Monthly Progress to Capital Economy
++5%
+Trade Efficiency
+for 20 years
+Infrastructure Efforts
+[
+edit
+|
+edit source
+]
+Infrastructure Efforts is available to countries that own at least 2 provinces. Once the mission is completed it cannot be selected against for 25 years.
+A Great Capital
+Build 4 more buildings in the capital
+Reward: Capital gains Development equal to a quarter of the number buildings
+Assembly Halls
+Capital has a Royal Court or Republican Assembly
+Reward:
+Symbol of Power
+Country modifier
+Symbol of Power
++25%
+Legislative Efficiency
++0.05
+Monthly Legitimacy
++0.05
+Monthly Republican Tradition
+for 5 years
+Capital Prosperity
+Increase Prosperity in capital by 20%
+Reward:
++5%
+Satisfaction for all pops in the capital province
+Control Around the Capital
+Increase Average Control in capital's province by 10%
+Reward:
+-25%
+Expanding Raw Materials Time and
+-33%
+Road Building Time in the capital's province for 10 years
+Found a Town
+Capital is a Town or City
+Reward:
+-25%
+Buildings Cost in capital for 5 years
+Push for Centralization
+Have 0.2+ Monthly Progress to Centralization for 3 years
+Reward:
++50%
+Monthly Progress to Centralization for 3 years
+Food Investments
+Increase food in capital's province by 65
+Reward:
++0.1%
+Population Growth in capital's province for 5 years
+All Roads Lead to Capital
+Half of the locations adjacent to the capital have the highest available road to it
+Reward:
++10
+Societal Values change towards Centralization
+Wave of Urbanization
+Capital has 75% employment and burghers have the same culture and religion
+Reward:
+Center of Urbanization
+Location modifier
+Center of Urbanization
++1
+Migration Attraction
++25%
+Local Monthly Development Growth
+in capital for 10 years
+Control the Region
+Increase Average Control in capital's region by 3%
+Reward: Ruler or regent gains up to
++15
+points in all abilities scaling with Average Control in capital's region
+Traditional Economy
+[
+edit
+|
+edit source
+]
+Traditional Economy is available to countries that own at least one urban location that is not the country capital. Once the mission is completed it cannot be selected against for 25 years.
+Peasant Contentment
+Increase the Satisfaction of the Commoners estate by 10%
+Reward: Choose a rural location with less population than 90% of its Population Capacity for the next mission tasks
+Expand Irrigation
+Mission location has a new Irrigation building and positive Prosperity
+Reward:
++15%
+Laborers and Peasants satisfaction in the mission location
+Village Marketplaces
+Mission location has a new Market Village building and positive Prosperity
+Reward:
++0.02%
+Population Growth in same province as the mission location with a Market Village for 10 years
+Road to Capital
+Mission location has a road leading to the capital
+Reward: Locations in the mission location's province gain up to
++0.05
+Monthly Development and
+-10%
+Proximity Cost depending on their proximity to the capital for 10 years
+Support Fishing Villages
+Mission location has a new Fishing Village building and positive Prosperity or is not coastal
+Reward:
++20%
+Prosperity in the mission location
+Construct Masons
+Mission location has a new Mason building and positive Prosperity
+Reward:
+Cheaper Building Materials
+Province modifier
+Cheaper Building Materials
+−5%
+Buildings Cost
++10%
+Masonry Output
+in same province as the mission location for 5 years
+Expand Resource Production
+Mission location RGO is fully expanded and is not building anything
+Reward:
+Rural Development
+Location modifier
+Rural Development
++1000
+Maximum RGO Size
++10%
+Local Monthly Development Growth
++20%
+Raw Materials Output
+for 10 years in mission location
+Embrace the Traditional Economy
+Wait a year
++0.5
+Monthly Progress to Traditionalist for 1 year
+Expand the Workforce
+Increase the workforce in the mission location by 1000
+Reward:
+Provincial Expansion
+Province modifier
+Provincial Expansion
++2
+Migration Attraction
++0.25%
+Local Monthly Prosperity
+in mission location's province for 10 years
+Support Rural Cloth
+Mission location has a new Rural Clothmaker building and positive Prosperity
+Reward: Rural Clothmaker in the mission location can be upgraded by 2 more levels for 10 years
+Prosperous Production
+Mission location has a new building
+Reward:
++20%
+Production Efficiency in mission location for 20 years
+The Development of Trade
+[
+edit
+|
+edit source
+]
+The Development of Trade is available to countries that embraced the Banking institution and own at least one urban location and at least one port. Once the mission is completed it cannot be selected against for 25 years.
+Establish Wharfs
+Build and fully staff another Wharf building
+Reward:
+Increased Maritime Activity
+Location modifier
+Increased Maritime Activity
++0.1%
+Local Monthly Prosperity
++200
+Local Pop Promotion Speed %
+The development of piers and wharfs has brought new business to the port of this location.
+in 5 urban locations with a Wharf for 10 years
+The Marketplace
+Build and fully staff another Market building
+Reward: Locations with a Market building gain Development and Prosperity that scales with the Market level
+Burghers Relations
+Increase the Satisfaction of the Burghers estate by 5%
+Reward: Gain Gold equal to 3 times the tax base of the Burghers estate
+Coastal Expansion
+Build and fully staff another Dock or Dry Dock building
+Reward:
++1
+Development in a location with a Dock or Dry Dock
+Entrepôts
+Build and fully staff another Entrepôt building
+Reward:
+Influx of Merchants
+Location modifier
+Influx of Merchants
++33%
+Burghers Trade Capacity
+in a random location with an Entrepôt
+Powerful Burghers
+Burghers have 10% Estate Power or 2 new privileges
+Reward:
+Empowered Burghers
+Country modifier
+Empowered Burghers
++100%
+Burghers Power
++0.2
+Monthly Progress to Plutocracy
+−5%
+Noble Estate Satisfaction Equilibrium
+for 10 years
+Protect our Coasts
+Build and fully staff another Coastal Fort or Naval Battery building
+Reward:
++5
+Maritime Presence in every seazone adjacent to the province of the location with the new building
+A Merchant Fleet
+Have 5% more of the current Expected Navy Size or build 4 new Light Ships
+Reward:
++5
+Navy Tradition
+Establish a Market Center
+Establish a Market Center
+Own the capital's market center
+Reward:
++10
+Merchant Power in the capital's market for 5 years
+Maritime Presence
+Increase Maritime Presence in seazone with the highest one by 15%
+Reward:
++0.3
+Monthly Navy Tradition and
+-1
+Proximity Cost Through Maritime for 10 years
+Trade Capacity
+Have at least 5 Trade Capacity in the capital's market
+Reward:
+Expanded Trade Capacity
+Country modifier
+Expanded Trade Capacity
++10%
+Trade Capacity
+−10%
+Trade Range Used Over Land
+−10%
+Trade Range Used Over Sea
+for 10 years
+Politics missions
+[
+edit
+|
+edit source
+]
+Estate Cooperation
+[
+edit
+|
+edit source
+]
+Estate Cooperation is available to every country. When the mission is selected, an estate must be picked for its tasks. Once the mission is completed it cannot be selected against for 25 years.
+Grant Privileges
+Mission estate has at least 50% Satisfaction or 2 new privileges for a year
+Reward:
++0.1
+Stability Investment for a year
+Capital Influence
+Increase employment in the capital by 10%
+Reward:
++15%
+Satisfaction for the mission estate
+Fund Construction Projects
+Construct a building wanted by the mission estate
+Reward:
++0.1%
+Monthly Prosperity for 10 years and
++0.25
+Development in the urban location with the highest one
+Shape Society
+Increase monthly progress towards a societal value wanted by the mission estate by 7
+Reward:
++5%
+Satisfaction for the mission estate
+Gain Favors with the Mission Estate
+Increase the Satisfaction of the mission estate by 15%
+Reward:
++5%
+Satisfaction for every pop in the mission estate
+Shared Enrichment
+Bribed the mission estate in the last 5 years
+Reward:
+Shared Enrichment
+Country modifier
+Shared Enrichment
++5%
+Production Efficiency
+for 10 years
+A Capable Cabinet
+[
+edit
+|
+edit source
+]
+A Capable Cabinet is available to countries with the Settled country type. Once the mission is completed it cannot be selected against for 25 years.
+Create a Cabinet
+Fill all cabinet member slots and give each one a cabinet action
+Reward:
++10%
+Efficiency of our cabinet for 5 years
+Head of the Cabinet
+Have a head of the cabinet
+Reward:
++10
+Government power
+Enact Government Reforms
+Use all government reform slots
+Reward:
++10%
+Crown power for 1 year
+Meritocratic Approach
+50% of cabinet members have at least 50 points in any ability
+Reward:
++10
+Societal Values change towards Innovative
+Royal Authority
+Gain 10 government power
+Reward:
++10%
+Estate satisfaction
+Increase Cabinet Efficiency
+Increase cabinet efficiency for 180 days
+Reward:
++10%
+Efficiency of our cabinet for 6 months
+High Era
+High Era
+Gain 10 stability
+Reward:
++5%
+Maximum tax and
++0.1%
+monthly prosperity for 5 years
+Progress & Literacy
+[
+edit
+|
+edit source
+]
+Progress & Literacy is available to countries that have the Library and Paper Guild advances and either have less than 70 Average Literacy or societal values are more than 90 towards Innovative. Once the mission is completed it cannot be selected against for 25 years.
+Ensure Book Production
+Have at least 3 buildings which produce Books or at least 5 Books in the country capital's market
+Reward:
++50%
+Books Output in a random owned location which produces Books
+Wave of Innovation
+Increase Monthly Progress to Innovative by at least 0.25
+Reward:
++10
+Cultural Influence and
++2.5
+Research Progress
+The Chancery
+Capital has a Chancery building and at least 80% Control
+Reward:
++2.5%
+Production Efficiency for 5 years in the 4 locations with most Control
+Found Libraries
+Build and fully staff another Library building
+Reward:
++0.025
+Monthly Progress to Innovative for 10 years
+Advances in Technology
+Researched at least 3 innovations since the mission started
+Reward:
++0.5
+Monthly Progress to Innovative for 1 year
+Raise Literacy
+Raise Average Literacy by at least 0.25
+Reward:
+Wave of Innovation
+Country modifier
+Wave of Innovation
++25%
+Institution Growth
++0.2
+Monthly Progress to Innovative
++10%
+Monthly Research Progress %
+Our innovative policies have led to new ideas entering our country.
+for 10 years
+Vassal Ties
+[
+edit
+|
+edit source
+]
+Vassal Ties is available to countries that have a subject with Vassal subject type and Settled country type. When the mission is selected, a Vassal subject must be picked for its tasks. Once the mission is completed it cannot be selected against for 25 years.
+Improve Relations with Mission Vassal
+Have 175 Opinion from the mission vassal
+Reward: Vassal gains
++5
+Trust and
+-5
+Liberty Desire
+Joint Military Development
+Give Military Support to the mission vassal
+Reward:
++10
+Societal Values change towards Land or Naval depending on which is higher and vassal gains
++5
+Army Tradition
+Monetary Assistance
+Give a gift to the mission vassal
+Reward:
++2.5
+Government Power and vassal gains
++10%
+Burghers Estate Satisfaction
+Commerce Annexation
+Start annexing the mission vassal
+Reward: For 6 months receive up to 4 beneficial events
+Connect the Capitals
+Half of the locations adjacent to the capital have the highest available road to it
+Reward:
++10%
+Prosperity in capital for both the country and the vassal
+A Base of Power
+Mission vassal's capital has 4 new buildings
+Reward: Vassal loses
+-5
+Liberty Desire and their capital gains
+Center of Urbanization
+Location modifier
+Center of Urbanization
++1
+Migration Attraction
++25%
+Local Monthly Development Growth
+for 10 years
+Complete Annexation
+Finish annexing the mission vassal
+Reward: Locations gained from annexation gain
+New Lands
+Location modifier
+New Lands
++10%
+Max Control
+−10%
+Unrest
+for 10 years
+Expansion missions
+[
+edit
+|
+edit source
+]
+Humiliate a Rival
+[
+edit
+|
+edit source
+]
+Humiliate a Rival is available to every country. Once the mission is completed it cannot be selected against for 20 years.
+Diplomatic Play
+Insulted a rival within the last 10 years
+Reward: Ruler or regent gains their next trait unless it already has 3
+Humiliate a Rival
+Used the Humiliation treaty on a rival within the last 10 years
+Reward:
++25%
+Crown Power and
++10
+Power Projection for 20 years
+Impose an Embargo
+Use the Embargo Nation diplomatic action on a rival
+Reward:
++30
+Merchant Power in the market where the rival has its capital for 5 years
+Establish a Spy Network
+Have a spy network with a value of 30 on a rival
+Reward:
++0.2
+Monthly Diplomats and
++25%
+Spy Network Construction for 10 years
+Surpass our Foes
+Have more than 50% of the combined strength of a rival
+Reward:
++20
+Spy Network in every rival with less combined strength
+Sow Discontent in Rival
+Use the Sow Discontent covert action on a rival and have at least 2 Diplomats
+Reward: Targeted rival gains a negative modifier for 10 years
+Regional Expansion
+[
+edit
+|
+edit source
+]
+Regional Expansion is available to countries that can declare war on a neighbor. When the mission is selected, a vassal must be picked for its tasks. Once the mission is completed it cannot be selected against for 15 years.
+Raise a War Chest
+Go through a number of random events for 1 year
+Reward:
++10%
+Maximum Tax for a year
+Raise the Army
+Have a general, the Common Militias privilege or 75% of expected navy or army size
+Reward: The character with most ability points who is not in cabinet gains
++5
+points in all abilities
+Obtain a Casus Belli
+Have a casus belli that allows conquest of locations against a neighbor
+Raise a Navy
+Produce Sailors and have at least 50% of Expected Navy Size
+Reward:
++2.5
+Navy Tradition,
++0.25
+Development in a port location and gain Sailors equal to 10% of their yearly income
+To War!
+Be at war for 4 months
+Reward: Receive two random positive events
+Conquer a Province
+Be at peace and have a location with the Conquered integration status
+Reward: Choose a location with the Conquered integration status for the next mission tasks
+Recover Prosperity
+Increase Prosperity in the mission location above 0
+Reward:
++10%
+Pop Satisfaction in the mission location's province
+Fortify the Border
+Have a Fort Level of 2 in the mission location
+Reward:
++20%
+Fort Defense in the mission location
+Integrate our Conquest
+Go through a number of random events for 3 years
+Reward:
++10%
+Speed of Integration for 3 years
+Venturing into the Unknown
+[
+edit
+|
+edit source
+]
+Venturing into the Unknown is available if the country has the Kingdom or Empire country rank, at least 3 ports, and researched the New Worlds advance. Once the mission is completed it cannot be selected against for 25 years.
+Overseas Efforts
+Wait a year
+Reward:
++5
+Prestige
+Chart the Horizon
+Complete an exploration
+Reward if explored area was land:
++0.5
+Monthly Army Tradition for 3 years
+Reward if explored area was sea:
++0.5
+Monthly Navy Tradition for 3 years
+Hire Explorers
+Hire an explorer
+Reward: An explorer increases an ability to 100
+Settle the Horizon
+Create a Colonial Charter
+Reward:
++10
+Research Progress
+New Maps
+Make 50% or more progress in an exploration
+Reward: Finishing exploration brings a choice between
++10
+Research Progress or Navy Tradition
+Colonial Ambitions
+Have a Colonial Nation subject
+Reward:
+-10
+Liberty Desire in a Colonial Nation subject and most populated port location gains
+Entry Port
+Location modifier
+Entry Port
++3
+Trade Capacity
+−5%
+Proximity Cost through Port
+for 5 years
+References
+[
+edit
+|
+edit source
+]
+Mechanics
+Realm
+Country
+•
+Government
+•
+Parliament
+•
+Estate
+•
+Reforms
+•
+Laws
+•
+Characters
+•
+Missions
+Economy & Research
+Economy
+•
+Goods
+•
+R.G.O.
+•
+Market
+•
+Building
+•
+Population
+•
+Age
+Diplomacy & Warfare
+Diplomacy
+•
+Subjects
+•
+International organization
+•
+Warfare
+•
+Combat
+•
+Military
+The world
+Location
+•
+Culture
+•
+Religion
+•
+Language
+•
+Exploration
+•
+Situations
+•
+Disasters
+•
+Diseases
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=Missions&oldid=15470
+"

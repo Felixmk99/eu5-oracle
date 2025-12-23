@@ -1,0 +1,264 @@
+Source URL: https://eu5.paradoxwikis.com/Mods
+Source Date: 2025-12-05
+
+This article is
+timeless
+and should be accurate for any version of the game.
+For instructions on how to mod, see
+modding
+A
+mod
+(short for
+modification
+) is an alteration of the game and the objective of
+modding
+. Modifications can range from small tweaks to total conversions.
+Installation
+[
+edit
+|
+edit source
+]
+Mods can be downloaded and installed from several sources:
+Automatically using Steam's Client application from the
+Steam Workshop
+(Steam version only)
+Manually from the
+Europa Universalis V User Modifications sub-forum
+Manually from
+Nexus Mods
+Mods from the Steam Workshop will be placed in
+…/SteamLibrary/SteamApps/workshop/content/3450310
+, named by their Workshop ID.
+Locate Your Europa Universalis V Mod Directory
+[
+edit
+|
+edit source
+]
+When running Europa Universalis V from Steam, the mod installation folder is:
+OS
+Path
+Windows
+%USERPROFILE%\Documents\Paradox Interactive\Europa Universalis V\mod\
+Linux
+[1]
+steamapps/compatdata/3450310/pfx/drive_c/users/steamuser/Documents/Paradox Interactive/Europa Universalis V/mod/
+If the mod folder doesn't exist, create it.
+Never install mods into the game installation directory, as the mod will not be properly loaded.
+Check in the mod description the Europa Universalis V version compatible with the version of the mod. If needed, rollback to an older
+patch
+, using “Steam Beta” tab in Steam or the “Game Settings” tab in Paradox Launcher.
+Manual installation
+[
+edit
+|
+edit source
+]
+The steps are usually the following (refer to specific mod instructions, if any):
+Prepare
+: Remove any existing installation of the mod (mod folder). This is very important, as the game loads all files present in mod folder, so old mod files that are no longer present or were renamed in a new version of the mod would conflict.
+Place Mod Files Appropriately
+: Extract the downloaded archive, so that the mod folder contains the mod folder with the
+top folders
+and the
+.metadata
+folder inside.
+Enable the Mod in the main menu
+: Start Europa Universalis V and select the mod in the "Dlcs and Mods View". Create a playset and add the mod to that playset.
+Select the playset and press apply
+: With the playset selected, click "Apply" to apply the mods. Europa Universalis V will then reload with the mod active!
+For more info, see
+Setting up the mod folder
+.
+Mods lists
+[
+edit
+|
+edit source
+]
+Most mods are published on the Steam Workshop:
+Europa Universalis V Steam Workshop
+Mods with wiki pages
+[
+edit
+|
+edit source
+]
+Wiki pages for Europa Universalis V modifications are the responsibility of the mod's developers.
+Add your
+mod page
+to the wiki. See the
+mod wikipage template
+for an advanced example.
+None yet; add your mod to the wiki today!
+Modding tools
+[
+edit
+|
+edit source
+]
+Modding tools for Europa Universalis V are the responsibility of the tool's developers.
+Add your
+modding tool
+to the wiki.
+Arcanum
+PDX DeepL
+PDX Workshop Manager
+See also
+[
+edit
+|
+edit source
+]
+Modding
+References
+[
+edit
+|
+edit source
+]
+↑
+this is the path which is used by steam when running eu5 from the steam library with proton. The location of the steamapps folder depends on the way how steam is installed. Usually
+~/.steam/steam
+is a symlink to the folder which contains steamapps and the default for the official .deb package is
+~/.local/share/Steam
+or
+$XDG_DATA_HOME
+. If another version of wine or a wine frontend is used, the location can be either in the virtual windows installation which wine is using, or it can map the Documents folder to one of the folders in the users home directory
+Modding
+Documentation
+Defines
+•
+Effects
+•
+Scopes
+•
+Scope links
+•
+Triggers
+Macros
+•
+Mean time to happen
+•
+Modifier types
+•
+On actions
+•
+Script value
+•
+Variables
+GUI script
+•
+Localization
+Scripted content
+Actions
+•
+Disasters
+•
+Events
+•
+Missions
+•
+Modifiers
+•
+Scripted gui
+•
+Setup
+•
+Situations
+•
+Customizable localization
+Scripted types
+Advances
+•
+Buildings
+•
+Casus belli
+•
+Characters
+•
+Concepts
+•
+Countries
+•
+Culture
+•
+Diplomacy
+•
+Estates
+•
+Goods
+•
+Institutions
+•
+International organizations
+•
+Laws
+•
+Peace treaties
+•
+Pops
+•
+Religion
+•
+Subject types
+•
+Traits
+•
+Units
+•
+Wargoals
+Map
+Map
+•
+Map mode modding
+•
+Terrain
+Graphics
+3D Models
+•
+Interface
+•
+Graphical assets
+•
+Fonts
+•
+Flags
+Audio
+Music
+•
+Sound
+Other
+AI
+•
+Console commands
+•
+Checksum
+•
+Mods
+•
+Mod files load order
+•
+Mod structure
+•
+Troubleshooting
+Guides
+Interface modding guide
+•
+Mod translation
+•
+Save-game editing
+•
+Settlement position modding guide
+Tools
+Arcanum
+•
+PDX DeepL
+•
+PDX Workshop Manager
+•
+Add Your Tool to the Wiki
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=Mod&oldid=20470
+"

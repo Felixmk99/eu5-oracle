@@ -1,0 +1,495 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-56-26th-of-march-2025.1733172/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #56 - 26th of March 2025
+Thread starter
+Johan
+Start date
+Mar 26, 2025
+Hello and Welcome to another Tinto Talks, the Happy Wednesday where we give out information about our super top secret game with the codename Project Caesar, so that you can give us feedback!
+Today we will talk about some of the changes to the diplomacy and warfare mechanics we have done since we started doing these Tinto Talks.
+Diplomatic Expenses
+As you may have seen, in some previous Tinto Talks we added another expense to the economy to give more control to the player. The cost for this Diplomatic Expense is based on the tax base of your country, and the more you spend, the greater benefits your diplomatic corps gets.
+If you play France you may have this maximized, but may not if you play a smaller country without subjects unless you you want to be able to maintain an alliance with a bigger and stronger country.
+Antagonism
+In older GSGs we made, we had a concept called ‘Badboy’ which impacted how badly you had behaved and other countries would treat you more harshly according to it. This evolved into the Aggressive Expansion systems we used in Eu4 and Imperator which had a direct impact on opinions that also allowed Coalitions to be formed.
+While these were useful systems, they all were a bit limited;as a global variable in your country it was too broad, and as merely opinion impacts, it was rather hidden and hard to get overviews.
+In Project Caesar we developed a new system called “biases” which has static impacts and temporary values that change over time, like opinions work in most of our games. We had this for Opinions and Trust, and when we were not happy with AE and neither were you, we decided to scrap AE and instead make a new bias, which we call Antagonism.
+Antagonism indicates how other countries are likely to view us. If they feel a lot of antagonism towards us, countries that consider us as relevant to their interests will be less inclined to engage in diplomacy and may act against our interests. Antagonism is caused by basic differences between countries' societal values, government types, religion, culture and language, and actions can cause an antagonism 'bomb' in a location that affects the countries near it to varying degrees depending on how much they care about that location and about the antagonistic country. Antagonism 'bomb' effects will generally dissipate with time. Antagonism also affects a country's opinion of you.
+Of course, a country needs to have caused a certain amount of Antagonism against you before you can join a coalition. The overall effect of this is that you can get away with fewer antagonism ‘bomb’ effects against countries that have a baseline of antagonism for you before they start thinking about forming coalitions against you, and countries that are more similar to you will probably allow a bit more to slide.
+Ottomans will always have a base antagonism to Byzantium..
+Independence Movements
+Trying to become independent as a subject is usually a tough life. In some previous GSGs you could ask another country to support your independence and they could help you in a war.  To make this better, we took inspiration from Crusader Kings where subjects usually band together to fight for independence. As we have the International Organization code, we made a new type of it, called Independence Movements. Any subject with a loyalty below 50% can start such a movement, and any subject can join it. Other countries can be invited as well, and the goal of the war is to get independence for all subjects!
+Probably need some more members for this..
+Civil War Surrenders
+Sometimes you are in a civil war and you know you are about to lose, and it's just a matter of time, so we added in an action to surrender in a Civil War when the other side is more than twice the size than the other.
+And as some of you pointed out, losing a civil war as soon as possible to avoid it, may or may not be an exploit, so currently there are some penalties to jumping to the new country.
+At least Scotland will be free!
+Naval Combat
+During testing, we discovered that with all types of ships having the same frontage made it so that you wanted to stack almost purely the biggest ships and the rest were not useful.   So instead they now have different frontages, so the categories have different roles.
+Heavy Ships have a frontage of 2 and a combat speed of 0.5 & Galleys get 0.5 frontage, but their combat speed is 1. Light ships get higher initiative and combat speed, and have a frontage of 1.
+New Objectives
+When we talked about the military objectives, there was a request to add automated rebel suppression, and this was something we definitely added in. We have now also added a Hunt Navies that works like the Hunt Armies, and tries to engage and destroy enemy navies when spotted in the designated areas.
+We are also looking into adding a few more objectives, like defending the coasts or focused sieges, and will tell you when more are implemented.
+Logistics Improvements
+While we were very happy with having a logistics system in the game, and where food mattered, it was a little bit limited in that you could only trace supply two locations away at most.  So we introduced a concept called Logistics Distance, and now every single army traces a path to the closest valid supply source.  The length that can be traced can be extended through advances in several of the later ages.
+A valid supply source is a Supply Depot, a port or seazone with a navy carrying food that will distribute it to you, or a province-capital that is under control of a country giving you food access and actually has food.
+Supply paths can only be traced through friendly controlled territory, but not through any location that belongs to the Zone of Control of a hostile fort.
+We also made it so that armies can only carry a single month's supply of food with them, except for the auxiliary units, which can carry many months for several regiments each.  This means that even if you can march deep into unprotected territory or have the ability to ignore the Zone of Control for forts, you need to get a supply path to the source you can get food from.
+Of course, you can always see the path your armies trace supply from when you have selected an army, as a thin green arrow goes from the supply source to the army.
+Here I walked past the Lithuanian armies (I used the remove fog of war cheat code, as they would have been hidden for me otherwise), and tracing supplies from Goriadz, and they will easily be able to cut my supplies by movingmy moving into Lipsk.  This is the paper-map-mode where everything is icons on the map.
+Monthly Attrition Losses
+One thing that was requested by you guys was the ability to see how much attrition a unit has taken recently, so we added some history to it, so you can see how many died in the last year.
+My army lacks food to continue the siege…  a few more months at most..
+Recruit Admiral/General
+Another worry that was pointed out by the community was the potential lack of generals or admirals for your units.  So we added two new actions where you can recruit either a general or an admiral for your country for gold.  The price is based on the economy of your country, but the price is reduced by the military ability of the ruler.
+The abilities of the new commander depends on the current army or navy tradition, which is also reduced a bit by recruiting a new commander.
+Next week we’ll go through the mixed collection of all other major changes we have done..
+Last edited:
+Mar 26, 2025
+172
+169
+9
+9
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+15
+Next
+1 of 15
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+So_MeOne
+Second Lieutenant
+Aug 3, 2020
+121
+1.880
+Mar 26, 2025
+Add bookmark
+#2
+I wonder if "Diplomats" Feature was renamed (Since it looks weird gaining fractions of a diplomat every month).
+24
+5
+3
+1
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Mar 26, 2025
+Add bookmark
+#3
+Hey! You're cheating! You've used that DD banner already
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+44
+21
+4
+Reactions:
+Reply
+Report
+So_MeOne
+Second Lieutenant
+Aug 3, 2020
+121
+1.880
+Mar 26, 2025
+Add bookmark
+#4
+I got jumpscared by Natives in preview picture again!
+(Not implying that they look bad, quite contrary. Just was surprised to see them again).
+Edit:
+Just pointing out some small mistakes in TT:
+Johan said:
+movingmy moving
+Click to expand...
+Johan said:
+dependdepends
+Click to expand...
+Last edited:
+Mar 26, 2025
+6
+1
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Mar 26, 2025
+Add bookmark
+#5
+How could two people who want the same things hate eachother so much? smh
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+37
+Reactions:
+Reply
+Report
+EinarH
+Second Lieutenant
+17 Badges
+Mar 15, 2024
+127
+1.160
+Mar 26, 2025
+Add bookmark
+#6
+I feel like
+-5
+for language is very harsh, especially since Religion is only
+-4
+, which I feel should have a bigger impact relative to language
+120
+55
+Reactions:
+Reply
+Report
+nqwery
+Second Lieutenant
+7 Badges
+Oct 3, 2024
+119
+2.115
+Mar 26, 2025
+Add bookmark
+#7
+Since this is the TT about diplomacy changes, are there no Rivalry changes?
+It's the only one thing I'm most concerned about coming back from EU4. It feels forced and gamey, and it feels like I have to arbitrarily pick some countries bc the game told me to to not get any debuffs and not what I naturally want to do
+Last edited:
+Mar 26, 2025
+46
+26
+6
+5
+Reactions:
+Reply
+Report
+Mef
+Field Marshal
+19 Badges
+Feb 4, 2010
+3.482
+11.153
+Mar 26, 2025
+Add bookmark
+#8
+"They will not be allowed to be a member of your cabinet"
+Is this a temporary modifier after recruiting a general or will characters recruited like this never be able to join a cabinet?
+9
+4
+2
+Reactions:
+Reply
+Report
+So_MeOne
+Second Lieutenant
+Aug 3, 2020
+121
+1.880
+Mar 26, 2025
+Add bookmark
+#9
+Personally, I think changing from AE to Antagonism, when it comes to forming coalitions makes sense.
+It opens more possibilities for Coalitions forming, for reasons other than expansion. Like for example: Coalitions forming against revolution birthplace, as it did happen historically with France.
+Last edited:
+Mar 26, 2025
+37
+1
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Mar 26, 2025
+Add bookmark
+#10
+countries that consider us as relevant to their interests will be less inclined to engage in diplomacy and may act against our interests.
+Click to expand...
+What are those acts against our interests?
+Any subject with a loyalty below 50% can start such a movement, and any subject can join it.
+Click to expand...
+You sure it's not meant to be over 50%?
+A valid supply source is a Supply Depot, a port or seazone with a navy carrying food that will distribute it to you,
+Click to expand...
+This is where navigatable rivers could be handy.
+7
+2
+1
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Mar 26, 2025
+Add bookmark
+#11
+Did you just drop a negative antagonism bomb with this TT?
+Great changes!
+4
+1
+Reactions:
+Reply
+Report
+S
+stormtemplar
+Sergeant
+77 Badges
+Apr 15, 2014
+71
+732
+Mar 26, 2025
+Add bookmark
+#12
+Would it be viable for terrain to matter in terms of supply distance, or would this be too complicated for the player? It
+should
+be harder to supply an army over mountains than over flat plains, but I can imagine that could be annoying and difficult to communicate to the player.
+23
+Reactions:
+Reply
+Report
+Jon Snow21
+Corporal
+22 Badges
+Jul 6, 2023
+34
+143
+Mar 26, 2025
+Add bookmark
+#13
+As far as I understand we will be able to direct our armies from manually selecting the route to go through different checkpoints. from point A to B you can reach through point X. Am I right?
+If I am right, you are a GOD. Thank you God for such amazing developers like Johan the Great.
+2
+Reactions:
+Reply
+Report
+P
+Polesie Admiral
+Owns EU5
+45 Badges
+Nov 7, 2022
+2.436
+8.655
+Mar 26, 2025
+Add bookmark
+#14
+Hey Johan, can favours be acquired by subsidies? Also how do regular alliances work? Like eu4, can alliances be between two enemies against a third enemy?
+Toggle signature
+my EU5 suggestions:
+expanding the Tatar Yoke mechanics
+IO-Based short term alliances for targeted wars
+Representation of Jewish pops using estates and laws mechanics
+Suggestion to harden conquest of small nations
+Reworking the Thirty Years War with Multiple Leagues
+Suggestion for Northern wars situation
+Subsidizing countries grant favours on them
+High inflation directly lowers satisfaction
+1
+1
+Reactions:
+Reply
+Report
+Sulphurologist
+Extravagant Map Man
+44 Badges
+Sep 23, 2018
+659
+8.499
+Mar 26, 2025
+Add bookmark
+#15
+Will troops still be able to resupply food from a hostile location they are capturing, or from an occupied/friendly location they are standing in/marching through?
+Toggle signature
+My thread for EU5
+flavor suggestions for Flanders
+My thread for EU5
+topography and terrain
+My thread on EU5
+climates and crop yields
+8
+4
+4
+Reactions:
+Reply
+Report
+D
+Davincie
+Captain
+80 Badges
+Feb 5, 2020
+323
+1.952
+Mar 26, 2025
+Add bookmark
+#16
+A map! With terrain and armies! Is that the first time we've seen it like that?
+2
+2
+Reactions:
+Reply
+Report
+za3tarani
+Lt. General
+35 Badges
+Jan 26, 2014
+1.269
+4.971
+Mar 26, 2025
+Add bookmark
+#17
+1. who didnt like AE? most seemed to like it but wanted to expand it to not only including recent actions (like taking land close by) but also factor in size of country, military strenght etc. so a small nation expanding with 1-2 locations would still be less than prussia being large and have a strong army.
+2. i dont understand the new antoginism, does it not include stuff like: expanding territory close by, having conflicting interests etc? like, will ottoman always be more "threatening" than austria, even if ottoman is 2-3 provinces large and austria is aggressely expanding?
+we want a system that take into account both aggresive expansion (actions taken by the country) as well as its current standing (ie size, military might, "interest"). eu4s system where you mark interest in specific lands was great btw, you would know the country's intent
+edit: there must be some mechanic that keep a some kind of "balance", so you dont just expand freely.
+9
+6
+1
+Reactions:
+Reply
+Report
+M
+mott11
+Recruit
+84 Badges
+Aug 28, 2015
+6
+39
+Mar 26, 2025
+Add bookmark
+#18
+Can you diplomatically get countries to stop supporting your subject’s independence?
+23
+2
+1
+Reactions:
+Reply
+Report
+Daniel the Finlander
+Colonel
+61 Badges
+Feb 2, 2016
+1.064
+8.242
+Mar 26, 2025
+Add bookmark
+#19
+In my opinion, religion should affect antagonism about twice as much as culture/language, especially before the rise of nationalism. Even antagonism towards a different religion in the same group could be notably high, because, well, just look at the friendly history between catholics and orthodox, or catholics and protestants, or sunni and shia.
+Toggle signature
+modder and a lover of mods
+eu5 > imperator > eu4
+EU5 mod: Historically Accurate Courland
+EU5 mod: Historically Accurate Finland
+65
+24
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Mar 26, 2025
+Add bookmark
+#20
+Thrudgelmir2333 said:
+View attachment 1271881
+How could two people who want the same things hate eachother so much? smh
+Click to expand...
+Try looking for the answer in the Byzantium thread
+9
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+15
+Next
+1 of 15
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

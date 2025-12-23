@@ -1,0 +1,433 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-90-3rd-of-december-2025.1884467/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #90 - 3rd of December 2025
+Thread starter
+Johan
+Start date
+Dec 3, 2025
+Hello and Welcome to another Happy Wednesday.  Today we will talk a little bit about Europa Universalis V.
+Yesterday, we released 1.0.8, which was in open beta for a week, where we could iron out blocking issues together, and tomorrow, we will release an open beta for 1.0.10.
+What are the highlights of 1.0.10? Well, with about 450 entries in the patchnotes, there are quite a lot of things that pop to mind.
+New set of advances for when forming Italy, Sokoto, Manchu, Kurdistan, Malacca and Malaya.
+Rebalancing of proximity, reducing some sources, and making lakes and rivers impactful, and roads, when built, now ignore vegetation impact on proximity.
+Some buildings, like marketplaces and market villages, now increase market access.
+And of course, we are adding improvements to AI and UI, and here are two sneak peeks of new Quality of Life features.
+You will now be able to see the production efficiency at every location where you already have a building, so you can determine where it's best to expand, and soon we will add the support for unbuilt buildings as well..
+You can also see the total tax base and actual income for each category of buildings in the buildings tab now.
+Tomorrow, it's been one month since the release, and how have you guys played the game so far? Well, the suggested countries tend to be rather popular, but there is some interesting analysis here.
+Of all games started, here are the most popular starts.
+Castile 9.90%
+Ottomans 9.63%
+Holland 8.65%
+England 4.96%
+Byzantines 4.85%
+Portugal 3.60%
+Yuan 3.33%
+Hungary 3.24%
+Muscowy 3.18%
+Brandenburg 2.83%
+Naples 2.78%
+France 2.68%
+Poland 2.13%
+Sweden 2.06%
+Norway 1.99%
+The top 5 most popular buildings built by players are.
+Market Village
+Irrigation Systems
+Marketplace
+Lumber Mill
+Mason
+A quick glance at the estate privileges granted, you do like giving your peasants weaponry. And when it comes to modding, the most commonly used ones are various Cheating Menu Mods, but the Community Flavor Pack is rising dramatically in popularity.
+261
+38
+16
+4
+3
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+14
+Next
+1 of 14
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+LemonCake101
+Lemon Cake
+66 Badges
+Dec 24, 2017
+85
+558
+Dec 3, 2025
+Add bookmark
+#2
+I would not have expected Market Village to be in the top 5!
+67
+13
+9
+Reactions:
+Reply
+Report
+Ukrop(Furrota)
+First Lieutenant
+Apr 18, 2025
+220
+856
+Dec 3, 2025
+Add bookmark
+#3
+owo
+12
+9
+1
+1
+Reactions:
+Reply
+Report
+W
+WTH666444
+Lt. General
+22 Badges
+Mar 1, 2021
+1.514
+4.310
+Dec 3, 2025
+Add bookmark
+#4
+One thing to note for the proximity rework is the effect that has on war score costs. I've been playing with a mod that equalizes up- and downstream river effects, and the control increase radically increases war score cost.
+45
+5
+Reactions:
+Reply
+Report
+L
+Lazarevich
+Recruit
+Nov 3, 2022
+6
+6
+Dec 3, 2025
+Add bookmark
+#5
+Crazy
+4
+3
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Dec 3, 2025
+Add bookmark
+#6
+LemonCake101 said:
+I would not have expected Market Village to be in the top 5!
+Click to expand...
+Me neither, I'm more of a Forrest Village enjoyer.
+22
+4
+Reactions:
+Reply
+Report
+ViveLiberte
+Private
+21 Badges
+Mar 30, 2018
+21
+154
+Dec 3, 2025
+Add bookmark
+#7
+Johan said:
+New set of advances for when forming Italy, Sokoto, Manchu, Kurdistan, Malacca and Malaya.
+Click to expand...
+And of course, I started playing Malacca yesterday.. Not retroactive, huh?
+Toggle signature
+Deus Vult!
+​
+4
+1
+Reactions:
+Reply
+Report
+Mewnine
+Corporal
+78 Badges
+Apr 24, 2012
+34
+291
+Dec 3, 2025
+Add bookmark
+#8
+Johan said:
+Yesterday, we released 1.0.8, which was in open beta for a week, where we could iron out blocking issues together.
+Click to expand...
+I'm glad we're getting some kind of update. But I'm missing the part where you ironed out issues. It doesn't look like any serious player concerns were adressed before your released this patch. And the games AI doesn't even know how to deal with the changes that were made.
+52
+50
+9
+1
+Reactions:
+Reply
+Report
+Silvermarch
+Corporal
+126 Badges
+Dec 20, 2012
+47
+686
+Dec 3, 2025
+Add bookmark
+#9
+Can we also see the location building-level cap in the building tab?
+38
+1
+Reactions:
+Reply
+Report
+Kriegsspieler
+Field Marshal
+71 Badges
+Feb 27, 2003
+10.533
+1.640
+Dec 3, 2025
+Add bookmark
+#10
+Not feeling too inspired today, eh?
+I've been playing Venice. I am surprised that didn't crack the top 15
+Toggle signature
+Sad Refugee from Paradox Games Past
+11
+1
+1
+Reactions:
+Reply
+Report
+B
+Blitz22
+Recruit
+25 Badges
+Mar 11, 2025
+2
+23
+Dec 3, 2025
+Add bookmark
+#11
+You will now be able to see the production efficiency at every location where you already have a building, so you can determine where it's best to expand, and soon we will add the support for unbuilt buildings as well.
+Click to expand...
+THANKS
+14
+1
+Reactions:
+Reply
+Report
+E
+Erindel
+Second Lieutenant
+43 Badges
+Sep 17, 2020
+150
+666
+Dec 3, 2025
+Add bookmark
+#12
+oooh yeah I was right about roads and vegetation but no impacton hills/mountains
+Impatient to see the full patch notes!
+Considering the UI, I hope you had a chance to look at the Better Roads Builder mod, makes building roads and seeing river flow much easier..
+43
+4
+1
+Reactions:
+Reply
+Report
+Inawordyes
+First Lieutenant
+75 Badges
+Feb 6, 2014
+251
+615
+Dec 3, 2025
+Add bookmark
+#13
+I hope that your mention of mod means that you’re keeping a close eye on what mods are becoming popular amongst the playerbase for basegame implementation. There’s a lot of good ideas!
+The 1.1.10 changes mentioned will definitely help with some of the bigger issues that I’ve seen recently (particularly the lack of river/lake effects on proximity), so hopefully the rest of the patch notes contain similarly-big updates!
+Toggle signature
+I was a leek once.
+30
+1
+Reactions:
+Reply
+Report
+delpiero1234
+WritAAR
+34 Badges
+Jun 24, 2012
+9.315
+2.442
+Dec 3, 2025
+Add bookmark
+#14
+Somehow I expected an apology for the rocky launch...
+90
+26
+21
+Reactions:
+Reply
+Report
+Metz
+Field Marshal
+107 Badges
+Nov 21, 2008
+7.108
+13.741
+Dec 3, 2025
+Add bookmark
+#15
+Will there be feedback from the developers regarding the UI mega thread and the suggestions there? Will some of the suggestions be implemented at some future date?
+34
+1
+Reactions:
+Reply
+Report
+P
+PigletCNC
+First Lieutenant
+66 Badges
+Dec 15, 2016
+277
+656
+Dec 3, 2025
+Add bookmark
+#16
+LemonCake101 said:
+I would not have expected Market Village to be in the top 5!
+Click to expand...
+I am more disturbed by the lack of granaries.
+22
+10
+2
+Reactions:
+Reply
+Report
+Deterock
+Augustus/Freelance translator of EUV news
+73 Badges
+Aug 12, 2017
+231
+713
+vk.com
+Dec 3, 2025
+Add bookmark
+#17
+Roads buff is huge for Austria and England IMO, appreciate it! And UI QOL is also cool, but I think research tab needs drag and drop or something like that too.
+Toggle signature
+Clarus, divus, aeternus Augustus of Ru-speaking community of Paradox Interactive.
+Предпочитаешь читать новости о любимых играх на русском? Присоединяйся к русскоязычному сообществу:
+https://vk.com/pdxint
+If you'd prefer to read news about your favourite Paradox Interactive games in Russian, here's a place for you:
+https://vk.com/pdxint
+14
+5
+Reactions:
+Reply
+Report
+J
+Jars of Feet
+Corporal
+89 Badges
+Mar 17, 2018
+35
+49
+Dec 3, 2025
+Add bookmark
+#18
+Roads ignore vegetation? Time for a game in Indochina.
+20
+5
+Reactions:
+Reply
+Report
+A
+aadf97799c
+Lt. General
+Jun 8, 2022
+1.289
+1.938
+Dec 3, 2025
+Add bookmark
+#19
+1 in 33 player torture themself with yuan are surprising
+wonder how long most of them last
+13
+7
+Reactions:
+Reply
+Report
+J
+Jambo75
+Corporal
+20 Badges
+Jul 1, 2014
+47
+56
+Dec 3, 2025
+Add bookmark
+#20
+you guys are nailing the progress here! Looking forward to 1.0.10 beta
+4
+1
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+14
+Next
+1 of 14
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

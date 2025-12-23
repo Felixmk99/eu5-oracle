@@ -1,0 +1,448 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-7-10th-of-april.1662356/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks # 7 -10th of April
+Thread starter
+Johan
+Start date
+Apr 10, 2024
+Welcome to the seventh edition of Tinto Talks, where we talk about really super secret stuff, that is hidden behind the code name of ‘Project Caesar’.
+Today we’ll look into what makes up the economy in Project Caesar. Obviously, we’ll go into much more detail on some of these aspects in later Tinto Talks. Right now though, we’ll go through the incomes and expenses of a country in the game.
+Every month you have running incomes and expenses that need to be balanced, and if your balance is positive, your gold is increased and you can use that gold to invest in other things.
+And with balancing incomes and expenses, of course there are sliders. Having some buttons for just a few possible options for taxes or expenses, like in Imperator, is not really fitting for a GSG with deep economical gameplay.
+Incomes
+If we start with income, you have trade-related incomes, which is a system we will delve deep into in early May, as well as diplomatically related income. You also gain gold from provinces (not locations) that sell surplus food they can not store in their local market. Neither of these you directly control with any slider though.
+The bulk of most countries' income will come from taxes though, and taxes in Project Caesar are really different than before. First of all, every estate has a possible tax base, a concept we will delve into much more detail next week. This you can attempt tax from them, but every estate has a maximum tax you can take from them, which depends on your laws and their privileges, and how much power they have in your country. The higher the tax you take from them, the lower their satisfaction equilibrium becomes. Some examples of tax affecting things include the Catholic religion which limits the taxes on Clergy, and also the ‘Auxilium et Consilium’ estate privilege for the nobles, which reduces the tax they pay.
+Finally, for something that has existed in some older of our games, we have minting. Now what is that you may ask?  Minting is the possibility to get more money by printing more coins.  It just has the slight drawback of increasing your inflation the more you do it.
+Here we have the possibility to tax the commoners a fair bit more…
+Expenses
+We all do love gaining gold, but sadly we also have to spend it, and while we can reduce some of the spending, we can not completely avoid all of it.
+First of all, we have the Cost of the Court. This is something that is directly correlated to the economic base of your country, and if you spend less gold than expected, your legitimacy, or equivalent applicable government power, will decrease over time, and the more you spend, the more legitimacy can increase. There are advances, laws, and other things that impact how much you need to spend here.
+Then we have the cost for your standing army and navy, where spending less reduces their fighting capability. This is nothing new to our GSG games, so I am not sure why I need to mention this here.
+Fort Maintenance is another common economic expense from our games, which is here as well. If you don’t pay, garrisons don’t tend to stick around.
+Culture, this is an entirely new concept, which will become available in the Age of Renaissance, where you can invest money to get [TO BE TALKED ABOUT LATER], while also impacting your prestige.
+You can also decide how much you wish to spend on your colonial charters, which is a new system we will talk about later this year.
+Finally, the last thing you can impact with a slider is your investment in stability. The cost for how much your investments are needed depends on the size of your country, with different laws and societal values impacting it as well. Stability in itself ranges from +100 to -100, and will decay towards 0 on its own. There are two other ways to impact your stability gain, besides investing gold as mentioned here. One of them relates to the cabinet system, but another is a more long-term impact from how your country is built up, as it is based upon how many clergy pops you have of your state religion compared to the total population.
+There are other expenses as you can see below, but one important thing to mention is that provinces that lack food will try to buy it from the local market.
+Maybe maybe we should cut down on our fleet, and maybe we don’t need ALL those forts. Our standing army of 200 brave footmen is enough!
+Next week we’ll talk more in depth about how the tax base functions, how the food system works, and some other related issues.
+225
+203
+27
+6
+1
+1
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+29
+Next
+1 of 29
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+Jarzki
+Second Lieutenant
+35 Badges
+Oct 30, 2018
+115
+2.067
+Apr 10, 2024
+Add bookmark
+#2
+Favourite wednesday evening activity at the moment
+144
+42
+13
+5
+2
+1
+Reactions:
+Reply
+Report
+L
+Lao-Shang Chan-Yu
+Recruit
+26 Badges
+Mar 19, 2024
+2
+20
+Apr 10, 2024
+Add bookmark
+#3
+Will we be able to claim places where there are no borders, unlike in EU4?  Or will there be a new casus belli system?  because it can cause quite frustrating moments.
+12
+6
+1
+Reactions:
+Reply
+Report
+Teng_Ri
+if u read this v1
+May 3, 2020
+597
+3.382
+Apr 10, 2024
+Add bookmark
+#4
+no maps again
+87
+51
+5
+2
+Reactions:
+Reply
+Report
+Tales_of_your_misdeeds
+Private
+Mar 20, 2024
+13
+165
+Apr 10, 2024
+Add bookmark
+#5
+Will there be more sophisticated dependencies in the economy relating access to various trade goods and production?
+For example, the Low Countries relied on getting wool from England to supply its weaving industry. So in game this could mean something like having a plentiful supply of wool boosts your ability to produce cloth, etc. And not getting the raw supplies you need could lead to serious penalties.
+37
+13
+3
+Reactions:
+Reply
+Report
+Lord Lambert
+I cover Tinto Talks on Youtube
+92 Badges
+Jan 26, 2014
+4.643
+30.666
+Apr 10, 2024
+Add bookmark
+#6
+letsgoooo
+Toggle signature
+I play Paradox games on youtube, check me out here if you like:
+Lord Lambert
+Moving armies on a detailed map is about half the fun of a PDS game - Johan
+My signature has changed.
+This was not my choice.
+​
+7
+3
+1
+Reactions:
+Reply
+Report
+Parmelion
+Lead Developer of Ante Bellum
+23 Badges
+Mar 14, 2016
+356
+1.466
+Apr 10, 2024
+Add bookmark
+#7
+Hello Johan, I am seriously sick and according to my doctor, the only thing that can save me is seeing the map of Carpathia in Project Caesar. Thanks you for your consideration.
+Toggle signature
+Lead Developer - Ante Bellum
+•
+Steam
+•
+Wiki
+•
+Discord
+•
+Spotlight
+•
+Plaza
+•​
+164
+55
+7
+3
+2
+1
+Reactions:
+Reply
+Report
+Stami
+Beyond the Cape Mod Developer
+55 Badges
+Aug 3, 2012
+1.058
+4.588
+steamcommunity.com
+Apr 10, 2024
+Add bookmark
+#8
+show more provinces please thank you!
+Toggle signature
+Beyond the Cape mod for Europa Universalis V
+#Exploration #Navy
+22
+2
+1
+Reactions:
+Reply
+Report
+D
+Dongerino
+Evropa's Gemmiest Herald
+43 Badges
+Jun 27, 2015
+1.131
+10.921
+Apr 10, 2024
+Add bookmark
+#9
+The "Project Caesar" intro sentence gets more sarcastic with each week
+58
+50
+2
+Reactions:
+Reply
+Report
+B
+Benito Fettucine
+Recruit
+26 Badges
+Feb 11, 2024
+3
+36
+Apr 10, 2024
+Add bookmark
+#10
+Hello Johan!
+Super excited for the future of this project! I am very curious how the game will handle revolts, over extension and other systems of "player push back". They can be really difficult because they have to strike that balance between being engaging and interesting while simultaneously forcing the player to properly engage with the games other systems while limiting wild map painting.
+It is something that I personally think a lot of other Paradox games struggle with, Eu4 in particular. In Eu4 revolts are incredibly tedious and often becomes a game of pausing and sending around dozens of armies on wild goose chases. Victoria 3s revolutions could be really interesting, as they are directly influenced by the politics and actions of your nation, and feel a lot more grand and impactful than Eu4 revolts. I do however think they didn't quite stick the landing, as they are often easy to avoid and aren't quite as devastating or perhaps rare as I think they should be.
+So my question to you, how will Project Cesar manage revolts? I would really hope for a system that focuses on rarity but scale, as I think that is the best way to avoid tedium while still forcing the player to really manage their realm carefully.
+Greetings from Sweden!
+22
+1
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Apr 10, 2024
+Add bookmark
+#11
+Will tax be more valuable than it is in EU4, compared to production and trade combination?
+4
+4
+1
+1
+1
+Reactions:
+Reply
+Report
+H
+HyperCopeEmia
+Corporal
+2 Badges
+Jul 1, 2023
+31
+1.034
+Apr 10, 2024
+Add bookmark
+#12
+22
+6
+4
+3
+Reactions:
+Reply
+Report
+Trunting
+General
+92 Badges
+Apr 14, 2012
+1.894
+4.605
+Apr 10, 2024
+Add bookmark
+#13
+Now I'm really curious as to what the culture thing is.
+12
+4
+Reactions:
+Reply
+Report
+Franconian
+Lt. General
+126 Badges
+Oct 4, 2009
+1.478
+5.354
+Apr 10, 2024
+Add bookmark
+#14
+Will high taxation do more than only reducing how much a faction likes you? Could it reduce their influence (since they got no money), reduce the amount of pos, etc?
+Toggle signature
+Watch me play strategy, RPGs and Wuxia/Xianxia games on
+https://www.twitch.tv/franconian
+live, or in playlists on
+https://www.youtube.com/@mefallen
+I was imagining Petrarch sobbing whilst a mad Irishman hacked repeatedly at the corpse of Nigel Farage, mutilating it still further. Meanwhile, an Ulsterman dressed entirely in orange yelled that the Irishman was actually English, and less Irish than him. - DoomBunny
+War is dark and full of horror. But there's an unshakable tinge of honor and glory from time to time. - DarthShizNit
+15
+2
+Reactions:
+Reply
+Report
+Rasileus
+Corporal
+71 Badges
+Dec 19, 2017
+37
+155
+Apr 10, 2024
+Add bookmark
+#15
+Why does the state earn money from the food surplus? Shouldn't it be the estates? And the income they earn from exporting the food could be taxed
+52
+7
+1
+Reactions:
+Reply
+Report
+Zwirbaum
+Game Designer HoI IV
+Paradox Staff
+111 Badges
+Jun 2, 2011
+4.659
+4.492
+37
+Apr 10, 2024
+Add bookmark
+#16
+Is the taxation rates set in 'steps' (as in, every 5%) or rather it works in 1% increments?
+6
+5
+Reactions:
+Reply
+Report
+Arcleae
+Recruit
+57 Badges
+Feb 13, 2017
+5
+94
+Apr 10, 2024
+Add bookmark
+#17
+Culture, this is an entirely new concept, which will become available in the Age of Renaissance, where you can invest money to get [TO BE TALKED ABOUT LATER], while also impacting your prestige.
+Click to expand...
+I'm pretty sure this is talking about patronising artists like Michelangelo right?
+21
+14
+2
+1
+Reactions:
+Reply
+Report
+Teng_Ri
+if u read this v1
+May 3, 2020
+597
+3.382
+Apr 10, 2024
+Add bookmark
+#18
+condo is back
+25
+10
+5
+Reactions:
+Reply
+Report
+A
+alexkowal123
+Banned
+1 Badges
+Mar 18, 2024
+1.326
+2.980
+Apr 10, 2024
+Add bookmark
+#19
+I really don't like how gold is used as the currency when it's probably going to be a good in the game. I get Ducats can appear eurocentric, although I'm not sure of a better alternative
+Edit: stop it, it’s already dead
+Last edited:
+Apr 10, 2024
+35
+10
+9
+6
+Reactions:
+Reply
+Report
+R
+RMS Oceanic
+Field Marshal
+49 Badges
+Jan 27, 2014
+2.807
+4.873
+Apr 10, 2024
+Add bookmark
+#20
+Age of Renaissance
+Click to expand...
+I think EU4's Age System is relatively underrated and a good guideline for what you should be prioritising, and I like it's returning here.
+37
+11
+7
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+29
+Next
+1 of 29
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

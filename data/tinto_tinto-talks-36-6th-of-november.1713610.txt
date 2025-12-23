@@ -1,0 +1,502 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-36-6th-of-november.1713610/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #36 - 6th of November
+Thread starter
+SaintDaveUK
+Start date
+Nov 6, 2024
+Welcome to this week's Tinto Talks. Please stop trying to guess the name of the game, it's going to land us in trouble when you figure it out.
+I'm
+@SaintDaveUK
+, and this week I'm going to delve into Cultures and some related mechanics like Language.
+Culture​
+Culture is a tricky topic because it is so abstract as a concept, but also it’s an area of our games that people have quite strong opinions about, especially when they have real-world connections to that culture.
+As such we would appreciate it if the discussion on this thread is limited to the mechanics of the culture system as presented here, and direct your specific feedback for the culture setup to the relevant regional Tinto Maps where it will be much more helpful.
+So, what is Culture? Culture is the culmination of vernacular, music, food, identity, ethnicity, art and various other hard-to-define ideas. It is something possessed by countries, pops, and characters. It contains two main dimensions: Culture Group and Language.
+A fairly typical example of a Culture, consisting of a Language and a Culture Group.
+Culture Opinion​
+For the most part, cultures all consider each other to be neutral, but they can also have natural preference or aversion to specific cultures.
+This is represented with cultural opinions, which in ascending order are: enemy, negative, neutral, positive, kindred. This mainly gives modifiers in various places, for example, country opinions of each other, or how expensive they are while Accepted.
+Most of these will exist from 1337, but there is a Diplomatic Action to change an opinion over time.
+A list of cultures present inside Aragon, with two-way opinions relative to the primary culture Catalan. Please note that these opinions are WIP, and might not be final.
+​
+​
+Culture Capacity​
+Cultural Capacity represents the maximum number of cultures a country can tolerate or accept. For most countries it starts quite low, but there is an Advance every age to increase the maximum, as well as various other sources like Government Reforms and Policies.
+Each culture costs a different Cultural Capacity, depending on relative size, opinions, culture groups, and languages.
+Non-Accepted Cultures​
+By default, every culture in the world is Non-Accepted to you. It is the default state, and at best means you ignore them. Non-Accepted pops are pretty miserable in your country but also don’t provide you with any benefits.
+Tolerated Cultures​
+If you have the cultural capacity, you can elevate a culture to a Tolerated Culture. This will make the pops a little more content. Tolerated pops will grow as normal, and they will also be a bit happier.
+Accepted Cultures​
+You can elevate a culture further into being Accepted, at which point they gain special rights.
+Even though an Accepted Culture costs 3x more capacity than Tolerated, it’s usually much more desirable as they will give you more levies and sailors. Accepted Cultures also count towards whether you can core a province, and whether a colonial charter will flip to your ownership. Countries whose primary culture is one of your accepted cultures will see you more favourably.
+However, Accepted pops cannot be slaves, and you cannot Accept a culture with "Enemy" culture opinion.
+Primary Culture​
+At the very top of the pyramid is Primary Culture, of which every country has exactly one. This is the principal culture of the apparatus of state, and it is favoured in many calculations. It is not necessarily the largest culture, you can find several countries where a small elite of nobles or clergy rule over the peasant masses belonging to different cultures.
+Primary Culture is an important gate to a lot of gameplay content, such as Advances, Unit Types, Government Reforms and so on. It’s impossible to list it all here, but just know that the primary culture you have can affect many parts of the game.
+You can swap your primary culture with an accepted culture if it fulfils the requirements, such as if it becomes the dominant culture in your country or if it is the culture of your ruler. There is also a game rule for it to be of the same Culture Group.
+Language​
+Attached to cultures is the Language system, which is spread across 3 tiers: Dialect, Language, Language Family. Of the three, Language is the most important and where most of the gameplay takes place.
+Language Families​
+The largest subdivision, many Languages belong to a Language Family, for example Arabic belonging to Semitic. The Indo-European family is split into its sub-groups like Germanic and Romance, because otherwise it is simply too large. Languages like Basque are isolated, and so do not exist in a Language Family. This mostly offers a small opinion bonus and also slightly minimises cost for things like culture acceptance and market attraction.
+Note that this is WIP and examples like Iranic and Indic language groups haven’t been set up.
+Languages​
+Every culture has a single Language which represents the most common vernacular amongst its people. Languages are often larger groups that are comparable to an EU4 culture group in size, if anyone here has played that game. For example, Iceland to Sweden all use variants of the Scandinavian language, while everyone from Vienna to Hamburg will use variants of the German language.
+Languages have Language Power, which is impacted by many sources such as which countries use it as a court language, common language, and liturgical language. It is expressed as a percentage of the most powerful language in the world, and impacts the intensity of bonuses you get from it.
+Un ejemplo.
+The dominant language in each location is shown.
+Dialects​
+To add diversity within a Language, we have a system of Dialects (though we aren’t especially set on that nomenclature). They represent vernaculars that in Project Caesar’s time period broadly formed a dialectical continuum, and are an effective way to differentiate them without weakening them by splitting them into full Languages.
+Dialects are purely for flavour and have no gameplay effect; two dialects are considered identical for most purposes such as opinion bonuses, and they share stats like Language Power. For example, both Leonese and Castilian are considered the same Spanish language and so share the same Language Power, but may have different character names, location names and potentially other light flavour too.
+A map showing the dominant dialects in each location. The current setup is WIP, for example we haven't split up South Slavic or Italian.
+Here is a sketch showing the structure of the Germanic language group and its languages and dialects.
+Countries have several different ways of interacting with Languages
+.
+Common Language​
+The Common Language of a country is simply the language that is used by the primary culture. It can’t be chosen or changed without affecting the Primary Culture.
+Liturgical Language​
+Every country has a Liturgical Language, which represents the language that the Clergy use in their rituals and scriptures, and by extension what scholars use in their academic works. Some religions allow a country to choose whichever liturgical language they like, (for example, Eastern Orthodox countries variously use languages like Greek or Church Slavonic) whereas Catholic and Islamic countries are forced to use Latin and Arabic respectively.
+In general, you will want to adopt a liturgical language with high language power, as it affects your research speed.
+Market Language​
+Markets also have a Market Language representing the Lingua Franca used between the merchants, which is based on the dominant language of the burghers in the Market Capital. The higher the market power, the higher its contribution to the Language Power.
+Locations will have a higher attraction towards markets that share their dominant language, and a slightly smaller bonus if they only share a language family.
+Court Language​
+Every country also has a Court Language, which represents the primary vernacular used in formal proceedings in the government, for example it might be the language spoken in parliament or written in legal documents.
+Unlike the others, Court Languages can be changed almost at will. The possible languages are drawn from your Primary and Accepted Cultures, your ruler, or your Overlord country. The exact court language you have affects the satisfaction of the various estates: Nobles want you to have a more powerful language, meanwhile peasants just want it to be the Common Language. Burghers are happy if you use the same as the capital’s Market Language. The Clergy of course want everything to be in the Liturgical Language.
+Most countries start with the same Court Language as their Common Language, but significant examples of where it is different in 1337 would include Norman French in England and Church Latin in Catholic theocracies.
+Culture Group​
+A Culture Group is a set of Cultures that have some sort of shared identity towards each other. Culture Groups are usually independent of language and current diplomacy, but rather represent a more geographic or genealogical connection that is difficult to represent without abstraction.
+A good example would be the British culture group. The diverse cultures of Great Britain have 3 different languages, across several different countries, and yet they are still united by their shared history and cultural influence that transcends the borders.
+An important culture group.
+In gameplay terms, Culture Groups give small opinion bonuses and make culture acceptance a lot cheaper, but also various pieces of content are gated behind Culture Group instead of Culture. For example, your primary culture needs to be in the British culture group to form the Great Britain tag. The game rules can be set to also prevent you from changing your Primary Culture to one in a different Group.
+One change we have made from EU4 is that cultures can belong to multiple different Culture Groups, or if they are isolated enough, none at all.
+Norse-Gael is the most extreme example of multiple Culture Groups, but the median will be closer to 1 or 2.
+That’s all for now, but our talks on culture don’t stop here. Next week the artist currently known as Johan will make a song and dance about some deeper aspects of Culture that are brand new for Project Caesar, such as Works of Art and Culture War.
+359
+171
+6
+2
+2
+1
+Reactions:
+Reply
+Report
+Written by
+SaintDaveUK
+Art Lead @ Tinto
+Paradox Staff
+120 Badges
+Messages
+1.521
+Reaction score
+39.660
+1
+2
+3
+…
+Go to page
+Go
+41
+Next
+1 of 41
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+High Speed Flying Gladius
+Major
+Jul 28, 2022
+685
+3.355
+Nov 6, 2024
+Add bookmark
+#2
+As they say, culture is forever.
+Toggle signature
+Do not mistake the finger for the Moon.
+Currently writing a megacampaign AAR.
+Weekly AAR Showcase - May 13 2024/ Aug 20 2025.
+WritAAR of the Week - May 5 2024/ Dec 2 2024.
+Best Character Writer of the Week - Nov 7 2024/ Oct 19 2025.
+3rd-place Q3 2024 ACAs
+Inkwell!
+This new "reading" mechanic sounds kinda op tbh. I hope paradox will nerf it before release.
+Please keep politics to the Balkans feedback thread.
+6
+1
+1
+Reactions:
+Reply
+Report
+bluepotato81
+Second Lieutenant
+24 Badges
+Jun 12, 2024
+145
+1.862
+Nov 6, 2024
+Add bookmark
+#3
+Linguistics in PC confirmed lets go
+Toggle signature
+Deliver me from mine enemies, O my God: defend me from them that rise up against me. Defend me from the workers of iniquity, and save me from bloody men. The mighty are gathered against me, awake to help me, and behold.
+Nor is there pain, or cause of pain, Or cease in pain, or noble path to lead from pain;
+The Master said, "Is it not pleasant to learn with a constant perseverance and application? Is it not delightful to have friends coming from distant quarters? Is he not a man of complete virtue, who feels no discomposure though men may take no note of him?"
+Do not despair of the mercy of Allāh. Indeed, Allāh forgives all sins. Indeed, it is He who is the Forgiving, the Merciful.
+The Tao that can be told is not the eternal Tao, and the name that can be named is not the eternal Name.
+It is not your duty to finish the work, but neither are you at liberty to neglect it;
+The finest essence here—that constitutes the self of this whole world; that is the truth; that is the self.
+O Son of Man! Veiled in My immemorial being and in the ancient eternity of My essence, I knew My love for thee; therefore I created thee, have engraved on thee Mine image and revealed to thee My beauty.
+Rise up for me, O Ahura, through Armaiti give strength, through the holiest Spirit give might, O Mazda, through the good Recompense, through the Right give powerful prowess, through Good Thought give the reward.
+O my mind, remember the Lord in meditation; He is the Destroyer of pain, the Eradicator of fear, the Sovereign Lord King. He is the Greatest Lover, the Merciful Master, the Enticer of the mind, the Support of His devotees - this is His very nature.
+In some ways, it is, in some ways, it is not, in some ways, it is, and it is not, in some ways, it is indescribable, in some ways, it is, and it is indescribable, in some ways, it is not, and it is indescribable, in some ways, it is, it is not, and it is indescribable.
+So be diligent in seeking knowledge, keeping company with those of understanding, and studying at all times, and you will attain goodness and blessings.
+An ash I know there stands, - Yggdrasill is its name, - a tall tree, showered - with shining loam. - From there come the dews - that drop in the valleys. - It stands forever green over - Urðr's well.
+Our God, with His mercy - Brought for us beauty and loveliness - He gave a command to the Pen of Power - We were thrown into the Mystery of Love.
+I saw my father, I saw him, and I gave him three requests. I asked him for a great heart, which can be carried by the big and the little. I asked him for calmness, in which there is no rebellion. I asked him for a level path, to rise to light’s place in peace.
+23
+9
+4
+Reactions:
+Reply
+Report
+zlewik
+Corporal
+147 Badges
+Apr 3, 2013
+30
+243
+Nov 6, 2024
+Add bookmark
+#4
+A man of culture, I see
+11
+10
+1
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Nov 6, 2024
+Add bookmark
+#5
+Wow. Johan culture converted to SaintDaveUK.
+76
+6
+2
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Nov 6, 2024
+Add bookmark
+#6
+Complexity has grown I see. I love language is now part of the system.
+Also, nice, I love these particular divisions got implemented.
+Though I wonder if the common language of the two dialects being 'Portuguese' is really something that would satisfy Galician players.
+Finally,
+Implying Johan is soon to change name. Make your bets to what, people.
+Last edited:
+Nov 6, 2024
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+35
+7
+Reactions:
+Reply
+Report
+matfer13
+Field Marshal
+1 Badges
+Dec 17, 2023
+3.015
+18.591
+Nov 6, 2024
+Add bookmark
+#7
+SaintDaveUK said:
+Welcome to this week's Tinto Talks. Please stop trying to guess the name of the game, it's going to land us in trouble when you figure it out.
+Click to expand...
+78
+5
+2
+Reactions:
+Reply
+Report
+Aquila SPQR
+LEGATVS PROPRAETOR BYZABOO MEME-MAN
+Jul 3, 2010
+2.438
+18.068
+Nov 6, 2024
+Add bookmark
+#8
+A tiny glimpse of joy on this depressing day. Thanks.
+65
+24
+21
+7
+6
+Reactions:
+Reply
+Report
+K
+KitChaos
+Second Lieutenant
+28 Badges
+Apr 24, 2023
+110
+677
+Nov 6, 2024
+Add bookmark
+#9
+who are you and what have you done with Johan!
+15
+2
+Reactions:
+Reply
+Report
+E
+EmperorPalpatine
+Corporal
+1 Badges
+Mar 5, 2019
+45
+452
+Nov 6, 2024
+Add bookmark
+#10
+offtopic
+Will you guys provide feedback diaries on the constructive criticism from previous diaries?
+12
+2
+1
+Reactions:
+Reply
+Report
+KanzlerMaxVonBaden
+Second Lieutenant
+80 Badges
+May 21, 2018
+189
+1.517
+Nov 6, 2024
+Add bookmark
+#11
+This is somewhat unrelated, but will there be a diplomatic macrobuilder in PC? It was one of the most handy features in Eu4 imo
+2
+Reactions:
+Reply
+Report
+SaintDaveUK
+Art Lead @ Tinto
+Paradox Staff
+120 Badges
+Jun 20, 2012
+1.521
+39.660
+Nov 6, 2024
+Add bookmark
+#12
+KitChaos said:
+who are you and what have you done with Johan!
+Click to expand...
+Who is Johan?
+109
+19
+2
+2
+Reactions:
+Reply
+Report
+Ofiotaurus
+Private
+52 Badges
+May 28, 2021
+10
+164
+Nov 6, 2024
+Add bookmark
+#13
+Holy fuck. I anticipated languages but this is so much more indepth. Can't wait for EU5.
+26
+6
+Reactions:
+Reply
+Report
+F
+Fruizzy
+Second Lieutenant
+6 Badges
+Oct 25, 2021
+133
+1.187
+Nov 6, 2024
+Add bookmark
+#14
+So...no culture convergence/divergence?
+11
+6
+Reactions:
+Reply
+Report
+ñäktemts soy
+Playable Polynesians Please!
+27 Badges
+Mar 25, 2019
+1.477
+12.131
+Nov 6, 2024
+Add bookmark
+#15
+GOD. Best TT ever. Best TT until the game comes out probably. Multiple groups, three rank languages, four different layers of linguistics, very detailed setup and it all interacts with culture. Thank you for this. I hope market-only languages like Mediterranean Lingua Franca are in, as well as pidgins and creoles. This would tie in very well with dynamic colonial cultures. Also, language setup is extremely janky. Separate Turkish, Turkoman and Azeri especially make zero sense when they have been living together just two centuries ago. I would also argue for siz Turkic languages, Turki/Karluk/Karakhanid/Chagatai/Hakani, Oghuz/Turkmen, Kipchak/Cuman, Siberian, Oghuric, Arghu/Khalaj. Other than that, Meitei seems far too large and Tujia is not related to Hmong/Miao at all. But those will be fixed, and this is still the best Paradox culture/language system to ever come. Literally unparallelled and unrivaled. Praise be to the wonderful team over at Tinto.
+Toggle signature
+Culture: Turkish
+Occupation: Bureaucrat (Future)
+Religion: no_religion
+Issues: Planned Economy, Universal Suffrage, 8 Hour Work Week
+46
+8
+3
+Reactions:
+Reply
+Report
+U
+ulfar97
+Private
+2 Badges
+Apr 27, 2021
+20
+197
+Nov 6, 2024
+Add bookmark
+#16
+Do I understand correctly and your primary culture doesnt necessarily have to be kindred? what then affects that? And how does it even work that you have a relation with your primary culture? As a ruler? Could you please elaborate a bit more?
+10
+2
+Reactions:
+Reply
+Report
+Guaire123456789
+First Lieutenant
+33 Badges
+Feb 17, 2016
+257
+970
+Nov 6, 2024
+Add bookmark
+#17
+i like all the focus on languages, i do hope they end up an important mechanic and not just a gimmick
+Toggle signature
+Presidente de China en el
+HOI del foro
+10
+1
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Nov 6, 2024
+Add bookmark
+#18
+1. With Language. Does it make for example diplomacy harder to do with nations, who have different language or language you've never heard of before, such as making first time contact with New World?
+2. Also, would be fun to have something affecting it on military level, where it might be harder to lead armies, etc, if they're made up of different cultures/languages. Like Austrian Empire had such issues in its time.
+3. So if primary culture affects your unit type. Are unit types different depending on cultures? And is it possible to get different type of units by recruiting units from provinces that are different to primary culture?
+24
+1
+1
+Reactions:
+Reply
+Report
+S
+SolarMaster
+Corporal
+Jun 24, 2024
+29
+315
+Nov 6, 2024
+Add bookmark
+#19
+Will smaller languages like Basque or Albanian have their own language families?
+Toggle signature
+Just some random romaboo on the internet...
+6
+Reactions:
+Reply
+Report
+E
+EU4_is_life
+Recruit
+48 Badges
+May 6, 2020
+2
+43
+Nov 6, 2024
+Add bookmark
+#20
+I understand that there are likely gameplay and other reasons for this, but I think having Scots as a separate language to English (which it is) would be a better representation.
+Though it's important to say I can't speak to the German dialects (for example), so I am not sure if this a consistent design decision being employed (which would alleviate most concerns) or simply an oversight/simplification for gameplay reasons.
+31
+2
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+41
+Next
+1 of 41
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

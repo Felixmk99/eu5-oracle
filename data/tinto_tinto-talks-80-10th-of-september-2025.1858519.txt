@@ -1,0 +1,553 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-80-10th-of-september-2025.1858519/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #80 - 10th of September 2025
+Thread starter
+Roger Corominas
+Start date
+Sep 10, 2025
+Hello, and welcome to another
+Tinto Talks
+, the happy Wednesdays where we talk about
+Europa Universalis V
+!
+Today, we will talk about two more Situations that may happen in the Mid Game: the
+Golden Age of Piracy
+and the
+Little Ice Age
+! Let’s start, without further ado:
+Golden Age of Piracy
+​
+Although there have always been Pirates! at sea, with this situation, we aim to portray its Golden Age, especially in the Caribbean Sea, around the second half of the 17th century. As such, the situation may trigger at the start of the Age of Absolutism (1637), and may be active for as long as 50 years.
+​
+This is the situation panel:
+​
+At the top left, you have a shortcut to change your Piracy Law:
+​
+While at the top right, you have the action to send Privateers. There are multiple ways to be able to unlock and hire Privateers, prior to the situation:
+Two generic advances, from the Age of Renaissance and the Age of Reformation
+Three unique advances, for Maghrebi countries during Age of Tradition, Novgorod in Age of Renaissance, and the Frisian countries in Age of Discovery
+Two policies in the Piracy Law, the State Policy generic one, and the Sea Beggars unique one (available to the Netherlands)
+The Galley Lords reform, available to countries in the Celtic culture group
+The Pirate Brethren reform - which is the default Major reform for Pirate countries
+​
+Let’s now move into the Situation actions. You can follow two different courses of action: sponsoring Pirates and combating them. The latter is the boring one, requesting other countries to cease their pirating:
+​
+The other option is to sponsor Piracy, as you can establish a Pirate subject nation:
+​
+…Which, obviously, opens up the option to continue playing as the newly established Pirate nation! This is an entirely different Type of Country, something we hadn’t yet talked about: a Navy Based Country:
+​
+With its unique Reforms, Succession Law,etc.:
+​
+Besides all the regular mechanic gameplay for them, this will also open new actions for them in the situation:
+​
+There are also historical events to spawn 6 different historical Pirate nations: New Providence, Libertalia, Salé, Tétouan, Port Royal, and Tortuga - which you can obviously play with, if they spawn in your country:
+​
+At the end of the situation, a variable will calculate if the Pirates won it (with a reward for the King of Pirates), or lost it:
+​
+Little Ice Age
+​
+A foreword on the Little Ice Age, before we start with it. Technically speaking, this climatic period is considered to start some time around the 14th or 15th centuries, following the Medieval Climate Optimum. What we have represented in the game is the Maunder Minimum, a very cold period that started around 1650 and lasted for some decades (differently, depending on the region). We considered that this would fit well with our game, so the LIA is a global situation happening during the Age of Absolutism, from 1645 to 1715.
+​
+The start of the situation will add a Harsh Winter modifier to all locations impacted by it, which will reduce their Food Capacity and Production. Thus, this is a very mechanical Situation, in which managing your Food is the key action to do, to avoid losing valuable pops:
+​
+Which, besides normal gameplay mechanics, you can also do from the Situation panel:
+​
+But, besides the mechanical behaviour of the situation, there will be narrative events happening during it, as well:
+​
+Until, finally, the situation ends:
+​
+… And much more, but that’s all for today! Now I have a message from
+@Pavía
+, about the schedule for the next couple of weeks.
+Hi there! I have a bit of sad news for you: we will be skipping most forum posts for a couple of weeks (except Dev Diaries, which are handled by CM team), as we have a bank holiday this Friday, then next week we have to attend a Paradox Staff Conference in Stockholm (before anyone asks: we won’t be an entire week there, but we want to use as many work days as possible of that week to focus on what’s important now for us, polishing the game), and the following Monday we have another bank holiday. This means that we will be back to the regular schedule on
+Wednesday, 24th
+. However, from there until the release of the game, we’ll have the regular weekly posts once again. This is how it will look, then:
+Thursday 11th -> DD #3 -
+Trade and Economy
+Thursday 18th -> DD #4 -
+Discovery
+Wednesday 24th ->
+@Johan
+will be back to Tinto Talks, to talk about
+Multiplayer
+!
+And also remember, you can
+Pre-Purchase Europa Universalis V now
+! Cheers!
+124
+90
+7
+4
+Reactions:
+Reply
+Report
+Written by
+Roger Corominas
+Major
+Paradox Staff
+Messages
+606
+Reaction score
+29.830
+1
+2
+3
+…
+Go to page
+Go
+12
+Next
+1 of 12
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+So_MeOne
+Second Lieutenant
+Aug 3, 2020
+121
+1.880
+Sep 10, 2025
+Add bookmark
+#2
+Nice! Looking forward to kick-start
+The Great Pirate Era
+, I mean,
+The Golden Age of Piracy
+!
+Last edited:
+Sep 10, 2025
+41
+16
+3
+1
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Sep 10, 2025
+Add bookmark
+#3
+I knew executing Gold Roger was a bad idea.
+Edit:
+Also, can any pirate run, or do you need one of the 9 pieces of 8?
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+9
+6
+Reactions:
+Reply
+Report
+GenericUsername1444
+Colonel
+Jun 25, 2024
+805
+10.781
+Sep 10, 2025
+Add bookmark
+#4
+Roger Corominas said:
+• Wednesday 24th ->
+@Johan
+will be back to Tinto Talks, to talk about
+Multiplayer
+!
+Click to expand...
+Very happy to hear that! MP deserves more love.
+Toggle signature
+Professional Georgian
+12
+4
+1
+Reactions:
+Reply
+Report
+Roger Corominas
+Major
+Paradox Staff
+May 19, 2021
+606
+29.830
+Sep 10, 2025
+Add bookmark
+#5
+Thrudgelmir2333 said:
+I knew executing Gold Roger was a bad idea
+Click to expand...
+You can't execute me when I have no gold...
+63
+Reactions:
+Reply
+Report
+livebythecreed77
+Colonel
+44 Badges
+Jul 29, 2015
+920
+4.465
+Sep 10, 2025
+Add bookmark
+#6
+7 weeks and 6 days LFG
+1
+Reactions:
+Reply
+Report
+Kotyk-durkotyk
+Colonel
+23 Badges
+May 26, 2024
+1.137
+15.631
+Sep 10, 2025
+Add bookmark
+#7
+Since it is about certain ages, I have to ask you to
+implement a bit more dynamic windows for the ages like in EU4
+.
+Knowing the exact Age duration 1.1.1637 – 1.1.1737 in every run feels artificial and predictable and is a definitely
+step backwards vs. EU4
+.
+Spoiler:
+Benefits of variable Ages
+The spread of advances is different every time.
+The duration of situations is different every time.
+Adds a lot to the replayability.
+Here is the relevant thread and people seem to highly agree on the issue. Please, take note of that or at least could you explain why not:
+Kotyk-durkotyk said:
+Having hardcoded spawn dates like the
+1st of January, 1342
+and then the
+1st of January, 1
+x
+37
+(with
+x
+=
+4, 5, 6, 7
+) for every Age just feels wrong – too artificial.
+A flexible window (±10–20 years) based on the game dynamics (like in EU4) would make the transitions feel less gamey and would be more interesting and unpredictable.
+-
+Click to expand...
+Thanks!
+Otherwise it looks interesting. Definitely a step towards more interesting late game.
+Last edited:
+Sep 10, 2025
+Toggle signature
+Check out my EU5 threads:
+Ruthenia and Steppe Fix
+–
+my EU5 Mod
+with historical corrections for the Ruthenian and Steppe Regions
+Ruthenian / Cossack / Ukrainian Content Pack
+Orthodoxy Needs a Full Rework in EU5
+30
+10
+1
+Reactions:
+Reply
+Report
+Katana500
+Captain
+37 Badges
+Dec 4, 2015
+349
+1.474
+Sep 10, 2025
+Add bookmark
+#8
+Are there any pirate tags at the start of the game?
+The victual brothers would be a fun tag in the Baltic.
+12
+3
+Reactions:
+Reply
+Report
+Z
+ZarkinDrife
+Second Lieutenant
+31 Badges
+Oct 6, 2022
+114
+466
+Sep 10, 2025
+Add bookmark
+#9
+Will the tinto talk about MP actually lead to feedback being considered and implemented? Would love for this to have some of the best MP offered.
+Reply
+Report
+B
+Balovanka
+Sergeant
+10 Badges
+Feb 22, 2021
+68
+139
+Sep 10, 2025
+Add bookmark
+#10
+Yo-ho-ho and a bottle of
+rum
+liqueur
+4
+Reactions:
+Reply
+Report
+Roger Corominas
+Major
+Paradox Staff
+May 19, 2021
+606
+29.830
+Sep 10, 2025
+Add bookmark
+#11
+Katana500 said:
+Are there any pirate tags at the start of the game?
+The victual brothers would be a fun tag in the Baltic.
+Click to expand...
+They are not present at start, but there's an event that can spawn them pretty early on.
+68
+6
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Sep 10, 2025
+Add bookmark
+#12
+Can pirates spawn outside the timeframe of the situation? Can navy based countries settle anytime or is it available to them only during the situation?
+9
+1
+Reactions:
+Reply
+Report
+So_MeOne
+Second Lieutenant
+Aug 3, 2020
+121
+1.880
+Sep 10, 2025
+Add bookmark
+#13
+Roger Corominas said:
+You can't execute me when I have no gold...
+Click to expand...
+You may have no wealth, but what about fame and power?
+3
+Reactions:
+Reply
+Report
+P
+Polesie Admiral
+Owns EU5
+45 Badges
+Nov 7, 2022
+2.436
+8.655
+Sep 10, 2025
+Add bookmark
+#14
+Roger Corominas said:
+Click to expand...
+cant wait for voiceacting for hints
+Roger Corominas said:
+Click to expand...
+anything about piracy in the baltic?
+Toggle signature
+my EU5 suggestions:
+expanding the Tatar Yoke mechanics
+IO-Based short term alliances for targeted wars
+Representation of Jewish pops using estates and laws mechanics
+Suggestion to harden conquest of small nations
+Reworking the Thirty Years War with Multiple Leagues
+Suggestion for Northern wars situation
+Subsidizing countries grant favours on them
+High inflation directly lowers satisfaction
+4
+Reactions:
+Reply
+Report
+D
+dw70676
+Second Lieutenant
+76 Badges
+Aug 13, 2011
+191
+1.756
+Sep 10, 2025
+Add bookmark
+#15
+Is there any chance earlier Pirate Republics that formed historically might show up, like the
+Victual Brothers in Gotland, Visby
+?
+8
+3
+Reactions:
+Reply
+Report
+P
+Polesie Admiral
+Owns EU5
+45 Badges
+Nov 7, 2022
+2.436
+8.655
+Sep 10, 2025
+Add bookmark
+#16
+Roger Corominas said:
+Click to expand...
+when the Spanish pirate is from portugal
+Toggle signature
+my EU5 suggestions:
+expanding the Tatar Yoke mechanics
+IO-Based short term alliances for targeted wars
+Representation of Jewish pops using estates and laws mechanics
+Suggestion to harden conquest of small nations
+Reworking the Thirty Years War with Multiple Leagues
+Suggestion for Northern wars situation
+Subsidizing countries grant favours on them
+High inflation directly lowers satisfaction
+2
+2
+Reactions:
+Reply
+Report
+Roger Corominas
+Major
+Paradox Staff
+May 19, 2021
+606
+29.830
+Sep 10, 2025
+Add bookmark
+#17
+bokorthedust said:
+Can pirates spawn outside the timeframe of the situation? Can navy based countries settle anytime or is it available to them only during the situation?
+Click to expand...
+There can be some spawned outside the situation through events, but they can only decide to abandon piracy during the situation.
+34
+13
+9
+Reactions:
+Reply
+Report
+Roger Corominas
+Major
+Paradox Staff
+May 19, 2021
+606
+29.830
+Sep 10, 2025
+Add bookmark
+#18
+So_MeOne said:
+You may have no wealth, but what about fame and power?
+Click to expand...
+What is that again? Is that food?
+21
+10
+Reactions:
+Reply
+Report
+Roger Corominas
+Major
+Paradox Staff
+May 19, 2021
+606
+29.830
+Sep 10, 2025
+Add bookmark
+#19
+dw70676 said:
+Is there any chance earlier Pirate Republics that formed historically might show up, like the
+Victual Brothers in Gotland, Visby
+?
+Click to expand...
+There is an event for them, yes.
+42
+15
+1
+1
+Reactions:
+Reply
+Report
+T
+titan.bevel
+Colonel
+Aug 1, 2024
+904
+3.356
+Sep 10, 2025
+Add bookmark
+#20
+Best of luck for that final rush before the game releases !
+As usual with situation like the golden age of piracy, the end reward seems too temporary for something that long lasting. maybe not a "free bonus because gotta grab them all", but I'd say the reward should be the fact the situation keeps going (with eventually some effects for the pirates as long as it keeps going ?). And it needs active successful non-pirates nations involvment to make the situation end.
+The two flags symbols is the pirates republic legitimity, or is it something else ?
+Toggle signature
+2 proposals
+on missions
+a proposal on religious influence
+a proposal on CB and peace deals
+maps ought to be more important !
+trade need some monopoly notion
+,
+and some import and export differences
+2
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+12
+Next
+1 of 12
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

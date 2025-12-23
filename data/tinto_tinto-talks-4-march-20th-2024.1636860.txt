@@ -1,0 +1,477 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-4-march-20th-2024.1636860/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #4 - March 20th, 2024
+Thread starter
+Johan
+Start date
+Mar 20, 2024
+Welcome to the fourth iteration of Tinto Talks!
+Today we’ll give you an overview of the different mechanics of the Government part of the game. There will be development diaries going into much more detail for these later on.
+First of all, we have 5 different government types in the game, which determines a fair bit of what type of mechanics you get access to. As an example, a Republic does not have access to royal marriages, and a Steppe Horde has a different view on how war, peace and conquest works compared to other types of countries.
+Monarchy, which uses Legitimacy
+Republic, which uses Republican Tradition
+Theocracy, which uses Devotion
+Steppe Horde, which Horde Unity
+Tribe, which uses Tribal Cohesion
+An illustration from our game..
+These, together with country rank, government reform, and local flavor gives countries names like “Crown of Aragon,” “Kingdom of Sweden,” “Principality of Wales.”  Not all countries are countries that are based on owning locations on a map though; more on that in later development diaries.
+Each country also has a ruler, or they may be in a regency, if there are no possible adult heirs.
+One of the most defining parts of the government of a country in Project Caesar is the Estates mechanic. This has been one of the core parts of the game, with a full connection between the population and the estates. Keeping the estates satisfied while keeping their powers low is an important part of the gameplay loop. In this game, the Estates are also active entities and will do things on their own if they get enough power.
+Two government reforms, one culture specific and one government specific.
+As time passes, different government reforms and reform-slots will be available. They can also be based on tag, culture or religion.
+These are the two available possibilities in the Law 'Language of Pleading' for the country I tested.
+Something that is different from a reform is what we call a Law. A Law can have several different policies you can pick from, and several laws have unique policies only available to certain tags, religions, cultures, government types or other factors.
+There are some drawbacks to adding new reforms or policies though, as it takes a few years for it to have full effect, depending on your country's administrative efficiency. (Yes, it's a name for something else in another game, but it fits here.)
+Regularly, if your government allows it, you can call in a Parliament. If you don’t do it often enough the estates will start to get irritated, but each parliament has issues that need to be resolved, and the estates will have agendas they want done for their support. Of course, you also have options to push through what you want from a parliament, if you are willing to accept the demands of the estate, like changing a particular law.
+Another part of the government is the cabinet, which also grows in size as you become more advanced, allowing you to do more things. This is something that can be viewed as a hybrid between EU4 Advisors and the CK2 council actions.
+Some of you may remember the domestic policies from EU2 and EU3. In Project Caesar we are bringing the idea back in the form of Societal Values. There are seven that we took from these games, one that was split in two, and we added four new ones, bringing the total to 13 different Societal Values. Societal Values are primarily affected by what other actions you do, like what policies you pick in a law, or what reforms you pick. As with so many other things in our game, this is not an instant action, but a gradual change over time.
+oh look, its eu3!
+Next week, we will go into much more detail about estates and how they work.
+270
+175
+13
+10
+1
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+40
+Next
+1 of 40
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+Wikaaa444
+Corporal
+51 Badges
+Mar 6, 2024
+28
+392
+Mar 20, 2024
+Add bookmark
+#2
+156
+44
+9
+7
+2
+Reactions:
+Reply
+Report
+Stami
+Beyond the Cape Mod Developer
+55 Badges
+Aug 3, 2012
+1.058
+4.588
+steamcommunity.com
+Mar 20, 2024
+Add bookmark
+#3
+EU5 CONFIRMED!
+Toggle signature
+Beyond the Cape mod for Europa Universalis V
+#Exploration #Navy
+89
+36
+14
+2
+1
+Reactions:
+Reply
+Report
+Diamss
+Empereur des Français
+66 Badges
+Nov 29, 2021
+45
+424
+Mar 20, 2024
+Add bookmark
+#4
+I'd like to share something I think is important for the future of the game, so even though I know my comment is a bit long, I'd really like you to read it in full.
+(I used a translator, I'm sorry if the translation isn't of good quality)
+I think we should change the way the war of conquest works, and I'm not talking about the units, I'm talking about the way the war unfolds. I think you should be able to declare war on one or more claims, and that you can, by winning a few key battles, besieging the enemy capital and if the claims are really important, occupy the claimed territories, be able to take what is claimed.
+On the other hand, occupying territories should be much more costly and difficult to maintain, but if you occupy territories you haven't claimed, you should naturally annex them at the end of a war, unless you give them back in exchange for something else in the peace treaty.
+Speaking of peace treaties, I think they would represent the times much better if we could make offers as well as demands. This has often happened in history, for example, I ask for a territory and in exchange I offer commercial advantages. This would limit the need for long and costly wars.
+I also believe that humiliation should not be imposed as part of a peace treaty. Humiliation should be done automatically when we win any war quickly and far less expensively than the opponent, and only if the opponent is our rival or has insulted us recently.
+Another system that I think could greatly enhance immersion is a more dynamic claim system. We should be able to claim any border area, but at first the claim is very weak, and nobody takes it seriously, but by investing time and effort we could make it more and more legitimate and we could ask or force other countries to recognize our claim.
+I think a similar system would be interesting for legitimizing a territory (by territory I mean a set of locations that have been taken in a recent war). Legitimizing a territory, especially if the claim is weak or non-existent, would be a difficult process, requiringi mportant countries to recognize our right to these territories.
+Thanks for reading, I really hope I've given you some good ideas.
+172
+13
+7
+2
+Reactions:
+Reply
+Report
+Universalis_
+Sergeant
+18 Badges
+Aug 26, 2016
+91
+1.314
+Mar 20, 2024
+Add bookmark
+#5
+tinto talk drops another banger
+sliders huh?? and a closer look at estates next week?
+18
+Reactions:
+Reply
+Report
+Kongo87
+Sergeant
+77 Badges
+Jun 17, 2015
+63
+581
+Mar 20, 2024
+Add bookmark
+#6
+Crusader Kings IV: Feudal Boogaloo confirmed
+62
+16
+1
+1
+1
+Reactions:
+Reply
+Report
+Gurtannon
+General
+28 Badges
+Mar 10, 2024
+1.702
+9.943
+Mar 20, 2024
+Add bookmark
+#7
+I just want to play as Ottomans
+Toggle signature
+UltraOttomanist Turk
+28
+14
+13
+3
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Mar 20, 2024
+Add bookmark
+#8
+I kind of like EU3 UI more.
+35
+24
+8
+5
+Reactions:
+Reply
+Report
+Parmelion
+Lead Developer of Ante Bellum
+23 Badges
+Mar 14, 2016
+356
+1.466
+Mar 20, 2024
+Add bookmark
+#9
+Looks great, here's hoping that the game's core systems will be deep and diverse enough so that you won't have to resort to duct tape fixes like mission trees, which I sincerely hope will never be added to this game.
+Toggle signature
+Lead Developer - Ante Bellum
+•
+Steam
+•
+Wiki
+•
+Discord
+•
+Spotlight
+•
+Plaza
+•​
+67
+63
+16
+3
+1
+Reactions:
+Reply
+Report
+sreckom92
+Field Marshal
+24 Badges
+Dec 17, 2012
+4.287
+10.857
+Mar 20, 2024
+Add bookmark
+#10
+You're really trying hard not to call this EU5...
+Toggle signature
+Forth! And fear no darkness!
+113
+26
+8
+1
+Reactions:
+Reply
+Report
+D
+Dongerino
+Evropa's Gemmiest Herald
+43 Badges
+Jun 27, 2015
+1.131
+10.921
+Mar 20, 2024
+Add bookmark
+#11
+Johan said:
+Not all countries are countries that are based on owning locations on a map though; more on that in later development diaries.
+Click to expand...
+HOLY ROMAN EMPIRE CONFIRMED AS AN ACTUAL EXISTING COUNTRY!?!?!?!?
+27
+21
+15
+6
+Reactions:
+Reply
+Report
+M
+Me_
+Myself
+83 Badges
+Jan 14, 2011
+10.062
+15.041
+Mar 20, 2024
+Add bookmark
+#12
+I forgot how ugly EU3's font was. I like the fact that Estates are going to be an integral part of the game from day 1. They have huge potential for being the core of internal politics.
+Johan said:
+These, together with country rank, government reform, and local flavor gives countries names like “Crown of Aragon,” “Kingdom of Sweden,” “Principality of Wales.”  Not all countries are countries that are based on owning locations on a map though; more on that in later development diaries.
+Click to expand...
+I hope this means something for the tribes, so that they can continue to exist in areas taken over by colonizers.
+Toggle signature
+Sit now there, and look out upon the lands where evil and despair shall come to those whom thou allied. Thou hast dared to mock me, and to question the power of France, master of the fates of Europe. Therefore with my explorers thou shalt see, and with my spies thou shalt hear; and never shall thou be released from vassalage until all is fulfilled unto its bitter end.
+"AI cannot do it / would not know how to do it" is not an argument against a suggestion.
+"AI would have to be taught how to do it" is an implied element of every suggestion.
+51
+6
+2
+1
+Reactions:
+Reply
+Report
+Grzegorz Grzybek
+Captain
+102 Badges
+Apr 1, 2016
+359
+1.222
+Mar 20, 2024
+Add bookmark
+#13
+Nice font, but please be it scalable - I'll pay extra 9.99$!
+20
+5
+3
+Reactions:
+Reply
+Report
+Spyser
+Recruit
+79 Badges
+Apr 10, 2017
+4
+55
+Mar 20, 2024
+Add bookmark
+#14
+Stami said:
+EU5 CONFIRMED!
+Click to expand...
+EU3: Chapter 2
+41
+10
+4
+Reactions:
+Reply
+Report
+nephilim2k
+Viking_Nephilim
+Moderator
+72 Badges
+Apr 12, 2013
+1.745
+501
+Mar 20, 2024
+Add bookmark
+#15
+Will we see culture hybridisation and religion reformation as in CK3 which could effect the country court? I ask as they're arguably the best features for culture and religion, or will we stick to base cultures / religions?
+Toggle signature
+You might know me as Viking_Nephilim on Twitch or Discord.
+When I post in Yellow, I am posting in Mod Mode.
+Reply
+Report
+O
+Orneyrocks
+Recruit
+14 Badges
+Mar 13, 2024
+3
+61
+Mar 20, 2024
+Add bookmark
+#16
+In the language of pleading screenshot, we can see that the options either increase serfdom or free citizens. Can you elaborate on this mechanic and how it ties into literacy and other pop-based mechanics you have shared?
+16
+Reactions:
+Reply
+Report
+Aeroclub
+Major
+92 Badges
+Aug 15, 2012
+739
+2.606
+Mar 20, 2024
+Add bookmark
+#17
+So...are you bringing back the sliders?
+Literally the best feature of EU3 that didn't make it to EU4.
+39
+21
+14
+2
+2
+Reactions:
+Reply
+Report
+Burtek5
+Private
+15 Badges
+Jul 9, 2017
+14
+152
+Mar 20, 2024
+Add bookmark
+#18
+By the Gods that map is beatiful... If it has Imperator terrain it will be dream come true
+39
+7
+1
+Reactions:
+Reply
+Report
+kimuyama
+First Lieutenant
+54 Badges
+Dec 13, 2013
+212
+670
+Mar 20, 2024
+Add bookmark
+#19
+Stami said:
+EU5 CONFIRMED!
+Click to expand...
+I think they're heavily hinting this is EU3 II
+Toggle signature
+Interested in travel and history?
+Check out my YouTube
+!
+And while you're at it, check out my 3D art!
+A Visitor from the Depths
+The Circle of Life
+Observant Owl
+Unwelcome Visitor
+Took a wrong turn
+Earth, stylized
+Spaceship crash
+48
+10
+6
+1
+Reactions:
+Reply
+Report
+TheLOL
+Recruit
+44 Badges
+Dec 23, 2016
+3
+38
+Mar 20, 2024
+Add bookmark
+#20
+Johan said:
+Monarchy, which uses Legitimacy
+Republic, which uses Republican Tradition
+Theocracy, which uses Devotion
+Steppe Horde, which Horde Unity
+Tribe, which uses Tribal Cohesion
+Click to expand...
+As if we needed any more confirmation that it's EU5. Hype!
+31
+5
+1
+1
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+40
+Next
+1 of 40
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

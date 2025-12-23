@@ -1,0 +1,465 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-81-24th-of-september.1860037/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #81- 24th of September
+Thread starter
+Johan
+Start date
+Sep 24, 2025
+Hello Everyone and Welcome to another Happy Wednesday, the day of the week we talk about our top-secret, ehh. n/m, it's announced and we release it soon.    The Tinto Talks, where we talk about what will be the greatest game in the universe, Europa Universalis V.
+Today we will talk about some aspects of the multiplayer parts of the game.  For me personally it is an important part of what makes these types of games enjoyable in the long run, so it's important to get it working properly.
+Architecture
+In previous GSG’s we only ran the AI on the host, which created a lot of network traffic, particularly when there are many countries or units. In EU5, which is a far more complex game than anything we have done in the past this would not work if we wanted multiplayer to work. Instead we made a code architecture where the AI runs synchronized on all machines.
+Hosting and Joining Multiplayer Games
+If you are logged into Steam you can host a new game, which loads you into the lobby.
+There are two toggles for whether a game is public and one for if you auto-accept hotjoins or not.
+So what's the little button next to the “Currently Multiplayer”?
+Clicking the blue server ID button copies the server ID to the clipboard for easy sharing
+You can also browse for other players' games, or join a specific server ID you have gotten a link to.
+One important aspect of this is that you will load into this lobby when rehosting a savegame, making continuing a savegame at a later date more convenient.
+Both in the lobby and in the actual game, you will of course be able to chat, including whispering to other players and public chats.
+Out of Syncs?
+Sometimes things happen when you play a multiplayer game across the world, where a player loses connection or gets out of sync.
+These are multiple options that can be done when one or more players goes out of sync with the host.
+Which one do you prefer?
+Ignore - Just hope nothing bad will happen.
+Resync -  The same mechanic as in HoI4, where you can quickly resync the relevant players. This can save a lot of time, with no need for rehosting.
+Continue without these Players - Kind of evil, but sometimes needed.
+End Game - It's a sign to not play anymore right?
+We also have the option to allow a late player, or someone who “accidentally” disconnected to hotjoin a live game! Just like all other games!
+Options
+There are multiple options you may care about how to set for what fits your groups when playing multiplayer. First of all is the settings that a host can set, for how quick transfers should be, and how many ticks a client is allowed to lag before pausing for all.
+Not all networks can handle the fastest transfer speeds..
+Also, the host can decide the game rules that everyone had to follow, if missions should be enabled, how black death is working, and most importantly, if it's called Easter Roman Empire or something else.
+Pause
+We got a game rule for how you want to handle pause in a multiplayer game, where you can have free pausing, or allowing only host to pause and unpause, or allow clients to pause but not unpause.
+Score
+One thing that is multiplayer adjacent is the scoring system.  It's very similar to how EU4 works, in that you gain points depending on if your country is top 10 in admin, diplomatic or military attributes every month.
+We also have the Victory Cards system, which I suspect 0.1% of you actually care about, but is rather important to drive conflicts for the Dev Clash.
+Last edited:
+Sep 24, 2025
+123
+42
+12
+4
+1
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+8
+Next
+1 of 8
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+GenericUsername1444
+Colonel
+Jun 25, 2024
+805
+10.781
+Sep 24, 2025
+Add bookmark
+#2
+Toggle signature
+Professional Georgian
+46
+21
+11
+1
+Reactions:
+Reply
+Report
+APlayerInMC
+First Lieutenant
+5 Badges
+Mar 27, 2024
+221
+1.062
+Sep 24, 2025
+Add bookmark
+#3
+We need co-op game!
+38
+2
+1
+Reactions:
+Reply
+Report
+Z
+ZarkinDrife
+Second Lieutenant
+31 Badges
+Oct 6, 2022
+114
+466
+Sep 24, 2025
+Add bookmark
+#4
+How have multiplayer tests been? Does the game run pretty well compared to other PDX games?
+Edit: Also, can we expect some features to be added over time or is MP mostly gonna be a done deal thing at game launch?
+Last edited:
+Sep 24, 2025
+10
+1
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Sep 24, 2025
+Add bookmark
+#5
+Bold of PDX to assume we have friends to play their games with.
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+37
+21
+5
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Sep 24, 2025
+Add bookmark
+#6
+Dev Clash when?
+23
+Reactions:
+Reply
+Report
+Goran42069
+Second Lieutenant
+18 Badges
+Jan 1, 2016
+115
+1.079
+Sep 24, 2025
+Add bookmark
+#7
+How big is the average save file ?
+9
+1
+Reactions:
+Reply
+Report
+LysanderSage100
+Lt. General
+4 Badges
+Mar 27, 2024
+1.302
+6.907
+Sep 24, 2025
+Add bookmark
+#8
+Don't tease with dev clash, I wan it now!!!
+9
+2
+Reactions:
+Reply
+Report
+Zylathas
+Lt. General
+76 Badges
+May 27, 2013
+1.476
+4.322
+Sep 24, 2025
+Add bookmark
+#9
+Amazing how that victory cards go. Yeah our players don't care, but we care for our internal MP's.
+4
+Reactions:
+Reply
+Report
+P
+Polesie Admiral
+Owns EU5
+45 Badges
+Nov 7, 2022
+2.436
+8.655
+Sep 24, 2025
+Add bookmark
+#10
+hey
+@Johan
+, would we have the possibility of several players playing as the same country? it was possible in EU4
+Toggle signature
+my EU5 suggestions:
+expanding the Tatar Yoke mechanics
+IO-Based short term alliances for targeted wars
+Representation of Jewish pops using estates and laws mechanics
+Suggestion to harden conquest of small nations
+Reworking the Thirty Years War with Multiple Leagues
+Suggestion for Northern wars situation
+Subsidizing countries grant favours on them
+High inflation directly lowers satisfaction
+23
+1
+Reactions:
+Reply
+Report
+Aquila SPQR
+LEGATVS PROPRAETOR BYZABOO MEME-MAN
+Jul 3, 2010
+2.438
+18.068
+Sep 24, 2025
+Add bookmark
+#11
+Topics of the next TTs/DDs/TFs?
+18
+4
+Reactions:
+Reply
+Report
+High Speed Flying Gladius
+Major
+Jul 28, 2022
+685
+3.355
+Sep 24, 2025
+Add bookmark
+#12
+Johan said:
+Hello Everyone and Welcome to another Happy Wednesday, the day of the week we talk about our top-secret, ehh. n/m, it's announced and we release it soon.
+Click to expand...
+Never thought a game that hasn't even released yet would make me feel nostalgia.
+Toggle signature
+Do not mistake the finger for the Moon.
+Currently writing a megacampaign AAR.
+Weekly AAR Showcase - May 13 2024/ Aug 20 2025.
+WritAAR of the Week - May 5 2024/ Dec 2 2024.
+Best Character Writer of the Week - Nov 7 2024/ Oct 19 2025.
+3rd-place Q3 2024 ACAs
+Inkwell!
+This new "reading" mechanic sounds kinda op tbh. I hope paradox will nerf it before release.
+Please keep politics to the Balkans feedback thread.
+21
+7
+4
+2
+Reactions:
+Reply
+Report
+Victor Emmanuel 2k
+First Lieutenant
+Jun 16, 2025
+211
+745
+Sep 24, 2025
+Add bookmark
+#13
+that's it??
+4
+3
+2
+Reactions:
+Reply
+Report
+SuperLexxe
+The Noobwhisperer
+56 Badges
+May 31, 2015
+793
+6.709
+Sep 24, 2025
+Add bookmark
+#14
+Everything here is great!
+Could EU5 MP include things like
+map pings
+, or Victoria 2 style
+map-drawing
+you could share with other players? Also some additional host QoL tools, like
+only the host can assign players' countries
+, etc?
+CK3 and VIKI3 are famous for how unstable their multiplayer is. Has EU5 done something different to alleviate this, besides a resync feature?
+Last edited:
+Sep 24, 2025
+Toggle signature
+EU5 Community Maps & Information:
+1.
+Persia & Caucasus
+2.
+Circassia & Alania
+3.
+Central Asia
+4.
+China & Mongolia
+5.
+Manchuria & Korea
+-
+Oirat Confederation
+-
+Sultanate of Granada
+-
+41
+5
+2
+Reactions:
+Reply
+Report
+Álvaro Núñez de Lara
+Field Marshal
+1 Badges
+May 18, 2020
+3.852
+23.666
+Sep 24, 2025
+Add bookmark
+#15
+What do you mean "the Dev clash" Do we have one coming!
+It feels like the Dev Diary was cut short half way through. Is there nothing else? Not a schedule for next week or even a good bye?
+15
+2
+Reactions:
+Reply
+Report
+MiszeQ
+Recruit
+93 Badges
+Nov 26, 2011
+8
+16
+Sep 24, 2025
+Add bookmark
+#16
+What about differences regarding players:
+1) How will the game work if e.g. host have the recommended PC and other players different down to minimal specs?
+2) Player count. Did you check how the game performs in like 5, 10, dozens of players? Will it be able to run on like speed 4 or even 5? (How players with lower end PCs will keep up with the host on the high end)
+3) What about desyncs frequency? Is it more or less an issue rn?
+Btw, nice changes making multiplayer more friendly network environment for players playing from space or somewhere.
+Btw2, pls add pings
+8
+Reactions:
+Reply
+Report
+Illicitline45
+Second Lieutenant
+65 Badges
+May 8, 2021
+110
+518
+Sep 24, 2025
+Add bookmark
+#17
+Do aesthetic mods change the checksum for the purposes of multiplayer games?
+3
+Reactions:
+Reply
+Report
+APlayerInMC
+First Lieutenant
+5 Badges
+Mar 27, 2024
+221
+1.062
+Sep 24, 2025
+Add bookmark
+#18
+And we need a opinion to hide some important information like the amount of others troops, to make the game more unpredictable and more competitive.
+3
+Reactions:
+Reply
+Report
+A
+ArchangelGabriel
+Second Lieutenant
+51 Badges
+Sep 25, 2019
+144
+755
+Sep 24, 2025
+Add bookmark
+#19
+All looks very nice. What's the schedule for the coming week?
+9
+2
+Reactions:
+Reply
+Report
+T
+TomoYachi
+Major
+34 Badges
+Apr 23, 2025
+766
+4.297
+Sep 24, 2025
+Add bookmark
+#20
+Is there any screenshots we could see from ongoing mp games within the devs? I'd love to see them
+3
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+8
+Next
+1 of 8
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

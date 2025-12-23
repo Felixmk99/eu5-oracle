@@ -1,0 +1,224 @@
+Source URL: https://eu5.paradoxwikis.com/Georgia
+Source Date: 2025-12-16
+
+This is a
+compilation
+and strategy article for
+Georgia
+.
+Mechanics and flavor content are
+transcluded
+from other pages.
+Georgia
+Country type
+Settled
+Government type
+Monarchy
+Primary culture
+Georgian
+Primary religion
+Orthodoxy
+Capital location
+Tbilisi (4390)
+Georgian people are proud of their long history, for their ancestors were already living at the foot of the Caucasus before the empires of antiquity were even founded. They were among the first to embrace
+Christianity
+, and embraced the faith as part of their identity. Even after the expansion of
+Islam
+, and becoming surrounded by heathen nations, they held on to their faith and became a bulwark of Christianity on the border between the East and the West.
+Not even the Mongolian hordes of Činggis Khān managed to fully subjugate the Georgian people, for they rose again in defiance once the Mongolian threat waned.
+Having been united once before under a great kingdom, the Georgian people now have the potential to achieve legendary heights once again."
+We achieved our most splendid accomplishments during the rule of King Davit IV the Builder Bagrationi and Queen Tamar the Great Bagrationi. Now, after having been divided for too long, the Kingdom of Georgia is once again united under the authority of King Giorgi V the Brilliant Bagrationi, after His Majesty conquered western Georgia and reasserted his rule over all the Georgian territory. Even
+Armenia
+bows now to the power of Georgia.
+Although still technically subject to the
+Īlkhānān, they are greatly fractured, and Georgia finds itself within an empty husk, waiting for a strong leader to rise from within and take control. Under these circumstances, how could Georgia not be reborn greater than ever before?
+Georgia is a medium-sized kingdom in the north of the Caucasus
+region. They begin the game with
+File:Rutul.png
+Rutul
+as a
+tributary and the following
+vassals:
+Samtskhe
+,
+Alastani
+,
+Shaki
+,
+Armenia
+. Armenia, itself, has two vassals:
+Khachen
+and
+Syunik
+. They find themselves bordered by minor tribes to the north which, aside from the mountains, buffer them from the
+Golden Horde
+at start. Other nearby nations include the
+Trapezuntine Empire
+to the west and the
+Jalayirids
+to the south.
+Formation
+[
+edit
+|
+edit source
+]
+If Georgia ceases to exist, it may be reformed by any country with the Georgian
+primary culture who owns Tbilisi and at least 75% of
+locations in the Georgia
+area.
+Scripted content
+[
+edit
+|
+edit source
+]
+Main article:
+Georgian content
+Strategy
+[
+edit
+|
+edit source
+]
+The below is
+one of many
+player suggested strategies for
+Georgia
+. Bear in mind, due to the dynamic nature of the game, it may unfold differently for other players.
+General Overview:
+[
+edit
+|
+edit source
+]
+Georgia is considered to be a relatively easy country to play as and is described as expansive, with gameplay mainly oriented on militarism and conquest. Historically, Georgia expanded through creating numerous buffering vassal states during its golden age, exercising control over conquered lands through satellite regimes. Considering the starting situation in the neighborhood, this is the most viable strategy in the game as well. Economically, Georgia controls the Tbilisi market, which is the gateway between Eastern Europe and the Middle East, giving the country some of the more unique opportunities for potential economic exchanges and concentrating wealth. Culturally, Georgia is quite divided, with several "cousin cultures" existing in the west. Religiously, however, the Kingdom is highly unified. The Kingdom is a member of two international organizations: it leads its own Autocephalous Orthodox Patriarchate that unifies Caucasian Orthodox countries within (and, with proper diplomacy, might gain some of the Ruthenian and Russian members later on) and Ilkhanate (which, unfortunately, it cannot exit due to a bug as of version 1.0.7), a rump Mongol regime.
+Values:
+[
+edit
+|
+edit source
+]
+Possibly the most optimal societal values for Georgia are to maximize the following:
+Decentralized: Georgia starts and later will most rely on large vassal swarms that it will gradually annex. Subject loyalty and reduced war exhaustion are and will be important in upcoming wars.
+Innovative: Georgia needs to have a technological edge over their rivals and rapidly spread the institutions to overcome potential threats.
+Spiritualist: Surrounded by heathens for the most part, Spiritualist values will ensure rapid conversion of the Islamic provinces to Orthodoxy.
+Aristocracy: As a militaristic state, Aristocracy is the most optimal choice for Georgia to maximize its army advantages.
+Free Subjects: Ensuring an optimal social ladder and rapid prosperity is essential to developing a proper economy in an otherwise geographically difficult country to develop.
+Belligerent: Georgia starts out as one and should maximize it for rapid expansion. Although, Conciliatory isn't a bad choice either for maximizing the vassal swarm and satellite states.
+Quality: Combined with Aristocracy and Nobles privileges, it further enhances Georgian units.
+Defensive: Georgia's terrain and advances enhance the country's defensive capabilities. This value further aggregates it's potential.
+Land: Georgia is undoubtedly meant to be a Tellurocratic state and will benefit from Land values and its bonuses.
+Capital Economy: Georgia already has large population base and has some advances for building bonuses, creating a good potential for later capitalist development.
+Individualism: This country will surely benefit from the army bonuses gained through these values.
+General Strategy:
+[
+edit
+|
+edit source
+]
+Initially, Georgia should start assigning reforms and privileges into the State and Estates. At the start, Autocracy and Trade Networks are the most optimal versions, as they enhance crown power to balance the privileges and enhance trade networks that help the spread of institutions. Assign as many privileges as possible to every estate to increase their satisfaction, especially the ones that move the country's values to the abovementioned choices. Concentrate on Church and Burgher satisfaction, as they will form the backbone of your technological and economic supremacy. You should also start settling the remaining tribal pops you have and assimilating the minor cultures in the country, especially in the west. Also, note that there are large amounts of Armenian pops being slaves in the neighboring Islamic and nomadic nations, which can be used as an advantage: accept Armenian culture (it's already in the same culture group, so it will be cheaper to do), and when invading neighboring states, choose to release slaves as one of the peace deals. This will both increase your economic and military power with rapid population growth and drain the rivals' economies. This is also the same reason to accept Pontic and later Greek cultures as fast as possible as well, though having too much culture acceptance will be difficult at the start, so consider switching between them depending on strategic interests.
+Initially, Georgia will be barraged by some of the more favourable events, most notably an early alliance with Egypt. This can be used to invade and destroy the hordes in Iran later. Before attacking Ilkhanate hordes, consolidate your kingdom in the Caucasus: start annexing Samtskhe and Alastani, and immediately enforce Orthodoxy upon Shaki. You will also be able to call Parliament in a few months. Use it to gain CB upon the North Caucasian tribals and subjugate them. Having too many vassals might be too straining and inefficient, so consider consolidating some of them, like unifying Circassian lands under a single Circassian minor, for example. You will also be able to invade Shirvan early on, either through CB given by the event or fabricated by Shaki.
+After consolidating the Caucasus, start destroying hordes with the assistance of Egypt in the south and the Golden Horde with the aid of Kyiv, Moscow, or Novgorod in the north. Note that early hordes have high-quality units, so be prepared for some of the relatively harder battles. Make sure that their armies are completely exterminated so that they will dissolve after war. After the initial wars, expand into the Black Sea coast by annexing Trebizond and Turkish minors in northern Anatolia. At this point, the country might find it difficult to integrate all the conquered lands into the Kingdom. Therefore, after this point, more vassal-oriented expansion is preferable in Anatolia: creating custom vassals and gradually enforcing Orthodoxy and Georgian culture, which will be more effectively spread by local counts thanks to better control and a more available cabinet, and annexing them after assimilation. Be sure to cripple Turkish Beyliks early, before they gain more power with the Rise of the Turks situation, and expand towards the Balkans.
+After this, with a large population base and economic and trade advantages, Georgia can essentially expand as it desires: whether to Italy, Egypt, or elsewhere, the potential venues of expansion are open.
+Countries
+Tabber requires Javascript to function.
+Eastern Europe
+Albania
+Arianiti
+Armenia
+Bosnia
+Bulgaria
+Byzantium
+Croatia
+Epirus
+Georgia
+Halych
+Hungary
+Kyiv
+Lithuania
+Mataranga
+Muscovy
+Muzaka
+Perm
+Poland
+Samtskhe
+Serbia
+Smolensk
+Teutonic Order
+Thopia
+Velikiy Novgorod
+Volhynia
+Vyatka
+Wallachia
+Western Europe
+Aragon
+Austria
+Aquitaine
+Balliol
+Brandenburg
+Brittany
+Bohemia
+Castile
+Denmark
+Dithmarschen
+England
+Florence
+France
+Guelders
+Granada
+Holland
+Iceland
+Moravia
+Milan
+Naples
+Navarre
+Norway
+Papal States
+Portugal
+Scania
+Scotland
+Sicily
+Spain
+Sweden
+Valencia
+Venice
+Wales
+Central Africa
+East Africa
+Ethiopia
+Kitara
+North Africa
+Morocco
+Tlemcen
+Tunis
+South Africa
+Zimbabwe
+West Africa
+Middle East
+Oman
+Ottomans
+Yemen
+Central Asia
+Timurid
+East Asia
+Chūzan
+Hokuzan
+Japan
+Míng
+Nanzan
+Ryūkyū
+Yuan
+South Asia
+Delhi
+Mughal
+South East Asia
+Khmer
+Majapahit
+North America
+Cahokia
+South America
+Australasia
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=Georgia&oldid=21151
+"

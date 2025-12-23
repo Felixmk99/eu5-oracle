@@ -1,0 +1,489 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-71-9th-of-july-2025.1835118/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #71 - 9th of July 2025
+Thread starter
+Pavía
+Start date
+Jul 9, 2025
+Hello, and welcome to another
+Tinto Talks
+, the happy Wednesdays where we talk about Europa Universalis V!
+Today, we will talk about the
+Tonal
+religions! This is a religious group that covers the Mesoamerican religions:
+As usual, please consider all UI, 2D and 3D Art as WIP.
+​
+Nahua Ritualism
+​
+Let's start with Nahua Ritualism, which is the religion in the group that has more detailed features:
+This is the panel of the religion:
+Let’s start with the core mechanic of the Nahua Ritualism, an old EU4 friend, Doom:
+As you can see, Doom accumulates over time, and the bigger the country is, the more Doom it accumulates. It can be mitigated either by performing some mechanics, such as killing enemies and looting locations, or by some of the Religious Actions. But there’s only one way of completely escaping from it, which is Reforming the religion. This can be achieved by passing by enough Religious Focuses, the former EU4 ‘Reforms’:
+These Focuses are a necessary pain, as they give a debuff to your country while they’re active, but you need to accumulate some of them to be able to reform the religion. Here you have some of them.
+These are the available Religious Actions:
+​
+The last action, Reform Society, allows to Reform the religion when enough Religious Aspects have been enforced, but it has a big con: It triggers a disaster, 'Reform Society', which needs to be resolved to become a 'Reformed Nahuatl Society':
+Maya Ritualism
+​
+Let’s talk now about another of the Tonal religions -
+Maya Ritualism
+:
+Different from Nahua Ritualism, Maya Ritualism doesn’t have any Doom, but centers instead around the concept of the K’atun.
+The mechanic revolves around preparing for the K’atun celebrations every 20 years in the game. The player needs to invest resources using the different actions to raise the country’s preparations for the K’atun, measured with the Religious Influence currency.
+The country can choose between three degrees of intensity in their preparations, and that will impact the effects they get while preparing for it.
+The K’atun will happen on the actual dates according to the historical Maya calendar, so the first one to encounter once the game starts will be in September 1342, with the following ones occurring every 19.7 years (so they will not always be on the same month). Once the K’atun finishes, the country will get an event with different outcomes depending on how much preparation they have been able to accomplish, as well as resetting the value of preparation back to 0.
+Besides the normal preparations, other additional actions can contribute to the gain of Religious Influence:
+The religion also has other ways to spend the Religious Influence before the end of the K’atun comes, although at the risk of not being fully prepared when it does.
+The modifier granted by the celebration will be different depending on the date on which the ceremony is hosted, varying according to the historical Uinal.
+Same as Nahua Ritualism, Maya Ritualism also has gods, some of them are actually the same ones with different names (so we have dynamic naming for gods). For example, Quetzalcōātl and Kukulkan are the same god with dynamic naming.
+Tonal
+​
+This mechanics for gods is common to all
+Tonal
+religions, as well as many of the Folk Religions. We can now show the religion we have decided to call Tonal, namesake of the Tonal group, gathering under its umbrella beliefs related to those of the Nahua and Maya, but still distinct.
+The gods of a country of these religions are always present for the countries, but the countries can choose a Religious Aspect to worship a specific god as their patron, doubling the effects of such a god.
+And that’s all for today! We will come back on Friday, as we will talk in Tinto Flavour about the
+Aztecs
+!
+And also remember, you can
+wishlist Europa Universalis V now
+! Cheers!
+Attachments
+Katun prepared.png
+272,1 KB
+· Views: 0
+Katun prepared.png
+272,1 KB
+· Views: 0
+90
+79
+42
+7
+5
+Reactions:
+Reply
+Report
+Written by
+Pavía
+Content Design Lead PDX Tinto
+Paradox Staff
+12 Badges
+Messages
+4.509
+Reaction score
+192.684
+1
+2
+3
+…
+Go to page
+Go
+14
+Next
+1 of 14
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+Baphomet enjoyer
+Colonel
+1 Badges
+May 19, 2024
+800
+8.024
+Jul 9, 2025
+Add bookmark
+#2
+All pleas for a release date have proved fruitless! It is time for action!
+TINTO DEMANDS BLOOD!
+I will be sacrificing one forumite (unbelievers first) everyday until the release date is announced! First off, the heresiarch! May the guardians of Sitges favor me in my endeavors...
+97
+81
+36
+2
+1
+Reactions:
+Reply
+Report
+Mindel
+AI Chatbot
+2 Badges
+Jan 23, 2018
+2.255
+11.180
+Jul 9, 2025
+Add bookmark
+#3
+Will the game be getting any appreciable number of historical characters for Tonal regions of the globe?
+5
+Reactions:
+Reply
+Report
+I
+ItalianBeanChef
+First Lieutenant
+67 Badges
+Apr 21, 2025
+215
+1.048
+Jul 9, 2025
+Add bookmark
+#4
+Of gihguj ejhr nfdlviofjt rijh gfivbhnvosdkd. If you can translate this you win a medal.
+11
+Reactions:
+Reply
+Report
+W1NTERMU7E
+Second Lieutenant
+30 Badges
+May 13, 2025
+156
+860
+steamcommunity.com
+Jul 9, 2025
+Add bookmark
+#5
+Baphomet enjoyer said:
+All pleas for a release date have proved fruitless! It is time for action!
+TINTO DEMANDS BLOOD!
+I will be sacrificing one forumite (unbelievers first) everyday until the release date is announced! First off, the heresiarch! May the guardians of Sitges favor me in my endeavors...
+View attachment 1331539
+Click to expand...
+This but with my wallet second after the preorder drops
+Toggle signature
+I've seen your kind, time and time again. Every fleeing man must be caught. Every secret must be unearthed. Such is the conceit of the self-proclaimed seeker of truth. But in the end, you lack the stomach. For the agony you'll bring upon yourself
+4
+2
+2
+Reactions:
+Reply
+Report
+D
+Davincie
+Captain
+80 Badges
+Feb 5, 2020
+323
+1.952
+Jul 9, 2025
+Add bookmark
+#6
+Can you make the gods screen bigger so you can always read their bonuses?
+12
+3
+1
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Jul 9, 2025
+Add bookmark
+#7
+This DD is certainly worth the biggest temple festival yet.
+Any volunteers for the altar? Ill bring the cutlery.
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+8
+1
+Reactions:
+Reply
+Report
+Pavía
+Content Design Lead PDX Tinto
+Paradox Staff
+12 Badges
+Jan 3, 2006
+4.509
+192.684
+Jul 9, 2025
+Add bookmark
+#8
+By the way, I think this week is worth sharing with you the main post illustration in separate post, as I think it's pretty neat:
+Toggle signature
+Antiguo caballero villano del OT en español. Now member of EUIV & EUV Team at Paradox Tinto.
+73
+42
+2
+2
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Jul 9, 2025
+Add bookmark
+#9
+2012 end date confirmed.
+50
+3
+2
+Reactions:
+Reply
+Report
+Pavía
+Content Design Lead PDX Tinto
+Paradox Staff
+12 Badges
+Jan 3, 2006
+4.509
+192.684
+Jul 9, 2025
+Add bookmark
+#10
+Davincie said:
+Can you make the gods screen bigger so you can always read their bonuses?
+Click to expand...
+It's already on our radar of UI improvements for this religious panel.
+Toggle signature
+Antiguo caballero villano del OT en español. Now member of EUIV & EUV Team at Paradox Tinto.
+46
+6
+4
+2
+Reactions:
+Reply
+Report
+LordThanatos
+Major
+95 Badges
+Sep 15, 2018
+634
+8.786
+Jul 9, 2025
+Add bookmark
+#11
+Okay, seriously, Doom is back?
+Why, when it has no links to real Nahua religion do you insist on bringing back the most inaccurate aspect of EU4's mechanics? Where do you get the idea that people rose and sacrificed their rulers? Most sacrifices were prisoners of war, and were not to placate angry gods, but to return the divine energy in a person's heart - their Teyolía - to the sun and keep it - the god Tōnatiuh - shining. This is because the Nahua believed that the world has ended four previous times and is now in the fifth age. The day the world could end was marked as being every 52 years, at the intersections of their solar and ritual calendars, this is the day of the largest ritual observance, the New Fire ceremony.
+I can see a mechanic for mass unrest if you don't contribute enough for the New Fire ceremony, but that sacrifice is not only composed of captured prisoners, but also food, drink, and goods. There might also be goods given to the rain or harvest gods or to ancestors for favour.
+Where is all the stuff that actually feels like authentic Mesoamerican religion? Where is the practice of stealing defeated group's gods for your pantheon or the effigies of gods brought for rituals and to war - where they might be captured? Where are the god impersonation rituals? Where is the new fire festival that you're actually adulterating with the doom mechanic? The human sacrifice is also far more fascinating than you're making it out to be. Sure, some sacrifices were nobodies, but others were dressed as, and treated as gods for a year before sacrifice - and I don't mean that as a metaphor - they were actually seen as being a living god.
+Hopefully that stuff just wasn't talked about, because this is by far the least accurate religious setup so far - and I don't even think it looks nearly as fun as it could be. This is a fascinating religious group and you're just representing the pop-religious aspects. Armies literally stealing the gods of their defeated foes and putting them in their own temples is metal and entirely real, but you focus instead on Apocalypto level representations instead.
+(P.S The religion practiced by the Maya should be called 'Maya ritualism', not 'Mayan ritualism'. Mayan is just the name of the language, Maya is the adjective and demonym)
+Last edited:
+Jul 10, 2025
+Toggle signature
+Proposals to improve how Catholicism is represented:
+Fixing Mechanics around The Papal States and Catholicism
+Feedback on Protestantism:
+Initial Feedback
+Make Eastern Christian Patriarchs extraterritorial.
+Feedback on non-Buddhist Dharmic Religions:
+Initial Feedback
+,
+More Feedback
+Feedback on Islam:
+Incorrect Religious Schools
+,
+Dhimmi
+,
+Other Ideas
+155
+48
+24
+7
+3
+1
+Reactions:
+Reply
+Report
+blallo
+Captain
+32 Badges
+Aug 28, 2015
+475
+1.739
+Jul 9, 2025
+Add bookmark
+#12
+can we get a game rule that enables us to get back the "random nation  tells of DOOOOM" as a pop up just like in the good old days?
+12
+3
+Reactions:
+Reply
+Report
+P
+Polesie Admiral
+Owns EU5
+45 Badges
+Nov 7, 2022
+2.436
+8.655
+Jul 9, 2025
+Add bookmark
+#13
+hello maidenlesses
+Toggle signature
+my EU5 suggestions:
+expanding the Tatar Yoke mechanics
+IO-Based short term alliances for targeted wars
+Representation of Jewish pops using estates and laws mechanics
+Suggestion to harden conquest of small nations
+Reworking the Thirty Years War with Multiple Leagues
+Suggestion for Northern wars situation
+Subsidizing countries grant favours on them
+High inflation directly lowers satisfaction
+17
+2
+Reactions:
+Reply
+Report
+A
+AlvisHael
+Corporal
+28 Badges
+Nov 23, 2021
+31
+217
+Jul 9, 2025
+Add bookmark
+#14
+Very interesting! What about Chichimeca? Which tags does it apply to and does it have any unique mechanics?
+9
+1
+Reactions:
+Reply
+Report
+FleetingRain
+Field Marshal
+58 Badges
+Aug 2, 2014
+4.546
+13.367
+Jul 9, 2025
+Add bookmark
+#15
+Oh cool, you brought back the infamous "Reform Society" from EU4 events.
+We need a shakeup.
+25
+7
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Jul 9, 2025
+Add bookmark
+#16
+Can you build Eagle and Jaguar Warriors with the reformed religion? The tooltip seems to imply that you don't.
+13
+4
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Jul 9, 2025
+Add bookmark
+#17
+How long does it take to complete a focus?
+7
+Reactions:
+Reply
+Report
+nyetflix2
+Lt. General
+Nov 13, 2022
+1.574
+9.424
+Jul 9, 2025
+Add bookmark
+#18
+Has the distribution of these religions been updated since the tinto maps, and if so can we see the current map? There were some innaccuracies.
+Toggle signature
+EU5 Mesoamerica feedback
+12
+Reactions:
+Reply
+Report
+APlayerInMC
+First Lieutenant
+5 Badges
+Mar 27, 2024
+221
+1.062
+Jul 9, 2025
+Add bookmark
+#19
+What's the mechanic of Chīchīmēcah?
+3
+Reactions:
+Reply
+Report
+H
+Huskermax5
+Second Lieutenant
+Apr 10, 2020
+175
+189
+Jul 9, 2025
+Add bookmark
+#20
+Does Doom only malus be sacrifice ruler and stability decay? Because I can totally see some people just tanking it to get better rulers and such.
+Do the reforms have to be passed in order? Also what is the cooldown between them? I didn’t see anything that prohibits pass all of them but I very well may just be blind.
+Can you spoil what the one country in Columbia follows?
+Lastly maya and Nahuatl are heretics not heathens to each other? Can you say what the Inca and NA SOPs are?
+5
+2
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+14
+Next
+1 of 14
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

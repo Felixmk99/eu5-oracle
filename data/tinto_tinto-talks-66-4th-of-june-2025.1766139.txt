@@ -1,0 +1,549 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-66-4th-of-june-2025.1766139/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #66 - 4th of June 2025
+Thread starter
+Pavía
+Start date
+Jun 4, 2025
+Hello, and welcome to another
+Tinto Talks
+, the happy Wednesdays where we talk about
+Europa Universalis V
+!
+Today, we will discuss the mechanics of
+Islam
+. In EUV, it is considered a Religious Group, as Christianity or Buddhism:
+As usual, please consider all UI, 2D, and 3D art WIP.
+​
+As you see, three Religions compose the group: Sunnism, Shiism, and Ibadism:
+They share similar features, and then inside them is where we make the religious differentiation:
+The first mechanic is Schools, an old companion from EU4, but that has been reworked in EU5:
+Muslim countries start with a School, which gives some modifiers:
+As you can see, each School has a different view of the other. This is important because you can invite Scholars of Schools that are available for your branch of Islam, and also don’t have a negative opinion of your chosen School.
+Because, yes, the old EU4 Scholars are also present in EU5, but they’re now inside a new category, the ‘Religious Figures’, which gives some more flexibility on how to use them:
+Scholars are now characters that can travel through the Islamic world and be invited to work for you:
+This unlocks the possibility to change the Main School of your country to that of the Scholar:
+In total, we have this number of schools, with some schools being available to more than one religion:
+10 Sunni:
+Ḥanafī
+Ḥanbalī
+Mālikī
+Shāfi'ī
+Ẓāhirī
+Ash'arī
+Māturīdī
+Aṯarī
+Mu'tazilī
+Wahhābī
+11 Sufi - Both for Sunni and Shia, except 3:
+Bektashi
+Chishtī (only for Sunnism)
+Ḵalwātī
+Mevlevi
+Naqshbandī (only for Sunnism)
+Qādirī (only for Sunnism)
+Ṣafavī
+Shāḏilī
+Suhrawardī
+Īsāwī
+Dīn-i Ilāhī
+8 Shia:
+Ismā'īlī
+Ja'farī
+Zaydī
+Imāmīya
+Nizārī
+Musta'lī
+Alevism
+'Alawī
+1 Ibadi:
+Ibadi - only for Ibadi
+It also has access to all the Sunni and Shia schools, but not the Sufi ones
+The main currency for the religion is
+Piety
+, again a returning concept from EU4. Piety can go from a value of -100 to +100 (representing Mysticism or Legalism respectively), giving scaling benefits to the country depending on the direction.
+Piety will be modified towards one extreme or the other mainly through events, although there are also some ways of adding a passive monthly tendency towards one direction, including privileges and cabinet actions. Another important aspect to mention regarding piety is the fact that to be able to invite a Scholar belonging to any of the Sufi schools, the country must already be leaning towards Mysticism.
+There are a couple of actions in which the country can spend its piety to gain some benefits. A country can exchange piety for either stability or manpower, and both actions require being at 50 piety towards either direction, and move the value 40 towards the center.
+There is also the option to perform a pilgrimage to one of the Holy Sites, as long as they are owned by the country, an ally, or someone with good relations. Performing a pilgrimage will give a small increase in piety, as well as sending the ruler on a holy journey.
+Another important aspect to mention is the fact that Muslim countries have access to some unique laws and policies:
+Implementing the Sharī'ah Law will unlock an extra law, the Sharī'ah Jurisprudence, with policies dependent on the country’s main school.
+Finally, there are a couple of unique buildings available for Islamic countries:
+And that’s all for today! Tomorrow is Thursday, which means that we will publish a new ‘Behind the Scenes’ video, and on Friday, we will take a look at the Ottomans and the Rise of the Turks situation!
+And also remember, you can
+wishlist Europa Universalis V now
+! Cheers!
+136
+85
+27
+21
+2
+1
+Reactions:
+Reply
+Report
+Written by
+Pavía
+Content Design Lead PDX Tinto
+Paradox Staff
+12 Badges
+Messages
+4.509
+Reaction score
+192.684
+1
+2
+3
+…
+Go to page
+Go
+25
+Next
+1 of 25
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+B
+Bozkurt
+Major
+12 Badges
+Jun 15, 2024
+618
+2.356
+Jun 4, 2025
+Add bookmark
+#2
+Elhamdülillah
+Toggle signature
+#1 PROUD AI SUPPORTER
+26
+14
+4
+1
+1
+Reactions:
+Reply
+Report
+P
+Polesie Admiral
+Owns EU5
+45 Badges
+Nov 7, 2022
+2.436
+8.655
+Jun 4, 2025
+Add bookmark
+#3
+Alhamdulila
+Toggle signature
+my EU5 suggestions:
+expanding the Tatar Yoke mechanics
+IO-Based short term alliances for targeted wars
+Representation of Jewish pops using estates and laws mechanics
+Suggestion to harden conquest of small nations
+Reworking the Thirty Years War with Multiple Leagues
+Suggestion for Northern wars situation
+Subsidizing countries grant favours on them
+High inflation directly lowers satisfaction
+15
+3
+3
+1
+Reactions:
+Reply
+Report
+Gurtannon
+General
+28 Badges
+Mar 10, 2024
+1.702
+9.943
+Jun 4, 2025
+Add bookmark
+#4
+Pavía said:
+Yes, there's content about the Safavids, but we need to explain first the Muslim mechanics in a Tinto Talks.
+Click to expand...
+Hello, time has come
+Do Safavid Order start as building based coutry in 1337? And what are the other flavour for Safavids?
+Persia flavour already passed, so I think it is right time to ask for
+Also, will some sufi orders also represented as building based countries?
+Last edited:
+Jun 4, 2025
+Toggle signature
+UltraOttomanist Turk
+27
+4
+1
+Reactions:
+Reply
+Report
+Traxium318
+Captain
+91 Badges
+Apr 28, 2013
+319
+2.013
+Jun 4, 2025
+Add bookmark
+#5
+A punctual Tinto Talk? At this time of the year?
+Toggle signature
+#ReviveImperatorRome #pls
+Spanish PDX content creator mostly on Project Cesar, Vic3 and CK3
+33
+1
+1
+Reactions:
+Reply
+Report
+Baphomet enjoyer
+Colonel
+1 Badges
+May 19, 2024
+800
+8.024
+Jun 4, 2025
+Add bookmark
+#6
+Will the islamization of South East Asia be represented? Also, nice icons for the different sects!
+30
+2
+1
+Reactions:
+Reply
+Report
+D
+dw70676
+Second Lieutenant
+76 Badges
+Aug 13, 2011
+191
+1.756
+Jun 4, 2025
+Add bookmark
+#7
+How do you go about forming the Caliphate?
+14
+1
+Reactions:
+Reply
+Report
+D
+dw70676
+Second Lieutenant
+76 Badges
+Aug 13, 2011
+191
+1.756
+Jun 4, 2025
+Add bookmark
+#8
+Can you set out on or call for Jihads?
+15
+1
+1
+1
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Jun 4, 2025
+Add bookmark
+#9
+Does piety reset to 0 upon ruler death as it did in EU4?
+8
+3
+1
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Jun 4, 2025
+Add bookmark
+#10
+I didn't realise my basement was a Islamic holy site.
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+38
+4
+1
+1
+Reactions:
+Reply
+Report
+D
+dw70676
+Second Lieutenant
+76 Badges
+Aug 13, 2011
+191
+1.756
+Jun 4, 2025
+Add bookmark
+#11
+Is the Kaaba a building or an art work?
+13
+2
+1
+Reactions:
+Reply
+Report
+pheonicia
+Field Marshal
+90 Badges
+Feb 2, 2015
+3.510
+23.853
+Jun 4, 2025
+Add bookmark
+#12
+Bringing back the instant manpower buttons was a bad call.  Overall a really disappointing dev diary when compared the the 4 Christian dev diaries.
+Also is druze not considered part of the Islamic group?  I can see why it wouldn't but am curious to how it's defined.
+Toggle signature
+Will HOI4 be released on H hour CET of D Day? - Mannstien
+Once again though, there are no actual zombies, it is all hysteria and panic. - Darkrenown
+No, cats were invented in 1902 by Satan, but we included them for gameplay reasons. - Darkrenown
+ubi solitudinem faciunt pacem appellant; they make a wasteland and call it peace.
+Pronoun: 3rd person (use my name)
+118
+21
+10
+3
+1
+Reactions:
+Reply
+Report
+T
+titan.bevel
+Colonel
+Aug 1, 2024
+904
+3.356
+Jun 4, 2025
+Add bookmark
+#13
+why does going negative in piety gives also more satisfaction to the clergy ? Was there a typo in the code before the DD ?
+Toggle signature
+2 proposals
+on missions
+a proposal on religious influence
+a proposal on CB and peace deals
+maps ought to be more important !
+trade need some monopoly notion
+,
+and some import and export differences
+18
+2
+1
+1
+Reactions:
+Reply
+Report
+SuperLexxe
+The Noobwhisperer
+56 Badges
+May 31, 2015
+793
+6.709
+Jun 4, 2025
+Add bookmark
+#14
+Unless already done so, Dhimmi status should only apply to Abrahamic and Dharmic religions, as they historically did.
+Over 2.3 million Tengri tribal pops in the Golden Horde for example are now Dhimmi estate because of it not being so.
+Also, tribal pops in general shouldn't be considered for Dhimmi, because they are by nature not part of any group.
+Last edited:
+Jun 5, 2025
+Toggle signature
+EU5 Community Maps & Information:
+1.
+Persia & Caucasus
+2.
+Circassia & Alania
+3.
+Central Asia
+4.
+China & Mongolia
+5.
+Manchuria & Korea
+-
+Oirat Confederation
+-
+Sultanate of Granada
+-
+48
+16
+4
+2
+1
+Reactions:
+Reply
+Report
+matfer13
+Field Marshal
+1 Badges
+Dec 17, 2023
+3.015
+18.591
+Jun 4, 2025
+Add bookmark
+#15
+Is there anything regarding the Caliphate/s
+7
+1
+Reactions:
+Reply
+Report
+Baphomet enjoyer
+Colonel
+1 Badges
+May 19, 2024
+800
+8.024
+Jun 4, 2025
+Add bookmark
+#16
+You mean distanced?
+10
+1
+1
+Reactions:
+Reply
+Report
+Dennis [UA]
+Sergeant
+68 Badges
+Jun 9, 2016
+73
+504
+Jun 4, 2025
+Add bookmark
+#17
+26
+9
+1
+1
+Reactions:
+Reply
+Report
+S
+Snies124
+Corporal
+10 Badges
+Aug 8, 2021
+38
+234
+Jun 4, 2025
+Add bookmark
+#18
+At what age will a muslim be able to marry in the game?
+27
+12
+11
+1
+1
+Reactions:
+Reply
+Report
+Traxium318
+Captain
+91 Badges
+Apr 28, 2013
+319
+2.013
+Jun 4, 2025
+Add bookmark
+#19
+Isn't 70 stab way too much for changing the school?
+Toggle signature
+#ReviveImperatorRome #pls
+Spanish PDX content creator mostly on Project Cesar, Vic3 and CK3
+8
+4
+1
+Reactions:
+Reply
+Report
+Kotyk-durkotyk
+Colonel
+23 Badges
+May 26, 2024
+1.137
+15.631
+Jun 4, 2025
+Add bookmark
+#20
+Alevism
+'Alawī
+Are these two really different schools?
+Sorry for ignorance, I'm really curious since it may seem like different 'localisations'.
+Last edited:
+Jun 4, 2025
+Toggle signature
+Check out my EU5 threads:
+Ruthenia and Steppe Fix
+–
+my EU5 Mod
+with historical corrections for the Ruthenian and Steppe Regions
+Ruthenian / Cossack / Ukrainian Content Pack
+Orthodoxy Needs a Full Rework in EU5
+4
+1
+1
+1
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+25
+Next
+1 of 25
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

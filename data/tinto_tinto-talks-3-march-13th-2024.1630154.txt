@@ -1,0 +1,502 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-3-march-13th-2024.1630154/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #3 - March 13th, 2024
+Thread starter
+Johan
+Start date
+Mar 13, 2024
+Welcome to the third week of Tinto Talks, where we talk about our upcoming game, which has the codename “Project Caesar.” Today we are going to delve into something that some may view as controversial. If we go back to one of the pillars we mentioned in the first development diary, “
+Believable World,
+” it has 4 sub pillars, where two of them are important to bring forward to today.
+Population
+The simulation of the population will be what everything is based upon, economy, politics, and warfare.
+Simulation, not Board Game.
+Mechanics should feel like they fit together, so that you feel you play in a world, and not abstracted away to give the impression of being a board game.
+So what does that mean for Project Caesar?
+Every location that can be settled on the maps can have “pops,” or as we often refer to them in Project Caesar; People. Most of the locations have people already from the start of the game. Today we talk about how people are represented in our game, and hint at a few things they will impact in the game.
+A single unit of people in a single location can be any size from one to a billion as long as they share the same three attributes, culture, religion, and social class. This unit of people we tend to refer to as a pop.
+Culture, ie, if they are Catalan, Andalusi, Swedish, or something else.
+Religion, ie, Catholic, Lutheran, Sunni etc. Nothing new.
+Social Class. In Project Caesar we have 5 different social classes.
+Nobles - These are the people at the top of the pyramid.
+Clergy - These represent priests, monks, etc.
+Burghers - These come from the towns and cities of a country.
+Peasants - This is the bulk of the people.
+Slaves - Only present in countries where it is legal.
+There are a few other statistics related to a Pop, where we first have their literacy, which impacts the technological advancement of the country they belong to, and it also impacts the Pop’s understanding of their position in life.
+Another one is their current satisfaction, which if it becomes too low, will cause problems for someone. Satisfaction is currently affected by the country’s religious tolerance of their religion, their cultural view of the primary culture, the status of their culture, general instability in the country, <several things we can’t talk about just yet>, and of course specially scripted circumstances.
+There are also indirect values and impacts from a Pop on the military, economical and political part of the game as well, which we will go into detail in future development diaries.
+Populations can grow or decline over time, assimilate to other cultures, convert to religions, or even migrate.
+Most importantly here though, while population is the foundation of the game, it is a system that is in the background, and you will only have indirect control over.
+What about performance then?
+One of the most important aspects of this has been to design this system and code it in a way that it scales nicely over time in the game, and also has no performance impact. Of course now that we talked about how detailed our map is with currently 27,518 unique locations on the map, and with many of them having pops, you may get worried.
+14 years ago, we released a game called Victoria 2, that had 1/10th of the amount of locations, but we also had far more social classes (or pop-types) as we called them there. That game also had a deep political system where each pop cared about multiple issues, and much more that we don’t do here. All in a game that for all practical purposes was basically not multi-threaded in the gamelogic, and was still running fast enough at release.
+Now we are building a game based on decades of experience, and so far the performance impact of having pops is not even noticeable.
+Next week, we will talk about how governments work a bit, but here is a screenshot that some may like:
+443
+177
+17
+13
+11
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+42
+Next
+1 of 42
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+D
+Dongerino
+Evropa's Gemmiest Herald
+43 Badges
+Jun 27, 2015
+1.131
+10.921
+Mar 13, 2024
+Add bookmark
+#2
+>Population
+Already preordered 5 copies.
+Edit: Having read the rest of the post, I have added 2 more preorders. This is everything I've always wanted.
+177
+33
+30
+17
+3
+Reactions:
+Reply
+Report
+Stami
+Beyond the Cape Mod Developer
+55 Badges
+Aug 3, 2012
+1.058
+4.588
+steamcommunity.com
+Mar 13, 2024
+Add bookmark
+#3
+Yay! Pops!
+Toggle signature
+Beyond the Cape mod for Europa Universalis V
+#Exploration #Navy
+78
+15
+3
+1
+Reactions:
+Reply
+Report
+Sete
+Lt. General
+49 Badges
+Jan 24, 2018
+1.644
+4.531
+Mar 13, 2024
+Add bookmark
+#4
+Great news on pops. It's fundamental to limit manpower and development if things go awry for the player.
+57
+9
+3
+Reactions:
+Reply
+Report
+Universalis_
+Sergeant
+18 Badges
+Aug 26, 2016
+91
+1.314
+Mar 13, 2024
+Add bookmark
+#5
+(Yes, I unashamedly stole the meme)
+"rather controversial" huh?
+I love it!
+87
+51
+9
+5
+2
+Reactions:
+Reply
+Report
+TheBlahJ
+Sergeant
+23 Badges
+Oct 17, 2022
+90
+653
+Mar 13, 2024
+Add bookmark
+#6
+no way thats not byzantium in the screenshot. we are so back byzaboos
+75
+34
+23
+8
+1
+Reactions:
+Reply
+Report
+C2troy4
+Corporal
+21 Badges
+Aug 4, 2021
+30
+330
+Mar 13, 2024
+Add bookmark
+#7
+Looking good, but that liberal use of “Burghers” “Nobles” and “Clergy” is reminding me of something…
+54
+22
+2
+1
+Reactions:
+Reply
+Report
+Sete
+Lt. General
+49 Badges
+Jan 24, 2018
+1.644
+4.531
+Mar 13, 2024
+Add bookmark
+#8
+C2troy4 said:
+Looking good, but that liberal use of “Burghers” “Nobles” and “Clergy” is reminding me of something…
+Click to expand...
+Obviously Dark Ages game.
+I for one will entertain the charade.
+37
+4
+Reactions:
+Reply
+Report
+R
+RMS Oceanic
+Field Marshal
+49 Badges
+Jan 27, 2014
+2.807
+4.873
+Mar 13, 2024
+Add bookmark
+#9
+Sounds good so far. Makes sense you don't include pop political leanings as that probably borrows just a smidge too much from Vicky and threatens this one's identity. Will be interesting to see how internal country management will manifest.
+18
+2
+Reactions:
+Reply
+Report
+Zemurin
+Weaver of the Converters
+126 Badges
+Jun 29, 2016
+4.789
+1.843
+Mar 13, 2024
+Add bookmark
+#10
+That IS Byzantium!
+Toggle signature
+Member the -=
+Paradox Game Converters
+=- Team
+Lead developer on
+:
+upcoming
+EU5 to Vic3
+,
+CK3 to EU4
+,
+CK2 to EU4
+,
+EU4 to Vic3
+,
+EU4 to Vic2
+,
+RB
+,
+RW
+(Victoria 2/3 Clamp Mods for EU4)
+See our other active converters:
+Vic2 To HoI4
+,
+Vic3 To HoI4
+,
+Imp to CK3
+,
+Imp to CK2
+and more!
+Support us on
+Patreon
+. We always need more programmers, join us!
+17
+1
+Reactions:
+Reply
+Report
+epicness7131
+Private
+42 Badges
+May 12, 2021
+23
+152
+Mar 13, 2024
+Add bookmark
+#11
+"Next week we’ll be back talking about something that could be rather controversial…" Me when I hear pops are being implemented
+Attachments
+download.jpg
+5,8 KB
+· Views: 0
+Toggle signature
+“He who fears being conquered is sure of defeat.”
+Napoleon Bonaparte
+​
+55
+1
+1
+Reactions:
+Reply
+Report
+Gurtannon
+General
+28 Badges
+Mar 10, 2024
+1.702
+9.943
+Mar 13, 2024
+Add bookmark
+#12
+1356 start date pls
+Pros
+-Weak Yuan against Ming
+-Golden horse starting to fracture
+-Tenochtitlan founded (1328)
+-Ottoman conquest of Balkans
+-hundred years wars
+-Granada still owns gibraltar and ceuta
+-Pagan Lithuania
+-Longer medieval experience
+…
+You can add more
+Also, pls dont rush when making map, I mean make it completed (proper locations, tags, starting borders, sea tiles, wastelands etc)
+No one wants to see one big placeholder manchu tag or other placeholder states until dlcs on that region( africa, americas…), I dont mean completed mechanics just completed provinces and tags for future work
+Toggle signature
+UltraOttomanist Turk
+102
+15
+10
+6
+1
+Reactions:
+Reply
+Report
+L
+LukasVonGinger
+Private
+14 Badges
+Mar 7, 2024
+17
+115
+Mar 13, 2024
+Add bookmark
+#13
+ca 7- 8 times as many provinces as in eu4, Eu5 is about to be massive
+35
+15
+3
+1
+Reactions:
+Reply
+Report
+ikergo
+Private
+83 Badges
+May 14, 2014
+17
+145
+Mar 13, 2024
+Add bookmark
+#14
+Sephardis in Tarragona? EUV confirmed and start date before 1492
+52
+29
+1
+Reactions:
+Reply
+Report
+Sapa Inca
+General
+36 Badges
+Jan 21, 2017
+1.960
+3.480
+Mar 13, 2024
+Add bookmark
+#15
+If it has enough gameplay impact, developers would consider to break peasant class in 3?
+1- Nomadic people
+2-  Pastoral people
+3- Peasants
+This way all the 3 main common lifestyles for the common people would be represented: Nomadic hunter-gatherers, nomadic shepherds and sedentary farmers.
+73
+6
+5
+3
+1
+Reactions:
+Reply
+Report
+Gurtannon
+General
+28 Badges
+Mar 10, 2024
+1.702
+9.943
+Mar 13, 2024
+Add bookmark
+#16
+Pops were definitelt needed
+Toggle signature
+UltraOttomanist Turk
+30
+17
+4
+Reactions:
+Reply
+Report
+P
+pd2580_
+Recruit
+39 Badges
+Feb 13, 2024
+7
+34
+Mar 13, 2024
+Add bookmark
+#17
+Will the economy aspect have any... graphs? I'm also curious if the buildings will have more variety than one good per province similar to games like EU4 (I have played very little and might be wrong)
+21
+2
+1
+Reactions:
+Reply
+Report
+nephilim2k
+Viking_Nephilim
+Moderator
+72 Badges
+Apr 12, 2013
+1.745
+501
+Mar 13, 2024
+Add bookmark
+#18
+Johan said:
+A single unit of people in a single location can be any size from one to a billion as long as they share the same three attributes, culture, religion, and social class. This unit of people we tend to refer to as a pop.
+Click to expand...
+Is this an American Billion (9 zeroes), or a European Billion (12 zeroes)?
+Thanks!
+Toggle signature
+You might know me as Viking_Nephilim on Twitch or Discord.
+When I post in Yellow, I am posting in Mod Mode.
+Reply
+Report
+Obeliskkai
+Captain
+50 Badges
+Dec 14, 2018
+368
+2.904
+Mar 13, 2024
+Add bookmark
+#19
+TheBlahJ said:
+no way thats not byzantium in the screenshot. we are so back byzaboos
+Click to expand...
+Agreed, which guarantees the starting point is before 1453.
+19
+5
+Reactions:
+Reply
+Report
+T
+Testerian2
+καλὸς κἀγαθός
+Dec 17, 2014
+856
+3.526
+Mar 13, 2024
+Add bookmark
+#20
+Suspected POPs, just a little disappointed there is no "aristocrat" class, that would make my beloved PLC rather flat...
+ps. Love how the list is clear, concise, filterable, and sortable!
+Toggle signature
+Some ideas how to improve EU5:
+Mission Trees
+Army part 1
+,
+Army part 2
+,
+Joys or losing a war
+Character system
+8
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+42
+Next
+1 of 42
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

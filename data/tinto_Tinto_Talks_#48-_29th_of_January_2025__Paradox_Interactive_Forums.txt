@@ -1,0 +1,463 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-48-29th-of-january-2025.1727342/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #48- 29th of January 2025
+Thread starter
+Johan
+Start date
+Jan 29, 2025
+Welcome to another Tinto Talks, The Happy Wednesday where we give out some information about our entirely top secret game Project Caesar, and get great feedback!
+This week we will talk about how Unions and Regencies work in Project Caesar.
+Unions
+A union is a type of treaty that happens when two or more countries happen to have the same ruler, or when their rulers have a royal marriage. This functions like a defensive alliance in that they will come to each other's help automatically if they are attacked, but laws can be added to them to change how the union works.
+In some previous GSGs we have done, a union was a type of subject, but here they start as a common pact in the form of an International Organization, where both partners (or more), at first all start at the same level.
+A newly generated union only has the assured defense policy setup, and if you wish to keep the union stable and long-lasting you need to increase the Union Integration Level by getting more and more centralizing policies.
+The Union Integration Level describes how centralized the Union is through laws and policies. Every member who is present when a centralizing policy is implemented gets its level increased. With the final centralization policy, all junior partners that have the same level as the union get unified by the Senior Partner. Members who join the Union later need to catch up on their progress to be integrated via the parliament.
+The Muscovite Union at the start of the game with the opinion, estates, stability, legitimacy and Integration Level of each member on display. At the top, you can see the Union-wide Integration Level which is basically a counter for all the centralizing policies implemented.
+Union Parliament
+In order to implement the laws for newcomers, you will have to use the Union Parliament which represents an assembly of the Union that calls in the ruling class estates of all members who have the already established laws not implemented yet.
+Calling the parliament in the union works similar to how you call it at the country level. However, the parliament issue is fixed for it, differently to a regular country Parliament. To pass the Parliament Issue, you need to reach a minimum of 50% Parliament Support. And to get support for it, you have to bribe one of the three ruling estates of any of the countries in the Union. How much support they give depends on their Great Power Score compared to the total of all the member states that are called in the Parliament. In other words: in a union that has both France and Normandy in it, bribing France’s estates has a significantly higher impact on the result of the Parliament than bribing Normandy’s estates.
+Here we have the Parliament of the Hungarian Union with Croatia which already has 2 centralizing policies implemented and now has Serbia and Bosnia as newcomers in the Union, with an Integration Level for each of them of 0. The members are sorted by the potential Parliament Support.
+There are three potential bribes available for each member, one per estate. Once selected, you have the choice of one of several Parliament Agendas for that estate:
+Right now, the Bribe Effect is set to reduce the Legitimacy of your country and transfer gold to the target estate, and the cost scales with the Integration Levels the member state is behind compared to the whole IO and their Great Power Score compared to the Senior Partner. There are plans to diversify the bribes though, so each agenda has a more unique cost attached to it.
+Once a member’s estate is bribed, the country vanishes from the list for that Parliament.
+Union Laws
+Let's dive into the different laws that a Union can have. Laws in the PU are separated into two categories: Centralizing Policies and Generic Policies. Starting with the latter, smaller category, every Personal Union has the Assured Defense policy when created, which gives the union its defensive character.
+It is possible to replace it with its two alternatives if you wish to have your partners not be involved in your defensive wars. These options are however not very popular amongst the AI.
+The offensive counterpart has only one policy though which allows you to call union partners into offensive wars as if they were allies:
+The final Generic Policy is the one about the Union Contribution. As you have noticed, the aforementioned policies mention that the Union needs a certain amount of Gold. With the Union Contribution policy, a treasury in the Union will be established where each member has to pay in.
+The numbers of the actual payments are still subject to change.
+The Gold in the Union Treasury is right now used to enact policies in the Union or to call in the Parliament.
+Moving on to the Centralization Policies, the first and probably most important one is the policy of establishing a de facto Senior Partner of the Union.
+The Senior Partner is the de facto leader of the Personal Union, so the Parliament is called by it, and it’s also the member that can propose Centralizing Policies. The AI member with the highest Great Power Score will try to enact this policy.
+The remaining policies revolve around standardizing the Succession Law, the Government Reforms and Laws, the Estate Privileges, the Cultures and Languages of the members after the Senior Partner ones.
+Finally, there is the Unification of Crowns policy which finalizes the centralization, and lets the Senior Partner annex every Junior Partner who has the same Integration Level as the Union itself.
+Regencies
+A Regency occurs while a government has no legitimate ruler, and is instead led by a regent. Usually, it is caused when the heir selection produces no valid heir, or when the heir is a mere child. In a Monarchy, the consort may become the regent, but otherwise, it is a character associated with the most powerful estate, or even the overlord. The Regency persists until a proper ruler is restored.
+The type of regency you get depends on several different factors, but the game goes in the order listed below and picks the first valid one for a monarchy.
+Nobles Regency
+If the Nobles Estate has more than 33% of the Power, a character from the nobles estate will be assigned as the regent. This will make the nobles happier, but make other estates less happy.
+Clergy Regency
+If the Clergy Estate has more than 33% of the Power, a character from the clergy estate will be assigned as the regent. This will make the clergy happier, but make other estates less happy.
+Burghers Regency
+If the Burgher Estate has more than 33% of the Power, a character from the burghers estate will be assigned as the regent. This will make the burghers happier, but make other estates less happy.
+Peasants Regency
+If the Peasants Estate has more than 33% of the Power, a character from the peasants estate will be assigned as the regent. This will make the peasants happier, but make other estates less happy.
+Overlord Regency
+When a country is a subject and has no ruler, the overlord 's ruler may instead rule it as a regent. The subject will of course get a loyalty boost as long as the overlords ruler is controlling it.
+Consort Regency
+When the ruler of a Monarchy dies while the heir is still a child, the consort may rule the country instead as a regent. This makes the stability go up a bit during the regency.
+Subject Regency
+When a country is an overlord and has no ruler, a powerful subject's ruler may instead rule it as a regent. All subjects will be slightly less loyal though.
+Interregnum
+This regency happens when a country has no ruler, a temporary provisional administration will lead it until an official ruler gets appointed, which can be quick or take a long time.
+Election Administration
+When a Republic has no ruler, a temporary one is assigned to rule it as regent until an official election can be held.
+We also have unique regencies like Judicial Conclave, Mamluk Succession, Papal Conclave, Fratricide Succession, which we will go into in more detail in the relevant Tinto Flavour Talks.
+Extend Regency
+If you feel that your heir is just too incompetent, and your current regent is really great, you can extend the regency by 5 more years for a mere cost of 20 legitimacy.
+There is always the chance though that a regent has had enough, and attempts to seize power.
+Next week we will talk a little bit about diseases…
+168
+125
+7
+3
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+20
+Next
+1 of 20
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Jan 29, 2025
+Add bookmark
+#2
+Could Iberian "Crowns" then be a unique union type? I'd think that'd come a long way to adding a more complex and complete dimension to what's going on in the Peninsula at the game's starting stage. They could have a more integrated model than a regular personal-union based on the Reconquista context.
+Ex: Crown of Aragon be composed of Aragon ruling over Valencia Kingdom, Majorca Kingdom and Catalonia Principality (county) realms (as well as its Mediterranean holdings). As delineated here:
+Another advantage it could bring would be to limit the amount of alliances Iberian kingdoms make with extra-peninsular powers and force them to deal more with only eachother or only have a single extra-peninsular ally, rather than multiple allies throughout Europe as it often happens in EU4.
+Eventually you could unlock the decision to unite the various realms into more integrated singular realms, or into Spain/Iberia entirely, freeing up your administrative and diplomatic usage.
+Last edited:
+Jan 29, 2025
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+75
+9
+6
+5
+Reactions:
+Reply
+Report
+Iocilin I Corneu
+Recruit
+30 Badges
+Oct 28, 2018
+6
+8
+Jan 29, 2025
+Add bookmark
+#3
+Just what I need this Wednesday afternoon.
+2
+Reactions:
+Reply
+Report
+Danskjävel
+Corfitz Ulfeldt
+32 Badges
+Jan 4, 2017
+369
+1.887
+Jan 29, 2025
+Add bookmark
+#4
+Holy moly. That's a alot more granularity and nuances.
+Really looking forward to the internal realm management with this.
+14
+4
+Reactions:
+Reply
+Report
+GenericUsername1444
+Colonel
+Jun 25, 2024
+805
+10.781
+Jan 29, 2025
+Add bookmark
+#5
+Are there any plans to represent theocratic PUs? Like with the Grandmaster of the Teutonic Order and Prince-Bishoprics in the HRE?
+Also, to give a little bit of feedback with regards to Georgia, I hope that a Georgian collapse disaster makes it so that the Principalities shot out from the kingdom of Imereti can be given the power to PU their sovereign, as it so often happened in history.
+Toggle signature
+Professional Georgian
+34
+7
+Reactions:
+Reply
+Report
+Tercio Soldier
+Major
+58 Badges
+Feb 25, 2020
+568
+4.336
+Jan 29, 2025
+Add bookmark
+#6
+Will forming Spain require to integrate Aragon through normal Union mechanics?
+3
+Reactions:
+Reply
+Report
+Pavía
+Content Design Lead PDX Tinto
+Paradox Staff
+12 Badges
+Jan 3, 2006
+4.509
+192.684
+Jan 29, 2025
+Add bookmark
+#7
+Thrudgelmir2333 said:
+Could Iberian "Crowns" then be a union type? I'd think that'd come a long way to adding a more complex and complete dimension to what's going on in the Peninsula at the game's starting stage. They could have a more integrated model than a regular personal-union based on the Reconquista context.
+Click to expand...
+This is mostly a side topic, and not something we want to go into today, as we plan to cover it in the future, but yes, it will be possible to have unique PUs, with unique features, and the Iberian Union is one of our plans.
+Toggle signature
+Antiguo caballero villano del OT en español. Now member of EUIV & EUV Team at Paradox Tinto.
+81
+50
+12
+1
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Jan 29, 2025
+Add bookmark
+#8
+1. Can you name your unions? Like how there is "Muscovite Union" and "Quardruple Union".
+2. Also, with it being IO, does it mean you could technically be in different IO-s (and that are also acting as Union)? And even to go as far, whereUnion is in its own Union under another Union and so on, in some form of Unionception?
+6
+4
+4
+1
+Reactions:
+Reply
+Report
+S
+Syphse
+Corporal
+3 Badges
+Jun 14, 2024
+26
+283
+Jan 29, 2025
+Add bookmark
+#9
+Will it be possible for a lesser partner in a Union (Say, Croatia) be able to take over as the senior partner using these mechanics? or are they required to break free like in eu4?
+26
+2
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Jan 29, 2025
+Add bookmark
+#10
+Holy moly, this is meatier and deeper than I ever expected! Great changes to the concept, I love it!
+1
+Reactions:
+Reply
+Report
+LeSingeAffame
+Loyal ally to Durcorach the Black Drake
+82 Badges
+Sep 16, 2012
+3.886
+4.019
+Jan 29, 2025
+Add bookmark
+#11
+> Quadruple Union
+> Has three members
+What did Hungary mean by this
+Toggle signature
+Dr. Klen'Moral Observations on the effects of isolation on Hive-Minded drones
+- A Stellaris scientific report
+32
+1
+Reactions:
+Reply
+Report
+Ispil
+HIP Advisor
+42 Badges
+Dec 13, 2013
+4.393
+15.684
+Jan 29, 2025
+Add bookmark
+#12
+Unrelated to this TT but related to the earlier market TT
+@Johan
+, going off of the tooltips it seems that the way the tax base for any location is calculated (prior to control modifications) based on total building income for all buildings in that location times estate power for each estate.
+How much can I modify this calculation as a mod? Can I decouple money from local estate power entirely?
+Reply
+Report
+Goblin Slave
+Goblin
+58 Badges
+Jul 6, 2018
+188
+2.402
+Jan 29, 2025
+Add bookmark
+#13
+Do you enter a regency when your ruler is physically far away like in CK3, like if they’re leading a distant war or even imprisoned?
+5
+1
+1
+Reactions:
+Reply
+Report
+TheRedNaxela
+Sergeant
+24 Badges
+Jun 20, 2024
+59
+300
+Jan 29, 2025
+Add bookmark
+#14
+LeSingeAffame said:
+> Quadruple Union
+> Has three members
+What did Hungary mean by this
+Click to expand...
+Hungary, Croatia, Bosnia and Serbia, no?
+16
+4
+1
+Reactions:
+Reply
+Report
+jackthesnack123
+Sergeant
+29 Badges
+Dec 4, 2024
+56
+288
+Jan 29, 2025
+Add bookmark
+#15
+would be cool if when you integrate a junior member of a union you'll get an opportunity to headhunt some of their advisors if you so choose.
+12
+1
+Reactions:
+Reply
+Report
+D
+Didsss
+Sergeant
+51 Badges
+Dec 27, 2016
+90
+732
+Jan 29, 2025
+Add bookmark
+#16
+1. So the Union IO is always led by the same country? And the Union parliament can only be called in by them?
+2. And what happens if a subject's regent seizes power? Do they form a union, or is the subject integrated?
+1
+Reactions:
+Reply
+Report
+Poland_Can_To_Space
+Recruit
+79 Badges
+Nov 19, 2016
+4
+5
+Jan 29, 2025
+Add bookmark
+#17
+How are the senior and junior partner(s) determined?
+Is it possible for a junior to become a senior and vice versa?
+2
+Reactions:
+Reply
+Report
+LeSingeAffame
+Loyal ally to Durcorach the Black Drake
+82 Badges
+Sep 16, 2012
+3.886
+4.019
+Jan 29, 2025
+Add bookmark
+#18
+Also, in the case of an overlord/subject regency, does that also create a Personal Union?
+Toggle signature
+Dr. Klen'Moral Observations on the effects of isolation on Hive-Minded drones
+- A Stellaris scientific report
+Reply
+Report
+Pavía
+Content Design Lead PDX Tinto
+Paradox Staff
+12 Badges
+Jan 3, 2006
+4.509
+192.684
+Jan 29, 2025
+Add bookmark
+#19
+GenericUsername1444 said:
+Are there any plans to represent theocratic PUs? Like with the Grandmaster of the Teutonic Order and Prince-Bishoprics in the HRE?
+Click to expand...
+Not yet, as right now we're focusing on making it work at the dynastical level, and some other cases, like Republics choosing Monarchs as rulers; but eventually, it could be possible.
+Toggle signature
+Antiguo caballero villano del OT en español. Now member of EUIV & EUV Team at Paradox Tinto.
+85
+12
+11
+1
+Reactions:
+Reply
+Report
+GenericUsername1444
+Colonel
+Jun 25, 2024
+805
+10.781
+Jan 29, 2025
+Add bookmark
+#20
+Pavía said:
+Not yet, as right now we're focusing on making it work at the dynastical level, and some other cases, like Republics choosing Monarchs as rulers; but eventually, it could be possible.
+Click to expand...
+Thanks for replying!
+Toggle signature
+Professional Georgian
+4
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+20
+Next
+1 of 20
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

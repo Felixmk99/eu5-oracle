@@ -1,0 +1,488 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-20-10th-of-july-2024.1694744/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #20 - 10th of July 2024
+Thread starter
+Johan
+Start date
+Jul 10, 2024
+Welcome to another Happy Wednesday, for the 20th Tinto Talks, where we give out a lot of secret information about our absolutely 100% super-secret game Project Caesar.
+First of all, I want to take this opportunity to thank all of you for your great feedback, which is helping us shape this into an even better game.
+Today we talk about what will replace the Technology Levels and National Ideas of EU4.  While some aspects of the Idea system are covered by the Societal Values and/or the Laws of a country, this new system will cover the rest.
+Maybe these advances are good for us?
+What were different effects from the Technology Levels and Ideas are now something we call “Advances”. Advances can unlock new diplomacy, new units, new abilities for units, new character actions, new subject interactions, new estate privileges, new laws, new policies in laws, new inheritance systems, new casus belli, new government reforms, new cabinet actions, new buildings, additional levels for buildings and new production methods. An Advance can also unlock mechanics like investing in stability, building roads, collecting taxes and much more.  Last but not least, advances can also give you important stats like more literacy for your nobles, or better military tactics.
+At the start of each age, each country will get a new Advances Tree, which will be unique to that country. A tree usually contains about 100 advances, some which are common, and some that are specific to who you are playing. Every tree, except the Age of Tradition, has 4 different starting points, a common one, and one from each institution. The ones from an institution tend to unlock relevant advances to that institution.
+Eventually all advances will have fitting and often unique icons, but for now, the sickle is good!
+About 70% of all advances in a tree tend to be common for every country, but the rest depends entirely on which country you are playing. Over one third of the advances in a tree in Age of Renaissance and Age of Discovery does not require any institutions to research.
+This is part of the tree unlocked by the Meritocracy Institution..
+We also took the national ideas and adapted to advances. Some of them made no sense and were lost, but in general the starting bonuses ended up as two Age of Traditions advances you start with already researched, and the rest is spread over the rest of the ages, with what was the finishing bonus as an advance in Age of Revolutions. In many cases they have been moved to the appropriate time as well, so currently many unique and powerful Swedish advances are in the Age of Absolutism. We have also heavily revised those whose names survived, and when we work in making unique content for a country, we aim to add more advances as well.
+Poland currently has 16 unique advances...
+We also have a lot of unique advances for what culture you are playing, or what religion you are playing, if you are a country that can own locations or not, and for what type of government you have.
+Some of the ideas from the idea groups ended up directly as advances unique for certain types of countries, like the Horde Government ones were converted to unique advances for Steppe Hordes, and the Divine Ideas as unique advances for Theocracies.
+However most of the ideas ended up being sorted into an administrative, diplomatic or military focus, with at least 10 in each category for every age, starting with the Age of Renaissance?
+Why 3 categories? Well, at the start of each age, you will pick one focus, which will add those advances to your tree for that age. Now you may think, why would anyone pick something else than the military? First of all, there are different powerful benefits and tough choices you have to make.  Let's take a look at the choice in the Age of Renaissance.
+Administrative - Better Administrative Efficiency, Lower Interests, better proximity propagation, Cheaper Mercenaries and more..
+Diplomatic - Better Merchants, More Diplomatic Reputation, March Subjects, Cheaper Warscore Costs and more.
+Military -  More Prestige from Battles, Monthly Tradition gains and more.
+Hard or easy choice?
+At the start of an age, the tree is populated with the advances depending on what your country is at that time as well, so you will only get relevant advances to choose from in that age. If you switch tags or change religion or government form, that will be seen in the next age.
+The Advances tree for Age of Traditions is a bit unique in that it has many starting points, and there are many countries, particularly in the New World, who do not start with all of them. Metallurgy, Agriculture, Written Alphabet, Ship Building & Meritocracy are different starting points who all have trees. Feudalism, which requires to have embraced the institution to research, is in the Agriculture tree, and requires Horse Riding researched first. Legalism is part of the Written Alphabet tree and requires Codified Laws and the institution to have spread to unlock their sub-tree. Many of these are more expensive to research.
+This together with lots of unique advances in the first three ages provides an interesting progress as a new world or similar type of country outside of the Eurasian Core.
+Each advance has a research cost that is the same for almost all advances. There are a few keystone advances such as “Written Alphabet” that are far more costly though. Every country generates “research” each month, which is “paid” directly into the advance you are currently researching. While a bit unrealistic, but good from a quality of life perspective, you can store up to a year's research without having an advance being researched. There is also a sort of catch up mechanic where advances from an earlier age are cheaper than the current age.
+The amount of research you do depends on what type of country you are, if you are a settled country, or still a nomadic group of pops, and on the power of your liturgical language. The satisfaction of the clergy estate and the average literacy of your country also impacts how quickly you research.
+As you build up the literacy of your population you're research will grow .
+You can also fully automate research and let the AI keep researching for you, and of course we got a proper research queue, so you can just select which techs you want to get, and it will add all prerequisites to the queue as well, and you can keep adding any valid advance to the queue.
+Stay tuned, as next week we will delve into the fun and joy of exploration..
+Attachments
+tree.png
+1 MB
+· Views: 0
+219
+172
+56
+17
+7
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+37
+Next
+1 of 37
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+So_MeOne
+Second Lieutenant
+Aug 3, 2020
+121
+1.880
+Jul 10, 2024
+Add bookmark
+#2
+Hello! Will some formable countries be locked behind technology level (or other mechanic) like in EU4, or will we be able to form them freely?
+43
+6
+2
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Jul 10, 2024
+Add bookmark
+#3
+Wow.
+15
+4
+4
+1
+Reactions:
+Reply
+Report
+bluepotato81
+Second Lieutenant
+24 Badges
+Jun 12, 2024
+145
+1.862
+Jul 10, 2024
+Add bookmark
+#4
+YES YES YES YES
+Toggle signature
+Deliver me from mine enemies, O my God: defend me from them that rise up against me. Defend me from the workers of iniquity, and save me from bloody men. The mighty are gathered against me, awake to help me, and behold.
+Nor is there pain, or cause of pain, Or cease in pain, or noble path to lead from pain;
+The Master said, "Is it not pleasant to learn with a constant perseverance and application? Is it not delightful to have friends coming from distant quarters? Is he not a man of complete virtue, who feels no discomposure though men may take no note of him?"
+Do not despair of the mercy of Allāh. Indeed, Allāh forgives all sins. Indeed, it is He who is the Forgiving, the Merciful.
+The Tao that can be told is not the eternal Tao, and the name that can be named is not the eternal Name.
+It is not your duty to finish the work, but neither are you at liberty to neglect it;
+The finest essence here—that constitutes the self of this whole world; that is the truth; that is the self.
+O Son of Man! Veiled in My immemorial being and in the ancient eternity of My essence, I knew My love for thee; therefore I created thee, have engraved on thee Mine image and revealed to thee My beauty.
+Rise up for me, O Ahura, through Armaiti give strength, through the holiest Spirit give might, O Mazda, through the good Recompense, through the Right give powerful prowess, through Good Thought give the reward.
+O my mind, remember the Lord in meditation; He is the Destroyer of pain, the Eradicator of fear, the Sovereign Lord King. He is the Greatest Lover, the Merciful Master, the Enticer of the mind, the Support of His devotees - this is His very nature.
+In some ways, it is, in some ways, it is not, in some ways, it is, and it is not, in some ways, it is indescribable, in some ways, it is, and it is indescribable, in some ways, it is not, and it is indescribable, in some ways, it is, it is not, and it is indescribable.
+So be diligent in seeking knowledge, keeping company with those of understanding, and studying at all times, and you will attain goodness and blessings.
+An ash I know there stands, - Yggdrasill is its name, - a tall tree, showered - with shining loam. - From there come the dews - that drop in the valleys. - It stands forever green over - Urðr's well.
+Our God, with His mercy - Brought for us beauty and loveliness - He gave a command to the Pen of Power - We were thrown into the Mystery of Love.
+I saw my father, I saw him, and I gave him three requests. I asked him for a great heart, which can be carried by the big and the little. I asked him for calmness, in which there is no rebellion. I asked him for a level path, to rise to light’s place in peace.
+12
+2
+2
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Jul 10, 2024
+Add bookmark
+#5
+Those coins better be well Polish'ed.
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+94
+16
+2
+2
+Reactions:
+Reply
+Report
+E
+EUnderhill
+Happy Feet!
+26 Badges
+Mar 27, 2002
+5.215
+2.068
+Visit site
+Jul 10, 2024
+Add bookmark
+#6
+Looks like tag magic is back on the menu fellows!!
+Toggle signature
+"It aint the fly you mind so much as where he's been."
+14
+12
+8
+7
+6
+1
+Reactions:
+Reply
+Report
+Tercio Soldier
+Major
+58 Badges
+Feb 25, 2020
+568
+4.336
+Jul 10, 2024
+Add bookmark
+#7
+If there are advances tiee to religion or government what happens if you change religion or government after having unlocked previous advances from another? Are they automatically replaced or kept?
+25
+8
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Jul 10, 2024
+Add bookmark
+#8
+So instead of having fixed set of national ideas, you can choose those yourself over time (with some nations having some extra, unique options for that nation)?
+9
+3
+1
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Jul 10, 2024
+Add bookmark
+#9
+Tercio Soldier said:
+If there are advances tiee to religion or government what happens if you change religion or government after having unlocked previous advances from another? Are they automatically replaced or kept?
+Click to expand...
+kept
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+58
+34
+9
+9
+3
+2
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Jul 10, 2024
+Add bookmark
+#10
+Old_Sealand said:
+So instead of having fixed set of national ideas, you can choose those yourself over time (with some nations having some extra, unique options for that nation)?
+Click to expand...
+Thats one description yes.   The design is that you will not be able to "catch them all" in all trees.
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+94
+30
+9
+7
+2
+Reactions:
+Reply
+Report
+pheonicia
+Field Marshal
+90 Badges
+Feb 2, 2015
+3.510
+23.853
+Jul 10, 2024
+Add bookmark
+#11
+Not entirely sold on this system.
+Toggle signature
+Will HOI4 be released on H hour CET of D Day? - Mannstien
+Once again though, there are no actual zombies, it is all hysteria and panic. - Darkrenown
+No, cats were invented in 1902 by Satan, but we included them for gameplay reasons. - Darkrenown
+ubi solitudinem faciunt pacem appellant; they make a wasteland and call it peace.
+Pronoun: 3rd person (use my name)
+87
+16
+12
+2
+1
+Reactions:
+Reply
+Report
+K
+Kamil1989
+Private
+1 Badges
+Sep 5, 2015
+19
+38
+Jul 10, 2024
+Add bookmark
+#12
+Wow this system looks really in-depth! I love that countries will get flavor this way
+I also love that national ideas were moved to advances
+8
+5
+2
+Reactions:
+Reply
+Report
+StelarCF
+First Lieutenant
+67 Badges
+Apr 5, 2013
+277
+334
+Jul 10, 2024
+Add bookmark
+#13
+If national ideas are advances now, does that mean there's a generic set? Could we see it?
+3
+2
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Jul 10, 2024
+Add bookmark
+#14
+I love it.
+7
+7
+3
+Reactions:
+Reply
+Report
+H
+Hare'da Irijon
+Sergeant
+20 Badges
+Jul 2, 2017
+56
+1.162
+Jul 10, 2024
+Add bookmark
+#15
+Wait.
+So if I don't pick one focus it means I lose on ALL TECH from that category and can NEVER reasearch it?
+47
+9
+5
+1
+Reactions:
+Reply
+Report
+D
+Ditzed
+Private
+22 Badges
+Mar 30, 2024
+14
+44
+Jul 10, 2024
+Add bookmark
+#16
+will you eventually have most techs unlocked (obviously not nation unique ones) as the ages progress (ie they get much cheaper as you move through ages?
+2
+2
+Reactions:
+Reply
+Report
+Failtier
+Comprador
+47 Badges
+Jul 6, 2011
+385
+1.593
+Jul 10, 2024
+Add bookmark
+#17
+Johan said:
+[...] a lot of secret information about our absolutely 100% super-secret game Project Caesar.
+Click to expand...
+I guess we will get an official announcement once Johan runs out of ways to paraphrase this.
+44
+6
+Reactions:
+Reply
+Report
+Walpoleon
+Private
+Jun 22, 2024
+20
+195
+Jul 10, 2024
+Add bookmark
+#18
+Sneaky Persian Gulf region map teaser
+39
+13
+9
+4
+Reactions:
+Reply
+Report
+R
+Raphael Freitas
+Sergeant
+20 Badges
+Dec 31, 2023
+71
+582
+Jul 10, 2024
+Add bookmark
+#19
+When you say each country will have unique advances, how many are we talking about on average for each country? 5? 6? And are they really unique for EVERYONE?
+9
+4
+Reactions:
+Reply
+Report
+ekinda
+First Lieutenant
+32 Badges
+Dec 23, 2016
+252
+1.501
+Jul 10, 2024
+Add bookmark
+#20
+I can't put it in words but I feel like something is off with this system. Hard for me to say more without seeing how it works in practice.
+96
+21
+7
+2
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+37
+Next
+1 of 37
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

@@ -1,0 +1,473 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-59-16th-of-april-2025.1735622/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #59 - 16th of April 2025
+Thread starter
+Roger Corominas
+Start date
+Apr 16, 2025
+Hello and welcome once again to our super secret Project Caesar Tinto Talks. I will be your host this time, where we will be talking about the mechanics of Catholicism and its associated Catholic Church International Organization.
+Here’s an overview of the religion itself:
+One thing to highlight here besides all the other effects, is that Catholic countries are not able to tax their clergy at all by default, although there may be other things modifying this on top of it. However, the clergy won’t necessarily swim in money, as that has to be instead paid to the Papacy directly in the form of a tithe.
+Another key aspect of Catholicism is that all Catholic countries will belong to the Catholic Church IO:
+You can see here that there are quite many countries belonging to it (the total list is expandable and scrollable), with some of them having some special statuses. For Bishopric and Military Order these are self-explanatory, but the Curia and Cardinals need some more information.
+The decisions concerning the Catholic Church are taken by the Curia, which is composed of Cardinals. In Project Caesar, Cardinals are represented by a special building, called Cardinal Seat, available to be built by Catholic countries higher than county rank in any location where they already own a large religious building. Each Cardinal Seat will grant its owner country a Cardinal, which the country can use to influence the decisions of the Curia (more on that later). Countries can have more than one Cardinal Seat and thus more than one Cardinal, that’s why in the panel you can see that there’s 7 countries in the Curia but a total of 16 Cardinals among them.
+Another aspect of the Catholic Church IO is its doctrines, represented by a set of laws. These laws are not something that’s easily changed, as it’s what defines the core values of Catholicism, but some important events will be able to shape them, like for example the Council of Trent (more on that in future Tinto Talks). Here are some of these laws effects:
+Next to the Doctrines, we have the Papal Bulls. These are actions that any Catholic country can choose to propose, but only those in the Curia can vote on whether to pass them or refuse them. Here are the possible bulls with some examples:
+When voting on a Papal Bull, the interface changes slightly to show how many cardinals support each option. It goes without saying that all the cardinals that a country has will be assigned to vote for the same option, so the amount of cardinals a country has is effectively its amount of votes.
+Besides the Papal Bulls, there’s also the action of Excommunication, available to all countries of the Curia, that if approved, will get the excommunicated country some very nasty modifiers and allow for a special casus belli.
+The Catholic Church also has some extra aspects in the form of Saints and Holy Sites. Saints are characters of a country that have been elevated to sainthood. A country can choose to canonize any of its previous rulers, and they will get benefits depending on the abilities of such character. Holy Sites are special locations to the Catholic faith, giving some extra income to their owner due to the affluence of faithful in them.
+Outside the Catholic Church per se and instead in the main religion panel, there are some extra religious actions available to certain countries, besides the already mentioned option to canonize a character.
+Demand Apostolic Tax is an action exclusive to the Papacy, in which they will demand extra payment from those countries with the Apostolic Tax privilege enabled.
+Request Aid is an action exclusive to the military orders, in which they can ask to petition support to the Pope for their infrastructure, military, or coffers.
+Placitum Regium is an action available to kingdoms or empires that gives them some extra crown power at the expense of relations with the Papacy.
+One last thing to mention here is that, as you can see, Catholicism also has Reform Desire. However, in contrast to some other of our titles that also present this value, here it is not a ticking clock for the Reformation, but instead something that will come into play in the Council of Trent. As such, you will have to wait a bit for a further explanation on it.
+And that is all for today, next week we will resolve these cliffhangers by taking a further look at what Catholicism has in store after the start of the game, including the situations of the Western Schism, Reformation, and the Council of Trent. On the other hand, in this week’s Tinto Flavor we will go directly to the head of Catholicism by taking a look at the flavor content for the Papal States. Also, remember that this week’s Tinto Flavour will be on Thursday, as this week is Good Friday and the Papal States would be too busy to attend their own Tinto Flavor then (oh, and it’s also a holiday).
+See you next time!
+167
+107
+7
+6
+6
+Reactions:
+Reply
+Report
+Written by
+Roger Corominas
+Major
+Paradox Staff
+Messages
+606
+Reaction score
+29.830
+1
+2
+3
+…
+Go to page
+Go
+22
+Next
+1 of 22
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Apr 16, 2025
+Add bookmark
+#2
+This is nice and all, but when are we finally getting Papal Matadors?
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+10
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Apr 16, 2025
+Add bookmark
+#3
+Jesus take the wheel!
+17
+2
+Reactions:
+Reply
+Report
+ingenieux
+Captain
+32 Badges
+May 17, 2017
+459
+1.730
+Apr 16, 2025
+Add bookmark
+#4
+I beg you to stop doing this.
+It's a mess when there are multiple conditions and all are "yes" but the description is a negative.
+edit : or worse, when it's a double negative
+Last edited:
+Apr 16, 2025
+156
+36
+6
+1
+Reactions:
+Reply
+Report
+Azgabeth
+Ex Deo, Cum Deo, Pro Deo
+41 Badges
+Nov 17, 2017
+793
+4.697
+Apr 16, 2025
+Add bookmark
+#5
+Can The Avignon Papacy and the Rome Papacy become a permanent split?
+Toggle signature
+Ex Deo, Cum Deo, Pro Deo
+27
+5
+Reactions:
+Reply
+Report
+Katana500
+Captain
+37 Badges
+Dec 4, 2015
+349
+1.474
+Apr 16, 2025
+Add bookmark
+#6
+Could we get an order of st Lazarus holy order!
+Would be fun to play the leper knights.
+6
+2
+Reactions:
+Reply
+Report
+Birchinjaro
+Captain
+May 15, 2024
+487
+3.035
+Apr 16, 2025
+Add bookmark
+#7
+ingenieux said:
+View attachment 1281959
+I beg you to stop doing this.
+It's a mess when there are multiple conditions and all are "yes" but the description is a negative.
+Click to expand...
+Yeah i think its better if they just keep the "Cannot declare wars on religous head without casus belli" and that's it
+The "Yes" is not needed
+36
+6
+2
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Apr 16, 2025
+Add bookmark
+#8
+I always knew the Catholic Church was nothing but a bunch of anti-imperialist pinko commies. Next its gonna tell me to feed my poor.
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+62
+7
+1
+Reactions:
+Reply
+Report
+Roger Corominas
+Major
+Paradox Staff
+May 19, 2021
+606
+29.830
+Apr 16, 2025
+Add bookmark
+#9
+ingenieux said:
+View attachment 1281959
+I beg you to stop doing this.
+It's a mess when there are multiple conditions and all are "yes" but the description is a negative.
+Click to expand...
+That's because we are here applying a modifier to a default positive condition. The default is to be able to declare wars, while having the modifier (the Yes part) disallows those wars
+100
+36
+14
+14
+Reactions:
+Reply
+Report
+Roger Corominas
+Major
+Paradox Staff
+May 19, 2021
+606
+29.830
+Apr 16, 2025
+Add bookmark
+#10
+Azgabeth said:
+Can The Avignon Papacy and the Rome Papacy become a permanent split?
+Click to expand...
+We will talk about the schism next week.
+80
+15
+7
+1
+Reactions:
+Reply
+Report
+Álvaro Núñez de Lara
+Field Marshal
+1 Badges
+May 18, 2020
+3.852
+23.666
+Apr 16, 2025
+Add bookmark
+#11
+You did not mention the Happy Wednesday. Sorry you do not meet the requirements for the development diaries publication posts, we have to let you go.
+33
+2
+1
+1
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Apr 16, 2025
+Add bookmark
+#12
+Roger Corominas said:
+That's because we are here applying a modifier to a default positive condition. The default is to be able to declare wars, while having the modifier (the Yes part) disallows those wars
+Click to expand...
+That makes sense, but it does get visually confusing. Could the "yes" be replaced with "banned" or "blocked"?
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+20
+8
+2
+1
+Reactions:
+Reply
+Report
+alexgmcm
+Second Lieutenant
+70 Badges
+Feb 23, 2014
+144
+413
+Apr 16, 2025
+Add bookmark
+#13
+It feels a bit weird that you get cardinals simply by building a building? But equally, I have no idea how this worked in real life.
+21
+8
+Reactions:
+Reply
+Report
+Birchinjaro
+Captain
+May 15, 2024
+487
+3.035
+Apr 16, 2025
+Add bookmark
+#14
+For the saints:wouldn't you also need the papal states' authority to sanctify someone?Or can the country just say the ruler was a saint and he becomes one
+18
+8
+7
+Reactions:
+Reply
+Report
+5
+555Ante555
+Recruit
+13 Badges
+Apr 10, 2024
+4
+21
+Apr 16, 2025
+Add bookmark
+#15
+Will crusades be able to be called by the pope? Or will there be scripted events relating to e.g. the Varna crusade? what can i say, people want their crusader LARP
+13
+1
+Reactions:
+Reply
+Report
+R
+Raphael Freitas
+Sergeant
+20 Badges
+Dec 31, 2023
+71
+582
+Apr 16, 2025
+Add bookmark
+#16
+If any catholic country can push for a papal bull then i think it would be neat if HRE members could by themselves vote to restrict the power of the emperor if they are unpopular. The system clearly allows for that
+10
+6
+2
+Reactions:
+Reply
+Report
+Roger Corominas
+Major
+Paradox Staff
+May 19, 2021
+606
+29.830
+Apr 16, 2025
+Add bookmark
+#17
+Thrudgelmir2333 said:
+That makes sense, but it does get visually confusing. Could the "yes" be replaced with "banned" or "blocked"?
+Click to expand...
+Redirected the question to the UI team, let's see if we can do something to improve the readability.
+131
+32
+4
+1
+Reactions:
+Reply
+Report
+Mef
+Field Marshal
+19 Badges
+Feb 4, 2010
+3.482
+11.153
+Apr 16, 2025
+Add bookmark
+#18
+Roger Corominas said:
+View attachment 1281833
+Click to expand...
+Why does it say "Primary Religion Tolerance"? What exactly do you tolerate about it when it's your primary religion? "Tolerance" makes sense for other religions, but not your primary religion.
+12
+7
+Reactions:
+Reply
+Report
+Apukispay
+Second Lieutenant
+39 Badges
+Apr 22, 2021
+183
+1.302
+Apr 16, 2025
+Add bookmark
+#19
+You know what? I am starting to like the 3D character models
+Toggle signature
+-
+Advocating in favor of Taino Cacicazgos
+-
+Suggestions for SoP consistency in the Caribbean
+-
+Taino Chiefdoms as tribal settled States.
+12
+6
+1
+Reactions:
+Reply
+Report
+Zylathas
+Lt. General
+76 Badges
+May 27, 2013
+1.476
+4.322
+Apr 16, 2025
+Add bookmark
+#20
+Roger Corominas said:
+That's because we are here applying a modifier to a default positive condition. The default is to be able to declare wars, while having the modifier (the Yes part) disallows those wars
+Click to expand...
+What about renaming such modifiers to something like "disallowed"?
+5
+2
+1
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+22
+Next
+1 of 22
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

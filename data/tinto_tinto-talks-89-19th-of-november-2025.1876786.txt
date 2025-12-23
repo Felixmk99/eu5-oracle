@@ -1,0 +1,478 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-89-19th-of-november-2025.1876786/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #89 - 19th of November 2025
+Thread starter
+Johan
+Start date
+Nov 19, 2025
+Hello Everyone and Welcome to another Tinto Talks, where we talk about what we are doing with Europa Universalis V.
+Tomorrow we will release 1.0.7, which will include
+Some fixes to levies as detailed in
+https://forum.paradoxplaza.com/forum/threads/levy-vs-regulars-some-information-from-tinto.1876702
+Further improvements to killing of privateers.
+Crash fixes
+We are still working with fixing issues you have reported, and making sure that as many as possible are solved every week.
+Let's talk about three interesting changes for next week.
+Economical Base
+This is something that has gotten some negative feedback in how it's calculated, so the system really needed to be reworked.
+Before, the issue was basically that the Economical Base was calculated from your Tax Base + Buy Price of your Trades. While that scaled nicely, it also made trade far less beneficial than it should be, and also made building up your tax base not always great.
+For next patch instead we are now basing the Economical Base on 3 different factors.  Your tax base, your subjects tax base & your population, with it being 50% of your tax base, 10% of your subjects tax base, and 0.01 ducats for each 1,000 pops you have.
+At the same time now, we will restore the trade maintenance to the intended size.
+Combat Tooltips
+To be brutally honest, the tooltips we had on regiments in combat were rather bad and confusing, and some things were completely hidden. Now you will see which section a regiment is in, and which section the target is in.  You will also see the chance of joining the main sections if in the reserves, and the chance of using initiative to engage.
+We have also been reworking how we display the damage a regiment does as well, so that it's more clear, with the multiplier to the left, and the actual change in the damage to the right.  (yay for decimals on soldiers)
+Centralization vs Decentralization
+One of the meta that appeared was that centralization was always superior, so we decided to rework this Societal Value to be a distinct choice and less of a no-brainer.
+We reworked subject loyalty so that a significant part of what used to be the base value is now impacted by this societal value, where if you want to have a lot of subjects, it's probably beneficial to be decentralized.
+We also made it so that the diplomatic ability of rulers impacts your subjects' loyalty.
+That is it for this week, but there are lots more coming every week, so stay tuned.
+299
+54
+16
+8
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+11
+Next
+1 of 11
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+favourites
+Captain
+54 Badges
+May 22, 2015
+348
+3.116
+Nov 19, 2025
+Add bookmark
+#2
+The economic base changes look very good so far. Any info on estates being perpetually bankrupt being fixed too? Currently also leads to certain intended demand boosts from estates never being activated.
+41
+13
+1
+Reactions:
+Reply
+Report
+Drakken
+Ferdinand VII Did Nothing Wrong
+102 Badges
+Jan 1, 2001
+6.325
+7.511
+Nov 19, 2025
+Add bookmark
+#3
+Thank you, Johan!
+So glad that the Centralization meta is being worked on.
+Just to clarify, will these change come with 1.0.7 as well, or with a later patch?
+Toggle signature
+I used to be a King of England like you. Then I took an arrow in the eye...
+21
+3
+1
+Reactions:
+Reply
+Report
+P
+Pretzelsticks
+Recruit
+8 Badges
+May 15, 2025
+6
+55
+Nov 19, 2025
+Add bookmark
+#4
+Thank you!! Looks great
+2
+Reactions:
+Reply
+Report
+za3tarani
+Lt. General
+35 Badges
+Jan 26, 2014
+1.269
+4.971
+Nov 19, 2025
+Add bookmark
+#5
+are all these changes for .7 patch?
+2
+1
+Reactions:
+Reply
+Report
+DominusNovus
+Field Marshal
+86 Badges
+Oct 2, 2007
+8.031
+8.734
+Nov 19, 2025
+Add bookmark
+#6
+Consider this my second post formally requesting a Mac version at the earliest possible opportunity.
+Toggle signature
+Nationality: Yankee
+Occupation: Clerk
+Religion: Catholic
+Issues: Free Trade, Laissez-Faire, Pro-Military, Pluralism, Full Citizenship
+45
+10
+7
+2
+Reactions:
+Reply
+Report
+Metz
+Field Marshal
+107 Badges
+Nov 21, 2008
+7.108
+13.741
+Nov 19, 2025
+Add bookmark
+#7
+Will there be any talks or feedback on the large UI mega thread regarding plans and ideas for a revamping of the UI/UX? Maybe it could work as a Tinto Talk with the community suggesting and going back and forth with other ideas, etc.
+7
+5
+1
+Reactions:
+Reply
+Report
+T
+titan.bevel
+Colonel
+Aug 1, 2024
+904
+3.356
+Nov 19, 2025
+Add bookmark
+#8
+Absolutely love the constant release, is there however a reason why you don't separate more bugfixes and balance changes ? Like with a beta branch or something similar ?
+Also, have you considered making decentralisation allow for cities to act as better local proximity source, at the cost of eventually more estate power in the concerned cities ?
+Toggle signature
+2 proposals
+on missions
+a proposal on religious influence
+a proposal on CB and peace deals
+maps ought to be more important !
+trade need some monopoly notion
+,
+and some import and export differences
+38
+3
+1
+1
+Reactions:
+Reply
+Report
+LordThanatos
+Major
+95 Badges
+Sep 15, 2018
+634
+8.786
+Nov 19, 2025
+Add bookmark
+#9
+Johan said:
+Tomorrow we will release 1.0.7, which will include
+Some fixes to levies as detailed in
+https://forum.paradoxplaza.com/forum/threads/levy-vs-regulars-some-information-from-tinto.1876702
+Further improvements to killing of privateers.
+Crash fixes
+Click to expand...
+I kind of wish the 1.0.5 levy change was just reverted for the moment, while keeping the 1.0.5 bugfixes and 1.0.7 crashfixes, and then these army balance changes were added to an opt-in branch.
+This seems way too reactive a way of balancing. Core mechanics get changed massively, get bad feedback, so a change gets made, gets a day or two of testing and then another large balance change goes out? If this solution is no better than 1.0.5/6 we have to either suck up bad balance for another few days or go back to 1.0.4 and opt out of crash and bug fixes while we wait for the next fix.
+Not a fan of that approach. I wish balancing changes this big were added to beta-branches we could opt-in to or otherwise held back a few more days to be thoroughly tested. The levy/regular balance was not so thoroughly broken in 1.0.4 that it needed this rushed treatment. It could have been rolled back like the trade changes while a better solution was found and tested.
+Hopefully this fix works, but even if it does I really hope the release/fix process gets better in the future because 1.0.5 and its bugfixes have been rough.
+Last edited:
+Nov 19, 2025
+Toggle signature
+Proposals to improve how Catholicism is represented:
+Fixing Mechanics around The Papal States and Catholicism
+Feedback on Protestantism:
+Initial Feedback
+Make Eastern Christian Patriarchs extraterritorial.
+Feedback on non-Buddhist Dharmic Religions:
+Initial Feedback
+,
+More Feedback
+Feedback on Islam:
+Incorrect Religious Schools
+,
+Dhimmi
+,
+Other Ideas
+57
+9
+2
+1
+Reactions:
+Reply
+Report
+M
+mrflagio
+Lt. General
+54 Badges
+Apr 10, 2024
+1.237
+6.004
+Nov 19, 2025
+Add bookmark
+#10
+Subject loyalty needs to be something based on actions, not just values. Why are my subjects loyal? What are they getting from me besides protection (which they already pay for)? They need to think like a player or else subject gameplay as a player will always suck and subjects will always be in kumbaya mode.
+31
+12
+1
+Reactions:
+Reply
+Report
+Álvaro Núñez de Lara
+Field Marshal
+1 Badges
+May 18, 2020
+3.852
+23.666
+Nov 19, 2025
+Add bookmark
+#11
+I think the economic base rework is bad. The economy scales  like crazy as it is. Not having at least trade profit influence it seems crazy when you can easily get 60% of your economy to be trade income.
+Also i think it will feel very bad that now your profita get shrunk for something you dont have control over,: your population numbers. So having a massively populated country with a basic economy will now cripple you for no reason?
+Please test it properly. Its a huge change. Dont include it in the patch for a few weeks. Test it with time
+30
+25
+5
+1
+Reactions:
+Reply
+Report
+Oktobermensch
+Captain
+35 Badges
+Feb 19, 2012
+353
+1.012
+Nov 19, 2025
+Add bookmark
+#12
+titan.bevel said:
+Absolutely love the constant release, is there however a reason why you don't separate more bugfixes and balance changes ? Like with a beta branch or something similar ?
+Also, have you considered making decentralisation allow for cities to act as better local proximity source, at the cost of eventually more estate power in the concerned cities ?
+Click to expand...
+Not a bad idea re:cities. It would show the cities' self governance and the resulting benefit from letting them run their affairs, especially in sprawling empires. It would actually let the estates accumulate more money too.
+Maybe a privilege that grants cities more contol as well, something like "independent town councils/town law privilege", but make it heavy on estate privilege too.
+23
+Reactions:
+Reply
+Report
+L
+Logos88
+Second Lieutenant
+32 Badges
+Apr 9, 2011
+173
+50
+Nov 19, 2025
+Add bookmark
+#13
+Can we expect sometime in the future to have market access over seas revisited to avoid every island needing is own market?
+24
+4
+1
+Reactions:
+Reply
+Report
+P
+Panix_br
+Recruit
+21 Badges
+Oct 28, 2022
+1
+0
+Nov 19, 2025
+Add bookmark
+#14
+Nice, I hope that the quality team work better in this patch
+Reply
+Report
+zmxlegend
+Corporal
+60 Badges
+Aug 21, 2012
+25
+83
+Nov 19, 2025
+Add bookmark
+#15
+I wish you could make balance changes to a beta version first, and not push those changes to all players until they get further tested by the community. Making some cost 10X and rolling it back one day later is not a good practice
+39
+6
+1
+Reactions:
+Reply
+Report
+L
+lgsml1
+Sergeant
+34 Badges
+Jun 11, 2020
+92
+454
+Nov 19, 2025
+Add bookmark
+#16
+very happy to see trade removed from eco base scaling, as it should not have been there in the first place, and instead replaced with reasonable values. Including subjects income in eco base was also a nice touch, that, together with loyalty changes, should lower the subject spam meta.
+I hope we get fixes/rework of estates spendings on low control provinces - i.e. estates should not pay 100% of expenses for provinces they only receive 5% of income from control. Either make them get full income without control malus or multiply expenses with control as well.
+Basically estate expenses and inland exploration are the only two things left to fix to make the game an enjoyable full campaign experience
+4
+2
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Nov 19, 2025
+Add bookmark
+#17
+Drakken said:
+Thank you, Johan!
+So glad that the Centralization meta is being worked on.
+Just to clarify, will these change come with 1.0.7 as well, or with a later patch?
+Click to expand...
+next week
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+37
+9
+Reactions:
+Reply
+Report
+GloatingSwine
+Field Marshal
+44 Badges
+Aug 6, 2010
+5.111
+4.634
+Nov 19, 2025
+Add bookmark
+#18
+I doubt centralisation meta will change because of proximity cost and crown power both being so good.
+17
+2
+2
+1
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Nov 19, 2025
+Add bookmark
+#19
+favourites said:
+. Any info on estates being perpetually bankrupt being fixed too?
+Click to expand...
+yes
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+53
+15
+7
+3
+1
+Reactions:
+Reply
+Report
+Staden
+First Lieutenant
+96 Badges
+Jul 24, 2016
+260
+953
+Nov 19, 2025
+Add bookmark
+#20
+Johan said:
+next week
+Click to expand...
+Could you give some details for what you intend to change?
+2
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+11
+Next
+1 of 11
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

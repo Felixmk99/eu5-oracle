@@ -1,0 +1,470 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-30-25th-september-2024.1705317/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #30 - 25th September 2024
+Thread starter
+Johan
+Start date
+Sep 25, 2024
+Welcome to another Tinto Talks, the time of the week when we give you new information about our entirely super secret upcoming game with the codename Project Caesar.
+Today we will talk about how conquest works and how integrating the new locations you have conquered will work. With conquest, we are talking about how you take territory through warfare. For how the actual military campaigns work, I recommend reading Tinto Talks 22, 23 and 24.
+Casus Belli
+To start a war many feel that you need a casus belli for it, which we will refer to a CB for the rest of this talk. If you lack a CB and start a war you will gain some aggressive expansion and lose some stability. Now while this may not be something you may always want, it is a more lenient way to recover instead of spending precious paper mana like in EU4. However, there are multiple ways to get a CB in this game.
+Now, Project Caesar does not have a ‘Fabricate Claim’ button that magically creates a CB on any nation, nor do we have a system of claims, but you have several different options to get a CB.
+First of all, there is the super old school way of getting one from an event. This may not cater to everyone's playing style, as it is way too random, but if it was good enough for your parents back in 2001, it is good enough for..  Eh, n/m.
+Secondly, we have the option of calling a Parliament and asking them to come up with a valid reason for war against a nearby country. This is powerful, but unless you have a high Crown Power, you may need to negotiate with your Estates for their backing. And Parliaments can not be called every month either, democracy is not even invented yet.
+Finally we have the way of creating a CB, when there is a more or less legitimate way to one. First of all, creating a CB on a country requires you to have a spy network in the target country, similar to how claim fabrication works in EU4, but you also need to have some sort of reason to create the type of CB you want. If you let's say play Denmark and want to take back Skåne from Sweden, as you have cores on it, then you can create a ‘Conquer Core’ CB on them, or if they have used Privateers in sea zones where you have a Maritime Presence, you can create another CB on them. There are 50+ different CB you can create depending on circumstances, including everything from ‘Flower Wars’ for countries of Nahuatl religion, ‘Dissolving the Tatar Yoke’ for the tributaries under that International Organization, or ‘Humiliating Rivals’.
+31 allies and subjects for Bohemia, hmmm…
+Just remember..
+No CB is best CB!
+War Goals
+Whether you decide that a small border adjustment is needed, or you wish to wage a total war, you need to pick which War Goal you wish to pursue. Different casus belli will allow you to pick different War Goals and the War Goal you pick impacts the cost of conquest as well. A conquer CB will make taking land cheaper, while a ‘humiliation CB will make them more expensive.
+A War Goal for a province requires you to occupy that entire province, while a Naval Superiority War Goal will give you a bonus score for blockading the enemy, and defeating their navy if possible.
+If your War Goal is fulfilled then the warscore from it ticks up to a maximum of 25, and the total impact from battles in this game can be worth up to 50, while occupations and blockades have no cap and can reach over 100 warscore if possible.
+In Project Caesar, therefore, not every war is necessarily a total war like some previous games we have made.
+If the War Goal is not fulfilled, it is only possible to get 100% War Score if the winning side controls all of the losing side's locations, and the losing side controls no towns or cities.
+This means that if you have your wargoal taken care of, winning some important battles and occupying some land, you will be able to force a reasonable peace on someone.
+Give me liberty or ehh.. annexation?
+Integration
+So what do you do then, when you have signed a peace and got some new land to your country?
+First of all, it is not as simple as a location being a core or not, as Project Caesar introduces a new system of integration for locations. There are four states of integration in this game, first of all the conquered locations, which have a high separatism, lower control, and make pops unlikely to convert or assimilate. This is the state of any location you conquer that is not a core of yours. When a location becomes integrated, separatism drops to one fifth of the previous levels, and control has a higher maximum. When a location becomes a core, the minimum control is higher, and your primary and accepted cultures grow more, while minorities become stagnant. We also have the colonized status, which is after you have colonized a location, and it is not yet a core. A colonized location has lower maximum control.
+What is separatism then? Well, it is the reduction of satisfaction for pops that are not of the primary culture. This is very likely to make the locations very unproductive for quite some time.
+A location becomes a core automatically if it's integrated OR colonial, and at least 50% of the pops are of the primary or accepted cultures of that country.
+It is beneficial to get your locations to become your cores…
+How do you integrate a location then? Well, this is the challenge in Project Caesar, as you do not have any magic paper mana to spend on it, but instead you need to use one of the members of your cabinet to integrate it. At the start of the game, a cabinet member can integrate an entire province at once, but in the Age of Absolutism you have an advance that will let you integrate an entire area at once.
+This integration is not instant, but depends on many factors, like the status and the population living in the locations affected, but on average integrating a province may take between 25 and 50 years.
+And what are all of these factors then?
+Stay tuned, as in next week's Tinto Talks, we will talk about how peace treaties themselves work, and which ones we have.
+218
+75
+17
+17
+10
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+21
+Next
+1 of 21
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Sep 25, 2024
+Add bookmark
+#2
+Wow.
+66
+50
+16
+11
+5
+1
+Reactions:
+Reply
+Report
+Jarzki
+Second Lieutenant
+35 Badges
+Oct 30, 2018
+115
+2.067
+Sep 25, 2024
+Add bookmark
+#3
+179
+29
+4
+3
+2
+1
+Reactions:
+Reply
+Report
+bluepotato81
+Second Lieutenant
+24 Badges
+Jun 12, 2024
+145
+1.862
+Sep 25, 2024
+Add bookmark
+#4
+I hope the treasury won't
+cash us barely
+after winning a war
+My number
+warne goal
+in the new game will probably be to win a war
+I hope all these mechanics will be
+integrated
+well into the game experience
+Last edited:
+Sep 25, 2024
+Toggle signature
+Deliver me from mine enemies, O my God: defend me from them that rise up against me. Defend me from the workers of iniquity, and save me from bloody men. The mighty are gathered against me, awake to help me, and behold.
+Nor is there pain, or cause of pain, Or cease in pain, or noble path to lead from pain;
+The Master said, "Is it not pleasant to learn with a constant perseverance and application? Is it not delightful to have friends coming from distant quarters? Is he not a man of complete virtue, who feels no discomposure though men may take no note of him?"
+Do not despair of the mercy of Allāh. Indeed, Allāh forgives all sins. Indeed, it is He who is the Forgiving, the Merciful.
+The Tao that can be told is not the eternal Tao, and the name that can be named is not the eternal Name.
+It is not your duty to finish the work, but neither are you at liberty to neglect it;
+The finest essence here—that constitutes the self of this whole world; that is the truth; that is the self.
+O Son of Man! Veiled in My immemorial being and in the ancient eternity of My essence, I knew My love for thee; therefore I created thee, have engraved on thee Mine image and revealed to thee My beauty.
+Rise up for me, O Ahura, through Armaiti give strength, through the holiest Spirit give might, O Mazda, through the good Recompense, through the Right give powerful prowess, through Good Thought give the reward.
+O my mind, remember the Lord in meditation; He is the Destroyer of pain, the Eradicator of fear, the Sovereign Lord King. He is the Greatest Lover, the Merciful Master, the Enticer of the mind, the Support of His devotees - this is His very nature.
+In some ways, it is, in some ways, it is not, in some ways, it is, and it is not, in some ways, it is indescribable, in some ways, it is, and it is indescribable, in some ways, it is not, and it is indescribable, in some ways, it is, it is not, and it is indescribable.
+So be diligent in seeking knowledge, keeping company with those of understanding, and studying at all times, and you will attain goodness and blessings.
+An ash I know there stands, - Yggdrasill is its name, - a tall tree, showered - with shining loam. - From there come the dews - that drop in the valleys. - It stands forever green over - Urðr's well.
+Our God, with His mercy - Brought for us beauty and loveliness - He gave a command to the Pen of Power - We were thrown into the Mystery of Love.
+I saw my father, I saw him, and I gave him three requests. I asked him for a great heart, which can be carried by the big and the little. I asked him for calmness, in which there is no rebellion. I asked him for a level path, to rise to light’s place in peace.
+14
+4
+1
+Reactions:
+Reply
+Report
+theEXPERTpt
+Sergeant
+Mar 7, 2023
+85
+312
+Sep 25, 2024
+Add bookmark
+#5
+I edited this comment so you don't know what it was about
+Last edited:
+Sep 25, 2024
+35
+7
+2
+1
+1
+Reactions:
+Reply
+Report
+theEXPERTpt
+Sergeant
+Mar 7, 2023
+85
+312
+Sep 25, 2024
+Add bookmark
+#6
+Bruh how are you guys so fast
+15
+2
+Reactions:
+Reply
+Report
+TheCleanerDragon
+Squad Leader
+35 Badges
+Sep 15, 2017
+78
+645
+Sep 25, 2024
+Add bookmark
+#7
+18
+2
+1
+1
+Reactions:
+Reply
+Report
+Tissaia
+Major
+48 Badges
+Dec 4, 2019
+579
+4.327
+Sep 25, 2024
+Add bookmark
+#8
+Old_Sealand said:
+Wow.
+Click to expand...
+The last post shown was that of Johan. When I loaded the page, your "Wow" was already there. Unbelievable.
+21
+3
+3
+1
+1
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Sep 25, 2024
+Add bookmark
+#9
+------------
+This shouldn't be a problem. Everyone loves being part of my empires. Everyone who's left, anyway.
+Last edited:
+Sep 25, 2024
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+28
+3
+3
+1
+Reactions:
+Reply
+Report
+matfer13
+Field Marshal
+1 Badges
+Dec 17, 2023
+3.015
+18.591
+Sep 25, 2024
+Add bookmark
+#10
+Why do you have to make cry man...
+53
+24
+5
+2
+Reactions:
+Reply
+Report
+Daniel the Finlander
+Colonel
+61 Badges
+Feb 2, 2016
+1.064
+8.242
+Sep 25, 2024
+Add bookmark
+#11
+Oh the byzantophiles on this forum are gonna love that header image…
+Toggle signature
+modder and a lover of mods
+eu5 > imperator > eu4
+EU5 mod: Historically Accurate Courland
+EU5 mod: Historically Accurate Finland
+19
+3
+2
+Reactions:
+Reply
+Report
+Biegeltoren
+Second Lieutenant
+31 Badges
+Oct 17, 2019
+175
+924
+Sep 25, 2024
+Add bookmark
+#12
+That is the most hollywood piece of art I've seen so far. Beautiful work but I'd have expected something more historically fitting
+Toggle signature
+My EU5 mod for the Andes!
+13
+7
+2
+1
+1
+Reactions:
+Reply
+Report
+Jarzki
+Second Lieutenant
+35 Badges
+Oct 30, 2018
+115
+2.067
+Sep 25, 2024
+Add bookmark
+#13
+Will you be able to have such peace treaties, where both sides make some concessions to the other or is it purely gain/lose?
+47
+14
+6
+1
+Reactions:
+Reply
+Report
+ArVass
+Dinosaur Hunter
+27 Badges
+Apr 4, 2016
+2.296
+12.720
+Sep 25, 2024
+Add bookmark
+#14
+Johan said:
+If the War Goal is not fulfilled, it is only possible to get 100% War Score if the winning side controls all of the losing side's locations, and the losing side controls no towns or cities.
+Click to expand...
+DAY 4 OF
+Toggle signature
+Justice for Anabaptists!
+Justice for Unitarians!
+Split the Nigerian language!
+Bosnia was a vassal of Hungary in 1337
+54
+12
+9
+1
+Reactions:
+Reply
+Report
+A
+Athius
+First Lieutenant
+75 Badges
+Jan 28, 2009
+294
+1.905
+Sep 25, 2024
+Add bookmark
+#15
+The new warscore system seems both simple, elegant and effective. I hope other paradox projects start copying it!
+2
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Sep 25, 2024
+Add bookmark
+#16
+I love it.
+1
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Sep 25, 2024
+Add bookmark
+#17
+1. "A conquer CB will make taking land cheaper, while a ‘humiliation CB will make them more expensive." - So it's possible to take land with humiliation CB now (and with Naval Superiority War Goal and other such CB-s, where it is not possible in EU4, except for defender)?
+2. When it comes to "lenient way to recovery", does that mean it's also cheaper to trucebreak a nation you lost to, unlike in EU4?
+19
+2
+Reactions:
+Reply
+Report
+ShadowGamerXXX
+Sergeant
+Mar 18, 2021
+60
+209
+Sep 25, 2024
+Add bookmark
+#18
+UFFFFF
+Reply
+Report
+Cephei80
+Banned
+5 Badges
+Jan 22, 2016
+983
+2.491
+Sep 25, 2024
+Add bookmark
+#19
+6
+5
+2
+2
+Reactions:
+Reply
+Report
+R
+RMS Oceanic
+Field Marshal
+49 Badges
+Jan 27, 2014
+2.807
+4.873
+Sep 25, 2024
+Add bookmark
+#20
+So there are no more automatic CBs? You always have to take a manual action to generate a CB before using it, even if it's for something like reconquest?
+10
+2
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+21
+Next
+1 of 21
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

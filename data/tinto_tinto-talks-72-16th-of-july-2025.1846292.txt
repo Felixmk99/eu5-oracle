@@ -1,0 +1,478 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-72-16th-of-july-2025.1846292/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #72 - 16th of July 2025
+Thread starter
+Pavía
+Start date
+Jul 16, 2025
+Hello, and welcome to another
+Tinto Talks
+, the happy Wednesdays where we talk about
+Europa Universalis V
+!
+Today, we will talk about the
+Inti
+&
+Folk Religions
+! Let’s start without further ado.
+Inti
+​
+Inti is quite a unique religion that stands out in the Peruvian region:
+As you see, Inti is part of the Peruvian Folk Religions group. We’ll explain how that works further down.
+​
+Here is the panel of the religion, which may be familiar to you at this point:
+The most important mechanic of the Inti religion is the Yanantin, which is a value that can go from -100 to +100. You’ll mostly get penalties if you’re above or below 0, but it gives the most modifiers when it’s exactly and perfectly balanced at 0:
+Depending on the gods that you worship, from seven available, you’ll get positive or negative Yanantin:
+As you see, the base value is +0.50.
+​
+Apart from that, the worship of each of these gods gives passive modifiers to the country:
+Here we’re using one of those ‘Building Blocks’ that we’ve talked about before, the Religious Aspect, in a way that promotes the worship of a certain god, which has the consequence of increasing their effects - therefore, being one of the ways of balancing the Yanantin of the country:
+You can only promote the worship of one god at a time, and changing it costs Stability:
+As usual, take the numbers as a matter of balance and WIP.
+​
+Another way of balancing the Yanantin of your country is by performing any of the available actions:
+Note: There are 13 different festivities, with different modifiers; which one you get when you Host a Ceremony depends on the time of the year.
+​
+Folk Religions
+​
+Very large sections of the world are covered by Folk Religions, the new denomination of what formerly in EU4 were Animist, Pagan, or Totemist religions, and that we’ve been able to set up thanks to your feedback in the Tinto Maps series:
+Due to the huge amount of Folk Religions, we are focusing on the “Gods” and “Religious Aspects” as Building blocks for the Folk religions. We're aiming to have some baseline gods based upon 'spirits', which are based upon natural forces (wind, water, fire, sun, etc.). And then, we have some of the main gods for 'Folk Religious families'; so, as in this example, the country of Benin, which worships the Isese religions, has a number of deities to worship upon:
+The Isese Religion as an example
+The Gods that are available to the people of Benin
+​
+And that’s all for today! We will come back on Friday, as we will talk in the
+Tinto Flavour
+about the
+Inca
+!
+And also remember, you can
+wishlist Europa Universalis V now
+! Cheers!
+103
+34
+9
+3
+3
+Reactions:
+Reply
+Report
+Written by
+Pavía
+Content Design Lead PDX Tinto
+Paradox Staff
+12 Badges
+Messages
+4.509
+Reaction score
+192.684
+1
+2
+3
+…
+Go to page
+Go
+7
+Next
+1 of 7
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Jul 16, 2025
+Add bookmark
+#2
+50
+6
+1
+1
+Reactions:
+Reply
+Report
+Katana500
+Captain
+37 Badges
+Dec 4, 2015
+349
+1.474
+Jul 16, 2025
+Add bookmark
+#3
+Is there any research or folk religions you need god lists for?
+21
+3
+Reactions:
+Reply
+Report
+Kotyk-durkotyk
+Colonel
+23 Badges
+May 26, 2024
+1.137
+15.631
+Jul 16, 2025
+Add bookmark
+#4
+I'm curious, do folk religions see other folk religions as 'heretics' or 'heathens'?
+Or it does not really matter for them?
+Thanks!
+Toggle signature
+Check out my EU5 threads:
+Ruthenia and Steppe Fix
+–
+my EU5 Mod
+with historical corrections for the Ruthenian and Steppe Regions
+Ruthenian / Cossack / Ukrainian Content Pack
+Orthodoxy Needs a Full Rework in EU5
+28
+4
+Reactions:
+Reply
+Report
+Goran42069
+Second Lieutenant
+18 Badges
+Jan 1, 2016
+115
+1.079
+Jul 16, 2025
+Add bookmark
+#5
+Are there any plans for some of the folk religions to receive their own icons ? Or maybe have different icons for folk religions of each region
+15
+3
+Reactions:
+Reply
+Report
+T
+titan.bevel
+Colonel
+Aug 1, 2024
+904
+3.356
+Jul 16, 2025
+Add bookmark
+#6
+It is written in the religion description for inti that Doom impacts the country. How exactly does it work ? or is this display a bug ?
+Toggle signature
+2 proposals
+on missions
+a proposal on religious influence
+a proposal on CB and peace deals
+maps ought to be more important !
+trade need some monopoly notion
+,
+and some import and export differences
+22
+3
+Reactions:
+Reply
+Report
+Kotyk-durkotyk
+Colonel
+23 Badges
+May 26, 2024
+1.137
+15.631
+Jul 16, 2025
+Add bookmark
+#7
+Pavía said:
+Due to the huge amount of Folk Religions, we are focusing on the “Gods” and “Religious Aspects” Building blocks.
+Click to expand...
+Where are the
+Religious aspects
+for folk religions? Or are they the same as for the Inti religion?
+Last edited:
+Jul 16, 2025
+Toggle signature
+Check out my EU5 threads:
+Ruthenia and Steppe Fix
+–
+my EU5 Mod
+with historical corrections for the Ruthenian and Steppe Regions
+Ruthenian / Cossack / Ukrainian Content Pack
+Orthodoxy Needs a Full Rework in EU5
+13
+1
+Reactions:
+Reply
+Report
+Twig1000
+Second Lieutenant
+47 Badges
+Mar 3, 2018
+183
+1.322
+Jul 16, 2025
+Add bookmark
+#8
+Can you give us anything from Tengrism? Anything at all?
+11
+3
+Reactions:
+Reply
+Report
+Baphomet enjoyer
+Colonel
+1 Badges
+May 19, 2024
+800
+8.024
+Jul 16, 2025
+Add bookmark
+#9
+Where did the banner's pixels go?
+44
+7
+2
+Reactions:
+Reply
+Report
+nyetflix2
+Lt. General
+Nov 13, 2022
+1.574
+9.424
+Jul 16, 2025
+Add bookmark
+#10
+I'd like to see
+Pachacamac/Pacha Kamaq
+added as a god. It was worshipped by the
+Ichma culture
+in Lima, who the Inca called Pachacamac. The Oracle of Pachacamac exerted a lot of regional soft power. Again, it would be good for countries to start with their historical deities/cults when known.
+Yanantin feels like another gamey mana currency.
+Toggle signature
+EU5 Mesoamerica feedback
+27
+12
+4
+1
+Reactions:
+Reply
+Report
+K
+kingner
+Sergeant
+30 Badges
+Apr 10, 2025
+52
+260
+Jul 16, 2025
+Add bookmark
+#11
+I guess the logs related to religion have already ended
+4
+Reactions:
+Reply
+Report
+Gurtannon
+General
+28 Badges
+Mar 10, 2024
+1.702
+9.943
+Jul 16, 2025
+Add bookmark
+#12
+Peruvian Folk Religions???
+Wasnt Peru a colonial term which didnt existed in 1337, the religion group name should be Andean Folk Religions, Andean was the original name of the religion group already as shown in past tinto talk
+Last edited:
+Jul 16, 2025
+Toggle signature
+UltraOttomanist Turk
+45
+14
+4
+1
+Reactions:
+Reply
+Report
+matfer13
+Field Marshal
+1 Badges
+Dec 17, 2023
+3.015
+18.591
+Jul 16, 2025
+Add bookmark
+#13
+Is worshiping a deity as a patron God and worshiping all gods equally any different? Like do I get any modifier if I don't do the former?
+4
+1
+Reactions:
+Reply
+Report
+bloof5k
+First Lieutenant
+34 Badges
+Aug 3, 2020
+289
+1.529
+Jul 16, 2025
+Add bookmark
+#14
+In the Inti overview tooltip, it mentions that Doom impacts the country.  Is this just an error with the tooltip and it means to say Yanantin instead?
+12
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Jul 16, 2025
+Add bookmark
+#15
+Do the different folk religions give different bonuses, or it's the same for all, but the Gods are named different? Based on comparing Inti and Isese, it's the latter, without the Yanantin, which is unique to the Incans.
+13
+Reactions:
+Reply
+Report
+nyetflix2
+Lt. General
+Nov 13, 2022
+1.574
+9.424
+Jul 16, 2025
+Add bookmark
+#16
+Also, seems that
+Ogun
+was the "totem" of the Oyo empire. I would like to see it added to the Isese religion.
+Shango
+would be cool to see too, as he was originally a legendary Oyo ruler who was deified.
+Toggle signature
+EU5 Mesoamerica feedback
+7
+2
+Reactions:
+Reply
+Report
+Pilum2211
+Sergeant
+40 Badges
+Oct 2, 2019
+63
+420
+Jul 16, 2025
+Add bookmark
+#17
+I wonder: If Religions lose many of their Holy Sites, will their followers be easier to convert?
+Let's say Muslims lost control of Jerusalem, Median and Mekka for a lengthy period of time. Would that lead to Muslims converting quicker to other religions?
+14
+3
+Reactions:
+Reply
+Report
+LordThanatos
+Major
+95 Badges
+Sep 15, 2018
+634
+8.786
+Jul 16, 2025
+Add bookmark
+#18
+I really don't get this fixation with adding religious currencies. It might have been unique, interesting gameplay if it wasn't something every religion seemed to have their flavour of, with very minor impact. It feels like the current Paradox design philosophy for religions is:
+Religion name?
+What can we use for it's currency mechanic? (Religious influence, Karma, Doom, Mysticism/Spiritualism, Yanantin, etc)
+I don't feel like these currencies add anything really, and they're all so abstract that I don't think it's unfair to call them mana (Wait for the Polynesian faiths when they actually use the word mana...). Add on the fact that most of them are based on fundamental misunderstandings of the concept they're named after and I suspect they're going to be deeply unsatisfying to everyone.
+I like the pantheons, and I'm excited to see the work that went into the name lists for them. That said, I was hoping for a more in-depth set of mechanics, such as including mummification of rulers, the Capacocha sacrifices, huacas, and of course the oracles of Pachacamac and Apurimac. I guess there's nothing here's that's awful, other than another religious currency, but there's not that much that's exciting here, either. I guess this will have to be one of those regions that doesn't get that much unique religious content until post-release, which is fine - but my reception of this would have been better without the currency.
+I was wondering if there's anything to represent close-family marriages, but I suppose there needs to be some way to represent that more on a dynasty level than a religious one so that it can be used in the rulers of a lot of different cultures. Hopefully that's covered on Friday!
+Last edited:
+Jul 16, 2025
+Toggle signature
+Proposals to improve how Catholicism is represented:
+Fixing Mechanics around The Papal States and Catholicism
+Feedback on Protestantism:
+Initial Feedback
+Make Eastern Christian Patriarchs extraterritorial.
+Feedback on non-Buddhist Dharmic Religions:
+Initial Feedback
+,
+More Feedback
+Feedback on Islam:
+Incorrect Religious Schools
+,
+Dhimmi
+,
+Other Ideas
+65
+20
+3
+3
+2
+Reactions:
+Reply
+Report
+T
+ts227
+Second Lieutenant
+25 Badges
+Apr 19, 2015
+133
+558
+Jul 16, 2025
+Add bookmark
+#19
+For religions with a pantheon of gods, is there an event to invite you to select which god to focus your worship on (à la Imperator) or does it remain on the selected god until you proactively decide to change it?
+4
+Reactions:
+Reply
+Report
+matfer13
+Field Marshal
+1 Badges
+Dec 17, 2023
+3.015
+18.591
+Jul 16, 2025
+Add bookmark
+#20
+Does the "maximal amount of spouses" modifier" include the "basic one" consort that everybody gets or is just additional consorts? Becauss if it's the former then it should be detracted or just remove the + from it
+Also Islamic faiths shoul have those modifier as well in the religion descriptions
+Last edited:
+Jul 16, 2025
+11
+3
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+7
+Next
+1 of 7
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

@@ -1,0 +1,211 @@
+Source URL: https://eu5.paradoxwikis.com/Diseases
+Source Date: 2025-11-20
+
+Please help with verifying or updating older sections of this article.
+At least some were last verified for
+version
+pre-release.
+Diseases will infect both
+population
+and
+characters
+and vary in how lethal they are and how they spread. Their effects are reduced by disease resistance. The spread of diseases slows down as they expand further from their point of origin.
+List of diseases
+[
+edit
+|
+edit source
+]
+Disease
+Mortality
+Monthly spawn chance
+Spread per population
+Spread interval (days)
+Notes
+Influenza
+Know by the common folk as the Flu, it is a widely spread sickness with usually mild symptoms like a runny nose or a fever in healthy individuals, but that might be extremely dangerous for those that are too young or too old or already weakened by injury or another malady.
+0.1%
+0.25%
+1-2 outside continental and cold arid
+1.2-2.4 in continental and cold arid
+4-12
+Can only appear in locations with normal or severe winter
+Cannot happen in the continent of America unless the Great Pestilence happened
+Malaria
+The ancient bane of humankind, Malaria, is an infectious disease transmitted from person to person by the bite of an infected mosquito. This illness produces chills, headaches, sweating, and a very intense fever that repeats every three to four days.
+10-50%
+0%
+10-15
+Can only appear via events
+Measles
+Measles, also known as morbili, rubeola, and red measles, is a plague that spreads extremely fast from person to person, causing fever, coughs, sneezes, and a great flat rash that eventually covers the entire body. It preys most eagerly on children, who are at great risk of death if they fall on its claws.
+0.1-0.2%
+0.1%
+10-15 in rural settlements
+12-18 in towns
+18-20 elsewhere
+20-24
+Cannot happen in the continent of America unless the Great Pestilence happened
+Smallpox
+Smallpox is a terrible disease that inflicts fever, vomiting and finally an enormous amount of liquid-filled blisters that cover the entire body of the unfortunate victim. The outbreaks of this plague are very deadly and those that survive are commonly blinded for life.
+5-30%
+0.1%
+3-6 in rural settlements
+5-10 in towns
+10-15 elsewhere
+2-8
+Can only appear in locations with cold arid, continental, mediterranean, oceanic or tropical climate
+Cannot happen in the continent of America unless the Great Pestilence happened
+Typhus
+This deathly sickness creates on those stricken by it a great deal of fever, a big red rash that might extend over the entire body, and a confusion of the mind that might get worse, to the point of full-on delirium. Those poor souls that reach that point would develop gangrenous lesions and invariably die.
+4-40%
+0.1%
+0.5-0.9 if prosperity is positive
+2.5-4.5 if prosperity is negative
+24-36
+Can only appear in locations that are under siege
+Spreads more among lower social classes
+Bubonic Plague
+[
+edit
+|
+edit source
+]
+The Bubonic Plague is one of the two most dangerous diseases in the game. Only one Bubonic Plague disease can exist at a time. When and where the first Bubonic Plague disease will appear depends on game rules and will always start the
+Black Death situation
+. Subsequent diseases have a 0.05% chance to appear each month and cannot appear inside the continent of America. Bubonic Plague diseases will kill between 30% and 60% of infected population and characters and will never die off until it has spread a significant distance from its point of origin.
+Bubonic Plague diseases spread every 25 days. Once 30% of a location's population has been infected, the disease can spread to adjacent locations. Every infected will spread the disease to the following uninfected people each time the disease spreads:
+1.1-1.3 if topography is Mountains or Wetlands, vegetation is Desert or Jungle, climate is Arctic or Tropical, or the location is a rural settlement. The disease is also 75% less likely to spread to these locations if they don't have a road.
+1.3-1.6 if location is a town.
+1.5-1.9 if the location is higher.
+If at least 20% of the population in a location is infected with Bubonic Plague, the location will get the following penalties:
+−200%
+Pop promotion speed
++50%
+Pop demotion speed
+−10%
+Monthly prosperity
+−0.2%
+Monthly control
+−0.01
+Monthly development
++5
+Nonavoidable attrition
++10
+Maximum attrition
+−5
+Migration attraction
++0.01
+Pop migration speed
+If a country with
+Monarchy government has the Bubonic Plague within borders there is also a 0.18% chance each month that its ruler will die.
+Great Pestilence
+[
+edit
+|
+edit source
+]
+The Great Pestilence is one of the two most dangerous diseases in the game. Unlike other diseases it can only appear once but can appear in multiple locations. The Great Pestilence will only appear after the Age of Discovery has been reached and only in locations in the continent of America that are owned or a subject of a country with the capital in the Old World. Once these conditions are met, the Great Pestilence has a 1% chance to appear each month.
+The Great Pestilence spreads every 4-16 days. Every infected will spread the disease to the following uninfected people each time the disease spreads:
+0-3 in rural settlements
+2-5 in towns
+5-10 in elsewhere
+If at least 20% of the population in a location is infected with the Great Pestilence, the location will get the following penalties:
+−200%
+Pop promotion speed
++200%
+Pop demotion speed
+−10%
+Monthly prosperity
+−0.5%
+Monthly control
+−0.02
+Monthly development
++5
+Nonavoidable attrition
++10
+Maximum attrition
+−10%
+Population growth
+The Great Pestilence cannot spread to the Old World. When the disease enters the borders of a country the country will receive the following effects:
+If the country's primary culture originates outside the continent of America the country will gain
+−2.5
+Stability and
++2
+Societal Values Chance towards Spiritualist.
+If the country's primary culture originates from the continent of America the country will gain
+−20
+Stability and
++5
+Societal Values Chance towards Spiritualist.
+When a Great Pestilence outbreak ends every country that has been infected will gain
++5
+Societal Values Chance towards Spiritualist.
+References
+[
+edit
+|
+edit source
+]
+Mechanics
+Realm
+Country
+•
+Government
+•
+Parliament
+•
+Estate
+•
+Reforms
+•
+Laws
+•
+Characters
+•
+Missions
+Economy & Research
+Economy
+•
+Goods
+•
+R.G.O.
+•
+Market
+•
+Building
+•
+Population
+•
+Age
+Diplomacy & Warfare
+Diplomacy
+•
+Subjects
+•
+International organization
+•
+Warfare
+•
+Combat
+•
+Military
+The world
+Location
+•
+Culture
+•
+Religion
+•
+Language
+•
+Exploration
+•
+Situations
+•
+Disasters
+•
+Diseases
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=Diseases&oldid=18947
+"

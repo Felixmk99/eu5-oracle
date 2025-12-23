@@ -1,0 +1,423 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-18-26th-of-june-2024.1689850/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #18 - 26th of June 2024
+Thread starter
+Johan
+Start date
+Jun 26, 2024
+Welcome everyone to another Tinto Talks.  This is the time of the week where we will be focusing on gathering your helpful feedback on how to shape this secret game with the code name of Project Ceasar together.
+Today we will get back into politics, and discuss how Laws function in this game. Sadly, when this is going live, I’m technically on vacation, so might not be able to reply.  The good news for you though, is that
+@SaintDaveUK
+and
+@Pavía
+are more than happy to reply.
+We have had various forms of laws in previous grand strategy games, everything from deciding how the Upper House in Victoria 2 is composed to simpler things like decisions “The Education Act” in EU3 that gave you a permanent bonus.  In Project Caesar what we define as a Law is something that has 2 or more policies to choose from, and where you can change the policy for a cost.
+Many Laws have lots of unique policies that are available for certain tags, religions, cultures or other unique restrictions.
+Currently most countries start with about 12-15 laws that they have policies on from the start, and there are about 40 more laws that appear over the ages.
+Four different administrative laws here, all for the ideal way to run our country.
+Enacting a policy for a new law is merely a cost in gold, but changing a policy is far more costly. At a base cost of 100 stability, it's rather costly, and while a high crown power reduces it, having low crown power, which would be very common in the early part of the game, would increase that cost further.
+So how do you pass a law then without plunging your country into chaos?  Call in the Parliament and convince them to approve law changes! How that works in detail we will talk about when we talk about parliaments.
+Also to take into account is that while you immediately will lose the benefits of the previous policy, enacting a new policy takes time.  Depending on your administrative efficiency it can take several years until you reap the full benefits of a +1% Tax Efficiency, just like in real life..
+Not only countries have laws, many international organizations have laws as well, where in some of them it's something the leader like The Emperor of the Holy Roman Empire could enact on their own, in some there are specific countries that can vote on the policy being approved or not, and many more options possible. We will go into details about those when we talk about specific International Organizations.
+So what type of policies do we have in the laws? Well, they are not just modifier-stacks like many things in previous games, but they enable and disable mechanics, they make estates happy or unhappy, and have impact on your societal values.
+Here are a few examples of laws.
+The Levy Law here is an interesting choice.  2% more of the peasants is a fair bit more than 20% of the nobles, but over time it has an impact over what your military focuses on.
+Or is it a way to kill nobles more efficiently?
+Naval Doctrines was a concept in EU4, and here it is a law with lots of different options depending on who you play as.
+Wooden Wall, the best for England right?
+Your Legal Code has many different options depending on who you play, but as England you definitely have the important choice.
+More efficient government or more happy estates? or just the traditions?
+In the later part of the game, the Press Laws is something you have to decide upon..
+This is a tough choice, isn't it?
+If you go with free press, the burghers might start building these in different towns and cities.
+There should be no drawbacks to this... right?  right???
+Here is an example of a religious law, about what religion your heirs can belong to.
+Clearly the clergy are not as tolerant as they need to be.
+Speaking of Heirs, the “Succession Law” mechanic is not technically a law, but uses another mechanic, primarily because we want to always ensure that it's valid, and enforcing a country to always have one.   This Special Law is very much dependent on government type.
+We have lots of unique ones, like the Papal Conclave, where when the pope dies, the cardinals gather to debate who will be the new pope. This can be quick, but sometimes it may take several years. We have different election methods for republics, and of course the old classic Salic and Semi-Salic Laws as some of the options for Monarchies.
+A difference on view of this will never cause any wars I'm sure..
+For all of you that like to modify games, all of these are 100% controlled from textfiles.
+Stay tuned, because next week we will finally talk about ages and institutions, which is something we have hinted at for many weeks.
+228
+177
+10
+8
+3
+1
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+23
+Next
+1 of 23
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+bluepotato81
+Second Lieutenant
+24 Badges
+Jun 12, 2024
+145
+1.862
+Jun 26, 2024
+Add bookmark
+#2
+The highlight of my week
+Toggle signature
+Deliver me from mine enemies, O my God: defend me from them that rise up against me. Defend me from the workers of iniquity, and save me from bloody men. The mighty are gathered against me, awake to help me, and behold.
+Nor is there pain, or cause of pain, Or cease in pain, or noble path to lead from pain;
+The Master said, "Is it not pleasant to learn with a constant perseverance and application? Is it not delightful to have friends coming from distant quarters? Is he not a man of complete virtue, who feels no discomposure though men may take no note of him?"
+Do not despair of the mercy of Allāh. Indeed, Allāh forgives all sins. Indeed, it is He who is the Forgiving, the Merciful.
+The Tao that can be told is not the eternal Tao, and the name that can be named is not the eternal Name.
+It is not your duty to finish the work, but neither are you at liberty to neglect it;
+The finest essence here—that constitutes the self of this whole world; that is the truth; that is the self.
+O Son of Man! Veiled in My immemorial being and in the ancient eternity of My essence, I knew My love for thee; therefore I created thee, have engraved on thee Mine image and revealed to thee My beauty.
+Rise up for me, O Ahura, through Armaiti give strength, through the holiest Spirit give might, O Mazda, through the good Recompense, through the Right give powerful prowess, through Good Thought give the reward.
+O my mind, remember the Lord in meditation; He is the Destroyer of pain, the Eradicator of fear, the Sovereign Lord King. He is the Greatest Lover, the Merciful Master, the Enticer of the mind, the Support of His devotees - this is His very nature.
+In some ways, it is, in some ways, it is not, in some ways, it is, and it is not, in some ways, it is indescribable, in some ways, it is, and it is indescribable, in some ways, it is not, and it is indescribable, in some ways, it is, it is not, and it is indescribable.
+So be diligent in seeking knowledge, keeping company with those of understanding, and studying at all times, and you will attain goodness and blessings.
+An ash I know there stands, - Yggdrasill is its name, - a tall tree, showered - with shining loam. - From there come the dews - that drop in the valleys. - It stands forever green over - Urðr's well.
+Our God, with His mercy - Brought for us beauty and loveliness - He gave a command to the Pen of Power - We were thrown into the Mystery of Love.
+I saw my father, I saw him, and I gave him three requests. I asked him for a great heart, which can be carried by the big and the little. I asked him for calmness, in which there is no rebellion. I asked him for a level path, to rise to light’s place in peace.
+31
+7
+4
+Reactions:
+Reply
+Report
+So_MeOne
+Second Lieutenant
+Aug 3, 2020
+121
+1.880
+Jun 26, 2024
+Add bookmark
+#3
+Interesting! So switching between government types is made through laws, right? Or are there government reforms, like in EU4? Or is it handled in different way entirely (like the “Succession Law” mechanic)?
+Last edited:
+Jun 26, 2024
+28
+1
+1
+Reactions:
+Reply
+Report
+LeandroB
+Captain
+91 Badges
+May 29, 2017
+360
+1.724
+Jun 26, 2024
+Add bookmark
+#4
+WOOT! NEW TINTO TALK!
+Toggle signature
+SI VIS PACEM, PARA BELLVM.
+3
+1
+Reactions:
+Reply
+Report
+D
+Dwicarucymru
+Second Lieutenant
+Oct 21, 2019
+151
+771
+Jun 26, 2024
+Add bookmark
+#5
+25
+8
+2
+1
+Reactions:
+Reply
+Report
+giorgosth128
+Captain
+43 Badges
+Oct 8, 2017
+313
+1.206
+Jun 26, 2024
+Add bookmark
+#6
+can you tell me more of the succession laws? I want to know what you have so far
+5
+2
+Reactions:
+Reply
+Report
+P
+posadugh
+Private
+68 Badges
+Jan 26, 2015
+10
+48
+Jun 26, 2024
+Add bookmark
+#7
+This is OT, but are there going to be settled tags in the Amazon and the great prairie of North America? Both places had intense agricultural practices before the catastrophic collapse caused by European diseases.
+3
+1
+1
+Reactions:
+Reply
+Report
+VectorTheGreat
+Sergeant
+38 Badges
+Jun 12, 2019
+91
+350
+27
+Jun 26, 2024
+Add bookmark
+#8
+Will there be EU4 style mission system or HOI4 style focus system in this game?
+30
+3
+2
+Reactions:
+Reply
+Report
+Katana500
+Captain
+37 Badges
+Dec 4, 2015
+349
+1.474
+Jun 26, 2024
+Add bookmark
+#9
+What legal code does Scotland use because its a rare exception in Europe which has a mixed legal system and follows both Civil and Common.
+7
+3
+Reactions:
+Reply
+Report
+gcpt
+The Greatest Citrus Merchant
+28 Badges
+Jan 4, 2018
+48
+128
+Jun 26, 2024
+Add bookmark
+#10
+Will we have more naval laws related to cultures like we have doctrines in EU4?
+2
+Reactions:
+Reply
+Report
+Kimudena
+First Lieutenant
+15 Badges
+Feb 17, 2021
+230
+1.054
+Jun 26, 2024
+Add bookmark
+#11
+There should be no drawbacks to this... right? right???
+I think press should amplify the stability effects in this location (so it can be good/bad depending on the stab)
+Toggle signature
+Tinto Talks are sponsored by
+Kingdom of Hungary
+in order to hide the existence of
+Voivodeship of Transylvania.
+36
+5
+3
+1
+Reactions:
+Reply
+Report
+Imperialismo
+Sergeant
+58 Badges
+Apr 16, 2021
+97
+815
+Jun 26, 2024
+Add bookmark
+#12
+How much flavour do you currently have for laws? If we can have a rough estimate
+Reply
+Report
+Aart
+Second Lieutenant
+30 Badges
+Apr 25, 2019
+167
+939
+Jun 26, 2024
+Add bookmark
+#13
+Do I interpret it correctly, that the appanges of France can become the King of France? Would it merge the appange and the France proper?
+9
+3
+Reactions:
+Reply
+Report
+P
+Pouply
+Corporal
+56 Badges
+Apr 24, 2024
+36
+198
+Jun 26, 2024
+Add bookmark
+#14
+"Local Newspaper" when they are gonna spread religion 100% faster or revolution zealotry 100% faster too...
+13
+9
+1
+Reactions:
+Reply
+Report
+B
+Briloner
+Major
+168 Badges
+Sep 25, 2007
+796
+1.843
+Jun 26, 2024
+Add bookmark
+#15
+I bet Johan can't help it - and the technical holiday is just that: "technical"
+16
+Reactions:
+Reply
+Report
+D
+donbg
+Captain
+Mar 20, 2024
+334
+2.813
+Jun 26, 2024
+Add bookmark
+#16
+Amazing
+2
+Reactions:
+Reply
+Report
+Jon Snow21
+Corporal
+22 Badges
+Jul 6, 2023
+34
+143
+Jun 26, 2024
+Add bookmark
+#17
+Will these laws be voted by the council? Or just implemented with no effect on your councilors?
+2
+2
+Reactions:
+Reply
+Report
+D
+Didsss
+Sergeant
+51 Badges
+Dec 27, 2016
+90
+732
+Jun 26, 2024
+Add bookmark
+#18
+I see the heirs in France are named dukes, is that just a generic name or do they rule one of France's many subjects?
+7
+2
+Reactions:
+Reply
+Report
+Staden
+First Lieutenant
+96 Badges
+Jul 24, 2016
+260
+953
+Jun 26, 2024
+Add bookmark
+#19
+I'm a little concerned how the Noble Levies law will affect the gameplay, due to the fact that noble pops wont grow naturally.
+11
+1
+1
+Reactions:
+Reply
+Report
+pheonicia
+Field Marshal
+90 Badges
+Feb 2, 2015
+3.510
+23.853
+Jun 26, 2024
+Add bookmark
+#20
+Well that's a new societal value.
+Toggle signature
+Will HOI4 be released on H hour CET of D Day? - Mannstien
+Once again though, there are no actual zombies, it is all hysteria and panic. - Darkrenown
+No, cats were invented in 1902 by Satan, but we included them for gameplay reasons. - Darkrenown
+ubi solitudinem faciunt pacem appellant; they make a wasteland and call it peace.
+Pronoun: 3rd person (use my name)
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+23
+Next
+1 of 23
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

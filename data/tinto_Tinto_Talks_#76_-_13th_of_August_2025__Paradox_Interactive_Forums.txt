@@ -1,0 +1,500 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-75-13th-of-august-2025.1855048/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #76 - 13th of August 2025
+Thread starter
+Johan
+Start date
+Aug 13, 2025
+Hello Everyone and Welcome to another Happy Wednesday!  Today it’s the 13th of August, one of the most Holy of all days in Paradox lore, as we celebrate both the 12th birthday of EU4 and the 15th birthday of Victoria 2. So how do we celebrate it this year?
+Well, we can talk about some of the fun changes that have happened to EU5, since we let influencers play it before the announcement.  I could talk much about how performance has become better, or how we have improved the AI, but that is something a video would show so much better, so let's focus on SOME of the changes that can be shown in a Tinto Talk. And no, we will not go into details about balancing changes, as that would be a list too long for even a Paradox patch note.
+Let's look at a selection of gameplay related changes, and this is just a small collection of those that the team found most interesting.
+Advances and Forming Countries
+One of the ways that many enjoyed EU4 was forming new countries and getting new sets of national ideas. Previously in EU5, country-specific advances were locked to currently being a specific tag, now you will keep them when you form a new country, and you will be able to research the unique advances for the tag you form.
+However, there is a limit to this, as you can only form a country that is on a higher tier than what you currently are. So if you are playing as Sweden, which is a tier 2 tag, you can form Scandinavia, which is a tier 3 tag, but you can’t form Denmark, which is a tier 2 tag. Then you have the option to go for a tier 4 tag like Eastern Roman Empire, which is a bit of a challenge to form as Sweden, as you need to get primary culture Greek, convert to Orthodox and own Constantinople, and at least half of the Balkans and Anatolia.
+A useful advance you can research after unifying Scandinavia..
+Subjects
+You need to manage your subjects' loyalty more carefully, as they may not fight wars with you if they are disloyal enough, and actually make a separate peace with your enemies.
+We also made it possible to instruct your subjects on how they should behave in your wars, when they are actually loyal enough to help. You can change them all with one button click, and you can make individual choices, which include the following..
+Normal - The subject will take a balanced approach to military tactics.
+Aggressive - The subject will take an aggressive approach to military tactics, looking to start sieges and chase units in enemy territory.
+Supportive - The subject will take a supportive approach to military tactics, helping our units.
+Passive - The subject will take a passive approach to military tactics, doing low-risk actions like blockading as well as defending friendly territory.
+Defensive - The subject will take a defensive approach to military tactics, looking to stop enemies from doing anything in allied lands only.
+France has a lot of subjects…
+Speaking of subjects, we also added in the feature from the EU4: Art of War DLC, where you can start a war using one of your subjects' casus belli.
+Bribing Estates
+One thing many people pointed out was that you had no way to directly affect the estate satisfaction. Of course, the easy solution was the most thematically correct here. A simple “bribe” for a temporary boost of estate satisfaction was added. The amount it costs depends on the economic base of the country and the tax base of the estate. You also have to be aware that the satisfaction change is rather temporary, and it will get back to its equilibrium soon enough.
+Worth it?  It depends..
+Construction Centers
+Another feedback we had was how playing tall was very limited, in the simple fact that every location had one queue for building buildings, and you could thus only build one building at a time, and in the mid and late game, this severely favored those countries with more locations over those with fewer.  We had already developed the code for constructing things in parallel with the shipyards, so we decided to add these systems to both recruiting regiments and building buildings. Barracks will allow you to build 2 regiments at once in a location, and the Conscription Center can create 6 regiments at the same time.
+When it comes to buildings, roads, and other civil construction, we decided to make it more of a “where do I want to focus on this”. First of all, a city can always have 2 civil constructions at the same time, compared to a single one for towns and rural locations. Most importantly, though, is the new building called the Construction Center, which you get access to through an advance in the Age of Discovery. Each level of a construction center allows another building to be built in parallel in the location. The amount of levels a construction center can have depends on what age you are in, and how advanced you have become.
+Just needs tools, masonry, and laborers..
+It's not just gameplay features we have been working on; we have also iterated upon some interfaces as well, after getting lots of great feedback, both internally and externally. So let's take a look at three of the most commented UI’s.
+The first here is the diplomatic UI, and there we will show off two major changes. First is the list of known countries, which has been revised to use what we call a “card”. These types of cards are used in many places where you have a list of the same objects, where you can see detailed information about them at a glance.
+On the top row, there is the “great power ranking”, with a special flag if they are a great power or not, the full name of the country, and then a small star where you can bookmark them, which will add to the outliner and show news about them
+The bottom row has six buttons, where the first shows their current Opinion, and a click allows you to send a diplomat to improve their opinion of us (or cancel if you are already doing it). The second is for Trust, the third is for Favors, and the fourth is for spynetworks. The final smaller buttons are for creating a casus belli and for declaring war/offering peace.
+Yes, Yuan and Delhi are 1 and 2
+Diplomatic UI
+We revised the diplomatic UI so that when you have a country selected, you can have a split mode, which is the default to see diplomatic actions at the same time as the target country’s information. We also added a country card at the top, where you can easily go to next/previous, and access the quick actions as well.
+Do you like the category icons ?
+Battle UI
+The battle UI was not easily decipherable and has thus received a fair bit of attention and iteration, and it is now much easier to understand. The feedback from playtesting is that now it's actually fun to follow the progress in the battles! So let's take a look at some images of a battle here.
+Odds are not looking great!
+The top of the interface shows an image, the commanders in charge, their stats, the number of troops involved,  the current morale, the dice roll, and some stats
+Beneath that, the battle is depicted, where the attacker is at the top, with its flag at the left and the prisoners, dead and fled to the right.
+In the middle of the battlefield, you see the wide boxes representing the reserves which are empty, and then the center and flanks facing each other.  Each of those sections has a box containing units not engaged, with a grey number telling how many men they have there, and closer to the middle is a green bar showing how much morale the engaged units in that section has, how many men are fighting, and the light blue bar, how much of the frontage is filled up.
+In the middle of the battlefield there are small icons representing each regiment currently engaged, colored in their countries map-color.
+The allied army attacking on the top has a single cavalry of 26 men engaged, and a full levy regiment of 1000 infantry on their left flank has engaged, while none from our Teutonic army has engaged yet.
+Lets see how the battle looks like after a few hours..
+I painted a green circle in paint to show what I am tooltipping here..
+Here we can see that some of the Teuton army has engaged, but there have also been reinforcements arriving for the allied army on their right flank.  We can see that our Crusader Knights, which are regular troops, are performing well, but there is no way they will be able to fight off 2,000 levies without reinforcements.
+Lets see how the battle continue…
+Oops?
+And here, we can see that the Teutonic right flank has collapsed, and the 2,036 men on the allied left flank are now attacking the center. There are also 2 infantry and 1 cavalry from another ally that have arrived at the reserves. Things are looking grim for the Teutonic Order.
+War UI
+The final UI we will talk about is the war overview. This screen was one that received different types of complaints, as it was rather cramped in a small side window, and also had two big portraits taking up large parts of the screen. Instead, we reworked it into a full screen, where you can have a detailed overview of all participants, and be able to sort them.
+This war does not look too promising…
+… And many more tweaks that we’ve been working on in the past few months, but that’s all for today! As Friday is a bank holiday in Spain, here you have for next week, when we’ll have three posts:
+Monday -> Tinto Maps Feedback for Central America with Pavía!
+Wednesday -> Tinto Talks in which I will talk about our UI Systems and how they work!
+Friday -> Tinto Flavour about Castile with Pavía!
+See you next week! And also remember, you can
+wishlist Europa Universalis V now
+! Cheers!
+195
+84
+7
+4
+4
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+15
+Next
+1 of 15
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+kkazw
+Private
+May 6, 2025
+11
+65
+Aug 13, 2025
+Add bookmark
+#2
+Holy the UI looks better (also no date RIP)
+38
+1
+Reactions:
+Reply
+Report
+nqwery
+Second Lieutenant
+7 Badges
+Oct 3, 2024
+119
+2.115
+Aug 13, 2025
+Add bookmark
+#3
+Finally a TT about UI next week!
+17
+1
+Reactions:
+Reply
+Report
+A
+albertolazo
+Private
+3 Badges
+Sep 18, 2024
+15
+26
+Aug 13, 2025
+Add bookmark
+#4
+Is there any change in the climate of the iberian peninsula?
+3
+2
+Reactions:
+Reply
+Report
+Kotyk-durkotyk
+Colonel
+23 Badges
+May 26, 2024
+1.137
+15.631
+Aug 13, 2025
+Add bookmark
+#5
+Happy anniversary and thanks for such a great post!
+Feedback from the first screenshot – please, make army and navy icons more instantly distinguishable like in EU4.
+They have slightly different boxes, but also at least:
+flags on the opposite sides,
+different shapes of the flags / shields,
+make navy box blue-ish maybe (optional)?
+This is very useful when we have dozens of units on the map.
+-
+Last edited:
+Aug 13, 2025
+Toggle signature
+Check out my EU5 threads:
+Ruthenia and Steppe Fix
+–
+my EU5 Mod
+with historical corrections for the Ruthenian and Steppe Regions
+Ruthenian / Cossack / Ukrainian Content Pack
+Orthodoxy Needs a Full Rework in EU5
+108
+48
+3
+Reactions:
+Reply
+Report
+gLo1NN
+Sergeant
+72 Badges
+Jul 15, 2014
+54
+158
+Aug 13, 2025
+Add bookmark
+#6
+Is there no release date?
+18
+14
+4
+1
+Reactions:
+Reply
+Report
+Goran42069
+Second Lieutenant
+18 Badges
+Jan 1, 2016
+115
+1.079
+Aug 13, 2025
+Add bookmark
+#7
+So you can't form countries on the same tier as you anymore ? I guess thats to prevent too much modifier stacking
+31
+2
+1
+Reactions:
+Reply
+Report
+D
+Davincie
+Captain
+80 Badges
+Feb 5, 2020
+323
+1.952
+Aug 13, 2025
+Add bookmark
+#8
+Can you make it a game rule to allow us to form nations on equal or lower tiers?
+Also for advances, if I form for example Scandinavia in the age of absolutism, can I research Scandinavian advances from the age of renaissance?
+18
+9
+3
+2
+Reactions:
+Reply
+Report
+Sulphurologist
+Extravagant Map Man
+44 Badges
+Sep 23, 2018
+659
+8.499
+Aug 13, 2025
+Add bookmark
+#9
+Johan said:
+Today it’s the 13th of August, one of the most Holy of all days in Paradox lore, as we celebrate both the 12th birthday of EU4 and the 15th birthday of Victoria 2.
+Click to expand...
+... and my birthday!
+regarding UX, any update on left-click vs right-click location functionality?
+Like eu4 has left-click province for the location itself, right-click to go to the location's owner for diplomacy.
+IIRC that wasn't the case in the alpha gameplay, so any clues on this?
+regarding UI, I also hope EU4-like customisable map buttons (and associated shortcuts) are returning!
+Otherwise very happy to see the progress of these changes!
+Toggle signature
+My thread for EU5
+flavor suggestions for Flanders
+My thread for EU5
+topography and terrain
+My thread on EU5
+climates and crop yields
+26
+12
+Reactions:
+Reply
+Report
+Marcxs272828
+Second Lieutenant
+May 22, 2024
+121
+1.631
+Aug 13, 2025
+Add bookmark
+#10
+In EU4 there was a distinct "Siege" instruction for your subjects while at war, distinct from the "Agressive" one. I think it should come back to EU5, it was very useful.
+37
+5
+Reactions:
+Reply
+Report
+Birchinjaro
+Captain
+May 15, 2024
+487
+3.035
+Aug 13, 2025
+Add bookmark
+#11
+Can the battle screen be made a little smaller? I agree with Theplayermaker that it takes too much of the screen
+5
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Aug 13, 2025
+Add bookmark
+#12
+Subjects can sign separate peace treaties? Awesome!
+12
+9
+1
+Reactions:
+Reply
+Report
+Daniel the Finlander
+Colonel
+61 Badges
+Feb 2, 2016
+1.064
+8.242
+Aug 13, 2025
+Add bookmark
+#13
+Johan said:
+as we celebrate both the 12th birthday of EU4 and the 15th birthday of Victoria 2.
+Click to expand...
+Also it’s wild to think there was only 3 years in between vic 2 and eu4, the games feel so different
+Toggle signature
+modder and a lover of mods
+eu5 > imperator > eu4
+EU5 mod: Historically Accurate Courland
+EU5 mod: Historically Accurate Finland
+29
+6
+Reactions:
+Reply
+Report
+FleetingRain
+Field Marshal
+58 Badges
+Aug 2, 2014
+4.546
+13.367
+Aug 13, 2025
+Add bookmark
+#14
+...I thought we would talk about Islam today?
+5
+4
+2
+1
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Aug 13, 2025
+Add bookmark
+#15
+FleetingRain said:
+...I thought we would talk about Islam today?
+Click to expand...
+No, but we can talk about our Lord and Savior, Jesus Christ, if you have the time.
+31
+14
+4
+3
+2
+Reactions:
+Reply
+Report
+D
+Didsss
+Sergeant
+51 Badges
+Dec 27, 2016
+90
+732
+Aug 13, 2025
+Add bookmark
+#16
+Is there a way to instruct your subjects' navies? One of my pet peeves with eu4 is that disloyal subjects still helped their overlord in naval battles
+5
+1
+Reactions:
+Reply
+Report
+Pavía
+Content Design Lead PDX Tinto
+Paradox Staff
+12 Badges
+Jan 3, 2006
+4.509
+192.684
+Aug 13, 2025
+Add bookmark
+#17
+Hi there! Johan has had to leave and won't be available for a few hours, so both
+@SaintDaveUK
+and I will be answering some questions.
+Toggle signature
+Antiguo caballero villano del OT en español. Now member of EUIV & EUV Team at Paradox Tinto.
+32
+3
+1
+Reactions:
+Reply
+Report
+Kotyk-durkotyk
+Colonel
+23 Badges
+May 26, 2024
+1.137
+15.631
+Aug 13, 2025
+Add bookmark
+#18
+Johan said:
+Bribing Estates
+One thing many people pointed out was that you had no way to directly affect the estate satisfaction. Of course, the easy solution was the most thematically correct here. A simple “bribe” for a temporary boost of estate satisfaction was added. The amount it costs depends on the economic base of the country and the tax base of the estate. You also have to be aware that the satisfaction change is rather temporary, and it will get back to its equilibrium soon enough.
+Click to expand...
+Good idea for the Nobility, Clergy, even Burghers maybe, but
+I can hardly imagine bribing 4 millions of Commoners
+...
+Maybe for Commoners it should be either disabled or cost tens of thousands of ducats for ~1% boost.
+Toggle signature
+Check out my EU5 threads:
+Ruthenia and Steppe Fix
+–
+my EU5 Mod
+with historical corrections for the Ruthenian and Steppe Regions
+Ruthenian / Cossack / Ukrainian Content Pack
+Orthodoxy Needs a Full Rework in EU5
+21
+11
+3
+1
+1
+Reactions:
+Reply
+Report
+Pavía
+Content Design Lead PDX Tinto
+Paradox Staff
+12 Badges
+Jan 3, 2006
+4.509
+192.684
+Aug 13, 2025
+Add bookmark
+#19
+Goran42069 said:
+So you can't form countries on the same tier as you anymore ? I guess thats to prevent too much modifier stacking
+Click to expand...
+Not only for that (which is something that we're actively doing, as previously mentioned a couple of times), but also to make for a clearer gameplay progression (county -> duchy - kingdom -> empire).
+Toggle signature
+Antiguo caballero villano del OT en español. Now member of EUIV & EUV Team at Paradox Tinto.
+71
+6
+6
+2
+Reactions:
+Reply
+Report
+Sete
+Lt. General
+49 Badges
+Jan 24, 2018
+1.644
+4.531
+Aug 13, 2025
+Add bookmark
+#20
+Johan said:
+Friday -> Tinto Flavour about Castile with Pavía!
+Click to expand...
+I will be following this one with interest.
+Curious about the "Iberian Caravel" and see if we have "Iberian Tercios"
+5
+2
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+15
+Next
+1 of 15
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

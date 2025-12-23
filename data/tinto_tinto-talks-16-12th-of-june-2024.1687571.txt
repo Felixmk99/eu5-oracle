@@ -1,0 +1,431 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-16-12th-of-june-2024.1687571/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #16 - 12th of June 2024
+Thread starter
+Johan
+Start date
+Jun 12, 2024
+Welcome to another Tinto Talks, you know, the happy Wednesday, where we talk about the top secret and very much unannounced game we refer to as Project Caesar.  Today we’ll talk about another rather new, and more or less, unique system.
+The Cabinet is one of the core functionalities in the game, covering areas which in previous games have been handled by envoys or mana, or may not have scaled nicely. The Cabinet in Project Caesar is a core part of many aspects of the game.
+Last week we talked about characters, and we inferred roles like generals, admirals, rulers and regents. We also mentioned two roles we were not ready to talk about as well. Being in a cabinet, while being a good use of a character is NOT one of those roles, so you still have two other things to look forward to regarding characters.
+Can you trust Sir Robert???
+The size of your cabinet varies depending on several factors, the most important though, is how advanced your country is. At the start of the game, most countries will have a cabinet size of two, while every age will add at least one. Some government reforms or laws may also grant a bigger cabinet size, for some other drawbacks.
+Who you pick for your cabinet matters as well, as each cabinet member from an estate gives +10% power to that estate. And it may not always be ideal to have a cabinet member of the wrong religion or bad culture, no matter how great they are. One example, includes the fact that the Pope might be upset if you employ an heretic as a Catholic ruler.
+There are currently 45 different actions that can be assigned to a cabinet position, and more are added as the game develops. Some of these are always available, some require more advances, and some are unique that only a few have access to. Each action belongs to one of three categories, administrative, diplomatic or military, which determines which attribute is used for it.
+Some actions impact the entire country, and some impact a province.
+Increasing control in a single province may be good, but it's but a single province…
+How efficient is a cabinet action then?  The relevant attribute from the ruler and the cabinet member has a big impact, but your societal values, laws, reforms and even some estate privileges can affect it.  Not to mention your crown power.
+If you want people to leave Stockholm, winter is not enough.
+Speaking of migration, next week we will talk more in detail about how the pops function when it comes to migration, growth, how they change, and what they need.
+Last edited:
+Jun 12, 2024
+252
+79
+9
+9
+3
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+26
+Next
+1 of 26
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+So_MeOne
+Second Lieutenant
+Aug 3, 2020
+121
+1.880
+Jun 12, 2024
+Add bookmark
+#2
+People refreshing page every second today to see if Tinto Talk has been uploaded:
+111
+32
+1
+1
+Reactions:
+Reply
+Report
+EinarH
+Second Lieutenant
+17 Badges
+Mar 15, 2024
+127
+1.160
+Jun 12, 2024
+Add bookmark
+#3
+worth the wait
+17
+1
+Reactions:
+Reply
+Report
+Ramiro564
+Sergeant
+64 Badges
+Sep 16, 2017
+59
+55
+Jun 12, 2024
+Add bookmark
+#4
+Finally!
+3
+1
+Reactions:
+Reply
+Report
+Foke
+Captain
+2 Badges
+Jul 15, 2013
+340
+2.116
+Jun 12, 2024
+Add bookmark
+#5
+EvsseH said:
+worth the wait
+Click to expand...
+Damn you read fast
+24
+3
+2
+1
+1
+Reactions:
+Reply
+Report
+TraditionalistLeo
+Sergeant
+19 Badges
+May 15, 2024
+84
+442
+Jun 12, 2024
+Add bookmark
+#6
+That was an exhausting wait, but now it's here! Hurrah!
+Reply
+Report
+M
+Magatmil
+Corporal
+6 Badges
+Apr 7, 2018
+27
+224
+Jun 12, 2024
+Add bookmark
+#7
+JOHAN AL GAIB!!!!!!!!!!!!!!
+19
+3
+Reactions:
+Reply
+Report
+C
+chasefaceiscool
+Recruit
+Mar 30, 2024
+2
+13
+Jun 12, 2024
+Add bookmark
+#8
+The ai doesn’t have to be good at this. But please tell me we can automate these.
+33
+5
+5
+Reactions:
+Reply
+Report
+PerhapsItsChondoLal
+First Lieutenant
+4 Badges
+Jun 20, 2021
+215
+885
+Jun 12, 2024
+Add bookmark
+#9
+JOHAN AL GAIB
+9
+Reactions:
+Reply
+Report
+D
+Dongerino
+Evropa's Gemmiest Herald
+43 Badges
+Jun 27, 2015
+1.131
+10.921
+Jun 12, 2024
+Add bookmark
+#10
+3D portraits. Billions must whine.
+53
+6
+1
+1
+Reactions:
+Reply
+Report
+pheonicia
+Field Marshal
+90 Badges
+Feb 2, 2015
+3.510
+23.853
+Jun 12, 2024
+Add bookmark
+#11
+How big can you get your cabinet?
+Toggle signature
+Will HOI4 be released on H hour CET of D Day? - Mannstien
+Once again though, there are no actual zombies, it is all hysteria and panic. - Darkrenown
+No, cats were invented in 1902 by Satan, but we included them for gameplay reasons. - Darkrenown
+ubi solitudinem faciunt pacem appellant; they make a wasteland and call it peace.
+Pronoun: 3rd person (use my name)
+8
+1
+Reactions:
+Reply
+Report
+NGASAK
+Second Lieutenant
+30 Badges
+Jun 27, 2016
+158
+1.192
+Jun 12, 2024
+Add bookmark
+#12
+“Expel people”
+Now players can do some gaming
+63
+9
+6
+Reactions:
+Reply
+Report
+P
+PatatjeFriet
+Sergeant
+40 Badges
+Feb 10, 2019
+78
+292
+Jun 12, 2024
+Add bookmark
+#13
+Will some International Organizations such as the Holy Roman Empire have their own cabinets?
+40
+7
+Reactions:
+Reply
+Report
+unmerged_zwei833
+Major
+55 Badges
+Jul 8, 2011
+736
+1.813
+Jun 12, 2024
+Add bookmark
+#14
+Love those character 3D models, especially their clothes and armours. Great work!
+Last edited:
+Jun 12, 2024
+31
+21
+2
+Reactions:
+Reply
+Report
+Harfus
+Corporal
+87 Badges
+Jul 15, 2015
+48
+168
+Jun 12, 2024
+Add bookmark
+#15
+Short but sweet, any chance we could see one or two of these more exclusive cabinet actions?
+10
+1
+Reactions:
+Reply
+Report
+K
+KingOfFries
+Recruit
+Jun 12, 2024
+1
+6
+Jun 12, 2024
+Add bookmark
+#16
+*GASP* *GASP*
+AIR!
+*GASP*
+SWEET, SWEET AIR!
+5
+1
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Jun 12, 2024
+Add bookmark
+#17
+pheonicia said:
+How big can you get your cabinet?
+Click to expand...
+Think 8-10 is the max size we aim for.
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+61
+26
+15
+Reactions:
+Reply
+Report
+Imperialismo
+Sergeant
+58 Badges
+Apr 16, 2021
+97
+815
+Jun 12, 2024
+Add bookmark
+#18
+PRAISE BE TO JOHAN
+5
+1
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Jun 12, 2024
+Add bookmark
+#19
+chasefaceiscool said:
+The ai doesn’t have to be good at this. But please tell me we can automate these.
+Click to expand...
+no, this is not automated.
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+Reply
+Report
+Romanix90
+Colonel
+23 Badges
+Feb 25, 2019
+1.163
+2.890
+Jun 12, 2024
+Add bookmark
+#20
+Again I ask will there be option to hide characters?
+Toggle signature
+Byzantium is the Roman Empire. Deal with it.
+https://forum.paradoxplaza.com/foru...sty-achievment-and-armenian-missions.1543367/
+https://forum.paradoxplaza.com/foru...ism-and-rename-coptic-into-miaphysit.1543364/
+https://forum.paradoxplaza.com/forum/threads/tengrism-and-buddhism.1517827/
+https://forum.paradoxplaza.com/forum/threads/culture-convert-harmonized-religions.1393536/
+https://forum.paradoxplaza.com/forum/threads/constantionople-and-moscow-religius-center.1391268/
+https://forum.paradoxplaza.com/forum/threads/turkish-minors-of-anatolia-and-rum.1390767/
+https://forum.paradoxplaza.com/forum/threads/colonial-and-subject-nations.1391208/
+https://forum.paradoxplaza.com/forum/threads/nubian-mission-tree.1390771/
+https://forum.paradoxplaza.com/forum/threads/rename-areas.1390441/
+https://forum.paradoxplaza.com/forum/threads/russian-mission-tree-rework.1393614/
+https://forum.paradoxplaza.com/forum/threads/restore-great-moravia.1393606/
+https://forum.paradoxplaza.com/foru...o-remove-mamluks-from-forming-arabia.1395549/
+https://forum.paradoxplaza.com/forum/threads/suggestion-for-jerusalem.1395550/
+https://forum.paradoxplaza.com/forum/threads/some-suggestions-for-byzantium-in-eu4.1424235/
+47
+28
+6
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+26
+Next
+1 of 26
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

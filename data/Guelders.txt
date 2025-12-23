@@ -1,0 +1,295 @@
+Source URL: https://eu5.paradoxwikis.com/Guelders
+Source Date: 2025-12-18
+
+This is a
+compilation
+and strategy article for
+Guelders
+.
+Mechanics and flavor content are
+transcluded
+from other pages.
+Guelders
+Country type
+Settled
+Government type
+Monarchy
+Primary culture
+Low Franconian (Netherlandish)
+Primary religion
+Catholicism
+Capital location
+Gelre
+The nations in the Low Countries have been bounded and bossed around by both the
+Kingdom of France
+or the
+Holy Roman Empire
+since their creation, often becoming a fief of one or the other and not rarely switching sides. Like a big prize waiting for a claimant, as one of the richest regions in Europe, the countries of the region are in a position where they have to decide whether they will become an integral part of other nations or will defend their independence with fury.
+The most warlike nation in the region, the County of Guelders is also very competent in diplomacy. Their expansion was engineered not only by the sword, but also with bags of gold. The beautiful synthesis of these two tools provided us with the opportunity to rise above our inferior rivals.
+Guelders is a mid-sized inland country in the Low Countries. It begins less powerful than Holland or Brabant, but if you navigate the early game it can provide an interesting alternative Netherlands campaign. Guelders has access to different advances than the other options, including infantry power and a strong and rare reduction to proximity cost.
+Unique Advances
+[
+edit
+|
+edit source
+]
+Guelders has access to 3 unique advances. As a country starting with Low Franconian culture, Guelders also can access the Netherlandish culture group advances. Additionally, if you opt to form the
+Netherlands
+, you gain access to its unique advances as well.
+Age
+Advance
+Effect
+Fixed prerequisite
+Special prerequisites
+Traditions
+Warring Spirit
++10%
+Infantry Power
+Feudalism
+Is or was
+Guelders
+Renaissance
+Healthy Economy
++10%
+Income from Minting
+Favorable Social Mobility
+Is or was
+Guelders
+Discovery
+Expand Kwarteers
+−5%
+Proximity Cost
+Statecraft
+Is or was
+Guelders
+Traditions
+Early Netherlandish Industry
++5%
+Production Efficiency
+Legalism
+Primary Culture Group is Netherlandish
+Renaissance
+Dynamic Society
++20%
+Pop Promotion Speed %
+Foreign Envoys
+Primary Culture Group is Netherlandish
+Renaissance
+Polders
+Unlocks
+Polders
+Favorable Social Mobility
+Primary Culture Group is Netherlandish
+Discovery
+Early Urbanization
++0.001
+Monthly Development
+Merchant Guilds
+Primary Culture Group is Netherlandish
+Reformation
+Netherlandish Ship Building
+Unlocks
+North Sea Shipyards
+Letters of Marque
+Primary Culture Group is Netherlandish
+Starting Situation
+[
+edit
+|
+edit source
+]
+Government
+[
+edit
+|
+edit source
+]
+Personal Union
+[
+edit
+|
+edit source
+]
+Guelders begins in a personal union with
+Zutphen
+, which owns two provinces. This land can be integrated over a number of decades by using the PU mechanics.
+Economy
+[
+edit
+|
+edit source
+]
+Population
+Guelders begins with 155K Pops in 8 locations. Of these, 85.63% are Low Franconian, 13.71% Westphalian, and 0.66% Ripurian Franconian. The country is 100% Catholic.
+Core Economy
+[
+edit
+|
+edit source
+]
+Guelders begins with a small tax base and does not have any Towns or Cities. Due to this, the country does not begin with the Burghers estates. Your capital is a Rural Location producing Sturdy Grains.
+Control
+[
+edit
+|
+edit source
+]
+Guelders has the ability to project strong early-game control down the Rhine river. Since your capital lies on the river, above the Netherlands region, control can propagate west with the
+-30
+downriver modifier, negating the need to build roads in the early game. Roads will still be necessary for the regions away from the rivers.
+After some conquest, the player can consider moving their capital lower in the Netherlands area to play a more typical Naval game.
+Markets
+[
+edit
+|
+edit source
+]
+Guelders begins the game fully within the Koln market. During early expansion to the west, some locations may move to the Brugge market. To keep all locations within a single market, the player can give market preference to Cologne.
+Goods
+[
+edit
+|
+edit source
+]
+The base RGOs Guelders starts with are simple, low value goods such as Sturdy Grains, Wheat, and Wool. Fruit tends to be fairly valuable early game, and you start with a location producing it. You don't begin with any locations producing lumber, but you can build Lumbermills in three of your starting locations, allowing you to control building input prices decently. The Wheat RGOs along the Rhine river also have fairly good food production output, and Guelders can easily feed its own population and begin selling food as well.
+Diplomacy & International Organizations
+[
+edit
+|
+edit source
+]
+Guelders begins in the HRE so expansion may be difficult. As a mid-sized country, Guelders doesn't face great danger in the early game. Acquiring one or two decent alliances should prevent aggression from Brabant or Holland. Maintaining a few alliances can be vital to avoid coalitions during conquest.
+Strategy
+[
+edit
+|
+edit source
+]
+The below is
+one of many
+player suggested strategies for
+Guelders
+. Bear in mind, due to the dynamic nature of the game, it may unfold differently for other players.
+Guelders is in a good position to expand into the small countries around it. You can field slightly more levies than most neighbors and the
++10%
+Infantry Power from your starting advances gives you the edge in combat. Be sure to manage Antagonism well, including switching a cabinet member to Diplomatic Efforts before peacing out. The boost to Diplomatic Reputation reduces the Antagonism bomb. Otherwise, this is a campaign where spending on diplomacy is worth it, to improve relations in the region and keep coalitions from forming.
+Both Holland and Brabant are more powerful than Guelders at the start of the game. However, it is fairly easy to box them in and conquer the smaller players in the area, such as Liege and Utrecht. Once Guelders has grown a power base, you can go toe to toe with these two and begin eating away at them. Use alliance chains well and curry favors so you can bring in your allies for these fights.
+Once you have expanded west, you can form Netherlands and continue however you wish, with the benefit of Guelders' unique and powerful advances. To from Netherlands, you will need to move your capital downriver into the heart of the region, as Guelders' starting capital is not in the appropriate area.
+Achievements
+[
+edit
+|
+edit source
+]
+Achievement
+Starting conditions
+Requirements
+Notes
+DI
+Je Maintiendrai
+Form the Netherlands as a minor nation starting with Dutch culture.
+Primary Culture is Low Franconian
+Is
+Netherlands
+M
+Countries
+Tabber requires Javascript to function.
+Eastern Europe
+Albania
+Arianiti
+Armenia
+Bosnia
+Bulgaria
+Byzantium
+Croatia
+Epirus
+Georgia
+Halych
+Hungary
+Kyiv
+Lithuania
+Mataranga
+Muscovy
+Muzaka
+Perm
+Poland
+Samtskhe
+Serbia
+Smolensk
+Teutonic Order
+Thopia
+Velikiy Novgorod
+Volhynia
+Vyatka
+Wallachia
+Western Europe
+Aragon
+Austria
+Aquitaine
+Balliol
+Brandenburg
+Brittany
+Bohemia
+Castile
+Denmark
+Dithmarschen
+England
+Florence
+France
+Guelders
+Granada
+Holland
+Iceland
+Moravia
+Milan
+Naples
+Navarre
+Norway
+Papal States
+Portugal
+Scania
+Scotland
+Sicily
+Spain
+Sweden
+Valencia
+Venice
+Wales
+Central Africa
+East Africa
+Ethiopia
+Kitara
+North Africa
+Morocco
+Tlemcen
+Tunis
+South Africa
+Zimbabwe
+West Africa
+Middle East
+Oman
+Ottomans
+Yemen
+Central Asia
+Timurid
+East Asia
+Chūzan
+Hokuzan
+Japan
+Míng
+Nanzan
+Ryūkyū
+Yuan
+South Asia
+Delhi
+Mughal
+South East Asia
+Khmer
+Majapahit
+North America
+Cahokia
+South America
+Australasia
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=Guelders&oldid=21196
+"

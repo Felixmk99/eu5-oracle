@@ -1,0 +1,433 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-87-5th-of-november.1867301/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks - #87 - 5th of November
+Thread starter
+Johan
+Start date
+Nov 5, 2025
+Hello everyone and welcome to another Tinto Talks, the Happy Wednesday where we talk about our upcoming.. Hold on… ehh.. That's wrong.
+We finally released EU5 yesterday, the most ambitious GSG that Paradox has ever made, and we developed it together with the community! Currently, we are rather happy with how it turned out, but the journey is not over yet.
+So what happens now?
+Well, we have an internal process for how to further improve the game, which should help with easing any pain points you may currently have. We based this on what has worked well for us internally to deploy fixes and improvements coming from the beta testers and influencers reports and feedback.
+For a while after the release, we plan to deploy weekly updates, with fixes to things that have a negative impact on the player experience, like crashes, or things not working as intended, being prioritized. Our team splits into two or more parts, with one focusing on the short term and the other on the mid-term. The short-term version gets frozen every week, and then a few days later, when testing is done and any blockers with it have been fixed, we can release it.
+What does this mean?
+Tomorrow, if all goes well, we’ll deploy a new update, which has all the fixes from a week's work, and should fix the most urgent issues discovered yesterday. Now, some of you might be worried, regarding regular updates like this, but we have a very strict policy at Paradox Tinto that any update should be savegame compatible.
+When it comes to more long-term, we have been inspired by how the Custodian team works with Stellaris, and we will be working with a split team, where some are working on patches just to improve the player experience, while another part of the team works on future improvements, additions, and DLC content.
+Next week, we’ll look at the roadmap we are working on, after the dust of the battle release settles..
+328
+196
+16
+6
+2
+1
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+8
+Next
+1 of 8
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+Deterock
+Augustus/Freelance translator of EUV news
+73 Badges
+Aug 12, 2017
+231
+713
+vk.com
+Nov 5, 2025
+Add bookmark
+#2
+Custodian team in Paradox Tinto? It's a dream come true... Congrats on the release and best of luck!
+Toggle signature
+Clarus, divus, aeternus Augustus of Ru-speaking community of Paradox Interactive.
+Предпочитаешь читать новости о любимых играх на русском? Присоединяйся к русскоязычному сообществу:
+https://vk.com/pdxint
+If you'd prefer to read news about your favourite Paradox Interactive games in Russian, here's a place for you:
+https://vk.com/pdxint
+104
+9
+Reactions:
+Reply
+Report
+G06lin
+Gobo Explorator
+111 Badges
+Mar 3, 2012
+83
+405
+Nov 5, 2025
+Add bookmark
+#3
+We few, we happy few, we band of GSG players
+30
+15
+6
+1
+Reactions:
+Reply
+Report
+Tissaia
+Major
+48 Badges
+Dec 4, 2019
+579
+4.327
+Nov 5, 2025
+Add bookmark
+#4
+Congratulations on the release.
+How long did it take you yesterday to start breathing again after 18:00?
+24
+12
+1
+Reactions:
+Reply
+Report
+C
+cas123
+Corporal
+41 Badges
+Nov 25, 2014
+26
+81
+Nov 5, 2025
+Add bookmark
+#5
+I love the game. Why are you trying to make me fail university?
+Now, please get the proper fashion and wardrobe changes in the game! I need grown men in wigs with breechers.
+31
+7
+6
+Reactions:
+Reply
+Report
+repent
+Doom Cartographer
+80 Badges
+Jun 1, 2008
+572
+344
+Nov 5, 2025
+Add bookmark
+#6
+Very reassuring. Especially about short term update save compatibility.
+Toggle signature
++ Domine Iesu Christe, Fili Dei, miserere mei peccatoris! +
+13
+2
+Reactions:
+Reply
+Report
+ecrisian
+Recruit
+56 Badges
+Apr 10, 2017
+3
+11
+Nov 5, 2025
+Add bookmark
+#7
+UwU
+5
+1
+1
+1
+1
+Reactions:
+Reply
+Report
+GoguRomania
+Merchant
+122 Badges
+Feb 25, 2010
+961
+1.724
+Nov 5, 2025
+Add bookmark
+#8
+I was someone that was very pessimistic about this launch but I have to admit, everything went a lot better than I expected. For a game of such magnitude, EU5 is both playable and enjoyable. Looking forward to bigger and better (UI...) things from the Tinto team. Congratulations.
+Last edited:
+Nov 5, 2025
+Toggle signature
+"Every moment I live is agony!" (My citizens in Zeus: Master of Olympus)
+22
+3
+1
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Nov 5, 2025
+Add bookmark
+#9
+Tissaia said:
+Congratulations on the release.
+How long did it take you yesterday to start breathing again after 18:00?
+Click to expand...
+Breathing? eh.. well..
+i know there was something i forgot
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+140
+8
+1
+Reactions:
+Reply
+Report
+Aquila SPQR
+LEGATVS PROPRAETOR BYZABOO MEME-MAN
+Jul 3, 2010
+2.438
+18.068
+Nov 5, 2025
+Add bookmark
+#10
+I'll only say that the game is extremely fun and I have a great time playing it. It has its flaws, but they are minor so far. With such solid foundation it'll become magnificent.
+12
+3
+1
+1
+Reactions:
+Reply
+Report
+noblehunter
+Captain
+125 Badges
+Mar 18, 2005
+343
+1.211
+Nov 5, 2025
+Add bookmark
+#11
+Custodians? Sweeeet
+4
+2
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Nov 5, 2025
+Add bookmark
+#12
+Johan, will you make a separate department to develop my "destroy roads" button? ヾ(^▽^*))) Just for me?
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+2
+1
+Reactions:
+Reply
+Report
+So_MeOne
+Second Lieutenant
+Aug 3, 2020
+121
+1.880
+Nov 5, 2025
+Add bookmark
+#13
+It's over, We are the Europa Universalis Five.
+5
+1
+1
+Reactions:
+Reply
+Report
+Goalshunter13
+First Lieutenant
+20 Badges
+May 22, 2024
+201
+966
+Nov 5, 2025
+Add bookmark
+#14
+Custodian Team for EU5 is rocking news!
+We are officially in for some good decade ahead, fellow map nerds.
+12
+6
+Reactions:
+Reply
+Report
+So_MeOne
+Second Lieutenant
+Aug 3, 2020
+121
+1.880
+Nov 5, 2025
+Add bookmark
+#15
+It's been a long way... And hopefully, a much longer journey awaits ahead.
+1
+Reactions:
+Reply
+Report
+CommonIberianW
+First Lieutenant
+64 Badges
+May 8, 2025
+246
+2.347
+Nov 5, 2025
+Add bookmark
+#16
+I’d like to say it had a smooth launch and I had a great time playing it, but it was rather unmemorable
+Mostly because this is a live look at how I enjoyed the game yesterday, 10/10 would get a little too boozy and launch a brand new map game again
+Toggle signature
+BRB - Texting the Kingdom of Cyprus at 1 in the morning like “hey, you up?”
+13
+6
+Reactions:
+Reply
+Report
+Nyrael
+Field Marshal
+83 Badges
+Jul 20, 2008
+6.218
+7.446
+35
+Nov 5, 2025
+Add bookmark
+#17
+Very nice to hear that Tinto is taking inspiration from Stellaris' Custodian infrastructure. While not perfect, it did help Stellaris a lot especiall as the scope of the game increased.
+Johan said:
+Breathing? eh.. well..
+i know there was something i forgot
+Click to expand...
+Now that Johan is a Lich Lord, maybe PDX finally makes a fantasy GSG ;P
+Toggle signature
+Nationality: Croat
+GENERATION 40: The first time you see this, copy it into your sig on any forum and add 1 to the generation. Social experiment.
+11
+2
+1
+1
+Reactions:
+Reply
+Report
+ruzen
+Lt. General
+102 Badges
+Nov 19, 2013
+1.342
+3.411
+Nov 5, 2025
+Add bookmark
+#18
+Eu5 has great foundation. First years of upcoming dlc looks a bid borring yes but i think later stages with focusing ai we will be seing quite different dlcs and updates. Gameplay and visually.
+TO Johan,
+YOUR LEGACY IS SECURED WITH EU5
+7
+Reactions:
+Reply
+Report
+FleetingRain
+Field Marshal
+58 Badges
+Aug 2, 2014
+4.546
+13.367
+Nov 5, 2025
+Add bookmark
+#19
+Johan rn
+21
+11
+Reactions:
+Reply
+Report
+Rexillarius
+Sergeant
+26 Badges
+Feb 4, 2025
+95
+183
+Nov 5, 2025
+Add bookmark
+#20
+Congratulations on your release, for now it is fun to play. I am waiting for new updates. (especially about randomly freeze and crashes)
+4
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+8
+Next
+1 of 8
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

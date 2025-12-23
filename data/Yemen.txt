@@ -1,0 +1,240 @@
+Source URL: https://eu5.paradoxwikis.com/Yemen
+Source Date: 2025-12-10
+
+This is a
+compilation
+and strategy article for
+Yemen
+.
+Mechanics and flavor content are
+transcluded
+from other pages.
+Yemen
+Country type
+Settled
+Government type
+Monarchy
+Primary culture
+Yemeni (Arabian)
+Primary religion
+Sunnism
+Capital location
+Aden
+This article is a
+Stub
+,  which means that it does not sufficiently cover its subject matter.
+Please help expand
+this
+article if you can.
+Yemen is a medium-sized country on the Arabian peninsula.
+Starting situation
+[
+edit
+|
+edit source
+]
+Scripted content
+[
+edit
+|
+edit source
+]
+Unique advances
+[
+edit
+|
+edit source
+]
+Yemen has access to 7 unique advances.
+Age
+Advance
+Effect
+Fixed prerequisite
+Special prerequisites
+Special effects
+Traditions
+Arabia Felix
++10%
+Raw Materials Output
++0.1%
+Monthly Prosperity
+Legalism
+Is or was
+Yemen
+Traditions
+Coffee Arabica
++33%
+Coffee Output
+Legalism
+Is or was
+Yemen
+Traditions
+Zaydi Scholarly Traditions
++1
+Tolerance of the True Faith
+Legalism
+All of the following:
+Is or was
+Yemen
+Religion Group is Muslim
+Traditions
+Rasulid Bureaucracy
++2.5%
+Tax Efficiency
++5%
+Efficiency of Our Cabinet
+Legalism
+Is or was
+Yemen
+Renaissance
+Control of the Red Sea
+−0.1%
+Maritime Presence Decay
+Tighter Joints
+Is or was
+Yemen
+Renaissance
+Unite the Tribes
++5%
+Max Rural Control
+Drill Army
+Is or was
+Yemen
+Renaissance
+Port of Aden
++5%
+Trade Efficiency
+Spy Networks
+All of the following:
+Is or was
+Yemen
+Aden is owned by
+Yemen
+One of the following:
+Aden is a City
+Aden is a Market Center
+While researching this advance:
++33%
+Maritime Presence %
+Strategy
+[
+edit
+|
+edit source
+]
+Have a good strategy for Yemen?
++
+Add it to this article
+and help other players!
+Please note the
+style guidelines
+and the
+example page
+.
+References
+[
+edit
+|
+edit source
+]
+Countries
+Tabber requires Javascript to function.
+Middle East
+Oman
+Ottomans
+Yemen
+Central Asia
+Timurid
+East Asia
+Chūzan
+Hokuzan
+Japan
+Míng
+Nanzan
+Ryūkyū
+Yuan
+South Asia
+Delhi
+Mughal
+South East Asia
+Khmer
+Majapahit
+Central Africa
+East Africa
+Ethiopia
+Kitara
+North Africa
+Morocco
+Tlemcen
+Tunis
+South Africa
+Zimbabwe
+West Africa
+Eastern Europe
+Albania
+Arianiti
+Armenia
+Bosnia
+Bulgaria
+Byzantium
+Croatia
+Epirus
+Georgia
+Halych
+Hungary
+Kyiv
+Lithuania
+Mataranga
+Muscovy
+Muzaka
+Perm
+Poland
+Samtskhe
+Serbia
+Smolensk
+Teutonic Order
+Thopia
+Velikiy Novgorod
+Volhynia
+Vyatka
+Wallachia
+Western Europe
+Aragon
+Austria
+Aquitaine
+Balliol
+Brandenburg
+Brittany
+Bohemia
+Castile
+Denmark
+Dithmarschen
+England
+Florence
+France
+Guelders
+Granada
+Holland
+Iceland
+Moravia
+Milan
+Naples
+Navarre
+Norway
+Papal States
+Portugal
+Scania
+Scotland
+Sicily
+Spain
+Sweden
+Valencia
+Venice
+Wales
+North America
+Cahokia
+South America
+Australasia
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=Yemen&oldid=20789
+"

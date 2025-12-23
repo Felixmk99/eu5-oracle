@@ -1,0 +1,469 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-63-14th-of-may-2025.1747262/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #63 - 14th of May 2025
+Thread starter
+Pavía
+Start date
+May 14, 2025
+Hello, and welcome to another Tinto Talks, the happy Wednesdays where we talk about
+Europa Universalis V
+!
+Today, we will be taking a look at three of the religions born in India: Hinduism, Jainism, and Sikhism, which in the game are part of the Dharmic religion group:
+As usual, take all UI, 2D and 3D art as WIP.
+​
+So let’s start by taking a look at the religious divide of India at the start of the game, in 1337:
+We now have an interesting feature when in the religious map mode, as by hovering over a certain religion in the religious breakdown, you can check the religious spread and heatmap of that said religion. So let’s check Hinduism and Jainism, as both are present in 1337:
+You also have these tooltips with the most important characteristics and the flavour of each religion, as we saw in previous Tinto Talks.
+​
+Hinduism
+The first thing to talk about is the Hindu branches, which appear as an icon and action in the panel:
+There are four branches in Hinduism, and each one is represented through an International Organization. Here you can see all:
+When you click on a Hindu IO, each has its own panel:
+In ‘Agenda’ (which is a common building block for different religions), you have a religious law set for each branch, that defines its mechanics:
+This is the one for Vaishnavism:
+Don't you love nested tooltips? Because we do!
+​
+It allows the country to activate as many as 3 Avatars of the god Vishnu, depending on having access to one of its holy sites:
+And each avatar has different modifiers attached to it:
+Shaivism:
+You can gain or lose Self Control by performing these actions, and also some random events:
+Shaktism:
+This only allows you to have 1 Avatar active at any time of 10 possible, 5 in peace times and 5 in war times. By declaring war or stopping being at war makes you change from an avatar of one category to an avatar of the other. These avatars are randomly assigned, but you can change/reroll them using the Change Avatar action. The main difference with Vaishnavism is that you don’t need to have access to a holy site:
+And Smartism:
+In Smartism, you want to have all 5 gods favored equally, or otherwise they will give you negative modifiers. You can favor one over the others, though, to get more benefits from that one, at the cost of getting these negative modifiers from the others:
+Jainism
+Santara is the only country that starts with Jainism as its state religion.
+​
+Jainism starts with interesting features, as seen in the previous tooltip, of which the disallowance to declare wars without a Casus Belli might be the most striking one, as portraying the peaceful and self-defensive nature of this religion. On top of that, they also have a kind of similar behavior to Shaivism, with the addition of the Karma mechanics on top of it:
+Sikhism
+​
+Sikhism is a religion that is not present at the start of the game, but it will be able to appear after 1509 in a country that is either Hindu or Muslim, with locations of the other religion. If that happens, the following event will trigger:
+That will not only enable the religion and convert some pops, but will also create a unique building, the Gurgaddi, to serve as the seat of a newly created building-based country led by the Guru himself. The second option of the event allows you to convert to the newly created religion, while the third option allows you to continue playing as the newly created Sikh country.
+The new country will have a unique government reform, with a unique heir selection making it so that basically only the gurus are able to be the rulers of it.
+When Sikhism appears, it will also create a new IO, and the first guru will cement its bases. There will be further events for each of the historical Sikh gurus, and each subsequent guru that appears will add to that IO, configuring the religion with further teachings.
+A final common feature for all of them are Holy Sites. There are several different holy sites for all religions and (and branches, in the case of Hinduism):
+These are examples of holy sites associated with the Vaishnavism branch of Hinduism.
+​
+And that’s all for today! We will continue taking a look at the Indian content this Friday, with a Tinto Flavour for the Sultanate of Delhi, and on Monday, with the Tinto Maps Feedback for the region of India. And next Wednesday,
+@SaintDaveUK
+will be hosting the Tinto Talks, with the topic being Unit Graphics. Cheers!
+134
+60
+8
+7
+5
+Reactions:
+Reply
+Report
+Written by
+Pavía
+Content Design Lead PDX Tinto
+Paradox Staff
+12 Badges
+Messages
+4.509
+Reaction score
+192.684
+1
+2
+3
+…
+Go to page
+Go
+11
+Next
+1 of 11
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+So_MeOne
+Second Lieutenant
+Aug 3, 2020
+121
+1.880
+May 14, 2025
+Add bookmark
+#2
+Question to
+@Pavía
+. Not really related to this
+Tinto
+EU5 Talk, but I have a question some players would like to hear the answer to, if You can talk about it now, of course.
+Since EU5 is finally unveiled, will EU4 receive any update (not necessarily a big one) in the meantime as we wait for the successor, kind of like last hurrah? Are you allowed to confirm or deny that?
+EDIT: Since people misunderstand, as I said, by update in question I do not mean expansion, it can even be small changes/bugfixes.
+Last edited:
+May 14, 2025
+34
+15
+7
+2
+Reactions:
+Reply
+Report
+Daniel the Finlander
+Colonel
+61 Badges
+Feb 2, 2016
+1.064
+8.242
+May 14, 2025
+Add bookmark
+#3
+5 minutes late, you’re fired
+Toggle signature
+modder and a lover of mods
+eu5 > imperator > eu4
+EU5 mod: Historically Accurate Courland
+EU5 mod: Historically Accurate Finland
+11
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+May 14, 2025
+Add bookmark
+#4
+Me while waiting for the TT:
+35
+2
+Reactions:
+Reply
+Report
+Manst
+Gr. Ladr. Farabut. di Gr. Croc. Duca Conte
+66 Badges
+May 28, 2017
+335
+1.697
+May 14, 2025
+Add bookmark
+#5
+You're late..., a wizard,... yada yada...
+Toggle signature
+Pie charts and sliders are overrated
+23
+Reactions:
+Reply
+Report
+Pavía
+Content Design Lead PDX Tinto
+Paradox Staff
+12 Badges
+Jan 3, 2006
+4.509
+192.684
+May 14, 2025
+Add bookmark
+#6
+Manst said:
+You're late..., a wizard,... yada yada...
+Click to expand...
+Routine.
+Toggle signature
+Antiguo caballero villano del OT en español. Now member of EUIV & EUV Team at Paradox Tinto.
+67
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+May 14, 2025
+Add bookmark
+#7
+See, this is why it's important to protect minorities. When there's only like 200 gods in your area, they get singled out by the masses too easily.
+Last edited:
+May 14, 2025
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+48
+Reactions:
+Reply
+Report
+Deutscher Kaiser
+First Lieutenant
+51 Badges
+Mar 30, 2016
+235
+1.756
+May 14, 2025
+Add bookmark
+#8
+What religious family does Zoroastrianism belong to? Will we hear about it in a DD?
+19
+3
+1
+Reactions:
+Reply
+Report
+nyetflix2
+Lt. General
+Nov 13, 2022
+1.574
+9.424
+May 14, 2025
+Add bookmark
+#9
+Are there any native Buddhist minorities in places like Bihar, south India, Odisha, Gujarat, Rajasthan, Kashmir, or maybe even the Maldives? Buddhism was pretty defeated here but not entirely dead just yet.
+Toggle signature
+EU5 Mesoamerica feedback
+21
+Reactions:
+Reply
+Report
+Revshawn
+Lt. General
+92 Badges
+Mar 5, 2010
+1.600
+2.729
+May 14, 2025
+Add bookmark
+#10
+Mace Windu should be the ruler of Hindustan.
+4
+Reactions:
+Reply
+Report
+D
+dw70676
+Second Lieutenant
+76 Badges
+Aug 13, 2011
+191
+1.756
+May 14, 2025
+Add bookmark
+#11
+A bit outside the scope of this DD, but could we see the spread of Christianity in India at game start?
+10
+Reactions:
+Reply
+Report
+P
+Polesie Admiral
+Owns EU5
+45 Badges
+Nov 7, 2022
+2.436
+8.655
+May 14, 2025
+Add bookmark
+#12
+Pavía said:
+with the topic being Unit Graphics
+Click to expand...
+What? Why we getting unit graphics before orthodox mechanics?
+Toggle signature
+my EU5 suggestions:
+expanding the Tatar Yoke mechanics
+IO-Based short term alliances for targeted wars
+Representation of Jewish pops using estates and laws mechanics
+Suggestion to harden conquest of small nations
+Reworking the Thirty Years War with Multiple Leagues
+Suggestion for Northern wars situation
+Subsidizing countries grant favours on them
+High inflation directly lowers satisfaction
+5
+2
+2
+Reactions:
+Reply
+Report
+So_MeOne
+Second Lieutenant
+Aug 3, 2020
+121
+1.880
+May 14, 2025
+Add bookmark
+#13
+First the Pope, now India???
+Developers at Paradox Tinto are too powerful... Pulling Geopolitical strings like that just to promote the game!
+40
+1
+1
+Reactions:
+Reply
+Report
+GenericUsername1444
+Colonel
+Jun 25, 2024
+805
+10.781
+May 14, 2025
+Add bookmark
+#14
+Pavía said:
+And next Wednesday,
+@SaintDaveUK
+will be hosting the Tinto Talks, with the topic being Unit Graphics. Cheers!
+Click to expand...
+Finally, after a year of waiting
+Also, Orthodoxy when?
+Toggle signature
+Professional Georgian
+5
+3
+1
+Reactions:
+Reply
+Report
+PerhapsItsChondoLal
+First Lieutenant
+4 Badges
+Jun 20, 2021
+215
+885
+May 14, 2025
+Add bookmark
+#15
+So - If I get this right, the *pops* themselves won't adhere to a branch of Hinduism, but the country would?
+8
+2
+1
+Reactions:
+Reply
+Report
+D
+dw70676
+Second Lieutenant
+76 Badges
+Aug 13, 2011
+191
+1.756
+May 14, 2025
+Add bookmark
+#16
+Smartism? I didn't know I was Hindu...
+43
+6
+1
+Reactions:
+Reply
+Report
+luanmameili
+Colonel
+87 Badges
+Nov 15, 2016
+1.050
+2.036
+May 14, 2025
+Add bookmark
+#17
+So Buddism is not Dharmic?
+Toggle signature
+Ethnicity: Korean
+Religion: N/A (Atheist)
+Location: Macao
+Ideology: Socialist (Internationalist, Anti-hegemony)
+American hegemony will NOT last forever.
+4
+Reactions:
+Reply
+Report
+Pavía
+Content Design Lead PDX Tinto
+Paradox Staff
+12 Badges
+Jan 3, 2006
+4.509
+192.684
+May 14, 2025
+Add bookmark
+#18
+nyetflix2 said:
+Are there any native Buddhist minorities in places like Bihar, south India, Odisha, Gujarat, Rajasthan, Kashmir, or maybe even the Maldives? Buddhism was pretty defeated here but not entirely dead just yet.
+Click to expand...
+Sammitiya Buddhism in Sindh:
+But as we're having the Tinto Maps Feedback on Monday, and we're now back to the work on pop minorities (yay!), any suggestion with specific data of Buddhist populations per region is pretty welcome!
+Toggle signature
+Antiguo caballero villano del OT en español. Now member of EUIV & EUV Team at Paradox Tinto.
+57
+9
+3
+1
+Reactions:
+Reply
+Report
+Tercio Soldier
+Major
+58 Badges
+Feb 25, 2020
+568
+4.336
+May 14, 2025
+Add bookmark
+#19
+Since you didn't talk about it in the Persia flavor diary when can we expect to learn about zoroastrianism?
+7
+Reactions:
+Reply
+Report
+Goran42069
+Second Lieutenant
+18 Badges
+Jan 1, 2016
+115
+1.079
+May 14, 2025
+Add bookmark
+#20
+So how does one go about converting to a different religion ? Without events like the sikh one i mean. For example in Vijayanagar 1% of its population are Jain how do i convert to Jainism ? Also how does it work for religions not in the same group.
+10
+1
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+11
+Next
+1 of 11
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

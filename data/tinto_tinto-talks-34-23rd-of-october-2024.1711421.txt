@@ -1,0 +1,469 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-34-23rd-of-october-2024.1711421/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #34 - 23rd of October 2024
+Thread starter
+Johan
+Start date
+Oct 23, 2024
+Hello and Welcome to another Tinto Talk, where we spill information about our entirely secret unannounced game with the codename Project Caesar.
+This week we will talk about how slavery works in this game.
+Slave Pops
+One of the six types of pops we have are the slaves. These lack pretty much every right in all countries, and are simply exploited. They are not allowed to move around on their own, they have harsh enough lives that they are basically only keeping the current population levels at best of times, and they have absolutely no income nor any political power. If they get any sort of literacy they are very likely to be rather upset. At the start of the game the usage of slaves is mostly gone from Europe, but it's more prevalent in other parts of the world.
+Part of the slaves in Cairo at the start..
+Usage of Slaves
+Slaves are primarily used in resource gathering operations, but they can also be used in various buildings. These types of buildings can be categorized into two types of buildings.
+First we have the slave-soldier buildings that require slaves to function, and produce manpower or sailors. These include buildings like mamluk or janissary barracks that provide a part of the armies of the Mamluks and Ottomans.
+The second category of buildings are the plantations. These are buildings that you can unlock from Age of Discovery advances. There are three types of plantations, for sugar, tobacco and cotton. These are far more productive than the RGO for the same goods, but require slaves to function.
+One unique building to get you a lot of sailors.
+Of course there are other uses for Slaves. In some religions you need a steady stream of them to sacrifice daily to make the Sun go up the next day.
+Acquiring Slaves
+There are multiple ways to get slaves.
+First of all you have the classic way of conquering nearby territories and enslaving part of the population as you sack their cities. This is something that as diverse cultures as amongst others, the Haudenosaunee, Aztec and the Kanem Empire can do from the start. They also get easy access to casus belli to go on slave raiding wars.  As you sack a city, a percentage of the population will become slaves and appear in the closest slave market you have, and if none is near enough, then to the closest slave market nearby.
+Secondly, we have the Berber States, who engaged in slave raiding from the sea. In Eu4, this was a button you clicked on your ships when they were near a coast that had no slave-raiding-cooldown active. In Project Caesar this ability is a part of the privateering mechanic, in that if you have access to this ability, then your privateers will raid a random coastal location in the area they are in, and take some of the pops as slaves for the closest slave market. This is stopped by having a truce, above 100 opinion, or a good old coastal fortress.
+Morocco is one of the countries that can do this from day 1.
+Thirdly, you have the Slave Market Building. While it acts as a hub for slave trades, it will also try to enslave pops of non accepted cultures, and different religious groups. This is to simulate how the Delhi Sultanate and others enslaved people in their conquered lands over time.
+It all adds up over time..
+Fourthly, you have the possibility to build slave centers in foreign locations that have less power projection than you. This is to simulate part of how the Europeans got their slaves from West Africa to the New World. While a significant part of slaves were bought from other African Kingdoms that were willing to sell slaves taken from their enemies, they were also locally captured by the slavers themselves near their slaving centers. If you wish to fight this in your territories, you need to go to war and forcefully expel them.
+Finally, you can trade for slaves. In Project Caesar, slaves exist both as a type of goods and as a type of pop, and they are slightly linked. Buildings can produce slave goods and require slave goods as input. When a slave goods is traded between markets, the game will also move pops in relative sizes to locations that have a demand for slaves.
+Thus, if you have buildings or resource gathering operations that can use slaves, they will create a demand for slaves in the market, and if you trade from a market that both produces slave goods and has enough slaves present, the game will move about 200 pops from the slave market each month for each good you trade.
+At the start of the game there is the Trans-Saharan trade, where northern african countries import slaves from West Africa, many sold by the Kanem Empire.
+Later on, during the Age of Discovery, you will see the triangular trade between Europe, West Africa & Americas, which will reduce the Trans Saharan trade volumes.
+There is also another market system, as the Mongol States have access to taking slaves when conquering land, and they created the greatest slave trading network the world has ever seen. Since Muslim states could not keep muslim slaves, and christians did not want christian slaves, the Mongols traded the muslims to the christians and the christians to the muslim countries. The trade links from India goes to central asia as well, as Delhi trades their slaves to other markets, while they get the slaves they require for their mamluk-style armies.
+Stay tuned as next week we’ll talk about Great Powers and Hegemonies..
+280
+62
+29
+17
+3
+3
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+24
+Next
+1 of 24
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+bluepotato81
+Second Lieutenant
+24 Badges
+Jun 12, 2024
+145
+1.862
+Oct 23, 2024
+Add bookmark
+#2
+Ah yes, the best part of any PDX game: the human rights violation
+Toggle signature
+Deliver me from mine enemies, O my God: defend me from them that rise up against me. Defend me from the workers of iniquity, and save me from bloody men. The mighty are gathered against me, awake to help me, and behold.
+Nor is there pain, or cause of pain, Or cease in pain, or noble path to lead from pain;
+The Master said, "Is it not pleasant to learn with a constant perseverance and application? Is it not delightful to have friends coming from distant quarters? Is he not a man of complete virtue, who feels no discomposure though men may take no note of him?"
+Do not despair of the mercy of Allāh. Indeed, Allāh forgives all sins. Indeed, it is He who is the Forgiving, the Merciful.
+The Tao that can be told is not the eternal Tao, and the name that can be named is not the eternal Name.
+It is not your duty to finish the work, but neither are you at liberty to neglect it;
+The finest essence here—that constitutes the self of this whole world; that is the truth; that is the self.
+O Son of Man! Veiled in My immemorial being and in the ancient eternity of My essence, I knew My love for thee; therefore I created thee, have engraved on thee Mine image and revealed to thee My beauty.
+Rise up for me, O Ahura, through Armaiti give strength, through the holiest Spirit give might, O Mazda, through the good Recompense, through the Right give powerful prowess, through Good Thought give the reward.
+O my mind, remember the Lord in meditation; He is the Destroyer of pain, the Eradicator of fear, the Sovereign Lord King. He is the Greatest Lover, the Merciful Master, the Enticer of the mind, the Support of His devotees - this is His very nature.
+In some ways, it is, in some ways, it is not, in some ways, it is, and it is not, in some ways, it is indescribable, in some ways, it is, and it is indescribable, in some ways, it is not, and it is indescribable, in some ways, it is, it is not, and it is indescribable.
+So be diligent in seeking knowledge, keeping company with those of understanding, and studying at all times, and you will attain goodness and blessings.
+An ash I know there stands, - Yggdrasill is its name, - a tall tree, showered - with shining loam. - From there come the dews - that drop in the valleys. - It stands forever green over - Urðr's well.
+Our God, with His mercy - Brought for us beauty and loveliness - He gave a command to the Pen of Power - We were thrown into the Mystery of Love.
+I saw my father, I saw him, and I gave him three requests. I asked him for a great heart, which can be carried by the big and the little. I asked him for calmness, in which there is no rebellion. I asked him for a level path, to rise to light’s place in peace.
+202
+47
+16
+3
+2
+1
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Oct 23, 2024
+Add bookmark
+#3
+Out-of-context Tinto Talks moments #1:
+----------------------------------------------------
+Edit:
+This has to be the most horrible-sounding positive modifiers I've ever seen in these games lol
+Last edited:
+Oct 23, 2024
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+135
+15
+4
+1
+1
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Oct 23, 2024
+Add bookmark
+#4
+Bondage, kinky.
+53
+9
+6
+2
+Reactions:
+Reply
+Report
+matfer13
+Field Marshal
+1 Badges
+Dec 17, 2023
+3.015
+18.591
+Oct 23, 2024
+Add bookmark
+#5
+JESUS CHRIST, damn Johan wasn't joking when he said totally new, I got jumpscared by the fist artwork...
+34
+5
+Reactions:
+Reply
+Report
+D
+donbg
+Captain
+Mar 20, 2024
+334
+2.813
+Oct 23, 2024
+Add bookmark
+#6
+Interesting diversity to simulate the ways slaves were obtained. Will there be a distinction between societies where slavery was hereditary and where slavery wasn't? Slaves in the Aztec Empire did not inherit their status, for example.
+54
+6
+3
+Reactions:
+Reply
+Report
+D
+Dongerino
+Evropa's Gemmiest Herald
+43 Badges
+Jun 27, 2015
+1.131
+10.921
+Oct 23, 2024
+Add bookmark
+#7
+Looks quite fleshed out. Nice!
+7
+1
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Oct 23, 2024
+Add bookmark
+#8
+These voluntary peasants look way too depressed for someone I'm 'joining' into my deathtraps
+I demand a refund.
+Last edited:
+Oct 23, 2024
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+27
+4
+Reactions:
+Reply
+Report
+Herensica
+Recruit
+142 Badges
+Jun 29, 2018
+3
+130
+Oct 23, 2024
+Add bookmark
+#9
+Maybe it's good that Johan didn't tell us what this TT would be about a week ahead of time...
+13
+12
+3
+1
+Reactions:
+Reply
+Report
+merokrl
+Captain
+24 Badges
+Mar 21, 2024
+356
+508
+Oct 23, 2024
+Add bookmark
+#10
+Would slaves be part of an estate?
+4
+1
+Reactions:
+Reply
+Report
+perceval350
+Major
+53 Badges
+Apr 3, 2024
+664
+2.938
+Oct 23, 2024
+Add bookmark
+#11
+Will PC represent the fact that slaves participate in the administration in certain regions ?
+Could there be administrative buildings that require litterate slaves ?
+Considering that slaves were quite important in governance, in the muslim world for example, don't they deserve an estate of their own that only countries in which they are important enough can interact with ?
+Will it be possible to enslave people from you culture/cultural group ?
+34
+7
+1
+Reactions:
+Reply
+Report
+D
+Didsss
+Sergeant
+51 Badges
+Dec 27, 2016
+90
+732
+Oct 23, 2024
+Add bookmark
+#12
+Let's say I'm Aragon and those Berbers have taken a lot of my people as slaves.
+1. Is there a way to keep track of slaves that are part of your primary or accepted culture?
+2. Can I start a war to liberate all same culture, same culture group or same religion slaves and bring them back to my own country?
+79
+4
+4
+Reactions:
+Reply
+Report
+Jon Snow21
+Corporal
+22 Badges
+Jul 6, 2023
+34
+143
+Oct 23, 2024
+Add bookmark
+#13
+1)Can countries from Europe re-introduce slavery? Or fight Mongols for the liberty of the slaves?
+2)In Russia the slaves were serfs till 1723 , so in this case will it there be the same mechanics of sales and trade or will be only as population category?
+31
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Oct 23, 2024
+Add bookmark
+#14
+I feel weird pressing the 'Love' reaction given the topic, but hey, here I go...
+46
+9
+1
+1
+Reactions:
+Reply
+Report
+Kubus12369_
+Corporal
+29 Badges
+Sep 28, 2021
+45
+169
+Oct 23, 2024
+Add bookmark
+#15
+I hope we are gonna see cossack land raids between poland-lithuania and ottoman empire
+22
+4
+1
+Reactions:
+Reply
+Report
+sbadkins4
+Captain
+77 Badges
+May 14, 2016
+368
+1.184
+Oct 23, 2024
+Add bookmark
+#16
+Will slave populations in some areas grow in size significantly over time on their own, like in the colonies that would become the US South, while constantly decreasing and needing new slaves to be brought in in other areas in order to be maintained in size, like Haiti?
+22
+2
+Reactions:
+Reply
+Report
+FleetingRain
+Field Marshal
+58 Badges
+Aug 2, 2014
+4.546
+13.367
+Oct 23, 2024
+Add bookmark
+#17
+Johan said:
+Of course there are other uses for Slaves. In some religions you need a steady stream of them to sacrifice daily to make the Sun go up the next day.
+Click to expand...
+Are you joking here, or do we have religions that need to kill at least one slave per day (or, say, 365 slaves per year)? First thought that came to mind was the Aztecs and Mayans, but I thought their sacrifices were more ceremonial and sporadic than actually needing a "stream of slaves".
+Also, regarding that art for Slave pops, they seem kinda... y'know... yassified. Surely they should be a bit more dirty/emaciated?
+15
+8
+3
+2
+Reactions:
+Reply
+Report
+Kr4mpus
+Second Lieutenant
+36 Badges
+May 12, 2024
+109
+642
+Oct 23, 2024
+Add bookmark
+#18
+Thirdly, you have the Slave Market Building. While it acts as a hub for slave trades, it will also try to enslave pops of non accepted cultures, and different religious groups.
+Click to expand...
+Why do I get the feeling that this will be used for..... you know.
+Toggle signature
+I made this only to comment on tinto talks
+7
+2
+1
+Reactions:
+Reply
+Report
+Nikoleis
+Captain
+52 Badges
+May 14, 2015
+382
+1.029
+Oct 23, 2024
+Add bookmark
+#19
+If I understand the Slave Market correctly, you need slaves to make slaves... also if it creates pop out of thin air, is there a way then to make popluation boom with that, by buying slaves to free in your land but not stopping foreign slavery?
+3
+1
+Reactions:
+Reply
+Report
+RedRosalia
+Sergeant
+40 Badges
+Apr 10, 2024
+53
+311
+Oct 23, 2024
+Add bookmark
+#20
+Ugh, cant have those walking talking tax evasion around. Time for some reforms!
+4
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+24
+Next
+1 of 24
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

@@ -1,0 +1,701 @@
+Source URL: https://eu5.paradoxwikis.com/Ethiopia
+Source Date: 2025-12-15
+
+This is a
+compilation
+and strategy article for
+Ethiopia
+.
+Mechanics and flavor content are
+transcluded
+from other pages.
+Ethiopia
+Country type
+Settled
+Government type
+Monarchy
+Primary culture
+Amhara
+Primary religion
+Miaphysitism
+Capital location
+Ankober (16895)
+The Ethiopian Empire is an ancient land rich with history and traditions. Nestled in the Horn of Africa, it boasts lush highlands, windswept plateaus, and the incomparable Great Rift Valley. Newcomers are captivated by its beauty, entranced by the golden sunsets against the Simien Mountains.
+Ethiopia's enchanting tapestry weaves together diverse ethnic groups like the Amhara, Afar, and Tigre. United by trials, Ethiopa remains resilient like an ancient baobab tree, enduring through time.
+Inspired by these ancient origins, Ethiopia cherishes legendary unions like that of the Queen of Sheba and King Solomon. The legacy of their son Menelik, the first member of the Solomon dynasty, echoes through the ages, connecting people of this land to the ancient Israelites.
+Through the years, Ethiopia's epic tale unfolds, shaped by destiny and the unwavering spirit of its people. Triumphs and tribulations weave a rich tapestry of life's ebb and flow.
+However, this nation is a realm encircled by adversaries who eagerly await any opportunity to strike. Managing not only to survive, but thrive, will be a challenge.
+Ethiopia is an empire situated in the Horn of Africa that begins the game as the strongest of the Miaphysite countries, but it is precariously close to several powerful adversaries, most notably the
+Mamlūk Sultanate of Egypt and
+Yemen
+. At the start of the game, Ethiopia has five vassals:
+Ifat
+,
+Hadiya
+,
+Dawaro
+,
+Ennarea
+, and
+Bale
+.
+Formation
+[
+edit
+|
+edit source
+]
+If Ethiopia ceases to exist, it can be re‑formed by any country that meets specific requirements. The
+religion
+of the country must be
+Miaphysite
+. In addition, the
+Primary culture must be either Agaw, Amhara, Tigre, or Tigrinya. Finally, the country must own at least one of the following
+locations
+: Axum, Lalibela, or Gonder.
+Scripted content
+[
+edit
+|
+edit source
+]
+Main article:
+Ethiopian content
+Ethiopian National Special Advances
+[
+edit
+|
+edit source
+]
+Age
+Advance
+Bonus
+Advance Prerequisite
+Special Advance Requirement
+Traditions
+The Ark of the Covenant
+We are the only nation to house the sacred Ark of the Covenant after it was taken in secret by Menelik I with divine assistance thousands of years ago. It is hidden away from public view, lest they would attempt to steal our sacred, national treasure. Replicas of the Ark are placed in every single one of our churches as a reminder that our rule is blessed by God.
+Pop Conversion Speed
++20.00%
+Feudalism
+All of the below:
+Is Ethiopia
+Is christian
+Traditions
+The Roof of Africa
+Our people have inhabited the highlands for generations, enduring extreme conditions that have made us resilient and strong. This gives us a significant advantage over our enemies whenever we engage in conflict.
+Army morale
++10.00%
+The Ark of the Covenant
+Is Ethiopia
+Traditions
+Ç̌äwa Regiments
+In Ethiopia, the arsenal of the Ç̌äwa encompasses the formidable curved sword known as the
+shotel
+, the versatile spear called the
+tor
+, and proficiency in ranged weaponry such as bows and javelins known as
+armah
+. Notably, the use of protective armor, including the renowned coat of mail, is prevalent among them, further enhancing their defensive capabilities.
+Unlock
+Ç̌äwa Units
+Unlock
+Ç̌äwa Barracks
+Footmen
+Is Ethiopia
+Renaissance
+Solomonid Claim
+Our rulers' forefathers are descended from the monarchs of Axum, from the bloodline of King Solomon and the Queen of Sheba. We have deposed the Zagwe monarchs in order to legitimize our rule and firmly establish the kingdom being restored to its rightful dynasty.
+Monthly Prestige
++0.1
+Is Ethiopia
+Renaissance
+Nəgusä Nägäst
+Our ruler is the king of all kings, the heir of the pedigree of the kings of Aksum along with that of the first ruler, Menelik I, the son of King Solomon and the Queen of Sheba. All of our kings are descended from the Solomonids and the line of inheritance need not be from father to son.
+Monthly Legitimacy
++0.1
+Is Ethiopia
+Renaissance
+Ç̌äwa Regiments
+A better structure system allows the Ç̌äwa to be better trained and become a mighty force for Ethiopia.
+Unlocks
+Ç̌äwa Regiments
+Men-at-Arms
+Is Ethiopia
+Discovery
+A Permanent Capital
+For centuries, our nation has lacked a permanent capital, with the court following the rulers wherever they desired. While this approach has its advantages, in order to effectively govern our vast nation we need to establish a strong central authority in a proper permanent location.
+Proximity Cost
+-5.00%
+Is Ethiopia
+Discovery
+External Friends
+Our envoys to Rome and Iberia, looking for military support, were quite successful as they put us on the map. These endeavors should never stop.
+Diplomatic Range
+0.25
+Is Ethiopia
+Discovery
+Ç̌äwa Arquebusiers
+The introduction of gunpowder makes the traditional bows and javelins obsolete, but gives a new edge to the Ç̌äwa.
+Unlocks
+Ç̌äwa Arquebusiers
+Early Arquebusiers
+Is Ethiopia
+Reformation
+An Eternal Crusade
+As a Christian nation, we find ourselves surrounded by Muslim adversaries who seize every opportunity to attack us. To ensure our survival, we must be prepared to fight back immediately.
+Army Reinforcement Cost
+-10.00%
+All of the below:
+Is Ethiopia
+Is christian
+Reformation
+Prester John
+Europeans have been looking for Prester John for centuries and are convinced that our ruler has to be him, somehow, as we are fellow Christians. There is no reason to point out that they are wrong, as they are happy to share their ideas with us.
+Institution Growth
+20.00%
+Is Ethiopia
+Reformation
+Ç̌äwa Musketeers
+The discipline of the Ç̌äwa Regiments gets further improved, making them fight more coordinated, inflicting deadly volleys to their enemies.
+Unlocks
+Ç̌äwa Musketeers
+Arquebusiers
+Is Ethiopia
+Absolutism
+An Iron Fist
+Our region is diverse in cultures and religions, and the only thing that keeps it united is not compassion, but a powerful ruler, capable of dealing with any attempt of revolt with swift might.
+Estates Satisfaction Equilibrium
++2.50%
+Is Ethiopia
+Absolutism
+A True Ethiopian Church
+External influences might be good for some aspects, but can alter the nature of our beliefs. In order to maintain our identity, we must secure the existence of our own Tewahedo Church.
+Estates Satisfaction Equilibrium
++5.00%
+Is Ethiopia
+Absolutism
+Ç̌äwa Line Infantry
+The Ç̌äwa adapt a line formation, marching side by side and firing in order. When the first line in combat reloads their firearms, the second takes their position to fire, just to be replaced by the next one in a continuous motion.
+Unlocks
+Ç̌äwa Line Infantry
+Musketeers
+Is Ethiopia
+Revolutions
+Origin of Coffee
+It is from our lands that the coffee comes from, as it is the optimal place. While it can be cultivated in other places, ours is revered for its quality and exported by the ton. We have to make this a way to channel richness to our nation.
+Coffee Output
++20.00%
+Tax Efficiency
++5.00%
+Is Ethiopia
+Revolutions
+A Modern Nation
+Despite our apparent isolation, we are well aware of the innovations happening around the world, and we waste no time in implementing these tactics to instill fear in our enemies.
+Infantry Power
++10.00%
+Is Ethiopia
+Revolutions
+Ç̌äwa Columns
+The most modern version of the Ç̌äwa. These fighters have reached the highest point in discipline and effectivity, becoming the terror of their enemies.
+Unlocks
+Ç̌äwa Columns
+Fusiliers
+Is Ethiopia
+Geography
+[
+edit
+|
+edit source
+]
+Locations
+Location
+R.O.G.
+Topography
+Vegetation
+Climate
+Religion
+Culture
+Control
+Kubar
+Beeswax
+Mountains
+Woods
+Continental
+Miaphysitism
+amhara
+Core
+Aheyya Fagg
+Lumber
+Mountains
+Woods
+Continental
+Miaphysitism
+amhara
+Core
+Gannata Giyorgis
+Stone
+Mountains
+Sparse
+Tropical
+Miaphysitism
+amhara
+Core
+Tadbaba
+Stone
+Mountains
+Sparse
+Tropical
+Miaphysitism
+amhara
+Core
+Kombolcha
+Stone
+Mountains
+Woods
+Subtropical
+Miaphysitism
+amhara
+Core
+Tsana
+Sand
+Mountains
+Farmland
+Continental
+Miaphysitism
+amhara
+Core
+Debre Tabor
+Sturdy Grains
+Mountains
+Grasslands
+Tropical
+Miaphysitism
+amhara
+Core
+Lalibela
+Wheat
+Mountains
+Sparse
+Continental
+Miaphysitism
+amhara
+Core
+Antalo
+Legumes
+Mountains
+Sparse
+Continental
+Miaphysitism
+tigrinya
+Core
+Sokota
+Legumes
+Mountains
+Sparse
+Continental
+Miaphysitism
+tigrinya
+Core
+Senafe
+Legumes
+Mountains
+Sparse
+Continental
+Miaphysitism
+tigrinya
+Core
+Yeha
+Legumes
+Mountains
+Sparse
+Continental
+Miaphysitism
+tigrinya
+Core
+Axum
+Legumes
+Mountains
+Sparse
+Continental
+Miaphysitism
+tigrinya
+Core
+Abiy Addi
+Legumes
+Mountains
+Sparse
+Continental
+Miaphysitism
+tigrinya
+Core
+Adwa
+Legumes
+Mountains
+Sparse
+Continental
+Miaphysitism
+tigrinya
+Core
+Shire
+Legumes
+Mountains
+Sparse
+Continental
+Miaphysitism
+tigrinya
+Core
+Debre Libanos
+Legumes
+Mountains
+Sparse
+Continental
+Miaphysitism
+tigrinya
+Core
+Ambat
+Wheat
+Mountains
+Grasslands
+Continental
+Miaphysitism
+amhara
+Core
+Badabedi
+Wheat
+Hills
+Grasslands
+Continental
+Miaphysitism
+amhara
+Core
+Wej
+Wheat
+Mountains
+Grasslands
+Continental
+Miaphysitism
+amhara
+Core
+Debra Berhan
+Wheat
+Mountains
+Grasslands
+Continental
+Miaphysitism
+amhara
+Core
+Ankober
+Livestock
+Plateau
+Woods
+Arid
+Sunnism
+afar_culture
+Core
+Gendebelo
+Stone
+Plateau
+Grasslands
+Arid
+Sunnism
+harla_culture
+Core
+Nora Eth
+Sugar
+Plateau
+Grasslands
+Arid
+Sunnism
+afar_culture
+Core
+Dima
+Lumber
+Plateau
+Woods
+Oceanic
+Miaphysitism
+amhara
+Core
+Bahir Dar
+Clay
+Hills
+Grasslands
+Continental
+Miaphysitism
+amhara
+Core
+Dangila
+Coffee
+Plateau
+Grasslands
+Oceanic
+Miaphysitism
+amhara
+Core
+Debra Warq
+Sturdy Grains
+Mountains
+Farmland
+Continental
+Miaphysitism
+amhara
+Core
+Enjebara
+Medicaments
+Hills
+Grasslands
+Oceanic
+Miaphysitism
+amhara
+Core
+Gonder
+Cotton
+Plateau
+Farmland
+Continental
+Miaphysitism
+agaw_culture
+Core
+Maldarede
+Livestock
+Hills
+Woods
+Tropical
+Miaphysitism
+gonga_culture
+Integrated
+Gambo
+Legumes
+Mountains
+Woods
+Oceanic
+Miaphysitism
+gonga_culture
+Integrated
+Barara
+Wheat
+Plateau
+Grasslands
+Continental
+Sunnism
+harla_culture
+Integrated
+Ziqwala
+Stone
+Plateau
+Grasslands
+Continental
+Sunnism
+harla_culture
+Integrated
+Waldeba
+Livestock
+Mountains
+Sparse
+Tropical
+Judaism
+agaw_culture
+Integrated
+Debarq
+Fruit
+Mountains
+Woods
+Tropical
+Judaism
+agaw_culture
+Integrated
+Kosoge
+Cotton
+Plateau
+GRasslands
+Tropical
+Miaphysitism
+agaw_culture
+Integrated
+Seru
+Wheat
+Mountains
+Woods
+Continental
+Sunnism
+harla_culture
+Conquerd
+Abala
+Livestock
+Mountains
+Sparse
+Arid
+Miaphysitism
+tigrinya
+Conquerd
+Adigrat
+Iron
+Hills
+Sparse
+Arid
+Miaphysitism
+tigrinya
+Conquerd
+Agula
+Wheat
+Plateau
+Grasslands
+Continental
+Miaphysitism
+tigrinya
+Conquerd
+Mekele
+Stone
+Plateau
+Grasslands
+Continental
+Miaphysitism
+tigrinya
+Conquerd
+Harro Walabu
+Gold
+Mountains
+Woods
+Oceanic
+Waaqeffanna
+oromo_culture
+Conquerd
+Bossa
+Beeswax
+Plateau
+Grasslands
+Oceanic
+Omo
+gonga_culture
+Conquerd
+Worabe
+Copper
+Plateau
+Grasslands
+Tropical
+Sunnism
+gonga_culture
+Conquerd
+Strategy
+[
+edit
+|
+edit source
+]
+Have a good strategy for Ethiopia?
++
+Add it to this article
+and help other players!
+Please note the
+style guidelines
+and the
+example page
+.
+References
+[
+edit
+|
+edit source
+]
+Countries
+Tabber requires Javascript to function.
+Central Africa
+East Africa
+Ethiopia
+Kitara
+North Africa
+Morocco
+Tlemcen
+Tunis
+South Africa
+Zimbabwe
+West Africa
+Middle East
+Oman
+Ottomans
+Yemen
+Central Asia
+Timurid
+East Asia
+Chūzan
+Hokuzan
+Japan
+Míng
+Nanzan
+Ryūkyū
+Yuan
+South Asia
+Delhi
+Mughal
+South East Asia
+Khmer
+Majapahit
+Eastern Europe
+Albania
+Arianiti
+Armenia
+Bosnia
+Bulgaria
+Byzantium
+Croatia
+Epirus
+Georgia
+Halych
+Hungary
+Kyiv
+Lithuania
+Mataranga
+Muscovy
+Muzaka
+Perm
+Poland
+Samtskhe
+Serbia
+Smolensk
+Teutonic Order
+Thopia
+Velikiy Novgorod
+Volhynia
+Vyatka
+Wallachia
+Western Europe
+Aragon
+Austria
+Aquitaine
+Balliol
+Brandenburg
+Brittany
+Bohemia
+Castile
+Denmark
+Dithmarschen
+England
+Florence
+France
+Guelders
+Granada
+Holland
+Iceland
+Moravia
+Milan
+Naples
+Navarre
+Norway
+Papal States
+Portugal
+Scania
+Scotland
+Sicily
+Spain
+Sweden
+Valencia
+Venice
+Wales
+North America
+Cahokia
+South America
+Australasia
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=Ethiopia&oldid=21123
+"

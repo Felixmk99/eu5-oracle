@@ -1,0 +1,697 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-67-11th-of-june-2025-shinto-and-shogunate.1771463/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #67 - 11th of June 2025 - Shinto and Shogunate
+Thread starter
+Roger Corominas
+Start date
+Jun 11, 2025
+Hello, and welcome to another issue of happy Wednesdays Tinto Talks. Today, we will be taking a look at the mechanics for
+Shintō
+and the
+Shogunate
+.
+Let’s start with the religion. In EUV, it is part of the
+Buddhist
+religious group:
+As you can see, Shintō has two currencies:
+Honor
+and
+Purity
+. Besides being modified through events and the actions we’ll talk about in a bit, one thing to note is that fighting in battles will decrease your purity (due to the fact that blood is considered impure). Having high purity will allow the accumulation of honor, which will be able to be used for other actions, while having low purity would make people perceive you as an Oni on Earth, which may also have its benefits.
+The different actions in the panel are ways of regaining purity, from the more simple ones of spending prestige or money for a cleansing ritual or a pilgrimage respectively, to the more expensive ones of offering a work of art or even the life of the ruler.
+Besides these actions, the religion also features an International Organization, where countries can interact with the different factions present there. At start, there are three factions present: the
+Imperial Court
+, the
+Shogunate Court
+, and the
+Religious Sects
+, although more factions can appear in the future related to some other religious followers…
+Each faction has some actions available, at the cost of honor, although not all the factions will be available to all countries. For example, if you are at war with the current Shōgun, you will not be able to access the actions of the shogunate court, for obvious reasons.
+​
+Some of the actions of the Religious Sects will allow the country to interact with the mechanics of other Buddhist religions, but you will have to wait for future Tinto Talks for an explanation on those.
+Shintō also gives access to some unique advances, like for example:
+​
+Let’s now move to talk about the Shogunate, which is present in the game as an International Organization:
+There is currently a bug with the ruler’s name not appearing in the proper order, it will be fixed.
+​
+There’s two types of special statues in the Shogunate International Organization: the Sugo and the Emperor (or Emperors in this case, more on that on Friday). The Emperor is the one that is “technically” the ruler of Japan (although the one actually in charge is the shōgun), while the Shugo are provincial governors, giving them some nice bonuses.
+​
+There’s an action for the shōgun to either grant or revoke the governorship of a province, while the individual clans also have the option of basically becoming a de-facto shugo if they manage to establish enough presence in a particular province.
+​
+However, these actions will only be available as long as the Shogunate itself has the appropriate law, and will be disabled once it centralizes control.
+​
+Becoming the leader of the Shogunate is something that is not granted, and instead it has to be earned. The first step to take is to obtain the backing of the imperial court, with the action
+Become Shōgun
+of the
+Imperial Court
+faction in the
+Sintō
+IO:
+​
+This will grant a modifier directly to the ruler (not the country), and a casus belli to declare war on the current leader of the shogunate. If the war is declared and won while still having the same ruler, a special peace treaty can be enacted forcing the change of leadership.
+And that is all for today. Tomorrow we have the ‘
+Behind the Music of Europa Universalis V - Composing the Grandest Score
+’ video, and on Friday we will be back with a further look at flavor content for
+Japan
+(and the Japanese clans), as well as the situations of the
+Nanbokucho
+and
+Sengoku Jidai
+. See you there.
+And remember,
+Wishlist Europa Universalis V now!
+117
+65
+13
+6
+5
+Reactions:
+Reply
+Report
+Written by
+Roger Corominas
+Major
+Paradox Staff
+Messages
+606
+Reaction score
+29.830
+1
+2
+3
+…
+Go to page
+Go
+13
+Next
+1 of 13
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+killaghost12
+Second Lieutenant
+74 Badges
+Apr 1, 2016
+116
+749
+Jun 11, 2025
+Add bookmark
+#2
+Praise the lord!
+4
+Reactions:
+Reply
+Report
+pheonicia
+Field Marshal
+90 Badges
+Feb 2, 2015
+3.510
+23.853
+Jun 11, 2025
+Add bookmark
+#3
+An entire shinto dev diary just for me
+Toggle signature
+Will HOI4 be released on H hour CET of D Day? - Mannstien
+Once again though, there are no actual zombies, it is all hysteria and panic. - Darkrenown
+No, cats were invented in 1902 by Satan, but we included them for gameplay reasons. - Darkrenown
+ubi solitudinem faciunt pacem appellant; they make a wasteland and call it peace.
+Pronoun: 3rd person (use my name)
+4
+1
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Jun 11, 2025
+Add bookmark
+#4
+94
+15
+3
+1
+1
+1
+Reactions:
+Reply
+Report
+nyetflix2
+Lt. General
+Nov 13, 2022
+1.574
+9.424
+Jun 11, 2025
+Add bookmark
+#5
+Ok that art background is absolutely beautiful
+Toggle signature
+EU5 Mesoamerica feedback
+28
+1
+Reactions:
+Reply
+Report
+matfer13
+Field Marshal
+1 Badges
+Dec 17, 2023
+3.015
+18.591
+Jun 11, 2025
+Add bookmark
+#6
+NOT me after this dev diary
+38
+4
+1
+Reactions:
+Reply
+Report
+I
+ItalianBeanChef
+First Lieutenant
+67 Badges
+Apr 21, 2025
+215
+1.048
+Jun 11, 2025
+Add bookmark
+#7
+So anyway, when is the game coming out huh?
+2
+1
+Reactions:
+Reply
+Report
+Kotyk-durkotyk
+Colonel
+23 Badges
+May 26, 2024
+1.137
+15.631
+Jun 11, 2025
+Add bookmark
+#8
+I really hope this kind of sunny religion icon will be changed to something more relevant by release.
+Last edited:
+Jun 11, 2025
+Toggle signature
+Check out my EU5 threads:
+Ruthenia and Steppe Fix
+–
+my EU5 Mod
+with historical corrections for the Ruthenian and Steppe Regions
+Ruthenian / Cossack / Ukrainian Content Pack
+Orthodoxy Needs a Full Rework in EU5
+41
+15
+9
+Reactions:
+Reply
+Report
+Deutscher Kaiser
+First Lieutenant
+51 Badges
+Mar 30, 2016
+235
+1.756
+Jun 11, 2025
+Add bookmark
+#9
+Are purity and honor general Buddhist currencies or just Shinto?
+8
+1
+Reactions:
+Reply
+Report
+D
+dw70676
+Second Lieutenant
+76 Badges
+Aug 13, 2011
+191
+1.756
+Jun 11, 2025
+Add bookmark
+#10
+Could we see the clan map?
+Reply
+Report
+Goblin Slave
+Goblin
+58 Badges
+Jul 6, 2018
+188
+2.402
+Jun 11, 2025
+Add bookmark
+#11
+Are the individual Buddhist sects represented individually, or are they all conglomerated into one?
+9
+1
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Jun 11, 2025
+Add bookmark
+#12
+Disagree
+X
+. Missing feature to become new Hokage. Believe it.
+Last edited:
+Jun 11, 2025
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+15
+4
+3
+1
+Reactions:
+Reply
+Report
+Yuikase0
+Sergeant
+Nov 26, 2024
+78
+406
+Jun 11, 2025
+Add bookmark
+#13
+I was really looking forward to the introduction of the guardian system, so I'm happy! I'm especially glad that the final decision lies with the shogun, but aside from that, I think having a non-binding point system would also be good—like CK3's Byzantium.
+Here’s what I’d like to propose:
+Proposal for a Dynamic and Engaging Japan in EU5: "The Chrysanthemum and the Sword"
+​
+To the Europa Universalis V Development Team,
+We are a group of passionate fans of your games and Japanese history. We believe Japan in EU5 has the potential to be one of the most unique and replayable experiences in the series. This document outlines our proposal to transform Japan from a simple map-painting subject into a vibrant, dynamic political simulation, reflecting its complex and fascinating history.
+1. Executive Summary
+​
+The Vision:
+To evolve Japan in EU5 into a living political simulation of power, authority, and ambition. Players will experience Japan's most dynamic era not just as conquerors, but as shoguns, ambitious daimyō, or shadowy religious powers.
+The Core Problem in EU4:
+EU4's Japan is defined by a simple Shogun-Daimyō (vassal) relationship. This fails to capture the essence of the era: the internal conflicts within the Shogunate, the crucial role of the Imperial Court, the Gekokujō (the low overthrowing the high), and the existence of powerful, autonomous entities. As a result, gameplay can become monotonous after the initial unification.
+Our Solution: The Four Pillars:
+We propose four interconnected core systems to bring Japan to life:
+The Pluralistic Shogunate System:
+A dynamic political arena of shifting loyalties and power struggles.
+The Autonomous Sanctuaries (Muenjo):
+Powerful, independent entities that challenge the player's authority.
+The Gekokujō & Character System:
+A dramatic system where individual ambition can shatter the established order.
+The Imperial Court System:
+A unique source of "legitimacy" that all factions must engage with.
+Why This Matters:
+This framework will make Japan a flagship nation for EU5, offering unparalleled replayability and emergent narratives. It will appeal not only to history enthusiasts but to all strategy gamers who crave deep, complex political simulation.
+2. The Core Gameplay Loop: A New Way to Play Japan
+​
+The player's goal is no longer just to conquer Japan. It is to navigate a treacherous political landscape where direct and indirect power are equally important.
+A typical gameplay loop for a Daimyō would involve:
+Increasing influence within the Shogunate
+to be appointed Shugo (Military Governor) of profitable provinces.
+Using the authority of the Imperial Court
+to have rivals declared "Enemies of the Court."
+Managing the loyalty and ambition of your retainers
+to prevent your own overthrow (Gekokujō).
+Negotiating with powerful temple-cities,
+deciding whether to cooperate for their wealth and technology or risk war.
+Exploiting the chaos
+when rival clans are weakened by succession crises or political blunders.
+These elements are in a constant state of trade-off. Appointing a disloyal general as Shugo might win a war, but could set the stage for his rebellion. This creates a deeply engaging experience.
+(Conceptual Diagram: A central node "Player Daimyō" connected by arrows to "Shogun," "Imperial Court," "Rival Daimyō," "Temple Sanctuaries," and "Retainers," illustrating the web of influences.)
+3. The Main Systems in Detail
+​
+Player Fantasy:
+"I am the Shogun, struggling to control ambitious vassals, OR I am an ambitious Daimyō, challenging the central authority."
+Key Mechanics:
+Shogunate Authority:
+A national value (0-100) representing the Shogun's power.
+Shugo Appointment: Instead of direct conquest, players compete to be appointed Shugo (Military Governor) of provinces. While a "score" — based on factors like military power, prestige, and war performance — suggests the most likely candidates, **the final decision rests solely with the Shogun.** The Shogun can choose to follow the score, reward a loyal but weaker vassal, or bow to the pressure of a powerful one. Every choice has political consequences, making each appointment a strategic decision.
+The Daimyō Council (Daimyō Shūgi):
+The most powerful Shugo, known as the Shōban-shū, form a council convened by the Shogun to deliberate on matters of national importance. The Shogun must navigate their competing interests, making governance a constant balancing act.
+Regional Powers (Kamakura-fu):
+The Kantō region is governed by the Kamakura-fu, a highly unstable special subject with a dual power structure of the
+Kamakura Kubō (private power of the Ashikaga clan)
+and the
+Kantō Kanrei (public authority appointed by the Shogunate)
+. It often challenges Kyoto's authority.
+Player Fantasy:
+"I must deal with these powerful, untouchable temple-cities. Should I appease them for their technology and wealth, or risk everything to bring them under my control?"
+Design Inspiration:
+This system is heavily inspired by the work of historian
+Masatoshi Itō (Chūsei no Jisha Seiryoku)
+, who described these temple-complexes as "states within a state" with their own laws, economies, and armies, functioning as 'Muenjo' - sanctuaries beyond the reach of secular law.
+Key Mechanics:
+Sanctuary Status (Funiū-ken):
+Major temple complexes are special tags with massive defensive bonuses and immunity to hostile actions.
+Centers of Power:
+These sanctuaries control key industries, possess advanced technology (firearms, fortifications), and can field elite units (Sōhei warrior monks).
+Evolution:
+Over time, these "Sanctuaries" evolve into "Jichitoshi" (self-governing cities) and "Jinaichō" (fortified temple towns).
+The End of an Era:
+The "Sword Hunt" and "Land Survey" decisions in the late game finally abolish this system.
+Player Fantasy:
+"My most loyal retainer might be my greatest threat. I must rise through betrayal, or be destroyed by it."
+Key Mechanics:
+Retainer Management:
+Characters have stats like
+Loyalty
+and
+Influence
+. A retainer with low Loyalty but high Influence is a prime candidate for Gekokujō.
+Gekokujō Cascade:
+A successful Gekokujō event increases the chance of it happening elsewhere.
+Unique Characters:
+Figures like Oda Nobunaga will have unique traits and ambitions that heavily influence their AI behavior.
+Player Fantasy:
+"My army is strong, but without the Emperor's blessing, my rule is fragile. I must use the Court's authority as a weapon."
+Key Mechanics:
+Imperial Authority & Influence:
+A shared "Imperial Authority" value represents the Court's prestige, while each Daimyō accumulates their own "Imperial Influence" (similar to Papal Influence).
+Court Actions:
+Players spend Influence to
+Request Court Ranks
+,
+Request an Imperial Edict
+(a powerful, low-AE casus belli to declare a rival an "Enemy of the Court"), or
+Request Imperial Mediation
+to end wars.
+The Buke Tensō:
+The Shogun appoints a court noble as a liaison, crucial for smooth relations.
+4. Phased Implementation Plan
+​
+This ambitious vision can be implemented in phases, allowing for a strong core release with deep, thematic DLCs.
+Phase 1: The Core Experience (Base Game)
+Focus:
+To establish the fundamental political struggle that defines this era. The goal is to ensure that even at launch, Japan feels drastically different and more dynamic than in any previous title.
+Implement:
+The basic
+Shogunate & Shugo System
+(Authority and Appointments).
+The basic
+Autonomous Sanctuary System
+(Temple immunity and special units).
+The basic
+Gekokujō & Character System
+(Loyalty and core events).
+The basic
+Imperial Court System
+(Influence and the "Imperial Edict" CB).
+Phase 2: Flavor & Immersion DLC (e.g., "The Floating World")
+Focus:
+To deepen the cultural, social, and economic layers of Japanese society, adding vibrant flavor and new strategic paths beyond warfare.
+Implement:
+The full-fledged
+Imperial Court System
+(involving court nobles, imperial ceremonies, etc.).
+The
+Culture & Ideology System
+(Court vs. Warrior culture, spread of philosophies).
+The advanced
+Economic System
+(Za guilds, Kabu-nakama monopolies).
+Phase 3: The Age of Unification & Isolation DLC (e.g., "Pax Tokugawa")
+Focus:
+To simulate the dramatic transition from the Warring States period to the early modern era, and the unique challenges of maintaining peace and dealing with the outside world.
+Implement:
+The
+"Tenkabito" (The Unifier) System
+for the Oda/Toyotomi eras (Domain Reshuffle, Castle Demolition).
+The
+"Bakuhan" (Shogunate-Domain) System
+for the Edo period.
+The multi-stage
+"Sakoku" (Isolation) policy
+and the
+"Black Ships" end-game disaster
+.
+5. Conclusion & Acknowledgments
+​
+We believe this proposal provides a robust and exciting blueprint for Japan in EU5, transforming the region into a theater of constant political maneuvering.
+This proposal would not have been possible without the foundational research found in numerous Japanese historical texts. We are particularly indebted to the insights from the following works, which we recommend to the development team for further reading:
+Masaharu Ebara, "Muromachi Bakufu to Chihō no Shakai"
+(The Muromachi Shogunate and Regional Society) - For understanding the overall political and social structure of the Muromachi period.
+Masatoshi Itō, "Chūsei no Jisha Seiryoku"
+(The Power of Temples and Shrines in the Middle Ages) - For understanding the unique concept of "Muenjo."
+Makoto Higashijima, "'Bakufu' to wa Nani ka"
+(What is a 'Bakufu'?) - For understanding the complex relationships between the shogunate, the court, and the people.
+Yuri Kanda (ed.), "Sengoku Jidai no Tennō to Kuge-tachi"
+(The Emperors and Court Nobles of the Warring States Period) - For understanding the specific roles of the court and nobles in the Sengoku era.
+Thank you for your time and consideration. We eagerly await the future of Europa Universalis.
+Sincerely,
+A Passionate EU Community Member
+Edit:
+We are currently preparing a detailed proposal document at the following link (still in progress).
+https://docs.google.com/document/d/1MRDmbFl-y91W2QLHS-sMSNFVgHa4vEU9AFKQazv0a_g/edit?usp=sharing
+projectTAIHEIKI - Google Drive
+drive.google.com
+Last edited:
+Jun 12, 2025
+Toggle signature
+I am Japanese.
+I use translation machines and AI, so please point out anything strange. I always try to verify the facts behind my statements.
+2025/9/18
+【New Nation Type Proposal】Legitimist Authority — Rule Without Land (Popes, Exiles, and Shoguns)
+39
+19
+14
+1
+1
+1
+Reactions:
+Reply
+Report
+D
+dw70676
+Second Lieutenant
+76 Badges
+Aug 13, 2011
+191
+1.756
+Jun 11, 2025
+Add bookmark
+#14
+What does favoring Buddhist Schools vs Kami Worship do, practically?
+3
+1
+Reactions:
+Reply
+Report
+Goblin Slave
+Goblin
+58 Badges
+Jul 6, 2018
+188
+2.402
+Jun 11, 2025
+Add bookmark
+#15
+What is the gameplay like for a non-shugo/governor clan? Can you become a shugodai (deputy shugo) for you overlord?
+Shugodai - Wikipedia
+en.wikipedia.org
+Last edited:
+Jun 11, 2025
+6
+Reactions:
+Reply
+Report
+pheonicia
+Field Marshal
+90 Badges
+Feb 2, 2015
+3.510
+23.853
+Jun 11, 2025
+Add bookmark
+#16
+Does the instant manpower and gold from the "demand extra payment" shogunate honor action actually come from the ashikaga stockpiles or is it generated from nowhere.
+Toggle signature
+Will HOI4 be released on H hour CET of D Day? - Mannstien
+Once again though, there are no actual zombies, it is all hysteria and panic. - Darkrenown
+No, cats were invented in 1902 by Satan, but we included them for gameplay reasons. - Darkrenown
+ubi solitudinem faciunt pacem appellant; they make a wasteland and call it peace.
+Pronoun: 3rd person (use my name)
+21
+4
+1
+Reactions:
+Reply
+Report
+BUGJUXP111
+Private
+28 Badges
+Oct 12, 2022
+23
+64
+Jun 11, 2025
+Add bookmark
+#17
+When is the game coming out ? and what will we get after the last video ?
+2
+1
+Reactions:
+Reply
+Report
+Roger Corominas
+Major
+Paradox Staff
+May 19, 2021
+606
+29.830
+Jun 11, 2025
+Add bookmark
+#18
+Deutscher Kaiser said:
+Are purity and honor general Buddhist currencies or just Shinto?
+Click to expand...
+Specifically Shinto
+34
+18
+Reactions:
+Reply
+Report
+StephanthePelted
+Colonel
+66 Badges
+Jul 29, 2013
+928
+500
+Jun 11, 2025
+Add bookmark
+#19
+We all know what button people would click when we get a 0 0 0 ruler...
+33
+3
+1
+Reactions:
+Reply
+Report
+Goblin Slave
+Goblin
+58 Badges
+Jul 6, 2018
+188
+2.402
+Jun 11, 2025
+Add bookmark
+#20
+Will the Kamakura Kubo be represented in EU5?
+"Kantō kubō
+(関東公方) (also called
+Kantō gosho
+(関東御所),
+Kamakura kubō
+(鎌倉公方), or
+Kamakura gosho
+(鎌倉御所)) was a title equivalent to
+shōgun
+assumed by
+Ashikaga Motouji
+after his nomination to
+Kantō
+kanrei
+, or deputy shōgun for the
+Kamakura-fu
+, in 1349.
+[1]
+Motouji transferred his original title to the
+Uesugi family
+, which had previously held the hereditary title of
+shitsuji
+, and would thereafter provide the
+Kantō kanrei
+.
+[1]
+The Ashikaga had been forced to move to Kyoto, abandoning
+Kamakura
+and the
+Kantō region
+, because of the continuing difficulties they had keeping the Emperor and the loyalists under control (see the article
+Nanboku-chō period
+). Motouji had been sent by his father, shōgun
+Ashikaga Takauji
+, precisely because the latter understood the importance of controlling the Kantō region and wanted to have an Ashikaga ruler there, but the administration in Kamakura was from the beginning characterized by its rebelliousness. The shōgun's idea never really worked and actually backfired.
+[2]
+After Motouji, all the
+kubō
+wanted power over the entire country. The
+Kantō kubō
+era is therefore essentially a struggle for the shogunate between the Kamakura and the Kyoto branches of the Ashikaga clan.
+[3]
+In the end, Kamakura had to be retaken by force by troops from Kyoto.
+[1]
+The five
+kubō
+recorded by history, all of which were Motouji's bloodline, were (in order Motouji himself)
+Ujimitsu
+,
+Mitsukane
+,
+Mochiuji
+and
+Shigeuji
+.
+[1]
+[4]
+"
+Kantō kubō - Wikipedia
+en.wikipedia.org
+7
+4
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+13
+Next
+1 of 13
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

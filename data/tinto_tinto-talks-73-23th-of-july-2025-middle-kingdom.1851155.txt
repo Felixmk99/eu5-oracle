@@ -1,0 +1,527 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-73-23th-of-july-2025-middle-kingdom.1851155/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #73 - 23th of July 2025 - Middle Kingdom
+Thread starter
+Roger Corominas
+Start date
+Jul 23, 2025
+Hello and welcome to another happy edition of our Wednesday Tinto Talks. This week we will continue our eastern focus with a look at the core mechanics related to China: The
+Middle Kingdom
+and a disaster related to it, the
+Influence of China
+.
+The
+Middle Kingdom
+is represented in game with an International Organization, with the Celestial Emperor (or Huángdì) as its leader.
+A usual, please consider all UI, 2D and 3D Art as WIP.
+​
+The IO itself has territory assigned to it, what it considers to be its core territory. In the mapmode, that’s represented by solid colors, when owned by a country inside the IO and purple stripes when not currently owned by a member of the IO.
+​
+Territory outside the IO but owned by a member of it is colored in stripes of different colors: yellow for the Celestial Emperor, green for the regular members, and bright green for the Celestial Governors - these colors are WIP, and a matter of review, not final.
+Speaking about that, what is a Celestial Governor? They are members of the Middle Kingdom to which the emperor has granted special privileges, giving them some nice bonuses:
+Countries can join the Middle Kingdom freely as long as they are not a subject, and either have their capital in Asia or have the appropriate cultural or religious groups. Subjects of the Celestial Emperor, however, will automatically join it.
+Once a country is inside the Middle Kingdom, they will still be allowed to pursue their own diplomacy and wage their own wars (as long as they are not a subject type that forbids that), but they will also benefit from the protection of the Emperor, who may come to their assistance if they are attacked by an external threat (although that is not a guarantee). Also, they will be participating in the Tribute System.
+Historically, the tribute system of China was manifested through tribute missions between the various countries and the current ruling dynasty, conducted at various frequencies. Countries would offer gifts to the Emperor for the Son of Heaven to recognize their rule, and they would get gifts of greater value in return.
+In the game, this back and forth is simplified and abstracted to a payment that the Emperor has to perform, and the resulting money is divided among all members, according to their economic power. The emperor gets a slider in their economic panel to determine exactly how much tribute they are willing to pay, at the risk of losing Celestial Authority if the resulting tribute is too low.
+Celestial Authority does not have any passive effect, but there is much content tied to it, with some risks involved if let to fall too low. Additionally, many actions require the use of Celestial Authority:
+First off, let’s start talking about the Laws, as they define how the Middle Kingdom operates and also affect which actions will be available:
+For example, ‘Conducting a Kējǔ Examination’ will only be possible as long as the ‘Direct Appointment’ policy is not active, while the appointment of new Celestial Governors can only be made if the ‘Codified Cèfēng Tǐzhì’ policy is active.
+Let’s now look at the actions in more detail. For starters, as it was already mentioned, Conducting a Kējǔ Examination will allow the recruitment of a new capable character, with some historical characters being able to appear from it.
+‘Strengthen Ministry’ will allow the country to strengthen one of the 6 traditional ministries in Chinese administration, with varying effects. Some ministries will also be available to affect the outcomes of other actions.
+Lastly, the Proclaim Decree action will allow the emperor to choose a decree to enable for some temporary benefits, but it will also cost some Celestial Authority. The effects of the decrees last only for a short while, but are scaled by the amount of countries in the Middle Kingdom, the Emperor’s own Cabinet Efficiency, and other factors such as certain Ministries having been expanded.
+Additionally, the more decrees proclaimed, the less Celestial Authority that the Middle Kingdom will gain each month, representing the increasing complication of bureaucracy. However, the emperor can choose to ‘Reshape the Bureaucracy’, eliminating the accumulated penalty on Celestial Authority gain due to decrees.
+Another thing you may have noticed in the Middle Kingdom panel is something called Eunuch Power. At some point, China will have the option to empower the eunuchs. Doing so will open the gates to some events and effects related to them, but that will be for you to discover, as this Tinto Talks is already getting long enough, and I still have another topic to discuss - a new, unique Societal Value.
+Let’s now move to take a look at China from the outside and see what happens when a foreign country interacts with it. If a country not belonging to the Chinese culture group enters the orbit of China, it will unlock the Sinicized vs Unsinicized societal value:
+Like other societal values, a country has many tools with which to nudge it towards one extreme or the other. However, what matters to us today is what happens when they reach high levels of Sinicization. Any free country that goes beyond 90 towards Sinicization and is less powerful than China may fall under the ‘Influence of China’ disaster
+There will be many possible events firing during it, in which the country will navigate between continuing to be influenced by Chinese culture, or establishing its own cultural independence.
+To get out of the disaster, the country has various options. For once, they will get out of it if they are no longer sinicized, there is not a China to which to compare them to, or they are already stronger than it. Alternatively, they can resolve the disaster via taking enough decisions towards the same direction in the events firing during it. When the disaster ends, a final event will fire, with options and results dependent on which exactly has been the way to exit the disaster.
+You’ll have to play through the disaster yourselves to see all the options though…
+​
+And that is all for today. On Friday we will continue with a Tinto Flavour about
+China
+, and in next Wednesday’s Tinto Talks, we’ll have the final puzzle piece for the Chinese content - the
+Red Turbans Rebellion
+situation, and the
+Crisis of the Chinese Dynasty
+disaster. We hope to see you on both!
+And remember:
+Wishlist Europa Universalis V now!
+110
+42
+7
+3
+3
+1
+Reactions:
+Reply
+Report
+Written by
+Roger Corominas
+Major
+Paradox Staff
+Messages
+606
+Reaction score
+29.830
+1
+2
+3
+…
+Go to page
+Go
+16
+Next
+1 of 16
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+IluminatiX
+Empereur-Président
+41 Badges
+Feb 2, 2020
+43
+50
+Jul 23, 2025
+Add bookmark
+#2
+wow ! It's interesting, I can't wait to see the Yuan Break vase, to be able to pick up the pieces and called it a ming vase
+Toggle signature
+https://www.youtube.com/@IluminatiX_
+https://www.twitch.tv/iluminatwitch
+"La Stratégie c'est comme apprendre à cuisiner ont ne peu que s'attendre à des résultats inattendus" IluminatiX 2021.
+"Pour créer le futur, connais ton passé... L'Avenir n'appartient pas à ceux qui se lèvent tôt, mais à celui qui adaptera sa routine matinale." IluminatiX 2023.
+Empereur-Président IluminatiX Ier de la 3eme République Impériale de la Communauté Paradox Francophone
+12
+Reactions:
+Reply
+Report
+flatoranger
+Khan of Valhalla
+2 Badges
+Nov 3, 2015
+41
+199
+Jul 23, 2025
+Add bookmark
+#3
+NICE!
+1
+Reactions:
+Reply
+Report
+HansFlammenwerfer
+First Lieutenant
+21 Badges
+Aug 2, 2019
+223
+1.360
+Jul 23, 2025
+Add bookmark
+#4
+Countries can join the Middle Kingdom freely as long as they are not a subject, and either have their capital in Asia or have the appropriate cultural or religious groups.
+Click to expand...
+Is all I need a capital in Asia? In theory, could I start as the Jalayrids, for example, and join the Middle Kingdom?
+20
+Reactions:
+Reply
+Report
+Birchinjaro
+Captain
+May 15, 2024
+487
+3.035
+Jul 23, 2025
+Add bookmark
+#5
+Looks good, but it is kind of funny that throwing a representitive of China  outside the window only gets you -10 opinion
+29
+6
+1
+Reactions:
+Reply
+Report
+Roger Corominas
+Major
+Paradox Staff
+May 19, 2021
+606
+29.830
+Jul 23, 2025
+Add bookmark
+#6
+HansFlammenwerfer said:
+Is all I need a capital in Asia? In theory, could I start as the Jalayrids, for example, and join the Middle Kingdom?
+Click to expand...
+You still need to be in diplomatic range of the current emperor, so the Jalayrids are too far away for that at the start.
+46
+7
+Reactions:
+Reply
+Report
+SuperLexxe
+The Noobwhisperer
+56 Badges
+May 31, 2015
+793
+6.709
+Jul 23, 2025
+Add bookmark
+#7
+As it was very much integral to the
+Yuan
+, would there be a possibility for the
+Mongol Empire
+as a starting
+International Organization
+? The Yuan emperor was still legally considered the Khagan, above the other Khans, in correspondence and ceremony.
+It is often believed that the Mongol Empire had long fractured by this point, but that is not exactly the truth. Each of the splinter-Khanates held economic interests within eachothers; fiefdoms, appanages, etc. This was a vital diplomatic tool to uphold the remaining cohesion between the khanates.
+The largest appanages were in China, in the Central Region to be specific. In 1339, the Golden Horde began receiving significant silver revenues from their hereditary lands in China, as their relationship with the Khagan healed. While this International Organization would not be politically unified in any great deal, it would be a way to keep the Khanates' interests tied to eachothers, as they historically were.
+I will quote myself from the old China thread:
+SuperLexxe said:
+​
+The
+Wuhusi
+-system & The
+Silver Grant
+-system
+It might be too early to propose content & mechanics, but this also provides some context for my map feedback (
+here
+)
+I would suggest implementing both the
+wuhusi
+system and the
+Silver Grant
+systems (or both into one mechanic) to strengthen ties between the extended Borjigin dynasty, and to add challenge to balancing the Mongol estate in Yuan. These systems would act as a form of "subsidy" for the surviving Mongol successor states, while also providing an additional source of revenue for the Mongol noble class within Yuan. This would give the Mongol nobility significant power, making them a troublesome estate to deal with. It would also provide the Mongol successors outside of China a vested interest in maintaining good relations with Yuan, and its continued survival...
+​
+The
+wuhusi
+五戶絲, or "five-household silk," system was a refined version of the earlier revenue-sharing appanage system among the Borjigin princely families and lesser Noyan families. Under this system, the conquered lands in China were regarded as joint property among the Borjigins and Noyans, with revenues from allocated territories, known as
+Ayimaqs
+(tribes), distributed among these families. These territories included Khanbaliq, Shanxi, Hebei, Shandong, parts of Inner Mongolia, and northern Henan, beyond the Yellow River.
+When the Toluids achieved dominance over both the Yuan dynasty and the Ilkhanate, it left the Jochid lineage of the Golden Horde and the Chagatayid lineage of Central Asia with diminished or, in some cases, halted revenue streams from their Chinese fiefs. However, the Jochids did begin receiving their due in 1339. In the Yuan's Central Region, minor descendants of these princely houses—Jochids, Ögedeids, Chagatayids, Qasarids, and branches of the Toluids—remained as vassals to the Great Khans. Cut off from their distant relatives, they served as military officers for the Yuan. Together with other Mongol nobles (Noyans) and their
+tümens
+of warriors, they formed the Mongol military elite in the region.
+The administration of this system was overseen by non-Han officials, known as
+Darughachi
+, who were responsible for collecting revenues from these lands. These revenues were then distributed to the rightful owners, provided those owners were not hostile to the Yuan at the time. The selection of these officials was often left to the owners of the fiefdoms, although nominal approval was required from the Great Khan. These officials often had dual loyalties—both to their princely house and to the Great Khan—but the princes typically appointed the most loyal and trusted individuals to oversee their Chinese fiefs.
+This practice of revenue sharing was not confined to China; it extended to the Ilkhanate and, in a more limited capacity, to the Golden Horde and the Chagatai Khanate. For instance, in 1308, the Yuan Toluids reformed the administration of their share of revenues from Transoxiana. Similarly, Özbeg Khan of the Golden Horde, after fostering friendly relations with the Yuan in 1326, successfully requested and began receiving his share of Jochid revenues from China in 1339. This arrangement continued under his successor, Jani Beg, and likely persisted until the fall of the Yuan dynasty.
+Alongside the
+wuhusi
+system, the
+Silver Grant
+system played an important role in maintaining the loyalty of the domestic princely families. The
+Silver Grant
+was an annual allocation of silver and textiles given during the Yuan dynasty, primarily to male members of the "Golden Family"—relatives of Genghis Khan and their descendants. Unlike territorial fiefs, which were tied to specific lands, the
+Silver Grant
+was directly linked to the personal relationship between the grantee and the emperor. The size of the grant was determined by the recipient's dynastic standing within the Golden Family, as well as the emperor’s capacity and willingness to distribute the resources. Members would have to attend the annual meeting to receive their grant.
+Although both systems diminished over time, they remained an effective and a necessary tool for Yuan emperors to secure the loyalties of domestic princely families. By using both the
+wuhusi
+and
+Silver Grant
+systems, the Yuan emperors could maintain influence over their Mongol nobility, while also encouraging a semblance of cohesion among the network of Mongol successor states.
+Map of the princely and noyad fiefs in the Central Region:
+View attachment 1203656
+​
+"
+Encyclopedia of Mongolia and the Mongol Empire
+" (2004):
+View attachment 1203657
+View attachment 1203658
+View attachment 1203660
+View attachment 1203661
+“
+Nomads in the Sedentary World
+” (2001):
+View attachment 1203662
+View attachment 1203663
+View attachment 1203664
+“
+The Mongol Empire: Fragmentation, Unity, And Continuity
+” (2021):
+View attachment 1203666
+View attachment 1203667
+View attachment 1203668
+View attachment 1203669
+View attachment 1203670
+Click to expand...
+Last edited:
+Jul 24, 2025
+Toggle signature
+EU5 Community Maps & Information:
+1.
+Persia & Caucasus
+2.
+Circassia & Alania
+3.
+Central Asia
+4.
+China & Mongolia
+5.
+Manchuria & Korea
+-
+Oirat Confederation
+-
+Sultanate of Granada
+-
+40
+9
+1
+Reactions:
+Reply
+Report
+Aquila SPQR
+LEGATVS PROPRAETOR BYZABOO MEME-MAN
+Jul 3, 2010
+2.438
+18.068
+Jul 23, 2025
+Add bookmark
+#8
+31
+10
+2
+Reactions:
+Reply
+Report
+T
+titan.bevel
+Colonel
+Aug 1, 2024
+904
+3.356
+Jul 23, 2025
+Add bookmark
+#9
+The law tooltips, again and again... I absolutely love that we get all these laws and they have very interesting effects, but I still find them too difficult to read. I'd say the part not applicable to your situation should probably be grayed out / put behind an opacity 50% filter (to clarify it's NOT currently applicable). And probably use a different wording that would NOT use your tag name, or use it with an "IF". Maybe something like "If Yuan is no longer" i.e
+Just throwing out ideas, but I assume laws will be a big part of the game, and knowing all of their effects will be quite important.
+Toggle signature
+2 proposals
+on missions
+a proposal on religious influence
+a proposal on CB and peace deals
+maps ought to be more important !
+trade need some monopoly notion
+,
+and some import and export differences
+14
+4
+Reactions:
+Reply
+Report
+GabriKimba
+Corporal
+19 Badges
+Jun 6, 2024
+45
+172
+Jul 23, 2025
+Add bookmark
+#10
+Does the emperor have CB against countries holding IO lands?
+5
+1
+Reactions:
+Reply
+Report
+D
+Davincie
+Captain
+80 Badges
+Feb 5, 2020
+323
+1.952
+Jul 23, 2025
+Add bookmark
+#11
+Shouldn't the pop join rebels treshold be +5% if its positive? Else it seems to me like they would become rebels sooner which is hardly positive.
+11
+6
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Jul 23, 2025
+Add bookmark
+#12
+Can you have multiple strengthened ministries active at the same time, or do you have to wait for a cooldown? Are they essentially what the EoC edicts were in EU4?
+4
+Reactions:
+Reply
+Report
+Birchinjaro
+Captain
+May 15, 2024
+487
+3.035
+Jul 23, 2025
+Add bookmark
+#13
+I will say that being Unsinicized seems like the objectivelly worse option, the 20% trade capacity nerf is too big in contrast to the bonuses it gives
+5
+Reactions:
+Reply
+Report
+Roger Corominas
+Major
+Paradox Staff
+May 19, 2021
+606
+29.830
+Jul 23, 2025
+Add bookmark
+#14
+GabriKimba said:
+Does the emperor have CB against countries holding IO lands?
+Click to expand...
+Yes
+38
+2
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Jul 23, 2025
+Add bookmark
+#15
+Are Celestial Governors limited in number?
+5
+Reactions:
+Reply
+Report
+GabriKimba
+Corporal
+19 Badges
+Jun 6, 2024
+45
+172
+Jul 23, 2025
+Add bookmark
+#16
+What does the emperor gain from celestial governors?
+3
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Jul 23, 2025
+Add bookmark
+#17
+That's a smile of someone who knows what's up.
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+11
+6
+Reactions:
+Reply
+Report
+matfer13
+Field Marshal
+1 Badges
+Dec 17, 2023
+3.015
+18.591
+Jul 23, 2025
+Add bookmark
+#18
+Here to see how long it takes to say that China is underepresented
+Last edited:
+Jul 23, 2025
+19
+11
+4
+1
+Reactions:
+Reply
+Report
+Azgabeth
+Ex Deo, Cum Deo, Pro Deo
+41 Badges
+Nov 17, 2017
+793
+4.697
+Jul 23, 2025
+Add bookmark
+#19
+Wait so how does this IO work when china splits into multiple kingdoms?
+Toggle signature
+Ex Deo, Cum Deo, Pro Deo
+13
+Reactions:
+Reply
+Report
+matfer13
+Field Marshal
+1 Badges
+Dec 17, 2023
+3.015
+18.591
+Jul 23, 2025
+Add bookmark
+#20
+Are members of the IO considered tributary subjects of the Emperor's tag? Otherwise those loyalty modifiers in the "enstablished provincial governorship" policy don't seem so good
+Last edited:
+Jul 23, 2025
+4
+1
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+16
+Next
+1 of 16
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

@@ -1,0 +1,667 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-65-28th-of-may-2025.1760717/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #65 - 28th of May 2025
+Thread starter
+Pavía
+Start date
+May 28, 2025
+Hello, and welcome to another Tinto Talks, the happy Wednesdays where we talk about
+Europa Universalis V
+!
+Today, we will discuss the mechanics of Eastern Christianity religions. We have grouped them into three main religions:
+Orthodoxy
+,
+Miaphysitism
+, and
+Nestorianism
+. So, let’s start without further ado.
+Orthodoxy
+​
+This is the overview of the Orthodox religion:
+This tooltip needs some more love, as we’re not showing all the mechanics of the religion. That’s because, as usual, please consider all UI, 2D and 3D art WIP.
+​
+This is the country panel of the religion:
+Countries of Orthodox religion in Autocephalous Patriarchates, which are a type of IO:
+I’m taking here the Autocephalous Patriarchate of Constantinople, which has the custom name of ‘Ecumenical Patriarchate’, as an example.
+​
+And here you have the existing Orthodox Patriarchates in 1337:
+Countries can Join an Autocephalous Patriarchate, if they’ve just converted to Orthodoxy; or, when they already belong to one, they can Change to a different one, or Create a new one:
+The Seat of an Autocephalous Patriarchates defines the Leader of this IO, which unlocks additional effects and actions:
+There are also some other blocks in the Autocephalous Patriarchate, as its Saints:
+And Holy Sites:
+The main currency of the religion is Religious Influence, which already appeared in the Catholic TT:
+You can do a few things with your Religious Influence. First, you can canonize a former ruler, making him a Saint:
+The benefits you get from the canonization scale with the ruler stats. So better to make sure that you want to canonize a truly memorable former ruler!
+​
+You can also call for a Synod in your country:
+Finally, there’s a unique type of work of art, Icons:
+These icons not only give a modifier to the location where they are, but also can be used in a ‘Periphora’ to another location:
+Miaphysitism
+​
+Miaphysitism is similar to Orthodoxy, with some differences. Here is the overview of the religion itself:
+Same as Orthodoxy, it also has the mechanics of Canonization and Autocephalous Patriarchates, with these ones being the Patriarchates present at start:
+However, most of these are actually empty due to being occupied by Muslim countries, with only Ethiopia remaining as part of the Ecumenical Patriarchate of Alexandria and the Armenian patriarchate as the only one containing more than one country.
+An integral part of each the Eastern Christians and their Patriarchates are their Tenets, defined in a series of laws:
+The ‘Nature’ tenet is a hard–locked IO Law, that depends on each Religion:
+These Tenets can be changed, and there are multiple possibilites in each Law:
+Nestorianism
+​
+There is no country having Nestorianism as its state religion at game start, but the religion is nonetheless still quite spread in some areas. Here is an overview of it:
+Nestorianism also has its own holy sites:
+And also its specific definition of the nature of Christ:
+A final remark on a common flavor for all these religions. First, they have their unique flavor monasteries:
+The modifiers are WIP, we want to make them somewhat different.
+​
+There's a Law in which you can define the policy of the relationship between the state and the religion:
+And that’s all for today! Tomorrow is Thursday, which means that we will publish a new ‘
+Behind the Scenes
+’ video, on Friday, we will discuss the
+Byzantine Empire
+in
+Tinto Flavour,
+and next Wednesday's Tinto Talks will be about Islam.
+And also remember, you can
+wishlist Europa Universalis V now
+! Cheers!
+135
+60
+8
+3
+2
+Reactions:
+Reply
+Report
+Written by
+Pavía
+Content Design Lead PDX Tinto
+Paradox Staff
+12 Badges
+Messages
+4.509
+Reaction score
+192.684
+1
+2
+3
+…
+Go to page
+Go
+15
+Next
+1 of 15
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+May 28, 2025
+Add bookmark
+#2
+Another Paradox DD by the Patriarchy smh
+Sorry, Patriarch
+ate
+Last edited:
+May 28, 2025
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+46
+5
+3
+1
+Reactions:
+Reply
+Report
+trov55
+Second Lieutenant
+23 Badges
+Feb 9, 2019
+181
+736
+May 28, 2025
+Add bookmark
+#3
+What happened to the other comments?
+Reply
+Report
+Kotyk-durkotyk
+Colonel
+23 Badges
+May 26, 2024
+1.137
+15.631
+May 28, 2025
+Add bookmark
+#4
+Will
+Kyiv-Pechersk Lavra
+be a unique building or some kind of Holy See? Since it was the most ancient and important East Slavic Orthodox monastery.
+Don't you have an event about the establishing of
+Pochaiv Lavra
+in South-East Volhynia? The second biggest and second most important Ruthenian Lavra (monastery).
+EDIT
+:
+I'll transfer my Ruthenian Orthodox buildings and WoAs suggestions here.
+_________
+My suggestions on possible
+Works of Art
+and
+unique buildings
+(
+ex-monuments in EU4
+)
+around Ruthenian lands
+. They are Orthodox-related, so please, consider adding them.
+These I consider as must-have (I compare with WoAs of Novgorod):
+​
+Kyiv-Pechersk Lavra – Kyiv
+Unique building – monastery
+Founded in 1051
+The most important and influential Orthodox monastery in the East Slavic lands
+Should provide some Orthodox benefits, literacy, cultural tradition/influence, clergy power
+Wiki page
+St. Sophia Cathedral – Kyiv
+Work of Art – cathedral
+Built between 1017 and 1037, survived the Mongolian invasion
+The cathedral of Metropolitans of Kyiv
+The most famous and important Kyivan cathedral
+Wiki page
+Transfiguration Cathedral – Chernihiv
+Work of Art – cathedral
+Built between 1030 and 1036 and survived the Mongolian invasion
+One of the two oldest still existing Kyivan Rus churches (with St. Sophia in Kyiv)
+Maybe even the oldest, could be build 1 – 2 years earlier than St. Sophia
+Wiki page
+Dormition Cathedral – Volodymyr-Volynskyi
+(Volhynia)
+Work of Art – cathedral
+Built in 1160
+Historic Volhynian eparchial cathedral and the 'heart' of Volhynian Orthodoxy
+Wiki UA page
+The Black Madonna – Belz (Volhynia)
+a.k.a. The Black Madonna of
+Częstochowa
+Work of Art – icon
+A famous Byzantine icon created around the VI – IX centuries
+Later became the Black Madonna of Częstochowa
+Was transferred from Belz to Częstochowa by Władysław Opolczyk in the 1380s
+Legends trace the icon's origin to Luke the Evangelist
+Poland could have a DHE and transfer it to Częstochowa if they take Belz
+Wiki page
+Dormition of the Mother of God – Kyiv
+Work of Art – icon
+It had been
+the main icon of the Kyiv-Pechersk Lavra for 900 years
+before being destroyed in 1941
+It was brought as a gift by the Byzantine architects of the monastery in the XI century
+The image shows one of the multiple later copies in a golden protective cover
+kiot
+The Primary Chronicle (or Tale of Bygone Years) – Kyiv
+Work of Art – writing/literature(?)
+A chronicle of Kyivan Rus from about 850 to 1110
+It is believed to have been originally compiled in or near Kyiv in the 1110s
+The work is considered a fundamental source for the earliest history of the East Slavs
+There can be also a scripted dynamic event about
+Pochaiv Lavra
+around the XVI century in Kremenets
+One of the three main monasteries (Lavras) of the East Slavic Orthodoxy
+This could be a
+unique building with a bit weaker benefits as Kyiv-Pechersk Lavra
+​
+Optional Works of Art depending on how many of them you give to different countries:
+​
+Church of
+St. Panthelemon
+– Halych
+Work of Art – church
+Built in 1194
+The only Halych pre-mongolian church that survived to this day
+Wiki UA page
+The Kholm Madonna – Kholm/Chelm (Volhynia)
+Work of Art – icon
+An ancient Byzantine icon and the oldest
+now in Ukraine
+Was reportedly brought from Kyiv to Kholm between 1223 and 1237 by the future King of Ruthenia Danylo of Halych
+Legends trace the icon's origin to Luke the Evangelist so it was highly valued in the society
+Wiki UA page
+Church of St. Anna – Uzhhorod (Hungary)
+Work of Art – church
+The precise age is unknown, but estimated around the X – XIII centuries
+Wiki UA page
+Looking forward!
+Last edited:
+May 30, 2025
+Toggle signature
+Check out my EU5 threads:
+Ruthenia and Steppe Fix
+–
+my EU5 Mod
+with historical corrections for the Ruthenian and Steppe Regions
+Ruthenian / Cossack / Ukrainian Content Pack
+Orthodoxy Needs a Full Rework in EU5
+42
+14
+8
+2
+Reactions:
+Reply
+Report
+Tercio Soldier
+Major
+58 Badges
+Feb 25, 2020
+568
+4.336
+May 28, 2025
+Add bookmark
+#5
+Two questions.
+1. So what's the difference between Orthodoxy and
+Miaphysitism? Both seem to have the same mechanics.
+2. Can a non-Orthodox country takr control of a patriarchate like the Ottomans in 1453 when they appointed their own patriarch of Constantinople?
+25
+2
+Reactions:
+Reply
+Report
+theowovsk
+Corporal
+7 Badges
+Sep 5, 2024
+45
+265
+May 28, 2025
+Add bookmark
+#6
+How does the game intend to represent extraterritorial patriarchates such as Antioch and Jerusalem?
+Will the hesychast controversy be portrayed in the game?
+Has mount Athos got any unique flavor?
+Can you give us more information about the alternatives for "Mask", "Essence", and "Person"?
+Is there any flavor regarding the pentarchy?
+What are "Christological debates"?
+12
+3
+1
+Reactions:
+Reply
+Report
+D
+dw70676
+Second Lieutenant
+76 Badges
+Aug 13, 2011
+191
+1.756
+May 28, 2025
+Add bookmark
+#7
+If you free a tag with (I assume) Nestorianism as its main religion, like Assyria, does it become the sole member of a Nestorian Chrch IO? How does the AI handle it?
+9
+Reactions:
+Reply
+Report
+D
+dw70676
+Second Lieutenant
+76 Badges
+Aug 13, 2011
+191
+1.756
+May 28, 2025
+Add bookmark
+#8
+Are there any Nestorians in China at game start?
+10
+Reactions:
+Reply
+Report
+Pavía
+Content Design Lead PDX Tinto
+Paradox Staff
+12 Badges
+Jan 3, 2006
+4.509
+192.684
+May 28, 2025
+Add bookmark
+#9
+Just added a final section with a couple of things that were missing, for those of you who came exactly at 15:00 to read it.
+Toggle signature
+Antiguo caballero villano del OT en español. Now member of EUIV & EUV Team at Paradox Tinto.
+24
+22
+11
+3
+Reactions:
+Reply
+Report
+LordThanatos
+Major
+95 Badges
+Sep 15, 2018
+634
+8.786
+May 28, 2025
+Add bookmark
+#10
+Is there any content around the Hesychast controversy and its outcomes - and if so, can we see it?
+Also, could you change the Miaphysite churches to their official name of Oriental Orthodox and 'Orthodox' to Eastern Orthodox? Miaphysitism is a doctrinal position, not the name of any church.
+Last edited:
+May 28, 2025
+Toggle signature
+Proposals to improve how Catholicism is represented:
+Fixing Mechanics around The Papal States and Catholicism
+Feedback on Protestantism:
+Initial Feedback
+Make Eastern Christian Patriarchs extraterritorial.
+Feedback on non-Buddhist Dharmic Religions:
+Initial Feedback
+,
+More Feedback
+Feedback on Islam:
+Incorrect Religious Schools
+,
+Dhimmi
+,
+Other Ideas
+8
+1
+Reactions:
+Reply
+Report
+Kotyk-durkotyk
+Colonel
+23 Badges
+May 26, 2024
+1.137
+15.631
+May 28, 2025
+Add bookmark
+#11
+I hope that some of these 'policies' could be changed
+only at the Ecumenical Synode
+where all the patriarchates and autocephalus churches participate.
+And it should be very hard to gather all of them since it did not happen historically within the game time frame.
+Also I would make it specifically impossible to 'destroy' or cancel four
+Ancient Patriarchates
+-
+Ecumenical
+,
+of Alexandria
+,
+of Antioch
+,
+of Jerusalem
+, since they were established by the Ecumenical Councils and survived through hard times till today.
+Last edited:
+May 28, 2025
+Toggle signature
+Check out my EU5 threads:
+Ruthenia and Steppe Fix
+–
+my EU5 Mod
+with historical corrections for the Ruthenian and Steppe Regions
+Ruthenian / Cossack / Ukrainian Content Pack
+Orthodoxy Needs a Full Rework in EU5
+44
+3
+2
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+May 28, 2025
+Add bookmark
+#12
+Do the saints give any bonuses or only the one time gain you get when you canonize them? What determines how much prestige and estate satisfaction you get from canonizing someone? Is it only their stats?
+7
+Reactions:
+Reply
+Report
+D
+dw70676
+Second Lieutenant
+76 Badges
+Aug 13, 2011
+191
+1.756
+May 28, 2025
+Add bookmark
+#13
+How is the Christianization of Lithuania, the last major Pagan country in Europe, handled? As the head of the Orthodox church, is it possible to defy destiny and have them convert to Eastern Christianity instead, as almost happened in the OTL?
+14
+Reactions:
+Reply
+Report
+GenericUsername1444
+Colonel
+Jun 25, 2024
+805
+10.781
+May 28, 2025
+Add bookmark
+#14
+@Pavía
+could you please show us the ecclesiastical territories of the Georgian Patriarchate? It should look something like this (excluding the north Caucasian parts, of course)
+Thank you!
+The church should be centred at
+Mtskheta
+, not Tbilisi.
+"Armenia", led by the Zakarid dynasty, and Shaki, most likely led by Georgians, should be in the Georgian church IO. The Zakarids from
+Zakare's
+death on were Dyophysites, while the collateral branch of
+Ivane's
+descendants (the current rulers) were Orthodox since even before his death.
+Additionally, the Georgian church should own buildings in
+Jerusalem
+,
+Athos
+, and
+Bulgaria
+, to represent the Iberian monasteries present there since the 11th century.
+Finally, here are some Georgian rulers who should be sanctified in 1337:
+Mihrdat IV - Wikipedia
+en.wikipedia.org
+Vakhtang I - Wikipedia
+en.wikipedia.org
+Archil of Kakheti - Wikipedia
+en.wikipedia.org
+David IV - Wikipedia
+en.wikipedia.org
+Demetrius I of Georgia - Wikipedia
+en.wikipedia.org
+Tamar of Georgia - Wikipedia
+en.wikipedia.org
+Demetrius II of Georgia - Wikipedia
+en.wikipedia.org
+Vakhtang III - Wikipedia
+en.wikipedia.org
+Last edited:
+May 28, 2025
+Toggle signature
+Professional Georgian
+13
+7
+2
+Reactions:
+Reply
+Report
+matfer13
+Field Marshal
+1 Badges
+Dec 17, 2023
+3.015
+18.591
+May 28, 2025
+Add bookmark
+#15
+Athens and Candia are catholic crusader states so they shouldn't be part of a patriarchate
+23
+13
+3
+Reactions:
+Reply
+Report
+JuanMartinez2219
+Private
+27 Badges
+Apr 7, 2025
+11
+88
+May 28, 2025
+Add bookmark
+#16
+Why is Athens under the Ecumenical Patriarchate of Constantinople? The duchy was ruled by Catholics
+13
+2
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+May 28, 2025
+Add bookmark
+#17
+trov55 said:
+What happened to the other comments?
+Click to expand...
+Usually there's a couple of 'wow's in the beginning of these DDs that get burned at the stake every release.
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+21
+2
+2
+1
+Reactions:
+Reply
+Report
+T
+titan.bevel
+Colonel
+Aug 1, 2024
+904
+3.356
+May 28, 2025
+Add bookmark
+#18
+Can you give more details about how the tenets can change ? Is it only through a synod ? Are there other ways ? Also, is there an effect to being "oecunemical" or is it only a flavour name for some existing patriarchate ? Can member of an oecunemical patriarchate still impact the tenets and the synods or are they pure spectator ?
+Overall the mechanism looks great I have to say.
+Toggle signature
+2 proposals
+on missions
+a proposal on religious influence
+a proposal on CB and peace deals
+maps ought to be more important !
+trade need some monopoly notion
+,
+and some import and export differences
+3
+Reactions:
+Reply
+Report
+Zaldun
+The Doge of York
+75 Badges
+Feb 5, 2016
+94
+327
+May 28, 2025
+Add bookmark
+#19
+Do Nestorians get their own monastery building?
+7
+Reactions:
+Reply
+Report
+Daniel the Finlander
+Colonel
+61 Badges
+Feb 2, 2016
+1.064
+8.242
+May 28, 2025
+Add bookmark
+#20
+The description of this icon talks about the monastery its in, which is kind of weird if you move the icon to another location. Does the monastery move with it..?
+Cool feature, but ”throw a periphora/procession” sounds weird. Wouldn’t ”organize a periphora” sound better?
+Toggle signature
+modder and a lover of mods
+eu5 > imperator > eu4
+EU5 mod: Historically Accurate Courland
+EU5 mod: Historically Accurate Finland
+18
+5
+1
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+15
+Next
+1 of 15
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

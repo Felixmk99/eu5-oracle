@@ -1,0 +1,487 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-68-18th-of-june-2025.1788518/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #68 - 18th of June 2025
+Thread starter
+Pavía
+Start date
+Jun 18, 2025
+Hello, and welcome to another
+Tinto Talks
+, the happy Wednesdays where we talk about
+Europa Universalis V
+!
+Today, we will discuss the mechanics of
+Buddhism
+. In EUV, it is considered another Religious Group, like some that we saw previously, such as Christianity or Islam:
+We will focus on the three main branches of pure Buddhism:
+Theravāda
+,
+Eastern Buddhism
+, and
+Tibetan Buddhism
+, which share the same core mechanics.
+One aspect that all of these share is the presence of
+Karma
+as a currency. Karma, same as it was in EU4, can be modified by different factors, and gives different effects depending on its value:
+Another very important aspect of Buddhist religions is the presence of various Buddhist Sects. Each religion has a variety of different sects, represented as International Organizations, and countries will belong to the sects of their own religion. Eastern Buddhism countries can belong to a maximum of 3 sects, while the rest of the religions allow for a maximum of a single sect.
+Each sect has a value of Favor, representing the influence and support that sect has, as well as locations in which that sect is present. The sects also define themselves through a set of laws establishing their philosophy and teachings.
+As long as sects have a high value of favor (over 60%), they will be able to expand their influence by adding more of their neighboring locations to the IO. Conversely, if sects have a low value of favor (less than 40%), they will start losing their locations. Sects will also lose locations if the dominant religion of the location is not the appropriate one. Sects can only gain or lose a single location at a time, though, so they will not completely disappear or extremely increase in size overnight, but it will be a gradual process.
+Sects gain or lose favor depending not only on how many countries are part of the IO, but also from countries actively promoting or disfavoring them. A country can choose to favor or disfavor a single sect to affect its favor value, although that will also impact the effects that the country gets from the sect(s) it belongs to.
+A country can also choose to leave a sect or to join a new one, but with some caveats. For once, a country will not be able to leave a sect it is part of as long as that sect has over 50% favor. So, if they want to leave that to join a new one, they will have to first make that favor decrease. To join a sect, a country must not already be at its maximum number of sects allowed, and the sect to join needs to be present in their territory or in the territory of an ally or a subject.
+Let me now give a brief overview of the available sects.
+Theravada Sects:
+Eastern Buddhism Sects:
+You might notice here Confucianism and Daoism; we’ll talk more in-depth about them in the last block of the post, devoted to Sānjiào.
+​
+Tibetan Buddhism Sects:
+Some of these Sects may be better known by other names, but we used more generic terms for them due to the fact that they are present in multiple countries:
+Some of these schools have other special sets of teachings on top of the main ones, like the ones including Vajrayāna Tantric practices, giving some extra actions to the countries that belong to them.
+There are also two other Buddhist religions I want to talk about, which were pending from previous Tinto Talks. For starters, let’s talk once again about
+Shintō
+. As mentioned in its own Tinto Talks, Shintō countries have the ability to
+Favor Buddhist Schools
+, and mentioned that that action gives them access to interact with the general Buddhist mechanics. That means that when performing this action, they will gain the same abilities related to the sects, with some costs associated with that:
+They will thus be able to join the sects of Eastern Buddhism, although they can only join one, with some extra specifically Japanese sects:
+As an extra note related to the Japanese sects, Jōdo Shinshū will also be created as an additional one during the course of the game.
+Another religion in the Buddhist group I want to mention (and that some of you have already noticed) is the new religion we have implemented in China, which we have named Sānjiào, something we did after careful consideration, from the feedback received in Tinto Maps. This is to represent the particular blend of Buddhism, Confucianism, and Daoism (together with many other folk beliefs) that has formed and coexisted in China for centuries. As such, a country following Sānjiào will automatically belong to the Confucianism and Daoism Sects, and they will get both the Righteousness and Harmony currencies. On top of that, they will be able to join one extra sect of Eastern Buddhism:
+As you can see, these enable two special currencies: Righteousness and Harmony respectively:
+And that’s all for today!
+Tomorrow
+, there will be a post about the process behind the
+Audio and the OST
+of the game, while on
+Friday’s Tinto Flavour
+, we will take a look at
+Majapahit
+!
+And also remember, you can
+wishlist Europa Universalis V now
+! Cheers!
+124
+60
+12
+11
+5
+1
+Reactions:
+Reply
+Report
+Written by
+Pavía
+Content Design Lead PDX Tinto
+Paradox Staff
+12 Badges
+Messages
+4.509
+Reaction score
+192.684
+1
+2
+3
+…
+Go to page
+Go
+11
+Next
+1 of 11
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+Z
+ZarkinDrife
+Second Lieutenant
+31 Badges
+Oct 6, 2022
+114
+466
+Jun 18, 2025
+Add bookmark
+#2
+Yay, Tinto talks are back
+15
+1
+1
+Reactions:
+Reply
+Report
+Enku7071
+Major
+Mar 13, 2025
+612
+3.595
+Jun 18, 2025
+Add bookmark
+#3
+NO WAY HE CAME EXACTLY WHEN HE'S MEANT TO!!!!!
+Toggle signature
+"Back and forth, back and forth, I'm starting to feel like Sisyphus!"
+26
+11
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Jun 18, 2025
+Add bookmark
+#4
+This DD was as a surprise to us as Buddhas palm was to Sun Wukong.
+Sorry, this is all I really know about Buddhism.
+Also, I see the communitys feedback on the name of Chinas religion was considered. Very nice.
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+14
+9
+Reactions:
+Reply
+Report
+Grabber
+Second Lieutenant
+54 Badges
+Jun 3, 2025
+141
+701
+Jun 18, 2025
+Add bookmark
+#5
+Thanks for taking the time to put this together!
+9
+Reactions:
+Reply
+Report
+Z
+ZarkinDrife
+Second Lieutenant
+31 Badges
+Oct 6, 2022
+114
+466
+Jun 18, 2025
+Add bookmark
+#6
+Will there be a Tinto flavour for China?
+4
+Reactions:
+Reply
+Report
+T
+ts227
+Second Lieutenant
+25 Badges
+Apr 19, 2015
+133
+558
+Jun 18, 2025
+Add bookmark
+#7
+Looking forward to converting to Moist.
+And glad to see another TT!
+15
+1
+Reactions:
+Reply
+Report
+Álvaro Núñez de Lara
+Field Marshal
+1 Badges
+May 18, 2020
+3.852
+23.666
+Jun 18, 2025
+Add bookmark
+#8
+Now you have some explaining to do young man!
+Edit: Here come PDX white knights who don't get a joke.
+Last edited:
+Jun 18, 2025
+9
+3
+2
+1
+1
+Reactions:
+Reply
+Report
+M
+Myxach
+Second Lieutenant
+3 Badges
+Nov 1, 2014
+120
+423
+Jun 18, 2025
+Add bookmark
+#9
+new DD ?
+19
+2
+1
+Reactions:
+Reply
+Report
+I
+ItalianBeanChef
+First Lieutenant
+67 Badges
+Apr 21, 2025
+215
+1.048
+Jun 18, 2025
+Add bookmark
+#10
+No release date, me sad.
+13
+4
+3
+1
+Reactions:
+Reply
+Report
+Aquila SPQR
+LEGATVS PROPRAETOR BYZABOO MEME-MAN
+Jul 3, 2010
+2.438
+18.068
+Jun 18, 2025
+Add bookmark
+#11
+The most mysterious TT ever, published when release date speculation is peaking, yet there's no release date.
+20
+8
+6
+5
+Reactions:
+Reply
+Report
+Pavía
+Content Design Lead PDX Tinto
+Paradox Staff
+12 Badges
+Jan 3, 2006
+4.509
+192.684
+Jun 18, 2025
+Add bookmark
+#12
+ZarkinDrife said:
+Yay, Tinto talks are back
+Click to expand...
+They never were gone. And today has been a punctual day, I'm glad that y'all appreciate it.
+Toggle signature
+Antiguo caballero villano del OT en español. Now member of EUIV & EUV Team at Paradox Tinto.
+63
+6
+4
+1
+Reactions:
+Reply
+Report
+Tercio Soldier
+Major
+58 Badges
+Feb 25, 2020
+568
+4.336
+Jun 18, 2025
+Add bookmark
+#13
+Shouldn't Yuan follow Tibetan buddhism under the mongols?
+2
+Reactions:
+Reply
+Report
+Pavía
+Content Design Lead PDX Tinto
+Paradox Staff
+12 Badges
+Jan 3, 2006
+4.509
+192.684
+Jun 18, 2025
+Add bookmark
+#14
+ZarkinDrife said:
+Will there be a Tinto flavour for China?
+Click to expand...
+Yes! And there will also be a separate Tinto Talks just for the Middle Kingdom IO.
+Toggle signature
+Antiguo caballero villano del OT en español. Now member of EUIV & EUV Team at Paradox Tinto.
+60
+21
+5
+1
+Reactions:
+Reply
+Report
+W
+Whosyourdaddy.
+Recruit
+23 Badges
+May 3, 2024
+9
+38
+Jun 18, 2025
+Add bookmark
+#15
+Please in next month release announcement。
+4
+2
+2
+1
+Reactions:
+Reply
+Report
+Pavía
+Content Design Lead PDX Tinto
+Paradox Staff
+12 Badges
+Jan 3, 2006
+4.509
+192.684
+Jun 18, 2025
+Add bookmark
+#16
+Thrudgelmir2333 said:
+Also, I see the communitys feedback on the name of Chinas religion was considered. Very nice.
+Click to expand...
+Yes, we went all the way from Mahayana -> Eastern Buddhism -> Sanjiao, as that was what the community feedback was pointing us to.
+Toggle signature
+Antiguo caballero villano del OT en español. Now member of EUIV & EUV Team at Paradox Tinto.
+66
+11
+5
+5
+Reactions:
+Reply
+Report
+H
+Huskermax5
+Second Lieutenant
+Apr 10, 2020
+175
+189
+Jun 18, 2025
+Add bookmark
+#17
+I am probably just blind/dumb but
+A: Is Shinto considered Eastern with Confucian/Shaijo? Is Buddhism entirely seperate from eastern? Can you blend them like how Tengri (and Inrhink others?) can accept a different religion?
+B: Can Confucianism be its own thing? Or do you have to be Shaijo?
+C: Probavly best to ask with Japan but isolationism mechanic isn’t in eu5?
+2
+1
+Reactions:
+Reply
+Report
+TheNewCaliph
+Sergeant
+1 Badges
+Sep 24, 2020
+72
+445
+Jun 18, 2025
+Add bookmark
+#18
+As I've stated in my Indian Recommendations thread and the quoted response to the general Tinto Maps India Feedback thread, Sammitya Buddhism shouldn't exist in 1337 and Mahayana Buddhism should be a negligibly present religion in Sindh at best
+7
+2
+1
+Reactions:
+Reply
+Report
+Kotyk-durkotyk
+Colonel
+23 Badges
+May 26, 2024
+1.137
+15.631
+Jun 18, 2025
+Add bookmark
+#19
+Why do you get higher bonus at 0.1 Karma than at above 33 or below -33?
+Why two bonuses at the same time?
+Toggle signature
+Check out my EU5 threads:
+Ruthenia and Steppe Fix
+–
+my EU5 Mod
+with historical corrections for the Ruthenian and Steppe Regions
+Ruthenian / Cossack / Ukrainian Content Pack
+Orthodoxy Needs a Full Rework in EU5
+4
+2
+2
+2
+Reactions:
+Reply
+Report
+Pavía
+Content Design Lead PDX Tinto
+Paradox Staff
+12 Badges
+Jan 3, 2006
+4.509
+192.684
+Jun 18, 2025
+Add bookmark
+#20
+Tercio Soldier said:
+Shouldn't Yuan follow Tibetan buddhism under the mongols?
+Click to expand...
+The country (state) religion of Yuán is Tibetan Buddhism, correct. The screenshots show the religion per location.
+Toggle signature
+Antiguo caballero villano del OT en español. Now member of EUIV & EUV Team at Paradox Tinto.
+60
+10
+8
+1
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+11
+Next
+1 of 11
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

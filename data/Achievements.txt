@@ -1,0 +1,506 @@
+Source URL: https://eu5.paradoxwikis.com/Achievements
+Source Date: 2025-12-22
+
+This article has been verified for the current
+version
+(1.0) of the game.
+EU5 has 50 different
+achievements
+, which use the achievements mechanics of the store where the game was bought (
+Steam
+, Epic Games, Microsoft Store, GOG). Achievements have no in-game effects; the achievement just pops up in-game and then added to the player's profile in the store frontend.
+List of achievements
+[
+edit
+|
+edit source
+]
+The descriptions on this page are taken from the in-game achievement list; the descriptions on Steam (or other platforms) may be different.
+The Starting conditions column may denote the requirements for the starting characters, preventing the use of certain tricks or custom rulers.
+Achievements cannot be earned after the end date.
+The
+DI
+column indicates the achievement's difficulty level, as initially assigned by Paradox and later updated by the community.
+The difficulty levels are:
+VE
+= Very Easy,
+E
+= Easy,
+M
+= Medium,
+H
+= Hard,
+VH
+= Very Hard.
+Base game
+[
+edit
+|
+edit source
+]
+Achievement
+Starting conditions
+Requirements
+Notes
+DI
+500 Miles
+Own at least 100 locations with 5 roads each.
+Own at least 100 locations with 5 roads each
+France and Castile (after annexing Aragon) have enough locations to fullfill the criteria.
+H
+A Brave New World
+Discover the New World.
+Capital is
+not
+on the American continent
+Discovered any location on the American continent
+Play as Greenland.
+E
+A Cabinet of Curiosities
+Have a Cabinet Action of all three categories active at the same time.
+Have an active
+cabinet action
+in:
+Administration
+Diplomacy
+Military
+Play as a country with the Empire country rank to have 3 cabinet seats.
+E
+A Manchurian Candidate
+Start as a country with the Jurchen culture, become Emperor of China.
+Primary culture is Jurchen
+Is leader of the
+Middle Kingdom
+international organization
+Play as the Minor Tribe of Yehe, they are the strongest individual tribe with Jurchen culture. Break away from your Jurchen Confederation and wait for the
+Red Turban Rebellions
+, which has an event that breaks the Yuan subjugation of all Jurchen tribes. Once you are free, declare war on your former federation leader, Minor Tribe of Hada, and annex all their land to gain access to their Horse and Silver provinces in order to turbo boost your economy. From here focus on conquering as much land and subjugate as many tribes as you can. When you feel its time to fight Great Yuan (they are much weaker than one would imagine since all their vassals are disloyal), simply build a spy network and fabricate a CB to take the Mandate of Heaven and declare a war using that CB, it allows you to take control of the Middle Kingdom through the peace deal. Can be done before year 1450 without declaring a single no-CB war.
+H
+A Pile of Gold
+Own 35 locations which produce gold or silver.
+Own at least 35 locations producing either:
+Gold
+Silver
+The
+Great Yuán
+owns 33 locations that produce gold or silver at the start of the game. The neighboring
+Chagatai Horde
+is a good target for an early war of conquest as they, together with their subjects, own seven locations producing the required goods.
+Colonizing the gold-producing locations of the East Siberia region, which starts as Terra Incognita, is another option.
+The very easy way to get this achievement, would be to use the ''Settle Tribesman'' Cabinet Action in the provinces Shilka and Amur all the way in the North, on the Manchu-Mongolian Region border. Labourers start appearing when the province reaches 500 peasants. This should get you the achievement before the event fires that turns unintegrated Manchuria back to uncolonized.
+E
+All in Favor
+Pass a Parliament Issue.
+Passed a
+parliament
+issue
+Choose a parliament issue from the estate with the highest estate power and accept parliament agendas if needed.
+VE
+At Every Continent
+Own one location on each continent.
+Own at least one location on
+all
+the following continents:
+America
+Africa
+Asia
+Europe
+Oceania
+E
+Be In All The Clubs
+Belong to 6 International Organizations.
+Be a member in at least 6
+international organizations
+Franche-Comté
+begins as a member of four international organizations, with the ability to reliably bring the tally up to six within the first few years of a campaign by doing the following:
+forming a Defensive League with any willing nation;
+joining a faction in the
+Guelphs and Ghibellines
+situation. For this, declare an early war to secure a province in the Italy region, integrate it, core it by accepting its dominant culture, and make it your capital.
+H
+Break the Yoke
+Break the Tatar Yoke as a Russian country.
+Is Golden Horde
+Is a member of the
+Tatar Yoke
+international organization
+Is a member of the
+Tatar Yoke
+international organization
+Muscovy has the most potential and flavor. They also start with a city, which gives them a lot of control and opportunity to grow strong literacy in the capital.
+M
+Brothers in Arms
+Be in a war with over 90% warscore as a secondary participant.
+In an on-going war:
+Is not the war leader
+Warscore is over 90%
+Play as a powerful country, wait for two weak countries to be at war and then intervene in the war.
+VE
+Cities Skylines
+Have 200 total building levels in one location.
+An owned location has at least 200 total building levels
+Make sure to develop your location and improve its rank to city.
+M
+City of Cities
+Own a core province with at least 100 development.
+Any core location has at least 100 development
+Great Yuán or Sultanate of Delhi offer the best starts.
+VE
+City of Man's Desire
+Starting as the Ottomans, conquer Constantinople and end the Rise of the Turks situation as the strongest Beylik.
+Is
+Ottomans
+Own Constantinople
+Win in "
+Rise of the Turks
+" situation
+E
+Cold War
+Have a war without any ongoing conflict for 2 years.
+In an on-going war:
+Nation's forces were not involved in a fight for at least 2 years.
+Starting as Ashikaga, wait for an event to get a casus belli against another daimyo. There will be one fight, but since you control the war goal, the enemy cannot raise any more levies, and war score will tick up. Eventually, 2 years will pass before war score reaches 100%.
+VE
+Combined Arms
+Have levies, an army, and mercenaries at the same time.
+Have units types that are:
+A levy
+An army
+A mercenary
+VE
+Crusader Kings
+Win a Crusade or a Jihad.
+Won a
+crusade
+or
+a jihad
+Start as Egypt, wait 1 month, then declare Jihad on Cilicia. Alternatively, start as Lithuania and win the initial war.
+M
+Doge Coins
+Starting as Venice, become the Economic Hegemon.
+Is
+Venice
+Is
+economic hegemon
+Focus on increasing monthly income from trade and tax until the Age of Discovery.
+You can use the Guilphs situation to fabricate claims and get CBs on a lot of italian tags, expanding your influence militarily.
+M
+Felix Austria
+Starting as Austria, become Emperor of the HRE and be a Great Power.
+Is
+Austria
+Is leader of the
+HRE
+international organization
+Is a great power
+Just improve relations and ally with the electors. You'll automatically be a great power when you become Emperor as it gives 250 great power score.
+Playing right you can get it in the first 10 years of the game.
+M
+For the Glory
+Diplomatically annex a subject.
+Annexed a subject diplomatically
+Play as a country that has subjects with high opinion (i.e. France or Great Yuán), raise the opinion of the subject with the highest opinion by giving them gifts, economic support, and market access preference, and then start the annexation.
+VE
+Grand Coalition
+Join a Coalition of more than 5 countries.
+Is in a coalition of more than 5 members
+Brabant often gets coalitioned in first 10 years of the game, can be combined with Je Maintiendrai
+E
+Hearts and Minds
+Improve the cultural opinion with another country.
+Improved the opinion of another country
+You must interact with the culture leader (can be checked out at culture map mode). Use 50 favors if it's an independent ruler or subject interaction if it's a vassal.
+E
+Here I Stand
+Convert to Lutheranism and unlock 3 Aspects of Faith.
+Belongs to the Lutheran religion
+Have 3 aspects of faith
+Lutheranism will only appear when the Reformation situation starts. Only countries that have Catholicism as their primary religion can convert to Lutheranism.
+VE
+Hóngwǔ Dì
+As Míng, own the entirety of China and be the leader of the Middle Kingdom.
+Is
+Yuán
+Is
+Míng
+Is leader of the
+Middle Kingdom
+international organization
+Own all locations in the following regions:
+North China
+South China
+West China
+Weaken Yuán as much as possible before the Red Turban Rebellions situation starts. Afterwards change country to Míng when the option is offered.
+M
+House for Hus
+Starting as Bohemia, win the Hussite Wars situation as Hussite.
+Is
+Bohemia
+Primary religion is Hussite
+Win the
+Hussite Wars
+situation
+Play with Historical AI to be sure Papal States will start the Hussite Wars situation. Then you need to survive for 30 years.
+M
+It Belongs in a Museum!
+Gain a new Work of Art.
+Gained a work of art
+Kingdom of Goryeo starts with 3 artists.
+E
+It's just Business
+Create a Market.
+Created a
+Market
+Right click on a market access icon in province view to create a market
+VE
+Je Maintiendrai
+Form the Netherlands as a minor nation starting with Dutch culture.
+Has a culture from the Netherlandish group
+Is
+Netherlands
+County of Flanders is very strong, but it might be not trivial to break from France.
+Brabant is the strongest independent contender
+Holland has the most flavor and unique advancements, but they have a disaster that happens at the same time as Black Death, so it might be tricky to deal with.
+M
+Just a Little Bit More Patience
+Play a campaign from 1337 until 1836.
+The year is at least 1836
+M
+L'État, C'est Moi
+Reach 100 Value for both Centralization and Absolutism.
+100 Centralization
+societal value
+100 Absolutism
+societal value
+Absolutism is only available during the Age of Absolutism. Court and Country provides plentiful increases of Centralization and Absolutism.
+H
+Lingua Franca
+As France, be the Cultural Hegemon.
+Is
+France
+Is
+cultural hegemon
+Focus on increasing Cultural Influence until the Age of Discovery.
+M
+Lion of the North
+Start as Sweden, ensure the victory of the Protestant League.
+Is
+Sweden
+Belongs to the Lutheran religion
+The
+HRE
+'s primary religion is Lutheran
+Lutheranism will only appear when the Reformation situation starts. Convert to Lutheranism and increase your score as much as possible to be chosen as the leader of the Protestant Union when the War of Religions situation starts. After 10 years you will unlock the casus belli.
+In version 1.0.8, do not establish Scandinavia. Because the leader of a religious war must be a member of the Holy Roman Empire, you can move your capital to territory within the Holy Roman Empire, such as Stettin, which will automatically grant you membership.
+M
+Moneytalks
+Become the Economic Hegemon.
+Is
+economic hegemon
+Focus on increasing monthly income from trade and tax until the Age of Discovery.
+M
+Patron of the Arts
+Invite an artist.
+Invited an artist to your country
+Begin as Castile and immediately use the ‘Invite Artist’ action on Portugal.
+VE
+Plus Ultra
+As Castile or Spain, have presence in Iberia, Maghreb, the Caribbean, Mesoamerica and Peru.
+Is
+Castile
+Is one of the following countries:
+Castile
+Spain
+The country has presence in the following
+regions
+:
+Iberia
+Maghreb
+Caribbean
+Mesoamerica
+Andes
+Though Peru is mentioned in the description, it is not a region; the achievement checks for presence in the Andes region instead.
+Spain
+is only eligible for this achievement if it was formed by
+Castile
+.
+E
+Potato Potato
+Starting as a European country, produce potatoes.
+Capital is on the European continent
+Any owned location produces potato
+Potatoes can only be found in the New World. Either colonise a producing province or use the Colombian Exchange situation.
+M
+Respected
+Have 100 Prestige, 100 Legitimacy, and 100 Stability.
+Have:
+100 Prestige
+100 Stability
+100 Legitimacy
+Will not work for countries that use a different Government Power resource (i.e. not monarchy).
+H
+Rule Britannia
+Starting as England, form Great Britain and be the Naval Hegemon.
+Is
+England
+Is
+Great Britain
+Is
+naval hegemon
+Focus on building heavy ships until the Age of Discovery.
+E
+Rule of Law
+Change a policy.
+Changed a policy
+VE
+Scientific Victory
+Have at least 450 Advances researched.
+Research 450 advances
+Increase your literacy, take institution as soon as possible and research earlier advances for reduced cost.
+M
+That is Mine!
+Conquer a location.
+Conquered a location
+VE
+The Navigator
+As Portugal, have presence in Africa, America, India and Indonesia before the Age of Reformation.
+Is
+Portugal
+Have a presence in
+all
+the following:
+Africa continent
+America continent
+South Asia sub-continent
+Indonesia region
+Colonization is relatively affordable, but exploration costs are high. Start early to outpace Castile and the Papacy in claiming the Azores and African islands. You cannot explore overseas before Age 3, but you can explore and colonize West African lands.
+To strengthen your economy, consider supporting Tlemcen against Morocco and Tunis - this will break the hugbox in the Maghreb and open opportunities for expansion.
+Castile is not always hostile, so if they are, you can restart until they appear friendly.
+M
+The Spice Must Flow
+Starting as a European country, trade in cloves.
+Capital is on the European continent
+Trade in cloves
+M
+The Three Mountains
+Form Ryukyu.
+Primary culture is Ryukyu
+Is
+Ryūkyū
+M
+Till Death Do Us Part
+Secure a Royal Marriage with another country.
+Have a royal marriage
+VE
+Total Control
+Have 20 Locations with 100% control.
+Have 20 locations with 100% control
+Build up cities relatively close to your capital and use the Increase Control cabinet action.
+H
+True Heir of Timur
+Having had Timur as the ruler of your country, form the Mughal Empire.
+Is
+Mughal
+Had Timur as a ruler
+Barlas start provides an event that allows to switch to Timurids. With their unique conquest mechanic it's not a problem to get a big chunk of India. The biggest issue is AE that still fully generates from the occupied provinces.
+IMPORTANT: you need to wait until Timur dies and the event Death of Timur (2% trigger after Timur dead, gives 10 prestige)  before forming the country.
+Note that the decision to form it won't show up until you move your capital to Delhi.
+H
+Victorious!
+Win a war.
+Won a war
+Play as a great power and declare war on the weakest neighbor.
+VE
+Welfare State
+Have a market of your country with a full stockpile of at least 20.000 food.
+Have any market in the country with:
+At least 20000 food
+Full food stockpile
+Can be obtained from the start by playing as Great Yuan.
+H
+What a Great Guy
+Be present on every subcontinent.
+The country has a presence on the following
+subcontinents
+:
+In Asia:
+East Asia
+North Asia
+Central Asia
+Middle East
+South Asia
+South East Asia
+In Oceania:
+Pacific Islands
+Australasia
+In America:
+North America
+South America
+In Africa:
+North Africa
+Western Africa
+East Africa
+Central Africa
+Southern Africa
+In Europe:
+Western Europe
+Eastern Europe
+It is highly recommended to play as a colonizer (England, France, Castile, Portugal).
+The following subcontinents are
+not
+required:
+North Atlantic Ocean
+South Atlantic Ocean
+Indian Ocean
+North Pacific Ocean
+South Pacific Ocean
+Antarctic Ocean
+VH
+What the Lord Giveth
+Start with 8 privileges enacted for the Nobility, then remove all of them.
+The Nobility estate has at least 8 privileges
+The Nobility estate has 0 privileges
+France, Ashikaga, and Serbia begin with eight or more privileges enacted. Ashikaga is the easiest as they have no vassals, no natural enemies, and receive lots of events that boost Samurai estate satisfaction, Stability, and Centralization.
+Due to a quirk in how conditions are checked, the achievement will not trigger if the Nobility estate had less than eight privileges at the time of loading the save, even if it had the required amount at game start.
+Ashikaga (Japan) has an event in febuary 1338 which enables them to play as a pirate republic completing the achievement.
+VE
+References
+[
+edit
+|
+edit source
+]
+Europa Universalis V
+Game
+Achievements
+•
+Features
+•
+Game rules
+Guides
+Beginner's guide
+•
+Europedia
+•
+Keyboard shortcuts
+•
+Map modes
+•
+Tutorial videos
+•
+User interface
+Development
+Developer diaries
+•
+Downloadable content
+•
+Patches
+Community
+Easter eggs
+•
+Jargon
+•
+Modding
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=Achievements&oldid=21673
+"

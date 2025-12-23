@@ -1,0 +1,494 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-64-21st-of-may-2025.1756210/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #64 - 21st of May 2025
+Thread starter
+SaintDaveUK
+Start date
+May 21, 2025
+Hello, and welcome to another Tinto Talks for Europa Universalis V.
+This one is a little bit special, as it’s the first time we will go into depth on one of the visual systems that we have in the game.
+Bear in mind this is all WIP, but as always feedback is welcome.
+Armies are one of the most important features in the game, and certainly combat is one of the most exciting things to interact with. So we thought it was important to get the feeling just right.
+Unlike in previous games, armies appear as groups composed of multiple individual soldiers. The number of soldiers reflects the size of the armies. The median army size is about 15 models, however they do range from a minimum of 1 soldier to a maximum is 30 in very extreme cases.
+Each soldier model is the representation of a specific regiment in your army, and aside from reflecting your country in its colors, it also reflects that specific regiment’s unit type, culture, and ethnicity. This means that a unit model will have appropriate weaponry for their unit type (for example crossbowmen vs archers), but also that multiethnic empires will visibly have diverse armies in terms of uniform style and skin color.
+Units are further randomised by picking random texture materials for each component. It might be as simple as swapping leather for cloth, or it might even be changing the pattern that the cloth uses.
+In general we have approached the idea of having 3 tiers of troops per age to represent the weight of the unit: peasant, soldier, knight.
+Although some features are exaggerated to be visible from the distant camera we use ingame, unit models are always closely based on real references. Historical authenticity is the key to all our artistic decisions and that includes here.
+Units will adopt a new visual Age only when they are upgraded to a unit from that age. So your units won’t instantly swap to Age of Reformation clothing the moment you enter the Age of Reformation, you will first need to embrace the relevant Institutions, research the relevant advances, and then upgrade your regiments.
+Here is an example of how European peasant levies develop through the ages.
+And some examples of professional soldiers:
+Units appearance is also modified by a hidden system we call Uniformity, which is essentially a calculation of Discipline, Experience, Army Tradition, and whether they are Levies or Regular Troops. As a regiment gains uniformity, they will gradually progress towards the “Ideal” look for your country, which is generated from your Primary Culture. Most countries Ideal is randomly generated, but some are specifically designed to appear historical.
+Historically speaking, most peasant levies were not pitchfork wielders but were typically outfitted with a minimum of cheap weaponry and often a helmet. With the Uniformity, we represent the full range: from squishy farmers to ironclad gendarmes. As they climb higher up the Uniformity scale, the more they will draw from the Soldier pool of assets, taking a helmet here, a polearm there, until they are fully outfitted for war.
+Furthermore, some elements will look fancier if you have higher uniformity, for example raw leather straps get blackened or whitened, and some wigs might get powdered.
+Foreign culture units in your employ will gradually adopt elements of your primary culture's clothing as the become more uniform.
+As they march across the world map, the audio will reflect the visuals; you will be able to hear the size of the army but also the equipment of the individual soldiers. Peasants wearing light cotton tunics will sound different from plate troops brandishing steel.
+EU5 will release with 7 main graphical archetypes . As well as impacting unit appearance, archetypes are also the primary way we have divided several other parts of the game, such as character portraits, city buildings, event illustrations, and UI skins. These archetypes are:
+Central American
+East Asian
+European
+Middle Eastern
+North American
+South Asian
+Subsaharan African
+Here's some examples of some non-European units, though some of these are still lacking a little bit of the polish that we have on the Europeans:
+And finally, remember to wishlist
+Europa Universalis V
+now! Until next time!
+Attachments
+Screenshot 2025-05-21 120052.png
+2 MB
+· Views: 0
+Screenshot 2025-05-21 115935.png
+2,2 MB
+· Views: 0
+Screenshot 2025-05-21 115656.png
+1,8 MB
+· Views: 0
+Screenshot 2025-05-21 115428.png
+1,7 MB
+· Views: 0
+308
+121
+7
+3
+1
+1
+Reactions:
+Reply
+Report
+Written by
+SaintDaveUK
+Art Lead @ Tinto
+Paradox Staff
+120 Badges
+Messages
+1.521
+Reaction score
+39.660
+1
+2
+3
+…
+Go to page
+Go
+19
+Next
+1 of 19
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+So_MeOne
+Second Lieutenant
+Aug 3, 2020
+121
+1.880
+May 21, 2025
+Add bookmark
+#2
+Finally, battles will not look like it's just two dudes shooting at each other... Now, there are way more dudes!
+90
+29
+8
+1
+Reactions:
+Reply
+Report
+Soselo
+Obergruppenführer of PSOE
+Feb 3, 2019
+59
+256
+May 21, 2025
+Add bookmark
+#3
+Interesting...
+7
+2
+1
+Reactions:
+Reply
+Report
+Kotyk-durkotyk
+Colonel
+23 Badges
+May 26, 2024
+1.137
+15.631
+May 21, 2025
+Add bookmark
+#4
+I'm really hoping to see one day the Ukrainian Cossack unit pack like from this eternal classics of strategy games!
+As well as other units from the series ofc for nostalgic guys from other countries.
+(
+Cossacks
+:
+European wars
+from 2001, for youngsters)
+Last edited:
+May 21, 2025
+Toggle signature
+Check out my EU5 threads:
+Ruthenia and Steppe Fix
+–
+my EU5 Mod
+with historical corrections for the Ruthenian and Steppe Regions
+Ruthenian / Cossack / Ukrainian Content Pack
+Orthodoxy Needs a Full Rework in EU5
+51
+19
+2
+Reactions:
+Reply
+Report
+GenericUsername1444
+Colonel
+Jun 25, 2024
+805
+10.781
+May 21, 2025
+Add bookmark
+#5
+Imperator chads... we won.
+Toggle signature
+Professional Georgian
+67
+31
+11
+5
+1
+Reactions:
+Reply
+Report
+D
+Dongerino
+Evropa's Gemmiest Herald
+43 Badges
+Jun 27, 2015
+1.131
+10.921
+May 21, 2025
+Add bookmark
+#6
+Is that the new Imperator-style heightmap I see in the header pic? <3
+49
+1
+Reactions:
+Reply
+Report
+FleetingRain
+Field Marshal
+58 Badges
+Aug 2, 2014
+4.546
+13.367
+May 21, 2025
+Add bookmark
+#7
+We're already at the graphics DD? So the game's coming out in two weeks, nice
+Last edited:
+May 21, 2025
+45
+4
+2
+1
+Reactions:
+Reply
+Report
+Daniel the Finlander
+Colonel
+61 Badges
+Feb 2, 2016
+1.064
+8.242
+May 21, 2025
+Add bookmark
+#8
+Is this the new heightmap Johan said that was implemented? Looks great
+Toggle signature
+modder and a lover of mods
+eu5 > imperator > eu4
+EU5 mod: Historically Accurate Courland
+EU5 mod: Historically Accurate Finland
+116
+22
+7
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+May 21, 2025
+Add bookmark
+#9
+FleetingRain said:
+We're already at the graphics DD? so the game's coming out in two weeks, nice
+Click to expand...
+Achievements next week, changelog in two and game release on the third?
+33
+4
+1
+Reactions:
+Reply
+Report
+LordThanatos
+Major
+95 Badges
+Sep 15, 2018
+634
+8.786
+May 21, 2025
+Add bookmark
+#10
+Don't you hate when you're the one guy to bring the wrong hat to a LARP meetup?
+Toggle signature
+Proposals to improve how Catholicism is represented:
+Fixing Mechanics around The Papal States and Catholicism
+Feedback on Protestantism:
+Initial Feedback
+Make Eastern Christian Patriarchs extraterritorial.
+Feedback on non-Buddhist Dharmic Religions:
+Initial Feedback
+,
+More Feedback
+Feedback on Islam:
+Incorrect Religious Schools
+,
+Dhimmi
+,
+Other Ideas
+89
+11
+1
+1
+Reactions:
+Reply
+Report
+LysanderSage100
+Lt. General
+4 Badges
+Mar 27, 2024
+1.302
+6.907
+May 21, 2025
+Add bookmark
+#11
+Jesus Christ these look good
+29
+5
+1
+Reactions:
+Reply
+Report
+High Speed Flying Gladius
+Major
+Jul 28, 2022
+685
+3.355
+May 21, 2025
+Add bookmark
+#12
+HEIGHTMAP HEIGHTMAP HEIGHTMAP!
+Somewhat Common Imperator W.
+Toggle signature
+Do not mistake the finger for the Moon.
+Currently writing a megacampaign AAR.
+Weekly AAR Showcase - May 13 2024/ Aug 20 2025.
+WritAAR of the Week - May 5 2024/ Dec 2 2024.
+Best Character Writer of the Week - Nov 7 2024/ Oct 19 2025.
+3rd-place Q3 2024 ACAs
+Inkwell!
+This new "reading" mechanic sounds kinda op tbh. I hope paradox will nerf it before release.
+Please keep politics to the Balkans feedback thread.
+28
+5
+3
+Reactions:
+Reply
+Report
+GenericUsername1444
+Colonel
+Jun 25, 2024
+805
+10.781
+May 21, 2025
+Add bookmark
+#13
+It is rather regrettable that you haven't made a specific archetype for eastern Europe...
+@Muntril
+has made some great concept art about the region.
+Unit Render Concepts
+Greetings! There's been lots of discussion on the forums over 2D art and the 3D character renders, but not so much on good ol' unit renders. I hope this is a topic distinct enough to remain separated from the 3D megathread seeing as that one is...
+forum.paradoxplaza.com
+Toggle signature
+Professional Georgian
+39
+6
+2
+Reactions:
+Reply
+Report
+SAS
+20+ Years on the Forum
+Moderator
+205 Badges
+Jan 13, 2002
+9.273
+1.122
+May 21, 2025
+Add bookmark
+#14
+Any option to just use a single soldier per army or counters?
+Toggle signature
+-  O God of battles, steel my soldiers' hearts; Posses them not with fear. -
+Henry V
+-  When I have a
+Yellow
+bordered post it's as a Moderator.  Please review the
+Community Code of Conduct
+.
+Reply
+Report
+M
+Muntril
+Second Lieutenant
+6 Badges
+Jun 3, 2017
+127
+1.061
+May 21, 2025
+Add bookmark
+#15
+I’ve been waiting for this!!! The unit models are gorgeous, and I’m really impressed with how ambitious you guys were with these. I can’t wait to see all the finished results!
+Toggle signature
+My fan concept art for Project Caesar units (pre-EU5 announcement):
+Unit Render Concepts
+Discussion on future of culture graphics:
+Which Cultural Archetypes Should Come Next
+12
+1
+Reactions:
+Reply
+Report
+Tercio Soldier
+Major
+58 Badges
+Feb 25, 2020
+568
+4.336
+May 21, 2025
+Add bookmark
+#16
+What does
+SaintDaveUK said:
+Most countries Ideal is randomly generated, but some are specifically designed to appear historical.
+Click to expand...
+What does this mean?
+7
+Reactions:
+Reply
+Report
+So_MeOne
+Second Lieutenant
+Aug 3, 2020
+121
+1.880
+May 21, 2025
+Add bookmark
+#17
+SaintDaveUK said:
+This means that a unit model will have appropriate weaponry for their unit type
+Click to expand...
+If so, I hope we will be able to see cannons in the back row!
+19
+1
+1
+Reactions:
+Reply
+Report
+D
+Davincie
+Captain
+80 Badges
+Feb 5, 2020
+323
+1.952
+May 21, 2025
+Add bookmark
+#18
+You say they represent nations in their uniform colours. How are those colours picked? From the flag or actual historical uniform colours? Can those colours change by age or gov type or does a nation always have the same colour?
+10
+Reactions:
+Reply
+Report
+Al-Khalidi
+General
+1 Badges
+Sep 23, 2020
+1.765
+10.564
+May 21, 2025
+Add bookmark
+#19
+Noice! Do we know already which countries would receive special unit look? Or maybe that will be for special units, like those displayed in dev diaries already?
+6
+Reactions:
+Reply
+Report
+M
+Muntril
+Second Lieutenant
+6 Badges
+Jun 3, 2017
+127
+1.061
+May 21, 2025
+Add bookmark
+#20
+GenericUsername1444 said:
+It is rather regrettable that you haven't made a specific archetype for eastern Europe...
+Click to expand...
+I was a little surprised by this too, but hopefully it’s one of the first groups post release to get an update.
+Toggle signature
+My fan concept art for Project Caesar units (pre-EU5 announcement):
+Unit Render Concepts
+Discussion on future of culture graphics:
+Which Cultural Archetypes Should Come Next
+25
+2
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+19
+Next
+1 of 19
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

@@ -1,0 +1,203 @@
+Source URL: https://eu5.paradoxwikis.com/Map_modes
+Source Date: 2025-11-09
+
+This article has been verified for the current
+version
+(1.0) of the game.
+Europa Universalis 5
+User interface
+Ingame screen
+Country interface
+Location interface
+Ledger
+The map mode decides what is shown on the world map. The default map mode when a game is started or loaded is
+Terrain
+.
+Government map modes
+[
+edit
+|
+edit source
+]
+Terrain: Displays terrain. This is especially important when deciding where we want to engage in combat, as some topography and vegetation impact the result.
+Political: Each nation is colored with its specific nation color. Stripes indicate location with a controller that is not the owner.
+Building Based Countries: Shows only building based countries.
+Pop Based Countries: Shows only pop based countries.
+Army Based Countries: Shows only army based countries.
+Government Types: This colors the locations depending on the color of its owner's
+government type
+.
+Country Ranks: This colors the locations depending on the
+country rank
+of their owners.
+Dynasty: This colors the locations depending on the ruling dynasties and displays the names of those dynasties.
+Court Language: This colors the locations, depending on the court language of the owner.
+Integration: This colors the locations depending on their level of
+integration
+by their owner.
+Stability: Each country is colored from red to green depending on how much
+stability
+it has.
+Economy map modes
+[
+edit
+|
+edit source
+]
+Tax Base: This colors the locations depending on their owner's tax base.
+Development: This colors the locations depending on their
+development
+, where the highest development in the world is the brightest green.
+Prosperity: This colors the locations depending on their
+prosperity
+, which gives a green shade when positive, or a red shade when negative.
+Location Ranks: Shows towns and cities. Towns are colored silver and cities are colored gold.
+Raw Materials: This colors the locations, depending on what raw goods they produce.
+Province Food: This colors the locations depending on their monthly food. Shades of green indicate if the province is buying food, selling food or starving.
+Food Productivity: This colors the locations depending on the food productivity. Shades of green indicate a positive productivity, with shades of red indicating negative productivity.
+Control: This colors the locations depending on the
+control
+that its owner can exert over it.
+Proximity to Capital: This colors the locations depending on the proximity to the capital of the selected country.
+Roads: Colors the locations if any
+road
+is present there.
+Markets: This gives each location the color of which market it belongs to, while the shade of the color indicates the market access of the location.
+Market Languages: This colors the locations depending on the market language of its market.
+Society map modes
+[
+edit
+|
+edit source
+]
+Population Satisfaction: This colors the locations depending on the average pop satisfaction, from red to green.
+Population: Each location is colored from red to green depending on how much
+population
+it has, compared to the highest populated location. Stripes indicate location where the population exceeds the population capacity.
+Majority Social Class: Each location is colored according to its most numerous type of pop, i.e. its dominant
+social class
+.
+Migration: This colors the locations depending on their migration attraction, which gives a green shade where pops want to move to, and a red shade where they want to leave.
+Rebels: Colors the
+rebel
+factions of a location closest to taking up arms there. The colors are the same as in the Location Cultures map mode.
+Nobles: Each location is colored from red to green depending on how many Nobles it has, compared to the location that has the most.
+Clerics: Each location is colored from red to green depending on how many Clerics it has, compared to the location that has the most.
+Burghers: Each location is colored from red to green depending on how many Burghers it has, compared to the location that has the most.
+Labourers: Each location is colored from red to green depending on how many Labourers it has, compared to the location that has the most.
+Soldiers: Each location is colored from red to green depending on how many Soldiers it has, compared to the location that has the most.
+Peasants: Each location is colored from red to green depending on how many Peasants it has, compared to the location that has the most.
+Tribesmen: Each location is colored from red to green depending on how many Tribesmen it has, compared to the location that has the most.
+Slaves: Each location is colored from red to green depending on how many Slaves it has, compared to the location that has the most.
+Demography map modes
+[
+edit
+|
+edit source
+]
+Location Cultures: This colors each location by the color of its dominant culture.
+Culture Groups: This colors each location by the culture group color of its dominant culture.
+Country Culture: This colors each country by the culture group color of its dominant culture.
+Language Families: This colors the locations depending on the language family of their dominant language.
+Dominant Languages: This colors the locations depending on their dominant language.
+Language Power: This colors the locations depending on the language power of their dominant language.
+Dominant Dialects: This colors the locations depending on their dominant language dialect.
+Common Languages: This colors the locations depending on the common language of their owner.
+Liturgical Languages: This colors the locations depending on the liturgical language of their owner.
+Country Religions: This colors each country by the color of its religion.
+Location Religions: This colors each location by the color of its dominant religion.
+Location Religion Group: This colors each location by the religion group color of its dominant religion.
+Holy Sites: This colors the locations depending on where
+holy sites
+are located.
+Works of Art: This colors each location by the number and quality of
+works of art
+present.
+Literacy: This colors each location by the average
+literacy
+present.
+Institutions: This colors the locations depending on how many
+institutions
+they have.
+Diplomacy map modes
+[
+edit
+|
+edit source
+]
+Diplomacy: This colors the locations depending on their owner's used diplomatic capacity towards the selected country, where dark grey indicates that they are outside their diplomatic range. Stripes indicate if the selected country has a core on it.
+Opinion: This colors the locations depending on their owner's opinion towards the selected country.
+Great Powers: This colors each country by its
+great power
+rank.
+Power Projection: Colors countries by power projection relative to the selected country.
+Antagonism: This colors the locations depending on their owner's antagonism towards the selected country.
+War: Any country at war with the selected country is colored red, while those fighting together with them are green. Occupation is striped in the opposite color.
+Truces: Colors countries the selected country has
+truce
+with.
+Players: This colors the locations depending on the human players and shows the players' names above their played countries. This primarily useful in multiplayer games.
+Victory Cards: This colors the locations depending on whether there is a victory card on them or not.
+Military map modes
+[
+edit
+|
+edit source
+]
+Tactical: Indicates which locations have more defensive bonus, depending on climate and topography.
+Fortifications: This colors the locations, depending on the diplomatic status with fort owners. Green locations indicate friendly forts, red locations indicate war enemy forts, and yellow locations indicate neutral forts.
+Supply: This colors the locations depending on their supply limit. If no army is selected, red indicates a low supply limit, yellow indicates medium supply limit and green indicates a high supply limit. When an army is selected, locations which cannot support the selected army are red, while those that can are green. A location that can just barely support the selected army is colored yellow.
+Military Access: Colors locations the selected country has military access to.
+Geopolitics map modes
+[
+edit
+|
+edit source
+]
+Diseases: Colors the locations by
+disease
+prevalence.
+Maritime Presence: This colors coastal locations and adjacent sea zones by the maritime presence the selected country has in the adjacent sea zone.
+Natural Harbor Suitability: This colors the locations, depending on how well the coastline lends itself to being a harbor.
+Harbor Capacity: This colors the locations depending on the capacity of harbors.
+Naval Range: This colors coastal locations and sea zones from yellow to green when they are well within the naval range of our country and red to black when they are out of our range.
+Privateering: This colors the locations depending on whether there is a privateer on them or not.
+Colonial: This colors the locations owned by the selected country in green, foreign locations with their buildings in cyan, and their colonial charters in blue.
+Geography map modes
+[
+edit
+|
+edit source
+]
+Locations: Shows individual
+locations
+.
+Provinces: Shows individual provinces.
+Areas: Shows individual areas.
+Regions: Shows individual regions.
+Subcontinents: Shows individual subcontinents.
+Continents: Shows individual continents.
+3D Map: Shows the map without any information.
+Topography: This colors the locations depending on what
+topography
+they have.
+Vegetation: This colors the locations depending on what
+vegetation
+they have.
+Climate: This colors the locations depending on what
+climate
+they have.
+Winter: This colors the locations depending on how much
+winter
+they currently experience.
+Dangers: Colors the locations depending on if there are volcanoes or earthquake risks there.
+Current Weather: This colors the locations depending on what strength of weather system affects the location.
+References
+[
+edit
+|
+edit source
+]
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=Map_modes&oldid=15489
+"

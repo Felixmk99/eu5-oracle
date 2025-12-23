@@ -1,0 +1,470 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-61-30th-of-april-2025.1738380/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #61 - 30th of April 2025
+Thread starter
+Pavía
+Start date
+Apr 30, 2025
+Hello, and welcome to another Tinto Talks, the happy Wednesdays where we talk about our entirely super-top-secret game with the codename Project Caesar.
+This week, we will examine the mechanics of
+Protestant
+religions and the final situation involving all Western Christian confessions, the
+War of Religions
+.
+First is first, we differentiate the 3 main Protestant religions:
+Lutheranism
+,
+Calvinism
+, and
+Anglicanism
+. All the different branches of Protestantism, more or less strictly covered under these wide denominations, are later represented through Church Aspects, a mechanism we’ll describe now. The underlying system here is for every player to be able to customize their own Protestant Church. As an example, the early Anglican Church funded by Henry VIII was very different from the Anglican Church that developed in times of James I, and the further division that then happened with the Puritans; we aim to portray dynamically these theological aspects with Church Aspects, therefore.
+Let’s take a look at a Lutheran country first:
+I’m using the same save as last week’s TT. The Reformation was born in Perugia, and after a couple of years, it has already spread to some countries, of which Denmark is the biggest.
+Here is the overview of Lutheranism and its religious panel:
+Similarly to Catholicism, and other religions, it also uses Religious Influence as a currency:
+This currency is used to add or change Religious Aspects to your Church, and it also allows us to perform Religious Actions (of which we can’t currently perform any, as we don’t fulfill any of their triggers).
+Let’s take a look now at the Religious Aspects, which define each Protestant Church:
+There are plenty of Aspects, that can be either shared between the different Protestant religions, or be unique to them. This is the list of all the aspects available to Lutheran churches:
+And this is what it looks like when you decide to pick one of them:
+The base number of Religious Aspects that define each Church is 3, although this is subject to review, as usual. And it is possible to have entirely different and unique aspects per religion, since it’s a scriptable/moddable feature. Furthermore, Religious Aspects can have an impact on the relations a country has with others who use Religious Aspects. Since the aspects are partially shared between the faiths, this could lead to unlikely friendships… and hostilities.
+Let’s now move on to the next religion, Calvinism, which is quite similar in structure to Lutheranism. It also spawns during the Reformation situation, it also has Calvinist Preachers that spread it, and it also uses Religious Aspects and Actions:
+Fun fact, Calvin has ended up being the Bishop (=ruler) of Basel in our save game!
+​
+Finally, we have Anglicanism. This Protestant religion doesn’t trigger through the situation, but as an event for England that may trigger after the Reformation is active:
+Ignore the broken loc, it appears like that because I used a console command to trigger it.
+​
+If we decided to Take command of the Church, a new religion will be created:
+This is its overview and panel; Anglicanism starts with some more Religious Actions available:
+Last, but not least, we have a couple of religions that also share the religious aspects, but are not necessarily tied to the Reformation situation. This includes Lollardy and Hussitism, which will be created together with their corresponding reformer, and the earlier catholic heresies of Bogomilism, Catharism, Paulicianism, and Waldensian.
+The last feature we’re going to take a look at today is another situation, the War of Religions. This is the ending to all the narratives related to the Catholic and Protestant Churches, a fight for the religious supremacy over Europe, centered over the Holy Roman Empire, with the Thirty Years' War as inspiration:
+​
+Two International Organizations will be created, the Protestant Union and the Catholic League:
+And this is the panel for the situation, which both sides, their relative strengths, the possibility to join one side or the other, etc.:
+An inconclusive result may lead to the negotiation of the Peace of Westphalia between the members of both Leagues and will alter the religious laws of the Holy Roman Empire.
+​
+… And that’s all for today! Next week,
+@Johan
+will come back once again to show more of the most recent changes and tweaks in the game. Cheers!
+153
+64
+9
+5
+4
+Reactions:
+Reply
+Report
+Written by
+Pavía
+Content Design Lead PDX Tinto
+Paradox Staff
+12 Badges
+Messages
+4.509
+Reaction score
+192.684
+1
+2
+3
+…
+Go to page
+Go
+23
+Next
+1 of 23
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+W
+wex2010
+Recruit
+64 Badges
+Sep 18, 2018
+5
+6
+Apr 30, 2025
+Add bookmark
+#2
+Pavia on timee!!
+6
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Apr 30, 2025
+Add bookmark
+#3
+Allow me to stamp my 95 complaints about this DD.
+1) Not enough blackjack
+2) Not enough hookers
+3) you know what? Screw this
+imma go start my own religion. I  mean, DD
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+44
+11
+2
+Reactions:
+Reply
+Report
+Goldchruzi
+Swedish Goth & Vandal Fanatic
+45 Badges
+Apr 22, 2020
+72
+734
+Apr 30, 2025
+Add bookmark
+#4
+GUSTAVUS ADOLPHUS, LIBERA ET IMPERA! Looking forward to seeing the 30-years war in action. Hoping switching sides will be possible as it historically happened.
+Toggle signature
+EU5:
+Gothic Culture Fix
+(WIP)
+If you mention the East Germanic tribes, I will appear faster than the goat-drawn chariot of Fairguneis flies across the skies above.
+31
+3
+Reactions:
+Reply
+Report
+Katana500
+Captain
+37 Badges
+Dec 4, 2015
+349
+1.474
+Apr 30, 2025
+Add bookmark
+#5
+Will certain tags be more likely to convert to Lutheran or Calvinist
+For example Scotland and Netherlands for Calvinist
+And Scandinavian tags for Lutheran
+29
+1
+Reactions:
+Reply
+Report
+D
+Dongerino
+Evropa's Gemmiest Herald
+43 Badges
+Jun 27, 2015
+1.131
+10.921
+Apr 30, 2025
+Add bookmark
+#6
+When does the religious war happen? I hope it's a 1620s thing, not a 1550 thing like in EU4
+28
+12
+Reactions:
+Reply
+Report
+GenericUsername1444
+Colonel
+Jun 25, 2024
+805
+10.781
+Apr 30, 2025
+Add bookmark
+#7
+As terrible the religious wars were, at least there were no power cuts back then
+Toggle signature
+Professional Georgian
+26
+3
+Reactions:
+Reply
+Report
+S
+SDP101
+Corporal
+Nov 1, 2024
+29
+110
+Apr 30, 2025
+Add bookmark
+#8
+Wow this looks really fun, and looking forward to the characters embroiled in these events not just being text on a pop up
+6
+2
+Reactions:
+Reply
+Report
+Goblin Slave
+Goblin
+58 Badges
+Jul 6, 2018
+188
+2.402
+Apr 30, 2025
+Add bookmark
+#9
+Do doctrinal differences between different churches effect their relationship at all? IRL the main fissure between Calvinism and Lutheranism was over communion, but it would be cool if they could dynamically split over another issue like adult baptism. (More differences, worse relations with other churches)
+Last edited:
+Apr 30, 2025
+23
+1
+Reactions:
+Reply
+Report
+R
+RMS Oceanic
+Field Marshal
+49 Badges
+Jan 27, 2014
+2.807
+4.873
+Apr 30, 2025
+Add bookmark
+#10
+Is the League War still hardcoded around what will now be Lutheranism, or can the other post-1054 faiths win out if you cultivate enough influence or military power? I'm just thinking of how painful that Hussite HRE achievement was.
+11
+1
+Reactions:
+Reply
+Report
+D
+Dan29067
+First Lieutenant
+May 31, 2024
+207
+1.092
+Apr 30, 2025
+Add bookmark
+#11
+A shining example of tolerance
+Last edited:
+Apr 30, 2025
+36
+3
+2
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Apr 30, 2025
+Add bookmark
+#12
+Can Lutherans and Calvinists obtain their own holy sites or are those shared between all Christian religions?
+13
+1
+Reactions:
+Reply
+Report
+livebythecreed77
+Colonel
+44 Badges
+Jul 29, 2015
+920
+4.465
+Apr 30, 2025
+Add bookmark
+#13
+Good to see you back posting! Such an upgrade to Eu4.
+7
+2
+Reactions:
+Reply
+Report
+Floatserve
+Idealist
+35 Badges
+Mar 5, 2012
+667
+518
+Apr 30, 2025
+Add bookmark
+#14
+Can someone explain to me what the icon of war sermons depicts? I see a yellow fish with red fins and goggles.
+4
+3
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Apr 30, 2025
+Add bookmark
+#15
+Are the religious aspects still a free to mix and match and replace, or are you stuck with them once you've reached whatever maximum possible you'll decide upon?
+10
+1
+Reactions:
+Reply
+Report
+Mef
+Field Marshal
+19 Badges
+Feb 4, 2010
+3.482
+11.153
+Apr 30, 2025
+Add bookmark
+#16
+Pavía said:
+And this is the panel for the situation, which both sides, their relative strengths, the possibility to join one side or the other, etc.:
+View attachment 1287584
+​
+Click to expand...
+Why does it say "Protestant Pops" and "Catholic Pops"? A pop is just an in-game unit that can have any number of people, there aren't actually 48 million different pops. Shouldn't it be "Protestant Population" and "Catholic Population"?
+22
+5
+1
+Reactions:
+Reply
+Report
+ArVass
+Dinosaur Hunter
+27 Badges
+Apr 4, 2016
+2.296
+12.720
+Apr 30, 2025
+Add bookmark
+#17
+>no separate Unitarians
+>no separate Anabaptists
+Toggle signature
+Justice for Anabaptists!
+Justice for Unitarians!
+Split the Nigerian language!
+Bosnia was a vassal of Hungary in 1337
+31
+23
+11
+1
+Reactions:
+Reply
+Report
+LordThanatos
+Major
+95 Badges
+Sep 15, 2018
+634
+8.786
+Apr 30, 2025
+Add bookmark
+#18
+I'm not a huge fan of using "Lutheran" and "Calvinist" when those were labels applied to the reformist movements by the Catholic church, and were even disliked by Martin Luther and John Calvin, themselves. While the terms are more readily accepted by some members of said denominations today, it would be far better to use the terms they preferred, that being Evangelical and Reformed, respectively (Continental Reformed to be specific, as Anglicanism is also a Reformed denomination).
+You might get away with it for Lutheran as it describes the denomination only. Calvinism, however, is not a denomination, it's more specifically a particular Soterial view which is a part of some Reformist denominations. It'd also be wrong not to show that the Reformist denomination was already separate under Huldrych Zwingli before Calvin became a prominent Reformed theologian.
+As for the content, I was wondering if some of the major events of the reformation are present, like the Marburg Colloquy? Another question, which I'd asked in the Military Order TT is whether the Teutonic Order and Knights Hospitaller have mechanics to represent their historical splits during the reformation, creating protestant (More specifically Evangelical) military orders?
+Other than Evangelical and Reformed, are other early protestant divisions present? The Swiss brethren and Anabaptism, in particular? Currently you're portraying two Reformed denominations, one Evangelical, and all of these are from what's called the Magisterial Reformation, meaning you have no representation of any denominations from the Radical Reformation.
+Last edited:
+Apr 30, 2025
+Toggle signature
+Proposals to improve how Catholicism is represented:
+Fixing Mechanics around The Papal States and Catholicism
+Feedback on Protestantism:
+Initial Feedback
+Make Eastern Christian Patriarchs extraterritorial.
+Feedback on non-Buddhist Dharmic Religions:
+Initial Feedback
+,
+More Feedback
+Feedback on Islam:
+Incorrect Religious Schools
+,
+Dhimmi
+,
+Other Ideas
+52
+14
+9
+5
+Reactions:
+Reply
+Report
+Mef
+Field Marshal
+19 Badges
+Feb 4, 2010
+3.482
+11.153
+Apr 30, 2025
+Add bookmark
+#19
+Dan29067 said:
+View attachment 1287608
+Shining example of tolerance
+Click to expand...
+Protestants are Christian fundamentalists, why would they be tolerant?
+9
+9
+2
+Reactions:
+Reply
+Report
+I
+Irredentista
+Corporal
+Jul 10, 2024
+35
+278
+Apr 30, 2025
+Add bookmark
+#20
+Do you have to be a member of the empire to join the religious leagues? What about all the other countries?
+Also, is there any practical difference/unique feature at this stage between the protestant and protestant-adjacent faiths? (Other than Anglicanism?)
+5
+2
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+23
+Next
+1 of 23
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

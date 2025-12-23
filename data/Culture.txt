@@ -1,0 +1,1841 @@
+Source URL: https://eu5.paradoxwikis.com/Culture
+Source Date: 2025-12-12
+
+Please help with verifying or updating older sections of this article.
+At least some were last verified for
+version
+pre-release.
+A country with a large number of cultures
+A Culture is a group of people who share a sense of kinship. Each Culture possesses a
+Language
+, which it may share with other cultures.
+Many cultures belong to one or more culture groups. Countries whose primary culture is part of the same group will gave a small
+Opinion bonus to each other but this does not stack if they share multiple culture groups. Empires that have the most pops in the world with the same culture as their primary culture can unify all cultures from one of their primary culture's culture groups via the Unify Culture Group
+cabinet
+action.
+Pops of other cultures will assimilate over time into the primary culture. The assimilation speed depends on the culture war power. Each country also has an assimilation rate, which can increase or decrease assimilation speed.
+Culture war
+[
+edit
+|
+edit source
+]
+There are two values at each culture that should be tracked:
+Cultural Tradition and
+Cultural Influence. Processes like assimilation, integration, spy networks, diplomacy and siege will pit the attacking culture's
+Cultural Influence against the defending culture's
+Cultural Tradition. Both
+Cultural Tradition and
+Cultural Influence decay by 5% each month.
+Culture status
+[
+edit
+|
+edit source
+]
+Within each country, all cultures have one of four degrees of acceptance. Downgrading a culture will make it a non-accepted culture and cause all pops of that culture within the country to lose
+−50%
+Satisfaction.
+Status
+Satisfaction
+Can be recruited as levies
+Base upgrade cost
+Base downgrade cost
+Upgrade requirements
+Primary
++25%
+Cannot be upgraded or downgraded
+Accepted
++10%
+50
+Government power
+Based on government type:
+Legitimacy if Monarchy
+Republican Tradition if Republic
+Devotion if Theocracy
+Horde Unity if Steppe Horde
+Tribal Cohesion if Tribe
+20 Stability
+Depends on the Culture Conversions game rule
+Tolerated
++5%
+Requires special laws
+5 Prestige
+10 Stability
+1M population or 2.5% of population
+Discriminated
+0
+Requires special laws
+5 Prestige
+1M population or 1% of population
+Each country has a culture capacity, which determines the number of accepted and tolerated cultures that it can have without penalties. How much capacity each culture consumes depends on their cultural opinion of the primary culture as well as the size of that culture in relation to the primary culture. Accepted cultures take up 3 times more culture capacity than tolerated cultures. Each point of culture capacity over the limit gives the following penalties:
+−10%
+Efficiency of Our Cabinet
+−25%
+Cultural Influence %
+−25%
+Cultural Tradition %
+Culture opinion
+[
+edit
+|
+edit source
+]
+Different cultures have changing cultural opinions of each other, which affects how countries view each other based on their primary culture as well as the satisfaction of pops belonging to other cultures within the country.
+Culture opinion
+Country opinion
+Different culture pop satisfaction
+Can increase culture status
+Kindred
++30
++15%
+Positive
++10
++5%
+Neutral
+0
+0
+Negative
+−10
+−5%
+Enemy
+−30
+−15%
+List of cultures
+[
+edit
+|
+edit source
+]
+This table is planned to be
+automatically generated
+and should not be edited directly.
+Instead, suggest changes on the
+talk page
+.
+Culture
+Language
+Appearance
+Culture groups
+Opinion of other cultures
+Abazin
+Circassian
+Caucasian
+Abitibi
+Anishinabe
+Anishinabe
+Abkhazian
+Circassian
+Caucasian
+Acaxee
+Cahita
+Yutonahua
+Accawmacke
+Powhatan
+Powhatan
+Adhari
+Persian
+Iranian
+Afar
+East Cushitic (Afar Dialect)
+-
+Agaw
+Agaw
+-
+Agojuda
+Wendat
+Wendat
+Aimara
+Aymara
+Aymara, Andean
+Ainu
+Ainu
+-
+Ais
+Sitimaxa
+Chitimacha
+Alan
+Alanic
+-
+Alawite
+Arabic (Levantine Dialect)
+Arabic
+Albanian
+Albanian
+-
+Algerian
+Arabic (Maghrebi Dialect)
+Arabic, Maghrebi
+Alpine
+Occitan
+French
+Ambundu
+Kongo
+-
+Amhara
+Ethiopic
+Ethiopian
+Andalusi
+Arabic (Maghrebi Dialect)
+Iberian, Maghrebi, Arabic
+Angevin
+French (Armorican Dialect)
+French
+Anglo-Irish
+English (Hiberno-English Dialect)
+Hibernian, British
+Angrian
+German (Low German Dialect)
+German
+Aondironon
+Iroquoian
+Iroquoian
+Aragonese
+Spanish (Aragonese Dialect)
+Iberian, Pyrenean
+Arendaronon
+Wendat
+Wendat
+Armenian
+Armenian
+Caucasian
+Aromanian
+Romanian
+Romanian
+Arpitan
+French (Arpitan Dialect)
+French, Swiss
+Arvanite
+Albanian
+-
+Ashalaho
+Apsáalooke-Hiraacá
+Apsaalooke-Hiraaca
+Ashkenazi
+German (Yiddish Dialect)
+German, Jewish
+Ashshipite
+Apsáalooke-Hiraacá
+Apsaalooke-Hiraaca
+Astrakhani
+Kipchak
+Tatar, Turkic
+Asturleonese
+Spanish (Leonese Dialect)
+Iberian
+Ataronchronon
+Wendat
+Wendat
+Atavillos
+Quechuan
+Quechuan, Andean
+Atchakangouen
+Myaamia
+Myaamia
+Atikamekw
+Cree
+Cree
+Atrakwaye
+Haudenosaunee
+Haudenosaunee
+Attignawantan
+Wendat
+Wendat
+Attigneenongnahac
+Wendat
+Wendat
+Aukstaitian
+Baltic (Lithuanian Dialect)
+Lithuanian, Baltic
+Auvergnat
+Occitan
+French
+Ava
+Tupi-Guarani
+Tupi
+Avar
+Dagestanian
+Caucasian
+Azeri
+Oghuz (Azeri Dialect)
+Turkic
+Bagua
+Bagua
+Bagua, Andean
+Baguirmi
+Baguirmi
+West African
+Balkar
+Kipchak
+Turkic
+Baltic German
+German (Low German Dialect)
+German
+Bardi
+Italian (Tuscan Dialect)
+Italian
+Bashkir
+Kipchak
+Turkic
+Basque
+Basque
+Iberian, Pyrenean
+Baure
+Baure
+Ta Arawakan
+Bayagoula
+Sitimaxa
+Chitimacha
+Bdewekhantunwan
+Dakota
+Dakota
+Bedouin
+Arabic (Egyptian Dialect)
+Arabic
+Beja
+Beja
+-
+Berrichon
+French
+French
+Berta
+Dinka
+-
+Betsimisaraka
+Malagasy
+Malagasy
+Beyte Yisrael
+Agaw
+Ethiopian, Jewish
+Bilala
+Saharan
+West African
+Bjarmian
+Finnic (Finnish Dialect)
+Finnic
+Bo
+Kra
+Thai
+Bodewadomik
+Anishinabe
+Anishinabe
+Bolghar
+Oghuric
+Turkic
+Bosnian
+South Slavic (Shtokavian Dialect)
+Slavic, South Slavic
+Bourguignon
+French (Burgundian Dialect)
+French
+Brandenburgish
+German (Low German Dialect)
+German
+Breton
+Brythonic (Breton Dialect)
+Celtic, French
+Bulgarian
+Bulgarian
+Slavic, South Slavic
+Cabecar
+Chibchan
+Chibchan
+Cabinda
+Kongo
+-
+Calima
+Calima
+Calima
+Calusa
+Timuucua
+Timucua
+Cappadocian
+Greek
+Hellenic
+Cara
+Barbakoan
+Barbakoan, Andean
+Carentouan
+Haudenosaunee
+Haudenosaunee
+Carpathian German
+German (Middle German Dialect)
+German, Carpathian
+Casma
+Culli
+Culli, Andean
+Castilian
+Spanish (Castilian Dialect)
+Iberian
+Catalan
+Occitan (Catalan Dialect)
+Iberian
+Cayas
+Caddo
+Caddoan
+Chalaghawtha
+Shawnee
+Shawnee
+Champenois
+French (Francique Dialect)
+French
+Chancay
+Quechuan
+Quechuan, Andean
+Chaoui
+Tamazight
+Amazigh, Maghrebi
+Charrua
+Charrua
+Charrua
+Chelkans
+Siberian Turkic
+Turkic
+Chewa
+Nyasa
+-
+Chicha
+Kunza
+Ckunsa, Andean
+Chinook
+Penutian
+Penutian
+Chiribaya
+Pukina
+Pukina, Andean
+Chitimacha
+Sitimaxa
+Chitimacha
+Chiyalik
+Hungarian
+Magyar
+Chokwe
+Chokwe
+-
+Chono
+Chono
+Chono
+Chuvash
+Oghuric
+Turkic
+Chuwi
+Aymara
+Aymara, Andean
+Ciboney
+Ciguayo
+Ta Arawakan
+Ciguayo
+Ciguayo
+Ta Arawakan
+Circassian
+Circassian
+Caucasian
+Coptic
+Coptic
+-
+Cornish
+Brythonic (Breton Dialect)
+Celtic, British
+Corsican
+Italian (Tuscan Dialect)
+Italian
+Cossack
+Ruthenian (Ukrainian Dialect)
+East Slavic, Slavic
+Crimean
+Kipchak
+Tatar, Turkic
+Croatan
+Powhatan
+Powhatan
+Croatian
+South Slavic (Croatian Dialect)
+Slavic, South Slavic
+Chuachíchitl
+Corachol
+Yutonahua
+Cuicas
+Cuicas
+Cuicas
+Cuman
+Kipchak
+Carpathian, Turkic
+Cumanagoto
+Itoto Majun
+Caribe
+Curonian
+Baltic (Western Baltic Dialect)
+Baltic
+Czech
+Czechoslovak (Czech Dialect)
+Bohemian, German, Slavic
+Dai
+Tai (Dai Dialect)
+Thai
+Dalmatian
+Italian (Dalmatian Dialect)
+Italian
+Danish
+Scandinavian (Danish Dialect)
+Scandinavian
+Danube Bavarian
+German (High German Dialect)
+German
+Dargin
+Dagestanian
+Caucasian
+Daur
+Mongolian
+Mongol
+Dhofari
+Arabic (Peninsular Arabic Dialect)
+Arabian, Arabic
+Doeg
+Powhatan
+Powhatan
+East Franconian
+German (Middle German Dialect)
+German
+Eastern Abenaki
+Abenakian
+Abenakian
+Eastern Amazigh
+Tamazight
+Amazigh, Maghrebi
+Eastern Pomeranian
+German (Low German Dialect)
+German
+Eastphalian
+German (Low German Dialect)
+German
+Emilian
+Gallo-Italic (Emilian Dialect)
+Italian
+English
+English (Southern Dialect)
+British
+Erielhonan
+Iroquoian
+Iroquoian
+Erzya
+Mordvinic
+-
+Estonian
+Finnic (Estonian Dialect)
+Finnic, Baltic
+Ette ennaka
+Chichan
+Chibchan
+Evenk
+Evenk
+Tungusic
+Evesel
+Even
+-
+Farsi
+Persian
+Iranian
+Finnish
+Finnic (Finnish Dialect)
+Finnic, Scandinavian
+Franc Comtois
+French (Burgundian Dialect)
+French, Swiss
+Francien
+French
+French
+Frisian
+Frisian
+Netherlandish, German
+Friulan
+Gallo-Italic (Rhaetian Dialect)
+Italian
+Galician
+Portuguese (Galician Dialect)
+Iberian
+Gallo
+French (Armorican Dialect)
+French
+Gallo-Italic
+Gallo-Italic (Lombard Dialect)
+Italian
+Gascon
+Occitan (Gascon Dialect)
+Pyrenean, French
+Gedeo
+East Cushitic (Highland Cushitic Dialect)
+-
+Georgian
+Georgian
+Caucasian
+Gonga
+Omotic
+-
+Gothic
+Greek
+Hellenic
+Greater Polish
+Lechitic (Polish Dialect)
+Polish, Slavic
+Greek
+Greek
+Hellenic
+Griko
+Greek
+Hellenic
+Guamar
+Otopamean
+Otopamean
+Guancavilca
+Atallan
+Atallan, Andean
+Guanche
+Tamazight
+Amazigh, Maghrebi
+Guasave
+Hokan
+Yutonahua
+Guayupe
+Arawakan
+Ta Arawakan
+Guaîtaká
+Jê
+Macro Je
+Gumuz
+Arabic (Egyptian Dialect)
+-
+Gurage
+Ethiopic
+Ethiopian
+Gurji
+Georgian
+Jewish, Caucasian
+Gutnish
+Scandinavian (Swedish Dialect)
+Scandinavian
+Haaninin
+Hinóno'eitíít
+Hinonoeitiit
+Hadhrami
+Arabic (Peninsular Arabic Dialect)
+Arabian, Arabic
+Hadiya
+East Cushitic (Highland Cushitic Dialect)
+-
+Haisla
+Wakashan
+Wakashan
+Halkomelem
+Salishan
+Salishan
+Halychian
+Ruthenian (Ukrainian Dialect)
+East Slavic, Slavic
+Hani
+Yi
+Tibeto-Burman
+Hanseatic
+German (Low German Dialect)
+German
+Hassaniya
+Arabic (Maghrebi Dialect)
+Arabic, Maghrebi
+Hathawekela
+Shawnee
+Shawnee
+Hausa
+Hausa
+West African
+Heiltsuk
+Wakashan
+Wakashan
+High Alemannic
+German (Alemannic Dialect)
+German, Swiss
+Highland
+Gaelic (Scottish Dialect)
+Celtic, Scottish, British
+Hijazi
+Arabic (Peninsular Arabic Dialect)
+Arabian, Arabic
+Hinono'eino
+Hinóno'eitíít
+Hinonoeitiit
+Hiraaca
+Apsáalooke-Hiraacá
+Apsaalooke-Hiraaca
+Hisatsinom
+Na-dené
+Yutonahua
+Hmong
+Hmong
+-
+Holsatian
+German (Low German Dialect)
+German
+Honniasont
+Iroquoian
+Iroquoian
+Huancapampa
+Chicham
+Chicham, Andean
+Huayla
+Quechuan
+Quechua, Andean
+Huetar
+Chibchan
+Chibchan
+Hungarian
+Hungarian
+Magyar, Carpathian
+Huí
+Mandarin (Northern Mandarin Dialect)
+Chinese, Confucian-Influenced
+Icelandic
+Scandinavian (Icelandic Dialect)
+Scandinavian
+Igneri
+Arawakan
+Ta Arawakan
+Ilocano
+Austronesian
+Ilocano
+Ingrian
+Finnic (Finnish Dialect)
+Finnic
+Iraqi
+Arabic (Iraqi Dialect)
+Arabic
+Irish
+Gaelic (Irish Dialect)
+Celtic, Hibernian
+Ishak
+Atakapa
+Atakapa
+Istro-Romanian
+Romanian
+Romanian
+Italki
+Gallo-Italic (Lombard Dialect)
+Jewish, Italian
+Itaukei
+Vosa Vaka Viti
+Micronesian
+Ithaktunwan
+Dakota
+Dakota
+Iztachichimecah
+Otopamean
+Otopamean
+Jasz
+Alanic
+-
+Jingpo
+Kachinic
+Tibeto-Burman
+Jurchen
+Jurchen
+Jurchen, Tungusic
+K'itaish
+Caddo
+Caddoan
+K'omoks
+Salishan
+Salishan
+Kabyle
+Tamazight
+Amazigh, Maghrebi
+Kaete
+Tupi-Guarani
+Tupi
+Kahokiaki
+Myaamia
+Myaamia
+Kalanga
+Sintu (Shona Dialect)
+-
+Kalapuyan
+Penutian
+Penutian
+Kalinago
+Arawakan
+Caribe
+Kallawaya
+Aymara
+Aymara, Andean
+Kalīmī
+Persian
+Iranian, Jewish
+Kam
+Kam
+Thai
+Kambaata
+East Cushitic (Highland Cushitic Dialect)
+-
+Kanari
+Quingnam
+Quingnam, Andean
+Karachay
+Kipchak
+Turkic
+Karelian
+Finnic (Finnish Dialect)
+Finnic
+Karen
+Karenic
+Tibeto-Burman
+Kashubian
+Lechitic (Kashubian Dialect)
+Polish, Slavic
+Kaskankaham
+Myaamia
+Myaamia
+Kaxixo
+Tupi-Guarani
+Macro Je
+Kazani
+Kipchak
+Tatar, Turkic
+Kentaientonga
+Iroquoian
+Iroquoian
+Khakas
+Siberian Turkic
+Turkic
+Khanty
+Ob-Ugrian
+-
+Kichesipirini
+Anishinabe
+Anishinabe
+Killaka
+Aymara
+Aymara, Andean
+Kiriri
+Jê
+Macro Je
+Kispoko
+Shawnee
+Shawnee
+Kitikiti'sh
+Caddo
+Caddoan
+Kitkehaki
+Caddo
+Caddoan
+Kiwigapawa
+Shawnee
+Shawnee
+Koryak
+Chukotko-Kamchatkan
+-
+Kren
+Jê
+Macro Je
+Kuba
+Bangi
+-
+Kuikuro
+Kuikúro
+Caribe
+Kumandin
+Siberian Turkic
+Turkic
+Kumyk
+Kipchak
+Turkic
+Kunama
+Arabic (Egyptian Dialect)
+-
+Kurdish
+Kurdish
+Iranian
+Kven
+Finnic (Finnish Dialect)
+Finnic
+Kwakiutl
+Wakashan
+Wakashan
+Kānaka Maoli
+Olelo Hawai'i
+Polynesian
+Ladin
+Gallo-Italic (Rhaetian Dialect)
+Italian
+Lahkota
+Dakota
+Dakota
+Lak
+Dagestanian
+Caucasian
+Languedocien
+Occitan
+French
+Latvian
+Baltic (Latvian Dialect)
+Baltic
+Laz
+Georgian
+Caucasian
+Lega
+Lega
+-
+Lenca
+Misumalpan
+Misumalpan
+Lesser Polish
+Lechitic (Polish Dialect)
+Polish, Slavic
+Levantine
+Arabic (Levantine Dialect)
+Arabic
+Lezgin
+Dagestanian
+Caucasian
+Lhaq'temish
+Salishan
+Salishan
+Libyan
+Arabic (Maghrebi Dialect)
+Arabic, Maghrebi
+Licanantay
+Kunza
+Ckunsa
+Ligurian
+Gallo-Italic (Ligurian Dialect)
+Italian
+Limousin
+Occitan
+French
+Liv
+Finnic (Estonian Dialect)
+Baltic
+Lnu
+Abenakian
+Abenakian
+Lombard
+Gallo-Italic (Lombard Dialect)
+Italian
+Lorrain
+French (Francique Dialect)
+French
+Low Franconian
+German (Dutch Dialect)
+Netherlandish, German
+Lower Egyptian
+Arabic (Egyptian Dialect)
+Arabic
+Lower Saxon
+German (Low German Dialect)
+German
+Luba
+Luba
+-
+Lucayo
+Tainonaiki
+Ta Arawakan
+Lur
+Persian
+Iranian
+Lushootseed
+Salishan
+Salishan
+Ma'ya
+Halmaheran
+Austronesian
+Macorix
+Ciguayo
+Ta Arawakan
+Maden
+Halmaheran
+-
+Mahican
+Lenni-Lenape
+Lenape
+Maisouna
+Iroquoian
+Iroquoian
+Makah
+Wakashan
+Wakashan
+Makhuwa
+Sintu (Makhuwa Dialect)
+-
+Maltese
+Arabic (Maltese Dialect)
+Italian, Maghrebi, Arabic
+Mamaceqtaw
+Anishinabe
+Anishinabe
+Mandara
+Sao
+West African
+Mandean
+Arabic (Iraqi Dialect)
+-
+Mandinka
+Mande
+West African
+Mansi
+Ob-Ugrian
+-
+Manta
+Atallan
+Atallan-Andean
+Mapuche
+Mapudungun
+Mapudungun
+Marajo
+Manao
+Ta Arawakan
+Mari
+Mari
+-
+Markish
+German (Low German Dialect)
+German
+Mascouten
+Myaamia
+Myaamia
+Masmuda
+Tamazight
+Amazigh, Maghrebi
+Massachusett
+Massachusett
+Masschusett
+Mazovian
+Lechitic (Polish Dialect)
+Polish, Slavic
+Median
+Italian (Median Dialect)
+Italian
+Mekoche
+Shawnee
+Shawnee
+Merya
+Mari
+-
+Meschera
+Mordvinic
+-
+Meskwaki
+Shawnee
+Shawnee
+Mingrelian
+Georgian
+Caucasian
+Mishar
+Kipchak
+Tatar, Turkic
+Mishmi
+Meitei
+Tibeto-Burman
+Missisage
+Anishinabe
+Anishinabe
+Mizrahi
+Arabic (Levantine Dialect)
+Arabic, Jewish
+Moksha
+Mordvinic
+-
+Moldovan
+Romanian
+Romanian, Carpathian
+Monacan
+Tutelo
+Tutelo
+Moneton
+Tutelo
+Tutelo
+Mongolian
+Mongolian
+Mongol
+Monpa
+Tibetan
+Tibetan, Tibeto-Burman
+Mopan
+Maya
+Maya
+Moravian
+Czechoslovak (Czech Dialect)
+Bohemian, Slavic
+Moroccan
+Arabic (Maghrebi Dialect)
+Arabic, Maghrebi
+Moselle Franconian
+German (Middle German Dialect)
+German
+Moxo
+Baure
+Ta Arawakan
+Mozabite
+Tamazight
+Amazigh, Maghrebi
+Munsee
+Lenni-Lenape
+Lenape
+Muscogee
+Muskogee
+Muskogee
+Muscovite
+Russian
+East Slavic, Slavic
+Musta'ravi
+Arabic (Egyptian Dialect)
+Jewish, Maghrebi
+Māori
+Te Reo Māori
+Polynesian
+Naga
+Meitei
+Tibeto-Burman
+Naiganset
+Massachusett
+Massachusett
+Najdi
+Arabic (Peninsular Arabic Dialect)
+Arabian, Arabic
+Nakawe
+Anishinabe
+Anishinabe
+Nakh
+Dagestanian
+Caucasian
+Nakoda
+Dakota
+Dakota
+Nanai
+Nanai
+Jurchen, Tungusic
+Nansemond
+Powhatan
+Powhatan
+Nanticoke
+Powhatan
+Powhatan
+Nanwuine'nan
+Hinóno'eitíít
+Hinonoeitiit
+Neapolitan
+Italian (Neapolitan Dialect)
+Italian
+Nguni
+Sintu (Nguni Dialect)
+-
+Nipissing
+Anishinabe
+Anishinabe
+Niuachi
+Chiwere
+Chiwere
+Nivkh
+Nivkh
+Tungusic
+Nogai
+Kipchak
+Tatar, Turkic
+Nootkah
+Wakashan
+Wakashan
+Norman
+French (Norman Dialect)
+French
+Norn
+Scandinavian (Icelandic Dialect)
+Scandinavian
+Norse-Gael
+Gaelic (Scottish Dialect)
+Celtic, Scottish, British, Scandinavian
+Northumbrian
+English (Northern Dialect)
+British
+Norwegian
+Scandinavian (Norwegian Dialect)
+Scandinavian
+Nottoway
+Skarureh
+Skarureh
+Novgorodian
+Russian (Novgorodian Dialect)
+East Slavic, Slavic
+Nubian
+Nubian
+-
+Nueta
+Apsáalooke-Hiraacá
+Apsalooke-Hiraaca
+Nutabe
+Chibchan
+Chibchan
+Nuwuvi
+Nuuchi-Nuwuwi
+Nuuchi-Nuwu
+Nuxalc
+Wakashan
+Wakashan
+O'dam
+Tepiman
+Yutonahua
+Odawa
+Anishinabe
+Anishinabe
+Ofo
+Tutelo
+Tutelo
+Oirat
+Mongolian
+Mongol
+Ojibwe
+Anishinabe
+Anishinabe
+Omaguaca
+Kunza
+Ckunsa, Andean
+Ometo
+Omotic
+-
+Onghniaahra
+Iroquoian
+Iroquoian
+Onojutta
+Haudenosaunee
+Haudenosaunee
+Oowekyala
+Wakashan
+Wakashan
+Orang Asli
+Aslian
+Austroasiatic
+Oroch
+Udege
+Tungusic
+Oromo
+East Cushitic (Oromo Dialect)
+-
+Oroqen
+Evenk
+Tungusic
+Osaakiiwaki
+Shawnee
+Shawnee
+Osheaga
+Iroquoian
+Iroquoian
+Otali
+Cherokee
+Cherokee
+Ovimbundu
+Kavango
+-
+Pamlico
+Powhatan
+Powhatan
+Passamaquoddy
+Abenakian
+Abenakian
+Pazioca
+Cacan
+Cacan, Andean
+Peewareewa
+Myaamia
+Myaamia
+Pekowi
+Shawnee
+Shawnee
+Pemon
+Pemon
+Caribe
+Penakuk
+Abenakian
+Abenakian
+Penobscot
+Abenakian
+Abenakian
+Pepikokia
+Myaamia
+Myaamia
+Pequttôog
+Massachusett
+Massachusett
+Peruzzi
+Italian (Tuscan Dialect)
+Italian
+Piankeshaw
+Myaamia
+Myaamia
+Picard
+French (Francique Dialect)
+French
+Piedmontese
+Gallo-Italic (Piedmontese Dialect)
+Italian
+Pijao
+Pijao
+Pijao
+Pikumche
+Mapudungun
+Mapudungun
+Piscataway
+Powhatan
+Powhatan
+Pitahwarita
+Caddo
+Caddoan
+Pocumtuck
+Massachusett
+Massachusett
+Poitevin
+French (Poitevin Dialect)
+French
+Polabian
+Lechitic (Polabian Dialect)
+Slavic
+Polatskian
+Ruthenian (Belarusian Dialect)
+East Slavic, Slavic
+Polesian
+Ruthenian (Belarusian Dialect)
+East Slavic, Slavic
+Pomor
+Russian (Novgorodian Dialect)
+East Slavic, Slavic
+Pontic
+Greek
+Hellenic
+Portuguese
+Portuguese
+Iberian
+Potiguara
+Tupi-Guarani
+Tupi
+Provençal
+Occitan
+French
+Prussian
+German (Low German Dialect)
+German
+Pruthenian
+Baltic (Western Baltic Dialect)
+Baltic
+Puben
+Barbakoan
+Barbakoan
+Pukamuru
+Chicham
+Chicham, Andean
+Puruhá
+Quingnam
+Quingnam, Andean
+Qeqchi
+Maya
+Maya
+Qhara qhara
+Aymara
+Aymara, Andean
+Quasmigo
+Atakapa
+Atakapa
+Quimbaya
+Cariban
+Caribe
+Quiripi
+Massachusett
+Massachusett
+Quitu
+Panzaleo
+Panzaleo, Andean
+Rappahannock
+Powhatan
+Powhatan
+Raramuri
+Tarahumaran
+Yutonahua
+Rhine Alemannic
+German (Alemannic Dialect)
+German
+Rhine Franconian
+German (Middle German Dialect)
+German
+Romansh
+Gallo-Italic (Rhaetian Dialect)
+Italian, Swiss
+Romanyoti
+Greek
+Jewish, Hellenic
+Rusyn
+Ruthenian (Ukrainian Dialect)
+East Slavic, Slavic, Carpathian
+Ruthenian
+Ruthenian (Ukrainian Dialect)
+East Slavic, Slavic
+Ryazanian
+Russian
+East Slavic, Slavic
+S'Klallam
+Salishan
+Salishan
+Sahnish
+Caddo
+Caddoan
+Saintongeais
+French (Poitevin Dialect)
+French
+Samaritan
+Hebrew
+-
+Samogitian
+Baltic (Lithuanian Dialect)
+Lithuanian, Baltic
+Sanhaja
+Tamazight
+Amazigh, Maghrebi
+Sao
+Sao
+West African
+Sardinian
+Italian (Sardinian Dialect)
+Italian
+Sauzas
+Corachol
+Yutonahua
+Savonian
+Finnic (Finnish Dialect)
+Finnic
+Saxon
+German (Middle German Dialect)
+German
+Sclavene
+South Slavic (Shtokavian Dialect)
+Slavic, South Slavic
+Scots
+English (Scots Dialect)
+Scottish, British
+Selkup
+Nenets
+-
+Sena
+Nyasa
+-
+Sephardi
+Spanish (Ladino Dialect)
+Jewish, Iberian
+Serbian
+South Slavic (Shtokavian Dialect)
+Slavic, South Slavic
+Severian
+Ruthenian (Ukrainian Dialect)
+East Slavic, Slavic
+Shilluk
+Luo
+-
+Shona
+Sintu (Shona Dialect)
+-
+Shor
+Siberian Turkic
+Turkic
+Sibe
+Jurchen
+Tungusic
+Sicilian
+Italian (Sicilian Dialect)
+Italian
+Sidama
+East Cushitic (Highland Cushitic Dialect)
+-
+Silesian
+Lechitic (Silesian Dialect)
+Bohemian, Polish, Slavic
+Silesian German
+German (Middle German Dialect)
+German
+Sisithunwan
+Dakota
+Dakota
+Skarureh
+Skarureh
+Skarureh
+Skiri
+Caddo
+Caddoan
+Slovak
+Czechoslovak (Slovak Dialect)
+Carpathian, Slavic
+Slovene
+South Slavic (Slovene Dialect)
+Slavic, South Slavic
+Smolenskian
+Ruthenian (Belarusian Dialect)
+East Slavic, Slavic
+So'taeo'o
+Tsėhesenėstsestotse
+Tsehesenestsestotse
+Solon
+Evenk
+Tungusic
+Solongo
+Kongo
+-
+Sorbian
+Czechoslovak (Sorbian Dialect)
+Bohemian, Slavic
+Sotho
+Sintu (Sotho Dialect)
+-
+Southern Bavarian
+German (High German Dialect)
+German
+Squamish
+Salishan
+Salishan
+Stadaconan
+Iroquoian
+Iroquoian
+Sudovian
+Baltic (Western Baltic Dialect)
+Baltic
+Svan
+Georgian
+Caucasian
+Swabian
+German (High German Dialect)
+German
+Swedish
+Scandinavian (Swedish Dialect)
+Scandinavian
+Syriac
+Aramaic
+Arabic
+Székely
+Hungarian
+Magyar, Carpathian
+Sámi
+Sámi
+-
+Tahami
+Chibchan
+Chibchan
+Tai Lü
+Tai (Shan Dialect)
+Shan, Thai
+Tai Nüa
+Tai (Shan Dialect)
+Shan, Thai
+Tallan
+Quingnam
+Quingnam, Andean
+Talysh
+Tabaristani
+Iranian
+Tama
+Tucanoan
+Tucanoan
+Tamarowa
+Myaamia
+Myaamia
+Tamauliteco
+Coahuilteco
+Coahuilteco
+Taneks
+Tutelo
+Tutelo
+Tani
+Meitei
+Tibeto-Burman
+Taotaenrat
+Wendat
+Wendat
+Taovaya
+Caddo
+Caddoan
+Tarairiu
+Tarairiú
+Tarairiu
+Tatuy
+Timoto
+Timoto
+Tavastian
+Finnic (Finnish Dialect)
+Finnic
+Tawakoni
+Caddo
+-
+Taíno
+Tainonaiki
+Ta Arawakan
+Teimani
+Arabic (Peninsular Arabic Dialect)
+Jewish, Arabian, Arabic
+Teke
+Tsogo
+-
+Telengit
+Kipchak
+Turkic
+Teleut
+Kipchak
+Turkic
+Tepecan
+Tepiman
+Yutonahua
+Timiscaming
+Anishinabe
+Anishinabe
+Timucua
+Timucua
+Timucua
+Tionontate
+Wendat
+Wendat
+Tlingit
+Na-dené
+Nadene
+Tocobaga
+Timucua
+Timucua
+Tojolabal
+Maya
+Maya
+Tonga
+Rukwa
+-
+Toquegua
+Maya
+Maya
+Transylvanian
+Romanian
+Romanian, Carpathian
+Transylvanian German
+German (Middle German Dialect)
+German, Carpathian
+Tsamosan
+Salishan
+Salishan
+Tsawi
+Caddo
+Caddoan
+Tsetsehesahese
+Tsėhesenėstsestotse
+Tsehesenestsestotse
+Tsimishian
+Tsimshian
+Tsimshian
+Tsonga
+Sintu (Tswa-Ronga Dialect)
+-
+Tswana
+Sintu (Sotho Dialect)
+-
+Tuareg
+Tamazight
+Amazigh, Maghrebi
+Tubalar
+Siberian Turkic
+Turkic
+Tujia
+Tujia
+Tibeto-Burman
+Tula
+Caddo
+Caddoan
+Tunisian
+Arabic (Maghrebi Dialect)
+Arabic, Maghrebi
+Tupinamba
+Tupi-Guarani
+Tupi
+Tupiniquim
+Tupi-Guarani
+Tupi
+Turkish
+Oghuz (Turkish Dialect)
+Turkic
+Turkoman
+Oghuz (Turkmen Dialect)
+Turkic
+Tuscan
+Italian (Tuscan Dialect)
+Italian
+Tutelo
+Tutelo
+Tutelo
+Twana
+Salishan
+Salishan
+Udege
+Udege
+Jurchen, Tungusic
+Udmurt
+Permic
+-
+Ulch
+Nanai
+Tungusic
+Unalachtigo
+Lenni-Lenape
+Lenape
+Unami
+Lenni-Lenape
+Lenape
+Upper Egyptian
+Arabic (Egyptian Dialect)
+Arabic
+Upper Palatine
+German (High German Dialect)
+German
+Uyghur
+Siberian Turkic
+Turkic
+Uzbek
+Kipchak
+Turkic
+Vazimba
+Malagasy
+Malagasy
+Venda
+Sintu (Shona Dialect)
+-
+Venetian
+Gallo-Italic (Venetian Dialect)
+Italian
+Vepsian
+Finnic (Finnish Dialect)
+Finnic
+Vezo
+Malagasy
+Malagasy
+Vili
+Kongo
+-
+Volhynian
+Ruthenian (Ukrainian Dialect)
+East Slavic, Slavic
+Votian
+Finnic (Finnish Dialect)
+Finnic
+Wa
+Palaungic
+Austroasiatic
+Waccamaw
+Tutelo
+Tutelo
+Wahpekhute
+Dakota
+Dakota
+Wallachian
+Romanian
+Romanian, Carpathian
+Walloon
+French (Francique Dialect)
+Netherlandish, French, German
+Welsh
+Brythonic (Welsh Dialect)
+Celtic, British
+Western Pomeranian
+German (Low German Dialect)
+German
+Westphalian
+German (Low German Dialect)
+German
+Wùzhōu
+Wú
+Chinese, Confucian-Influenced
+Wú
+Wú
+Chinese, Confucian-Influenced
+Wúchuān
+Yuè
+Chinese, Confucian-Influenced
+Wǎxiāng
+Xiāng
+Chinese, Confucian-Influenced
+Xiāngxī
+Xiāng
+Chinese, Confucian-Influenced
+Xuānzhōu
+Wú
+Chinese, Confucian-Influenced
+Xīnghuà
+Mǐn
+Chinese, Confucian-Influenced
+Xīnhuì
+Yuè
+Chinese, Confucian-Influenced
+Xīnxiāng
+Xiāng
+Chinese, Confucian-Influenced
+Yemeni
+Arabic (Peninsular Arabic Dialect)
+Arabian, Arabic
+Yerle Qalıq
+Kipchak
+Turkic
+References
+[
+edit
+|
+edit source
+]
+Mechanics
+Realm
+Country
+•
+Government
+•
+Parliament
+•
+Estate
+•
+Reforms
+•
+Laws
+•
+Characters
+•
+Missions
+Economy & Research
+Economy
+•
+Goods
+•
+R.G.O.
+•
+Market
+•
+Building
+•
+Population
+•
+Age
+Diplomacy & Warfare
+Diplomacy
+•
+Subjects
+•
+International organization
+•
+Warfare
+•
+Combat
+•
+Military
+The world
+Location
+•
+Culture
+•
+Religion
+•
+Language
+•
+Exploration
+•
+Situations
+•
+Disasters
+•
+Diseases
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=Culture&oldid=20949
+"

@@ -1,0 +1,1292 @@
+Source URL: https://eu5.paradoxwikis.com/Military_laws
+Source Date: 2025-12-19
+
+Please help with verifying or updating older sections of this article.
+At least some were last verified for
+version
+pre-release.
+Europa Universalis 5
+Laws
+Succession
+Religious
+Military
+Administrative
+Socioeconomic
+Estate
+International organization
+This page is
+automatically generated
+from the game files. It should not be edited directly.
+Instead, please suggest changes or improvements on the
+talk page
+.
+List
+[
+edit
+|
+edit source
+]
+Levy Law
+[
+edit
+|
+edit source
+]
+Our army is made up mainly of levies that are recruited from certain
+Estates
+of our country, who will fight for us until we disband them.
+Potential
+government_type: government_type:monarchy
+Only for
+Monarchy
+Policy
+Allow
+Country Modifier
+Estate Preferences
+Potential
+Inclusive Levies
+Our people will share the burden when there is a call to arms, regardless of their
+Culture
+of origin.
++20.00%
+Non-Culture Levy Size
++0.10
+Monthly Progress to Decentralization
+Burghers
+Noble Levies
+The Nobility of our country will lead our calls to arms, since they are the most willing and prepared for war.
++20.00%
+Nobles Levy Size
++0.10
+Monthly Progress to Quality
++25.00%
+Levy Combat Efficiency
+Nobility
+Not:
+tag: MAL
+Ton-ta-jon-ta-ni-woro
+In the early days of our empire, our army was made up of sixteen clans whose leaders promised to protect the great Mansa and the Malian State. Translated as
+the Sixteen Slaves that carry the Bow
+, the Ton-ta-jon-ta-ni-woro are the high Nobility of the country and serve as commanders of the Malian cavalry.
++33.00%
+Nobles Levy Size
++15.00%
+Nobles Power
++2.50%
+Noble Estate Satisfaction Equilibrium
++0.10
+Monthly Progress to Quality
+Nobility
+has_or_had_tag: MAL
+Peasant Levies
+The Commoners make up the bulk of our levies, so we must take care to recruit as many as possible when the need arises.
++10.00%
+Peasants Levy Size
++0.10
+Monthly Progress to Quantity
+−10.00%
+Levy Combat Efficiency
++10.00%
+Levy Recovery
+Commoners
+Longbow Competitions
+On holidays, every man in the country will take up bows and arrows, and practice archery. This will win us high honor in battle, and ensure we profit from our warlike enterprises.
++0.10
+Monthly Progress to Belligerent
++10.00%
+Peasants Power
++10.00%
+Levy Combat Efficiency
+Commoners
+At least one of:
+has_advance: unlock_early_longbowmen_advance
+has_advance: unlock_longbowmen_advance
+has_advance: unlock_late_longbowmen_advance
+Zamanitchka Voyska
+Meaning 'All Together', this system of universal military obligation demands that all able-bodied citizens, regardless of age or gender, are expected to defend the homeland when threatened. Unlike professional armies or feudal levies, this mobilizes the entire population to protect their independence, reflecting a communal commitment to defending their nation.
++20.00%
+Levy Size
+−5.00%
+Estates Satisfaction Equilibrium
+−0.05
+Monthly Legitimacy
++0.03
+Monthly War Exhaustion
+Commoners
+Clergy
+has_or_had_tag: SER
+Paik System
+The Paik System is a corvée labor system where capable adults, the so-called
+Paiks
+, are obligated to serve in the state militia in exchange for farmland.
+At least one of:
+has_advance: paik_system_advance
+has_advance: paik_regiments_advance
+has_advance: advanced_paik_system_advance
++4.00%
+Peasants Levy Size
+−10.00%
+Maximum Tax for Peasants Estate
+Allow Paik Levies:
+yes
+Commoners
+At least one of:
+has_or_had_tag: AHO
+has_or_had_tag: MLB
+culture:
+has_culture_group: Indian
+Alarde
+Alarde is a Castilian system of levy recruitment that assigns cities of the realm the annual responsibility of organizing several
+alardes
+, a type of military parade used to train troops. This keeps them fit and ready for military campaigns when required.
+At least one of:
+has_or_had_tag: CAS
+has_or_had_tag: SPA
+culture:
+Castilian
++0.10
+Monthly Progress to Quality
++10.00%
+Burghers Power
++15.00%
+Levy Recruitment Speed
+Burghers
+culture:
+Castilian
+Recruitment Law
+[
+edit
+|
+edit source
+]
+Battles cannot be won with no soldiers on the field! Recruiting fighters is an absolute necessity. As time goes on, how we recruit soldiers may change, and our forces will adapt to it as needed.
+Policy
+Allow
+Country Modifier
+Estate Preferences
+Potential
+Expanded Levies
+Our current levies are insufficient to handle the current level of conflict we must endure. Expanding the size of our levies and the number of soldiers on the battlefield will surely bring us to victory, albeit to the potential detriment of our general population.
++5.00%
+Peasants Levy Size
++0.10
+Monthly Progress to Free Subjects
+Nobility
+A Noble Army
+Our population is precious, and the Nobles of our country are willing to lay down their lives to protect our lands. Although their blood is worth more than those they protect, with that heritage comes greater skill on the battlefield.
++20.00%
+Nobles Levy Size
++0.10
+Monthly Progress to Aristocracy
+Burghers
+Regulated Naval Service
+Every vessel in our nation should be mobilized in case of war. Therefore, the state must maintain a detailed overview of all our ships, including merchant vessels, in case we need them.
++20.00%
+Navy Levy Size
++0.10
+Monthly Progress to Plutocracy
+Commoners
+Calpulli
+The
+Calpulli
+are housing units, similar to neighborhoods, where Commoners live together in a kin-based system. This system not only helps create more national stability, but also gives us a reliable source of manpower for our constant state of warfare.
++10.00%
+Manpower
+Commoners
+culture:
+Nahua
+Pençik Tax
+In steppe tradition, one-fifth of the spoils of war went to the chieftain. Therefore, now one-fifth of all slaves taken in war will go to the state.
++50.00%
+Slaves Output
+Crown
+culture:
+Turkish
+Reformed Hussite Tactics
+Our forefathers favored exemplary defense. They withstood the test of time and foe alike. It is now our turn to go on the offensive and stage a show of strength against our heretic and heathen neighbors alike, through the use of a reformed and aggressive military force.
++0.10
+Monthly Progress to Offensive
++10.00%
+Manpower
+Nobility
+Clergy
+has_unlocked_policy_trigger:
+type: reformed_hussite_armies_policy
+At least one of:
+religion:
+Hussitism
+religion_percentage_in_country(religion:hussite):
+GREATER_THAN: 0.25
+Mercenary Army
+Though we can call our levies in times of need, it is better to let the mercenaries lead the charge into the fray. At best, their expertise will bring us victory, and at worst, their bodies will protect our fighters during the battle.
+Not:
+current_age: age_1_traditions
+−15.00%
+Mercenary Maintenance
++0.10
+Monthly Progress to Individualism
+Nobility
+Burghers
+Not:
+culture:
+has_culture_group: Italian
+Condottieri Contracts
+Standing armies are the exception rather than the norm. As such, our state must rely on mercenaries to be our state's fighting forces, which means that better offers from other powers could led them to abandon our service. Thanks to expanded
+Condottieri
+contracts, we can ensure these professional soldiers stay loyal to the state.
+Not:
+current_age: age_1_traditions
++20%
+Mercenary Size
+−10.00%
+Mercenary Maintenance
++0.10
+Monthly Progress to Individualism
+Nobility
+Burghers
+culture:
+has_culture_group: Italian
+Devşirme System
+Slaves are acquired for the ruling household through the practice of
+devşirme
+: Carefully chosen non-Muslim children, usually Christians between the ages of 12 and 14, are sent to live with Turkish families to learn their language and the rules of Islam beliefs before eventually being brought to the capital. Most join the Janissaries, a highly disciplined standing army, while those who displayed particular leadership and intellectual skilled are enrolled directly into the royal household as pages.
+Not:
+current_age: age_1_traditions
+Not:
+current_age: age_2_renaissance
+custom_tooltip:
+text: devshirme_system_policy_why_tt
+Not:
+has_variable: devshirme_abolished
++25.00%
+Non-Culture Levy Size
++0.10
+Monthly Progress to Quantity
+Nobility
+culture:
+Turkish
+Black Army
+Regardless of aristocratic objections, the Black Army is undeniably an effective military force. We shall institutionalize their company, and ensure that there is always a reserve of veteran soldiers waiting to join their ranks.
+Not:
+current_age: age_1_traditions
+Not:
+current_age: age_2_renaissance
++2.50%
+Discipline
+−10.00%
+Mercenary Maintenance
++0.10
+Monthly Progress to Quality
+Burghers
+culture:
+Hungarian
+Early Standing Army
+We have had no need of a standing army for centuries, as levies and mercenaries have so far been the ones to fight our battles. However, times have changed, and the scale of war has far exceeded what untrained soldiers can handle. It is therefore now time to establish a standing army.
+custom_tooltip:
+text: early_standing_army_policy_why
+At least one of:
+current_age: age_5_absolutism
+current_age: age_6_revolutions
++10.00%
+Manpower
+Crown
+Commoners
+Not:
+culture:
+has_culture_group: British
+Not:
+culture:
+Swedish
+Not:
+culture:
+Finnish
+Not:
+tag: PRU
+New Model Army
+We have had no need of a standing army for centuries, as levies and mercenaries have so far been the ones to fight our battles. However, times have changed, and the scale of war has far exceeded what untrained soldiers can handle. It is therefore now time to establish a standing army.
+At least one of:
+current_age: age_5_absolutism
+current_age: age_6_revolutions
++10.00%
+Manpower
+−10.00%
+Unit Food Consumption
++0.10
+Monthly Progress to Quality
+Crown
+Commoners
+culture:
+has_culture_group: British
+Allotment System
+The Allotment System, or
+Indelningsverket
+, is a military conscription system that enables quick mobilization. Every tenth man in the country between the ages of fifteen and forty-four will be permanently conscripted into the national infantry, while the Nobility, while exempt from taxes, must provide cavalry.
+At least one of:
+current_age: age_5_absolutism
+current_age: age_6_revolutions
++15.00%
+Manpower
+Crown
+Commoners
+At least one of:
+culture:
+Swedish
+culture:
+Finnish
+Canton System
+The Canton System will divide the country into adminstrative districts called
+cantons
+, each responsible for army recruitment and linking the local population closely to the government. This system relies on voluntary enrollment rather than coercive recruiting. However, each canton must provide a minimum number of soldiers.
+current_age: age_6_revolutions
++15.00%
+Manpower
++10.00%
+Recruitment Speed
++0.10
+Monthly Progress to Quantity
+Crown
+Commoners
+At least one of:
+has_or_had_tag: PRU
+has_or_had_tag: BRA
+has_unlocked_policy_trigger:
+type: canton_system_policy
+Manṣabdār Organization
+Instead of relying on entrenched nobles to serve within our army, we could grant everyone an opportunity to serve within every rank of the army, as long as they prove they can fulfill that role.
++25.00%
+Army Tradition from Battles
+−10.00%
+Cavalry Maintenance Cost
++10.00%
+Cavalry Power
+Crown
+Nobility
+has_unlocked_policy_trigger:
+type: mansabdar_system
+Elite Training
+Although today's armies perpetually grow in size, the acumen and morale of these ragtag recuits is not nearly as grand. Our men, on the other hand, are fewer in number, but make up for it with the kind of iron discipline that can turn the tide of battle.
+current_age: age_6_revolutions
++0.10
+Monthly Progress to Quality
+−25.00%
+Manpower
++5.00%
+Discipline
+Crown
+Commoners
+Mass Army Policy
+We have, up to now, been very choosy over who should serve as a ranker in our military. We only took the poorest and most desperate, basically, the people no one else would miss. Now though we are going to open up the ranks to everyone, who isn't rich.
+current_age: age_6_revolutions
++0.10
+Monthly Progress to Quantity
++20.00%
+Manpower
+Crown
+Commoners
+Military Settlements
+Soldiers split their time between family life on rural military-run farms, and in direct service to the army. Their families are primed to provide future contributions to the military, ensuring we have a continous supply of new recruits while simultaneously working the land.
+current_age: age_6_revolutions
++20.00%
+Manpower
+−10.00%
+Army Maintenance
+−10.00%
+Food Production %
++0.10
+Monthly Progress to Outward
+Crown
+Commoners
+culture:
+has_culture_group: East Slavic
+has_variable: military_settlements
+Benefits for Privateers
+Piracy is an attractive prospect for privateers. The promise of treasure, fame, and more rum for their bellies leads many brave sailors into a life full of adventure — and danger...
++20.00%
+Sailors
++0.10
+Monthly Progress to Naval
+Crown
+Commoners
+has_reform: government_reform:pirate_brethren_reform
+Green Standard Army
+Green Standard Army is an auxiliary army comprised of Hàn Chinese nationals that serves to bolster our forces as well as to police our conquests in East Asia.
+−1.00%
+Pop Join Rebels Threshold
++0.10
+Monthly Progress to Land
+has_unlocked_policy_trigger:
+type: mch_green_standard_army
+Battle Leadership Law
+[
+edit
+|
+edit source
+]
+An army is only as good as its leadership. An incompetent general can be the bane of their nation, while a military leader of great prowess will be known and feared on every battlefield.
+Policy
+Allow
+Country Modifier
+Estate Preferences
+Potential
+Noble Command
+Leadership is no easy position. It requires charisma, valor, and combat knowledge. Fortunately for us, the members of the Nobility are experts in the arts of war, and will lead our forces.
+Block Lowborn Commanders:
+yes
++100.00%
+Army Tradition from Battles
++0.10%
+Noble Estate Satisfaction Recovery
++0.10
+Monthly Progress to Aristocracy
+Nobility
+Neither of:
+All of:
+religion.group:
+Islam
+culture.language: language:hindustani_language
+tag: MUG
+Mansabdari System
+The
+Mansabdar
+a military unit wherein Nobility are granted land rights in exchange for performing military and administrative services. Unlike other noble classes, the mansabs are under the direct rule of the ruler.
+Block Lowborn Commanders:
+yes
++0.025
+Monthly Army Tradition
++200.00%
+Army Tradition from Battles
++0.10%
+Noble Estate Satisfaction Recovery
+Nobility
+At least one of:
+All of:
+religion.group:
+Islam
+culture.language: language:hindustani_language
+has_or_had_tag: MUG
+Meritocratic Leadership
+Every man who can prove himself as not only a soldier but also as a leader shall have the right to guide our armies to glory. Neither noble nor royal blood plays a role in who can hold this position.
++0.10
+Military Tactics
++0.05
+Monthly Progress to Free Subjects
+−2.50%
+Noble Estate Satisfaction Equilibrium
+Burghers
+Noble Cadets
+Despite resistance from the Nobility, we aim to make the army the career of choice for unlanded sons of the aristocracy. We start training them from a young age, which means we not only bind them to us, but we also create a corps of trained noble-born officers for the future.
+At least one of:
+current_age: age_5_absolutism
+current_age: age_6_revolutions
+Block Lowborn Commanders:
+yes
+−0.10%
+Army Tradition Decay
++0.10
+Military Tactics
++0.10
+Monthly Progress to Aristocracy
++0.025
+Monthly Progress to Quality
+Nobility
+has_or_had_tag: PRU
+Ruler General
+The ruler of the state must be also the head of the military. Only then can our soldiers charge at our enemies with the true fearlessness we demand of them!
+−0.10%
+Army Tradition Decay
++0.05
+Monthly Legitimacy
++0.05
+Monthly Republican Tradition
++0.10
+Monthly Devotion
++0.10
+Monthly Horde Unity
++0.10
+Monthly Tribal Cohesion
+Ruler Must be Commander During War:
+yes
++0.05
+Monthly Progress to Centralization
++0.10
+Monthly Progress to Absolutism
+Crown
+Nobility
+Loyal Privateer Crews
+The sailors we employ to run our illicit activities are familiar with our standards and conduct. Therefore, it has become easier for our captains to attract crew for their expeditions.
+−50.00%
+Cost of Hiring Privateers
++1.00%
+Navy Morale Recovery Speed
+Commoners
+has_reform: government_reform:pirate_brethren_reform
+Army Doctrine
+[
+edit
+|
+edit source
+]
+Army doctrines represent skillsets in which our
+Army
+can specialize. The longer we work under these doctrines, the more entrenched they become in our military culture, and the more skilled we become at them. Over time, this can lead to powerful benefits for our glorious forces.
+Policy
+Allow
+Country Modifier
+Estate Preferences
+Potential
+Superior Firepower
+Some prefer to draw out fights and make them into battles of attrition. This tactic, however, jeopardizes the lives of our warriors. Instead, we should focus on developing superior firepower and annihilating our enemies swiftly.
++10.00%
+Artillery Power
++0.10
+Monthly Progress to Quality
+Commoners
+A Large Standing Army
+We want to maximize the size of our army at all times. This comes at the expense of its quality, however.
++20.00%
+Manpower
++5.00%
+Possible Frontage
++0.10
+Monthly Progress to Quantity
+Defensive Stance
+Our greatest strength does not lie in our offensive capabilities, but in our ability to hold our defenses. Letting enemies wear themselves down by bashing their forces fultilely at our walls will assure our victory.
++20.00%
+Fort Defense
++0.10
+Monthly Progress to Defensive
+Clergy
+Sustained Discipline
+It is of great importance that our soldiers reamin disciplined at all times, especially in the chaos of battle. Only through thorough drilling and highly disciplined training can we ensure the survival of our men.
++10.00%
+Infantry Power
++0.10
+Monthly Progress to Quality
+Nobility
+Cavalry Warfare
+Cavalry is the mobile force of our army and serves as shock troops in combat. Our military focuses on increasing its usage, and on integrating cavalry into our regiments.
++10.00%
+Cavalry Power
++0.10
+Monthly Progress to Offensive
+Nobility
+Amphibious Specialization
+The wars we lead are not only won on land, but also on the sea. As such, our troops must be prepared to embark as an amphibious unit, ready to strike the coastal defenses of our enemies.
+num_of_ports:
+GREATER_THAN: 0
++25.00%
+Army Disembark Speed
++0.10
+Monthly Progress to Naval
+Burghers
+Authority of the Captain
+The authority of each captain under our command is undisputed, to such a degree that loyal crews march into gunfire on their orders. Their goal is plunder and legendary adventure; their dreams are fulfilled only uner our unflinching leadership!
++20.00%
+Navy Morale
+Crown
+has_reform: government_reform:pirate_brethren_reform
+Mamlūk Rank System
+[
+edit
+|
+edit source
+]
+The hierarchy within our military is the framework that makes up the most important institution of our land.
+Potential
+has_reform: government_reform:mamluk_government
+Policy
+Country Modifier
+Estate Preferences
+Rigid
+By adopting a rigid hierarchy, we will ensure that all recruits and members of the Mamālīk focus on mastering their craft instead of chasing a promotion.
++5.00%
+Noble Estate Satisfaction Equilibrium
++0.025
+Monthly Progress to Aristocracy
+Nobility
+Fluid
+A fluid system of ranks would only result in our soldiers feeling part of our military forces. The appeal of growth and scaling the hierarchy of a military is a great boost for those who rise from poverty or servitude.
++10.00%
+Monthly Experience Gain
+Commoners
+Mamlūk Army Law
+[
+edit
+|
+edit source
+]
+The heart of our stratocratic administration is none other than the army. By drafting laws and stipulations to carefully form it, we will defend our people efficiently against outside threats.
+Potential
+has_reform: government_reform:mamluk_government
+Policy
+Country Modifier
+Estate Preferences
+Potential
+Al-Mamālik al-Sulṭāniyya
+By focusing on elevating the Mamālīk that serve the Sultan, we will ensure that our elite troops remain disciplined and effective.
++2.50%
+Discipline
+Crown
+Mamālik al-Umarā'
+The Mamālīk that serve under the Amir class are a great source of able-bodied men to supplement our frontlines.
++20.00%
+Nobles Levy Size
+Nobility
+Ajnād al-Ḥalqa
+An army cannot properly function without robust auxiliary troops and solid supply lines.
+−10.00%
+Army Reinforcement Cost
+Commoners
+Awlād al-Nās
+Despite the strict conversion and manumission that older Mamālīk went through, they seem to always attempt to undermine central authority. A new corps must be raised, whose men are trained and taught in a different way.
++10.00%
+Manpower
+Commoners
+custom_tooltip:
+text: has_unlocked_this_policy_tt
+has_variable: enables_awlad_al_nas_variable
+Mamlūk Promotion Law
+[
+edit
+|
+edit source
+]
+The legalities that premiate promotion within our military ranks are an important cornerstone of our country.
+Potential
+has_reform: government_reform:mamluk_government
+Policy
+Country Modifier
+Estate Preferences
+Merit Basis
+Promotion based on merit is a great way to accumulate talented and strong warriors regardless of their position and background.
++15.00%
+Non-Culture Levy Size
+Commoners
+Origin Basis
+By giving priority to soldiers who are culturally homogenous, we can have a tightly-knitted army that shares a common pride.
+−0.05%
+Army Tradition Decay
+Burghers
+Dynastic Basis
+The military offices of our army can be passed down from father to son, signifying a continuity in the legitimacy of the throne.
++0.10
+Monthly Legitimacy
+Nobility
+Maritime Law
+[
+edit
+|
+edit source
+]
+Maritime laws, also known as admiralty laws or marine laws, are a specialized set of legal principles and regulations that govern various aspects of maritime activities and commerce. These laws encompass a broad range of matters related to navigation, shipping, trade, and maritime activities taking place on oceans, seas, and other navigable waterways. They cover areas such as maritime contracts, vessel ownership and registration, marine insurance, salvage and wrecks, liability and compensation for maritime accidents, crew rights and responsibilities, and many other aspects that pertain to maritime affairs. Maritime laws are designed to ensure safe, orderly, and fair practices in the maritime industry and resolve disputes that may arise in the context of maritime activities.
+Potential
+At least one of:
+num_of_ports:
+GREATER_THAN: 0
+is_merchant_republic: True
+Policy
+Country Modifier
+Estate Preferences
+Potential
+Forestry Ordinance
+Not every tree in the forest is suitable for shipbuilding. To ensure our ships are of the very best quality, we will by law require that any felled trees apt for building ships be immediately surrendered for that purpose.
++10.00%
+Naval Supplies Output
++0.05
+Monthly Progress to Traditional Economy
+Burghers
+Mandatory Impressment
+Every coastal settlement shall mandate naval service for their young men, who are to devote a minimum of one year to our fleets.
++10.00%
+Sailors
++0.05
+Monthly Progress to Serfdom
+Nobility
+Navy Audits
+A fleet in disrepair can be a dangerous disadvantage in times of trouble. We will therefore carry out regular maintenance audits of our main shipyards and ports to ensure our fleet is in perfect shape at all times.
+−5.00%
+Navy Maintenance
++0.05
+Monthly Progress to Naval
+Commoners
+Protect Trade Routes
+The navy will guard our main trade routes in order to keep pirates and other undesirables away from our commercial fleets.
++2.50%
+Burgher Estate Satisfaction Equilibrium
++10.00%
+Trade Range
++0.05
+Monthly Progress to Free Trade
+Burghers
+Shipwright Standard Regulation
+We will pass a law to create a standard for shipwrights in order to be more efficient when constructing ships.
++10.00%
+Ship-building Speed
++0.05
+Monthly Progress to Capital Economy
+Burghers
+Consulate of the Sea
+The Consulate of the Sea is a new quasi-judicial body that will administer maritime and commercial law.
++2.50%
+Trade Efficiency
++10.00%
+Trade Advantage
++0.10
+Monthly Progress to Naval
+Burghers
+has_or_had_tag: ARA
+has_unlocked_policy_trigger:
+type: ara_consulate_sea
+Navarrese Maritime Code
+Based on the original Fuero of San Sebastián, the oldest maritime law in Europe, this code applies to every port in our possession and details the rights and duties of their inhabitants.
++0.05
+Monthly Navy Tradition
++25.00%
+Sailors
++0.10
+Monthly Progress to Naval
+Burghers
+Commoners
+has_or_had_tag: NAV
+Kilwan Merchant Navy
+Centuries of maritime wisdom and access to high quality cotton and lumber have given way to a most formidable merchant fleet. Equipped with cutting edge designs and new sail compositions, these vessels are the pride of our people.
+−25.00%
+Light Ship Maintenance Cost
++10.00%
+Naval Supplies Output
++0.10
+Monthly Progress to Naval
+Burghers
+has_or_had_tag: ZAN
+Smugglers' Haven
+A pirate enterprise cannot function without a way to sell their stolen goods. We must ensure that conditions in the Republic are favorable for smuggling operations.
++10.00%
+Maritime Presence %
+−25.00%
+Light Ship Maintenance Cost
+Burghers
+has_reform: government_reform:pirate_brethren_reform
+Act of Navigation
+The dominance of our foes must be contested across all our markets. Through strong central directives and preferential mercantilistic practices, we will attempt to give our merchants a clear edge over those of our enemies and rivals.
++25.00%
+Burghers Trade Capacity
++0.10
+Monthly Progress to Mercantilism
+Burghers
+has_unlocked_policy_trigger:
+type: act_of_navigation
+Piracy Law
+[
+edit
+|
+edit source
+]
+Piracy laws define the official position our nation adopts when addressing the challenges posed by piracy. These laws encompass statutes, regulations, and legal doctrines aimed at combating or managing piracy effectively. They embody the collective strategy and measures our nation implements to uphold maritime security and protect our waters from piracy threats. Or perhaps they are just the rules we stick to when committing acts of piracy...
+Potential
+num_of_ports:
+GREATER_THAN: 0
+Policy
+Allow
+Country Modifier
+Estate Preferences
+On Activate
+On Deactivate
+Potential
+State Piracy
+Our nation fully embraces acts of piracy against our enemies. Our reputation may suffer for using these tactics, but the economic benefits can be enormous.
+custom_tooltip:
+text: has_state_piracy_policy_access
+At least one of:
+has_unlocked_policy_trigger:
+type: state_piracy_policy
+has_or_had_tag: KNI
+has_or_had_tag: TUR
+has_advance: privateers
+has_advance: letters_of_marque
+has_reform: government_reform:galley_lords_reform
+has_reform: government_reform:pirate_brethren_reform
+capital.region: region:maghreb_region
+Can Hire Privateers:
+yes
+−33.00%
+Privateer Maintenance
+Can be Target of Anti-Piracy War Casus Belli:
+yes
+Nobility
+Letters of Marque
+While piracy is not something we necessarily support, it does present a marvelous opportunity to pit career criminals against our enemies. We will issue Letters of Marque to privateer captains so they can freely attack our enemies' ships without fear of prosecution.
+custom_tooltip:
+text: has_privateers_or_LoM_advances
+At least one of:
+has_advance: privateers
+has_advance: letters_of_marque
+−25.00%
+Cost of Hiring Privateers
++10.00%
+Navy Maintenance
+Crown
+Anti-Piracy
+Our nation is devoted to eradicting any pirate threats that may arise. Any act of piracy will be punished and prosecuted, and ships conducting these illicit acts will be attacked without mercy.
+Neither of:
+has_reform: government_reform:galley_lords_reform
+has_reform: government_reform:pirate_brethren_reform
++25.00%
+Anti-Piracy Warfare Modifier
+Can Create Anti-Piracy War Casus Belli:
+yes
+Burghers
+custom_tooltip:
+text: anti_piracy_policy_at
+every_known_country:
+limit:
+has_policy: state_piracy_policy
+add_opinion:
+modifier: allows_state_piracy_modifier
+target: ROOT
+custom_tooltip:
+text: anti_piracy_policy_dt
+every_known_country:
+limit:
+has_opinion:
+target: ROOT
+modifier: allows_state_piracy_modifier
+remove_opinion:
+target: ROOT
+modifier: allows_state_piracy_modifier
+Sea Beggars
+By granting several letters of marque to anyone wishing to serve us, we can expand our navy without needing to construct any new vessels.
+Can Hire Privateers:
+yes
++2.50%
+Ship Capture Chance
+Nobility
+has_unlocked_policy_trigger:
+type: sea_beggars_policy
+Naval Doctrine
+[
+edit
+|
+edit source
+]
+Naval Doctrines represent skillsets in which our
+Navy
+can specialize. The longer we work at doctrines, the more entrenched they become in our navies and the better we get at them. Over time this can lead to powerful bonuses for our glorious fleets.
+Policy
+Country Modifier
+Estate Preferences
+Potential
+Fleet in Being
+Our naval influence shall be felt without the expense of our fleet leaving port except under the most favorable of conditions.
+−10.00%
+Navy Maintenance
++0.10
+Monthly Progress to Outward
+Crown
+Free Oarsmen
+We shall reject the nation of forcing slaves and condemned men to row our galleys. Free men, resilient in the face of adversity and resistant to defection, shall be the muscle of our navy.
++10.00%
+Galley Power
++0.10
+Monthly Progress to Free Subjects
+Commoners
+Merchant Navy
+Our fleet's prime directive is to serve the financial interests of the state. Every effort shall be made to ensure our cargo ships are always laden with foreign riches.
++10.00%
+Trade Maritime Advantage
++10.00%
+Trade Range
++0.10
+Monthly Progress to Free Trade
+Burghers
+Ship Boarding
+With established Prize Law and generous Letters of Marque, we will nurture a custom of seizing enemy ships intact.
++5.00%
+Ship Capture Chance
++50.00%
+Navy Tradition from Battles
+Nobility
+Wooden Wall
+In a world of rapid change, the seas remain crucially important to our nation. Both as a means to secure our dominance and as the first line of defense, our 'wooden wall' of warships shall prevail.
++10.00%
+Combat Outside Own Coasts
+Burghers
+Commoners
+At least one of:
+has_or_had_tag: ENG
+has_or_had_tag: GBR
+Grand Armada
+A grand convoy shall accompany the treasure fleets that bring the wealth of our foreign possessions into our home ports.
+−10.00%
+Navy Maintenance
++25.00%
+Expected Navy Size
+Crown
+Burghers
+At least one of:
+has_or_had_tag: CAS
+All of:
+has_or_had_tag: SPA
+culture:
+Castilian
+Portuguese Marines
+To establish a truly global empire, we must be skilled at launching assaults on enemy forts from the sea.
++33.00%
+Army Disembark Speed
++10.00%
+Blockade Efficiency
+Nobility
+Burghers
+At least one of:
+has_or_had_tag: POR
+All of:
+has_or_had_tag: SPA
+culture:
+Portuguese
+Ordinance of the Sea
+The Mediterranean has many naval powers, yet none of them possess either our experience or our legislative expertise. The Ordinances of our fleet ensure that our navy is always prepared for any kind of engagement on the sea.
++15.00%
+Navy Initiative
+Nobility
+Burghers
+At least one of:
+has_or_had_tag: ARA
+culture:
+Catalan
+All of:
+has_or_had_tag: SPA
+At least one of:
+culture:
+Aragonese
+culture:
+Catalan
+Danish Admiralty
+Others brag about their superior ship designs, or their foothardy sailors who fight until they reach a pointless death. We, however, know better. No fleet, regardless of its construction quality or the mettle of the men it carries, can achieve victory without a strong leader. We shall embrace this philosophy and thereby vastly improve our naval efficacy.
++0.05
+Monthly Navy Tradition
+Burghers
+has_or_had_tag: DAN
+Norwegian Sailors
+Ever since the very foundation of our nation, our people have lived off the ocean and the coast. Fishing, raiding, sea battles - our sailors have more experience than those of any other maritime nation, and we shall promote this expertise even further.
++20.00%
+Sailors
+Commoners
+has_or_had_tag: NOR
+Venetian Galleys
+Galleys form the backbone of our national and commercial security. As such, a great focus of our naval and military tactics revolve around how to use our finest galleys to best any kind of naval foe.
++5.00%
+Galley Power
++5.00%
+Combat Outside Own Coasts
+Nobility
+has_or_had_tag: VEN
+Venetian Oarsmen Conscription
+Our great navy is in dire need of sailors. Conscripting oarsmen and chaining them securely to our ships will ensure we have plenty of seamen to staff our new fleet... whether they like it or not.
++10.00%
+Galley Power
++10.00%
+Sailors
++0.10
+Monthly Progress to Naval
+Burghers
+has_unlocked_policy_trigger:
+type: venetian_oarsmen_conscription
+Dutch Trade Fleet
+The nations of Europe use their navies to project their power through warfare on the sea. We, on the other hand, shall use our navy to reach the furthest corners of the world, so we can trade with foreign cultures while our neighbors bombard each other's coasts.
++15.00%
+Trade Maritime Advantage
++20.00%
+Colonial Range
+Burghers
+has_or_had_tag: NED
+Basque Mariners
+Our people have pursued whales to the very end of the world, raided coasts, and brought back precious goods from other lands, learning the secrets of the ocean over many years of exploration. These experiences have made our sailors courageous and reliable, a valuable addition to any navy that employs them.
++20.00%
+Maritime Presence %
++5.00%
+Combat Outside Own Coasts
+Burghers
+Commoners
+At least one of:
+culture:
+Basque
+has_or_had_tag: NAV
+Sumptuary Law
+[
+edit
+|
+edit source
+]
+Clothing in Nahua society reflects our social hierarchy and marks important life events such as marriage, birth, and death. The Commoners typically wear simple cotton garments, while high-ranking elites dress in far more elaborate attire decorated with brilliant colors and priceless feathers. Warriors, by contrast, are permitted to wear only plain mantles.
+The Cihuacóatl is now establishing Sumptuary Laws that will regulate how subjects dress, what they may purchase in markets, and which ornaments they may wear, all based on their rank.
+Potential
+religion:
+Nahua
+Requires one of the following religion groups
+Nahua
+Policy
+Country Modifier
+Estate Preferences
+Warrior Culture
+Our state's survival depends on the strength of our warriors. Every male is expected to fight when called upon to do so. To strengthen this warrior culture, the Cihuacōātl is establishing laws that restrict what people may wear, own, and purchase, as well as which government positions each estate may hold, based on their battle prowess.
+While these laws protect the rights of our Nobility, they primarily reward martial valor. Among Commoners, combat skill shall determine dress and other privileges. Even Nobility can only access government positions by demonstrating courage in combat.
++5.00%
+Discipline
+−5.00%
+Peasant Estate Satisfaction Equilibrium
++0.10
+Monthly Progress to Aristocracy
+Nobility
+Tradition
+Traditions of the past shall be our guiding principles!
++2.50%
+Peasant Estate Satisfaction Equilibrium
++0.10
+Monthly Progress to Free Subjects
+Commoners
+Order of Chivalry
+[
+edit
+|
+edit source
+]
+Rooted in a blend of religious and courtly traditions, this law embodies a legacy of knights dedicated to Christianity ideals and charitable missions. Originally founded to protect pilgrims to the Holy Land and uphold vows of poverty, obedience, and chastity, these orders have transformed over time, honoring distinguished individuals and becoming a prestigious symbol.
+Potential
+has_unlocked_law_trigger:
+type: order_of_chivalry_law
+Allow
+religion.group:
+Christianity
+Locked
+custom_tooltip:
+text: has_not_assumed_chivalric_order_in_last_25_years_tt
+not:
+has_variable: chivalric_order_assumed
+Policy
+Country Modifier
+Estate Preferences
+On Activate
+On Deactivate
+Potential
+Order of Saint George
+This government reform, known as the 'Chivalric Society of Saint George,' embodies a commitment to the ideals of chivalry and honor, promoting these values through knightly tournaments and festivals.
+Has Chivalric Order:
+yes
++10.00%
+Nobles Levy Size
+Nobility
+hidden_effect:
+set_variable:
+name: chivalric_order_assumed
+value: True
+years: 25
+add_to_global_variable_list:
+name: countries_with_chivalric_orders
+target: this
+hidden_effect:
+remove_list_global_variable:
+name: countries_with_chivalric_orders
+target: this
+culture:
+Hungarian
+Order of the Ermine
+The Order of the Ermine draws inspiration from the English Order of the Garter. With the ermine as its symbol, representing unwavering personal honor, the order recognizes both men and women, regardless of social status, for exceptional service to the Duchy of Brittany.
+Has Chivalric Order:
+yes
++10.00%
+Nobles Levy Size
+Nobility
+hidden_effect:
+set_variable:
+name: chivalric_order_assumed
+value: True
+years: 25
+add_to_global_variable_list:
+name: countries_with_chivalric_orders
+target: this
+hidden_effect:
+remove_list_global_variable:
+name: countries_with_chivalric_orders
+target: this
+culture:
+Breton
+Order of the Dragon
+Also known as the
+Societas Draconica
+, this Order was dedicated to defending the Hungarian monarchy, the Catholicism Church, and Christianity against the threat of the [GetCountry('TUR').GetLongName], heretics, and pagans. Modeled after the Order of St. George and inspired by the crusading spirit of the time, it unites the Nobility and the Crown under the symbols of the ouroboros and the red cross, fostering a collective defense against foreign and domestic threats while offering the Nobility royal protection and honors in return for their loyalty.
+Has Chivalric Order:
+yes
++10.00%
+Garrison Size
++10.00%
+Fort Defense
+Nobility
+hidden_effect:
+set_variable:
+name: chivalric_order_assumed
+value: True
+years: 25
+add_to_global_variable_list:
+name: countries_with_chivalric_orders
+target: this
+hidden_effect:
+remove_list_global_variable:
+name: countries_with_chivalric_orders
+target: this
+At least one of:
+culture.language: language:romanian_language
+culture.language: language:hungarian_language
+culture.language: language:serbo_croatian_language
+culture.language: language:albanian_language
+has_unlocked_global_policy_trigger:
+type: order_of_the_dragon_policy
+Order of the Band
+The Order of the Band is composed of the most excellent knights, who swear their loyalty and obedience to the ruler of Castile. Its members are held to high standards of scrupulous and impeccable courtly behavior, regularly participate in jousts, and must be above all else supportive and loyal to their ruler.
+Has Chivalric Order:
+yes
++10.00%
+Nobles Levy Size
+Nobility
+hidden_effect:
+set_variable:
+name: chivalric_order_assumed
+value: True
+years: 25
+add_to_global_variable_list:
+name: countries_with_chivalric_orders
+target: this
+hidden_effect:
+remove_list_global_variable:
+name: countries_with_chivalric_orders
+target: this
+culture:
+Castilian
+has_unlocked_policy_trigger:
+type: order_of_the_band_policy
+Order of the Swan
+The Order of the Swan is dedicated to promoting piety and spreading the cult of the Virgin Mary. Members of this Order include many princes from the ruling dynasty as well as the Nobility, all united in perseverance.
+Has Chivalric Order:
+yes
++10.00%
+Nobles Levy Size
+Nobility
+hidden_effect:
+set_variable:
+name: chivalric_order_assumed
+value: True
+years: 25
+add_to_global_variable_list:
+name: countries_with_chivalric_orders
+target: this
+hidden_effect:
+remove_list_global_variable:
+name: countries_with_chivalric_orders
+target: this
+religion:
+Catholicism
+has_unlocked_policy_trigger:
+type: order_of_the_swan_policy
+Order of the Black Eagle
+The secular Order of the Black Eagle is more of a military order than a spiritual one. Members of this Order tend to include members of the royal family, visiting foreign royals, and distinguished generals who have been awarded for their merit.
+Has Chivalric Order:
+yes
+−0.10%
+Army Tradition Decay
+Nobility
+hidden_effect:
+set_variable:
+name: chivalric_order_assumed
+value: True
+years: 25
+add_to_global_variable_list:
+name: countries_with_chivalric_orders
+target: this
+hidden_effect:
+remove_list_global_variable:
+name: countries_with_chivalric_orders
+target: this
+has_unlocked_policy_trigger:
+type: order_of_the_black_eagle_policy
+Order of the White Eagle
+The military Order of the White Eagle is awarded to the closest supporters of the state and the most brilliant of our citizens as a reward for their service to the country. It is also bestowed upon high-ranking visitors who have graced us with their presence.
+Has Chivalric Order:
+yes
+−0.10%
+Army Tradition Decay
+Nobility
+hidden_effect:
+set_variable:
+name: chivalric_order_assumed
+value: True
+years: 25
+add_to_global_variable_list:
+name: countries_with_chivalric_orders
+target: this
+hidden_effect:
+remove_list_global_variable:
+name: countries_with_chivalric_orders
+target: this
+has_unlocked_policy_trigger:
+type: order_of_the_white_eagle_policy
+The Frontier Fortresses
+[
+edit
+|
+edit source
+]
+Our domain is surrounded by many aggressive neighbors. To protect our people, we must invest in fortifications on our frontiers, enduring they are adequately funded and supplied.
+Potential
+has_unlocked_law_trigger:
+type: hun_frontier_fortresses
+Policy
+Country Modifier
+Estate Preferences
+Végvár System
+The Crown makes regular financial contributions towards maintain a network of strong fortifications throughout our kingdom.
++10.00%
+Fortification Maintenance
++33.00%
+Fort Defense
+Commoners
+Not Maintained
+Our great fortresses are currently in disrepair due to Crown being unable to finance their maintenance.
+−10.00%
+Fortification Maintenance
+−10.00%
+Fort Defense
+Nobility
+Military Frontier
+[
+edit
+|
+edit source
+]
+We have established a military frontier to protect the nation from heathen hordes that are encroaching upon our borders.
+Potential
+has_unlocked_law_trigger:
+type: hab_military_frontier
+Policy
+Country Modifier
+Estate Preferences
+Frontier Maintained
+Our military frontier is fully maintained and ready to protect the country from incoming threats.
++10.00%
+Fortification Maintenance
++10.00%
+Fort Defense
+Commoners
+Frontier Not Maintained
+Due to the lack of funding, our military frontier is currently not maintained and thus vulnerable in case of enemy incursions.
+−10.00%
+Fortification Maintenance
+−10.00%
+Fort Defense
+Nobility
+References
+[
+edit
+|
+edit source
+]
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=Military_laws&oldid=21234
+"

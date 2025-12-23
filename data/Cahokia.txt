@@ -1,0 +1,203 @@
+Source URL: https://eu5.paradoxwikis.com/Cahokia
+Source Date: 2025-12-03
+
+This article has been verified for the current
+version
+(1.0) of the game.
+Cahokia
+Country type
+Settled
+Government type
+Tribe
+Primary culture
+Cahokia
+Primary religion
+Ceremonialism
+Capital location
+Cahokia
+A Settled Tribal country of County rank that on game start straddles the border of the Illinois and Missouri areas in North America.
+Start
+[
+edit
+|
+edit source
+]
+Cahokia is a small settled tribe located on the North American continent, based on the Cahokia archeological culture which dispersed and collapsed pre-European contact.
+On 1 June 1337, Sunset of Cahokia triggers, allowing the player to choose between Exodus of Cahokia (historical) or Preservation of Cahokia. Both ultimately allow Cahokia to become a city (In the case of “Exodus of Cahokia” left unsaid), and both options hold the threats of both Plight of Cahokia and Shadow over Cahokia should the player fail to adhere to the requirements.
+Tin and Copper are not visible within the player's maps; stealing maps from the Lakota people allow you to go west (High Plains, Ali Shon, and Southwest to the coast).
+Stealing maps from Oklahoman tribes as well allows for the exploration of the Gulf of Mexico and the discovery of Mesoamerica which may enable the acquisition of legalism. Copper can be found north along some of the unexplored regions of the Great Lakes. By using Settle Frontier until the locations have 50% plus Cahokian residents and then switching to standard colony charters, the player may populate west while also getting RGOs otherwise unable to build until European colonization, such as Iron. Using Settle Frontier only will take 10 years and will NOT guarantee an RGO.
+The tribes to the south along the Ohio river hold highly populated land well connected to the Cahokia market. These pops, and the territory they hold, can be acquired by declaring war with a Tribal Feud CB, subjugating the pops in each province, and then accepting (not tolerating) the cultures of the local areas. After this is complete, these areas can be easily added by starting a colonial charter on them.
+Scripted content
+[
+edit
+|
+edit source
+]
+Some events to watch out for when playing as Cahokia
+Cahokia's representation at the start of EU5, 1 April 1337
+Choice highlighting Preservation of Cahokia, 1 June 1337.
+id
+Plight of Cahokia
+Is triggered by:
+?
+Trigger conditions
+Is Cahokia
+Owns Cahokia province
+Any of:
+Stability less than
+−15
+Tribal cohesion less than
+60
+Has the modifier
+Shadow of Cahokia
+Age is before Discovery
+At least two locations in the following area are unowned:
+Arkansas
+Iowa
+Tennessee
+Wisconsin
+?
+Starts a migration of 1000 population per month from Cahokia province to one of the following areas:
+Arkansas
+Iowa
+Tennessee
+Wisconsin
+id
+Shadow Over Cahokia
+Is triggered by:
+?
+Trigger conditions
+Is Cahokia
+Is not in a regency
+Owns Cahokia location
+Any of:
+Stability less than
+−20
+Tribal cohesion less than
+50
+Prestige is less than
+25
+Cahokia location, any of:
+Has less than 20K population
+Has less than 13% development
+?
+Cahokia location becomes rural and gains
+Shadow of Cahokia City
+Gain
+Shadow of Cahokia
+modifier
+Lose
+−2.5
+stability
+Remove
+Exodus of Cahokia
+and
+Preservation of Cahokia
+modifiers
+References
+[
+edit
+|
+edit source
+]
+Countries
+Tabber requires Javascript to function.
+North America
+Cahokia
+South America
+Central Africa
+East Africa
+Ethiopia
+Kitara
+North Africa
+Morocco
+Tlemcen
+Tunis
+South Africa
+Zimbabwe
+West Africa
+Middle East
+Oman
+Ottomans
+Yemen
+Central Asia
+Timurid
+East Asia
+Chūzan
+Hokuzan
+Japan
+Míng
+Nanzan
+Ryūkyū
+Yuan
+South Asia
+Delhi
+Mughal
+South East Asia
+Khmer
+Majapahit
+Eastern Europe
+Albania
+Arianiti
+Armenia
+Bosnia
+Bulgaria
+Byzantium
+Croatia
+Epirus
+Georgia
+Halych
+Hungary
+Kyiv
+Lithuania
+Mataranga
+Muscovy
+Muzaka
+Perm
+Poland
+Samtskhe
+Serbia
+Smolensk
+Teutonic Order
+Thopia
+Velikiy Novgorod
+Volhynia
+Vyatka
+Wallachia
+Western Europe
+Aragon
+Austria
+Aquitaine
+Balliol
+Brandenburg
+Brittany
+Bohemia
+Castile
+Denmark
+Dithmarschen
+England
+Florence
+France
+Guelders
+Granada
+Holland
+Iceland
+Moravia
+Milan
+Naples
+Navarre
+Norway
+Papal States
+Portugal
+Scania
+Scotland
+Sicily
+Spain
+Sweden
+Valencia
+Venice
+Wales
+Australasia
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=Cahokia&oldid=20058
+"

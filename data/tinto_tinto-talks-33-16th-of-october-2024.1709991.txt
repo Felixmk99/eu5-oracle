@@ -1,0 +1,540 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-33-16th-of-october-2024.1709991/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #33 - 16th of October 2024
+Thread starter
+Johan
+Start date
+Oct 16, 2024
+Hello everyone and welcome to another Tinto Talks. This is the Happy Wednesday where we discuss the details of our rather secret game Project Caesar!
+Today we will go deep into how the diplomatic system works in Project Caesar. The core of the system is similar to our other grand strategy games, but has much in common with EU4, Imperator and Victoria 2 in particular. Some of you may be very familiar with something we are talking about today, but not everyone reading this has played 5,000 hours in every GSG we made. So there are parts of today's Tinto Talks that will be “wtf man, I know this already” for many of you.
+Also when it comes to diplomacy, we have based our interface solutions for diplomatic actions from two paths. First when you have a country selected, you can get the classic way of seeing diplomatic actions related to that country, but we also have the sometimes more useful way of first selecting a diplomatic action and then seeing which countries would accept it.
+Diplomats
+While this game may not have the immortal envoys of EU4 that limited how much diplomacy you could do at one time, in Project Caesar you have a “diplomatic corps”, or Diplomats as we refer to them as. This represents how much diplomacy a country can do in a given time. Some advances, laws or societal values will increase this amount, and there are also some buildings that will have an impact.
+Every diplomatic action you do requires at least one diplomat, and while they are a renewable resource, you may need to ration them.
+Maybe we should become an Empire instead?
+Opinions
+In almost all GSG games we have made, we’ve tracked relations between countries, often in the completely natural and intuitive range of -200 to +200. Early on the relation was a single value, but in EU4 over a decade ago we introduced the concept that Country A could view Country B one way, and Country B could view Country A another way. This game is no different in that regard.
+These opinions are calculated depending on the various states between countries, like religion, culture, diplomacy and much more, and can have temporary impacts from actions.
+Opinion is how much a country likes or dislikes another country. The difference between trust and opinion is that a high opinion will stop a country from being hostile, but we would need trust to be able to work together.
+You have multiple ways to influence this with diplomacy, but the most direct ones you would use often is the “improve relations” & “send gift” diplomatic actions.
+Improve Relations - This uses some of your monthly diplomatic actions to improve the target country's opinion of you over time.
+Send Gifts - This gives you an instant opinion increase for a sum of money.
+Soon our conflicts are all forgotten..
+Trust
+Trust represents how likely one country finds it that another country will act honorably towards them. Whether friend or foe, Trust is a crucial component in forging lasting agreements.
+Trust is hard to get, and easy to lose.
+You can always send a diplomat to profess trust, which will increase their trust in you, but your diplomatic reputation will be lowered for the next 5 years.
+Favors
+Favors represent how much one country has promised, or otherwise owes, to another country. Favors can be spent to ask the other country to do something. If favors get too unbalanced, refusing to do these things can cause a loss of trust or even diplomatic reputation.
+You gain favors by helping your allies, and supporting them at need.
+You can also use some of your diplomats on currying favors. This will reduce the monthly diplomats you gain each month, but at the same time grant your country favors on the target country, and they get favors on you.
+Yes, the numbers feel 100% perfectly balanced..
+Spy Networks
+This describes the extent to which a country has infiltrated another with a network of informants, double agents, and general turncoats, and thus how much inside knowledge they have of that country. It can be used to perform a variety of insidious diplomatic actions.
+You need to use a diplomat to start building a spy network, and while it is then active, you will gain less diplomats each month.
+The speed with which your spy network is built up depends on your spy network construction capacity, and the target country’s counter espionage reduces it.
+The size of your spy network in a country impacts your siege ability and how much aggressive expansion you get from treating them badly..
+Why is our network construction so bad, and why is portugals counter espionage so bad?
+Diplomatic Reputation
+This represents how highly regarded a country is in international relations.  There are advances that will increase it, but it is also increased by your country's prestige and decreased by your aggressive expansion.
+AI countries look very much at diplomatic reputation when it comes to accepting diplomatic offers.
+If we went really belligerent, we would have NO reputation…
+Diplomatic Range
+This is a concept we introduced in Imperator, where you can’t just do diplomacy with every country on the map. In earlier games we had this hidden from the player, and it was merely something that the AI kind of used. Now this is something that matters, and it is based primarily on advances and the rank of the country.
+Diplomatic Range limits the physical distance our diplomats can travel to conduct diplomacy. The distance to be traveled is from one capital to the other.
+The dark gray is where Aragon can not send diplomats in 1337, as they are out of range..
+Rivals
+In Project Caesar we have the system of rivals, which is fairly similar to the one in EU4, with a few differences.
+First of all, the selection of rivals is less opaque and follows a few simple rules. A valid rival is someone within a geographical area that is of a similar or higher rank, or shares a culture group. The geographical area for an empire is the same continent or adjacent sub-continent, while for a county is the same area or adjacent province definition. Of course you can always rival someone that has declared you as a rival.
+Secondly, if you don’t pick enough rivals, your actions that increase aggressive expansion will give you more, and your spy networks become far weaker.
+Thirdly, you can always create a casus belli on your rivals if you have a spy network built up there.
+Finally, there is no cooldown on replacing a rival, but it will cost you 25 stability.
+Remember that a rival is a country that is perceived as having conflicting interests, and will block you from having alliances. Any countries that share rivals will get higher opinions with each other.
+So these are the possible rivals for Aragon at the start of the game..
+Diplomatic Capacity
+As suggested by many of you back in Tinto Talks #12, we changed the diplomatic relation slots system to become a diplomatic capacity system instead, where the cost for an alliance depends on the power of the ally, and similarly, subjects cost different things depending on their type and size.
+Aragon only has 1 vassal at the start, but it's not that small..
+Diplomatic Action and Treaties
+Today we will not talk more about unions or subjects, as they will be covered in a later Tinto Talks, we will however thoroughly discuss as many as possible of other types of diplomatic treaties and actions. A diplomatic action costs a diplomat to do, but not all of them create a treaty.
+A Treaty is something that lasts over a period of time, and can be anything from an alliance to food access for your armies.
+Friendly Actions
+This category of actions also include some of the ones mentioned above, like improving opinions, professing trust and curry favors, some of the other friendly actions include the following.
+Some of the friendly actions include the following..
+Defensive Leagues - Some of you may recognise this from Imperator, but it's basically a defensive alliance.
+Guarantees - In this game you can also ASK a more powerful country to guarantee you.
+Propose Ruler - If you got adults of your dynasty that are not your current ruler, you can propose that they become the ruler of another monarchy, if they are in a regency without any valid heir.
+Share Maps - This allows you to give the maps of an area to another country, if they have not discovered it.
+For just 50 favors, you can get any country to not send privateers near you …
+Hostile Actions
+These are the actions that tend to be rather offensive to the receiving part, and damages the opinion and trust.  Some of these include..
+Intervene in War - Any Empire can join in on the defenders side in a war if the opinion that the country has of you is high enough.
+Isolate from Allies - This will make them break an alliance they have, but this will cost you a fair amount of favors.
+Send Insult - Reduces their opinion of you, but they will get a casus belli on you.
+Threaten War - If you got a casus belli for a province you can use this to threaten with a war, and they have a chance of accepting it. Only Kingdoms and Empires can do this.
+Covert Actions
+These are the actions that you need a spy network in the target country to be able to do. While you could view them as hostile, they are a bit more sneaky here. Some of these include the following.
+Corrupt Officials - Reduces the effectiveness of their cabinet.
+Infiltrate Administration - Removed the Fog of War over their country for a set period of time.
+Steal Maps - For when you really really want that map of the Caribbean.
+Support Rebels - This is something that unlocks in the Age of Renaissance, that can help you truly weaken your enemies.
+Economy Actions
+These tend to be actions that are more of a gray zone between totally friendly and totally hostile, and are more or less related to the economy part of the game. Some of these actions include..
+Block Building in Country - This will block them from building buildings in your locations, which can be useful when you don’t want some English Trade Offices in all your cities.
+Embargo Nation - This will reduce the market attraction of their markets on your locations, making them more likely to trade in other markets.  Their trades will no longer be allowed to enter your territory as well.
+Request a Loan - This is something you usually send to a banking country, so you can get money from them..
+Access Actions
+There are 3 types of access here, Military Access, where you can march your armies through another country's territory. Food Access, where you can have ýour armies supplied in another countries territory, and Fleet Basing Rights, where you are allowed to base your ships in their ports.
+All of them have the option to offer it to another country and request it from them, while military access can now also be requested to be bought.
+Of course there are many country specific diplomatic actions, but they will be talked about after christmas when we start with the flavor talk, and the subject actions will be talked about in the Tinto Talks about Subjects.
+Stay tuned, next week will be something completely different…
+207
+48
+27
+24
+7
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+15
+Next
+1 of 15
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Oct 16, 2024
+Add bookmark
+#2
+With diplomats. When a diplomat is in one country, any way for that diplomat to do more than one action with that country (especially when you use improve relations or increasing trust/favours for Wow, that make use of that one diplomat with that country)? (Sort of like how it is in Total War for example)
+Last edited:
+Oct 16, 2024
+59
+42
+7
+1
+Reactions:
+Reply
+Report
+cosmeIII
+Neutral Jingoist
+66 Badges
+Dec 8, 2009
+1.336
+2.305
+Oct 16, 2024
+Add bookmark
+#3
+Diplomat mana?
+Toggle signature
+The Lone Wolf - AGoT AAR
+(Finished!)
+14
+14
+11
+6
+1
+Reactions:
+Reply
+Report
+Morneb2000
+Sergeant
+24 Badges
+Jul 5, 2024
+55
+401
+Oct 16, 2024
+Add bookmark
+#4
+All the dislikes are from Old Sealand's alt accounts XD
+Toggle signature
+He is Risen! Christ is King!
+34
+22
+2
+1
+1
+Reactions:
+Reply
+Report
+nyetflix2
+Lt. General
+Nov 13, 2022
+1.574
+9.424
+Oct 16, 2024
+Add bookmark
+#5
+Can spy networks help with sieges?
+Is "support rebels" more effective than in EU4? Can you choose to intervene on their behalf? Can they be considered allies so you don't fight them if they cross into your country?
+Last edited:
+Oct 16, 2024
+Toggle signature
+EU5 Mesoamerica feedback
+14
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Oct 16, 2024
+Add bookmark
+#6
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+43
+Reactions:
+Reply
+Report
+Tercio Soldier
+Major
+58 Badges
+Feb 25, 2020
+568
+4.336
+Oct 16, 2024
+Add bookmark
+#7
+So which system is there to make alliances more short-lived than in EU4, which was mentioned as an objective to achieve?
+74
+2
+1
+Reactions:
+Reply
+Report
+K
+Kriszta
+Recruit
+12 Badges
+Nov 24, 2018
+6
+133
+Oct 16, 2024
+Add bookmark
+#8
+Tanks for the DD!
+PLEASE make it possible to peacefully exchange territories!! For more defensable natural borders, important raw materials, for culture/religion sakes, or just simply for clean borders… I think many of us would welcome it.
+In EU4 exists the "sell province" interaction but you can only give away your lands with it, plus it's slow (1 province per month) and you also lose prestige. There is also a -1000 penalty for not accepted religion/culture, and then the AI won't buy it even if it's a territory that is their vital interest, which I think makes no sense.
+I really hope that in Project Caesar there will also be an option to make an offer for a desired area, and you could either compensate in cash or in other provinces, or both. For historical example, I could mention the exchange of New Amsterdam (Later NY) with some Indonesian islands between the British and the Dutch somewhere in the 17th century if I'm correct. I would also love if you extended it for claims/areas of interest, like "I pay you and/or give up some provinces but you promise to not expand/colonise over there".
+Thank you for your time and consideration.
+95
+18
+5
+Reactions:
+Reply
+Report
+Goblin Slave
+Goblin
+58 Badges
+Jul 6, 2018
+188
+2.402
+Oct 16, 2024
+Add bookmark
+#9
+Why can’t Aragon communicate with the Mamluks while still being able to send envoys all the way to Novgorod? I feel like all the Mediterranean states should be able to communicate with each other through sea access
+142
+29
+2
+Reactions:
+Reply
+Report
+nyetflix2
+Lt. General
+Nov 13, 2022
+1.574
+9.424
+Oct 16, 2024
+Add bookmark
+#10
+Finally, there is no cooldown on replacing a rival, but it will cost you 25 stability.
+Click to expand...
+Hmm, I liked having a cooldown system. It's only natural to shift rivals over time.
+Toggle signature
+EU5 Mesoamerica feedback
+18
+8
+5
+Reactions:
+Reply
+Report
+R
+Raphael Freitas
+Sergeant
+20 Badges
+Dec 31, 2023
+71
+582
+Oct 16, 2024
+Add bookmark
+#11
+Do stuff like roads in your country and in other countries affect the diplomatic range?
+27
+2
+1
+Reactions:
+Reply
+Report
+bluepotato81
+Second Lieutenant
+24 Badges
+Jun 12, 2024
+145
+1.862
+Oct 16, 2024
+Add bookmark
+#12
+owo.
+anyways the new diplomatic range seems very cool, very good
+not sure if you should get that big of a negative impact when interacting with nations of a different culture and language. seems like too big of a barrier, especially when combined with different religions
+but maybe its necessary so that we don't have Switzerland allying tunis in 1446
+the new diplomatic actions seem very interesting, can't wait to have 2000 gunboats bombarding my capital because I blocked British buildings
+Last edited:
+Oct 16, 2024
+Toggle signature
+Deliver me from mine enemies, O my God: defend me from them that rise up against me. Defend me from the workers of iniquity, and save me from bloody men. The mighty are gathered against me, awake to help me, and behold.
+Nor is there pain, or cause of pain, Or cease in pain, or noble path to lead from pain;
+The Master said, "Is it not pleasant to learn with a constant perseverance and application? Is it not delightful to have friends coming from distant quarters? Is he not a man of complete virtue, who feels no discomposure though men may take no note of him?"
+Do not despair of the mercy of Allāh. Indeed, Allāh forgives all sins. Indeed, it is He who is the Forgiving, the Merciful.
+The Tao that can be told is not the eternal Tao, and the name that can be named is not the eternal Name.
+It is not your duty to finish the work, but neither are you at liberty to neglect it;
+The finest essence here—that constitutes the self of this whole world; that is the truth; that is the self.
+O Son of Man! Veiled in My immemorial being and in the ancient eternity of My essence, I knew My love for thee; therefore I created thee, have engraved on thee Mine image and revealed to thee My beauty.
+Rise up for me, O Ahura, through Armaiti give strength, through the holiest Spirit give might, O Mazda, through the good Recompense, through the Right give powerful prowess, through Good Thought give the reward.
+O my mind, remember the Lord in meditation; He is the Destroyer of pain, the Eradicator of fear, the Sovereign Lord King. He is the Greatest Lover, the Merciful Master, the Enticer of the mind, the Support of His devotees - this is His very nature.
+In some ways, it is, in some ways, it is not, in some ways, it is, and it is not, in some ways, it is indescribable, in some ways, it is, and it is indescribable, in some ways, it is not, and it is indescribable, in some ways, it is, it is not, and it is indescribable.
+So be diligent in seeking knowledge, keeping company with those of understanding, and studying at all times, and you will attain goodness and blessings.
+An ash I know there stands, - Yggdrasill is its name, - a tall tree, showered - with shining loam. - From there come the dews - that drop in the valleys. - It stands forever green over - Urðr's well.
+Our God, with His mercy - Brought for us beauty and loveliness - He gave a command to the Pen of Power - We were thrown into the Mystery of Love.
+I saw my father, I saw him, and I gave him three requests. I asked him for a great heart, which can be carried by the big and the little. I asked him for calmness, in which there is no rebellion. I asked him for a level path, to rise to light’s place in peace.
+3
+2
+1
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Oct 16, 2024
+Add bookmark
+#13
+Old_Sealand said:
+With diplomats. When a diplomat is in one country, any way for that diplomat to do more than one action with that country (especially when you use improve relations or increasing trust/favours, that make use of that one diplomat with that country)? (Sort of like how it is in Total War for example)
+Click to expand...
+No, they do one action
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+40
+30
+14
+6
+Reactions:
+Reply
+Report
+Lord Lambert
+I cover Tinto Talks on Youtube
+92 Badges
+Jan 26, 2014
+4.643
+30.666
+Oct 16, 2024
+Add bookmark
+#14
+If I'm understanding this right, the diplomats system works quite similarly to how you acquired diplo points in Vic2?
+Toggle signature
+I play Paradox games on youtube, check me out here if you like:
+Lord Lambert
+Moving armies on a detailed map is about half the fun of a PDS game - Johan
+My signature has changed.
+This was not my choice.
+​
+6
+4
+Reactions:
+Reply
+Report
+Zerodv
+Field Marshal
+30 Badges
+Dec 1, 2014
+7.387
+7.442
+Oct 16, 2024
+Add bookmark
+#15
+I really don't like the rival system, I don't understand why we need the player or the AI to telegraph openly which nations they find hostile premeptively and in a way that makes diplomacy less dynamic
+In EU4 the rival system often resulted in smaller nations being unable to ally each other in many places and just being bullied by larger tags
+69
+18
+Reactions:
+Reply
+Report
+I
+InvisibleBison
+Field Marshal
+45 Badges
+Oct 14, 2012
+3.551
+13.949
+Oct 16, 2024
+Add bookmark
+#16
+I'm disappointed to see the return of EU4's rather silly rival system. I'd hoped that, if a rival mechanic existed, it would require some degree of actual enmity with a country for you to be able to declare them your rivals. But instead it seems the game is sticking with the counterintuitive situation where nations develop conflicting interests because they are rivals, instead of becoming rivals because they have conflicting interests.
+106
+30
+Reactions:
+Reply
+Report
+Tercio Soldier
+Major
+58 Badges
+Feb 25, 2020
+568
+4.336
+Oct 16, 2024
+Add bookmark
+#17
+It feels very weird that Aragon's diplomatic range reaches Rostov at game start.
+28
+6
+2
+Reactions:
+Reply
+Report
+Biegeltoren
+Second Lieutenant
+31 Badges
+Oct 17, 2019
+175
+924
+Oct 16, 2024
+Add bookmark
+#18
+How come Aragon has diplomatic range all the way to Russia, but the Mamluks are out of range? What's going on here?
+Toggle signature
+My EU5 mod for the Andes!
+47
+13
+Reactions:
+Reply
+Report
+H
+Hare'da Irijon
+Sergeant
+20 Badges
+Jul 2, 2017
+56
+1.162
+Oct 16, 2024
+Add bookmark
+#19
+1. Having 0.3 of a diplomat feels just so wrong... Maybe just use the term 'diplomatic power' or 'diplomatic ability'...
+2. Would getting allies be harder than in EU4? It always felt weird to me hwo every single country had 2+ allies all the time unless something freaky happens. Why should France ally with random HRE minors?
+3. Is there a possibility to have a "non-agression treaty"?
+4. Will customs unions be a thing? Basically allowing for trading resources between countries without penalties
+5. I assume you can still go over your diplomatic capacity in exchange for some penalties?
+30
+12
+1
+1
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Oct 16, 2024
+Add bookmark
+#20
+Shouldn't these modifiers work the other way around? Portugal is actually helping Aragon build their network in this example.
+10
+3
+1
+1
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+15
+Next
+1 of 15
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

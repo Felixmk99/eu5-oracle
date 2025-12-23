@@ -1,0 +1,429 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-21-17th-of-july-2024.1695632/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #21 - 17th of July 2024
+Thread starter
+Johan
+Start date
+Jul 17, 2024
+Hello Everyone and Welcome to another Tinto Talks! This is one of those Happy Wednesdays when we talk about the top secret game with the codename of Project Caesar, so that we can listen to your feedback.
+This week we are going to take a look at how exploration will work in Project Caesar. In previous GSG games we’ve done, exploration has primarily been done by units, giving them manual orders to move, or sometimes automated orders, to explore places on the map to reveal. We have a new system that works separately to go away from this and separate the military from exploration.
+Exploration in this game works entirely on Areas, and for those of you who don’t remember one of our earliest Tinto Talks, an Area contains a group of Provinces, and a Province contains a group of locations, so it should be about 25-75 locations in an area.
+Explorations exist in the “geopolitics tab” together with colonization, maritime and privateering.
+You need a proper helmet to be a good explorer!
+To get an area explored you need to start an exploration for it. You can only explore areas that are adjacent to an area you have already explored, and if it is an inland area, you can only explore if it is adjacent to an area you own.
+Starting an exploration mission for an area costs a significant amount of gold, but there is also an additional cost to start a mission depending on whether it's a land area or a sea area.  For a land area, you need manpower, and for sea areas you need sailors.
+You also have a constant upkeep cost of gold for your exploration mission, and during your explorations, you may get events related to the exploration.
+Missions always have a risk of failure, resetting all progress, and the characters involved can die.
+The administrative ability of the leader of the expedition reduces its upkeep cost, while diplomatic ability impacts the success chance, and military ability impacts how quickly the exploration can be done.
+Incompetent at a lot in life, Matias redeeming quality was that he failed fast...
+While most characters in the game can be assigned to explore an area, there are some characters that are far superior. These are ‘explorers’, which besides just being innately better at exploring, they also have different unique traits making them better or worse at certain aspects of exploring. While there are some explorers that join certain countries through historical events, there is also the possibility to recruit a new explorer. This requires the “Commision Explorers” advance in the Age of Discovery, that is early in the advances tree for the “New World” Institution.
+Speaking of advances, there are a few advances throughout the game that speed up explorations, or make them less prone to failures. At the start of the game, at near range, an Exploration led by someone who is not an Explorer may take a few years to complete, but as you get more advanced, this will become shorter in time.
+The trade winds on the sea lanes also have a significant impact on how quickly an area can be explored. We have designed the oceanic locations of Project Caesar to take into account the historical ‘sea lanes’ that were used by ships and fleets during the Age of Sail, taking advantage of their knowledge of winds and sea currents. These sea lanes shaped the way explorations were done, as their mastery was critical to the success (or failure) of an expedition.
+A purple advance is a unique one, and this is one that is unique to anyone in the Western Europe sub-continent in the Age of Renaissance.
+If you have built a spy network in another country, you can use it to steal some of their maps.
+As an exploration mission is finished, the knowledge of its discoveries will start spreading to other countries that have the capital on the same sub-continent as the explorer. Currently, the map spread takes about 150 years.
+Stay tuned, as next week we will go deep into how the combat for armies will work.
+248
+111
+14
+9
+4
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+25
+Next
+1 of 25
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Jul 17, 2024
+Add bookmark
+#2
+Wow.
+10
+2
+1
+1
+1
+Reactions:
+Reply
+Report
+bluepotato81
+Second Lieutenant
+24 Badges
+Jun 12, 2024
+145
+1.862
+Jul 17, 2024
+Add bookmark
+#3
+hell yeah
+Toggle signature
+Deliver me from mine enemies, O my God: defend me from them that rise up against me. Defend me from the workers of iniquity, and save me from bloody men. The mighty are gathered against me, awake to help me, and behold.
+Nor is there pain, or cause of pain, Or cease in pain, or noble path to lead from pain;
+The Master said, "Is it not pleasant to learn with a constant perseverance and application? Is it not delightful to have friends coming from distant quarters? Is he not a man of complete virtue, who feels no discomposure though men may take no note of him?"
+Do not despair of the mercy of Allāh. Indeed, Allāh forgives all sins. Indeed, it is He who is the Forgiving, the Merciful.
+The Tao that can be told is not the eternal Tao, and the name that can be named is not the eternal Name.
+It is not your duty to finish the work, but neither are you at liberty to neglect it;
+The finest essence here—that constitutes the self of this whole world; that is the truth; that is the self.
+O Son of Man! Veiled in My immemorial being and in the ancient eternity of My essence, I knew My love for thee; therefore I created thee, have engraved on thee Mine image and revealed to thee My beauty.
+Rise up for me, O Ahura, through Armaiti give strength, through the holiest Spirit give might, O Mazda, through the good Recompense, through the Right give powerful prowess, through Good Thought give the reward.
+O my mind, remember the Lord in meditation; He is the Destroyer of pain, the Eradicator of fear, the Sovereign Lord King. He is the Greatest Lover, the Merciful Master, the Enticer of the mind, the Support of His devotees - this is His very nature.
+In some ways, it is, in some ways, it is not, in some ways, it is, and it is not, in some ways, it is indescribable, in some ways, it is, and it is indescribable, in some ways, it is not, and it is indescribable, in some ways, it is, it is not, and it is indescribable.
+So be diligent in seeking knowledge, keeping company with those of understanding, and studying at all times, and you will attain goodness and blessings.
+An ash I know there stands, - Yggdrasill is its name, - a tall tree, showered - with shining loam. - From there come the dews - that drop in the valleys. - It stands forever green over - Urðr's well.
+Our God, with His mercy - Brought for us beauty and loveliness - He gave a command to the Pen of Power - We were thrown into the Mystery of Love.
+I saw my father, I saw him, and I gave him three requests. I asked him for a great heart, which can be carried by the big and the little. I asked him for calmness, in which there is no rebellion. I asked him for a level path, to rise to light’s place in peace.
+6
+5
+Reactions:
+Reply
+Report
+Imperialismo
+Sergeant
+58 Badges
+Apr 16, 2021
+97
+815
+Jul 17, 2024
+Add bookmark
+#4
+I'm glad it's less of us pointing and clicking exploration ships now
+61
+2
+1
+Reactions:
+Reply
+Report
+Aretii
+Second Lieutenant
+69 Badges
+Apr 17, 2014
+132
+561
+Jul 17, 2024
+Add bookmark
+#5
+To check my understanding: to get to the New World, you need to explore each sea area along the way in turn?
+17
+2
+Reactions:
+Reply
+Report
+SafS.99
+First Lieutenant
+Oct 1, 2023
+217
+1.713
+Jul 17, 2024
+Add bookmark
+#6
+Thanks for the Birthday gift Johan
+4
+1
+1
+Reactions:
+Reply
+Report
+Strybjörn
+Sergeant
+Jun 30, 2024
+68
+384
+Jul 17, 2024
+Add bookmark
+#7
+Old_Sealand said:
+Wow.
+Click to expand...
+You must read as fast a bolt to be able to already reply. Both the post and your comment say a moment ago so…
+Last edited:
+Jul 17, 2024
+33
+Reactions:
+Reply
+Report
+Z
+ZarkinDrife
+Second Lieutenant
+31 Badges
+Oct 6, 2022
+114
+466
+Jul 17, 2024
+Add bookmark
+#8
+Will it be possible to automate exploration on same land? In some mods or vanilla eu4, its annoying if im playing a nation which has terra incognito still but i cant set someone to explroe automatically due to being on the continent.
+11
+5
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Jul 17, 2024
+Add bookmark
+#9
+I remember in Medieval 2 Total War, you couldn't explore with earlier ships, that were not designed for rough waters (open seas), until you had proper ships to explore (otherwise they get attritioned and sunk at sea). Would it be possible to have something similar here, where you need to have proper ships to explore?
+45
+28
+2
+Reactions:
+Reply
+Report
+nyetflix2
+Lt. General
+Nov 13, 2022
+1.574
+9.424
+Jul 17, 2024
+Add bookmark
+#10
+if it is an inland area, you can only explore if it is adjacent to an area you own.
+Click to expand...
+And if I don't own it, but have military access or it's owned by a vassal of mine?
+Toggle signature
+EU5 Mesoamerica feedback
+31
+5
+1
+Reactions:
+Reply
+Report
+Historic Accuracy Enjoyer
+Recruit
+Mar 7, 2024
+9
+90
+Jul 17, 2024
+Add bookmark
+#11
+How will native nations be represented, will it be like in vic3 where they are a different kind of nation or like eu4 where some land is uncolonised? In addition will there be incentives for going to the Americas or around the cape such as Portuguese colonial expansion being more trading posts than conquest of empires and will the conquest of empires as the starting point for Spanish expansion in the americas be properly represented?
+29
+Reactions:
+Reply
+Report
+Aretii
+Second Lieutenant
+69 Badges
+Apr 17, 2014
+132
+561
+Jul 17, 2024
+Add bookmark
+#12
+if it is an inland area, you can only explore if it is adjacent to an area you own.
+Click to expand...
+Missed this in my first readthrough. This is a
+big
+change. The inland areas are going to be a lot more untouched for longer.
+Johan, quick question: does "area you own" here mean you need to own every location/province in the area, a majority of locations/provinces, or just one?
+30
+3
+1
+1
+Reactions:
+Reply
+Report
+D
+Davincie
+Captain
+80 Badges
+Feb 5, 2020
+323
+1.952
+Jul 17, 2024
+Add bookmark
+#13
+Is that a female conquistador?
+9
+1
+Reactions:
+Reply
+Report
+D
+Davincie
+Captain
+80 Badges
+Feb 5, 2020
+323
+1.952
+Jul 17, 2024
+Add bookmark
+#14
+Oh, and is there an equivalent of the Seven Cities? Exploring for gold and all that?
+3
+3
+Reactions:
+Reply
+Report
+Tissaia
+Major
+48 Badges
+Dec 4, 2019
+579
+4.327
+Jul 17, 2024
+Add bookmark
+#15
+The trade winds on the sea lanes also have a significant impact on how quickly an area can be explored. We have designed the oceanic locations of Project Caesar to take into account the historical ‘sea lanes’ that were used by ships and fleets during the Age of Sail, taking advantage of their knowledge of winds and sea currents. These sea lanes shaped the way explorations were done, as their mastery was critical to the success (or failure) of an expedition.
+Click to expand...
+That's better than I could have expected.
+10
+Reactions:
+Reply
+Report
+Mr_Corona
+Recruit
+24 Badges
+Jun 21, 2024
+5
+85
+Jul 17, 2024
+Add bookmark
+#16
+Can you give us a list of (already known) features we're going to see this summer, and how many new features we're going to be seeing?
+And if you can, answer this: will PC only be announced after TTs and TMs are done?
+edit: now that i think about my quiestions again, I realised that they were incredibly stupid
+Last edited:
+Jul 17, 2024
+7
+Reactions:
+Reply
+Report
+Prussia
+First Lieutenant
+17 Badges
+May 30, 2005
+201
+193
+Jul 17, 2024
+Add bookmark
+#17
+It's simple, clear and I like it.
+1
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Jul 17, 2024
+Add bookmark
+#18
+Aretii said:
+To check my understanding: to get to the New World, you need to explore each sea area along the way in turn?
+Click to expand...
+Yeah,  but the open sea lane areas are big..
+Last edited:
+Jul 17, 2024
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+151
+70
+12
+Reactions:
+Reply
+Report
+M
+MasterPaw
+Lt. General
+50 Badges
+Apr 6, 2019
+1.451
+4.760
+Jul 17, 2024
+Add bookmark
+#19
+What about conquistadors? Are they depicted in game?
+1
+1
+1
+Reactions:
+Reply
+Report
+Pescavelho
+First Lieutenant
+7 Badges
+Mar 9, 2020
+230
+1.424
+Jul 17, 2024
+Add bookmark
+#20
+I wonder how exploration is going to be somewhat limited during the first 200 years or so of the game. Portugal hadn't even discovered Madeira and the Azores, there was already an European colony in North America (Greenland) that eventually got abandoned, etc.
+9
+3
+3
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+25
+Next
+1 of 25
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

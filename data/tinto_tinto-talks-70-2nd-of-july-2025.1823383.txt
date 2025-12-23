@@ -1,0 +1,480 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-70-2nd-of-july-2025.1823383/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #70 - 2nd of July 2025
+Thread starter
+Pavía
+Start date
+Jul 2, 2025
+Hello, and welcome to another
+Tinto Talks
+, the happy Wednesdays where we talk about
+Europa Universalis V
+!
+Today, we will talk about another very impactful early-game situation: the
+Hundred Years’ War
+!
+Historically, the war started when, in May 1337, Philip VI confiscated the Duchy of Aquitaine from Edward III of England, for the reason of breaching his obligations as a vassal, which was responded to by Edward III claiming the throne of France by the rights of his mother, Isabella of France - the situation was way more complicated than this, so let’s leave the historical events here.
+In our game, a couple of months after the start of the game (so, in June 1337), this event will trigger to France:
+While this is the English point of view:
+If the historical options are followed (which is set to always happen to AI countries), this will happen:
+And it will also trigger the situation:
+The starting situation of the Hundred Years’ War, with the French and English subjects. You can notice the striped vassals, which mean that these are disloyal subjects.
+​
+As you see, each contender has its own set of objectives:
+You can also see that there’s a Strength comparison:
+Note: Numbers are a matter of balance, so please consider them WIP.
+​
+With the situation and claims in place, it’s just a matter of time before one of the sides declares war on the other:
+Something interesting is that each war is considered a ‘phase’ of the situation, so until it ends, any war between France and England will be considered ‘the 1st Phase’, ‘the 2nd Phase’, and so on:
+The Situation panel will also refresh when the war starts, so you can quickly check there everything related to it:
+Let’s talk now about the actions. There’s a common action that any of the sides can do, if the war has lasted for longer than 4 years, that requests the Pope to enforce a white peace among the contenders:
+The most important are those related to the French subjects; the objective for France will be to rein them in and have them contribute to the war effort in the conflict phases, while for England, it will be about convincing them to abandon the French king in the peace phases:
+The French subjects have their own gameplay and actions, related to their relationship with the French sovereign, and if they stay loyal to them, or not:
+So, at the end of the day, one of the contenders will probably be strong enough to defeat the other. In the case of France, it’s straightforward: No more independent English presence in the continent. In the case of England, beside pure conquest, the ‘Claim of Throne of France’ peace goal requests:
+England (or their subjects) must control more than 15% of the ownable locations in the French Region
+England must control the capital of France
+The cost of this treaty also depends on 2 factors:
+A base cost
+A fluctuating cost based entirely on the relative strength between the two countries. So, a stronger England would inevitably make this peace treaty option somewhat cheaper.
+And that’s it on the mechanical part of the situation; but there are also a bunch of events, both random and historical, that are dependent on it:
+And that’s all for today! We will come back on Friday, as we will talk in
+Tinto Flavour
+about
+France
+!
+And also remember, you can
+wishlist Europa Universalis V now
+! Cheers!
+108
+100
+4
+2
+2
+Reactions:
+Reply
+Report
+Written by
+Pavía
+Content Design Lead PDX Tinto
+Paradox Staff
+12 Badges
+Messages
+4.509
+Reaction score
+192.684
+1
+2
+3
+…
+Go to page
+Go
+14
+Next
+1 of 14
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+K
+kingner
+Sergeant
+30 Badges
+Apr 10, 2025
+52
+260
+Jul 2, 2025
+Add bookmark
+#2
+Nice to see the Lords of Wales on the map!
+25
+6
+1
+Reactions:
+Reply
+Report
+P
+Polesie Admiral
+Owns EU5
+45 Badges
+Nov 7, 2022
+2.436
+8.655
+Jul 2, 2025
+Add bookmark
+#3
+eh nothing ever happens
+Toggle signature
+my EU5 suggestions:
+expanding the Tatar Yoke mechanics
+IO-Based short term alliances for targeted wars
+Representation of Jewish pops using estates and laws mechanics
+Suggestion to harden conquest of small nations
+Reworking the Thirty Years War with Multiple Leagues
+Suggestion for Northern wars situation
+Subsidizing countries grant favours on them
+High inflation directly lowers satisfaction
+61
+9
+3
+1
+Reactions:
+Reply
+Report
+T
+titan.bevel
+Colonel
+Aug 1, 2024
+904
+3.356
+Jul 2, 2025
+Add bookmark
+#4
+I'd say the 2 options on the initial events (Robert d'Artois refuge granted) should have a bit of an impact on your nobility estates. Presumably they'd see the state as quite impotent and therefore gain a fair bit of influence should you let him flee as easily. (and for England, I'd say surrendering a noble should anger your nobility estate, while protecting him should make them quite happy)
+Toggle signature
+2 proposals
+on missions
+a proposal on religious influence
+a proposal on CB and peace deals
+maps ought to be more important !
+trade need some monopoly notion
+,
+and some import and export differences
+20
+10
+2
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Jul 2, 2025
+Add bookmark
+#5
+Pfft. This will surely be a short affair. Home by Christmas and all that.
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+43
+4
+1
+Reactions:
+Reply
+Report
+livebythecreed77
+Colonel
+44 Badges
+Jul 29, 2015
+920
+4.465
+Jul 2, 2025
+Add bookmark
+#6
+The map seems to look better every week
+10
+7
+2
+Reactions:
+Reply
+Report
+nezztorr
+Private
+6 Badges
+Jun 17, 2021
+22
+122
+Jul 2, 2025
+Add bookmark
+#7
+Can we see how a English victory would looks like in the map?
+10
+Reactions:
+Reply
+Report
+Daniel the Finlander
+Colonel
+61 Badges
+Feb 2, 2016
+1.064
+8.242
+Jul 2, 2025
+Add bookmark
+#8
+Dang, wales is pretty balkanized now lol
+Toggle signature
+modder and a lover of mods
+eu5 > imperator > eu4
+EU5 mod: Historically Accurate Courland
+EU5 mod: Historically Accurate Finland
+22
+13
+3
+Reactions:
+Reply
+Report
+Rule Britannia
+Lt. General
+86 Badges
+Apr 18, 2005
+1.505
+5.179
+Jul 2, 2025
+Add bookmark
+#9
+Can England gain the support of the disloyal French vassals somehow, e.g. Burgundy?
+9
+Reactions:
+Reply
+Report
+livebythecreed77
+Colonel
+44 Badges
+Jul 29, 2015
+920
+4.465
+Jul 2, 2025
+Add bookmark
+#10
+nezztorr said:
+Can we see how a English victory would looks like in the map?
+Click to expand...
+27
+8
+5
+3
+1
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Jul 2, 2025
+Add bookmark
+#11
+Can you say no to the Papal delegates and continue the war (for a cost, obviously), or will it end the current phase in a white peace no matter what?
+8
+7
+Reactions:
+Reply
+Report
+D
+Davincie
+Captain
+80 Badges
+Feb 5, 2020
+323
+1.952
+Jul 2, 2025
+Add bookmark
+#12
+In case of a definitive victory, does France get anything more than kicking the English out? Like an opportunity to turn the tables and vassalize the English for real?
+11
+6
+1
+1
+Reactions:
+Reply
+Report
+T
+titan.bevel
+Colonel
+Aug 1, 2024
+904
+3.356
+Jul 2, 2025
+Add bookmark
+#13
+the french victory condition seem to have a loc issue where they should say "England is a subject (or below) of France". I hope the situation can trigger even if Robert d'Artois is given back / not asked based on any future "outrageous ask" / if England decide they CAN finally press claim. I'd say maybe for as long as the claim has a sort of "dynastic validity" and the age of discovery hasn't started ?
+Toggle signature
+2 proposals
+on missions
+a proposal on religious influence
+a proposal on CB and peace deals
+maps ought to be more important !
+trade need some monopoly notion
+,
+and some import and export differences
+5
+1
+Reactions:
+Reply
+Report
+APlayerInMC
+First Lieutenant
+5 Badges
+Mar 27, 2024
+221
+1.062
+Jul 2, 2025
+Add bookmark
+#14
+seems like there are still adjustments to be made to the territory of England.
+3
+Reactions:
+Reply
+Report
+Hezekiah
+EU4 enthusiast
+52 Badges
+Jul 25, 2016
+353
+1.221
+Jul 2, 2025
+Add bookmark
+#15
+Can the French King acquire the English Crown as a variant outcome?
+Toggle signature
+I mostly play EU4
+6
+3
+Reactions:
+Reply
+Report
+Pyoro
+General
+46 Badges
+May 4, 2009
+1.893
+12.507
+Jul 2, 2025
+Add bookmark
+#16
+Imagine being 2 years into a conflict and calling it "1st Phase of the Hundred Years War". One might accuse someone of a slight bout of pessimism.
+How likely is it these conflicts actually last multiple generations / anywhere near hundred years? Let's say for uninfluenced AI playthroughs?
+27
+4
+4
+1
+Reactions:
+Reply
+Report
+ero_sk
+General
+32 Badges
+Apr 16, 2013
+1.975
+9.098
+Jul 2, 2025
+Add bookmark
+#17
+If the historical options are followed (which is set to always happen to AI countries), this will happen
+Click to expand...
+This should be an option in game/campaign settings. By default make AI countries always follow historical choices, but allow players to change this for a more random and dynamic campaign.
+Toggle signature
+Check out my Europa Universalis V mods
+Administrative Governance Rebalanced
+| Centralization rework
+Diplomatic Action Costs Reworked
+| Spending favors isn't cheap anymore
+10
+Reactions:
+Reply
+Report
+APlayerInMC
+First Lieutenant
+5 Badges
+Mar 27, 2024
+221
+1.062
+Jul 2, 2025
+Add bookmark
+#18
+and the Scotts?
+APlayerInMC said:
+seems like there are still adjustments to be made to the territory of England.
+Click to expand...
+Reply
+Report
+High Speed Flying Gladius
+Major
+Jul 28, 2022
+685
+3.355
+Jul 2, 2025
+Add bookmark
+#19
+I wonder how difficult it would be to install Jeanne on the French throne.
+Would be funny.
+Toggle signature
+Do not mistake the finger for the Moon.
+Currently writing a megacampaign AAR.
+Weekly AAR Showcase - May 13 2024/ Aug 20 2025.
+WritAAR of the Week - May 5 2024/ Dec 2 2024.
+Best Character Writer of the Week - Nov 7 2024/ Oct 19 2025.
+3rd-place Q3 2024 ACAs
+Inkwell!
+This new "reading" mechanic sounds kinda op tbh. I hope paradox will nerf it before release.
+Please keep politics to the Balkans feedback thread.
+9
+4
+2
+2
+1
+Reactions:
+Reply
+Report
+Twig1000
+Second Lieutenant
+47 Badges
+Mar 3, 2018
+183
+1.322
+Jul 2, 2025
+Add bookmark
+#20
+Absolutely fantastic, truly. Love the flavour, love the events, love the new tags in Britain. You guys absolutely smashed it out the park today. Brilliant
+9
+6
+3
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+14
+Next
+1 of 14
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

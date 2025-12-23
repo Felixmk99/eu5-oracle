@@ -1,0 +1,697 @@
+Source URL: https://eu5.paradoxwikis.com/Diplomacy
+Source Date: 2025-12-12
+
+Please help with verifying or updating older sections of this article.
+At least some were last verified for
+version
+pre-release.
+The diplomacy menu
+Every country has a number of diplomats, which are required for diplomatic actions or spy networks. The maximum number of diplomats a country can have at a time is limited but can be increased by certain advances or societal values.
+Relations
+[
+edit
+|
+edit source
+]
+Please help improve this article or section by
+expanding it
+with: favors section and brief description of trust and antagonism.
+Each country has an opinion, trust, favors and antagonism towards every other country
+[1]
+:
+Opinion determines whether a country will be hostile or not and ranges from
++200
+to
+−200
+.
+Favors can be spent to ask the other country to do something. If favors are already unbalanced, refusing will cause a loss of trust and reduce diplomatic reputation for 24 months.
+Opinion
+[
+edit
+|
+edit source
+]
++75
+they_defend_us becoming
++150
+(decaying) they_saved_us
++50
+they_aid_us becoming
++100
+(decaying) they_helped_us
++50
+Enemy of my enemy
++20
+Subsidies (scale?)
++20
+Royal marriage
++10
+Same dynasty
++10
+Accept our culture
++10
+Same court language
++10
+Receiving guarantee
++10
+Receiving military access
++10
+Receiving food access
++10
+Receiving fleet basing rights
++10
+liked_religious_school
++5
+we_accept_their_culture
++5
+Tolerate our culture
++5
+Shared culture group
++5
+Same court language family
++5
+Same common language
++5
+Alliance
++5
+positive_religious_tolerance multiplied by tolerance of true faith/heretics/heathens
++5
+Giving guarantee
++5
+religious_aspect
++2
+Tolerate their culture
++2
+Same common language family
++2
+Similar societal values (scale)
++2
+Fighting the same war
+−200
+At war
+−100
+Unfulfilled promise of land (scale with how far from the expected warscore it was)
+−100
+Rival
+−50
+Enemy
+−25
+Both great powers
+−25
+defending_our_rival
+−25
+They have a casus belli
+−20
+Is hegemon (can be stacked?)
+−10
+Negative religious tolerance
+−10
+Disliked religious school
+−10
+Different culture
+−5
+Different societal values (scale)
+Decaying modifiers :
+Name
+Value
+Yearly decay
+Min/max
+Enforced peace
+-50
+1
+-100
+declared_war
+-100
+2
+gift
+20
+1
+40
+broke_alliance
+-50
+1
+decline_alliance
+-20
+1
+-40
+dishonored_alliance
+-100
+1
+declined_tribute_offer
+-10
+1
+-20
+broke_tribute
+-50
+1
+decline_military_access
+-10
+1
+-20
+decline_fleet_basing_rights
+-10
+1
+-20
+decline_guarantee
+-10
+1
+-20
+insult
+-50
+1
+-50
+changed_subject_type
+-50
+2
+-200
+to
+100
+threatened_us
+-100
+1
+-200
+supported_rebels
+-50
+1
+-50
+improve_relation
+100
+1
+improve_relation_reversed
+25
+1
+abandon_civil_war
+-50
+1
+liberated_us
+50
+1
+took_on_debt
+10
+1
+20
+placed_privateers
+-25
+1
+-100
+to 0
+bribed_mercenaries
+-50
+2
+-100
+to 0
+default_loans
+-25
+1
+-1000
+to
+1000
+papal_relations
+1
+0
+-1000
+to
+1000
+raided_our_borders
+-5
+1
+-1000
+destroyed_building
+-25
+1
+caught_spying
+-40
+5
+-100
+decline_ask_to_vote_for_me_as_emperor
+-10
+1
+-20
+Trust
+[
+edit
+|
+edit source
+]
+Trust is necessary for forging lasting agreements and ranges from
++100
+to
+−100
+.
+Every country has a
+Diplomatic Reputation value, which represents how highly regarded it is in international relations. Most other trust bonuses and penalties are temporary and decay in the number of years but the following are permanent:
++5
+Mutual rival
++5
+Royal marriage
++5
+Same dynasty
++5
+Union
++5
+Treaty of Windsor
++2
+Same religion
++1
+Same religious school
++1
+per Diplomatic Reputation
+−2
+Different religion
+−5
+Rival
+−5
+Supporting rival
+−5
+Has casus belli
+−10
+Different religion group
+−10
+At war
+Antagonism
+[
+edit
+|
+edit source
+]
+Antagonism reduces a country's
+Opinion by
+−4
+and at higher levels makes a country less inclined in diplomacy and causes it to become hostile in indirect ways. Antagonistic actions can cause an antagonism 'bomb' in a location that affects the countries near it to varying degrees depending on how much they care about that location and about the antagonizing country. Antagonism 'bomb' effects will generally dissipate with time. Antagonism is affected by the following:
++50%
+Country is the victim of the antagonistic action
++50%
+Target location has the same overlord
++40%
+Target location has the same culture
++35%
+Target location has the same religion
++25%
+Target location has the same dialect
++20%
+Target location has the same language
++20%
+Target location has the same culture group
++5%
+Target location has the same government
++5%
+Target location has the same language family
++4%
+Per development in the target location
+−5%
+Target location has a different government type
+−35%
+Target location has a different religion group
+−80%
+Country is a subject of the aggressor
+−4%
+Per Diplomatic Reputation point
+−1%
+Per Legislative Efficiency point
+Antagonism is reduced by the distance between the targeted location and the third party's borders
+If a country has more than
+50
+Antagonism,
+coalitions
+can be created against it.
+Diplomatic capacity
+[
+edit
+|
+edit source
+]
+Diplomatic capacity dictates how many relations a country can have with another country. Diplomatic capacity costs are determined by the difference in population and rank between the countries as well as their opinion of each other. Trust will decrease diplomatic capacity costs. Membership in some international organizations costs diplomatic capacity as well.
+Countries that go over their diplomatic capacity will suffer the following penalties for each point:
++20%
+Antagonism Received
+−2
+Diplomatic Reputation
+−25%
+Crown Power
+−0.1
+Monthly Prestige
+−25
+Loyalty of Subjects
+Sources of Diplomatic capacity:
+Base Value for Every Country: +1.00
+Duchy Country Rank: +1.00
+Kingdom Country Rank: +2.00
+Empire Country Rank: +3.00
+Diplomatic Traditions (Government Reform): +1.00 at 100% implementation
+Rule through Dynastic Ties (Law): +1.00
+Expanded Archives (Age I Advance): +20.00%
+Formalized Relations (Age III Advance): +1.00
+Threaded Politics (Age V Advance): +1.00
+Diplomatic Spending: +50% at 100% spending
+Ruler's Diplomatic Ability: +1% per point
+Power projection
+[
+edit
+|
+edit source
+]
+Each country has a power projection, which allows it to build trade offices, colonies, slave centers, missions, or other specific buildings in locations owned by countries with less power projection. The greater the difference, the quicker colonial charters can take control over the other country's locations. Each point of power projection also reduces the percentage of pops of primary religion and culture required to complete colonization by 0.5%.
+Great powers
+[
+edit
+|
+edit source
+]
+Each country has a great power score, which measures how powerful it is. Subjects transfer a certain percentage of their great power score to their overlord, depending on their subject type.
+Great power score depends on the following: population, income, advances, stability, prestige, government power, markets, trade routes, navy, allies, army, discipline, war exhaustion.
+The 9 countries with the most great power score are considered great powers and gain the ability to intervene in wars, enforce peace, threaten war, and receive the following bonuses:
+Rank
+Power projection
+Monthly prestige
+Monthly diplomats
+Diplomatic capacity
+Mercenary range
+Expected cost of court
+At game start
+1
++10
++0.1
++0.2
++2
++50%
++10%
+Great Yuán
+2
++8.88
++0.08
++0.17
++1.77
++44.44%
++8.88%
+Sultanate of Delhi
+3
++7.77
++0.07
++0.15
++1.55
++38.88%
++7.77%
+Duchy of Upper Bavaria
+4
++6.66
++0.06
++0.13
++1.33
++33.33%
++6.66%
+Mamlūk Sultanate of Egypt
+5
++5.55
++0.05
++0.11
++1.11
++27.77%
++5.55%
+Ashikaga Shogunate
+6
++4.44
++0.04
++0.08
++0.88
++22.22%
++4.44%
+Khmer Empire
+7
++3.33
++0.03
++0.06
++0.66
++16.66%
++3.33%
+Kingdom of France
+8
++2.22
++0.02
++0.04
++0.44
++11.11%
++2.22%
+Mali Empire
+9
++1.11
++0.01
++0.02
++0.22
++5.55%
++1.11%
+Ethiopian Empire
+Subject and rebel countries cannot become great powers.
+Hegemony
+[
+edit
+|
+edit source
+]
+After the Age of Discovery starts, the great power that meets certain requirements for 120 months will become a Hegemon. Hegemons unlock a unique cabinet action, a unique diplomatic interaction, and a unique bonus as long as they maintain the requirements to be Hegemon. Hovering over a Hegemon type will list the current requirements to become the Hegemon and which great powers are closest to becoming Hegemon. Being a Hegemon gives the following effects, which stack if the country is Hegemon in multiple categories:
++20%
+Antagonism Received
++1%
+Expected Cost of Court
++0.01
+Monthly Prestige
+Hegemon
+Unlocked cabinet action
+Unlocked diplomatic interaction
+Bonus
+Hegemony criteria
+Cultural
+The Cultural Hegemon is the Great Power with the highest Cultural Influence.
+Assimilate Area
+Force to Change Court Language
++25%
+Cultural tradition
+Cultural influence
+Diplomatic
+The Diplomatic Hegemon is the Great Power with the highest Diplomatic Reputation.
+Diplomatic Corps
+Influence Nation
++30%
+Improve relations
+Diplomatic reputation
+Economic
+The Economic Hegemon is the Great Power with the highest monthly Income.
+Reduced Paperwork
+Force to Divert Trade
+−10%
+Unit food consumption
+Monthly income from trade and tax
+Military
+The Military Hegemon is the Great Power with the highest Army size.
+Soldiers as Workforce
+Violate Sovereignty
+−10%
+War score cost
+Number of regulars
+Naval
+The Naval Hegemon is the Great Power with the highest number of Heavy Ships.
+Maritime Support
+Force Embargo
+−10%
+Naval damage taken
+Number of heavy ships
+Rivals
+[
+edit
+|
+edit source
+]
+Countries can declare their hostility towards other countries by declaring them as rivals. Countries have some additional hostile actions against their rivals, like the ability to fabricate a Casus Belli and the option to intervene in their Wars. A Rival Country will not accept friendly Treaties like Alliances, but Countries with common rivals will have an easier time signing Treaties between them. Rivalry is not reciprocal, meaning that it is not necessary nor automatic for a country to rival back the ones that have rivaled it. A country that has declared another as its Rival is known as its Enemy. Only countries with similar Great Power Score and negative opinion can be declared Rivals.
+Declaring a country a rival reduces opinion between the two countries by
+−100
+. This stacks if both countries declare each other rivals. If two countries have the same rival they gain
++50
+Opinion with each other. This does not stack if they share multiple rivals.
+Declaring a country a rival is free, but removing it as rival costs
+25
+stability.
+Each country can have a number of rivals, depending on its country rank. Having fewer rivals gives the following penalties for every missing rival:
++0.1
+Monthly progress to Conciliatory
++10%
+Antagonism received
+−10%
+Counterespionage
+−10%
+Spy network construction
+Spy networks
+[
+edit
+|
+edit source
+]
+Countries can build spy networks inside other countries via the diplomacy menu. Each spy network has a progress that goes from 0 to 100. Once the network has at least 25 progress, there is a chance each month that a spy will be discovered. Once a spy network is formed, it gains progress at a rate of
++1
+per month and reduces Monthly Diplomats by
+−0.1
+. Maintaining a spy network can be stopped at any point, which will cause it to decay by
+−1
+each month. Both the speed at which a spy network gains progress and the chance for spy discovery are affected by the target country's Counterespionage as well as the difference between the Cultural Influence of the country's primary culture and the Cultural Tradition of the targeted country's primary culture.
+Each point of progress speeds up sieges against the target's locations by
++0.2%
+and reduces the Antagonism impact towards the target by
+−0.1%
+.
+Spy networks allow a country to create a casus belli on the target at the cost of 20 spy network progress. Spy networks also allow a country to perform covert actions. Only one covert action can be performed each month. Subjects of another country cannot have spy networks and covert actions will use the spy network in their overlord country instead.
+Covert action
+Spy network cost
+Effects
+Requirements
+Sabotage Reputation
+5
+Select a country that will lose 50 Opinion with the target
+Corrupt Officials
+20
+Target gains -10% Cabinet Efficiency
+Can be canceled at any point
+Sow Discontent
+40
+Target gains -0.2 Stability Investment
+Can be canceled at any point
+Agitate for Liberty
+30
+Target gains -0.25 Loyalty to Overlord
+Can be canceled at any point
+Target is a subject
+Steal Maps
+40
+Select an area that the target discovered to discover
+Gain 10 Antagonism centered around the selected area
+Target discovered an area that the country has not discovered
+Steal Technology
+75
+Gain 24 Research Progress
+Target loses 12 Research Progress
+Target has more than 20 Research Progress
+Infiltrate Administration
+50
+Lifts the fog of war over the targeted country
+Infiltrate Administration advance
+Support Rebels
+30
+Select a rebellion in the targeted country to make it gain progress faster
+If the rebellion reaches 100% join its war
+Undercover Contacts advance
+Diplomatic actions
+[
+edit
+|
+edit source
+]
+This section is planned to be
+automatically generated
+and should not be edited directly.
+Instead, suggest changes on the
+talk page
+.
+Friendly actions
+[
+edit
+|
+edit source
+]
+Hostile actions
+[
+edit
+|
+edit source
+]
+Economy actions
+[
+edit
+|
+edit source
+]
+Access actions
+[
+edit
+|
+edit source
+]
+Subject actions
+[
+edit
+|
+edit source
+]
+Influence actions
+[
+edit
+|
+edit source
+]
+References
+[
+edit
+|
+edit source
+]
+↑
+Found in
+Europa Universalis V\game\in_game\common\biases
+Mechanics
+Realm
+Country
+•
+Government
+•
+Parliament
+•
+Estate
+•
+Reforms
+•
+Laws
+•
+Characters
+•
+Missions
+Economy & Research
+Economy
+•
+Goods
+•
+R.G.O.
+•
+Market
+•
+Building
+•
+Population
+•
+Age
+Diplomacy & Warfare
+Diplomacy
+•
+Subjects
+•
+International organization
+•
+Warfare
+•
+Combat
+•
+Military
+The world
+Location
+•
+Culture
+•
+Religion
+•
+Language
+•
+Exploration
+•
+Situations
+•
+Disasters
+•
+Diseases
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=Diplomacy&oldid=20966
+"

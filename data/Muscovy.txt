@@ -1,0 +1,251 @@
+Source URL: https://eu5.paradoxwikis.com/Muscovy
+Source Date: 2025-12-23
+
+This is a
+compilation
+and strategy article for
+Muscovy
+.
+Mechanics and flavor content are
+transcluded
+from other pages.
+Muscovy
+Country type
+Settled
+Government type
+Monarchy
+Primary culture
+Muscovite
+Primary religion
+Orthodoxy
+Capital location
+Moskva
+This article is a
+Stub
+,  which means that it does not sufficiently cover its subject matter.
+Please help expand
+this
+article if you can.
+The Grand Principality of Muscovy stands at a crossroads of political maneuvering, economic troubles under the
+Tatar Yoke, and an ongoing power struggle among East Slavic principalities, each vying for supremacy within the fragmented Rus' territories. The Tatar invasion continues to cast a long shadow over the region and Muscovy, like many other Rus' principalities, remains a tributary to the formidable
+Golden Horde
+.
+Guiding Muscovy through these complexities is Grand Prince Ivan Rurikovich, a leader keenly aware of the delicate balance required for survival under Tatar dominion. He has skillfully managed the principality's affairs through diplomatic initiatives and strategic alliances and now seeks to consolidate power and enhance Muscovy's standing within the Yoke, with aspirations to unite the Rus' land under one banner.
+Muscovy
+is a 26
+location kingdom in the Russia
+region of Eastern Europe. They begin the game as a member of the Tatar Yoke
+international organization
+and the
+Eucemenical Patriarchate of Kōnstantinoúpolis. They are also in a
+union with
+Vladimir
+,
+Velikiy Novgorod
+,
+Kostroma
+,
+Nizhny Novgorod
+, and
+Uglich
+.
+Scripted content
+[
+edit
+|
+edit source
+]
+Main article:
+Russian content
+Strategy
+[
+edit
+|
+edit source
+]
+The below is
+one of many
+player suggested strategies for
+Muscovy
+. Bear in mind, due to the dynamic nature of the game, it may unfold differently for other players.
+Values
+[
+edit
+|
+edit source
+]
+Centralization
+Innovative
+Spiritualist vs Humanist: I think is a player choice here but would lean Humanist in most cases
+Aristocracy vs Plutocracy: Ideally in the middle favoring neither side
+Serfdom
+Belligerent
+Quality
+Defensive
+Land
+Capital Economy
+Communalism
+Economy
+[
+edit
+|
+edit source
+]
+Muscovy starts with a moderate economy based on agriculture, furs, and trade goods. The Moscow trade node can become very profitable once you control more of the region. Key economic priorities include:
+Consolidating the Moscow trade node
+Expanding profitable RGOs (Resource Gathering Operations)
+Building up a strong food supply to encourage population growth
+Estate Privileges
+[
+edit
+|
+edit source
+]
+Crown - Diplomatic Traditions and Autocracy to start.  You will want the diplomatic help early on to quickly unify and vassalize peacefully.
+Nobility - Banal Lordship and Only Nobility as Leaders are awful, try to remove them as soon as you weaken the Nobility to reduce the stability hit.
+Clergy - Embellish Great Works of Faith, Expansionist Zealotry, Powerful Dioceses, Promote Cultural Unity should be added when possible.
+Burghers - Urban Development Grants IMMEDIATELY, Building Rights, Commercial Advisory Council, Land of Commerce should be added when possible
+Peasants - Remove Communal Lands IMMEDIATELY, remove Hunting Permits when possible.  Add Common Militias and Free Mobility for the Common People.
+Tribes - Add Pasture Access when possible, this estate may drop off depending on pop migrations
+Opening Moves
+[
+edit
+|
+edit source
+]
+1: Vassalize
+Vladimir
+, then any other Russian minors that will accept diplomatic  annexation.
+Early parliaments can be used to fabricate claims on other principalities, or use no CB to quickly expand early on.  Any land taken early on in this fashion will be best released as a vassal to core for you early on.
+Watch for early wars between
+Golden Horde
+and other major nations that border it and try to take advantage of it.  Expect to not be able to beat their armies unless you more then double them in size in engagements as they will have almost exclusively high powered only cavalry armies.  Generally the AI will completely disregard it's original foe to attack you but you should be able to siege down much land before they return as they have almost no forts across their land.
+Ideally push the members of the Union to have you as the senion member and assured offense so they join your wars as well.  Eventually annex them when possible. Once you break the Yoke keep expanding into Golden Horde land every time truce timers expire.  Any principalities that can't be diplomatically annexed and are not in your Union should be annexed and released as vassals.  Perm is pagan and can have religious CB used against them.  Once you are able to easily conquer and beat your neighbors in wars start to hold any land needed for creating Russia for yourself and annex a single Vassal at a time.  Scandinavia will be quite weak early on and can be easily expanded into as well.  Any land taken from these countries can be turned into vassals to increase your overall strength while consolidating land in Russia for yourself.
+2: Players used to the basics of warfare can also benefit from a highly aggressive approach in the first decades of the game. Most of Muscovy's neighbors are either weaker than it or just as strong, providing many avenues for rapid expansion. The AI will almost always ally several other principalities at the start of the game, which players can exploit to conquer or subjugate multiple with a single casus belli. You may want to consider attacking larger principalities like
+Smolensk
+earlier to limit competition and prevent additional obstacles to expansion. The rate at which Muscovy is able to conquer and subjugate other principalities can easily out-scale the
+antagonism
+gained. With proper management, coalitions are unlikely to be a significant threat to the player, even being a benefit in the same manner as alliances in allowing Muscovy to attack multiple nations simultaneously. Large neighbors like Lithuania and the Golden Horde are unlikely to gain enough antagonism to join a coalition against the player, though more moderate-sized nations like Velikiy Novgorod and
+Kyiv
+are likely to become hostile before Muscovy can consolidate Russia.
+While centralization is ideal in most circumstances, how early you begin shifting to centralization will affect your strength and strategy. Subjects can be very helpful, especially during the first few decades of the campaign. Like most large nations, Muscovy will be unable to project significant control over lands far from the capital. Considering that Muscovy will be restricted to two cabinet seats for much of the early game, players conquering provinces rapidly will be left with most of their nation unintegrated and at 0% control. Subjects will core and develop these lands for you, all while providing more income than you'd receive through direct ownership and participating autonomously in your wars. However, it may also benefit the player to limit the number of subjects they maintain at a single time, as the subject loyalty penalty from centralization can make maintaining loyalty more trouble than it's worth.
+By 1380, Velikiy Novgorod, Lithuania, and Kyiv should be beatable. Best case scenario, Muscovy should be able to defeat the Golden Horde by 1400, especially through asymmetrical warfare. Minimize the bonuses the Golden Horde's cavalry have by taking defensive battles where they suffer river crossing or terrain penalties, or avoid confrontation entirely and instead exploit their size by occupying provinces wherever they aren't defending. Building castles can help by preventing their armies from being able to carpet siege your own lands, and providing locations where they'll receive penalties in battle. Being an
+army-based nation
+, the Golden Horde will shatter into several dozen smaller nations should their military be completely wiped out. Keeping the Golden Horde unified can give you an easy way of quickly expanding, especially since much of their land is needed to form
+Russia
+. On the other hand, the nations which emerge from a shattered Golden Horde will be much less capable of resistance.
+Achievements
+[
+edit
+|
+edit source
+]
+Break the Yoke
+Break the Tatar Yoke as a Russian country.
+References
+[
+edit
+|
+edit source
+]
+Countries
+Tabber requires Javascript to function.
+Eastern Europe
+Albania
+Arianiti
+Armenia
+Bosnia
+Bulgaria
+Byzantium
+Croatia
+Epirus
+Georgia
+Halych
+Hungary
+Kyiv
+Lithuania
+Mataranga
+Muscovy
+Muzaka
+Perm
+Poland
+Samtskhe
+Serbia
+Smolensk
+Teutonic Order
+Thopia
+Velikiy Novgorod
+Volhynia
+Vyatka
+Wallachia
+Western Europe
+Aragon
+Austria
+Aquitaine
+Balliol
+Brandenburg
+Brittany
+Bohemia
+Castile
+Denmark
+Dithmarschen
+England
+Florence
+France
+Guelders
+Granada
+Holland
+Iceland
+Moravia
+Milan
+Naples
+Navarre
+Norway
+Papal States
+Portugal
+Scania
+Scotland
+Sicily
+Spain
+Sweden
+Valencia
+Venice
+Wales
+Central Africa
+East Africa
+Ethiopia
+Kitara
+North Africa
+Morocco
+Tlemcen
+Tunis
+South Africa
+Zimbabwe
+West Africa
+Middle East
+Oman
+Ottomans
+Yemen
+Central Asia
+Timurid
+East Asia
+Chūzan
+Hokuzan
+Japan
+Míng
+Nanzan
+Ryūkyū
+Yuan
+South Asia
+Delhi
+Mughal
+South East Asia
+Khmer
+Majapahit
+North America
+Cahokia
+South America
+Australasia
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=Muscovy&oldid=21678
+"

@@ -1,0 +1,323 @@
+Source URL: https://eu5.paradoxwikis.com/Yu%C3%A1n
+Source Date: 2025-12-07
+
+This is a
+compilation
+and strategy article for
+Yuán
+.
+Mechanics and flavor content are
+transcluded
+from other pages.
+Great Yuán
+Country type
+Settled
+Government type
+Monarchy
+Primary culture
+Mongolian
+Primary religion
+Tibetan Buddhism
+Capital location
+Khanbaliq
+The
+Great Yuan
+dynasty is the current imperial dynasty of China in 1337 and is the greatest of all Great Powers at the beginning of the campaign. Controlling no less than 1872 locations in China proper, having a
+population
+of 91,655M and being the leader of the
+Middle Kingdom
+with 158 members, of which 125 are
+Subjects
+in China, Tibet and Korea, Great Yuan is the undisputed hegemon of Asia, and easily the largest, richest and most powerful country on Earth. On the outside, Great Yuan seems like an invincible superpower, but on the inside serious trouble is brewing, as not only does Yuan start with a serious financial deficit of
+-447,12
+Gold per month and have an abysmal
+Religious Unity
+of only 1,41%, many of Yuan's subjects are disloyal, Yuan's
+primary culture
+accounts for only 2,54% of the population and they face an imminent disaster in the form of the
+Red Turban Rebellion
+that will break out at some point between 1345 and 1350.
+At the start of the game, Great Yuan is ruled by Huāngdi(Emperor)
+Borjigin
+Togon Temür
+(
+57
+/
+51
+/
+66
+) who is 16 years old and has the
+Architectural Visionary trait.
+Historical background
+[
+edit
+|
+edit source
+]
+After Genghis Khan united the Mongols in 1206, he and his successors launched several military campaigns southward into China between 1205 and 1279, culminating in the complete conquest and unification of China under Mongol rule. What first begun as a series of raids into the territory of the Western Xia in 1205-1208 eventually led to the complete conquest, subjugation and ultimately destruction of that state in 1209-1227. This was then followed by the Mongol conquest and destruction of the Great Jin in Northern China in 1211-1234, leading to the capture of Beijing in 1215. Lastly, the Mongol armies led by Möngkhe Khan and later Kublai Khan struck south and conquered and destroyed the Song dynasty and the Dali kingdom in Central and Southern China in 1234-1279. With the defeat of the Song dynasty and with the desire to rule all of China, Kublai Khan officially proclaimed the establishment of the Yuan dynasty in 1279 and became Emperor of China, as Emperor Shizu of Yuan. The Mongols throughly looted, pillaged and ransacked China during their conquest and enslaved many Chinese, placing them at the bottom of the social hierarchy. The Imperial Keju Examinations were abolished and Han Chinese were expelled from the Imperial bureacracy, as the Mongoles entrenched their rule, with ordinary people experiencing prolonged and great hardship.
+After Kublai Khan's death in 1294, the Mongol Empire fractured into four successor states; the
+Yuan dynasty, the
+Chagatai Khanate
+,
+Golden Horde
+and the Ilkhanate as a civil war broke out. In 1304, a peace treaty was signed which established the Yuan dynasty as the nominal overlord of the other khanates, with the Yuan emperor as the Khagan of the whole Mongol Empire, but this had little effect in practice, as the four successor khanates continued to operate as separate states and ultimately fell separately as well. In the Yuan dynasty's case, this came in the form of military decline and factional strife within the court, coupled with a string of natural disasters and disease outbreaks in the 1330s and 1340s, which, when coupled with growing resentment by the Han Chinse against Mongol Rule, finally culminated in the outbreak of the Red Turban Rebellion, which eventually led to the collapse of the Yuan dynasty in 1368 and its succession by the
+Ming dynasty
+, founded in the same year by Zhu Yuanzhang, who became the Hongwu Emperor. The remnants of the Yuan government retreated north to Karakorum and continued to exist as a remnant state in Mongolia known as the Northern Yuan until 1635 when both it and the
+Oirat
+were conquered by the Manchu-led Later Jin, which would go on to conquer China from the Ming and found the
+Qīng
+dynasty.
+Overview
+[
+edit
+|
+edit source
+]
+The early game of Great Yuan will be dominated by the Red Turban Rebellion, which will erupt at some point between 1345 and 1350. In the lead-up to the actual rebellion, a series of events will occur where Yuan can choose to either gain a bonus but also increase the negative modifier of the Red Turban Rebellion or gain a lesser bonus or a penalty but reduce the negative modifier.
+Once the Red Turban Rebellion triggers, Yuán will lose
+−20
+Stability and
+−20
+Legitimacy and every subject will gain
+100%
+Liberty Desire. The Middle Kingdom international organization will also lose
+−25
+Celestial Authority. In addition Yuán will gain the negative
+Red Turban Rebellions
+modifier, which inflicts the following penalties, modified by the choices made in prior events:
+−20%
+Efficiency of Our Cabinet
+−5%
+Estates Satisfaction Equilibrium
+−45%
+Levy Size
+−75%
+Mercenary Size
+−0.05
+Monthly Legitimacy
+−5%
+Monthly Rebel Growth
+−0.1
+Stability Investment
+When the rebellion breaks out, all members of the Middle Kingdom organization (except for Yuan itself) will have a 20% chance per month to secede. When this happens, they gain an Allegiance to Yuan value, which determines who they will side with:
+States with more than 50% Yuan Allegiance will side with Yuan and rejoin the Middle Kingdom
+States with between 50% and 0% Yuan Allegiance will stay neutral
+States will less than 0% Yuan Allegiance will side the rebels and join Red Turban Rebels
+Every time a state secedes and sides with the rebels, Yuan will lose
+−20
+Stability; the first state that secedes and sides with the rebels will become the leader of the Red Turban Rebels organization and Yuan will declare war on every state that sides with the rebels. Conversely, every state that sides with the loyalists will join Yuan's wars and Yuan will gain
++7
+Stability. During the situation, Yuan will gain access to three actions to convice states to side with it, delay imminent rebellions, improve its stability and estate statisfaction and finally call loyalist states to war by Yuan's side against the rebels.
+To end the situation and achieve victory,
+Yuan must survive for 20 years, conquer all rebel and neutral states and have all of the following:
+50
+Celestial Authority (Middle Kingdom organization)
+90
+Legitimacy
+30
+Stability
+If
+Yuan wins the Red Turban rebellion, then the following will occur:
+Yuan will gain:
++100
+Prestige
++50
+Legitimacy
++50
+Stability
++20
+Celestial Authority
+Cores on every location in the regions of West China, South China, East China, North China and Xinjiang AND the
+Unify China
+casus belli against every independent country within these regions.
+Yuan will lose the Red Turban Rebellions modifier
+Every state that seceded from Yuan and has 50% Yuan Allegiance will be annexed by
+Yuan.
+🎯 Historical Warring States during the Red Turban rebellion (15 total potential releases)
+[
+edit
+|
+edit source
+]
+Rebel Faction (9 states):
+1. CSO - Song (Han Lin'er)
+- Capital: Qiaoxian
+- Provinces: Suzhou North, Xuzhou, Guide, Shanzhou (Shandong), Tengzhou, Caozhou, Yingzhou, Chenzhou (Henan), Suizhou (Henan), Runing, Jining, Dongping, Puzhou, Kaizhou
+2. CTW - Tianwan (Xu Shouhui)
+- Capital: Hanchuan
+- Provinces: Dean, Huangzhou, Luan (Nanzhili), Guangzhou (Henan), Xinyang, Suizhou, Anlu, Jingmen, Mianyang, Jingzhou, Lizhou, Yiling, Xiangyang, Fangzhou, Guizhou (Huguang)
+3. CHE - Chen Yuliang's Faction
+- Capital: Dehua (Jiujiang)
+- Provinces: Wuchang, Xingguo, Ningzhou, Nankang, Nanchang, Fuzhou (Jiangxi), Linjiang, Ruizhou, Yuanzhou
+4. WUU - Wu (Zhang Shide)
+- Capital: Gaoyou
+- Provinces: Yangzhou, Taizhou (Nanzhili), Tongzhou, Suzhou, Songjiang, Jiaxing, Huaian + locations: Jiangyin, Wuxi, Tianchang, Xuyi, Haining, Hangzhou, Xiaoshan, Fuyang
+5. CFN - Fang Guozhen's Pirates
+- Capital: Yongjia
+- Provinces: Taizhou, Ningbo, Funing, Jianning, Chuzhou (Zhejiang), Jinhua, Shaoxing
+6. CMO - Mao Gui
+- Capital: Zichuan
+- Provinces: Laizhou, Jiaozhou, Mizhou, Juzhou, Jinan, Taian, Yanzhou (Shandong)
+7. CXI - Xia (Ming Yuzhen)
+- Capital: Baxian
+- Provinces: Fuzhou (Sichuan), Zhongzhou, Guangan, Shunqing, Baoning, Guangyuan, Jianzhou
+8. CGU - Guo Zixing
+- Capital: Zhongli
+- Provinces: Chuzhou, Luzhou, Shouzhou, Sizhou, Pizhou
+9. MNG - Ming (Zhu Yuanzhang - later becomes Ming Dynasty)
+- Capital: Shangyuan (Nanjing)
+- Provinces: Zhenjiang, Changzhou, Huzhou, Hangzhou, Ningguo, Guangde, Taiping, He
+Supporter Faction (6 states):
+10. CNP - Yanping (Chen Yuting)
+- Capital: Nanping
+- Provinces: Fuzhou, Xinghua, Quanzhou, Zhangzhou, Tingzhou, Chaozhou
+11. CDN - He Zhen
+- Capital: Dongguan
+- Provinces: Panyu, Guangzhou, Huizhou (Guangdong), Zhaoqing, Xinhui, Nanen, Deqing, Gaozhou, Huazhou, Leizhou
+12. CSI - Li Siqi
+- Capital: Jingzhao
+- Provinces: Qianzhou, Fengxiang, Fengzhou, Hanzhong, Yangzhou (Shaanxi), Xingan, Shangzhou, Huazhou (Shaanxi), Junzhou
+13. CKO - Köke Temur (Mongolian loyalist)
+- Capital: Kaifeng
+- Provinces: Zhengzhou, Huaiqing, Daming, Weihui, Zhangde, Cizhou, Guangping, Shunde, Zhaozhou, Zhending, Dingzhou, Baoding
+14. CNA - Naghachu
+- Capital: Liaoyang
+- Provinces: Jinzhou, Guangning, Yizhou (Liaodong)
+15. Jurchen Culture Rebels (dynamic, spawns in Jurchen-cultured territories)
+Decisions
+[
+edit
+|
+edit source
+]
+As long as Yuan has Mongolian primary culture and a ruler of the Borjigin dynasty, it can reform the
+Mongol Empire
+if it can reconquer most of the empire's historic territories, including;
+Owning the locations of Sarai, Kazan, Samarkand, Kaffa, Dàdū, Shàngyuán, Bāxiàn, Guǎngzhōu, and Karakorum
+Owning 85% of all locations in the regions of Mongolia, Persia, East China, North China, West China, Pontic Steppe, Russia, Khorasan, and Xinjiang
+Strategy
+[
+edit
+|
+edit source
+]
+The below is
+one of many
+player suggested strategies for
+Yuán
+. Bear in mind, due to the dynamic nature of the game, it may unfold differently for other players.
+Starting situation particularities :
+Legacy of Kublai Khan
+major reform
+is trivialised by
+Middle Kingdom
+leader statute bonuses so you can try to replace it by a more useful one.
+Sanjiao religion begin with 86% followers in Yuan, has 5% more literacy compared to your starting religion and give
++0,5
+government power. Switching to it will also increase your clerics of the state religion bonus on stability.
+Yuan can't go trough "Crisis of the dynasty XXX"
+disaster
+until the end of the age of Renaissance so you can safely decrease your tributary payments until then.
+Start with professional troops and navy.
+Start with an unfilled government reform slot and unassigned laws.
+Countries
+Tabber requires Javascript to function.
+Middle East
+Oman
+Ottomans
+Yemen
+Central Asia
+Timurid
+East Asia
+Chūzan
+Hokuzan
+Japan
+Míng
+Nanzan
+Ryūkyū
+Yuan
+South Asia
+Delhi
+Mughal
+South East Asia
+Khmer
+Majapahit
+Central Africa
+East Africa
+Ethiopia
+Kitara
+North Africa
+Morocco
+Tlemcen
+Tunis
+South Africa
+Zimbabwe
+West Africa
+Eastern Europe
+Albania
+Arianiti
+Armenia
+Bosnia
+Bulgaria
+Byzantium
+Croatia
+Epirus
+Georgia
+Halych
+Hungary
+Kyiv
+Lithuania
+Mataranga
+Muscovy
+Muzaka
+Perm
+Poland
+Samtskhe
+Serbia
+Smolensk
+Teutonic Order
+Thopia
+Velikiy Novgorod
+Volhynia
+Vyatka
+Wallachia
+Western Europe
+Aragon
+Austria
+Aquitaine
+Balliol
+Brandenburg
+Brittany
+Bohemia
+Castile
+Denmark
+Dithmarschen
+England
+Florence
+France
+Guelders
+Granada
+Holland
+Iceland
+Moravia
+Milan
+Naples
+Navarre
+Norway
+Papal States
+Portugal
+Scania
+Scotland
+Sicily
+Spain
+Sweden
+Valencia
+Venice
+Wales
+North America
+Cahokia
+South America
+Australasia
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=Yuán&oldid=20559
+"

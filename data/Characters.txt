@@ -1,0 +1,1668 @@
+Source URL: https://eu5.paradoxwikis.com/Characters
+Source Date: 2025-12-12
+
+This article has been verified for the current
+version
+(1.0) of the game.
+A ruler character
+Characters are influential individuals that may be given various roles. Each character will have different levels of ability, traits, a
+Culture
+, a
+Religion
+. A character will be considered an Admiral if it is assigned to lead a navy, a General if it is assigned to lead an army and an Explorer if they are assigned an exploration mission.
+A character who is at least 16 years old is deemed as an adult, allowing it to be given roles as well as marry and produce children. Which roles are available depends on the character's gender and the laws in the country.
+Each character belongs to one
+Estate
+. Characters belonging to the Nobility estate will be part of a dynasty, and all characters who are part of the ruler's dynasty will join the Crown estate. The most prestigious and important character in a dynasty will be the head of the dynasty. If the head of the dynasty is the ruler, other rulers are more likely to follow them. Clicking on a dynasty will display its dynasty tree. Characters who are not part of the Nobility estate may be ennobled, but this costs 10 Government Power and reduces the estate's satisfaction by 5%.
+Abilities
+[
+edit
+|
+edit source
+]
+Each character has three abilities, which range in value from 0 to 100 and their effects depend on the character's role. Newborn children start at 0 and have a 55% chance to increase an ability each month. Characters who aren't artists have the following abilities
+[1]
+:
+Ability
+Effects per ability point
+Ruler, Regent and Cabinet Member
+Admiral
+General
+Explorer
+Administrative
+This Ability represents how good a Character is at handling administrative tasks, how good they are at organizing things, handling the economy, and making a country run.
+−0.1%
+Buildings Cost
++0.25%
+Crown Power
+−0.1%
+Proximity Cost
+−0.5%
+Hire Advisor Cost
++0.001
+Stability Importance Modifier
++0.5%
+Blockade Efficiency
++0.1%
+Correct Section Chance
+−0.2%
+Navy Maintenance
++0.1%
+Possible Frontage
++1%
+Logistics Distance
++0.1%
+Correct Section Chance
++0.1%
+Possible Frontage
++0.1%
+Siege Ability
+−0.3%
+Exploration Cost
+Diplomatic
+This Ability represents how good a Character is at convincing other people to do certain things. It also represents how liked a character is.
++0.002
+Diplomacy Importance Modifier
++1%
+Diplomatic Capacity
++0.05
+Diplomatic Reputation
++0.1%
+Estates Satisfaction Equilibrium
+−0.5%
+Hire Artist Cost
++0.002
+Peace Offer Fairness
++0.001
+Peace Offer Negotiation Power
++0.1
+Loyalty of Subjects
++0.002
+Subjugation Preference Modifier
++0.5%
+Maritime Presence %
++0.2%
+Navy Morale
++1%
+Navy Initiative
++1%
+Army Initiative
+−0.5%
+Unit Food Consumption
++0.2%
+Army Morale
+−0.1%
+Exploration Preparation Time Modifier
+Military
+This Ability represents how good a Character is at understanding the military aspects of life, how they understand tactics, and how they make tough choices.
++0.001
+Carefulness Modifier
++0.1%
+Army Morale
++0.002
+Manpower Importance Modifier
++0.1%
+Navy Morale
+−0.5%
+Train Admiral Cost
+−0.5%
+Train General Cost
++0.5%
+Combat Speed
++0.2%
+Naval Damage Done
++0.2%
+Navy Movement Speed
++0.2%
+Army Movement Speed
++0.5%
+Combat Speed
++0.1%
+Discipline
++0.002
+Exploration Monthly Progress
+Characters who are artists have instead an Artistic Skill ability, which influences the Art Quality of the works of art they create.
+Marriage
+[
+edit
+|
+edit source
+]
+Adult characters may marry someone of opposite gender. There are three types of marriage:
+Lowborn marriage
+is available to male characters, does not require choosing a second character, and costs 20 Government Power and Prestige. Characters with the Eunuch trait cannot have a lowborn marriage.
+Nobility marriage
+is available to countries with the Monarchy, Tribe, or Steppe Horde government type. Both characters must belong to the Nobility estate from the same country. Nobility marriage is not available between close relatives.
+Royal marriage
+is available between characters who belong to different ruler dynasties. The second country must accept the marriage offer. Acceptance depends on trust, opinion, rank difference, religion, and whether the heir is involved. When arranging a royal marriage, the map will show countries that are valid and will accept in green and the others in grey. Depending on country rank difference and how far in line to the ruler each character is, each country may gain or lose Prestige.
+Characters who follow the Catholicism, Orthodoxy or Miaphysitism religion cannot marry if they belong to the Clergy estate.
+Ruler
+[
+edit
+|
+edit source
+]
+Every country may have a character as its ruler. How long a character will be ruler depends on the government type, and how the next ruler is chosen depends on the country's succession law.
+If there is no legitimate adult character to become ruler, the country will be ruled by a regent until a valid ruler is available. In a monarchy, the consort will become the regent if one is available, otherwise the regent will be either a character associated with the most powerful estate or the overlord if one exists.
+The spouse of the ruler will be called the consort. They are needed to provide heirs, but in some forms of government the consort may also get powers. The spouse's chance to become pregnant decreases as they increase in age.
+If a new ruler's culture is not the country's primary culture or a culture considered Kindred by it, the country will have to decide between losing
+−7
+Stability
+or
+−10
+Government Power
+. However, it will gain
++35
+Opinion with every country that has the ruler's culture as primary culture.
+Abdication
+[
+edit
+|
+edit source
+]
+If the heir is an adult, the ruler may abdicate at any point, triggering an immediate succession. Abdication costs 100 Prestige and has the following requirements:
+Ruler is female and heir is male
+Ruler is older than 60 and has less than 100 total abilities, while the heir has more than 170 total abilities
+Ruler has the Sickly Character modifier, while the heir has more than 170 total abilities
+If the country has the Military Order reform, the ruler will have the option to resign as grandmaster, which has no requirements but costs 20 Prestige and 5 Devotion.
+Education
+[
+edit
+|
+edit source
+]
+Characters who are part of the ruler's dynasty and have between 3 and 15 years are given an education. The education may be changed at any point, but only if the character is located in the country.
+Education
+[2]
+Effects
+Balanced
+Life brings forth all manner of challenge for those destined to rule. If we are to adequately prepare royal offspring, they must be taught a balanced education.
++0.50
+Ability Increase During Education
+Administrative
+The state's machinations and political dealings can prove to be overwhelming for a prospecting leader. To avoid inadequacy in statecraft, it would be wise to focus on an administrative education.
++0.50
+Administrative Ability Increase During Education
++0.25
+Ability Increase During Education
+Diplomatic
+The lifeblood of our nation is deal-making and a informed diplomatic maneuvers. Thus we must instill the same values to our royal offsprings if we are to maintain our diplomatic edge over our foes.
++0.50
+Diplomatic Ability Increase During Education
++0.25
+Ability Increase During Education
+Military
+Projecting military strength is the backbone of our nation. A focus on military matters and the study of the nature of war as well as management of our armed forces are pivotal for educational purposes.
++0.50
+Military Ability Increase During Education
++0.25
+Ability increase during education
+Expensive
+Our wealth is sufficient when it comes to securing in-depth education for our heir. Access to some of the best tutors and material source will grant us unique knowledge as well as the best education money can buy.
+Effects on selection:
++0.75
+Ability Increase During Education
++1.00%
+Expected Cost of Court
++5
+Government Power
+-250
+Gold
+Effects on removal:
+-5
+Government Power
+Traits
+[
+edit
+|
+edit source
+]
+Traits define the personality and behavior of a character under various circumstances. Different types of traits can be earned while fulfilling specific roles, but a trait will only be active while the character is assigned to a matching role.
+Ruler traits
+[3]
+[
+edit
+|
+edit source
+]
+Each character can have up to three ruler traits, which are active while the character has the role of ruler or regent. A ruler will get its first trait after ruling for 1 year, its second trait after ruling for 10 years, and its third trait after ruling for 25 years.
+This table is
+automatically generated
+and should not be edited directly.
+Instead, suggest changes on the
+talk page
+.
+Name
+Modifier
+Requirements
+Architectural Visionary
+This ruler is an Architectural Visionary. Improving the infrastructure is a necessity for any state of our age and this ruler is the one who can do it. Grand visions coupled with a great understanding and talent for keeping costs down makes this ruler a great asset to us.
+−20.00%
+Legislative Efficiency
++0.0020
+Monthly Development
+Not:
+has_trait: obsessive_perfectionist
+Babbling Buffoon
+This ruler is considered to be a Babbling Buffoon. While our ruler means well by personally engaging in diplomacy with our neighbors this is not coupled with a talent for conducting negotiations. Anyone is likely to have a harder time seeing the points we want to make and many of our negotiations are hampered by the ineptness of our ruler.
+−1.00
+Diplomatic Reputation
+−50.00%
+Win War Chance Threshold
++50.00
+War Declaration Stability Hit Tolerance
++2.00
+War Declaration War-Exhaustion Tolerance
+−0.25
+Peace Offer Negotiation Power
+−0.10
+Diplomacy Importance Modifier
+−15.00
+Bias for Diplomat Policies
+Not:
+has_trait: charismatic_negotiator
+Not:
+has_trait: silver_tongue
+DIP:
+LESS_THAN: 80
+Benevolent
+This ruler is Benevolent. Being seen as wanting to do good is a great asset when it comes to keeping our subjects calm.
++5.00
+Loyalty of Subjects
++0.05
+Monthly Progress to Free Subjects
+−0.05
+Aggressiveness Modifier
+−0.05
+Control Importance Modifier
+−10.00
+Bias for Militarist Policies
+Not:
+has_trait: malevolent
+DIP:
+GREATER_THAN_EQUAL: 50
+Bold Fighter
+This ruler is a Bold Fighter. Believing Shock to be of great importance on the battlefield our ruler is never fearful of the consequences and encourages everyone to lead their troops right into the midst of the enemy should the situation require it.
++20.00%
+Army Initiative
++0.05
+Monthly Progress to Offensive
+−10.00%
+Win War Chance Threshold
++10.00
+War Declaration Stability Hit Tolerance
++0.05
+Aggressiveness Modifier
+−0.05
+Carefulness Modifier
+−0.05
+Defense Importance Modifier
++0.10
+Manpower Importance Modifier
++10.00
+Bias for Militarist Policies
+Not:
+has_trait: careful
+Not:
+has_trait: craven
+Calm
+This ruler is Calm. By never losing temper or face our ruler will both inspire by example and be able to take well-thought-through decisions, allowing us to recover more quickly from any crisis the world might throw at us.
+−10.00%
+Stability Investment Cost
++0.05
+Monthly Progress to Conciliatory
++0.05
+Carefulness Modifier
++0.10
+Stability Importance Modifier
+−10.00
+Bias for Militarist Policies
++15.00
+Bias for Administrative Policies
+always: True
+Careful
+This ruler is Careful. By carefully navigating around the various unspoken rules in interstate relations our monarch is able to lessen the impact of our actual transgressions.
+−10.00%
+Antagonism Received
++0.05
+Monthly Progress to Decentralization
++5.00%
+Win War Chance Threshold
+−10.00
+War Declaration Stability Hit Tolerance
+−10.00
+Antagonism Tolerance
++0.25
+Mercenary Units Preference Modifier
++0.10
+Carefulness Modifier
++0.10
+Stability Importance Modifier
++0.10
+Defense Importance Modifier
++15.00
+Bias for Diplomat Policies
+Not:
+has_trait: naive
+Not:
+has_trait: free_thinker
+Not:
+has_trait: bold_fighter
+Charismatic Negotiator
+This ruler is a Charismatic Negotiator. Through personal involvement in state diplomacy and negotiations our ruler is able to make others see things our way more often than would otherwise be possible.
++1.00
+Diplomatic Reputation
++0.05
+Monthly Progress to Conciliatory
++0.10
+Peace Offer Fairness
++0.20
+Peace Offer Negotiation Power
++0.10
+Subjugation Preference Modifier
++0.10
+Diplomacy Importance Modifier
++15.00
+Bias for Diplomat Policies
+Not:
+has_trait: babbling_buffoon
+DIP:
+GREATER_THAN_EQUAL: 50
+Conqueror
+This ruler is a conqueror. We will be able to incorporate new lands into our realm more efficiently under this regime.
+−10.00%
+Separatism
++0.10
+Monthly Progress to Belligerent
+−20.00%
+Win War Chance Threshold
++30.00
+War Declaration Stability Hit Tolerance
++2.00
+War Declaration War-Exhaustion Tolerance
++10.00
+Antagonism Tolerance
++0.15
+Aggressiveness Modifier
+−0.05
+Carefulness Modifier
+−0.10
+Subjugation Preference Modifier
++0.20
+Expected Warscore Modifier
++50.00
+Bias for Militarist Policies
+MIL:
+GREATER_THAN_EQUAL: 50
+Craven
+This ruler is Craven. Desperately fearful of physical combat our ruler stays as far away from the battlefields as possible. Our troops cannot help but notice that they are on their own.
+−5.00%
+Army Morale
++20.00%
+Win War Chance Threshold
+−0.15
+Aggressiveness Modifier
++0.10
+Carefulness Modifier
+−0.10
+Expected Warscore Modifier
+−0.10
+Manpower Importance Modifier
++0.10
+Defense Importance Modifier
+−15.00
+Bias for Militarist Policies
+Not:
+has_trait: inspiring_leader
+Not:
+has_trait: bold_fighter
+MIL:
+LESS_THAN: 70
+Cruel
+This ruler is seen as Cruel. Widespread tales of arbitrary and cruel actions by our ruler personally have greatly upset many of our subjects. This may not be enough to incite a rebellion in itself, but any crisis is going to hit public opinion harder as nobody lacks reasons to revolt.
+−2.50%
+Estates Satisfaction Equilibrium
++0.05
+Monthly Progress to Serfdom
++25.00
+War Declaration Stability Hit Tolerance
++2.00
+War Declaration War-Exhaustion Tolerance
++10.00
+Antagonism Tolerance
+Can Execute Characters:
+yes
+−0.20
+Peace Offer Fairness
++0.10
+Control Importance Modifier
++25.00
+Bias for Militarist Policies
+Not:
+has_trait: just
+Embezzler
+This ruler is an Embezzler. One of the things that drive our ruler is a great will and talent to use the state revenue for increasing personal wealth.
+−5.00%
+Tax Efficiency
+−0.05
+Gold Importance Modifier
+−20.00
+Bias for Administrative Policies
+Not:
+has_trait: incorruptible
+ADM:
+LESS_THAN: 80
+Entrepreneur
+This ruler is an Entrepreneur. By seeing the potential for new projects in any obstacle or opportunity our ruler contributes to an ever-growing number of projects to bolster our economy.
++2.50%
+Trade Efficiency
++0.10
+Trade Importance Modifier
++0.20
+Prefers Court Language to be Market Language
++50.00
+Bias for Capitalist Policies
+Not:
+has_trait: drunkard
+Eunuch
+This character has been castrated, typically in order to fulfill specific social functions at courts in polygynous societies.
++10
+Character Life Expectancy
+Blocked from Marriage:
+yes
+−1000.00
+Fertility
+always: False
+Expansionist
+This ruler is an Expansionist. Our ruler is personally invested in the claiming and settlement of new lands and is dedicated to ensuring that colonial expansion remains a top priority for our state.
++20.00%
+Monthly Colonial Migration
++0.10
+Monthly Progress to Belligerent
+−20.00%
+Win War Chance Threshold
++40.00
+War Declaration Stability Hit Tolerance
++2.00
+War Declaration War-Exhaustion Tolerance
++5.00
+Antagonism Tolerance
++0.10
+Peace Offer Negotiation Power
++0.10
+Aggressiveness Modifier
+−0.05
+Carefulness Modifier
++0.10
+Expected Warscore Modifier
++0.10
+Manpower Importance Modifier
++50.00
+Bias for Militarist Policies
++100.00
+Bias for Colonialist Policies
+owner:
+has_advance: colonial_charters
+Fierce Negotiator
+This ruler is a Fierce Negotiator. We will have an easier time convincing mercenary captains to fight for our cause for less pay than they would otherwise demand.
++25.00%
+Speed of Integration
++10.00
+War Declaration Stability Hit Tolerance
+−0.10
+Peace Offer Fairness
++0.25
+Peace Offer Negotiation Power
++0.10
+Subjugation Preference Modifier
++0.10
+Expected Warscore Modifier
++15.00
+Bias for Diplomat Policies
+DIP:
+GREATER_THAN_EQUAL: 50
+Free Thinker
+This ruler is a Free Thinker. Unbound by strict doctrines our ruler encourages everyone to try new things and reason freely about where to take our great country in the future.
++10.00%
+Monthly Research Progress %
++0.10
+Monthly Progress to Innovative
++10.00
+War Declaration Stability Hit Tolerance
++0.10
+Institution Importance Modifier
+−0.50
+Prefers Court Language to be Liturgical Language
+−0.10
+Language Change Threshold Modifier
++15.00
+Bias for Administrative Policies
++20.00
+Bias for Balanced Policies
+Not:
+has_trait: careful
+Not:
+has_trait: zealot
+Not:
+has_trait: tolerant
+Greedy
+This ruler is Greedy. State revenue collection is growing increasingly iron-fisted and short-sighted under our ruler who will stop at nothing to try to increase our income. Destroying or harming every source of revenue the long-term effects of this short-sighted behavior is a great decrease of tax income.
+−0.025%
+Monthly Prosperity
++20.00
+War Declaration Stability Hit Tolerance
++10.00
+Antagonism Tolerance
+−0.20
+Peace Offer Fairness
++0.10
+Peace Offer Negotiation Power
+−0.25
+Mercenary Units Preference Modifier
++0.10
+Aggressiveness Modifier
++0.15
+Expected Warscore Modifier
++0.20
+Gold Importance Modifier
++0.20
+Prefers Court Language to be Market Language
++25.00
+Bias for Capitalist Policies
+Not:
+has_trait: midas_touched
+Incorruptible
+This ruler is Incorruptible. In many ways building a modern state is a constant battle against corruption. State officials are always tempted to take bribes, and wanting to care for one's friends and relatives is a natural human instinct. By firmly rejecting all such notion and fighting it with contempt our ruler sets an example for the entire country to follow.
++5.00%
+Tax Efficiency
++10.00
+Bias for Administrative Policies
+Not:
+has_trait: embezzler
+ADM:
+GREATER_THAN_EQUAL: 50
+Indulgent
+This ruler is Indulgent. Always seeking relief from general apathy, our ruler indulges in great amounts of stimulants in the form of alcohol. Having an indulgent ruler reflects poorly on the entire country.
++2.00%
+Expected Cost of Court
+−50.00%
+Win War Chance Threshold
++50.00
+War Declaration Stability Hit Tolerance
++2.00
+War Declaration War-Exhaustion Tolerance
++10.00
+Antagonism Tolerance
+−5
+Character Life Expectancy
+−0.10
+Peace Offer Negotiation Power
++0.05
+Aggressiveness Modifier
+−0.10
+Carefulness Modifier
+−0.10
+Stability Importance Modifier
+Not:
+has_trait: pious
+Not:
+has_trait: entrepreneur
+Not:
+has_trait: zealot
+Industrious
+This ruler is Industrious. Never content to rest and through increasingly long work days our ruler is constantly managing the details of every province in the realm to maximize the output and collected revenue for all resources under state control.
++5.00%
+Raw Materials Output
++25.00
+Bias for Capitalist Policies
+Inspiring Leader
+Our ruler is an Inspiring Leader. Great personal leadership can lead to even the most cowardly men finding their courage.
++5.00%
+Army Morale
++0.05
+Monthly Progress to Quantity
++10.00
+Bias for Militarist Policies
+MIL:
+GREATER_THAN_EQUAL: 50
+Not:
+has_trait: craven
+Intricate Webweaver
+This ruler is an Intricate Web-Weaver. Constantly hatching new plots our ruler is able to personally take on a great part of the responsibility for foreign intelligence.
++30.00%
+Spy Network Construction
++0.05
+Monthly Progress to Belligerent
++10.00
+War Declaration Stability Hit Tolerance
++0.25
+Peace Offer Negotiation Power
++0.10
+Diplomacy Importance Modifier
++20.00
+Bias for Diplomat Policies
+Not:
+has_trait: loose_lips
+ADM:
+GREATER_THAN_EQUAL: 50
+Just
+This ruler is Just. Due to a keen understanding of the many laws and customs of his realm, our subjects trust us to rule rightfully and justly.
++1.00%
+Estates Satisfaction Equilibrium
++0.05
+Monthly Progress to Free Subjects
++0.20
+Peace Offer Fairness
++0.10
+Stability Importance Modifier
+adm:
+GREATER_THAN: 33
+Not:
+has_trait: cruel
+Kind-Hearted
+This ruler is Kind-Hearted. A great interest in the common men and women of the realm has made our ruler well-loved and our country more resistant to harsh times in general and the ravages of war in particular.
+−0.05
+Monthly War Exhaustion
++0.05
+Monthly Progress to Conciliatory
+−0.10
+Aggressiveness Modifier
+−20.00
+Bias for Militarist Policies
+Not:
+has_trait: cruel
+Not:
+has_trait: malevolent
+Lawgiver
+This ruler is a Lawgiver. Legislation is what builds up and unites a realm. Our ruler is intent on reducing the hundreds of laws and customs of the various parts of our realm to create a more centralized and just set of laws.
+−5.00%
+Proximity Cost
+−10.00
+War Declaration Stability Hit Tolerance
++0.10
+Stability Importance Modifier
++0.10
+Control Importance Modifier
++50.00
+Bias for Administrative Policies
+ADM:
+GREATER_THAN_EQUAL: 66
+Loose Lips
+Often personally responsible for information breaches and leaks this ruler is generally too trusting and easily fooled. Unfortunately, the sum of this is that our ruler does more harm than good to our counterespionage efforts.
+−20.00%
+Counterespionage
+Not:
+has_trait: intricate_web_weaver
+Not:
+has_trait: secretive
+DIP:
+LESS_THAN: 80
+Malevolent
+This ruler is seen as Malevolent. The actions of our ruler are often seen as motivated by malice or hostile intent. As a result, any subject countries under our control are quick to anger and fear any action we take.
+−5.00
+Loyalty of Subjects
++0.10
+Monthly Progress to Serfdom
++35.00
+War Declaration Stability Hit Tolerance
++2.00
+War Declaration War-Exhaustion Tolerance
+Can Banish Characters:
+yes
++0.05
+Aggressiveness Modifier
++0.10
+Control Importance Modifier
+−15.00
+Bias for Diplomat Policies
++20.00
+Bias for Militarist Policies
+Not:
+has_trait: benevolent
+Not:
+has_trait: kind_hearted
+Martial Educator
+This ruler is a Martial Educator. Under the current regiment, the education and training of our officer corps is one of our highest priorities.
+−0.10%
+Army Tradition Decay
++0.05
+Monthly Progress to Quality
++25.00
+Bias for Militarist Policies
+MIL:
+GREATER_THAN_EQUAL: 50
+Midas Touched
+This ruler is Midas-Touched. The talent to make every project profitable is a great asset to the ruler of a country. Our state coffers shall never want for money as long as our ruler remains.
++0.10%
+Monthly Prosperity
++0.20
+Prefers Court Language to be Market Language
++25.00
+Bias for Capitalist Policies
+Not:
+has_trait: greedy
+ADM:
+GREATER_THAN_EQUAL: 50
+Naive Enthusiast
+This ruler is a Naive Enthusiast. Blindly rushing ahead and constantly underestimating the consequences of our ruler ensures that our neighbors will be slower to forgive slights and transgressions.
+−25.00%
+Improve Relations
+−30.00%
+Win War Chance Threshold
++30.00
+War Declaration Stability Hit Tolerance
++1.00
+War Declaration War-Exhaustion Tolerance
++10.00
+Antagonism Tolerance
++0.20
+Peace Offer Fairness
+−0.10
+Peace Offer Negotiation Power
+−0.10
+Carefulness Modifier
+−0.10
+Diplomacy Importance Modifier
+−30.00
+Bias for Diplomat Policies
+Not:
+has_trait: silver_tongue
+Not:
+has_trait: careful
+DIP:
+LESS_THAN: 80
+Obsessive Perfectionist
+This ruler is an Obsessive Perfectionist. A keen interest in detail and minutiae is not always coupled with an equal talent for such things. Constantly causing interruptions and delays our ruler is doing a lot more harm than good when it comes to developing our internal infrastructure.
+−20.00%
+Legislative Efficiency
++7%
+Win War Chance Threshold
+−10.00
+War Declaration Stability Hit Tolerance
+−0.10
+Gold Importance Modifier
+−15.00
+Bias for Diplomat Policies
+Not:
+has_trait: architectural_visionary
+ADM:
+LESS_THAN: 95
+Pious
+This ruler is Pious. Religiously devoted, spiritual and religious our ruler ensures that our state will not lose its course and inspire confidence in our faith.
++0.10
+Monthly Devotion
++0.10
+Monthly Progress to Spiritualist
++0.20
+Religious Unity Importance Modifier
++0.20
+Prefers Court Language to be Liturgical Language
+Not:
+has_trait: sinner
+Not:
+has_trait: drunkard
+Not:
+has_trait: tolerant
+owner:
+government_type: government_type:theocracy
+Raised by Eunuchs
+This character has been surrounded by eunuchs since a very young age and is greatly sympathetic towards them.
++75.00%
+Eunuch Power Modifier
+always: False
+Righteous
+This ruler is Righteous. Our people will be less likely to question our authority as they know that a righteous ruler always has their best interest in mind.
++0.10
+Monthly Legitimacy
++0.10
+Monthly Republican Tradition
+owner:
+At least one of:
+government_type: government_type:republic
+government_type: government_type:monarchy
+Scholar
+This ruler is a Scholar. The ambition to learn about the world and the governing principles of men and nature makes our ruler able to understand and implement new technology much more efficiently than would otherwise be possible.
++0.025
+Monthly Literacy
++0.05
+Monthly Progress to Innovative
++0.10
+Institution Importance Modifier
++0.20
+Prefers Court Language to be Liturgical Language
+Secretive
+This ruler is Secretive. A natural instinct to keep doors closed and letters encrypted trickles down and will make our entire government harder to infiltrate for our enemies.
++20.00%
+Counterespionage
++0.05
+Monthly Progress to Centralization
++15.00
+Bias for Diplomat Policies
+Not:
+has_trait: loose_lips
+Silver Tongue
+This ruler is considered to have a Silver Tongue. In our communication with other states, our ruler is able to present our past actions in a much more favorable light. Once our neighbors see the reasons for our actions they are much more likely to forgive us in the long run for any transgressions.
++20.00%
+Improve Relations
++0.20
+Peace Offer Negotiation Power
++15.00
+Bias for Diplomat Policies
+Not:
+has_trait: babbling_buffoon
+Not:
+has_trait: naive
+DIP:
+GREATER_THAN_EQUAL: 50
+Sinner
+This ruler is widely regarded as a Sinner. Personal shortcomings in the leadership of our country have turned the religious establishment against us.
+−2.00
+Tolerance of the True Faith
++20.00
+War Declaration Stability Hit Tolerance
++5.00
+Antagonism Tolerance
+−0.10
+Religious Unity Importance Modifier
+−1.00
+Prefers Court Language to be Liturgical Language
+Not:
+has_trait: pious
+Not:
+has_trait: zealot
+At least one of:
+religion:
+group:
+Christianity
+religion:
+group:
+Islam
+Strict
+This ruler is Strict. Due to taking a great interest in the behavior of the troops our ruler is able to instill a strict sense of discipline in everyone in our ranks, from the lowest to the highest.
++5.00%
+Discipline
++0.05
+Monthly Progress to Defensive
+−10.00
+War Declaration Stability Hit Tolerance
+−5.00
+Antagonism Tolerance
++0.10
+Defense Importance Modifier
++0.10
+Control Importance Modifier
++10.00
+Bias for Militarist Policies
+MIL:
+GREATER_THAN_EQUAL: 50
+Tactical Genius
+This ruler is a Tactical Genius. A great personal interest and investment in battlefield maneuvers and feints will result in a much greater interest and experience in these matters for all our generals.
++0.05
+Military Tactics
++0.05
+Monthly Progress to Quality
++0.05
+Aggressiveness Modifier
++0.05
+Carefulness Modifier
++0.10
+Defense Importance Modifier
++10.00
+Bias for Militarist Policies
+MIL:
+GREATER_THAN_EQUAL: 50
+Tolerant
+This ruler is Tolerant. Religious minorities will thrive during our regime.
++1.00
+Tolerance of Heretical Beliefs
++1.00
+Tolerance of Heathen Beliefs
++0.05
+Monthly Progress to Innovative
+−0.20
+Religious Unity Importance Modifier
+−0.50
+Prefers Court Language to be Liturgical Language
++25.00
+Bias for Balanced Policies
+Not:
+has_trait: zealot
+Not:
+has_trait: free_thinker
+Not:
+has_trait: pious
+owner:
+At least one of:
+Not:
+any_owned_location:
+dominant_religion: owner.religion
+any_neighbor_country:
+Not:
+religion: root.owner.religion
+Unsuited for Country Ruling
+Leadership and governing a country is not a task everyone is fit for. Although some governments have seen their fair share of incompetent rulers, this person in particular is either not willing or not capable of being the figurehead of any respectable state.
+Blocked from Rulership:
+yes
+always: False
+Well Advised
+This ruler is Well-Advised. Always ready to listen to the wise council of others our ruler attracts a greater number of people to our court and cabinet.
++10.00%
+Efficiency of Our Cabinet
++33.00
+Bias for Balanced Policies
+Well Connected
+This ruler is Well Connected. Our court and cabinet benefits from the wide network among the great minds of this era of our ruler.
+−1.00%
+Expected Cost of Court
++0.25
+Peace Offer Negotiation Power
++0.10
+Diplomacy Importance Modifier
++33.00
+Bias for Diplomat Policies
+always: True
+Zealot
+This ruler is a Zealot. Being fanatically devoted to the true faith allows our ruler to inspire more people to convert and join the state religion.
++10.00%
+Pop Conversion Speed %
++0.10
+Monthly Progress to Traditionalist
+−10.00%
+Win War Chance Threshold
++30.00
+War Declaration Stability Hit Tolerance
++1.00
+War Declaration War-Exhaustion Tolerance
++0.05
+Aggressiveness Modifier
++0.20
+Religious Unity Importance Modifier
++0.20
+Prefers Court Language to be Liturgical Language
++15.00
+Bias for Militarist Policies
+Not:
+has_trait: tolerant
+Not:
+has_trait: free_thinker
+Not:
+has_trait: drunkard
+Not:
+has_trait: sinner
+Admiral traits
+[4]
+[
+edit
+|
+edit source
+]
+Each character can have one admiral trait, which is active while the character has the role of admiral.
+This table is
+automatically generated
+and should not be edited directly.
+Instead, suggest changes on the
+talk page
+.
+Name
+Modifier
+Requirements
+Accomplished Sailor
+This Admiral is an Accomplished Sailor. Personal sailing expertise allows this leader to enhance the skills of all captains under him,
+Ships
+commanded by the Accomplished Sailor will reach their destinations more quickly.
++10.00%
+Navy Movement Speed
+Buccaneer
+This Admiral is a Buccaneer. Privateers commanded by this leader will be more efficient.
++5.00%
+Privateer Durability
+Extortioner
+This Admiral is an Extortioner. Knowing how to best leverage an advantage of force allows our leader to do more with less and
+Ships
+commanded by the extortioner will exert greater trade power than those lead by competing captains could.
+−5.00%
+Navy Maintenance
+Ironside
+This Admiral is an Ironside.
+Ships
+commanded by this leader will suffer fewer damages than those commanded by other captains.
+−10.00%
+Naval Damage Taken
+Level-Headed
+This Admiral is Level-Headed. By careful drill and a cool mind crews commanded by this leader will be more resilient to morale damage from received hits during naval combat.
++10.00%
+Naval Damage Done
+Naval Engineer
+This Admiral is a Naval Engineer.
+Ships
+commanded by this leader will be able to recover more quickly from damages sustained underway or during naval engagements.
++2.00%
+Ship Repair Speed at Sea
+Naval Gunner
+This Admiral is known as a Naval Gunner. Constant drill of gunnery crews commanded by this leader means heavy
+Ships
+will deal more damage.
++10.00%
+Heavy Ship Power
+exists: unit
+unit:
+sub_unit_fraction:navy_heavy_ship:
+GREATER_THAN: 0.1
+Naval Showman
+This Admiral is a Naval Showman.
+Ships
+commanded by this leader will receive more prestige and naval tradition from battles.
++50.00%
+Prestige from Naval Battles
++50.00%
+Navy Tradition from Battles
+Prize Hunter
+This Admiral is a Prize Hunter. Captains commanded by this leader will be encouraged to seize more prizes and will capture more
+Ships
+than others.
++20.00%
+Ship Capture Chance
+Ram Raider
+This Admiral is a Ram Raider. Galleys commanded by this leader will be more efficient and deal more damage in naval battles.
++10.00%
+Galley Power
+exists: unit
+unit:
+sub_unit_fraction:navy_galley:
+GREATER_THAN: 0.2
+Ruthless Blockader
+This Admiral is a Ruthless Blockader. Ships commanded by this leader will be able to maintain a
+Blockade
+much more efficiently.
++25.00%
+Blockade Efficiency
+Unsuited for Naval Command
+To be able to lead fleets, one needs a clear sense of orientation, and of course to be able to withstand the roughness of the waves. Someone incapable of that is as useless for leading a ship as an anchor, and just a complete dead weight on deck.
+Can Not Lead Armies or Navies:
+yes
+always: False
+General traits
+[5]
+[
+edit
+|
+edit source
+]
+Each character can have one general trait, which is active while the character has the role of general.
+This table is
+automatically generated
+and should not be edited directly.
+Instead, suggest changes on the
+talk page
+.
+Name
+Modifier
+Requirements
+Battlefield Medic
+This General is known as a Battlefield Medic. A larger than normal number of soldiers under this leader will be able to recover after battle to reinforce their unit back to strength.
++5.00%
+Reinforcement Speed
+Born to the Saddle
+This General was born to the Saddle. Cavalry led by this leader will be able to make better use of their flanking advantage.
++10.00%
+Cavalry Power
+unit:
+sub_unit_fraction:army_cavalry:
+GREATER_THAN: 0.2
+Cannoneer
+This General is a Cannoneer. Known for a great fascination with gunpowder and cannons artillery commanded by this leader will be more efficient.
++10.00%
+Artillery Power
+unit:
+sub_unit_fraction:army_artillery:
+GREATER_THAN: 0.01
+Defensive Planner
+This General is a Defensive Planner. Any troops led by this leader will be more resilient to shock.
++0.10
+Military Tactics
+Dragon-Tiger General
+The fame of this commander is known across all of East Asia leading to the nickname of a Dragon-Tiger General.
++10.00%
+Discipline
+always: False
+Glory Seeker
+This General is a glory seeker. Troops led by this general will acquire more Prestige and Army Tradition than they otherwise would as they are always deployed where they will make the most visible difference.
++50.00%
+Prestige from Land Battles
++50.00%
+Army Tradition from Battles
+Goal Oriented
+This General is Goal Oriented. Troops commanded by this leader will march more quickly towards their goal.
++10.00%
+Army Movement Speed
+Hardy Warrior
+This General is known as a Hardy Warrior. Troops commanded by this leader will be more resilient to harsh conditions and suffer less
+Attrition
+.
+−20.00%
+Army Attrition
+Hussar Commander
+This General is a true Hussar Commander. Cavalry charges led by this character will be more effective.
++25.00%
+Cavalry Power
+always: False
+Inspirational Leader
+This General is an Inspirational Leader. Troops commanded by this leader will be quicker to regain morale in the face of defeat.
++2.00%
+Army Morale Recovery Speed
+Mamlūk
+This General is one of the highly trained and specialized Mamālīk, they are originally enslaved and traded, but their aptitude for war makes them stand out to the point that their masters train them into a force of professional warriors.
+−10.00%
+Army Reinforcement Cost
++10.00%
+Army Morale
+always: False
+Master of Arms
+This General is a Master of Arms. Infantry commanded by this leader will be more efficient and be able to deal more damage.
++10.00%
+Infantry Power
+unit:
+sub_unit_fraction:army_infantry:
+GREATER_THAN: 0.2
+Military Theorist
+This General is one of the greatest theorists of all time and with the ability to use the theories in practice.
++0.05
+Military Tactics
++10.00%
+Possible Frontage
++20.00%
+Army Initiative
+always: False
+Ruthless
+This General is Ruthless. Troops under the command of this leader will deal greater fire damage.
++10.00%
+Assault Ability
+Siege Specialist
+This General is a Siege Specialist. Sieges commanded by this leader will be conducted in a more efficient manner and should be concluded more quickly.
++15.00%
+Siege Ability
+unit:
+sub_unit_fraction:army_artillery:
+GREATER_THAN: 0.01
+Strategist
+This General is an unparalleled strategist and military genius. Every move on the battlefield shows brutal effectiveness, and no fort can withstand the cunning abilities of this leader.
++10.00%
+Discipline
++33.00%
+Assault Ability
++25.00%
+Siege Ability
+always: False
+Unsuited for Army Command
+A poor grasp on strategy and military tactics result in disaster any time someone like that tries to lead troops, and all close officers only hope for such incompetent general to just stand as a glorified scarecrow without blabbering foolish instructions.
+Can Not Lead Armies or Navies:
+yes
+always: False
+Artist traits
+[6]
+[
+edit
+|
+edit source
+]
+Each character can have one artist trait, which is active while the character has the role of artist.
+This table is
+automatically generated
+and should not be edited directly.
+Instead, suggest changes on the
+talk page
+.
+Name
+Modifier
+Adept
+Skill is the main factor that separates a master from a student. Artists carrying this particular trait will tend to evolve and hone their skills at a much faster pace than they normally would.
++0.20
+Artist Skill Development
+Amateur
+Everyone has to start somewhere. Artists with this trait tend to be slow learners, taking longer to improve and sharpen their artistic skills.
+−0.20
+Artist Skill Development
+Careless
+Is the reddish smudge in the royal's face an error of the careless artist or does it carry a deeper meaning of expressing the anger revolving around dealing with administrative matters? Whatever the case may be, artists with this trait will tend to fumble their art, resulting in lower quality artworks.
+−25.00%
+Quality of Art
+Gold-loving
+Artists with this trait require considerably more payment as they are paramours to anything shiny and of value. Money makes the world go around and art masters who subscribe to this belief will seek as best a payment as possible.
++25.00%
+Salary as Artist
+Humble
+Despite their proven skill in various arts, artists with this trait will tend to require a modest payment for their services. To them, humility is the foundation of all virtues and a cornerstone of their personalities.
+−25.00%
+Salary as Artist
+Idler
+Creating art is not for the feint of heart. It is a process that requires an amalgamation of some of the most important human skills, baked in with inspiration and confidence. Artist with this skill, however, are lacking in these areas and will therefore be less likely to begin working on new pieces of art.
+−5.00%
+Artist Monthly Start Chance
+Inconspicuous
+Works created by artists with this trait tend to have a lesser impact in the world of culture and art. Truly, individuals carrying this trait are firm believers that sometimes less is more, even when it comes to prestige and cultural fame.
+−25.00%
+Direct Impact of Art
+Lazy
+Why complete the work today when you can complete it tomorrow? Such thoughts permeate the minds of artists with this trait, enabling them to slow down their art creation process to enjoy the finer things in life.
+−10.00%
+Creation Speed of Art
+Meticulous
+To create art and master one's craft is no easy ordeal. Artists with this trait will often-times have impeccable organization skills and are masters of their field. As a result, the artwork created will be of elevated quality and incur more positive bonuses.
++25.00%
+Quality of Art
+Prescient
+Inspiration is the cornerstone of some of the best and most famous art pieces that defined our history. Artists with this trait will tend to fare better in terms of inspiration and thus will be more likely to commence their artwork rather frequently.
++10.00%
+Artist Monthly Start Chance
+Prominent
+What better way to inscribe the legacy of our deeds than with the hiring of a prominent artist? Works created by artists with this trait will have a bigger impact in our cultural influence and growth amongst our subjects and peers.
++25.00%
+Direct Impact of Art
+Workaholic
+There's truth in the saying that art masters often forget to nourish themselves or sleep properly. Such is their dedication to their craft that they will not rest or take adequate care of themselves without first finishing their next masterpiece.
++10.00%
+Creation Speed of Art
+Explorer traits
+[7]
+[
+edit
+|
+edit source
+]
+Each character can have one explorer trait, which is active while the character has the role of explorer.
+This table is
+automatically generated
+and should not be edited directly.
+Instead, suggest changes on the
+talk page
+.
+Name
+Modifier
+Cartographer
+This explorer is a fan of maps and loves discovering uncharted lands. While the mission takes considerably more time, their documentations are of great detail. Also, their love for their work keeps this one happy enough to endure a lower payment.
+−10.00%
+Exploration Cost
+−0.10
+Exploration Monthly Progress
+Curious Adventurer
+This explorer is a curious fella, not stopping exploring the area until every island has been visited; coastline has been mapped out in order to uncover the secrets of the new world. Unlike other explorers, this one does not care for personal gain.
++5.00%
+Exploration Preparation Time Modifier
+−10.00%
+Exploration Cost
+Navigator
+This explorer has years of navigational experience and knows how to maneuver their
+Ship
+in dangerous waters.
+−5.00%
+Exploration Preparation Time Modifier
++0.10
+Exploration Monthly Progress
+Scientist on Sea
+This explorer is a scientist first and foremost. Charting the land is less important than studying the flora and fauna of the new world.
++0.25
+Exploration Monthly Progress
+Treasure Hunter
+This explorer cares only for money. They will do anything to find the rarest treasures in the new world - even if it is at the expense of the natives.
++10.00%
+Exploration Cost
+−0.20
+Exploration Monthly Progress
+Child traits
+[8]
+[
+edit
+|
+edit source
+]
+Every child has a child trait, which is added at the age of 3, influences the rate at which the character increases its abilities and is removed when the character becomes an adult.
+This table is
+automatically generated
+and should not be edited directly.
+Instead, suggest changes on the
+talk page
+.
+Name
+Modifier
+Chance
+Ambitious
+This child knows what they want, and it is not precisely something menial. If they could, they would take it all.
++0.33
+Administrative Ability Increase During Education
++0.33
+Diplomatic Ability Increase During Education
+base: ...
+Gallant
+Despite being a child, this child is the epitome of chivalry. Brave, stylish, polite and attentive, they will surely be deserving of many poems and stories once they grow up.
++0.33
+Diplomatic Ability Increase During Education
++0.33
+Military Ability Increase During Education
+base: ...
+Gifted
+This child amazes their adult counterparts with their proven skills and future potential.
++0.75
+Ability Increase During Education
+base: ...
+Gregarious
+This child enjoys being constantly surrounded of other people, and revels in the interaction with them.
++0.50
+Diplomatic Ability Increase During Education
+base: ...
+Idiot
+This child is a complete idiot, and there is very little that can be done to get them a decent future.
+−0.66
+Ability Increase During Education
+base: ...
+Intelligent
+This child has shown to have an innate intelligence, which can be further developed.
++0.50
+Administrative Ability Increase During Education
+base: ...
+Prodigy
+The future of this child is bright, and they are predestined to leave their name into the history books.
++1.50
+Ability Increase During Education
+base: ...
+Rowdy
+This child is anything but calm and quiet, always making their presence known, and not at all in the most peaceful manner.
++0.50
+Military Ability Increase During Education
+base: ...
+Shrewd
+No matter where this child is or what they are doing, their mind is always working sharp as a knife. None can beat them in a contest of wits.
++0.33
+Military Ability Increase During Education
++0.33
+Administrative Ability Increase During Education
+base: ...
+Slow
+This child is not the brightest mind of their generation, and they have to make extra efforts to keep up with their counterparts.
+−0.33
+Ability Increase During Education
+base: ...
+Religious figure
+[9]
+[
+edit
+|
+edit source
+]
+Religious figure traits are only available to characters who are religious figures.
+This table is
+automatically generated
+and should not be edited directly.
+Instead, suggest changes on the
+talk page
+.
+Name
+Modifier
+Alms Giver
+Blessed are those who share with the less favored ones. This individual takes this teaching as the most crucial, giving alms to the poor and sharing both food and coins. A group of disciples emulating these practices also follows, and thus the needs of the lower masses are attended to.
++2.50%
+Peasant Estate Satisfaction Equilibrium
+Ascetic
+The point of a religious life is to dedicate oneself to the faith, and not to indulge in worldly pleasures. This individual takes these teachings to heart, and refuses to partake in any delight, preferring to live with as little material sustenance as possible.
+−5.00%
+Clergy Food Consumption
+Efficient Administrator
+Scriptures and holy texts not only provide knowledge about spirituality, but also on how to govern one's everyday life. This individual excels in this kind of knowledge, to the point of being able to influence how others behave too, and administer and direct bureaucratic procedures most efficiently.
++25.00%
+Efficiency in Cabinet
+Hermit
+It is clear that constant social interaction is not the best for everyone, especially among those that want to dedicate their lives to religion. This individual is among them, preferring to live in seclusion and isolation rather than among the masses, to better commune with the divine, and without taking active interest about the matters of other people.
+−0.025
+Monthly War Exhaustion
+Literalist
+The holy texts and ancient scriptures are the basis of religion. This individual, however, takes that feeling to the extreme, considering them the only religious basis. Not only that, but even the texts themselves are seen as invariable and infallible, where even the order of the words has a purpose.
++0.05
+Monthly Progress to Traditionalist
+−5.00%
+Stability Investment Cost
+Mystic Seer
+To disentangle the threads of fate and be able to pierce the veil of the future is certainly not an easy feat. Many who try get consumed by madness from what they see, if they manage to see anything at all. However, for those that master clairvoyance, the future holds no secrets.
++5.00%
+Monthly Research Progress %
+Proselytizer
+There may be many beliefs present in the world, but the true faith is only one. The zeal of turning lost souls into accepting the proper beliefs does not only strengthens the community but also ensures that they walk on the proper path.
++5.00%
+Pop Conversion Speed %
+Reverend Teacher
+There are few who can be considered wells of knowledge, but those are always sought after for their teachings and instruction. Forming soon a group of loyal disciples, these great teachers are held in high reverence and respect.
++0.10
+Monthly Literacy
+Stargazer
+The stars have fascinated the eyes of humanity since its beginnings, and many are those who seek for divine presence among them. This individual is one of them, always with the sights directed upwards in search for knowledge and answers. As there are many things that can be learned from the starts if one is willing to look.
++5.00
+Max Literacy
+Unorthodox
+Although there may be different views of certain aspects of our faith, some positions are generally more accepted than others. This individual holds some of the less common ones, causing at best disrespect from the general religious community, and marginalization at worst. However, there are also many others who share the same views, or ar at least intrigued enough to listen.
++0.05
+Monthly Progress to Innovative
++0.50
+Tolerance of Heretical Beliefs
+Life expectancy
+[10]
+[
+edit
+|
+edit source
+]
+Display Name
+Type
+Random
+Base Weight
+Triggers
+Old Age
+old_age
+Yes
+(age_in_years - 60) × 4
+Age ≥ 60
+Choking Accident
+choking_accident
+Yes
+1
+None
+Sporting Accident
+sporting_accident
+Yes
+10 - (mil × 0.1)
+Age < 50, Male, Has nobles estate
+Fell Down Stairs
+fell_down_stairs
+Yes
+10 - (mil × 0.1)
+Location development > 20
+Burst Ulcer
+burst_ulcer
+Yes
+1
+None
+Pneumonia
+pneumonia
+Yes
+1
+None
+Sudden Illness
+sudden_illness
+Yes
+1
+None
+Food Poisoning
+food_poisoning
+Yes
+1
+None
+Hunting Accident
+hunting_accident
+Yes
+10 - (mil × 0.1)
+Male, Not general/admiral/explorer, Noble or peasant in hunting area
+Heart Failure
+heart_failure
+Yes
+1
+None
+Fever
+fever
+Yes
+1
+None
+Dysentery
+dysentery
+Yes
+1
+None
+Jousting
+jousting
+Yes
+10 - (mil × 0.1)
+Male, Not admiral/explorer, Age < 50, Noble, Christian, Age of Traditions/Renaissance era
+Farming Accident
+farming_accident
+Yes
+10 - (mil × 0.1)
+Not general/admiral/explorer, Peasant with farming materials
+Mining Accident
+mining_accident
+Yes
+10 - (mil × 0.1)
+Not general/admiral/explorer, Peasant with mining materials
+Alcoholism
+alcoholism
+Yes
+10
+Has drunkard trait
+Froze
+froze
+Yes
+20 - (mil × 0.1) - (dev × 0.1)
+Location has severe winter
+Suicide
+suicide
+Yes
+1
+None
+Drowning River
+drowning_river
+Yes
+1 - (mil × 0.01)
+Location has river
+Drowning Sea
+drowning_sea
+Yes
+1 - (mil × 0.01)
+Location is coastal or at sea
+Starvation
+starvation
+Yes
+None specified
+Location province is starving
+Wild Animal
+wild_animal
+Yes
+20 - (mil × 0.1) - (dev × 0.5)
+Location is land, development < 20
+Vanished
+vanished
+Yes
+0.1
+None
+References
+[
+edit
+|
+edit source
+]
+↑
+Values are defined in
+/Europa Universalis V/game/main_menu/common/static_modifiers/character.txt
+↑
+Values are defined in
+/Europa Universalis V/game/in_game/common/child_educations/00_default.txt
+↑
+Defined in
+/Europa Universalis V/game/in-game/common/traits/00_ruler.txt
+↑
+Defined in
+/Europa Universalis V/game/in-game/common/traits/02_admiral.txt
+↑
+Defined in
+/Europa Universalis V/game/in-game/common/traits/01_general.txt
+↑
+Defined in
+/Europa Universalis V/game/in-game/common/traits/03_artist.txt
+↑
+Defined in
+/Europa Universalis V/game/in-game/common/traits/04_explorer.txt
+↑
+Defined in
+/Europa Universalis V/game/in-game/common/traits/05_child.txt
+↑
+Defined in
+/Europa Universalis V/game/in-game/common/traits/06_religious_figure.txt
+↑
+From
+Europa Universalis V\game\in_game\common\death_reason
+Mechanics
+Realm
+Country
+•
+Government
+•
+Parliament
+•
+Estate
+•
+Reforms
+•
+Laws
+•
+Characters
+•
+Missions
+Economy & Research
+Economy
+•
+Goods
+•
+R.G.O.
+•
+Market
+•
+Building
+•
+Population
+•
+Age
+Diplomacy & Warfare
+Diplomacy
+•
+Subjects
+•
+International organization
+•
+Warfare
+•
+Combat
+•
+Military
+The world
+Location
+•
+Culture
+•
+Religion
+•
+Language
+•
+Exploration
+•
+Situations
+•
+Disasters
+•
+Diseases
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=Character&oldid=20981
+"

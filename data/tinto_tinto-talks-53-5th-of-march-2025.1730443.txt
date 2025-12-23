@@ -1,0 +1,454 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-53-5th-of-march-2025.1730443/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #53 - 5th of March 2025
+Thread starter
+Johan
+Start date
+Mar 5, 2025
+Hello everyone and welcome to another Tinto Talks. This is the Happy Wednesday where we tell you about what is going on with our entirely 100% secret game with the codename Project Caesar.
+This week we will talk about how mercenaries and prisoners of war will work in this game..
+As we mentioned in previous Tinto Talks, we have 3 types of regiments. Levies, Regulars and Mercenaries. You can at any point rearrange any army and move regiments freely between them, no matter the status of the regiment.
+This Teuton Army has 1440 men in the left flank, 545 in the center, 2567 in the rightflank and 373 in the reserves.  Why so few in the center, I'd expect that is where the bulk of the regulars knights are. In total the army has 6 cavalry levy regiments, 2 regular, and 9 mercenaries, for a total of 634 men.
+Hiring Mercenaries
+When you hire a mercenary company, you will first need to find a commander that can raise the company for you. This is not a simple choice, as a more competent commander will cost more gold, but the amount of regiments you can raise under the mercenary depends both on the administrative ability of the commander, and the amount of possible mercenaries the pops of that area has.
+Mercenary regiments rely on having their soldiers come from pops, and if there is not enough soldiers for them in an area, that will limit the amount of regiments
+Negative Stability in the country together with devastation and low control in the location determines how many pops are willing to leave home and become mercenaries.
+The type of regiments that a mercenary can raise depends on what regiments are commonly available in the area the mercenary is recruited from.  Some types of regiments may be more common than others in an area, and just because you have found a nice 99 admin commander, he may not be able to raise enough of a certain type of regiment that you want.
+This is a pretty good commander which can lead a pretty big army..
+Contracts and Extensions
+When you hire a mercenary you set a default contract length, and at the end of that contract the mercenaries will stop their service.  However, if you are still at war, the contract will be extended for another year.  If you wish to terminate a contract in advance you need to pay the remaining contracted fee.
+You can also have auto extension on contracts and manually extend a contract for another 24 months for an individual mercenary company at any time.
+Each new contract signed or extended has a signing fee that heavily depends on the type of troops you wish to hire, and the skill of commander.
+Bribing Mercenaries
+However, just because a contract is signed does not mean that the mercenary will stay loyal for the entire contract.  Another country may come around and just offer more money to buy their loyalty.  This is not exactly cheap, but it can be rather useful at times.
+Renting out your Armies
+One alternative to paying gold every month to your regular regiments at peace is to rent them out as mercenaries.  You can select any unit you have and put them on the market for a given percentage of your costs, usually above your own costs as you need to turn a profit after all. If all goes well, you earn gold, and your regiments get some nice experience.
+These armies are then listed as possible armies to contract for any country within range.
+The Aragonese army is available fore hire for a cheap price..
+Prisoners
+Sometimes when you win a battle by overrunning the enemy, you can capture regiments of the defeated side. Overrun is what players refer to as stackwipe which happens when you have 10 to 1 odds, or when the other side has 0 morale you have a larger army.
+There are multiple ways to deal with prisoners, if you don’t want to keep them around and feed them. No matter what though, the prisoners will die off slowly over time, as this is not the age of the Geneva Convention.
+Through various unit abilities, you have ways to deal with the prisoners.
+First of all, you can attempt to ransom them back to their owners, which will net you some gold, and return the regiments to their owner.
+Secondly, you can recruit them to fight as mercenaries for you, but that means you have to pay them. The advantage of that, is that they won’t fight for your enemy though.
+Thirdly, you can just execute them.  That is a bit frowned upon, so it will impact your Aggressive Expansion, but sometimes it might be worth it.
+The Fourth option you will know more about when we talk about the Nahuatl faith in a future Tinto Talks.
+However, if you overrun an enemy army with prisoners, you will of course free them and take them back.
+Now we have gone through the core mechanics we have for Project Caesar. The next few weeks we will go through all the changes that have happened during this year, thanks both to your great feedback and from internal and external testing. After that it's time to go through the mechanics of the different religions, the different situations and the different international organizations we have!
+230
+123
+10
+8
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+14
+Next
+1 of 14
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+Goldchruzi
+Swedish Goth & Vandal Fanatic
+45 Badges
+Apr 22, 2020
+72
+734
+Mar 5, 2025
+Add bookmark
+#2
+Landsknecht voran! This looks really promising
+Gotta ask though, how common is hiring out your armies á la Condottieri in EUIV? Will certain nations prefer doing this, and will relations with the recipient affect this? E.g. could a rival hire one of your armies?
+Toggle signature
+EU5:
+Gothic Culture Fix
+(WIP)
+If you mention the East Germanic tribes, I will appear faster than the goat-drawn chariot of Fairguneis flies across the skies above.
+14
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Mar 5, 2025
+Add bookmark
+#3
+Just don't hire the White Hawk Company. They tend to eclipse everyone else.
+Last edited:
+Mar 5, 2025
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+33
+7
+1
+Reactions:
+Reply
+Report
+GenericUsername1444
+Colonel
+Jun 25, 2024
+805
+10.781
+Mar 5, 2025
+Add bookmark
+#4
+Toggle signature
+Professional Georgian
+100
+5
+Reactions:
+Reply
+Report
+Pavía
+Content Design Lead PDX Tinto
+Paradox Staff
+12 Badges
+Jan 3, 2006
+4.509
+192.684
+Mar 5, 2025
+Add bookmark
+#5
+Hello, I'll be your host today as Johan is
+lost in the north
+busy in Stockholm with meetings.
+Toggle signature
+Antiguo caballero villano del OT en español. Now member of EUIV & EUV Team at Paradox Tinto.
+50
+30
+5
+3
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Mar 5, 2025
+Add bookmark
+#6
+If mercs are recruited from pops, then what's the difference of recruiting pops into own nation army?
+And can you recruit mercs from pops, that are from other countries?
+24
+2
+1
+Reactions:
+Reply
+Report
+GenericUsername1444
+Colonel
+Jun 25, 2024
+805
+10.781
+Mar 5, 2025
+Add bookmark
+#7
+Johan said:
+Now we have gone through the core mechanics we have for Project Caesar. The next few weeks we will go through all the changes that have happened during this year, thanks both to your great feedback and from internal and external testing. After that it's time to go through the mechanics of the different religions, the different situations and the different international organizations we have!
+Click to expand...
+Is this a confirmation of more regional feedback threads (Scandi, GB, etc.), or just an overview of mechanics in general? Thanks!
+Toggle signature
+Professional Georgian
+6
+2
+Reactions:
+Reply
+Report
+Goblin Slave
+Goblin
+58 Badges
+Jul 6, 2018
+188
+2.402
+Mar 5, 2025
+Add bookmark
+#8
+Can characters be captured on the battlefield in Project Caesar?
+23
+Reactions:
+Reply
+Report
+ArVass
+Dinosaur Hunter
+27 Badges
+Apr 4, 2016
+2.296
+12.720
+Mar 5, 2025
+Add bookmark
+#9
+PISTOL KNIGHTS, HELL YEAH
+Toggle signature
+Justice for Anabaptists!
+Justice for Unitarians!
+Split the Nigerian language!
+Bosnia was a vassal of Hungary in 1337
+9
+1
+1
+Reactions:
+Reply
+Report
+Streamlet
+Captain
+24 Badges
+Aug 4, 2020
+426
+3.574
+Mar 5, 2025
+Add bookmark
+#10
+Something I've been wondering is how mercenaries and armies are going to work for the countries which start the game at war, will they have to raise levies and mercenaries from scratch like every other country? It'd feel a bit weird
+9
+Reactions:
+Reply
+Report
+T
+titan.bevel
+Colonel
+Aug 1, 2024
+904
+3.356
+Mar 5, 2025
+Add bookmark
+#11
+Negative Stability in the country together with devastation and low control in the location determines how many pops are willing to leave home and become mercenaries.
+Click to expand...
+Am I understanding this right that the more of these "usually bad things" you have in a given loc, the more mercs you're likely to be able to recruit ?
+Toggle signature
+2 proposals
+on missions
+a proposal on religious influence
+a proposal on CB and peace deals
+maps ought to be more important !
+trade need some monopoly notion
+,
+and some import and export differences
+10
+4
+Reactions:
+Reply
+Report
+LucasG21
+Captain
+85 Badges
+Feb 23, 2017
+488
+3.903
+Mar 5, 2025
+Add bookmark
+#12
+Hmmm, what ever *did* the Nahuatl peoples do to their enemies? I can’t wait to see how Nahuatl religion will be represented in PC!
+Less hypothetically, do we have any versions of this for naval combat? It seems very relevant for the Barbary Corsairs and their Hospitaller arch-rivals.
+On that topic, it would be nice to know if PC has any plans of representing the Mediterranean raids on release, given how much influence it had over coastal settlement patterns in the region.
+Toggle signature
+My suggestions:
+Improving the Galactic Empire
+(thanks to the invaluable support of PDX forumite Donofett, a mod with these ideas is now available on the Steam Workshop! -
+https://steamcommunity.com/sharedfiles/filedetails/?id=3182260120
+)
+18
+4
+1
+1
+Reactions:
+Reply
+Report
+H
+Hare'da Irijon
+Sergeant
+20 Badges
+Jul 2, 2017
+56
+1.162
+Mar 5, 2025
+Add bookmark
+#13
+die off slowly over time, as this is not the age of the Geneva Convention.
+Click to expand...
+And what if were to adopt it? Is there a way modify how quickly they die (or disable it)?
+4
+2
+Reactions:
+Reply
+Report
+Pavía
+Content Design Lead PDX Tinto
+Paradox Staff
+12 Badges
+Jan 3, 2006
+4.509
+192.684
+Mar 5, 2025
+Add bookmark
+#14
+Old_Sealand said:
+If mercs are recruited from pops, then what's the difference of recruiting pops into own nation army?
+And can you recruit mercs from pops, that are from other countries?
+Click to expand...
+1. Until you develop your standing army, mercs are a good way to increase your troop availability.
+2. Indirectly, yes.
+Toggle signature
+Antiguo caballero villano del OT en español. Now member of EUIV & EUV Team at Paradox Tinto.
+52
+8
+Reactions:
+Reply
+Report
+D
+Deleted user
+Guest
+Mar 5, 2025
+Add bookmark
+#15
+Negative Stability in the country together with devastation and low control in the location determines how many pops are willing to leave home and become mercenaries.
+Click to expand...
+Negative Stability increases or decreases the willingness to become mercenaries and if it increases it, how does it work for Switzerland? Little mercaneries despite their historic willingness to become mercenaries?
+Last edited by a moderator:
+Mar 5, 2025
+15
+Reactions:
+Reply
+Report
+TheCleanerDragon
+Squad Leader
+35 Badges
+Sep 15, 2017
+78
+645
+Mar 5, 2025
+Add bookmark
+#16
+What happens to prisoners when a war ends? Also is there an option to just release prisoners without ransom?
+19
+1
+Reactions:
+Reply
+Report
+X
+xxTesa
+Corporal
+52 Badges
+Jul 20, 2015
+45
+250
+Mar 5, 2025
+Add bookmark
+#17
+If we hire our army out as mercenaries, is it the AI that takes control or are we waging war for the AI ?
+14
+3
+Reactions:
+Reply
+Report
+Blackcat321
+Second Lieutenant
+77 Badges
+Feb 4, 2016
+131
+925
+Mar 5, 2025
+Add bookmark
+#18
+Will mercenaries reduce army tradition? I always disliked how you lost professionalism when hiring mercs in EU4. Also, are there commanders who can't be bribed? They did exist historically after all.
+17
+Reactions:
+Reply
+Report
+D
+Didsss
+Sergeant
+51 Badges
+Dec 27, 2016
+90
+732
+Mar 5, 2025
+Add bookmark
+#19
+Are there some forms of governments or cultures that have bonuses for mercenaries? So much so that it would be preferable to use them over your own troops?
+5
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Mar 5, 2025
+Add bookmark
+#20
+When it comes to renting out armies. How do Swiss mercs work? Are they actual mercs that some commander can recruit, bribe, etc, as with any other mercs, or those armies are rented out by Switzerland nation itself?
+9
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+14
+Next
+1 of 14
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

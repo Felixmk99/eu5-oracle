@@ -1,0 +1,151 @@
+Source URL: https://eu5.paradoxwikis.com/Beginner%27s_guide
+Source Date: 2025-12-09
+
+Please help with verifying or updating older sections of this article.
+At least some were last verified for
+version
+pre-release.
+Please help improve this article or section by
+expanding it
+.
+Load video
+YouTube
+YouTube might collect personal data.
+Privacy Policy
+Continue
+Dismiss
+Europa Universalis V - Official Tutorials
+- This series is designed to give you the tools to become a world hegemon and ambitiously carve your way through Europa Universalis V
+Recommended Starter Countries
+[
+edit
+|
+edit source
+]
+These countries are the recommended tutorial starting countries, with extra in-game country specific hints.
+Starting any of these countries through the Recommended Countries in 1337 screen activates the Learning Walkthrough and the tutorial
+Missions
+.
+Economy
+[
+edit
+|
+edit source
+]
+EU5 recommends these countries for learning how to create a strong economy using buildings, trade, and development.
+Hungary
+-
+Economy
+Holland
+-
+Economy
+- Despite what the game recommends this is actually quite a difficult start for new players, here are some tips to get started if you want to play it:
+You are right next door to France's vassal (Flanders) who controls the market center which means less trade advantage and capacity for you. Creating a new market is expensive, and taking over Flanders militarily is unrealistic as France will defend them. It's a much better idea to expand south and west into the Holy Roman Empire and then create your own market center after 50-100 years depending on how things are going. Brabant and Utrecht are good targets for early expansion, set them as your rivals and fabricate claims on them to get a war started.
+You are in the Holy Roman Empire, you can ignore most of the mechanics as a new player, but the Emperor and coalitions can make your life difficult if you expand too quickly. Use your diplomats to improve relations with countries that have a high antagonism score against you to lower it and encourage them to leave any coalitions.
+You have a vassal (County of Zeeland) right next to you. You can use a diplomat to improve their opinion and then quickly annex them diplomatically. You are also in a personal union with the County of Hainaut (meaning you both share the same ruler) which is southwest of your location. This union means they will defend you if you get attacked. As long as you stay stronger than them you can vote to become the senior partner in the union and then eventually annex them diplomatically, but this will take around 40 years due to the union mechanics. Press F5 to open the diplomacy window and click the organizations tab to get more info about the Holy Roman Empire and your personal union.
+France will be busy fighting England in the Hundred Years' War, but once that is over they can be quite aggressive towards you. There is no guarantee the Emperor will defend you if you get attacked by them, but he might. Make sure you have plenty of alliances and build forts on your borders in case they attack.
+If the black death kills your king without a strong heir it can trigger the Hook and Cod War unique Holland event which can be catastrophic for new players. You can usually avoid this event by putting your court into hiding in the situation screen, but if it does happen choose which faction you want to support and play through the event pop-ups as they appear. Expect to lose a ton of stability and money for the next 20-30 years.
+Politics
+[
+edit
+|
+edit source
+]
+EU5 recommends these countries for learning how to create and leverage diplomatic networks of marriages, allies and friendly estates.
+Naples
+-
+Politics
+- This is an excellent start for new players with many options and is very forgiving, highly recommended:
+You are one of the strongest players in the Mediterranean. Early goals should be to establish a navy of galleys, set Sicily as a rival and then annex them as soon as possible. You are much stronger than them so it will be relatively easy. Once they are fully under your control you can form the kingdom of the Two Sicilies (you'll get a notification for it, but can also find the 'form new country' button in the government tab). Mid-long term goals from there are to expand into northern Italy, once you get control over Florence and Milan you can form the Kingdom of Italy.
+You start with 4 vassals in Greece and 1 vassal in the Balkans who are relatively small and too weak to help you with early wars. You can diplo/annex your Greek vassals and then release them as a single stronger vassal to help you get a foothold in the area as Byzantium eventually falls to the Ottomans allowing you to grab more land on the Greek peninsula. Albania, your vassal in the Balkans, has 4 small vassals of their own who they will eventually absorb without you having to do anything. From there you can expand into Serbia who will be much weaker than you, and Albania will be able to help.
+Your biggest competitors in the Mediterranean are Aragon and Tunis who are roughly 80% as strong as you at the start of the game. The Ottomans won't be an issue for around 100 years giving you plenty of time to build up a strong navy to hold them back. Ensure you always maintain a strong navy so you can fight back Aragon and Tunis in case they try to attack you. Invading Sardinia is an option to take the land from Aragon, but invading Tunis is much more difficult as you will suffer massive attrition and lack of food, you'll need a very large navy and invasion force to pull this off.
+Ensure you build lots of marketplaces and market towns to give yourself lots of trade capacity. There are lots of cotton and silk RGOs on the Italian peninsula meaning you can create a very profitable tailor/cloth industry quickly. One of your provinces Aquila has saffron which is a high value RGO that you can trade for a lot of cash.
+You may want to attack the Papal States early so they don't have time to form alliances if you want their land. Rome is a very nice and large city to get control over early in the game that you can build up fast. It may take multiple wars to annex all of their territory but you can completely kick them off the Italian peninsula in the first 20 years of the game with some smart wars (they still have territory in southern France). Note that if you want to eventually form the Empire of Italy, you should convert to Lutheranism during the reformation as the Catholic pope does not allow new empires to form.
+Norway
+-
+Politics
+Expansion
+[
+edit
+|
+edit source
+]
+EU5 recommends these countries for learning how to create a strong army, win wars and integrate conquered land.
+Ottomans
+-
+Expansion
+Castile
+-
+Expansion
+Automation
+[
+edit
+|
+edit source
+]
+Europa Universalis V allows the player to automate nearly every single task in the game. This process allows new and returning players to learn each individual task at their own pace and gives them the ability to safely ignore mechanics they find unenjoyable for any reason.
+These settings can be found in the "Automation" menu marked with a gear icon at the top right of the screen
+The settings are as follows:
+Economic (in yellow)
+[
+edit
+|
+edit source
+]
+Balance
+The player's estates will be taxed as much as possible while ensuring their happiness is at or above 50%.
+The minting of coins  without increasing inflation.
+Army, navy and fortification expenses will be raised while at war, and lowered while at peace.
+The automation will pay as much as it thinks reasonable for the player's court, artists, and stability, as well as colonies if the player has any, but the exact logic behind this behavior is unknown.
+Trade
+The automation occasionally misses necessary input goods for buildings, as well as luxury goods for higher-class pops.
+Trades don't seem to always be maximized for profit, but the exact logic behind this behavior is unknown.
+Production Methods
+Buildings
+Close and Open Buildings
+Subsidize Buildings
+Destroy Buildings
+Destroy Estate Buildings
+R.G.O.
+Political (in blue)
+[
+edit
+|
+edit source
+]
+Research
+Laws
+Government Reforms
+Cabinet Parliament
+Estates
+Culture Acceptance
+Religious Doctrines
+Diplomacy Interactions
+Rivals
+Expansion (in red)
+[
+edit
+|
+edit source
+]
+Exploration
+Colonies
+Army construction
+Navy construction
+Replace generals
+Replace admirals
+Many of the aforementioned tasks can be automated on smaller scales (e.g. an individual market or individual source of income) using their respective menus at the top left of the screen.
+Guide to setting up saved gamedata location
+[
+edit
+|
+edit source
+]
+Europa Universalis V does by default saves its data to the user's Documents folder. (Documents\Paradox Interactive\Europa Universalis V)
+Since this folder is likely to grow very large (nearly a GB or so) due to shadercache and savefiles, a lot of people get extremely upset (especially those using the free tier of OneDrive) and want to move these files.
+Create an alternative location for the files that suits you better.  For example: D:\Paradox Interactive\Europa Universalis V
+Go to your Steam library, right-click of EU V, select Properties... > General > Launch Options
+Type into the Launch Options box: --userdir="<wanted directory for EU V files>"  For example: --userdir="D:\Paradox Interactive\Europa Universalis V"
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=Beginner%27s_guide&oldid=20748
+"

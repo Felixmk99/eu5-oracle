@@ -1,0 +1,5034 @@
+Source URL: https://eu5.paradoxwikis.com/Reforms
+Source Date: 2025-12-20
+
+This article has been verified for the current
+version
+(1.0) of the game.
+This article is about government reforms; for other meanings see
+Reform (disambiguation)
+.
+Representing everything from ancient traditions to progressive amendments, reforms outline the shape of governance in a
+Country
+. Each one is unique, and they often give powerful trade-offs or open up unique play styles. Every country starts with only one slot for a reform, but can increase it with certain
+Advances
+. Reforms which are specific to a government type can only be selected by countries which have that type and if they are obtained in another way they are lost (on the next month tick) if the country has the wrong government type.
+Adding a reform is free but removing a reform costs 20
+Stability. If the primary religion is
+Sānjiào it also costs 10
+Righteousness.
+Minor reforms
+[
+edit
+|
+edit source
+]
+This table is planned to be
+automatically generated
+and should not be edited directly.
+Instead, suggest changes on the
+talk page
+.
+The reforms on this table are all obtainable by any country that meets the requirements.
+ever has the
+Reform
+Effects
+Age
+Requirements
+Time to implement
+Religious Tolerance
+Our country is populated by people who practice different beliefs. Therefore, it would be prudent to govern in a tolerant manner with them, ensuring the support for our government regardless of their religion.
++1.00
+Tolerance of Heretical Beliefs
++1.00
+Tolerance of Heathen Beliefs
++0.10
+Monthly Progress to Communalism
++0.10
+Monthly Progress to Humanist
+Traditions
+Humanist value is at least 50
+2 years
+Restricted Worker Unions
+Every measure has been taken to prevent future strikes. All unlawful formations of trade or labor unions are henceforth prohibited!
++5.00%
+Production Efficiency
++0.10
+Monthly Progress to Serfdom
++0.10
+Monthly Progress to Centralization
+Revolutions
+None
+2 years
+Mandated Navy Service
+Forcibly requiring any able-bodied person without means of income to enlist for naval service will undoubtedly cause some controversy...
++25.00%
+Sailors
++0.10
+Monthly Progress to Naval
+Revolutions
+None
+2 years
+National Assemblies
+An assembly composed of representatives of the entire nation. Depending on the type of government, it may have all the powers of government, or only legislative ones.
+−5%
+Parliament Request Issue Support Needed
+−10.00%
+Change Policy Cost
++0.10
+Monthly Progress to Free Subjects
++0.10
+Monthly Progress to Innovative
+At least one of:
+Estate Parliament
+Constitutional Parliament
+At least one of:
+Peasant Republic
+reform
+Represented in Parliament
+estate privilege granted
+East India Trading Company
+A global trading company, its original objective was to trade in the Indian Ocean region. These ventures proved fruitful, and the company later expanded its operations to East Asia. It is now the largest company in the entire world, controlling and administering large sections of our overseas holdings and our myriad of global trade networks.
++10.00%
+Trade Advantage
+−20.00%
+Foreign Buildings Cost
++0.10
+Monthly Progress to Capital Economy
++0.10
+Monthly Progress to Free Trade
+Agreed to exploit it during
+"The [Country Name] East Indian Company"
+event
+2 years
+Military Regime
+A form of government where the ruler is picked from the staff of generals of the army. The government serves the army!
++0.20
+Monthly Progress to Land
+−15.00%
+Army Maintenance
++0.10
+Monthly Army Tradition
+General Heir Selection
+:
+Yes
+Revolutions
+Not:
+Steppe Horde
+Tribe
+Papal States
+Admiralty Regime
+reform enacted
+2 years
+Thalassocracy
+Thalassocracy: rule by the sea. Ours is a people whose lives are lived out with, by, and for the ocean. Our empire stretches far beyond our homeland and into far-flung colonies in our extended Outremer, our Lands Beyond The Sea. From coast to coast beyond, our flags wave from ships upon the briny foam. The sea is cold, yet we have made it our home. Let no one challenge us in our proper element!
++0.10
+Monthly Progress to Naval
++10.00%
+Trade Maritime Advantage
++20.00%
+Ship-building Speed
+Absolutism
+Number of ports greater than 100
+2 years
+Agricultural Cultivation
+Crop output has been maximized by shifting focus from small-scale farming to the establishment of large plantations.
++20.00%
+Food Production %
++0.10
+Monthly Progress to Serfdom
+Traditions
+None
+2 years
+Black Chambers
+By using stealth and guile to intercept all kinds of written communications, we can stay ahead of our enemies and make our espionage more effective.
++10.00%
+Spy Network Construction
++10.00%
+Counterespionage
++0.10
+Monthly Progress to Innovative
++0.10
+Monthly Progress to Outward
+Discovery
+None
+2 years
+Public Welfare
+The poor suffer most in times of trouble. Some small donations shall help to ease their misery - and hopefully ensure that the mob will not pick up their torches and pitchforks...
++2.50%
+Estates Satisfaction Equilibrium
++0.10
+Monthly Progress to Communalism
+Revolutions
+None
+2 years
+Religious Laws Enforced
+Let us look much more closely to our holy scriptures to determine appropriate crimes and penalties for our society. After all, when a society is ruled in a truly pious fashion, it makes it far easier for devout citizens to weed out the traitors and deviants among them.
++25.00%
+Pop Conversion Speed %
++0.10
+Monthly Progress to Traditionalist
++0.10
+Monthly Progress to Spiritualist
+Reformation
+None
+2 years
+Peasant Land Inheritance
+By granting even the lowliest Commoners the right to inherit and continue using the lands of their forefathers, we shall gain productivity as a state.
++10.00%
+Tax Efficiency
++0.10
+Monthly Progress to Free Subjects
+Absolutism
+None
+2 years
+Mandatory Bureaucrat Education
+Henceforth, education is compulsory for those who are to govern or otherwise work within our legal system.
++5.00
+Max Literacy
++0.10
+Monthly Progress to Innovative
+Reformation
+None
+2 years
+Counter-Espionage Offices
+Loyal citizens who report dangerous elements in our territory will be greatly rewarded by the state. We will establish numerous offices to more effectively report such activities to our government.
++10.00%
+Counterespionage
++25.00%
+Pop Assimilation Speed
++0.10
+Monthly Progress to Communalism
+Reformation
+None
+2 years
+Fixed Vassal Obligations
+Fix in law the precise military and economic obligations that our client states have towards us.
++15.00
+Loyalty of Subjects
++0.10
+Monthly Progress to Outward
+Discovery
+None
+2 years
+Enlightened Aristocracy
+Encourage education and high literary standards among the aristocracy in order to ensure that the leaders of our nation closely follow our Humanist ideals.
+−1.00%
+Expected Cost of Court
++5.00
+Max Literacy Nobles
++0.10
+Monthly Progress to Aristocracy
++0.10
+Monthly Progress to Humanist
+Revolutions
+None
+2 years
+Transportation Code
+Establish a fixed system of transportation fees for goods to encourage the exportation of valuable items.
++20.00%
+Trade Range
+−10.00%
+Build Gravel Road Cost
+−10.00%
+Build Paved Road Cost
+−10.00%
+Build Modern Road Cost
+−10.00%
+Build Railroad Cost
++0.10
+Monthly Progress to Free Trade
+Discovery
+None
+2 years
+Cultural Recognition
+By recognizing the distinctive nature and valuable contributions of our minority cultures, we can better include them in matters of state.
++1.00
+Cultures Capacity
++0.10
+Monthly Progress to Humanist
+Reformation
+None
+2 years
+Licensing of the Press
+We have adopted strict rules and regulations about what can be printed. Hopefully, this will silence anyone seeking to make treasonous or abusive statements about our society.
++0.10
+Monthly Legitimacy
++0.10
+Monthly Republican Tradition
++0.10
+Monthly Devotion
++0.10
+Monthly Horde Unity
++0.10
+Monthly Tribal Cohesion
++0.10
+Monthly Progress to Traditionalist
+Absolutism
+None
+2 years
+Diplomatic Traditions
+From time immemorial, our people have favored the word above the sword, giving us the ability to forge lasting relationships with our allies, and to build a reputation as honest and loyal.
++3.00
+Diplomatic Reputation
++1.00
+Diplomatic Capacity
++0.10
+Monthly Progress to Conciliatory
+Traditions
+None
+2 years
+Patrimonialism
+The government is run directly by the ruler as an extension of their household. Armies, bureaucrats, and subjects swear loyalty directly to the sitting ruler, and not to the state.
++0.20
+Monthly Progress to Traditionalist
+−50.00%
+Estates Power
+−10.00%
+Tax Efficiency
+−1
+Cabinet Seats
+−10.00%
+Estates Satisfaction Equilibrium
+Assembly Parliament:
+Yes
+Traditions
+Reform is available as long as:
+Country rank is at most:
+Duchy
+Religion is pagan
+Reform is locked as long as:
+Capital meets at least one of:
+Nobles population less than:
+Population
+100
+×
+1
+{\displaystyle {\frac {\text{Population}}{100}}\times 1}
+Clergy population less than:
+Population
+100
+×
+2
+{\displaystyle {\frac {\text{Population}}{100}}\times 2}
+Burghers population less than:
+Population
+100
+×
+5
+{\displaystyle {\frac {\text{Population}}{100}}\times 5}
+2 years
+Enforce Religious Adherence
+Religious orthodoxy must be strictly maintained to ensure societal unity. Dissenters will be identified, controlled, and suppressed to prevent unrest.
++0.25
+Monthly Religious Influence
++0.10
+Monthly Progress to Traditionalist
+Traditions
+Religion
+uses:
+Religious influence
+Spiritualist value is at least 50
+2 years
+Harbor Administration
+Port facilities must be efficiently managed to support maritime trade and naval operations. Corruption will be reduced, and commerce will thrive under structured supervision.
+−5.00%
+Navy Maintenance
++0.10
+Monthly Progress to Naval
+Every coastal
+location gains:
++10.00%
+Local Monthly Development Growth
+−5.00%
+Proximity Cost through Port
+Traditions
+Neither of:
+Pop based country
+Building based country
+Naval value more than 50
+2 years
+Trade Office Network
+A network of trade offices must be established to facilitate commerce and taxation. Centralized management will improve merchant interactions and state revenue.
+−20.00%
+Foreign Buildings Cost
++10.00%
+Diplomatic Range
++10.00%
+Trade Range
++0.10
+Monthly Progress to Free Trade
+Traditions
+None
+2 years
+Exchange of Ideas
+Not only coin and profit have been moving along the Silk Road, but ideas and knowledge also flow with the ebb and flow of the merchants going along its path.
++10.00%
+Institution Growth
++5.00%
+Monthly Research Progress %
++0.10
+Monthly Progress to Innovative
+Renaissance
+Innovative value is at least 50
+Humanist value is at least 50
+2 years
+Local Army Organization
+Military recruitment and training must be localized for better response to regional threats. Supplies and logistics will be improved to strengthen provincial forces.
++20.00%
+Peasants Levy Size
++25.00%
+Peasants Power
++0.05
+Monthly Progress to Free Subjects
+Renaissance
+None
+2 years
+Bank Ledgers System
+Financial transactions and state expenditures must be meticulously recorded. A robust system of ledgers will ensure accountability and reduce fraud within the treasury.
+−0.025%
+Monthly Inflation
+−20.00%
+Trade Maintenance
++0.10
+Monthly Progress to Capital Economy
+Renaissance
+Capital Economy value is at least 50
+2 years
+Plutocratic Ethos
+The influence of wealthy elites in governance must be encouraged. Burghers and financiers will shape policies to promote economic expansion and private enterprise.
++5.00%
+Parliament Base Support
++10.00%
+Legislative Efficiency
++0.10
+Monthly Progress to Plutocracy
+Renaissance
+None
+2 years
+Garrison System
+Permanent military garrisons must be stationed in key locations to deter threats. Well-supplied and disciplined troops will ensure regional security and rapid mobilization.
++0.05
+Monthly Progress to Defensive
++25.00%
+Garrison Size
+−10.00%
+Fortification Maintenance
+Renaissance
+None
+2 years
+Colonial Expansion
+Overseas territories must be acquired and settled with government support. Strategic investments in colonization will ensure long-term economic and political dominance.
++0.05
+Monthly Progress to Outward
++10.00%
+Colonial Range
+Discovery
+None
+2 years
+Mercenary Registration
+Private military forces must be registered and regulated to ensure discipline. Mercenary companies will be held accountable, preventing instability and betrayal.
++0.10
+Monthly Progress to Belligerent
++0.10
+Monthly Progress to Offensive
+−5.00%
+Hire Mercenary Premium Cost
+Discovery
+None
+2 years
+Multilingual Diplomats
+Foreign negotiations must be conducted by linguistically skilled diplomats. Multilingual representatives will strengthen diplomatic ties and improve trade agreements.
++0.10
+Monthly Progress to Conciliatory
++20.00%
+Diplomatic Capacity
+−1.00%
+Expected Diplomatic Spending
+Discovery
+None
+2 years
+Asymmetrical Warfare Tactics
+Non-traditional combat strategies must be employed against superior forces. Guerrilla tactics, sabotage, and deception will be used to weaken enemy advances.
++0.10
+Monthly Progress to Defensive
++1.00
+Hostile Attrition
+Discovery
+None
+2 years
+Mining Communities
+Resource-rich regions must be developed into organized mining communities. State supervision will ensure efficient extraction and stable labor conditions.
++20.00%
+Stone Output
++20.00%
+Iron Output
++20.00%
+Copper Output
+−33.00%
+Expand Mining Cost
++0.10
+Monthly Progress to Decentralization
+Discovery
+Traditional Economy value is at least 50
+2 years
+Universal Serfdom
+Commoners must be bound to the land to secure constant availability of agricultural labor. Nobility will be granted authority to oversee their estates with greater efficiency.
++0.10
+Monthly Progress to Serfdom
++0.10
+Monthly Progress to Absolutism
++33.00%
+Crown Power
+−50.00%
+Peasants Power
+Discovery
+Serfdom value is at least 50
+2 years
+Statute Of Monopolies
+Selected Burghers must be granted exclusive trading privileges to regulate market competition. This will stimulate controlled economic growth and limit foreign interference.
++10.00%
+Market Protection
++2.50%
+Production Efficiency
++0.10
+Monthly Progress to Plutocracy
+Reformation
+Mercantilism value is at least 50
+2 years
+State-Backed Merchant Fleet
+Naval trade operations must be supported by state funding. A well-maintained merchant fleet will boost commerce and provide auxiliary support for military endeavors.
+−20.00%
+Light Ship Maintenance Cost
+−10.00%
+Trade Range Used Over Sea
++10.00%
+Trade Maritime Advantage
++0.10
+Monthly Progress to Outward
+Reformation
+Mercantilism value is at least 50
+Naval value is at least 50
+2 years
+Administration of Shipyards
+Shipyards, docks, and coastal defenses must be expanded. Greater investment in naval infrastructure will ensure maritime supremacy and facilitate large-scale operations.
++0.10
+Monthly Progress to Naval
+−2.00
+Proximity Cost through Port
+Every coastal
+town and
+city:
++0.10
+Harbor Capacity
+Reformation
+Naval value is at least 50
+2 years
+Policy Of Calculated Delay
+Strategic delays during negotiations are a great way to put our thumb on the diplomatic scale. By establishing ourselves as the strongest side in an exchange, through these tactics, we will inevitably extract more value from every foreign deal.
++15.00%
+Improve Relations
++0.05
+Antagonism Change Modifier
++0.10
+Monthly Progress to Inward
+Reformation
+Conciliatory value is at least 50
+2 years
+Punishment of Heresy
+Heresy and religious dissent must be rooted out through systematic suppression. Doctrinal purity will be maintained to prevent internal division and unrest.
++0.10
+Monthly Progress to Spiritualist
+−1.00
+Tolerance of Heretical Beliefs
++20.00%
+Pop Conversion Speed %
+Reformation
+Spiritualist value is at least 50
+2 years
+Administration Of Clerical Lands
+Church properties and revenues must be placed under state supervision. Religious institutions will be monitored to align their interests with national policies.
++10.00%
+Maximum Tax for Clergy Estate
++10.00%
+Agenda Impact for Clergy
++0.10
+Monthly Progress to Innovative
+Reformation
+None
+2 years
+Humanitarian Administration
+Social welfare initiatives must be implemented to improve public well-being. Addressing poverty and instability will strengthen state control and prevent revolts.
++20.00%
+Cultures Capacity
++0.10
+Monthly Progress to Free Subjects
+Reformation
+Humanist value is at least 50
+2 years
+Production Quota Bureaus
+Manufacturing output must be regulated through government quotas. Centralized supervision will prevent shortages and maintain economic stability.
++0.10
+Monthly Progress to Traditional Economy
++10.00%
+Raw Materials Output
+Reformation
+None
+2 years
+Weapons Quality Standards
+Strict standards must be enforced for military armaments. Rigorous inspections and regulations will ensure superior weapon durability and effectiveness.
++0.10
+Monthly Progress to Capital Economy
+−20.00%
+Weaponry Output
++5.00%
+Discipline
+Reformation
+Quality value is at least 50
+2 years
+Consolidation of Diplomatic Affairs
+Diplomatic policies must be centralized for more effective international negotiations. Long-term alliances and agreements will be maintained for stability.
++0.10
+Monthly Progress to Conciliatory
++0.10
+Monthly Diplomats
++20
+Subject Opinions
+Reformation
+None
+2 years
+Provincial Taxation System
+Tax collection must be standardized across provinces to ensure consistent revenue. Corrupt officials will be removed, and financial supervision will be strengthened.
++0.10
+Monthly Progress to Decentralization
++0.10
+Monthly Progress to Liberalism
++5.00%
+Maximum Tax
+−10.00%
+Crown Power
+Reformation
+Decentralization value is at least 50
+2 years
+Ministry of Conscript Logistics
+Military supply chains must be reorganized to improve troop mobility. More efficient logistics will ensure faster deployments and sustained campaigns.
++0.10
+Monthly Progress to Quantity
++10.00%
+Logistics Distance
+−3.00%
+Infantry Maintenance Cost
+Reformation
+None
+2 years
+Recognition of Local Policies
+Newly conquered territories must be gradually assimilated to avoid resistance. Cultural and administrative policies will ensure a seamless absorption into the state.
++0.10
+Monthly Progress to Communalism
++10.00%
+Speed of Integration
+Absolutism
+Belligerent value is at least 50
+Absolutism value is at least 50
+2 years
+Centralization Of Power
+Authority must be consolidated to limit regional autonomy. A strong central government will enhance decision-making efficiency and national stability.
++0.10
+Monthly Progress to Centralization
++0.10
+Monthly Progress to Absolutism
++20.00%
+Crown Power
+Absolutism
+Centralization value is at least 50
+Absolutism value is at least 50
+2 years
+Horse Artillery Corps
+Mobile artillery units must be deployed to increase battlefield flexibility. Rapid movement and powerful firepower will be combined for tactical superiority.
++0.10
+Monthly Progress to Offensive
++10.00%
+Siege Ability
+Absolutism
+Offensive value is at least 50
+2 years
+Autonomous Estates
+Local Nobility must be granted some degree of autonomy. Decentralized governance will prevent uprisings while maintaining feudal obligations to the central authority.
++0.10
+Monthly Progress to Decentralization
++100.00%
+Estates Power
++20.00%
+Parliament Base Support
+Absolutism
+Liberalism value is at least 50
+2 years
+Military Allotment
+Land grants must be allocated to military officers to secure their loyalty. In return, they will maintain standing forces prepared for immediate deployment.
++0.10
+Monthly Progress to Free Subjects
++10.00%
+Possible Soldiers for each 1,000 population
++25.00%
+Reinforcement Speed
+−5.00%
+Maximum Tax for Peasants Estate
+Absolutism
+Quantity value is at least 50
+2 years
+Prioritize Military Shipbuilding
+Shipbuilding efforts must be expanded to strengthen naval forces. Greater investment in warships will ensure maritime dominance and protect trade routes.
++0.10
+Monthly Progress to Naval
++0.10
+Monthly Navy Tradition
++25.00%
+Naval Supplies Output
+Absolutism
+None
+2 years
+Expanded Archives
+Government records must be meticulously maintained for administrative efficiency. Accurate documentation will prevent corruption and streamline bureaucracy.
++10.00%
+Cultural Tradition %
++5.00%
+Tax Efficiency
++0.10
+Monthly Progress to Inward
+Absolutism
+None
+2 years
+Visionary Thinkers
+Intellectuals and reformers must be supported to advance state policies. Innovative ideas will drive economic growth, military advancements, and governmental improvements.
++5.00
+Max Literacy
++0.10
+Monthly Progress to Individualism
+Revolutions
+Innovative value is at least 50
+2 years
+Organized Marines
+Marine forces must be formally structured for amphibious warfare. Specialized training and disciplined formations will improve coastal and naval engagements.
++10.00%
+Army Disembark Speed
+−1.00%
+Naval Morale Attrition Cost
+−15.00%
+Heavy Ship Maintenance Cost
++0.10
+Monthly Progress to Quality
+Revolutions
+None
+2 years
+Mandatory Service
+Military conscription must be enforced to maintain a strong standing army. All eligible citizens will be required to serve in defense of the state.
++0.10
+Monthly Progress to Communalism
++10.00%
+Sailors
++10.00%
+Manpower
+Revolutions
+None
+2 years
+Flexible Diplomatic Stance
+Foreign policy must remain adaptable to shifting alliances. Strategic decisions will be made based on the evolving geopolitical landscape.
++0.10
+Monthly Progress to Conciliatory
++33.00%
+Spy Network Construction
++1.00
+Diplomatic Reputation
++1.00
+Maximum Diplomats
+Revolutions
+None
+2 years
+Modern Assault Tactics
+Offensive warfare doctrines must be refined for greater battlefield efficiency. New tactics will emphasize speed, coordination, and overwhelming force.
++0.10
+Monthly Progress to Belligerent
++20.00%
+Assault Ability
++5.00%
+Reinforcement Speed
+Revolutions
+Offensive value is at least 50
+2 years
+State Sponsored Markets
+Trade hubs must be established with state backing to encourage commerce. Government support will ensure fair pricing and economic growth.
++10.00%
+Market Protection
++5.00%
+Trade Efficiency
++0.10
+Monthly Progress to Mercantilism
+Revolutions
+Mercantilism value is at least 50
+2 years
+Nautical Education
+Naval training programs must be expanded to improve leadership at sea. A more skilled officer corps will enhance fleet command.
++0.10
+Monthly Progress to Belligerent
++10.00
+Max Literacy for Soldiers
+−25.00%
+Train Admiral Cost
+−0.10%
+Navy Tradition Decay
+Revolutions
+Naval value is at least 50
+2 years
+Constitutional State
+The Constitutional State focuses on the delicate balance between the powers of central authority and representative institutions. While the head of state still governs, laws and policy decisions are shaped by a legislative body, in a valiant attempt to curb absolutist tendencies.
+Allow Constitutional Parliament:
+Yes
++1
+Possible Government Reforms
++0.20
+Monthly Progress to Liberalism
+−20.00%
+Crown Power
+Reform is available as long as:
+Achieved revolutionary victory in
+"Rise of the [Country] Revolutionary State"
+disaster
+Constitutional Parliament:
+Yes
+Reform is locked as long as:
+Country has a parliament
+Liberalism value is greater than 0
+Galley Lords
+Though we are tethered to the land, the sea is our dominion.
+Can Hire Privateers:
+Yes
++0.10
+Monthly Progress to Naval
++0.025
+Monthly Progress to Belligerent
+−2.00
+Diplomatic Reputation
+Navy Levies Always Allowed:
+Yes
++100.00%
+Navy Levy Size
+−50.00%
+Galley Build Cost
+−50.00%
+Galley Maintenance Cost
+Traditions
+At least one of:
+Culture group is:
+Celtic
+,
+Scandinavian
+,
+Scottish
+, or
+Hibernian
+Any neighbor has:
+Galley Lords
+reform enacted
+Overlord has:
+Galley Lords
+reform enacted
+Capital is a port
+Naval value is at least 25
+Belligerent value is at least 25
+2 years
+Magna Carta
+The 'Great Charter' is a legal document that aims to protect the feudal rights of our barons against unjust taxation and legal maneuvers by the Crown. It is also one of the earliest documents to enshrine the idea of civil liberties, such as the right to a fair trial and protection from illegal imprisonment.
+Monarchy
++20.00%
+Nobles Power
++0.10
+Monthly Progress to Free Subjects
++0.10
+Monthly Progress to Individualism
++10.00%
+Levy Combat Efficiency
++10.00%
+Parliament Base Support
+Traditions
+At least one of:
+Is or has been
+England
+Primary culture is
+English
+Overlord has enacted:
+Magna Carta
+reform
+Legalism has been embraced
+2 years
+Sudebnik
+The decision has been made to standardize our legal code, which originally developed as common law with significant regional variations. By streamlining this code and expanding the number of offenses subject to fines, we improve both administrative efficiency and state revenue.
+−10.00%
+Proximity Cost through Land
++0.10
+Monthly Progress to Aristocracy
+Discovery
+Culture group is
+East Slavic
+2 years
+Oprichnina
+The hereditary Nobility poses the greatest threat to our command of the state. We must break their power by seizing portions of their estates and redistributing this land to those who demonstrate loyalty to us.
+−25.00%
+Nobles Power
++0.10
+Monthly Progress to Centralization
++1
+Possible Government Reforms
+Reformation
+Culture group is
+East Slavic
+2 years
+Pashas
+In the [GetCountry('TUR').GetLongName], the title of Pasha is bestowed by the Sultan upon high-ranking civil officials or military leaders. It is typically awarded to governors, and ranked above Beys and Aghas but below Khedives and Viziers.
++0.10
+Monthly Progress to Decentralization
++5.00%
+Crown Power
++1
+Cabinet Seats
+None
+Unlocked by the event
+“The Rise of the Turks”
+Rise of the Turks
+2 years
+Tsardom
+Our state upholds the legacy of the Roman Empire, and is a stalwart of our state religion. As Tsar of the entire Russia, our ruler is the true overlord of the East Slavic peoples.
+Monarchy
+−5.00%
+Proximity Cost
++10.00%
+Peasant Estate Satisfaction Equilibrium
+Renaissance
+Culture Group is
+East Slavic
+Country rank is:
+Empire
+Religion
+is:
+Orthodoxy
+2 years
+Veche Republic
+This state is governed by a Veche, a council with the highest legislative and judicial authority consisting of Nobility, Burghers, and even Commoners.
+Republic
++5.00%
+Noble Estate Satisfaction Equilibrium
++10.00%
+Nobles Power
++5.00%
+Peasant Estate Satisfaction Equilibrium
++10.00%
+Peasants Power
++5.00%
+Burgher Estate Satisfaction Equilibrium
++10.00%
+Burghers Power
++15.00%
+Efficiency of Our Cabinet
+Culture group is
+East Slavic
+2 years
+Wayfinders
+Thousands of years of voyaging have taught our navigators how to traverse the seas. Bereft of advanced technology, the wayfinders memorize patterns in the stars and observe minute changes in the clouds and water to determine their position in the vast Pacific.
+Can Recruit Explorers:
+Yes
+Allows Exploration Missions:
+Yes
++0.025
+Monthly Progress to Naval
+Traditions
+At least one of:
+Culture group is
+Micronesian
+Culture group is
+Polynesian
+Capital is a port
+2 years
+Family Sagas
+Our ancient sagas passed down orally through the generations tell of adventurous expeditions to a distant and wild land over the western sea. Perhaps one day we may follow in the footsteps of our forebears...
+Can Recruit Explorers:
+Yes
+Can Invite Settlers:
+Yes
+Allows Exploration Missions:
+Yes
++2.00
+Cultural Tradition
++0.025
+Monthly Progress to Naval
+Traditions
+Primary culture is
+Icelandic
+2 years
+Manueline Architecture
+This innovative style synthesizes aspects of Late Gothic architecture with influences from the Spanish, Italian, and Flemish traditions. The construction in Manueline was largely financed by proceeds from the lucrative spice trade with Africa and India.
++25.00%
+Cultural Tradition %
+−10.00%
+Buildings Cost
+Discovery
+Primary culture is
+Portuguese
+2 years
+Pyrenean Fueros
+The
+Fuero
+is realized in written law, limiting royal power and ensuring the exercise of civil liberties. Only when new rulers swear to protect the
+Fueros
+are they recognized as such. The
+Fueros
+are the constitutions of the realm, subjecting power to the rule of law and expressing the balance of power between our state and our rulers.
+Monarchy
++2.50%
+Estates Satisfaction Equilibrium
++0.10
+Monthly Legitimacy
++1
+Possible Government Reforms
+Traditions
+At least one of:
+Culture group is
+Pyrenean
+Is or has been
+Aragon
+Legalism has been embraced
+2 years
+Ambrosian Republic
+A scholarly system of rule, where academics and urban intellectuals hold political power rather than traditional nobility. This system is a government based on intellectual merit and civic participation rather than hereditary rule. The republic maintains control through popular support from the educated elite, though it faces condemnation from those who view it as a threat to the status quo.
++25.00%
+Crown Power
++5.00%
+Army Morale
+Republic
+Chose Saint Ambrose during the
+Ambrosian Republic
+disaster
+2 years
+French Appanage
+As Princes of the Blood, holders of appanages enjoy a higher standing among the subjects of France, as well as greater privileges. Furthermore, the French monarch is expected to pay them adequate respect in exchange for their assistance in diplomatic affairs.
++33.00%
+Nobles Power
++5.00%
+Noble Estate Satisfaction Equilibrium
++5.00%
+Minimum Tax for Noble Estate
++1
+Possible Government Reforms
+Reform is available as long as:
+Capital in the France
+region
+Subject with:
+Appanage subject type
+Overlord has at least one of:
+Has Appanages
+French Feudal Nobility
+reform
+French Appanage
+reform
+Reform is locked as long as:
+French Appanage
+reform is active
+2 years
+French Ducal
+While the ducal subjects of France lack the autonomy of the appanage domains, they instead enjoy a more cooperative relationship with the Crown.
++0.02
+Stability Investment
++5.00%
+Noble Estate Satisfaction Equilibrium
++0.10
+Monthly Progress to Aristocracy
+Reform is available as long as:
+Capital in the France
+region
+Overlord has at least one of:
+French Feudal Nobility
+reform enacted
+French Ducal
+reform enacted
+Monarchy government type
+Does not:
+Have the
+French Feudal Nobility
+reform
+Have the
+French Appanage
+reform
+Is not or has not been
+France
+Is not an independent nation
+Reform is locked as long as:
+French Ducal
+reform enacted
+2 years
+Member of the League of Public Weal
+By becoming part of the League of Public Weal, we commit to joining any future wars waged against the ruler of France. But, should any such conflict fail, the French crown would be emboldened to confiscate lands from disloyal subjects...
++10.00%
+Crown Power
++25.00%
+Counterespionage
++10.00%
+Levy Size
+Disallowed from Call Appanage to War:
+Yes
++1
+Possible Government Reforms
+Reform is available as long as:
+Has had
+"The League of the Public Weal"
+event
+At least one of:
+All of:
+Capital is in the France
+region
+Not a
+vassal
+French Ducal
+reform is not enacted
+Overlord has enacted:
+French Feudal Nobility
+reform
+Monarchy
+Member of the League of Public Weal
+reform enacted
+Not in a
+union with
+France
+Subject loyalty is less than 33
+At least one of:
+At war
+Subject loyalty is at or below 60
+Reform is locked as long as:
+Member of the League of Public Weal
+reform enacted
+3 months
+Legacy of the Ottomans
+After centuries of warfare and triumphant victories, we have finally consolidated vast territories under our banner. The whole of Europe will tremble at the sound of our approach!
++25.00%
+Cultures Capacity
+Raid Religious Enemies for Slaves:
+Yes
++1
+Possible Government Reforms
+Reform is available as long as:
+Has had
+"The Rise of the Turks"
+event from
+Rise of the Turks
+Reform is locked as long as:
+Legacy of the Ottomans
+reform enacted
+2 years
+Leader of the Turks
+In the midst of chaos lies opportunity. Our leadership over the affairs of Anatolia, as well as our military and financial might, have given us the first say in determining the future of the entire region.
++25.00%
+Speed of Integration
++25.00%
+Diplomatic Capacity
++33.00%
+Cultural Tradition %
++1
+Possible Government Reforms
++5.00%
+Monthly Control
+Reform is available as long as:
+Strongest beylik in the
+Rise of the Turks
+situation
+Is not or has not been the
+Ottomans
+Reform is locked as long as:
+Strongest beylik in the
+Rise of the Turks
+situation
+1 year
+Legacy of the Turks
+Besting our powerful neighbors across Anatolia has given way to a new rising power! After centuries of warfare and triumphant victories, we have finally consolidated vast territories under our banner. The whole of Europe will tremble at the sound of our approach!
++20.00%
+Cultural Influence %
+Raid Religious Enemies for Slaves:
+Yes
++1
+Possible Government Reforms
+Reform is available as long as:
+Has had
+"The Rise of the Turks"
+event from
+Rise of the Turks
+Reform is locked as long as:
+Legacy of the Turks
+reform enacted
+1 year
+Mestnichestvo
+The Mestnichestvo is an ancient system that assigns positions of state to people based on the antiquity of their lineage and the seniority they hold within their families. The most tangible demonstration of this system involved the seating order of Boyars at the Tsar's table, which reflects their individual rank and precedence.
+Monarchy
++5.00%
+Noble Estate Satisfaction Equilibrium
++0.05
+Monthly Prestige
++0.10
+Monthly Progress to Serfdom
++0.10
+Monthly Progress to Aristocracy
+Culture group is
+East Slavic
+2 years
+Haudenosaunee Clan Mothers
+The Clan Mothers of the Haudenosaunee, called
+Iakoianes
+, hold the major authority within clans. They are responsible for the internal workings of the tribe and for electing their male counterparts, called Royaner, to represent the clan's interests at the council of all the Haudenosaunee tribes.
+Tribe
++2.50%
+Estates Satisfaction Equilibrium
++0.10
+Monthly Progress to Traditionalist
++0.10
+Monthly Progress to Communalism
++0.10
+Cultural Tradition
+Tribal Matrilineal
+:
+Yes
+Culture group is
+Haudenosaunee
+1 year
+Crusade in the Sea
+As our focus changed from defending castles in the Holy Land to fighting pirates and heathens on the seas, we had to change the way our Order operates. Galleys now will be our battlefields, and our first bulwarks against the enemies of Christ.
++0.10
+Monthly Progress to Naval
++0.05
+Monthly Progress to Belligerent
++10.00%
+Army Disembark Speed
+−50.00%
+Galley Build Cost
+Privateers Will Raid for Slaves:
+Yes
+Traditions
+Capital is a port
+Military Order
+is enacted
+At least one of:
+Is or has been
+Knights Hospitaller
+Any neighboring country:
+Crusade in the Sea
+reform enacted
+Overlord:
+Crusade in the Sea
+reform enacted
+2 years
+Kanrei Council
+Seeking to form a more cohesive relationship between the Shōgun and Shugo Daimyō of Japan, a council of the many Kanrei allows Shugo Daimyō council members to advise the Shōgun while also engaging with other Shugo Daimyō council members. The senior members of the council are also tasked with handling the affairs of other, weaker clans in the council.
++3.00%
+Expected Cost of Court
++0.03
+Stability Investment
++15.00%
+Efficiency of Our Cabinet
++1
+Possible Government Reforms
++10.00
+Loyalty of Subjects
+Reform is available as long as:
+Has had the
+"Kanrei Council System"
+event
+Leader of the
+Japanese Shogunate
+Shogunate
+reform enacted
+Reform is locked as long as:
+Leader of the
+Japanese Shogunate
+Three Departments
+The Three Departments and Six Ministries System originate from ancient Chinese empires, and are the primary administrative structures of our state. Every department is responsible for several aspects of drafting, establishing, and revisiting state policies. The Six Ministries are the six major executive bodies of the state, split in the respective affairs of state matters: employment, taxation, rites, military affairs, law enforcement, and public works.
++10.00%
+Legislative Efficiency
+−33.00%
+Set Policy Cost
+−10.00%
+Change Policy Cost
++1
+Possible Government Reforms
+Traditions
+Reform is unlocked as long as:
+At least one of:
+All of:
+Has the Sinicized vs Unsinicized
+societal value
+Sinicized value of at least 60
+All of:
+Middle Kingdom
+exists
+Leader of the Middle Kingdom
+Common language
+is in the Chinese family
+Court language
+is in the Chinese family
+Adopted those institutions during
+"Adopting the Old Regime"
+event
+Reform is locked as long as:
+All of:
+Middle Kingdom exists
+Leader of the Middle Kingdom
+2 years
+Single Whip Law
+In order to increase taxation efficiency, let us simplify all our different tax regimes into one: All payments to the government shall be made with Silver, and Silver only.
++10.00%
+Tax Efficiency
++100.00%
+Global Silver Demand
+Reformation
+Has had the
+"Single Whip Law"
+event
+Haixi Jurchen
+The Haixi Jurchen are a group of Jurchen people who are primarily focused on pastoralism rather than agriculture, which differentiates them from Jianzhou Jurchen. They are also known for their adoption of many Mongolian traditions.
+−25.00%
+Cavalry Build Cost
+−10.00%
+Cavalry Maintenance Cost
++0.025
+Monthly Progress to Sinicized
+Reform is unlocked as long as:
+Culture group
+is Jurchen
+Tribe
+Not:
+Jianzhou Jurchen
+reform enacted
+Sinicized value less than 20
+Reform is locked as long as:
+Haixi Jurchen
+reform enacted
+1 year
+Jianzhou Jurchen
+Being a Jianzhou Jurchen means being a highly Sinicized Jurchen group, highly agricultural and permanently settled. These Jurchen peoples have intensive trading networks with nearby Chinese cities.
++10.00%
+Food Production %
++0.05
+Monthly Progress to Centralization
++0.05
+Monthly Progress to Sinicized
+Reform is unlocked as long as:
+Culture group
+is Jurchen
+Tribe
+Not:
+Haixi Jurchen
+reform enacted
+Sinicized value less than 40
+Reform is locked as long as:
+Jianzhou Jurchen
+reform enacted
+1 year
+Yeren Jurchen
+Yeren Jurchen refers to Jurchen groups who occupy less-settled regions and maintain more traditional ways of life. They rely primarily on hunting and foraging, with less intensive agricultural practice.
+−10.00%
+Declaring War Cost
++0.01
+Stability Investment
++0.10
+Monthly Progress to Unsinicized
++0.10
+Monthly Progress to Traditionalist
+Reform is unlocked as long as:
+Culture group
+is Jurchen
+Tribe
+Not:
+Jianzhou Jurchen
+reform enacted
+Reform is locked as long as:
+Yeren Jurchen
+reform enacted
+1 year
+Voivode
+The implementation of the Voivode makes it easier to govern large swaths of land by introducing a military governor who oversees the local administration and defense. An oath of allegiance is sworn directly to the ruler.
++0.10
+Monthly Progress to Serfdom
++0.10
+Monthly Progress to Decentralization
+−5.00%
+Proximity Cost
+Discovery
+Voivode
+advance
+has been researched
+2 years
+Portuguese Monarchy
+Despite its monarchy initially being like those of other Iberian nations, Portugal has developed a slightly different government: more centralized around its monarchs, with better leverage over its estates, and with a keen eye towards reaping the riches of overseas trade.
+Monarchy
+−5.00%
+Navy Maintenance
++10.00%
+Sailors
++10.00%
+Tax Efficiency
+Traditions
+At least one of:
+Is or has been
+Portugal
+is
+Portuguese
+Not:
+Colonial nation
+Legalism
+has been embraced
+2 years
+Taluqdar Nobility
+Taluqdars, or dynastic aristocrats, own extensive land, collect taxes, and play significant roles in our architecture and economy. As landowners with considerable power and influence in the court, the Taluqdars are our equivalent to the high nobility of other regions.
+Has Taluqdar Tax Collection:
+Yes
++5.00%
+Noble Estate Satisfaction Equilibrium
++0.10
+Monthly Progress to Traditional Economy
+Traditions
+At least one of:
+Is or has been
+Mughal
+All of:
+Culture group
+is Indian
+is
+Muslim
+2 years
+Indian Sultanate
+Ruled by a Islam minority, the Sultanates of India have had to evolve and expand the traditional Islam ideas of kingship. While they remain Islamic states, the role of the Dhimmi, which traditionally encompasses Jews and Christians, has been extended to the Dharmic religions.
+Can Build Mamlūk Barracks:
+Yes
++0.10
+Monthly Progress to Aristocracy
+Traditions
+Culture group
+is Indian
+is
+Muslim
+2 years
+Ashta Pradhan
+Ashta Pradhan -
+Modern Council of Ministers
+- is the system of ministerial delegation used by the Marathi people. The council is tasked with guiding the administration of the state, overviewing matters of the military, finances, diplomacy, and religion alike.
+Can Enact Ashta Pradham Policy:
+Yes
+Traditions
+Common language
+is Marathi
+1 year
+Frisian Freedom
+The Frisian Freedom represents the indomitability of our people and their rejection of feudalism and serfdom. They choose their representatives among the landowners and rule the land autonomously. Should a leader rise among them, he must respect the freedoms of his people or face the same fate as any other enemy, whether from within or from the outside.
+−20.00%
+Nobles Power
++20.00%
+Peasants Power
++10.00%
+Peasant Estate Satisfaction Equilibrium
++0.10
+Monthly Progress to Free Subjects
+Traditions
+is
+Frisian
+Legalism
+has been embraced
+Free Subjects value is greater than 0
+2 years
+Warring State
+A state of the fractured Celestial Empire which rebels against the current Son of Heaven. Administrative issues are delayed in favor for a more aggressive focus on military expansion.
+−0.10
+Monthly War Exhaustion
++0.10
+Monthly Progress to Belligerent
+Has Red Turban Rebellions Casus Belli:
+Yes
++1
+Possible Government Reforms
++10.00%
+Levy Size
++10.00%
+Levy Recruitment Speed
+Can Get Subjects:
+No
+−0.50
+Peace Offer Fairness
++0.33
+Aggressiveness Modifier
++0.33
+Expected Warscore Modifier
+−20.00%
+Win War Chance Threshold
++15.00
+Antagonism Tolerance
+Traditions
+Reform is available as long as:
+Not:
+Has or had the CHI tag
+Not:
+Leader of the
+Middle Kingdom
+Warring State
+reform is enacted
+At least one of:
+Red Turban Rebellions
+is active
+Proclaimed it during the
+"The Later Jīn"
+event
+At least one of:
+Common language
+is in the Chinese family
+Common language
+is in the Tai family
+Common language
+is Yi
+Common language
+is Hmong
+Common language
+is Tibetan
+Common language
+is Jurchen
+Middle Kingdom exists
+Reform is locked as long as:
+Not:
+Has or had the CHI tag
+Warring State
+reform is enacted
+Middle Kingdom exists
+At least one of:
+Common language
+is in the Chinese family
+Common language
+is in the Tai family
+Common language
+is Yi
+Common language
+is Hmong
+Common language
+is Tibetan
+All of:
+Common language
+is Jurchen
+Red Turban Rebellions
+is active
+Colonial Subject
+We are at the forefront of civilization, and this has created opportunities for our most brave and intrepid citizens to cross the world and settle here, seeking to carve out a new and prosperous life of their own.
++0.025%
+Population Growth
++5.00%
+Peasant Estate Satisfaction Equilibrium
++10.00%
+Raw Materials Output
++1
+Possible Government Reforms
+Reform is unlocked as long as:
+Colonial Subject reform is enacted
+Colonial Subject
+Reform is locked as long as:
+Colonial Subject
+Anatolian Beylik
+Situated in the turbulent region of Anatolia, we have emerged after the decay of the Sultanate of Rûm, whose borders we once inhabited. Hardened warriors and capable bureaucrats form the solid base of our robust government.
+−25.00%
+Unjustified War on Same Religion Cost
++25.00%
+Non-Culture Levy Size
++1
+Cabinet Seats
++1
+Possible Government Reforms
+Reform is unlocked as long as:
+At least one of:
+is
+Turkish
+is
+Turkoman
+Uc Bey
+Reform is locked as long as:
+Current year is past 1337
+Not:
+Rise of the Turks
+situation active
+2 years
+Guild Constitution
+Divided into a Major and Minor Council, twenty-six councilors shall rule over our domain. These will be recruited in equal numbers from the wealthy merchants, our guild craftsmen, and the nobility. This will ensure no faction will be able to achieve majority and rule without the consent of the others.
+Republic
+−10.00%
+Maximum Tax for Burgher Estate
++5.00%
+Burgher Estate Satisfaction Equilibrium
++2.50%
+Production Efficiency
+Culture group is Swiss
+Agreed to the guild constitution during
+"The Guild Constitution
+event
+2 years
+Tutorship Soyurghal Governor
+Governors of the [GetCountry('TIM').GetLongName] who were appointed to the position because they either needed more experience before becoming the next ruler, because the area in question desperately needed a capable governor, or simply to exclude them from the active politics of the realm.
++2.00%
+Expected Cost of Court
++0.20%
+Monthly Prosperity
+Reform is unlocked as long as:
+Overlord:
+Timurid Dīwān
+reform is enacted
+Reform is locked as long as:
+Tutorship Soyurghal Governor
+reform is enacted
+Banished Soyurghal Governor
+Governors of the [GetCountry('TIM').GetLongName] who were appointed to the position because they either needed more experience before becoming the next ruler, because the area in question desperately needed a capable governor, or simply to exclude them from the active politics of the realm.
++0.10
+Monthly Progress to Land
++0.50
+Monthly Army Tradition
+Reform is unlocked as long as:
+Overlord:
+Timurid Dīwān
+reform is enacted
+Reform is locked as long as:
+Banished Soyurghal Governor
+reform is enacted
+Soyurghal Governor
+Governors of the [GetCountry('TIM').GetLongName] who were appointed to the position because they either needed more experience before becoming the next ruler, because the area in question desperately needed a capable governor, or simply to exclude them from the active politics of the realm.
++15.00%
+Legislative Efficiency
++0.20%
+Monthly Prosperity
+Reform is unlocked as long as:
+Overlord:
+Timurid Dīwān
+reform is enacted
+Reform is locked as long as:
+Soyurghal Governor
+reform is enacted
+Uç Bey Government
+A militaristic government responsible for maintaining an army with which to secure the domain and borders of its overlord.
+−33.00%
+Army Maintenance
++0.10
+Monthly Progress to Mysticism
++0.20
+Monthly Progress to Defensive
+Blocked from Conversion:
+Yes
++1
+Possible Government Reforms
++0.10
+Manpower Importance Modifier
+Reform is unlocked as long as:
+Uc Bey
+Reform is locked as long as:
+Subject
+Autocracy
+Autocratic monarchies concentrate power in the hands of the ruler. The state is often seen as their personal property. It is not uncommon for rulers to have ministers and supporters, but these are then referred to as members of the royal household.
+Monarchy
++10.00%
+Crown Power
++0.10
+Monthly Progress to Aristocracy
++0.10
+Monthly Progress to Absolutism
+None
+2 years
+Feudal Nobility
+In a feudal kingdom, the power of the monarch is enhanced by a land-owning aristocracy sworn to obey them. The aristocrats, or Nobility , are often landowners in their own right, with considerable influence and vassals of their own.
+Monarchy
++5.00
+Loyalty of Subjects
++5.00%
+Noble Estate Satisfaction Equilibrium
++0.10
+Monthly Progress to Traditional Economy
+Traditions
+Not:
+French Feudal Nobility
+reform is enacted
+French Appanage
+reform is enacted
+French Ducal
+reform is enacted
+French Monarchy
+reform is enacted
+2 years
+Margraviate
+A Margraviate is a historical territorial jurisdiction, named after a
+Markgraf
+, or 'count on the frontier', who serves to defend and administer the border regions of a realm, mostly focused on repelling external threats. Margraviates blend military defense with governance; the Margrave's responsibilities include safeguarding the frontier and managing local affairs, bridging the gap between the central authority and these border territories.
+Monarchy
+−5.00%
+Army Maintenance
++5.00%
+Noble Estate Satisfaction Equilibrium
++0.10
+Monthly Progress to Defensive
+Traditions
+Margraviate
+reform is enacted
+Not:
+Landgraviate
+reform is enacted
+Member of
+Holy Roman Empire
+2 years
+Landgraviate
+A Landgraviate, named after a
+Landgraf
+, acts as an immediate jurisdiction of the Holy Roman Empire in otherwise fractured counties. The Landgrave is a direct representative of the law of the [GetInternationalOrganization('hre').GetLeaderTitle] in the lands of the Landgraviate, and the title is comparable to a Duke in power and responsibilities.
+Monarchy
++1.00
+Diplomatic Capacity
++5.00%
+Noble Estate Satisfaction Equilibrium
++0.10
+Monthly Progress to Conciliatory
+Traditions
+Landgraviate
+reform is enacted
+Not:
+Margraviate
+reform is enacted
+Member of
+Holy Roman Empire
+County rank no higher then:
+Duchy
+2 years
+Of Noble Bearing
+The proud lineage of our nobles, standing far taller on two legs than the rulers of any other nation on Earth, should be evident to all!
+Monarchy
++10.00
+Max Literacy Nobles
++0.10
+Monthly Progress to Aristocracy
++0.10
+Monthly Progress to Individualism
+Renaissance
+None
+2 years
+The Court of Wards and Liveries
+With a court of wards and liveries, the administration of tax collection and feudal dues is much more effective, due to increased expertise among collectors and a systemized revenue system. However, the nobility tend to consider such courts deeply exploitative of their own fortunes.
+Monarchy
++5.00%
+Tax Efficiency
++5.00%
+Nobles Power
++0.10
+Monthly Progress to Aristocracy
+Discovery
+None
+2 years
+Royal Decree
+The monarch rules supreme in this country, and loyalty is valued above all else. We must ensure that decrees from the royal court are followed to the letter, and in all parts of our country.
+Monarchy
++2.50%
+Estates Satisfaction Decay
++10.00%
+Crown Power
++0.10
+Monthly Progress to Centralization
++0.05
+Monthly Progress to Absolutism
+Renaissance
+None
+2 years
+Privy Council
+Staying informed about events within one's domain is vital for any ruler. By establishing a privy council, we will be able to keep a much closer eye on our people.
+Monarchy
++5.00%
+Tax Efficiency
++0.10
+Monthly Progress to Decentralization
+Renaissance
+None
+2 years
+Royal Commissions
+Investigating suspicious behavior within the administration might be a good idea from time to time. Creating more royal commissions will certainly help to reduce corruption.
+Monarchy
++10.00%
+Efficiency of Our Cabinet
++0.10
+Monthly Progress to Centralization
+Discovery
+None
+2 years
+Sortition
+Unfortunately, votes can be bought, and old loyalties may cloud the judgment of some electors. Let us implement a semi-randomized system where names can be chosen from a pool of good candidates for important offices.
+Republic
++10.00%
+Burghers Power
++5.00%
+Tax Efficiency
++0.10
+Monthly Progress to Plutocracy
+None
+2 years
+Formalized Scales, Weights, and Measures
+Our nation has formalized its system of scales, weights, and measures. While it is not universal, the new system does ensure our people use the same basic units of measurement everywhere in the country. Now, there are four bovates to a hide. Or possibly eight. And then five hides equal a fee... er, or do they?
+Republic
+−10.00%
+Estate Enrichment
++10.00%
+Tax Efficiency
++0.10
+Monthly Progress to Individualism
+Discovery
+None
+2 years
+Legatus Natus
+We are the Pope's representative north of the Alps!
+Theocracy
++0.10
+Monthly Religious Influence
++2.50%
+Clergy Estate Satisfaction Equilibrium
++1
+Possible Government Reforms
+Traditions
+Reform is unlocked as long as:
+Legatus Natus
+reform is enacted
+Reform is locked as long as:
+Legatus Natus
+reform is enacted
+2 years
+Country reforms
+[
+edit
+|
+edit source
+]
+This table is planned to be
+automatically generated
+and should not be edited directly.
+Instead, suggest changes on the
+talk page
+.
+The following reforms can be enacted by those meeting the requirements and holding the specified country.
+Reform
+Effects
+Age
+Requirements
+Time to implement
+Country
+Restorer of the Disinherited
+The lords disinherited by the treasonous sco_robert_de_brus_1st_lord_of_annandale now flock to our banner on our promise of restoring their rightful holdings!
+Monarchy
++10.00%
+Noble Estate Satisfaction Equilibrium
++100.00%
+Nobles Levy Size
++0.10
+Monthly Progress to Aristocracy
+Traditions
+None
+2 years
+Balliol
+The Iron Ring
+Our entire administration is organized around maintaining the sheer number of castles that control our hills and valleys, making us one of the most fortified countries in the world.
+Monarchy
+−25.00%
+Fortification Maintenance
++2.00
+Fort Limit
++0.10
+Monthly Progress to Defensive
++25.00%
+Buildings Cost
+Traditions
+Any core
+location:
+Has a
+2 years
+Wales
+Sovet Gospod
+The Sovet Gospod — or the Council of Lords — is the decision-making institution of the Republic. Unlike the Veche system, the Sovet Gospod gives more power to Posadniks, Tysyatskys, and other members of the Nobility. Under this system, the influence of the Burghers and the Commoners is negligible.
+Republic
++10.00%
+Noble Estate Satisfaction Equilibrium
++20.00%
+Nobles Power
++15.00%
+Efficiency of Our Cabinet
+−0.025%
+Stability Decay
+Chose the Council of Lords during
+"The Sovet Gospod"
+event
+2 years
+Velikiy Novgorod
+Compagna Communis
+This is the meeting of all the trade associations of Genoa, and the noble lords of the surrounding valleys and coast, joining together to form the city's government.
+Republic
++2.50%
+Noble Estate Satisfaction Equilibrium
++2.50%
+Burgher Estate Satisfaction Equilibrium
++10.00%
+Trade Maritime Advantage
+None
+2 years
+Genoa
+Great and Minor Councils of Genoa
+Created by Admiral Andrea Doria after reforming the Genoese government, the Great and Minor Councils of Genoa are the two legislative bodies of the state. The Great Council represents the members of the Burghers while the Minor Council is made up of the Nobility.
+Republic
++10.00%
+Noble Estate Satisfaction Equilibrium
++10.00%
+Burgher Estate Satisfaction Equilibrium
++2.50%
+Estates Satisfaction Equilibrium
+−10.00%
+Crown Power
+None
+2 years
+Genoa
+The Twenty-Eight Alberghi
+After the political changes of the last century, the influential House of Doria is promoting a reform of the constitution, eliminating the factions that plagued our republic in the past. These factions are replaced by a new oligarchic government, which includes the twenty-eight most important families, referred to as the Alberghi.
+Republic
++2.50%
+Noble Estate Satisfaction Equilibrium
++2.50%
+Burgher Estate Satisfaction Equilibrium
++0.05
+Monthly Republican Tradition
+Discovery
+Alberghi 28
+advance
+has been researched
+2 years
+Genoa
+Casa da Índia
+The Casa da Índia oversees all Portuguese possessions in Africa and India, and controls all the rights to trade there.
++10.00%
+Trade Advantage
++2.50%
+Subject Income
++5.00
+Loyalty of Subjects
++0.10
+Monthly Progress to Mercantilism
+Unlocked by the
+"Casa da Índia"
+event
+2 years
+Portugal
+Monte Nuovo
+The original lending system in Italy was a joint stock fund called
+Monte Vecchio
+, in which each citizen was required to lend a certain amount of money in exchange for interest. But with this updated iteration, our bankers have introduced a guaranteed minimum interest payment to lenders, which has increased the amount of money people are willing to invest. This 'Monte Nuovo' has been extremely successful, and should prove extremely lucrative over time.
+−1.00%
+Bank Interest
+Discovery
+None
+2 years
+Venice
+Powerful Magnates
+The powerful magnates of Hungary reduced the power of the Crown at every opportunity.
++200.00%
+Nobles Power
++5.00%
+Estates Satisfaction Equilibrium
++10.00%
+Food Production %
+Renaissance
+None
+2 years
+Hungary
+Casa de Contratación
+The Casa de Contratación is an agency that administers Spanish colonial operations. All voyages of exploration and trade must receive its approval, and it collects all colonial taxes. The Casa is also charged with safeguarding classified information about new trade routes and valuable discoveries.
+Monarchy
+−20.00%
+Trade Maintenance
++2.50%
+Subject Income
++10.00%
+Trade Maritime Advantage
++1
+Possible Government Reforms
+Culture group is
+Iberian
+Unlocked by the
+"Casa de Contratación"
+event
+2 years
+Castile
+Spain
+Iberian Tolerance
+Iberia is inhabited by a multitude of people with different faiths and beliefs. To force them to follow one or to expel those with different beliefs than the ruling class would be a grave mistake, and hurt our country more than it would do good. For us to achieve greatness, we must embrace this diversity.
+Monarchy
+−50.00%
+Pop Conversion Speed %
++1.00
+Tolerance of Heathen Beliefs
++1.00
+Tolerance of Heretical Beliefs
++0.20
+Monthly Progress to Humanist
+Culture group is
+Iberian
+Unlocked by the
+"Spanish Tolerance"
+event
+2 years
+Castile
+Spain
+Primas Germaniae
+We hold the prestigious title of Primas Germaniae, distinguishing us as the most important archbishop in the Holy Roman Empire.
++0.05
+Monthly Prestige
++1.00
+Diplomatic Reputation
++5.00%
+Clergy Estate Satisfaction Equilibrium
++0.10
+Monthly Progress to Spiritualist
++1
+Possible Government Reforms
+Unlocked by the
+"Primas Germaniae"
+event
+Religion
+is:
+Catholicism
+Elector in the
+HRE
+Theocracy
+2 years
+Mainz
+Warsaw Confederation
+Every noble, regardless of their religious affiliation, shall be permitted to vote and to live their lives as they wish. Moreover, they shall have the right to convert their subjects to their faith as they see fit. This resolution shall turn us into a safe haven and will promote religious tolerance.
++1.50
+Tolerance of Heretical Beliefs
++1.50
+Tolerance of Heathen Beliefs
++0.10
+Monthly Progress to Humanist
++1
+Possible Government Reforms
+Reformation
+Gave your approval during the
+"Warsaw Pact"
+event
+3 years
+Poland
+Poland-Lithuania
+Petition of Rights
+The citizens within our borders, particularly those with noble connections, have long demanded the adoption of certain inalienable rights. These would impact the cooperation of our estates and our capacity for governmental reforms at the cost of a weaker central authority.
+−25.00%
+Crown Power
++2.50%
+Estates Satisfaction Equilibrium
++0.10
+Monthly Progress to Free Subjects
++1
+Possible Government Reforms
++0.10
+Monthly Progress to Liberalism
+Reform is available as long as:
+Chose to sign it during the
+"The Petition of Rights"
+event
+Reform is locked as long as:
+Country has a parliament
+2 years
+England
+Great Britain
+Shires of Scotland
+Introduced by sco_malcolm_iii, the shire system divides Scotland into administrative counties, with each shire having its own structure.
++10.00%
+Tax Efficiency
++5.00%
+Max Rural Control
++5.00%
+Maximum Tax
++0.025
+Monthly Progress to Aristocracy
++0.025
+Monthly Progress to Individualism
++15.00%
+Levy Size
+If
+Great Britain
+, all of:
+Primary culture is
+Scots
+Monarchy
+Number of
+locations is less than 125
+2 years
+Scotland
+Balliol
+Great Britain
+Ancient French Taxation
+Historically, taxes have been imposed and collected only in times of need, not by a recurrent system.
+−10.00%
+Tax Efficiency
+−5.00%
+Maximum Tax
++1
+Possible Government Reforms
+Reform is available as long as:
+Taille
+has not been enacted
+Reform is locked as long as:
+Centralization is equal to or less than 50
+2 years
+France
+French Feudal Nobility
+Feudalism has a tight grip on French court affairs. Powerful nobles and autonomous, decentralized subjects have unprecedented amounts of freedom and say in our internal administration.
+Has Appanages:
+Yes
++1.00
+Diplomatic Capacity
++2.00
+Cultures Capacity
++0.20
+Monthly Progress to Serfdom
++0.10
+Monthly Progress to Aristocracy
+Reform is available as long as:
+Monarchy
+Does not have:
+Feudal Nobility
+reform enacted
+French Monarchy
+reform enacted
+Has not had the
+"Consolidation of Appanage Lands"
+event
+Reform is locked as long as:
+Has not had the
+"Consolidation of Appanage Lands"
+event
+2 years
+France
+French Monarchy
+Following centuries of heavy decentralization, France has consolidated many of its fragmented appanage and ducal lands, paving the way for a more modern state.
++2.50%
+Noble Estate Satisfaction Equilibrium
++10.00%
+Legislative Efficiency
++5.00
+Power Projection
+−10.00%
+Revoke Privilege Cost
+Monarchy
+French Feudal Nobility
+reform not enacted
+Has had the
+"Consolidation of Appanage Lands"
+event
+2 years
+France
+Timar System
+A system of feudal land holdings focused on building a formidable cavalry force. Our Sipâhi cavalrymen will be assigned land grants and obligated to provide cavalry forces proportional to the size of their holdings.
++10.00%
+Cavalry Power
+−10.00%
+Cavalry Maintenance Cost
+Timariots
+advance
+has been researched
+Neither of:
+Abolished the Timar system during
+"The End of the Timars"
+event
+Expanded Timar System
+reform enacted
+2 years
+Ottomans
+Expanded Timar System
+The system with landed Sipâhi supplying the bulk of our cavalry has been expanded, assigning them vast tracts of conquered land on which to continue amassing cavalry.
++20.00%
+Cavalry Power
+−20.00%
+Cavalry Maintenance Cost
++0.10
+Monthly Progress to Aristocracy
+At least one of:
+Chose to expand the Timar system during
+"The Enderûn Academy"
+event
+Chose the money during the
+"Rerouting Revenue"
+event
+Has not chosen to change during
+"The End of the Timariots"
+event
+2 years
+Ottomans
+Enderûn
+The Interior Service is a complex branch of the Ottoman household. Divided into the Privy Chamber, the Treasury, the Privy Larder, and the Great and Little Chambers, its ranks consist of a motley crew of eunuchs, slaves, and other little-noticed members of the royal household, who can sometimes wield remarkable influence over the inner workings of the state.
++20.00%
+Counterespionage
+−10.00%
+Nobles Power
++10.00%
+Education of Heirs
++1
+Possible Government Reforms
+Chose a court reform during
+"The Interior Service"
+event
+2 years
+Ottomans
+Sekban System
+Sekban soldiers are recruited in large numbers from the Burghers, and financed by a special tax called the
+Sekban Aqçesi
+. Typically fighting as infantry armed with muskets, they form the new core of the army, but are perpetually at odds with the Janissaries.
++10.00%
+Infantry Power
+−10.00%
+Infantry Maintenance Cost
++1
+Possible Government Reforms
++20.00%
+Peasants Power
+At least one of:
+Chose to change with the times during
+"The End of the Timariots"
+event
+Chose to create it during the
+"Brigands in Anatolia"
+event
+2 years
+Ottomans
+Legacy of Osman
+The Legacy of Osman is a tradition of divine right to expand under the central religious and political authority of our supreme leader. We invoke the Legacy to justify our continued conquests, maintain dynastic legitimacy across diverse holdings, and create an empire where our conquered peoples are not merely subjugated, but fully absorbed. Failure to uphold the Legacy can be seen as a betrayal to our people's traditions.
++25.00%
+Speed of Integration
++1
+Cabinet Seats
+−33.00%
+Antagonism Received
+Raid Religious Enemies for Slaves:
+Yes
++1
+Possible Government Reforms
++5.00%
+Monthly Control
+Reform is available as long as:
+Have had
+"The Rise of [Country Name]"
+event during
+Rise of the Turks
+)
+Reform is locked as long as:
+Have not had
+"The End of the Turks"
+event during
+Rise of the Turks
+)
+Have not had
+"The Rise of the Turks"
+event during
+Rise of the Turks
+)
+2 years
+Ottomans
+Expanded Posadnichestvo
+The office of the Posadnik is a highly influential position. In order to avoid a one-person power monopoly, the office must be expanded, so that multiple members of the Nobility can assume this position at the same time and keep each other in check.
++0.10
+Monthly Progress to Decentralization
+−25.00%
+Set Cabinet Member Cost
+−25.00%
+Replace Cabinet Member Cost
++20.00%
+Estate Power from Cabinet Position
+Agreed to it during
+"The Posadnichestvo Reform"
+event
+2 years
+Velikiy Novgorod
+Ruling Commission
+A commission of Nobility has effectively taken over the management of the kingdom, acting as regents. The monarch's ability to exercise power is limited, and their right to rule diminishes over time. The commission can only rule for as long as it retains the support of the parliament, or until such a time that the ruler amasses enough support to overthrow it.
+Monarchy
++25.00%
+Nobles Power
+−25.00%
+Crown Power
++0.10
+Monthly Progress to Aristocracy
+−0.10
+Monthly Legitimacy
+Reform is available as long as:
+Agreed to their demands during the
+"Lords Appellant"
+event
+Reform is locked as long as:
+At least one of:
+All of:
+Has a Parliamentary System
+Legitimacy is 75 or less
+Has not reached a compromise during the
+"Merciless Parliament"
+event
+2 years
+England
+Banu Hummay Amendments
+This complex system of succession laws and administrative procedures establishes religious obligations and requires demonstrations of piety from the ruling dynasty.
+−0.05
+Monthly Legitimacy
+−10.00%
+Crown Power
++5.00%
+Clergy Estate Satisfaction Equilibrium
++0.10
+Monthly Progress to Traditionalist
+Traditions
+Reform is available as long as:
+Have not chosen to fight in the
+"Crisis of the Sayfawa Dynasty"
+event during the
+Crisis of the Sayfawa Dynasty
+Religion group is
+Muslim
+Reform is locked as long as:
+Government power
+is less than 85
+2 years
+Kanem
+Council of Clan Heads
+By seeking advice from the leaders of our most important clans, we can achieve a more stable government, and hopefully bring more prosperity to our society.
+Monarchy
+−5.00%
+Crown Power
+−10.00%
+Stability Investment Cost
++10.00%
+Efficiency of Our Cabinet
+None
+2 years
+Kanem
+Absolutism
+The obligation to heed the advice of any council has been abolished.
++33.00%
+Crown Power
++0.10
+Monthly Progress to Serfdom
+Chose a fresh start during
+"The Absolute Overhaul of Governance"
+event
+2 years
+Russia
+State-Controlled Church
+The Church has been fully subjugated to the state.
++1
+Possible Government Reforms
++10.00%
+Crown Power
+−10.00%
+Clergy Power
++0.10
+Monthly Progress to Humanist
+Chose to abolish the patriarchate during
+"The Governmental Guardianship"
+event
+2 years
+Russia
+Benevolence Tax
+The Benevolence Tax is a special tax that targets Nobility with ample savings or those living extravagantly, since they can more easily afford larger contributions. It correspondingly reduces the tax burden on the poorest members of society.
++25.00%
+Maximum Tax for Noble Estate
+−25.00%
+Maximum Tax for Peasants Estate
+−5.00%
+Noble Estate Satisfaction Equilibrium
++5.00%
+Peasant Estate Satisfaction Equilibrium
+Chose not to bask in stability during
+"The Challenges of Tomorrow"
+event
+2 years
+England
+Great Britain
+Navy Board
+The Navy Board is an administrative body responsible for overseeing naval affairs. This centralized institution streamlines fleet management, resulting in more efficient operations and resource allocation.
++0.10
+Monthly Progress to Naval
++0.05
+Monthly Navy Tradition
+−10.00%
+Navy Maintenance
++15.00%
+Ship-building Speed
+Chose to make the necessary changes during
+"The Navy Board"
+event
+Has at least 10 port
+locations
+2 years
+England
+Great Britain
+Council of Justice
+Originally an instrument for resolving local disputes between peasants, the Council of Justice has developed into the land's most prominent court, handling cases and operating as a shield for our people.
+Monarchy
++0.02
+Stability Investment
++1.00%
+Estates Satisfaction Equilibrium
+Renaissance
+Secret Council
+reform not enacted
+2 years
+Milan
+Secret Council
+The Secret Council is a body of nobly-born individuals. Its jurisdiction encompasses our entire domain, and often clashes against the ruler's agenda. The majority of critical decisions made by or on behalf of the ruler frequently fall under the Secret Council's review.
+Monarchy
++5.00%
+Nobles Power
++10.00%
+Efficiency of Our Cabinet
+Renaissance
+Council of Justice
+reform not enacted
+2 years
+Milan
+Dynastic Signoria
+Individual city-states ruled by powerful families, the Dynastic Signoria involves a concentration of power in a small group of influential individuals known as the
+signori
+. These individuals, some who were of merchant or banking origins rather than traditional nobility, hold both executive and legislative authority, effectively monopolizing control over their respective cities. They aim to maintain their power at all costs, often resulting in bloody feuds and conflicts between and within houses as they struggle for supremacy.
+Republic
++1
+Possible Government Reforms
++10.00%
+Nobles Levy Size
+−10.00%
+Replace Cabinet Member Cost
++0.10
+Monthly Prestige
+−10.00%
+Estate Enrichment
+Signoria Selection success law:
+Yes
+Reform is unlocked as long as:
+At least one of:
+Court language is North Italian
+Court language is South Italian
+At least one of:
+Crown estate power greater than 30%
+One of the following nations:
+Milan
+Ferrara
+Padua
+Ravenna
+Verona
+Rimini
+Reform is locked as long as:
+At least one of:
+Visconti City States
+estate privilege is active
+Crown estate power is 50% or less
+Nobles estate power is 50% or higher
+2 years
+Four Articles
+A series of demands set forth by our heads of state and faith against the aggressors of the Papal crusades propped up in a weak attempt to suppress our faith.
++1.00
+Tolerance of Heretical Beliefs
++5.00%
+Monthly Research Progress %
+−10.00%
+Clergy Power
++10.00%
+Crown Power
+Chose peace in our time during
+"The Four Articles"
+event
+1 year
+Bohemia
+Dutch Shipbuilding Industry
+With the invention of the
+fluyte
+, the Dutch shipbuilding industry has exploded. Domestic and foreign orders are streaming in, and business is booming! Never before have so many Dutch ships sailed the seas, and never before have so many of our people been employed in building them.
+−10.00%
+Navy Maintenance
++10.00%
+Sailors
++33.00%
+Ship-building Speed
++0.10
+Monthly Progress to Naval
+Unlocked by the event
+"The Fluitschip"
+1 year
+Holland
+Netherlands
+Geheime Kabinettskanzlei
+Established by the state to clandestinely intercept and examine all correspondence, this Black Chamber will provide us with intelligence about the postal activity within our country. Our agents' expertise in stealthily opening, copying, and resealing official documents will become renowned throughout the world.
++30.00%
+Counterespionage
++20.00%
+Spy Network Construction
++10.00%
+Legislative Efficiency
+Did not choose intelligence being useless during the
+"Geheime Kabinettskanzlei"
+event
+2 years
+Austria
+Libertas Affectandi
+Originally granted to the von Babenberg dynasty, which ruled before us, this privilege allows us to select our preferred heir in the case there are none in the direct male line. This will ensure our dynasty retains their possessions even during dire times.
++1
+Possible Government Reforms
++0.10
+Monthly Progress to Aristocracy
++0.10
+Monthly Legitimacy
++10.00%
+Crown Power
+Either:
+Had the
+"Grants us the Privileges"
+or
+"The Privilegium Maius in Our Hands"
+events
+Had the
+"The Verdict of the Privilegium Maius"
+event
+Austria
+Grand Remonstrance
+The Grand Remonstrance is a series of revisions to the separation of powers. It further restricts the power of the monarchy and prohibits clerical cabinet appointments in exchange for increased parliamentary support and a streamlined bureaucracy.
++1
+Possible Government Reforms
+Clergy Blocked from Cabinet:
+Yes
++25.00%
+Parliament Base Support
+−10.00%
+Crown Power
++10.00%
+Efficiency of Our Cabinet
+Agreed to the terms in
+"The Grand Remonstrance"
+event
+Has a Parliamentary System
+1 year
+England
+Great Britain
+Overhauled Admiralty
+The Overhauled Admiralty is an attempt to modernize the governing body of the Royal Navy. The reform helps strengthen our naval power while also laying the foundation for the navy's future successes as a formidable maritime entity.
+−25.00%
+Navy Attrition
++15.00%
+Sailors
++5.00%
+Heavy Ship Power
++10.00%
+Naval Supplies Output
+Appointed him to the board in the
+"The Diligence of Samuel Pepys"
+event
+At least one of:
+Navy Board
+reform active
+Capital has:
+Admiralty building
+1 year
+England
+Great Britain
+Livonian Confederation
+The lands of Baltic have long been disunited, splintered into many different subservient bishoprics and vassals. Instead of trying to unite Terra Mariana into a centralized state, we shall embrace this decentralization.
++0.20
+Monthly Progress to Decentralization
++25
+Subject Opinions
++25.00%
+Diplomatic Capacity
++10.00%
+Efficiency of Our Cabinet
+Had the
+"Livonian Confederation"
+event
+Has at least one
+subject
+1 year
+Livonia
+Shirley's Militia
+The Shirley's Militia is an overhaul and retraining of our armed forces, with a focus on modernization and aligning the use of artillery and cavalry in accordance with European practices. This reform strengthens Persia's military power, rivalling that of our enemies.
++0.10
+Military Tactics
++15.00%
+Artillery Power
++15.00%
+Cavalry Power
+A necessary evil was chosen by
+England
+during
+"The Reforms of Rouzbeh-e Shirazi"
+event
+1 year
+Persia
+Gabelle
+A government reform permitting a Salt tax, which places great strain on the populace — and plentiful gold in the state coffers.
++20.00%
+Maximum Tax for Peasants Estate
++0.10
+Monthly Progress to Serfdom
++1
+Possible Government Reforms
+Had the
+"Gabelle"
+event
+2 years
+France
+Louis Legal Code
+Following centuries of disparate legal codes across Northern and Southern France, the
+Code Louis
+has been established, unifying France under one universal legislative system.
++0.08%
+Monthly Control
+−5.00%
+Proximity Cost
++10.00%
+Legislative Efficiency
++1
+Possible Government Reforms
+Chose uniform law or northern provinces during
+"The Code Louis"
+event
+1 year
+France
+Frihetstiden
+We have entered an Age of Liberty, in which the Crown shall no longer hold absolute sway! The government of Sweden is now in the hands of the estates, and the monarch may do nothing without first gaining our approval.
++1
+Possible Government Reforms
++2.50%
+Estates Satisfaction Equilibrium
+−100.00%
+Crown Power
++25.00%
+Parliament Base Support
+Reform is available as long as:
+Abandoned absolutism in the
+"Re-Evaluating Absolutism"
+event
+Reform is locked as long as:
+Has not chosen to allow them to rule during the
+"The Coup d'État and the Enlightened Despot"
+event
+Sweden
+Representative Parliament
+The introduction of the Representative Parliament marks a significant shift in political dynamics, granting the opportunity for individuals from humble backgrounds, such as Peasants, to secure a seat in Parliament. This privilege has traditionally been the exclusive domain of the elite and privileged classes.
++20.00%
+Peasants Power
++0.10
+Monthly Legitimacy
+−10.00%
+Nobles Power
+−10.00%
+Burghers Power
++33.00%
+Parliament Base Support
+Instituted parliamentary reform during
+"The Rights of Man"
+event
+Has a Parliamentary System
+Plutocracy
+less than 40
+Aristocracy
+less than 40
+1 year
+England
+Great Britain
+Rangaku
+We have encouraged the study of Western matters. While some fear it is detrimental to our societal cohesion, others argue that lessons to be learned from the West are so valuable that we could not afford to do otherwise.
++10.00%
+Monthly Research Progress %
++0.10
+Monthly Progress to Outward
+Chose to open provinces during the
+"Rangaku"
+event
+2 years
+Japan
+Samsa System
+Also known as the
+Three Offices
+, the Samsa is a collective term for the three major government offices of our state. Composed of members chosen for meritocratic and academic accomplishments, Samsa System ensures checks and balances on the ruler and officials alike.
+Can Send Secret Royal Inspectors:
+Yes
++10.00%
+Efficiency of Our Cabinet
++1
+Cabinet Seats
+Discovery
+Provided the bureaucrats during
+"The Samsa System"
+event
+At least one of:
+Common language is Korean
+Court language is Korean
+Goryeo
+Daedongbeob
+Also known as
+Uniform Land Tax Law
+, Daedongbeob changes the tax regime to be based on uniform Wheat contributions. This set of reforms should improve the lives of the Commoners and increase the commercial potential of our Burghers.
++5.00%
+Peasant Estate Satisfaction Equilibrium
++5.00%
+Maximum Tax
++1
+Possible Government Reforms
++10.00%
+Trade Efficiency
+Locations producing
+wheat,
+rice,
+cotton:
++10.00%
+Local Crown Power
++10.00%
+Maximum RGO Size
++10.00%
+Raw Materials Output
+Unlocked by the
+"Uniform Land Tax"
+event
+Goryeo
+Prikazi
+The Prikazi is an overhaul of the administrative structure used for government bureaucracy. It establishes several bureaus that are responsible for various aspects of governance, such as taxation, justice, military affairs, and trade, which facilitates more rapid implementation of the policies and decisions made by the Tsar.
++10.00%
+Legislative Efficiency
++15.00%
+Efficiency of Our Cabinet
++0.05
+Monthly Progress to Centralization
+Unlock Prikazi Cabinet Actions:
+Yes
+Questioned how we function otherwise during the
+"Prikazi"
+event
+1 year
+Muscovy
+Russia
+Razriadnyi Prikaz
+The Razriadnyi Prikaz introduces a census, which is used to maintain records of the country's population, property, and taxation. It is updated at regular intervals, assesses the military obligations of the estates, and maintains a record of land and property ownership, ensuring that what is due is paid.
+−10.00%
+Maximum Tax for Noble Estate
++5.00%
+Noble Estate Satisfaction Equilibrium
++10.00%
+Maximum Tax for Burgher Estate
++0.10
+Monthly Progress to Free Subjects
++10.00%
+Levy Size
+Examine every nook and cranny during the
+"Razriadnyi"
+event
+2 years
+Muscovy
+Russia
+Byzantine Court Ceremonies
+The introduction of the Byzantine Court Ceremonies ensures grand ceremonies are carried out in accordance with Byzantine traditions. Meticulous court etiquette is upheld, thereby elevating the prestige and splendor of the ruling elite.
++0.20
+Cultural Tradition
++2.00%
+Expected Cost of Court
++0.10
+Monthly Legitimacy
++0.10
+Monthly Prestige
+Chose a prophesized match during the
+"Sophia Palaiologina"
+event
+1 year
+Muscovy
+Russia
+Byzantium
+Chosen Rada
+The Chosen Rada creates a powerful council loyal to the ruler, with sweeping authority to suppress the power of the elites. The council's influence extends to matters of governance, policy, and decision-making.
++0.10
+Monthly Progress to Centralization
++25.00%
+Legislative Efficiency
+−10.00%
+Nobles Power
+Reformation
+Chose a formidable force during
+"The Chosen Council"
+event
+1 year
+Muscovy
+Russia
+Council of Forty
+Also known as the
+Quarantia
+, the Council of Forty is the highest constitutional body of the Venetian republic. Although the state is represented by a doge, the real power lies in the hands of the council.
+Republic
++25.00%
+Trade Capacity
+−33.00%
+Set Policy Cost
+−10.00%
+Change Policy Cost
+−15.00%
+Crown Power
++0.10
+Monthly Progress to Free Trade
+Council of Forty
+reform enacted
+2 years
+Venice
+Council of Ten
+The Council of Ten is the major governing body of the Venetian republic, focused on the election of the Doge as well as checking the power of the patricians. Its broad jurisdictional mandate covers many aspects of the security of Venetian state security, and makes it the
+de facto
+ruling institution of the nation.
+Republic
+−10.00%
+Nobles Power
++0.05
+Monthly Republican Tradition
++0.02
+Stability Investment
++1.00%
+Expected Cost of Court
++1
+Possible Government Reforms
+Council of Ten
+reform enacted
+2 years
+Venice
+Full College
+The executive institution which overlooks the daily governance and the duties of the Senate. All issues and agendas to be discussed are prepared in this executive body beforehand.
+Republic
++10.00%
+Parliament Base Support
+−10%
+Parliament Request Issue Support Needed
+Discovery
+Full College
+reform enacted
+Has a
+parliament
+2 years
+Venice
+Unified Legal System
+We have gone to great lengths to unify our internal legal systems, rooting out abuse and malpractice while creating a professional judiciary.
++10.00%
+Legislative Efficiency
++10.00%
+Efficiency of Our Cabinet
+−25.00%
+Change Policy Cost
++1
+Possible Government Reforms
+Unlocked by
+"The (country name) Legal System"
+event
+2 years
+Prussia
+Brandenburg
+Astadiggajas
+Astadiggajas -
+Elephants in Eight Directions
+- is the collective title granted to the Telugu scholars and poets of our court. Their innovations influence our culture's artistic direction, and will lead us into a new golden era of creative and intellectual achievement.
++2
+Possible Number of Artists
++5.00%
+Skill of New Artists
++0.02
+Monthly Literacy
+Let the age begin during the
+"Astadiggajas"
+event
+1 year
+Vijayanagar
+Theme System
+A system of provincial headquarters and armies, spearheaded by a strategos with dual responsibilities to protect the locals and establish authority at the behest of the [GetCountry('BYZ').GetFlavorRank]. This system replaced the provincial administration of Diocletian and has served our people ever since.
++0.05
+Monthly Progress to Decentralization
++25.00%
+Nobles Power
+Allows Théma Headquarters:
+Yes
+Traditions
+Has
+not
+reformed the army in the
+"Reforming the [Dynasty Name] Army"
+event
+2 years
+Byzantium
+Modern Imperial Army
+The old Theme System of Byzantium proved faulty, strengthening the authority of governors and generals rather than the ruler. As a result, a new Imperial Army has formed, one where being a soldier is a profession rather than a duty.
++1
+Possible Government Reforms
+−10.00%
+Army Maintenance
++0.10
+Monthly Army Tradition
+Traditions
+Has reformed the army in the
+"Reforming the [Dynasty Name] Army"
+event
+2 years
+Byzantium
+Kritai Katholikoi
+The Kritai Katholikoi, colloquially referred to as the
+Universal Justices of the Romans
+, have come to represent the pinnacle of Byzantine legal authority, born from the reforms of byz_andronikos_ii_palaiologos and initially comprising of twelve judges from both secular and ecclesiastical backgrounds. Later streamlined to a panel of four, this illustrious court holds unparalleled authority with no recourse for appeal.
++1
+Cabinet Seats
++30.00%
+Estate Power from Cabinet Position
+Traditions
+Has
+not
+purged the corruption in the
+"Reforming the Universal Judges of the Romans"
+event
+2 years
+Byzantium
+Reformed Kritai Katholikoi
+Although the judiciary system created by Andronikos II Palaiologos saw initial success, there were still internal issues, which the judges exploited to pursue their interests. With the reforms of this Supreme Court, existing legal processes have been streamlined while ensuring no corruption between the judges.
++1
+Cabinet Seats
++10.00%
+Estate Power from Cabinet Position
++10.00%
+Crown Power
+Traditions
+Purged the corruption in the
+"Reforming the Universal Judges of the Romans"
+event
+2 years
+Byzantium
+Speransky Liberalization Reform
+The Speransky Liberalization Reform creates new legislative and executive bodies by introducing a series of regional Dumas. To mediate power between the autocrat and the Dumas, the State Council is made possible with the added purpose of examining any proposed laws.
++0.10
+Monthly Progress to Plutocracy
++0.10
+Monthly Progress to Individualism
+Revolutions
+Culture group is East Slavic
+Chose
+"Winds Ahoy!"
+in the
+"The Sparks of Change"
+event
+2 years
+Russia
+Collegium
+The Collegium is an overhaul of the administrative structure used for government bureaucracy. It establishes several collegiums as government departments, with a systematic separation of responsibilities to avoid possible overlapping of duties. The collegiums are also tasked with case resolutions, with the help of advisory guidelines.
+−2.50%
+Proximity Cost
++20.00%
+Efficiency of Our Cabinet
++20.00%
+Legislative Efficiency
+Chose to remove the
+Prikazi
+system during
+"The Collegium"
+event
+2 years
+Muscovy
+Russia
+Joyous Entry
+The Joyous Entry grants liberties to our Burghers, akin to a
+Magna Carta
+for the Low Countries. This document upholds freedoms for the church, towns, and Nobility, emphasizing consent for taxes and commitments to our nation's indivisibility.
+Monarchy
++20.00%
+Nobles Power
++2.50%
+Estates Satisfaction Equilibrium
++0.10
+Monthly Progress to Free Subjects
+Renaissance
+Legalism is embraced
+Brabantine Rights
+advance
+has been researched
+2 years
+Brabant
+Nakaz
+The Nakaz is an overhaul of the legal code concerning equality, justice, and humanitarianism. Heavily influenced by the Enlightenment, it aims to emulate the progressive reforms that are taking place across Europe, whilst simultaneously simplifying the code of law.
++0.10
+Monthly Progress to Humanist
++0.05
+Monthly Progress to Free Subjects
+−10.00%
+Revoke Privilege Cost
+Revolutions
+Agrees that progress is painful during the
+"Nakaz"
+event
+1 year
+Muscovy
+Russia
+Court of the Star Chamber
+The Court of the Star Chamber handles cases considered too sensitive or complex for regular courts, ranging from perjury to conspiracy. While known for its efficiency, the court faces criticism for potential abuses of power, lack of due process, and being used as a political tool.
++0.10%
+Monthly Control
++0.05
+Monthly Progress to Communalism
+−0.25
+Monthly Legitimacy
++10.00%
+Crown Power
+Chose “An integral tool” in the
+"Court of the Star Chamber"
+event
+1 year
+England
+Great Britain
+Archduchy of Austria
+We have been granted the
+Privilegium Maius
+, which grants us an elevated position among the princes of the Holy Roman Empire. This shows our status and prestige even outside of Imperial lands, and elevates us to a higher position than that of a mere duke.
+Monarchy
++1
+Possible Government Reforms
++0.10
+Monthly Diplomats
++0.10
+Monthly Prestige
++0.10
+Monthly Legitimacy
+Reform is unlocked as long as:
+At least one of:
+Received the
+"Grants us Privileges"
+event
+Completed
+"The Privilegium Maius in Our Hands"
+event
+Member of the
+Holy Roman Empire
+Reform is locked as long as:
+Member of the
+Holy Roman Empire
+2 years
+Austria
+Styria
+Tyrol
+Empower the Eunuchs
+The usefulness of eunuchs cannot be underestimated. They are widely recognized as the most valuable servants, as they can be trusted not to participate in dynastic politics. We shall provide them with better education so that they can fill important government posts.
+Monarchy
++1
+Possible Government Reforms
+Scaled by
+Eunuch power:
++5%
+Efficiency of Our Cabinet
+Scaled by
+Eunuch power multiplied by Eunuch power:
++1%
+Expected Cost of Court
+Unlocked by the
+"The Eunuchs of..."
+event
+Middle Kingdom
+exists
+Leader of the
+Middle Kingdom
+2 years
+Tag = CHI
+Serene Republic of Naples
+A form of rule inspired by the Venetian government, which combines aspects of a monarchy and a republic.
+Republic
++1
+Possible Government Reforms
++10.00%
+Army Morale
+−0.025%
+Stability Decay
++2
+Cabinet Seats
+Commoners Allowed in Cabinet:
+Yes
+Burghers Allowed in Cabinet:
+Yes
+Unlocked by the
+"A New Republic"
+event
+1 year
+Naples
+Timurid Empire
+The great ambitions of our founder have carved an empire of unimaginable expanse into the very face of Central Asia. Our bureaucracy therefore focuses heavily on expanding our borders.
++1
+Cabinet Seats
+−20.00%
+Antagonism Received
++1
+Possible Government Reforms
++50.00%
+Amount Looted
+Reform is unlocked as long as:
+Taken the action to
+"Reform into a Monarchy"
+during the
+Rise of Temür
+situation
+Reform is locked as long as:
+Timurid Empire
+reform enacted
+Timurid
+Portuguese Ordinances
+This formalization of the canon, Roman, and country laws will resolve many judicial conflicts and increase the efficiency of the government.
++10.00%
+Legislative Efficiency
+−20.00%
+Change Policy Cost
++10.00%
+Tax Efficiency
++5.00%
+Minimum Tax
+If commission the new edition was chosen during
+"The Printing Press and the Portuguese Ordinances"
+event:
+Effects of the reform are scaled by 1.5
+Unlocked by
+"The Portuguese Ordinances"
+event
+10 years
+Portugal
+Reichshofrat
+The Reichshofrat serves as the highest legal institution for Austria and Holy Roman Empire both, giving us stronger control over the legal processes of both our direct and imperial subjects.
+Monarchy
++2.00
+Diplomatic Reputation
++0.10
+Monthly Progress to Conciliatory
++0.10
+Monthly Progress to Inward
+Emperor of the
+Holy Roman Empire
+Decided it will serve us during the
+"Reichshofrat"
+event
+2 years
+Austria
+Lǐfān Yuàn
+The Lǐfān Yuàn is a a department that administers the state's territories and policies in Inner Asia, such as the provinces in Mongolia, Tibet, and Xinjiang. Should the need ever arise, it will also oversee any holdings further inland.
+Monarchy
++10.00%
+Non-Culture Levy Size
+Provinces with Jurchen or Chinese
+culture group:
++5.00%
+Max Control
+−5.00%
+Unrest
+Unlocked by the
+"Lǐfān Yuàn"
+event
+2 years
+CHI Tag
+Manchu
+Bohemian Commonwealth
+The Commonwealth represents a reformed constitution of the [GetCountry('BOH').GetFlavorRank], giving more privileges and freedom to the various nations living within our borders.
+Monarchy
+−50.00%
+Add Accepted Culture Cost
++3.00
+Cultures Capacity
++1
+Cabinet Seats
++1
+Possible Government Reforms
+Adopted a new constitution during
+"The Bohemian Commonwealth"
+event
+2 years
+Bohemia
+Persian Feudal Theocracy
+The Šâh is the absolute ruler of Persia, and under the Šâh exists a complex bureaucratic system that keeps the nation structured and balanced. With positions in the government assigned by merit instead of heritage, the system is assured to function to the best benefit of the nation.
+Monarchy
++25.00%
+Pop Conversion Speed %
++1
+Cabinet Seats
++0.05
+Monthly Legitimacy
+Reform is unlocked as long as:
+Religious State
+advance
+has been researched
+2 years
+Persia
+Divided Persian Aristocracy
+The ruling military classes of our state are at odds with each other. Where they once challenged the Šâh directly, they now vie constantly for the ruler's favor instead.
+−33.00%
+Nobles Power
+−33.00%
+Tribes Power
++33.00%
+Crown Power
+Unlocked by
+"The Aristocratic Split"
+event
+2 years
+Persia
+Overseas Ambitions
+While the concepts of overseas expansion and colonialism have existed since antiquity, we have observed the modern ways of colonialism and have employed them ourselves. This will allow us to adopt their methods of overseas administration and create our own colonial empire.
+−20.00%
+Foreign Buildings Cost
++25.00%
+Naval Range
++25.00%
+Trade Range
+Unlocked by the
+"Overseas Ambitions"
+event
+2 years
+Oman
+Seven Provinces
+Instead of uniting all of our lands under our ruler, we have chosen to divide our nation into Seven Provinces, all with their own ambitions, but still serving us.
++0.10
+Monthly Progress to Decentralization
++1
+Cabinet Seats
++1
+Possible Government Reforms
++5.00%
+Estates Satisfaction Equilibrium
+Created the confederation during
+"The Seven Provinces"
+event
+2 years
+Netherlands
+Unified Admiralty
+The admiralty should never be divided. It should serve the country alone. For that reason, we have united the numerous smaller admiralties within our nation.
+−25.00%
+Navy Attrition
++0.10
+Monthly Navy Tradition
++0.10
+Monthly Progress to Naval
+Chose to unify them into one during the
+"Five Netherlands Admiralties"
+event
+has
+admiralty building
+1 year
+Netherlands
+Powerful Vizierships
+A set of ministers who supercede the authority of the ruler, these councilors hold a firm grip on power, while the Sultan is but a mere puppet.
++0.1
+Monthly Progress to Aristocracy
++100%
+Replace Cabinet Member Cost
+Clergy Blocked from Cabinet
++1
+Possible Government Reforms
+Burghers Blocked from Cabinet
+If no character is
+head of the cabinet
+:
+−0.5
+Monthly Legitimacy
+Reform is unlocked as long as:
+Has had the
+"Power in the Wrong Hands"
+event
+Reform is locked as long as:
+Crown estate power less than:
+((
++ 0.5) x (viziership_variable))
+2 years
+Morocco
+Songhai Militant Society
+Rather than treating every eligible person in the country as a soldier, it is better to formally establish the distinction between a peasant and a full-time warrior. By dividing our realm into military regions, we will permit the governors to raise their own professional armies and serve the ruler.
++10.00%
+Recruitment Speed
+Can Build Kurmina Headquarter:
+Yes
++0.05
+Monthly Progress to Quality
+Created the new army during the
+"Corp of Warriors"
+event
+2 years
+Songhai
+Promissione Ducale
+The Promissione Ducale serves as the formal oath of office and contractual agreement that each newly elected Doge of Venice must swear to uphold.
++10.00%
+Efficiency of Our Cabinet
++10.00%
+Legislative Efficiency
+Revised and intitutionalized it during the
+"Revising the Promissione Ducale"
+event
+2 years
+Venice
+Standardized Relazioni
+The 'Relazioni' are the reports our ambassadors send to the government, detailing the political, financial, and social state of the countries they serve in.
++25.00%
+Spy Network Construction
++1.00
+Maximum Diplomats
+Ended the practice during
+"The Question of Relazioni"
+event
+2 years
+Venice
+College of Missions
+The College of Missions is the Danish state-funded association established to help with missionary efforts and converting the population to the true faith.
++25.00%
+Pop Conversion Speed %
++0.10
+Monthly Progress to Spiritualist
+−1.00
+Tolerance of Heathen Beliefs
+−1.00
+Tolerance of Heretical Beliefs
+Chose to establish it during the
+"College of Missions"
+event
+2 years
+Denmark
+Royal Ownership of Cattle
+The ownership of Livestock gives us much power, and controlling our country's cattle will help entrench our rule.
++20.00%
+Livestock Output
++10.00%
+Crown Power
+Experienced Herders
+advance
+has been researched
+2 years
+Zimbabwe
+Council of Senior Wives
+This Council will offer us excellent advice, and involve the most skilled wives of our ruling class in the administration of our country.
+Allow Females in Cabinet:
+Yes
++10.00%
+Efficiency of Our Cabinet
+Unlocked by the
+"Council of Senior Wives"
+event
+2 years
+Zimbabwe
+Kilwan Trade Communities
+A series of loose confederations, often led by a governor that strengthens the power of local merchants, these communities push for local autonomy and urbanization. Their trading skills provide a steady stream of revenue for our treasuries.
++0.10
+Monthly Progress to Plutocracy
++50.00%
+Burghers Power
++20.00%
+Trade Capacity
++0.10
+Monthly Progress to Free Trade
+None
+2 years
+Kilwa
+Control of the Mahdali Coinage
+The might of our dynasty is imprinted upon the coins that circulate the markets from the Italy coast, to India, and beyond. This trimetallic coin is primarily made of Copper, Silver, and Gold, and is the first of its kind to exert such influence on a multiregional scale. Control of its circulation is synonymous with continued prosperity!
++10.00%
+Income from Minting
++10.00%
+Crown Power
+Control over the Coinage
+has not been granted to the
+burghers estate
+2 years
+Kilwa
+Chatusadom
+Meaning 'Four Pillars', the Chatusadom ministry organization divides the government into two branches: the military, and civil affairs, the latter of which is further divided into four ministries. The compartmentalization and clear assignment of tasks to each makes for a more effective administration and serves as an extension of the ruler's authority.
++10.00%
+Efficiency of Our Cabinet
++10.00%
+Crown Power
+Allowed for upgrades during the
+"[Ruler's Name]'s Reforms"
+event
+2 years
+Ayutthaya
+Malian Tribute System
+Our primary source of Gold, the Malian Tribute System is a system which demands that all Gold is taxed and ultimately controlled by the ruler.
+Allow Tributary Subjects:
+Yes
++30.00%
+Income from Vassal Subjects
++1
+Cabinet Seats
++0.05
+Monthly Progress to Decentralization
+Demanded tributes during the
+"Restoring the Tributes"
+event
+4 years
+Trans-Saharan Trade
+The trade routes of Trans-Saharan Africa have always brought wealth to West Africa and its empires. Instead of letting these routes decay, let us offer support to the caravans passing through our lands.
++10.00%
+Trade Range
++20.00%
+Trade Capacity
+Let the caravans flourish during the
+"Flourishment of the Trans-Saharan Trade"
+event
+2 years
+Songhai
+Local Audiences
+Rather than having a stationary court, we prefer the freedom to move at will to other parts of the nation. With our reliance on a Itinerant Court, we can more easily re-adjust where our rulers govern from, and better address the issues of local populations.
+−10.00%
+Proximity Cost
++0.10%
+Monthly Prosperity
+Reform is unlocked as long as:
+Allowed the change during the
+"A Wandering Court"
+event
+Reform is locked as long as:
+Has the
+Itinerant Court
+policy
+2 years
+Ethiopia
+Rapid Industralization
+Unlike other nations, we have doubled our efforts towards urbanization and a production-based economy. While this has had the desired beneficial effect on economic matters, much of the peasantry is left worried by such a massive cultural shift.
++0.10
+Monthly Progress to Capital Economy
+−5.00%
+Peasant Estate Satisfaction Equilibrium
++0.10
+Monthly Progress to Inward
+Chose inwards expansion during the
+"Prioritizing Bengal"
+event
+Bengal
+Geheimer Rat
+The Geheimer Rat serves as a central advisory body to the monarch. Comprised of high-ranking nobles, ministers, and confidants, the council played a crucial role in shaping Imperial policies.
++10.00%
+Efficiency of Our Cabinet
++10.00%
+Crown Power
+Chose to institutionalize it during the
+"Institutionalizing the Geheimer Rat"
+event
+Has not abolished it during the
+"Geheimer Rat Growing Inefficient"
+event
+2 years
+Austria
+Tughlaq Slave Army
+Due to a national surplus of slaves, we can use them to serve as an imperial guard. That way, we shall have a disciplined force on the battlefield while also ensuring the safety of the court.
++1
+Possible Government Reforms
++0.05
+Monthly Progress to Quality
++5.00
+Max Literacy for Slaves
+−5
+Character Life Expectancy
+Chose to create it during the
+"Establishment of the Ghulāmān-i-Fīrūz-Šāhī"
+event
+Delhi
+Diwan-i Bandagan
+The number of slaves procured by the state has grown so massive that a special department — Diwan-i Bandagan, the Department of Slaves — has been created to manage them and their operations.
+Can Build Mamlūk Barracks:
+Yes
++0.15
+Monthly Army Tradition
++2.50%
+Discipline
++5.00
+Max Literacy for Slaves
+Unlocked by the
+"Diwan-i Bandagan"
+event
+2 years
+Delhi
+Sahana-i-Mandi
+By placing market regulations on religious minorities, we can justify lower salaries for our armies, while also ensuring that any heretic or heathen remains in subjugation.
++1
+Possible Government Reforms
+−5.00%
+Estates Satisfaction Equilibrium
++10.00%
+Crown Power
++2.50%
+Trade Efficiency
+Chose to enact them during the
+"Restoring the Sahana-i-Mandi"
+event
+2 years
+Delhi
+Protectorate
+Emphasizing the values of military might and strong centralized power under the guidance of a Lord Protector, the Protectorate is a new style of government enforced after the victory of the Parliamentarians during the The English Civil War.
+Republic
++10.00%
+Parliament Base Support
++5.00%
+Estates Satisfaction Equilibrium
+Reform is unlocked as long as:
+The
+"Parliamentarians Triumphant in the English Civil War"
+event has occurred
+Reform is locked as long as:
+At least one of:
+Liberalism is greater than 0
+Parliamentarists Victorious modifier is active
+2 years
+England
+Great Britain
+Timurid Dīwān
+We should abandon other forms of rule and legalize the Sharī'ah as the official law. This Timurid Dīwān will allow us to establish proper Islamic rule over any non-believers, as well as making it easier to grant governorship to our relatives.
++0.025
+Monthly Progress to Decentralization
++20.00%
+Cultures Capacity
++10.00%
+Legislative Efficiency
+Can Assign Governorship:
+Yes
++1
+Possible Government Reforms
+Aimed to rule during the
+"Integration with the Iranian People"
+event
+2 years
+Timurid
+Sūbah Organization
+By strategically placing numerous governors within our realms, we can easily control every corner of our nation without having to worry about losing our grasp on them. It also allows us to urbanize areas more easily.
++15.00%
+Population Capacity %
+−15.00%
+City Rights Cost
+−15.00%
+Founding Town Cost
+Ensured it was all under control during the
+"Organizing the Sūbah"
+event
+2 years
+Mughal
+Valakų Reform
+With the Valakų Reform, our Nobility are more regulated in their behavior towards our subjects. This supports the Commoners within our realm, while also solidifying their status as an independent estate.
++0.10
+Monthly Progress to Serfdom
++10.00%
+Maximum Tax for Peasants Estate
++20.00%
+Peasants Levy Size
+−30.00%
+Pop Promotion Speed %
+Reformation
+Adopted it during the
+"Valakų Reform"
+event
+2 years
+Lithuania
+Bank of England
+A centralized and influential institution, this bank is made up of powerful financiers and greatly increases our credibility and capacity to handle our debts. Its purpose is to handle public finances, helping to stabilize government borrowing.
++1
+Possible Government Reforms
++10.00%
+Total Loan Capacity
++50.00%
+Burghers Power
+−1.00%
+Bank Interest
+Reform is unlocked as long as:
+Had
+"The Creation of a New Bank"
+event
+Capital Economy value of at least 50
+Reform is locked as long as:
+Number of loans is greater than 0
+England
+Great Britain
+Mandate of the Commons
+Many Chinese dynasties have been founded with the support of the Commoners. However, only ours has fully recognized the importance of the common people. No other era in the history of the Middle Kingdom has ever seen such popular support!
++1
+Possible Government Reforms
+−10.00%
+Amount Looted
++50.00%
+Peasants Levy Size
++5.00%
+Peasant Estate Satisfaction Equilibrium
+−25.00%
+Noble Estate Satisfaction Equilibrium
+Chose to remain close to the common folk during the
+"Peasant Legacy"
+event
+1 year
+Shùn
+Royal Council of Castile
+The Royal Council of Castile is a centralized royal council to streamline taxation, justice, and administration under the direct oversight of the Crown.
+Monarchy
++0.10
+Monthly Progress to Centralization
++10.00%
+Tax Efficiency
+−20.00%
+Nobles Power
+If Spain:
+Primary culture is
+Castilian
+Let the council oversee during
+"The Royal Council of Castile]"
+event
+2 years
+Castile
+Spain
+Nueva Planta
+The Nueva Planta is a series of decrees and reforms formalized in order to abolish regional legal privileges and forge a single, unitary state under central authority.
+Monarchy
++0.10
+Monthly Progress to Centralization
++0.10
+Monthly Progress to Absolutism
++25.00%
+Crown Power
++0.10
+Monthly Legitimacy
+Chose to centralized the nation during
+"The Nueva Planta Decrees"
+event
+2 years
+Castile
+Spain
+Royal Factories
+Royal Factories are state-funded manufactories directly overseen by the Crown to produce strategic and luxury goods in support of mercantilist and centralized economic policies.
+Monarchy
++1
+Possible Government Reforms
+−10.00%
+Burghers Power
++10.00%
+Crown Power
++0.10
+Monthly Progress to Capital Economy
++2.50%
+Production Efficiency
+Enacted the reform during the
+"Royal Factories"
+event
+2 years
+Castile
+Spain
+Intendancy System
+The Intendancy System is a new system of governance aimed at centralizing the authority of the Crown over that of the bureaucrats in order to oversee tax collection and implement anti-corruption measures.
+Monarchy
++10.00%
+Efficiency of Our Cabinet
++10.00%
+Legislative Efficiency
++10.00%
+Tax Efficiency
+−5.00%
+Noble Estate Satisfaction Equilibrium
+−5.00%
+Burgher Estate Satisfaction Equilibrium
+Established it during
+"The Intendancy System"
+event
+Castile
+Spain
+Great Law of Peace
+Enshrined through Wampum belts, the framework for the Great Law of Peace has governed our Confederacy since its inception. Emphasizing peace and justice, along with maintaining a steady mind, the principles of the Great Law of Peace have united all within the Haudenosaunee nation.
++1
+Possible Government Reforms
++0.10
+Monthly Tribal Cohesion
++1
+Cabinet Seats
++2.00
+Cultures Capacity
++0.10
+Stability Investment
+Unlocked by the
+"Reforging of the Great Law of Peace"
+event
+2 years
+Haudenosaunee
+The Grand Council
+Comprised of fifty chiefs from each of the Five Nations, the Haudenosaunee Grand Council carries out the principles of the Great Law of Peace. The council's governance requires all fifty chiefs to reach a unified consensus before affairs can continue.
+−5.00%
+Crown Power
++5.00%
+Nobles Power
++15.00%
+Efficiency of Our Cabinet
++5.00%
+Estates Satisfaction Equilibrium
++1
+Possible Government Reforms
+Unlocked by
+"The Grand Council"
+event
+2 years
+Haudenosaunee
+Peuplierung System
+The Peuplierung System is an initiative that aims to attract immigrants to settle in the sparsely populated regions of the nation.
+−5.00%
+Max Rural Control
++0.05%
+Population Growth
++0.10
+Rural Migration Attraction
+Chose to let them come during the
+"Planned Settlements"
+event
+2 years
+Brandenburg
+Prussia
+Guru Granth Sahib
+Regarded as the eternal Gurū by Sikhism, it was compiled and expanded by several Gurū across the ages, and it contains all teaching to guide the Sikhism faithful.
++10.00%
+Army Initiative
++5.00%
+Cultural Influence %
+Blocked from Conversion:
+Yes
+Unlocked by the
+"Guru Granth Sahib"
+event
+Sikhism
+is the primary religion
+2 years
+Gurgaddi
+Alsnö Stadga
+This set of rules was set up by swe_magnus_ladulas in 1280 at Alsnö Hus to regulate and formalize the benefits of the Nobility, while also protecting the Peasants from their exploits. This is why he was nicknamed 'Ladulås', or "Barn-Lock" in English by the commoners.
+Monarchy
++0.10
+Monthly Progress to Free Subjects
++10.00%
+Nobles Power
++1.00%
+Estates Satisfaction Equilibrium
++50.00%
+Nobles Levy Size
+Traditions
+Legalism is embraced
+2 years
+Sweden
+Shāhbandariyya
+To manage the vast tide of merchants arriving at our ports, we appoint a Shāhbandar as the authority to oversee customs, resolve disputes, and organize the foreign quarters. This office brings order to our bustling entrepôt and will strengthen our role as the crossroads of the seas.
++10.00%
+Market Attraction
++20.00%
+Trade Capacity
++0.10
+Monthly Progress to Free Trade
+"The Shāhbandar System" advance is researched
+2 years
+Malacca
+Hanseatic Merchant Federation
+This represents a decentralized federation of merchants united under one alliance. Its members occupy special buildings across the entirety of Europe and are known for their mercantile prowess.
+Republic
+Cannot be Subjugated:
+Yes
+−50.00%
+Burghers Power
+−25.00%
+Trade Maintenance
+Allows Hanseatic Federation Buildings:
+Yes
+−50.00%
+Legislative Efficiency
++5.00
+Prefers Court Language to be Market Language
+Reform is unlocked as long as:
+Building based country
+Reform is locked as long as:
+Building based country
+2 years
+Hansa
+Major reforms
+[
+edit
+|
+edit source
+]
+This table is planned to be
+automatically generated
+and should not be edited directly.
+Instead, suggest changes on the
+talk page
+.
+A country can only have one major reform. Additional major reforms can only be obtained via events.
+Reform
+Effects
+Age
+Requirements
+Time to implement
+Admiralty Regime
+A government reform where the ruler is also the superior commander of the navy. Where other states have a fleet, this fleet possesses the state.
++0.20
+Monthly Progress to Naval
+−15.00%
+Navy Maintenance
++0.10
+Monthly Navy Tradition
+Admiralty Regime Heir Selection succession law:
+Yes
+Discovery
+Has at least 1 port
+Not:
+Steppe Horde
+Tribe
+Papal States
+Military Regime
+reform not enacted
+2 years
+Celtic Traditions
+The ancient ways of insular society have been incorporated into our current system of government. Our leader rules the people instead of the land, and trained poets take the place of Clergy in some formal ceremonies.
++0.50
+Cultural Tradition
++0.025
+Monthly Progress to Decentralization
++0.025
+Monthly Progress to Traditional Economy
+Can Be Member of a High Kingship:
+Yes
++1.00
+Prefers Court Language to be Common Language
+Traditions
+At least one of:
+Culture group is
+Celtic
+Any neighbor has:
+Celtic Traditions
+reform enacted
+Overlord has:
+Celtic Traditions
+reform enacted
+Legalism has been embraced
+At least one of:
+Court language is Brythonic
+Court language is Gaelic
+2 years
+Irish Earldom
+Our authority rests in the titles granted to us by the Lord of Ireland.
+−25.00%
+Fortification Maintenance
++10.00%
+Crown Power
++0.10
+Monthly Progress to Aristocracy
+Cannot Become a Duchy:
+Yes
+Traditions
+At least one of:
+Capital is in the Ireland
+region
+Primary culture is
+Anglo-Irish
+Country rank:
+Duchy
+Common language is English
+Monarchy
+2 years
+Joint Ruling
+Many German princes still uphold the tradition of sharing power with their siblings — splitting the duties of governance, ruling their holdings jointly, or even taking turns on the throne for a pre-determined period.
+Monarchy
++0.25%
+Stability Decay
++0.25%
+Stability Decay
++0.10
+Monthly Progress to Conciliatory
++0.20
+Monthly Progress to Decentralization
+−20.00%
+Set Cabinet Member Cost
+−20.00%
+Replace Cabinet Member Cost
++1
+Possible Government Reforms
+Blocked for Rebels:
+Yes
+Culture group is
+German
+Not a
+Fiefdom
+Ruler has a living, adult, male brother
+2 years
+Conquistador Expedition
+We are not a country; we are more like a small army of conquistadors, here to expand our glorious homeland! And to fill our pockets, of course.
+Auto Conquer Religious Enemies:
+Yes
+Blocked From Peace:
+Yes
+Parliament Abolished:
+Yes
+Army based country
+Religion is:
+Catholicism
+2 years
+Banking Family
+We are not a country; we are more like a family! Or rather, an extended family, all oriented around providing banking services to those in need.
+−1.00%
+Bank Interest
++10.00
+Loan Capacity Investment
++0.40
+Monthly Diplomats
++4.00
+Maximum Diplomats
+Reform is available as long as:
+Building based country
+Japanese Clan
+reform not enacted
+Not:
+Trade Company
+Reform is locked as long as:
+Banking Family
+reform is enacted
+2 years
+Andean Monarchy
+A government reform common among the people of the Andes. Spiritual beliefs are woven into the succession laws, forcing new rulers to start their reigns owning no worldly possessions whatsoever.
+Monarchy
+Has Panaqas:
+Yes
+Can use Ñusta Marriage:
+Yes
+Can use Aclla Marriage:
+Yes
++0.0010
+Monthly Development
+Reform is available as long as:
+Culture group is
+Andean
+Religion is in the
+Andean Folk Religions
+group
+Reform is locked as long as:
+Andean Monarchy
+reform is enacted
+Tawantinsuyu Monarchy
+A government reform of the Incan Empire, adapted and evolved from its monarchic origins. Religious beliefs are inexorably intertwined with succession laws, which leads to new rulers starting their reigns owning nothing.
+Monarchy
+Has Panaqas:
+Yes
+Can use Ñusta Marriage:
+Yes
+Can use Aclla Marriage:
+Yes
++0.0010
+Monthly Development
++5.00%
+Legislative Efficiency
++1
+Possible Government Reforms
+Reform is available as long as:
+Common language is Quechuan
+Tawantinsuyu Monarchy
+reform is enacted
+Religion is in the
+Andean Folk Religions
+group
+Reform is locked as long as:
+Tawantinsuyu Monarchy
+reform is enacted
+Reformed Tawantinsuyu Government
+This reformed government fundamentally restructures Incan governance by eliminating the traditional
+panaca
+system, which protected the holdings and possessions of the dead ruler and therefore forced the new Sapa Inca to push for expansion. Instead, it concentrates all power in the hands of the new leader.
+Can use Ñusta Marriage:
+Yes
+Can use Aclla Marriage:
+Yes
++0.0010
+Monthly Development
++10.00%
+Legislative Efficiency
+Reform is available as long as:
+Culture group is
+Andean
+Common language is Quechuan
+Tawantinsuyu Monarchy
+reform is enacted
+Religion is in the
+Andean Folk Religions
+group
+Crown power is at least 60%
+Reform is locked as long as:
+Reformed Tawantinsuyu Government
+is enacted
+Japanese Imperial Family
+Claiming descent from the sun goddess Amaterasu, the Yamato dynasty has sat upon the Chrysanthemum Throne for centuries.
++4.00
+Diplomatic Reputation
++5.00%
+Noble Estate Satisfaction Equilibrium
++20.00%
+Crown Power
++30.00%
+Maximum Tax for Noble Estate
+Reform is available as long as:
+Culture group is
+Japanese
+At least one of:
+All of:
+Has no ruler
+Has heir of the Yamato dynasty
+Ruler is of the Yamato dynasty
+All of:
+Daimyo
+reform not enacted
+Japanese Clan
+reform not enacted
+Shogunate
+reform not enacted
+Reform is locked as long as:
+At least one of:
+All of:
+Has regent
+Has heir of the Yamato dynasty
+Ruler is of the Yamato dynasty
+2 years
+Japanese Clan
+As a result of the Imperial family's inability to effectively control the countryside, the numerous samurai clans have established their own power bases. The military structure of government under the Shōgun is fertile ground for the constant power struggles between them.
++5.00%
+Noble Estate Satisfaction Equilibrium
++1
+Possible Government Reforms
++0.10
+Monthly Army Tradition
++30.00%
+Maximum Tax for Noble Estate
+Reform is available as long as:
+Culture group is
+Japanese
+Building based country
+All of the following:
+Daimyo
+reform not enacted
+Japanese Imperial Family
+not enacted
+Shogunate
+reform not enacted
+Reform is locked as long as:
+Building based country
+2 years
+Daimyō
+Having ultimate authority over their clan territory, Japanese Daimyō are powerful feudal lords, able to recruit their own armies and collect their own taxes. The most influential of them can even show defiance to the central authority of the Shōgun.
++5.00%
+Noble Estate Satisfaction Equilibrium
++100.00%
+Nobles Levy Size
++0.10
+Monthly Army Tradition
++1
+Possible Government Reforms
+Reform is available as long as:
+Culture group is
+Japanese
+All of the following:
+Japanese Clan
+reform not enacted
+Japanese Imperial Family
+not enacted
+Shogunate
+reform not enacted
+Reform is locked as long as:
+Daimyo
+enacted
+2 years
+Shogunate
+As the military government of Japan, the authority of the Shōgun extends to every clan. At least, to those not bold enough to defy it...
+−1.00%
+Expected Cost of Court
+−30.00%
+Cost of Appease the Elites Action
++0.20
+Cultural Influence
++1
+Possible Government Reforms
+Reform is available as long as:
+Culture group is
+Japanese
+Leader of the
+Japanese Shogunate
+All of the following:
+Daimyo
+reform not enacted
+Japanese Imperial Family
+not enacted
+Japanese Clan
+reform not enacted
+Reform is locked as long as:
+Leader of the
+Japanese Shogunate
+2 years
+'Son in Law' Rule
+Our state is deeply connected with the dynastic affairs of the Mongol-ruled lands of China. The very core of our current government serves as the extension of the will of Yuán, our 'Father in Law', and our monarchs are obligated to marry Mongol princesses.
++1
+Possible Government Reforms
+Can Only Marry Overlord Dynasty Members:
+Yes
+Forbid Marriage with Lowborn:
+Yes
+-20.00%
+Legislative Efficiency
+-0.10
+Monthly Diplomats
++50.00%
+Nobles Power
+If upgraded provides:
++20.00%
+Maximum Tax for Noble Estate
++50.00
+Loyalty to Overlord
+Traditions
+Reform is available as long as:
+'Son in Law' Rule
+reform enacted
+At least one of:
+At war
+All of:
+Not a
+subject
+Overlord:
+Has or had the CHI tag
+Primary culture is
+Mongolian
+Reform is locked as long as:
+'Son in Law' Rule reform enacted
+Sadae Policy
+Sadae Policy maintains a close relationship between Korea and China, where the former is treated as a junior partner of the latter. With this, we remain subservient to the Middle Kingdom, and must strive to maintain good relations with the Chinese.
++5%
+Trade Efficiency (scaled −0.5 to +0.5)
+[1]
++0.25
+Monthly Legitimacy (scaled −0.5 to +0.5)
+[1]
++1
+Possible Government Reforms
+Traditions
+Embraced the policy during the
+"Serving the Middle Kingdom"
+event
+Tributary
+of the:
+Middle Kingdom
+Āltepētl
+An approximation of a city-state, the Āltepētl is divided into smaller administrative districts called
+calpōlli
+. Led by a dynastic ruler, it exudes influence to its surrounding domain and conducts diplomacy with nearby Āltepētl as a sovereign entity.
+Raid Enemies for Slaves:
+Yes
++1.00
+Diplomatic Capacity
++0.10
+Monthly Progress to Centralization
+Disallows Taking Land in Peace Treaties:
+Yes
++0.25
+Subjugation Preference Modifier
+Traditions
+Reform is unlocked as long as:
+is
+Nahua
+Has not had the
+"A New Era"' reform disaster
+Reform is locked as long as:
+Āltepētl
+reform is enacted
+2 years
+Reformed Nahua Society
+An innovative series of centralization reforms and legislative frameworks form the basis of our new government. With attention to detail and strong centralized authority, this legal foundation will cement the rise of a powerful nation, adherent to Nahua teachings.
++1
+Possible Government Reforms
++33.00%
+Crown Power
+−10.00%
+Revoke Privilege Cost
++0.10
+Monthly Progress to Centralization
+Traditions
+Has the
+Nahua
+Religion
+Has reformed
+1 year
+Nayankara System
+In order to better control our holdings and further our military ambitions, we have divided many of our territorial possessions among Nayaks. These Nayaks are expected to administer these lands and to maintain any cities, temples, and settlements within them, as well as to provide the armies we need to defend and expand our kingdom.
++0.10
+Monthly Progress to Plutocracy
++5.00%
+Noble Estate Satisfaction Equilibrium
+Allow Assume Fort Command:
+Yes
+−100.00%
+Ennoble Cost Modifier
+Traditions
+At least one of:
+Primary culture is
+Kannadiga
+Primary culture is
+Telugu
+At least one of:
+Dharmic
+Religion group
+Buddhist
+Religion group
+2 years
+School of First Letters
+Promoted by religious orders and municipalities, the Schools of First Letters undertake the mission of educating people not only in the basics of catechism, but also of numbers and letters. By supporting these endeavors, our people learn to read and write correctly, becoming more educated in the process.
++10.00
+Max Literacy
++0.01
+Monthly Literacy
++5.00%
+Monthly Research Progress %
+Reformation
+Confessionalism
+has been embraced
+Culture group is
+Iberian
+2 years
+Mandala System
+The Mandala is a system of power in which independent city states swear fealty to whoever leads the most powerful state among them. Stemming from the Dharma and Buddhism worldview, the fundamental idea is that power emanates radially from a center source. Thus, each of the polities is a source of local power, but their power in turn radiates from the central, most powerful, source.
++3.00
+Cultures Capacity
++0.05
+Monthly Progress to Decentralization
+Allow Tributary Subjects:
+Yes
+Capital is in the Southeast Asia
+sub-continent
+At least one of:
+Religion group is
+Dharmic
+is:
+Theravāda
+Eastern Buddhism
+Satsana Phi
+4 years
+Sich Rada
+Wishing to further organize the Cossacks under one ruler, the Sich Rada places a Hetman in charge to lead them all, serving either their own interests or the interests of their liege.
++25.00%
+Amount Looted
++0.20
+Monthly Progress to Land
++10.00%
+Cavalry Power
+Reform is unlocked as long as:
+Primary culture is
+Cossack
+Army based country
+Reform is locked as long as:
+Primary culture is
+Cossack
+Army based country
+Judicate
+The Judicate is a unique type of government which is defined by its republic-like institutions, and by electing the ruler from within the Supreme Court.
+Monarchy
++0.10
+Monthly Progress to Centralization
++0.10
+Monthly Progress to Traditionalist
++5.00%
+Efficiency of Our Cabinet
+At least one of:
+Arborea
+Judicate
+reform is enacted
+2 years
+Revolutionary Empire
+The Revolutionary Empire is a Monarchy which makes some concessions to the ideas of the Enlightenment, while ruling over the people with absolute power under the pretext of serving revolutionary ideals.
+Monarchy
++0.05
+Monthly Legitimacy
++50.00%
+Crown Power
++1
+Possible Government Reforms
++1
+Cabinet Seats
+Revolutions
+Reform is unlocked as long as:
+Country is revolutionary
+Reform is locked as long as:
+Revolutionary Empire
+reform is enacted
+1 year
+Feudal Theocracy
+A Feudal Theocracy is a state ruled by a religious figurehead. Unlike other theocracies, it is governed in a more hereditary manner, allowing its rulers to pass the leadership to members of their families.
+Monarchy
++30.00%
+Pop Conversion Speed %
++20.00%
+Clergy Power
++5.00%
+Clergy Estate Satisfaction Equilibrium
++0.10
+Monthly Progress to Spiritualist
+Reform is unlocked as long as:
+Religion group is
+Muslim
+Reform is locked as long as:
+Persian Feudal Theocracy
+reform is enacted
+1 year
+Noble Elite
+In this republic, the right to rule is hereditary within certain noble dynasties. These families elect the ruler from within their dynasty, and this head of government will in turn depend on their support.
+Republic
++10.00%
+Nobles Power
++5.00%
+Levy Combat Efficiency
++10.00%
+Efficiency of Our Cabinet
++0.10
+Monthly Progress to Aristocracy
+None
+2 years
+Merchant Republic
+A republic founded upon the principles of trade. The flow of commerce is the most important factor for the families who rule these republics.
+Republic
++50.00%
+Trade Capacity
++25.00%
+Trade Income
+−50.00%
+Foreign Buildings Cost
+−25.00%
+Trade Maintenance
+−25.00%
+Speed of Integration
++5.00
+Prefers Court Language to be Market Language
+None
+2 years
+Peasant Republic
+A form of government in which the Crown, Nobility, and Clergy are very weak or non-existent, granting a high degree of autonomy to the Commoners.
+Republic
++100.00%
+Peasants Power
+−25.00%
+Nobles Power
++10.00%
+Production Efficiency
++5.00%
+Peasant Estate Satisfaction Equilibrium
+−2.50%
+Noble Estate Satisfaction Equilibrium
++0.10
+Monthly Progress to Decentralization
++0.10
+Monthly Progress to Free Subjects
+Commoners in Parliament:
+Yes
++1
+Possible Government Reforms
++5.00
+Prefers Court Language to be Common Language
+At least one of:
+Dithmarschen
+Peasants estate power is at least 50%
+Peasant Republic
+reform is enacted
+3 years
+Pirate Brethren
+Insofar as this loose collection of pirate crews can be called a state, the Pirate Brethren is a haven for all manner of thieves, murderers, and smugglers.
+Republic
+Can Hire Privateers:
+Yes
++0.20
+Monthly Progress to Naval
+−33.00%
+Navy Maintenance
++5.00
+Prefers Court Language to be Common Language
++1
+Possible Government Reforms
+Pirate Elective succession law:
+Yes
+Reform is unlocked as long as:
+Any of the pirate events have been completed
+Reform is always locked
+3 months
+Signoria
+A specific Italian form of city republican government. Members are elected for a specific period of time, usually from among the most influential citizens of that city. However, in many cases they are also foreign rulers who are invited to rule the Signoria.
+Republic
+−10.00%
+Crown Power
++10.00%
+Improve Relations
+−10.00%
+Replace Cabinet Member Cost
++0.10
+Monthly Progress to Decentralization
+Podesta Elective succession law:
+Yes
+At least one of:
+Court language is North Italian
+Court language is South Italian
+2 years
+Revolutionary Republic
+The Revolutionary Republic governs the nation through a small executive authority, supported by an elective chamber of deputies. Revolutionary propaganda will strengthen the resolve of our armies, and the principal of universal equality should inspire strong and confident leadership.
+Republic
++0.20
+Monthly Progress to Free Subjects
+−100.00%
+Nobles Power
+−50.00%
+Noble Estate Satisfaction Equilibrium
++1
+Possible Government Reforms
++1
+Cabinet Seats
+Reform is unlocked as long as:
+Country is revolutionary
+Reform is locked as long as:
+Revolutionary Republic
+reform enacted
+6 months
+Revolutionary Autocracy
+While on the surface a Republic, the Revolutionary Autocracy is akin to an absolute Military Dictatorship led by a competent general or admiral who enjoys great popularity amongst the masses.
+Republic
+−0.03
+Monthly Republican Tradition
++50.00%
+Crown Power
++1
+Possible Government Reforms
++1
+Cabinet Seats
++0.10
+Monthly Progress to Absolutism
+Reform is unlocked as long as:
+Country is revolutionary
+Reform is locked as long as:
+Revolutionary Autocracy
+reform enacted
+6 months
+Legacy of Činggis Khān
+We are the descendants of the great conqueror of the world, Činggis Khān. His blood runs through our veins, making us a proud and powerful people, and promising us that everywhere our horses can take us shall be ours to conquer!
+Steppe Horde
+−10.00%
+Cavalry Maintenance Cost
+−2.00%
+Expected Cost of Court
++0.10
+Monthly Progress to Aristocracy
+Traditions
+Reform is unlocked as long as:
+At least one of:
+Primary culture is
+Mongolian
+Ruler is in the Borjigin dynasty
+Army based country
+Reform is locked as long as:
+At least one of:
+Primary culture is
+Mongolian
+Ruler is in the Borjigin dynasty
+Army based country
+2 years
+Military Order
+The Military Orders were created in the Middle Ages as a militant body of the Catholicism Church. They are made up of warriors, named
+miles
+, as well as monks called
+fratres
+who have taken solemn religious vows to defend and spread the Christianity faith.
+Theocracy
+Clergy Allowed to Command:
+Yes
+Clergy Blocked from Command:
+no
++0.10
+Monthly Progress to Offensive
++0.10
+Monthly Progress to Belligerent
++25.00%
+Clergy Levy Size
++25.00%
+Fort Limit
+May be Target of Military Sponsorships:
+Yes
+Blocked from Conversion:
+Yes
++10.00%
+Levy Combat Efficiency
+Traditions
+Reform is unlocked as long as:
+Religion is
+Catholicism
+Has the Monastic Order policy
+Reform is locked as long as:
+Military Orders
+estate privilege is active
+2 years
+Abbey
+Abbeys have been centers of monastic life since the earliest Christianity times. Over the centuries, they have become the main foci of religious life, knowledge, and education, as well as centers of economic and social development.
+Theocracy
++0.10
+Monthly Progress to Conciliatory
++2.50%
+Monthly Research Progress %
+Blocked from Conversion:
+Yes
+Traditions
+Capital has a
+Monastery
+2 years
+Prince Bishopric
+A Prince-Bishop is an ordained member of a faith who is also the civil ruler of a territory. The religious territory that the Prince-Bishops rules over does not need to coincide with the secular territory they own.
+Theocracy
++0.10
+Monthly Progress to Conciliatory
++0.10
+Monthly Progress to Spiritualist
++2.50%
+Monthly Research Progress %
+Traditions
+Theocracy
+At least one of:
+Religion is
+Catholicism
+Religion is
+Lutheranism
+Country rank is at most:
+Duchy
+2 years
+Gurū Leadership
+The country is led by a wise Gurū, tending to the spiritual needs of the populace as well as more mundane matters and guiding the faithful to enlightenment.
+Theocracy
++0.10
+Monthly Progress to Conciliatory
++0.10
+Monthly Progress to Spiritualist
++10.00%
+Monthly Research Progress %
+Blocked from Conversion:
+Yes
+Guru Election succession law:
+Yes
+Traditions
+Theocracy
+Religion group is
+Dharma
+2 years
+Country reforms
+[
+edit
+|
+edit source
+]
+This table is planned to be
+automatically generated
+and should not be edited directly.
+Instead, suggest changes on the
+talk page
+.
+The following reforms are only available to certain starting countries, and do not get removed upon forming new nations as long as the requirements were met.
+Reform
+Effects
+Age
+Requirements
+Time to implement
+Country
+Holy See
+The Holy See is the jurisdiction of the Bishop of Rome, the
+Pontifex Maximus
+, head of the Catholicism Church, known as The [GetCountry('PAP').GetGovernment.GetRulerTitle].
++0.25
+Monthly Religious Influence
++0.10
+Monthly Devotion
++0.10
+Monthly Progress to Traditionalist
+Can Reassign Cleric:
+Yes
+Is the Pope:
+Yes
+Disallow Diplomatic Subjugation:
+Yes
+Blocked from Conversion:
+Yes
+Blocked from Forming Countries:
+Yes
+Ruler Name Uses Court Language:
+Yes
++1
+Possible Government Reforms
+Capital location:
+Grants Cardinal:
+Yes
+Reform is locked as long as:
+Holy See
+reform enacted
+2 years
+Papal States
+Kingdom of God
+We have established the Kingdom of God on Earth. The authority of the Church, led by the [GetCountry('PAP').GetGovernment.GetRulerTitle], shall be absolute in both the spiritual and temporal realms.
+−0.50%
+Prestige Decay
++1
+Possible Government Reforms
+Reform is available as long as:
+Chose "All Men under one God" during
+"The Kingdom of God on Earth"
+event
+Reform is locked as long as:
+Kingdom of God
+reform is active
+2 years
+Papal States
+Prussian Monarchy
+A form of government under a monarch, which puts great focus on administrative efficiency — especially in military matters, if the situation calls for it.
++20.00%
+Crown Power
++0.10
+Monthly Progress to Quality
++0.10
+Monthly Progress to Offensive
+Absolutism
+None
+2 years
+Prussia
+Diarchy Republic
+No man should rule a country alone, or else we are no better than the tyrannical despots who try to subjugate our people. The
+Capitano del Popolo
+shall be a dual position where members of the Spinola and Doria families will each hold office. This arrangement will ensure a balance of executive power.
+Republic
++0.20%
+Stability Decay
+−10.00%
+Set Cabinet Member Cost
+−10.00%
+Replace Cabinet Member Cost
++25.00%
+Trade Capacity
++0.10
+Monthly Progress to Free Trade
+None
+2 years
+Genoa
+Imperial Harem
+The Imperial Harem is much more than a collection of enslaved beauties at the ruler's beck and call - it is an institution parallel to the Interior Service, with its own organization, education, and protocols. Though those in the harem must work behind the scenes, they can sometimes wield great influence, turning the tides of state with merely a whisper in the right ear.
++5.00%
+Clergy Estate Satisfaction Equilibrium
++0.10
+Cultural Tradition
++0.05
+Monthly Prestige
++5.00
+Max Literacy for Slaves
++1
+Possible Government Reforms
+Monarchy
+Chose to create the harem during the
+"Organizing a Harem"
+event
+2 years
+Ottomans
+Eunuch Viziers
+Skilled eunuch servants can be granted powerful positions such as Black Chief Eunuch,
+Kızlar Ağası
+, and White Chief Eunuch,
+Kapı Ağası
+. In these roles, they are responsible for communications between the ruler and the [GetCountry('TUR').Custom('GetHeadOfCabinetName')], as well as administration of the harem and pages, supervision of
+waqf
+foundations, and the education of Ottoman princes, among many other things. Considered more trustworthy than their intact peers, they can be relied on to always work for the benefit of the state.
++2.50%
+Noble Estate Satisfaction Equilibrium
++5.00%
+Efficiency of Our Cabinet
++1.00%
+Expected Cost of Court
++1
+Possible Government Reforms
+Chose to elevate or strengthen during
+"The Guardians of Felicity"
+event
+2 years
+Ottomans
+Malikâne
+A reform to the Muqāta'ah system, Malikâne allows tax farmers to purchase lifelong contracts for tax collection rights in the areas they farm. This provides them with more security and incentivizes long-term investment in their region's overall economic development. The drawback of this system is that maintaining rule of law over these lifetime grants will become more difficult.
++0.0010
+Monthly Development
++2.50%
+Production Efficiency
++0.01
+Stability Investment
++0.10
+Monthly Progress to Free Subjects
+Chose to implement the reform during
+"The Ottoman Tax Farming Reform of [Current Year]"
+event
+2 years
+Ottomans
+Coffee House Espionage
+Coffee houses and other urban meeting places are major hotspots for subversive activities. By seeding these places with our loyal spies and informants, we can better safeguard state security.
++20.00%
+Spy Network Construction
++10.00%
+Counterespionage
+−10.00%
+Burghers Power
+Chose information during the
+"Black as Sin, Sweet as Sedition"
+event
+2 years
+Ottomans
+Niẓām-i Jedīd
+A radical military reform, the New Order Army relies heavily on foreign instructors and Western tactics and weapons, as well as reorganizing the artillery corps. May it lead us to new victories, and further diminish the troublesome influence of the moribund Janissaries.
++0.10
+Military Tactics
++15.00%
+Artillery Power
++0.20
+Monthly Progress to Outward
+Chose the change during
+"The New Order Army"
+event
+Has not chosen to disband them during the
+"The [Location Name] Incident"
+event
+2 years
+Ottomans
+Manden Kurufa
+The Manden Kurufa, also known as the Manden Federation, is the government of the [GetCountry('MAL').GetLongName]. Originally started as the
+Twelve Doors
+which were the personal possessions of the Mansa, this network of alliances and conquered lands has become the core government of the state.
++0.50
+Cultural Tradition
++0.05
+Monthly Progress to Decentralization
+−0.025%
+Stability Decay
++5.00%
+Crown Power
+Traditions
+Reform is available as long as:
+Has the
+Kouroukan Fouga advance
+Reform is locked as long as:
+Manden Kurufa
+reform enacted
+2 years
+Mali
+Legacy of Kublai Khan
+Kublai Khan was the one who solidified our rule over China. He adopted the style of the Chinese and proclaimed himself Huángdì of the Middle Kingdom. As long as we follow in his footsteps, our authority over the Dragon Throne will be recognized.
++3.00
+Cultures Capacity
+Has or had the CHI tag
+is
+Mongolian
+Leader of the
+Middle Kingdom
+CHI Tag
+Signoria of Venice
+The supreme governmental body of Venice, the Signoria puts great emphasis on collaboration between the Doge and other key positions of the state. The struggle for power between the council and the Doge therefore becomes a thing of the past.
+Republic
++50.00%
+Trade Capacity
+−25.00%
+Trade Maintenance
++20.00%
+Crown Power
++0.10
+Monthly Progress to Free Trade
++1
+Possible Government Reforms
+Established  the Signoria during the
+"Evolution of the Commune of Venice"
+event
+2 years
+Venice
+Mughal Diwan
+If there is one thing our dynasty has learned over the centuries, it is that we must adopt the native ways of conquered peoples and absorb them into our culture. Let us ensure that we learn from those we conquer so that our empire can continue to expand.
+−100.00%
+Add Accepted Culture Cost
++3.00
+Cultures Capacity
++2.00
+Tolerance of Heathen Beliefs
+Traditions
+2 years
+Mughal
+Rule of the Sejm
+The undisputed authority across our lands are the Nobility as they channel their influence through the [GetCountry('POL').GetGovernment.GetParliament.GetName]. Their voices shape our politics and may yet determine the fate of our entire country, for better or worse...
++25.00%
+Agenda Impact for Nobility
+Cannot Declare Wars without Casus Belli:
+Yes
++20.00%
+Nobles Power
+Reform is unlocked as long as:
+At least one of:
+Had the "Elective Monarchy in Poland" event
+Nobles were victorious during the "Rise of the Szlachta"
+disaster
+Reform is locked as long as:
+At least one of:
+Nobles were victorious during the "Rise of the Szlachta"
+disaster
+Crown estate power less than 50%
+Poland
+Dutch Republic
+This is a type of republic where the leader, called the Stadtholder, rules for life. Traditionally, the factions supporting this government have fought over how the Stadtholder's power should be structured. Those called the Statists want to make the Stadtholder more like an
+Primus inter Pares
+, whereas the Orangists wish to treat the elected leader as some kind of king.
++2.50%
+Trade Efficiency
++5.00%
+Heavy Ship Power
++10.00
+Loyalty of Subjects
+Legalism
+has been embraced
+Republic
+2 years
+Netherlands
+Holy Imperial Monarchy
+The Empire has reached its maximum splendor. As the only legal successor to the Roman Empire, no one can deny our divinely-favored right to rule!
+Monarchy
++0.10
+Monthly Diplomats
++2.00
+Diplomatic Reputation
+−10.00%
+Stability Investment Cost
++0.25
+Monthly Legitimacy
++1
+Possible Government Reforms
+Traditions
+Chose to claim the crown during the
+"Renovatio Imperii Romanorum"
+event
+2 years
+Holy Roman Empire
+Crown of Castile
+When the Kingdoms of Castile and León formed a definitive union in 1230, the Crown of Castile was born. Since then, the country has aimed to become the hegemonic power in Iberia, and one of the greatest and most prestigious nations in Europe.
+Monarchy
++0.10
+Monthly Progress to Aristocracy
+−25.00%
+Change Policy Cost
++10.00%
+Manpower
++0.05
+Monthly Legitimacy
+Traditions
+Reform is unlocked as long as:
+Legalism
+has been embraced
+If
+Spain
+:
+is
+Castilian
+Reform is locked as long as:
+Crown of Castile
+reform enacted
+2 years
+Castile
+Spain
+Crown of Aragon
+The Crown of Aragon is a composite realm formed by several kingdoms and a principality, each with their own institutions and laws. As a trade and seafaring-oriented confederation, it represents extraordinary naval power, primed to dominate the Mediterranean with its fleets.
+Monarchy
++0.10
+Monthly Progress to Plutocracy
++15.00%
+Sailors
++10.00%
+Trade Capacity
+Traditions
+Reform is unlocked as long as:
+Legalism
+has been embraced
+If
+Spain
+, either:
+Primary culture is
+Aragonese
+Primary culture is
+Catalan
+Reform is locked as long as:
+Crown of Aragon
+reform enacted
+2 years
+Aragon
+Spain
+Sons of the Oak
+Our realm is a proud product of its founder: Íñigo Iñiguez, nicknamed Arista, or
+The Oak
+. Like the awe-inspiring tree that is his namesake, our nation is meant to endure and resist any forces that may threaten its existence.
+Monarchy
++10.00%
+Education of Heirs
++0.50
+Hostile Attrition
++10.00%
+Pop Assimilation Speed
+Traditions
+Reform is unlocked as long as:
+Legalism
+has been embraced
+Primary culture is
+Basque
+Reform is locked as long as:
+Sons of the Oak
+reform enacted
+2 years
+Navarre
+Spain
+System of Councils
+As our nation becomes more powerful, we need a way to unify the multiple councils that our rulers rely on. By creating a polysynodial system, we ensure that our realm is efficient by organizing all those councils to work together.
+Monarchy
++20.00%
+Legislative Efficiency
++20.00%
+Efficiency of Our Cabinet
++1
+Cabinet Seats
+Discovery
+Legalism
+has been embraced
+2 years
+Spain
+The Jewel of Al-'Andalus
+We are the only surviving member of the formerly Muslim realms that populated Al-'Andalus in the past. Huge Muslim empires have risen and fallen throughout Iberia, fragmenting in the process. As one of those fragmented parts, it is our destiny to reunify the people of Iberia under our banner.
+Monarchy
++2.00
+Diplomatic Reputation
++10.00%
+Manpower
+−10.00%
+War on Different Religion Cost
+Traditions
+Reform is unlocked as long as:
+Legalism
+has been embraced
+Reform is locked as long as:
+The Jewel of Al-'Andalus
+reform enacted
+2 years
+Granada
+Mamlūk Government
+The Sultanate's rule over the vastness of Egypt depends greatly on maintaining a powerful standing army. Its upper class consists of factions of these powerful slave soldiers, who often ascend to the throne themselves, and can be the deciding factor between a long and short reign.
+Can Promote Mamālīk:
+Yes
+Can Build Mamlūk Barracks:
+Yes
++0.10
+Monthly Army Tradition
++2.00%
+Expected Cost of Court
+Reform is locked as long as:
+Mamlūk Government
+reform enacted
+2 years
+Mamlūk
+Autonomous Swiss Cantons
+The Swiss Cantons retain much of their independent authority even in our unified country, founded on the same ideals as the loose alliance that existed before.
++0.025
+Monthly Progress to Decentralization
++1.00
+Diplomatic Reputation
+−0.025%
+Stability Decay
++25.00%
+Parliament Base Support
+Completed the "Centralization of the Swiss Confederation" event
+Switzerland
+The King's Law
+The King's Law is an absolutionist constitution of Denmark, formalizing the king's absolute authority. It makes the monarch a supreme ruler with all legislative, executive, and judicial powers concentrated in his hands.
++25.00%
+Crown Power
++0.10
+Monthly Progress to Centralization
+Drafted it during
+"The King's Law"
+event
+2 years
+Denmark
+Supreme Dukedom
+Rather than styling ourselves as the equal of other dukes, we instead choose to be elevated to a status that better expresses our strength.
++0.10
+Monthly Prestige
++20.00%
+Cultures Capacity
++0.10
+Monthly Progress to Decentralization
+Country rank is:
+Duchy
+Monarchy
+Completed the
+"Supremus Dux Lithuaniae"
+event
+2 years
+Lithuania
+References
+[
+edit
+|
+edit source
+]
+↑
+1.0
+1.1
+The formula which determines the scale is subject loyalty divided by 100. It is defined on line 2229 on
+/Europa Universalis V/game/in_game/common/government_reforms/country_specific.txt
+Government reforms are defined in
+/Europa Universalis V/game/in_game/common/government_reforms
+Government reform flavor text is defined in
+/Europa Universalis V/game/<top_folder>/localization/english
+Mechanics
+Realm
+Country
+•
+Government
+•
+Parliament
+•
+Estate
+•
+Reforms
+•
+Laws
+•
+Characters
+•
+Missions
+Economy & Research
+Economy
+•
+Goods
+•
+R.G.O.
+•
+Market
+•
+Building
+•
+Population
+•
+Age
+Diplomacy & Warfare
+Diplomacy
+•
+Subjects
+•
+International organization
+•
+Warfare
+•
+Combat
+•
+Military
+The world
+Location
+•
+Culture
+•
+Religion
+•
+Language
+•
+Exploration
+•
+Situations
+•
+Disasters
+•
+Diseases
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=Government_reform&oldid=21589
+"

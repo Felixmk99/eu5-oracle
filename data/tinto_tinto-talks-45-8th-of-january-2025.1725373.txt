@@ -1,0 +1,904 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-45-8th-of-january-2025.1725373/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #45 - 8th of January 2025
+Thread starter
+Johan
+Start date
+Jan 8, 2025
+Welcome to another Tinto Talks! Happy Wednesday where we talk about our super-secret game with the codename Project Caesar, asking you for feedback!
+Today we’ll go into the details of how terrain works in the game. To iterate from the Map-Tinto-Talks from almost a year ago, each location has three different attributes instead of a single one as previous games had. This creates more variation and allows us more granular control over game play.
+Each location has a climate, a topography and a vegetation set. Sea locations do not have vegetation though.
+Climate
+The climate of a location impacts how well pops can live there, including how much food can be produced. It also affects the maximum winter level of a location.
+Tropical
+Population Capacity +50%
+Development Growth -10%
+Life Expectancy -5
+Free Capacity Attracts Pops
+No Winters
+Tropical represents areas with high average temperatures and no winter.
+Subtropical
+Population Capacity +100%
+Free Capacity Attracts Pops
+Max Winter is Mild
+Subtropical represents areas with high average temperatures and mild winters.
+Oceanic
+Population Capacity +50%
+Free Capacity Attracts Pops
+Max Winter is Mild
+Oceanic represents areas with mild winters but high humidity.
+Arid
+Wheat Production -10%
+Life Expectancy -5
+Free Capacity Attracts Pops
+No Precipitation
+No Winters
+Arid represents an area that has a severe lack of available water.
+Cold Arid
+Wheat Production -10%
+No Precipitation
+Max Winter is Mild
+Cold arid represents an area that has a severe lack of available water but experiences winters.
+Mediterranean
+Population Capacity +150%
+Free Capacity Attracts Pops
+No Winters
+Mediterranean represents areas with a perfect climate!
+Continental
+Population Capacity +50%
+Free Capacity Attracts Pops
+Max Winter is Normal
+Continental represents areas with cold winters.
+Arctic
+Population Capacity -55%
+Development Growth -25%
+Life Expectancy -5
+Max Winter is Severe
+Arctic represents areas with very cold winters.
+Vegetation
+Vegetation represents the foliage cover of a location.
+Desert
+Can have Sandstorms
+Movement Cost for Armies +10%
+RGO Build time +50%
+Road Build time +100%
+Development Growth -10%
+Food Production -33%
+Population Capacity +10k
+Deserts are barren landscapes with little precipitation and almost no potential for plant or animal life.
+Sparse
+Road Build time -10%
+Population Capacity +25k
+Sparse represent large flat areas of land with few or no trees.
+Grasslands
+Food Production +10%
+Population Capacity 50k
+Grasslands represent terrain dominated by grass with little or no trees or shrubs.
+Farmland
+Movement Cost for Armies +10%
+Road Build time +10%
+Development Growth +10%
+Population Capacity +100k
+RGO Maximum Size +10%
+Food Production +33%
+Farmland represents anthropogenic terrain, devoted to crops and/or extensive pastures.
+Woods
+Movement Cost for Armies +25%
+Attacker Diceroll in Battle -1
+Maximum Frontage in Battle -2
+Road Build time +25%
+Population Capacity +50k
+Development Growth -20%
+Food Production +10%
+Blocks Vision from Adjacent Sea
+Woods represent terrain with less dense vegetation than forests.
+Forest
+Movement Cost for Armies +50%
+Attacker Diceroll in Battle -1
+Maximum Frontage in Battle -3
+Road Build time +50%
+RGO Build time +33%
+Population Capacity +25k
+Development Growth -25%
+Blocks Vision from Adjacent Sea
+Blocks Vision from Adjacent Land
+Forest represents terrain with dense vegetation.
+Jungle
+Movement Cost for Armies +100%
+Attacker Diceroll in Battle -1
+Maximum Frontage in Battle -4
+Road Build time +200%
+RGO Build time +50%
+Population Capacity +50k
+Development Growth -50%
+Blocks Vision from Adjacent Sea
+Blocks Vision from Adjacent Land
+A jungle represents terrain with dense forest and tangled vegetation that makes doing anything on the land difficult.
+Topography
+Topography represents the roughness and elevation of the land within a location. Flatter Topography is generally better for growing Towns and Cities while rougher Topography is easier to defend.
+These first ones are land related topographies.
+Flatland
+No special attributes
+Flatland represents terrain that does not have any major topographic variation, so there are no impediments for army movement or building development.
+Mountains
+Movement Cost for Armies +100%
+Attacker Diceroll in Battle -2
+Movement is Blocked in Winter
+Maximum Frontage in Battle -4
+Road Build time +200%
+RGO Build time +100%
+Population Capacity -80%
+Development Growth -70%
+Food Production -20%
+Blocks Vision from Adjacent Sea
+Blocks Vision from Adjacent Land
+Mountain terrain has high altitude and also steep slopes with relatively few and narrow flat areas, so it is more difficult for armies to cross and fight in it, and also more difficult to develop.
+Hills
+Movement Cost for Armies +50%
+Attacker Diceroll in Battle -1
+Maximum Frontage in Battle -3
+Road Build time +50%
+RGO Build time +25%
+Development Growth -30%
+Food Production -10%
+Blocks Vision from Adjacent Sea
+Blocks Vision from Adjacent Land
+A terrain with hills has variations in the topography, but the slopes are not as steep nor as high as those of mountains, so the penalties are also not as bad.
+Plateau
+Movement Cost for Armies +25%
+Attacker Diceroll in Battle -1
+Maximum Frontage in Battle -1
+Road Build time +50%
+RGO Build time +25%
+Development Growth -25%
+Blocks Vision from Adjacent Sea
+They represent relatively flat areas situated at high altitude, so they have some penalties compared to flatlands due to their elevation.
+Wetlands
+Movement Cost for Armies +50%
+Attacker Diceroll in Battle -1
+Maximum Frontage in Battle -3
+Road Build time +75%
+RGO Build time +25%
+Development Growth -30%
+Food Production -10%
+Wetlands are terrain that is partially flooded, generally due to being near a river, lake, or coast.
+The following are the naval ones.
+Ocean
+Naval Attrition +1%
+This is the open seas between the continents, where only the best of ships can travel.
+Deep Ocean
+Naval Attrition +2%
+This is the open seas between the continents, where only the best of ships can travel, in the furthest areas from any coast.
+Coastal Ocean
+No special attributes
+This is the open seas between the continents, where only the best of ships can travel, but in the areas closer to the coast.
+Inland Sea
+Can Freeze over during winter
+Inland seas represent the land-enclosed seas like the Mediterranean or the Baltic.
+Narrows
+Can Freeze over during winter
+Movement Cost for Navies +20%
+Attacker Diceroll in Battle -1
+Maximum Frontage in Battle -2
+Blocks Vision from Adjacent Sea
+Narrows are areas of sea with proximity of coast on many sides, like straits or the sea inside archipelagos, where there is not much space for movement.
+Lakes, Salt Pans and Atolls exists, but are just graphical variants of  Coastal Oceans, even if lakes could freeze over during winter.
+Stay tuned, as next week we’ll delve into the wonderful world of military objectives.
+232
+79
+10
+7
+4
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+38
+Next
+1 of 38
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+G
+gangstajoel
+Recruit
+Sep 4, 2024
+2
+21
+Jan 8, 2025
+Add bookmark
+#2
+Nice
+10
+7
+1
+1
+Reactions:
+Reply
+Report
+Kotyk-durkotyk
+Colonel
+23 Badges
+May 26, 2024
+1.137
+15.631
+Jan 8, 2025
+Add bookmark
+#3
+Wow, this looks really amazing!
+I just have a suggestion on the
+possible and highly requested
+vegetation change mechanic
+.
+If
+deforestation
+is implemented, you should also implement
+reforestation
+mechanic in the locations, that lost significant part of their population (at least due to the Black Death (UPDATE – and Native Americans catastrophe)).
+According to the scientists,
+the Black Death caused significant reforestation in Europe
+in the following ~100 years.
+Here is a France example from
+Mather et al. (1999)
+:
+Here is a table with some calculated forest cover data in Europe from
+Kaplan et al. (2009)
+:
+Of course, that should be
+limited only to relevant regions/climates
+. Not expected in tundra or deserts.
+And thank you for your dedication!
+UPDATE
+.
+There will be no dynamic vegetation, confirmed by Johan in the comments.
+Last edited:
+Jan 9, 2025
+Toggle signature
+Check out my EU5 threads:
+Ruthenia and Steppe Fix
+–
+my EU5 Mod
+with historical corrections for the Ruthenian and Steppe Regions
+Ruthenian / Cossack / Ukrainian Content Pack
+Orthodoxy Needs a Full Rework in EU5
+157
+25
+15
+7
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Jan 8, 2025
+Add bookmark
+#4
+You mean, you guys werent adding the terrain and vegetation and climate just for the love of the map-making art?
+Shame. Damn shame. ( ￣︿￣)
+Also, I'll say. You need a pretty good ship that can go into deep ocean. With only 2% drowning, no less.
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+20
+4
+1
+Reactions:
+Reply
+Report
+Shaftjuice
+Sergeant
+47 Badges
+May 17, 2020
+51
+356
+Jan 8, 2025
+Add bookmark
+#5
+Johan said:
+Welcome to another Tinto Talks! Happy Wednesday where we talk about our super-secret game with the codename Project Caesar, asking you for feedback!
+Today we’ll go into the details of how terrain works in the game. To iterate from the Map-Tinto-Talks from almost a year ago, each location has three different attributes instead of a single one as previous games had. This creates more variation and allows us more granular control over game play.
+Each location has a climate, a topography and a vegetation set. Sea locations do not have vegetation though.
+Climate
+View attachment 1240989
+The climate of a location impacts how well pops can live there, including how much food can be produced. It also affects the maximum winter level of a location.
+View attachment 1240990
+Tropical
+Population Capacity +50%
+Development Growth -10%
+Life Expectancy -5
+Free Capacity Attracts Pops
+No Winters
+Tropical represents areas with high average temperatures and no winter.
+View attachment 1240991
+Subtropical
+Population Capacity +100%
+Free Capacity Attracts Pops
+Max Winter is Mild
+Subtropical represents areas with high average temperatures and mild winters.
+View attachment 1240992
+Oceanic
+Population Capacity +50%
+Free Capacity Attracts Pops
+Max Winter is Mild
+Oceanic represents areas with mild winters but high humidity.
+View attachment 1240993
+Arid
+Wheat Production -10%
+Life Expectancy -5
+Free Capacity Attracts Pops
+No Precipitation
+No Winters
+Arid represents an area that has a severe lack of available water.
+View attachment 1240994
+Cold Arid
+Wheat Production -10%
+No Precipitation
+Max Winter is Mild
+Cold arid represents an area that has a severe lack of available water but experiences winters.
+View attachment 1240995
+Mediterranean
+Population Capacity +150%
+Free Capacity Attracts Pops
+No Winters
+Mediterranean represents areas with a perfect climate!
+View attachment 1240996
+Continental
+Population Capacity +50%
+Free Capacity Attracts Pops
+Max Winter is Normal
+Continental represents areas with cold winters.
+View attachment 1240997
+Arctic
+Population Capacity -55%
+Development Growth -25%
+Life Expectancy -5
+Max Winter is Severe
+Arctic represents areas with very cold winters.
+Vegetation
+View attachment 1240998
+Vegetation represents the foliage cover of a location.
+View attachment 1240999
+Desert
+Can have Sandstorms
+Movement Cost for Armies +10%
+RGO Build time +50%
+Road Build time +100%
+Development Growth -10%
+Food Production -33%
+Population Capacity +10k
+Deserts are barren landscapes with little precipitation and almost no potential for plant or animal life.
+View attachment 1241000
+Sparse
+Road Build time -10%
+Population Capacity +25k
+Sparse represent large flat areas of land with few or no trees.
+View attachment 1241001
+Grasslands
+Food Production +10%
+Population Capacity 50k
+Grasslands represent terrain dominated by grass with little or no trees or shrubs.
+View attachment 1241002
+Farmland
+Movement Cost for Armies +10%
+Road Build time +10%
+Development Growth +10%
+Population Capacity +100k
+RGO Maximum Size +10%
+Food Production +33%
+Farmland represents anthropogenic terrain, devoted to crops and/or extensive pastures.
+View attachment 1241003
+Woods
+Movement Cost for Armies +25%
+Attacker Diceroll in Battle -1
+Maximum Frontage in Battle -2
+Road Build time +25%
+Population Capacity +50k
+Development Growth -20%
+Food Production +10%
+Blocks Vision from Adjacent Sea
+Woods represent terrain with less dense vegetation than forests.
+View attachment 1241004
+Forest
+Movement Cost for Armies +50%
+Attacker Diceroll in Battle -1
+Maximum Frontage in Battle -3
+Road Build time +50%
+RGO Build time +33%
+Population Capacity +25k
+Development Growth -25%
+Blocks Vision from Adjacent Sea
+Blocks Vision from Adjacent Land
+Forest represents terrain with dense vegetation.
+View attachment 1241005
+Jungle
+Movement Cost for Armies +100%
+Attacker Diceroll in Battle -1
+Maximum Frontage in Battle -4
+Road Build time +200%
+RGO Build time +50%
+Population Capacity +50k
+Development Growth -50%
+Blocks Vision from Adjacent Sea
+Blocks Vision from Adjacent Land
+A jungle represents terrain with dense forest and tangled vegetation that makes doing anything on the land difficult.
+Topography
+View attachment 1241006
+Topography represents the roughness and elevation of the land within a location. Flatter Topography is generally better for growing Towns and Cities while rougher Topography is easier to defend.
+These first ones are land related topographies.
+View attachment 1241007
+Flatland
+No special attributes
+Flatland represents terrain that does not have any major topographic variation, so there are no impediments for army movement or building development.
+View attachment 1241008
+Mountains
+Movement Cost for Armies +100%
+Attacker Diceroll in Battle -2
+Movement is Blocked in Winter
+Maximum Frontage in Battle -4
+Road Build time +200%
+RGO Build time +100%
+Population Capacity -80%
+Development Growth -70%
+Food Production -20%
+Blocks Vision from Adjacent Sea
+Blocks Vision from Adjacent Land
+Mountain terrain has high altitude and also steep slopes with relatively few and narrow flat areas, so it is more difficult for armies to cross and fight in it, and also more difficult to develop.
+View attachment 1241009
+Hills
+Movement Cost for Armies +50%
+Attacker Diceroll in Battle -1
+Maximum Frontage in Battle -3
+Road Build time +50%
+RGO Build time +25%
+Development Growth -30%
+Food Production -10%
+Blocks Vision from Adjacent Sea
+Blocks Vision from Adjacent Land
+A terrain with hills has variations in the topography, but the slopes are not as steep nor as high as those of mountains, so the penalties are also not as bad.
+View attachment 1241010
+Plateau
+Movement Cost for Armies +25%
+Attacker Diceroll in Battle -1
+Maximum Frontage in Battle -1
+Road Build time +50%
+RGO Build time +25%
+Development Growth -25%
+Blocks Vision from Adjacent Sea
+They represent relatively flat areas situated at high altitude, so they have some penalties compared to flatlands due to their elevation.
+View attachment 1241011
+Wetlands
+Movement Cost for Armies +50%
+Attacker Diceroll in Battle -1
+Maximum Frontage in Battle -3
+Road Build time +75%
+RGO Build time +25%
+Development Growth -30%
+Food Production -10%
+Wetlands are terrain that is partially flooded, generally due to being near a river, lake, or coast.
+The following are the naval ones.
+View attachment 1241012
+Ocean
+Naval Attrition +1%
+This is the open seas between the continents, where only the best of ships can travel.
+View attachment 1241013
+Deep Ocean
+Naval Attrition +2%
+This is the open seas between the continents, where only the best of ships can travel, in the furthest areas from any coast.
+View attachment 1241014
+Coastal Ocean
+No special attributes
+This is the open seas between the continents, where only the best of ships can travel, but in the areas closer to the coast.
+View attachment 1241015
+Inland Sea
+Can Freeze over during winter
+Inland seas represent the land-enclosed seas like the Mediterranean or the Baltic.
+View attachment 1241016
+Narrows
+Can Freeze over during winter
+Movement Cost for Navies +20%
+Attacker Diceroll in Battle -1
+Maximum Frontage in Battle -2
+Blocks Vision from Adjacent Sea
+Narrows are areas of sea with proximity of coast on many sides, like straits or the sea inside archipelagos, where there is not much space for movement.
+Lakes, Salt Pans and Atolls exists, but are just graphical variants of  Coastal Oceans, even if lakes could freeze over during winter.
+Stay tuned, as next week we’ll delve into the wonderful world of military objectives.
+Click to expand...
+You posted this a few seconds late
+Toggle signature
+ah lep lep
+26
+9
+Reactions:
+Reply
+Report
+bloof5k
+First Lieutenant
+34 Badges
+Aug 3, 2020
+289
+1.529
+Jan 8, 2025
+Add bookmark
+#6
+With the amount of detail being put into Project Caesar I was wondering if there have been any stability/performance tests for multiplayer at this point, or has the game not yet reached a stage where a multiplayer test game could be done to check for performance issues?
+11
+1
+Reactions:
+Reply
+Report
+I
+Ilinar
+Second Lieutenant
+52 Badges
+Jul 3, 2024
+142
+967
+Jan 8, 2025
+Add bookmark
+#7
+1. So the cost of the road stays the same, only the time changes?
+2. Is there a map mode to check battle conditions (like defender bonuses), similar to the "simple terrain" mode in EU4?
+I know the 3D map can handle this, but I’m worried it might not completely avoid confusion about where exactly a river counts or where the hills are.
+If we have to watch out for forests, hills, and rivers all at once, it might mean switching between two modes while moving armies.
+Last edited:
+Jan 8, 2025
+25
+7
+Reactions:
+Reply
+Report
+GenericUsername1444
+Colonel
+Jun 25, 2024
+805
+10.781
+Jan 8, 2025
+Add bookmark
+#8
+Shouldn't the movement cost of troops be in red in this image, as the cost is increased?
+Toggle signature
+Professional Georgian
+80
+19
+Reactions:
+Reply
+Report
+Kotyk-durkotyk
+Colonel
+23 Badges
+May 26, 2024
+1.137
+15.631
+Jan 8, 2025
+Add bookmark
+#9
+Cold Arid
+icon with snowflakes
+(
+e.g
+. in Spain, Africa, Crimea)
+may look really confusing
+to the broad public, even though the naming is scientifically correct.
+Crimea
+and
+Costa del Sol
+are hardly associated with the terms '
+cold
+' or '
+snow
+' in terms of climate.
+I suggest:
+Rename
+cold arid
+into just
+arid
+,
+semi-arid
+or
+cool arid
+and somehow get rid of the snowflakes in the icon
+Rename
+your
+arid
+into
+hot arid
+or
+just
+hot
+(
+optional
+)
+This will be far less confusing for the players who do not know about Koppen classification.
+Last edited:
+Jan 9, 2025
+Toggle signature
+Check out my EU5 threads:
+Ruthenia and Steppe Fix
+–
+my EU5 Mod
+with historical corrections for the Ruthenian and Steppe Regions
+Ruthenian / Cossack / Ukrainian Content Pack
+Orthodoxy Needs a Full Rework in EU5
+62
+29
+18
+9
+Reactions:
+Reply
+Report
+S
+Syphse
+Corporal
+3 Badges
+Jun 14, 2024
+26
+283
+Jan 8, 2025
+Add bookmark
+#10
+My day is ruined...
+How am I meant to create a megalopolis in Siberia now?!
+Jokes aside, this TT looks amazing, keep up the amazing work Tinto!
+41
+11
+1
+Reactions:
+Reply
+Report
+Flower_Marlin
+Second Lieutenant
+2 Badges
+May 28, 2016
+193
+1.542
+Jan 8, 2025
+Add bookmark
+#11
+Are salt pans traversable under any circumstances? Can they dry out during the hot season and allow armies to walk over them?
+16
+2
+1
+Reactions:
+Reply
+Report
+Goblin Slave
+Goblin
+58 Badges
+Jul 6, 2018
+188
+2.402
+Jan 8, 2025
+Add bookmark
+#12
+Reposting my comment from the Japan Tinto Maps
+How do you guys plan to represent Japan’s snow country, the climate is subtropical and temperate generally, but due to its geography it’s gets some of the heaviest snowfalls in the world. Can you just give it a special modifier that gives worse winters despite the climate?
+Snow country (Japan) - Wikipedia
+en.m.wikipedia.org
+Japan is the world's snowiest country, 51% covered by snow | | Muslim Tourist Information Centre
+Surprisingly, Japan is the snowiest country in the world.According to the US-based AccuWeather survey, Japanese cities are among the top 3 in the world for annual snowfall in cities with over 100,000
+www.groovyjapan.com
+The heavy snowfalls of Japan's snow country are caused by moisture-laden clouds bumping up against the mountains along the backbone of Honshū and releasing their moisture under the influence of
+westerly winds
+blowing off the continent or down from Siberia. As a result, the region includes some of the world's snowiest spots at the same latitudes, many localities are also frequently visited by
+avalanches
+.
+Frequently
+snow
+is so deep in some places that buildings have a special entrance on their second story; people must remove snow from their roofs to prevent its weight from crushing their homes, and special care is taken to protect trees from the snow's weight. In some towns, people used to tunnel paths to one another's homes, and streets were lined with covered sidewalks to ensure that people could get around. Today in areas where temperatures are high enough to make it practical, many roads are equipped with sprinklers using warm ground water to keep them passable by melting the snow.
+The most recent record snows were brought by the blizzards of December 2005–February 2006, when well over 3 m (4.5 m in one part of
+Aomori Prefecture
+) of snow accumulated in many rural areas, and anywhere from 46 cm (
+Tottori
+) to nearly 1.5 m (
+Aomori
+) piled up even in several major cities.
+(Map of Japans snow country)
+Attachments
+IMG_3550.png
+4,7 KB
+· Views: 0
+67
+18
+Reactions:
+Reply
+Report
+cumaethor
+First Lieutenant
+27 Badges
+Mar 20, 2018
+288
+1.563
+Jan 8, 2025
+Add bookmark
+#13
+Very nice. Is Grasslands missing + sign in Population Capacity 50k?
+5
+Reactions:
+Reply
+Report
+Á
+Árpád Álmosfi
+Sergeant
+6 Badges
+Oct 29, 2019
+54
+167
+Jan 8, 2025
+Add bookmark
+#14
+Damn, this is very detailed. I love it!
+3
+Reactions:
+Reply
+Report
+Seleúkeia
+Private
+15 Badges
+Dec 28, 2022
+24
+68
+Jan 8, 2025
+Add bookmark
+#15
+Hi Johan.
+What does "Free Capacity Attracts Pops" means?
+5
+Reactions:
+Reply
+Report
+TheJLLNinja
+Private
+52 Badges
+Dec 7, 2018
+23
+179
+Jan 8, 2025
+Add bookmark
+#16
+It says that deserts have sandstorms; I assume this impacts armies/combat in some way? Are there any variants for sea tiles to have storms as well?
+16
+Reactions:
+Reply
+Report
+D
+Davincie
+Captain
+80 Badges
+Feb 5, 2020
+323
+1.952
+Jan 8, 2025
+Add bookmark
+#17
+Back in the first map dev post about the netherlands you mentioned not being sure whether or not terrain change would be possible in engine. Any change in that? Any hope for polders?
+25
+2
+1
+Reactions:
+Reply
+Report
+Tantara
+First Lieutenant
+30 Badges
+Oct 14, 2014
+249
+1.189
+Jan 8, 2025
+Add bookmark
+#18
+I have a feeling that, in the end game, the extent of these penalties will create severe disparities in development between neighboring locations within the same country. For instance, I might expect the boundaries between continental and Arctic in Sweden, or between Mediterranean and cold arid in Spain, to create pretty extreme differences between neighboring locations as the game goes on.
+is there any mechanism to “blend” or even out neighboring population/development, so neighboring locations don’t become too different?
+EDIT:
+I'm fine with topographical/vegetation differences, but in regards to climate, this is what I mean:
+At the boundaries between climatic regions, we flip from bonuses to severe penalties. In reality, there are additional climatic types that the tinto team has lumped together for simplicity. But because Paradox has lumped these climatic types together, we lose the "mixed condition" border regions.
+(here, paradox has lumped Cfc (subpolar oceanic), Dfc (subarctic), and ET (tundra) into the same "Arctic" category, while in reality, there may only be small differences between subpolar oceanic and oceanic)
+400 years into the game, I suspect this will create really severe disparities in development that wouldn't actually happen between locations that are literally right next to eachother.
+What I am wondering is whether there is any mechanism to help low development locations "catch up" to high development locations that they directly neighbor. This might help to even out this otherwise unrealistic long-term differences
+Last edited:
+Jan 8, 2025
+Toggle signature
+A
+Comprehensive Norway Map Overhaul
+34
+19
+6
+4
+Reactions:
+Reply
+Report
+Goblin Slave
+Goblin
+58 Badges
+Jul 6, 2018
+188
+2.402
+Jan 8, 2025
+Add bookmark
+#19
+Also what exactly makes the Mediterranean climate the best vs say subtropical, isn’t it generally drier?
+41
+11
+2
+1
+Reactions:
+Reply
+Report
+Ofiotaurus
+Private
+52 Badges
+May 28, 2021
+10
+164
+Jan 8, 2025
+Add bookmark
+#20
+Damn, I was hoping for a non-diceroll combat. A mix between Hoi4 and CK3
+3
+1
+1
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+38
+Next
+1 of 38
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

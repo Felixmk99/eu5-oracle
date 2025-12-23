@@ -1,0 +1,295 @@
+Source URL: https://eu5.paradoxwikis.com/Europa_Universalis_5_Wiki:Work_needed
+Source Date: 2025-12-17
+
+Tables needing auto-generation
+[
+edit source
+]
+List of regiments
+List of ships
+List of casus belli and wargoals
+Levy types
+Disasters
+Hints
+- located in localization\english\hints_l_english.yml
+Works of art
+- path for this one is game\main_menu\setup\start\11_art.txt
+Cultures
+- the culture cells can be colored with the culture's map color similar to
+https://ck3.paradoxwikis.com/Culture#List_of_cultures
+Religious actions
+- this one will be one of the most tricky because it's spread across multiple files in a folder that has all categories of actions
+Formable countries
+- optionally the sections can be subdivided into Historical, Plausible and Ahistorical to more easily show which are available depending on game rules
+Succession laws
+- different scripting from other law categories
+Age of Traditions advances
+- use the Advance template instead of file names (i.e. instead of [[File:Advance gunpowder advance.png]] use {{Advance|gunpowder advance}})
+Age of Renaissance advances
+- same as above
+Age of Discovery advances
+- same as above
+Age of Reformation advances
+- same as above
+Age of Absolutism advances
+- same as above
+Age of Revolutions advances
+- same as above
+Diplomatic actions
+- skip covert actions as those have their own section
+Historical earthquakes
+- scripted in events\earthquake_events.txt
+Subject types
+Cabinet actions
+Religious aspects
+Religious schools
+Treaties
+Languages
+Parliament agendas
+Holy sites
+Starting countries
+List of all modifications in game divided on category
+Module:Defines/Comments
+Draft
+[
+edit source
+]
+These tables are generated, but they are not finished. Suggestions for the formatting are very welcome
+Traits
+- use the Trait template instead of file names (i.e. instead of [[File:Trait literalist.png]] use {{Trait|literalist}})
+Buildings#List_of_buildings
+Religious laws
+Military laws
+Administrative laws
+Socioeconomic laws
+Estate laws
+International organization laws
+Parliament issues
+Manually generated tables
+[
+edit source
+]
+These tables have been done manually, but it would be useful to autogenerate them, so that they can be updated quicker in the future and to reduce the risk of errors
+Reforms
+Priorities
+[
+edit source
+]
+Disasters
+Laws
+go through the
+Modifier_types#List_of_defined_modifier_types
+and make sure that the effect of all modifier types which are used in the game, are described somewhere on the wiki and that the name of the modifier redirects to the section where it is described.
+search the eu4 wiki for things which are still in eu5, but not listed on the eu5 wiki yet. And then add them here to the work needed page. Good places to start would be:
+eu4:Category:Europa_Universalis_4
+eu4:Template:Mechanics_navbox
+eu4:Category:Game_concepts
+eu4:Mechanics
+eu4:Category:Realm
+Adapt navboxes from other wikis and make sure that all content pages have one. Ideally the navbox or the specific tab in the navbox matches the category of the page
+eu4:Template:Achievement_navbox
+or a similar one from another paradox wiki
+I would say
+eu4:Template:Mechanics_navbox
+is good, because it puts all the different types of mechanics in one navbox, but uses tabs so that it doesn't become too big(the first parameter can be used to change which tab is shown per default on a page) --
+Grotaclas
+(
+talk
+) 23:06, 3 November 2025 (UTC)
+Autogenerate country data for use with
+{{Country}}
+and country list pages
+I've made a mockup of a general country list (found
+here
+which would involve a separate page for each sub-continent (that could then be linked in the country navbox's headers). It further breaks down into regions where the charts are made on the page. Suggestions are appreciated, and if the process could be automated that would be excellent! I'm not any good creating autogenerators or controlling their output format.
+BenjiTheKitty
+(
+talk
+) 05:00, 17 December 2025 (UTC)
+Upload remaining common icons, namely
+religions
+, aspects, and schools
+Low priority
+[
+edit source
+]
+add a page for
+Soundtrack
+. Maybe in a way so that the list of songs from the DLCs can be transcluded into
+Downloadable content
+create
+Settings
+similar to
+eu4:Settings
+which describes all the ingame settings, the pdx_settings.json and the launch options. Some possible launch options are (most are untested and might not work or not actually launch options):
+-dx12, -vulkan, -randomrenderer, -renderer= (options are dx12, vulkan, random, null (blank window) and maybe dx11, but dx11 crashes immediately), -debug_mode, -graphic_preset=very_low, -mapeditor (supposedly needs at least 64 GB RAM, better 128 GB), -nofilewatcher, -filewatcher, -nakama (writes an error into the logs), -steam, -language=l_english (other languages seem to work as well), -nographics (starts without a GUI, no idea how to interact with that), -gdpr-compliant, -antiloop (some kind of debugging thing to prevent infinite loops when restarting), -antiloop_multiplier=8, -antiloop_multiplier=2, --gui-validation=game, --gui-validation-settings=gui_validation_settings.json, -write_database_dependency_graph (writes graphs/database_graph.dot), -textureimporter (exits immediately?),-editormode (crash?), -test_mods, -nosounds (disables sounds), -markdown (eu5 does not open a window, but runs in the background), -force_text_save(non-ironman saves are written in plain text, even if -debug_mode is not active), -continuelastsave (load save game specified in continue_game.json), -loadsave=X (load save game from the file X (without file extension)), -rehost_savegame(Created savegame for rehost), -audio_debug_log_level, -playsets, -display_mode, -fullscreen, -windowed, -multi_sampling, -hardware_report, -rendersamples, -rendertest, -editormode, -run_console_action="X" (execute console command X, but gives error message instead. When using only
+--run_console_action
+you get a description). Maybe some of the other settings also work as command line options. Test if
+--
+also works instead of
+-
+. Find out if it is possible to change mods or playsets with command line options. The command line parameter
+--command_line_help
+outputs as list of some of the command line options:
+list of command line options
+Usage: eu5.exe [OPTIONS]... [ACTION]
+Run the program and have fun!
+Optionally, add one or more OPTIONS :
+Option                                          Documentation
+--antiloop=<bool>                             Run with antiloop enabled to crash when things take too long for detecting infinite loops
+--antiloop_multiplier=<uint>                  Scale the anti loop timings for slower computers
+--asserts                                     Turn asserts on
+--automated_test                              Runs the game in automated test mode
+--benchmark=<int>                             Run a benchmark
+--benchmark_location_gfx_stop_frames=<int>    Frames that the benchmark will top in each location
+--brute_force_node_test[=<string>]...         Runs a brute force test of the transition graph nodes, one by one, to detect missing dependencies. Add node names as arguments to run the test for specific nodes
+--brute_force_node_test_count=<uint>          Number of times to run every node test
+--capture-wwise-profile=<string>              Path (absolute or relative to userdir) to store Wwise profiler data
+--checksum_always_update                      Enables checksum calculation each game tick even if off normally, such as during single player.
+--debug_animation_time                        Let you ignore pause and time scaling for debugging animations.
+--debug_controller_camera                     Disable mouse edge panning, and enable controller/gamepad camera, for cinematic views.
+--debug_mode                                  If the application was launched with the 'debug_mode' flag.
+--end_after_test                              Shutdown after test
+--event_test_suite                            Executes the scripted test events during the game
+--exclude_dlc=<string>                        Semi-colon separated list of DLCs to disable
+--force_disable_mods_on_crash                 Force-enable the sentinel file that disables mods on crash in start-up even if it would be disabled by default in this mode (e.g. running with debugger)
+--force_marketing                             Show frontend marketing material, ignoring visibility counter.
+--force_serial_tick_tasks                     Force parallel tick tasks to execute serial
+--force_text_save                             Force the savegames to be in text mode
+--fulldumps=<bool>                            Should we generate a full dump when crashing?
+--gdpr-compliant                              Use this flag to indicate consent to EULA, Privacy Policy and any other related legal docs, primarily for use if the game is launched by a launcher that has already displayed them.
+--gfxdebug                                    Enable graphics debug validation.
+--gfxdebug_crash_dumps=<string>               Enable GPU crash dumps.
+--gfxdebug_deviceid=<uint>                    Allows overriding which GPU to use
+--gfxdebug_disable_shader_preload             Disable preloading of shaders.
+--gfxdebug_display_index=<uint>               Allows overriding which display to use
+--gfxdebug_shader                             Enable shader debugging.
+--gfxdebug_upload_buffer_size=<uint>          Allows overriding the size, in MB, of the upload buffer used for resource creation
+--graphic_preset=<string>                     Graphics Quality preset
+--gui-validation=<string>                     Argument values: game, all. No argument defaults to 'game'
+--gui-validation-settings=<string>            Comma-separated ordered list of json files
+--handsoff                                    Run the game in a handsoff mode
+--hardoos                                     Check for out of syncs more frequently
+--hide_marketing                              Hides frontend marketing material, ignoring visibility counter.
+--host_server=<string>                        Host a server
+--ignore_disable_mods_on_crash                Load game with mods enabled even if game crashed before main menu
+--join_server=<string>                        Join a server
+--language=<string>                           Override the language of the game to always be the selected language key, e.g. '-language=l_english'.
+--leavepops                                   Don't modify pop sizes when starting a new game
+--load_daily_save                             Loads the game into a savegame unique for the day
+--loading_screen=<string>                     Forces a loading screen scene
+--logassertcallstack                          Log callstack on asserts
+--log_incorrect_checksums                     Log incorrect DLC checksums
+--log_missing_script_loc                      Log missing trigger and effect localization database entries
+--log-settings=<string>                       Path (absolute or VFS) to custom log settings
+--log_steam_debug_output                      For Steam-SDR, log all Steam Networking Utils debug messages to error log
+--mapeditor=<string>                          Start the Map-Editor. Optional boot configuration can be specified.
+--memory_leak_detector_offset=<uint>          Minimum bytes the consumer should be leaking before a warning is issued. Default is 1MB
+--mod=<string>                                Ordered list of folders with mods to add to playset, if a mod is already present it will be enabled
+--name=<string>                               Mod Name when game is started with --mod_stubber
+--no_dlc                                      Load game without DLCs and mods
+--nopopup                                     Don't popup asserts
+--nsight                                      Compile shaders in a compatible format for Nvidia Nsight.
+--observe                                     Run the game in a observe mode
+--only_log_asserts                            Only log asserts
+--oos_bias=<bool>                             Specify if bias checksum should be enabled and printed for desynchs
+--oos_levies=<bool>                           Specify if levies checksum should be enabled and printed for desynchs
+--oos_modifiers=<bool>                        Specify if modifiers checksum should be enabled and printed for desynchs
+--play=<string>                               Automatically get ingame with specified country
+--randomlog_frames=<uint>                     Number of extra random log frames to keep on top of those of the slowest player
+--random_log_override=<bool>                  Override if random logging should be enabled or disabled
+--randomlog_stack=<uint>                      Number of call stacks to log in random logging
+--rehost_months=<int>                         Host will save after this amount of ingame months. This will be used to rehost in the nightly
+--renderer=<string>                           Override renderer (dx11, dx12, vulkan, random, null)
+--resync_months=<int>                         Host will force a resync after this amount of ingame months.
+--seed=<int>                                  Force a specific seed for generating a new gamestate
+--set_elastic_session_id=<string>             Provide ID for elastic search session
+--skip                                        Skip frontend
+--skip_checksum                               Skip generating checksum
+--soundengine=<string>                        Override soundengine
+--suppress_missing_settings_error             Suppress errors from reading settings file with deprecated categories
+--taskthreads=<int>                           Override the number of task/worker threads that should be created
+--test                                        Run test
+--test_mods=<string>                          Semicolon separated list of mods to enable for the test
+--test_save                                   Makes a save after the test
+--timed_handsoff=<int>                        Run the game in a handsoff mode for a set amount of months
+--track-vfs-overrides=<string>                Report which files override which in Virtual File System (valid arguments: disabled, basic, mods, all)
+--userdir=<string>                            Specify user directory
+--use_workset_in_ticktasks                    Use a workset instead of usual parallel-for in tick tasks
+--validate_gs=<int>                           Validate gamestate constraints every X
+--window_title=<string>                       Set window title
+Optionally, execute a specific command line ACTION:
+Action                                          Init stage      Documentation
+--image_analyzer                              main            Analyze properties of specified images/directories
+--run_console_action_main                     main            Runs the specified in-game console command, then exits.
+--run_console_action_clausewitz               clausewitz      Runs the specified in-game console command, then exits.
+--run_console_action                          application     Runs the specified in-game console command, then exits.
+--mod_stubber                                 clausewitz      Create a basic mod folder structure and metadata.json file pre-filled with a mod name provided as the last argument (after -mod_stubber)
+--command_line_help                           main            Output all command line arguments and actions
+Press any key to exit... (use `--no-console` to skip this wait)
+Add an
+easter eggs
+page
+Ongoing
+[
+edit source
+]
+Whole wiki.
+Add new pages to
+Template:Countries navbox
+as they are created.
+Content quality
+[
+edit source
+]
+Autogeneration
+[
+edit source
+]
+Many pages or sections on the Europa Universalis 5 Wiki contain
+autogenerated
+content. These are tables, sections, or other elements which are created from the game files through a script or tool and should not be edited by hand. Wiki users and contributors should instead suggest changes on the talk page where the content is located or the talk page of the
+template
+or
+module
+that generates the content.
+Verification
+[
+edit source
+]
+Game information on the
+Europa Universalis 5 Wiki
+should be verifiable with references to game files or empirical tests.
+The most basic form of verification is listing relevant game files in the
+References
+section of a page. For example:
+== References ==
+<references/>
+----
+* Religions are defined in {{path|common/religions|in_game}}
+References
+Religions are defined in
+/Europa Universalis V/game/in_game/common/religions
+More specific verification can use reference tags to highlight specific information and note its source. Some templates can assist with this, such as
+{{Cite define}}
+.
+References to empirical tests should ideally refer to a forum post at
+https://forum.paradoxplaza.com
+or reproduction steps can be given as a reference, or if longer on the
+Discussion
+space for the page
+Versioning
+[
+edit source
+]
+The wiki uses a versioning system to facilitate keeping pages up to date, and to warn readers of info that may be obsolete.
+Every regular page on the wiki has a version number associated with it, indicated using the
+{{version}}
+template. This version number tells the readers and editors for what version the page as a whole was last verified. Any editor can update this if they've verified that all information on the page is up to date.
+In addition, most pages include a version number for each section, indicated using the
+{{SVersion}}
+template. Like the overall version number, this tells the readers and editors for what version the section was last verified. If the version is the latest, this version number is hidden, but if it isn't then a warning appears at the top of the section. Any editor can update this if they've verified that all information in the section is up to date.
+Once every section of a page that is versioned by section is up to date, then the page as a whole should be marked as up to date.
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=Europa_Universalis_5_Wiki:Work_needed&oldid=21170
+"

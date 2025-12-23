@@ -1,0 +1,587 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-82-1st-of-october-2025.1861246/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #82 - 1st of October 2025
+Thread starter
+Pavía
+Start date
+Oct 1, 2025
+Hello, and welcome to another
+Tinto Talks
+, the happy Wednesdays where we talk about
+Europa Universalis V
+!
+Today, we will talk about three more generic Disasters: '
+Decline of the Empire
+', '
+Court and Country
+', and '
+Aspiration for Liberty
+'. These 3 disasters pose a challenge for the players to deal with. Let’s start, without further ado:
+Decline of the Empire
+​
+‘Decline of the Empire’ is a generic disaster that portrays the difficulties of ruling large empires in pre-modern eras; we were inspired by cases close to our starting date, such as the decline of the Khmer Empire in the 14th century, the Empire of Mali in the 15th century, and other such cases.
+The disaster can trigger for countries of Empire rank that have fallen below 0 Stability and whose ruler or regent commands fewer than 150 total Ability points. In addition, it requires that the state either exerts less than a certain level of average control in its Home Region, varying by Age from 40% in the Age of Traditions to 60% in the Age of Revolutions, or that the proportion of primary and accepted culture pops within the realm has dropped too low.:
+While active, there will be penalties on Estates Satisfaction Equilibrium, Bank Interest, and Monthly Rebel Growth:
+To recover from the disaster, you will need to recover positive Stability, to improve the Control up to 50% in the Home Region, or to have more than 50% of Primary or Accepted Cultures in your country:
+Some flavour events may also trigger, besides the main mechanical effect of disaster - dealing with dissatisfied Estates, and growing Rebels:
+Until, hopefully, one day it will end:
+Court and Country
+‘Court and Country’ is one of our old friends from EU4, which has been reworked and revamped for EU5. It may trigger after the Age of Absolutism, in countries whose Crown Estate Power is more than 25%, or whose Societal Value is ‘Absolutism vs Liberalism’ is at least 50 towards Absolutism:
+Note; Court and Country contains many new events, which affect the Societal Value position of Absolutism vs Liberalism
+​
+While active, the Estates of your country will be less satisfied, and the pops will also be more likely to join the Rebels:
+There are two ways of finishing the disaster, either by embracing Absolutism or Liberalism. In the first case, the Revolution may hit your country much harder when it appears, while in the latter, you'll be giving up Crown Power to your estates. There's no clean solution - it depends on which type of country you want to play with during the Ages of Absolutism and Revolutions:
+Note; the 35.53% of Crown Power needed is calculated at the beginning of the disaster, setting a realistic and dynamic goal that is tailored uniquely and fairly for each country's situation.
+​
+As you've seen, there are different actions that play with both the mechanics for Age of Absolutism, and also with those of the Estates:
+And there are, of course, random flavour events triggering while the disaster is active:
+​
+Aspiration for Liberty
+​
+Another old friend from EU4! Now, in EU5, it may trigger if being in the Age of Revolutions, while the Stability is lower than 20, having an average country literacy of 60, and either by having No Parliament, an Autocratic Parliament, or the 'Absolute Rule' Policy. It will make your country more receptive to Revolution, as well:
+It will also impact Estate Satisfaction Equilibrium, or the Stability Investment Cost:
+It will only end if the Legislative Assemblies are Reinstated, and having more than 90 Stability:
+Note; The stability required to complete the disaster is heavily dependent on your country's average literacy. Higher literacy = harder to quell the demands of the people
+And this couple of events may trigger while the disaster is active:
+And that’s all for today! Next Wednesday, we’ll talk about a situation,
+The Revolution
+, and a disaster that may trigger under it, the
+Revolutionary Chaos
+. But before that, tomorrow we’ll have a new Dev Diary, about
+Military and War
+; and on Friday, we’ll have a Tinto Flavour about the
+Netherlands
+.
+And also remember, you can
+Pre-Purchase Europa Universalis V now
+! Cheers!
+Attachments
+7. Decline of Empires7.jpg
+203,2 KB
+· Views: 0
+106
+33
+4
+2
+Reactions:
+Reply
+Report
+Written by
+Pavía
+Content Design Lead PDX Tinto
+Paradox Staff
+12 Badges
+Messages
+4.509
+Reaction score
+192.684
+1
+2
+3
+…
+Go to page
+Go
+6
+Next
+1 of 6
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Oct 1, 2025
+Add bookmark
+#2
+pfft. Clearly these historical "emperors" have just never played PDX games like I have. My empires never decline in them.
+.... why does my palace smell like smoke?
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+53
+7
+2
+Reactions:
+Reply
+Report
+GenericUsername1444
+Colonel
+Jun 25, 2024
+805
+10.781
+Oct 1, 2025
+Add bookmark
+#3
+My whole country is a disaster in 2025
+Toggle signature
+Professional Georgian
+41
+8
+Reactions:
+Reply
+Report
+Baphomet enjoyer
+Colonel
+1 Badges
+May 19, 2024
+800
+8.024
+Oct 1, 2025
+Add bookmark
+#4
+Could you make it so the "decline of empire" disaster also applies to non-empire tier great powers?
+54
+13
+3
+1
+1
+Reactions:
+Reply
+Report
+hjarg
+Insert witty title here
+105 Badges
+Dec 23, 2000
+6.554
+3.490
+Oct 1, 2025
+Add bookmark
+#5
+A decline mechanic! Finally!
+May the mighty fall!
+Toggle signature
+My latest AARs
+Portugal- A World To Die In
+- EU V story about Portugal's quest to spread into every corner of the world
+An Empire Where the Sun Always Rises
+- Victoria 3 AAR about industrialization of Japan
+Again with the Norman invasion. Story of de Hautevilles
+- A Crusader Kings 3 story about your favourite Normans in Italy
+Something to Remember me by
+- A Crusader Kings 2 short story
+18
+2
+Reactions:
+Reply
+Report
+D
+dw70676
+Second Lieutenant
+76 Badges
+Aug 13, 2011
+191
+1.756
+Oct 1, 2025
+Add bookmark
+#6
+Hopefully this means that large empires will break apart once in a while!
+28
+4
+1
+Reactions:
+Reply
+Report
+M
+Magnus-Fidelis
+Corporal
+41 Badges
+Jun 4, 2018
+41
+74
+Oct 1, 2025
+Add bookmark
+#7
+How hard it is to keep a good stability ? Seems you could technically avoid disaster if you keep it up.
+Also is it something we can change in the rule to make it more hard to avoid for the player ? Making for a more challenging run
+17
+Reactions:
+Reply
+Report
+KaiserWilhelmI
+Basileùs Autokrátōr
+82 Badges
+Apr 30, 2013
+1.054
+878
+Oct 1, 2025
+Add bookmark
+#8
+The mob is dressed like it's the 17th century
+The soldiers are from the 18th century
+The king's throne is flanked by Napoleonic eagle columns.
+This truly is one of the paintings of all time.
+75
+20
+2
+1
+Reactions:
+Reply
+Report
+B
+Bozkurt
+Major
+12 Badges
+Jun 15, 2024
+618
+2.356
+Oct 1, 2025
+Add bookmark
+#9
+Tinto flavour or talks about netherlands?
+Toggle signature
+#1 PROUD AI SUPPORTER
+2
+Reactions:
+Reply
+Report
+Tercio Soldier
+Major
+58 Badges
+Feb 25, 2020
+568
+4.336
+Oct 1, 2025
+Add bookmark
+#10
+Is it me or does the decline of empire seem difficult to trigger? Why does it require for the monarch to have bad stats? An empire can decline with an intelligent monarch
+22
+9
+2
+Reactions:
+Reply
+Report
+Staden
+First Lieutenant
+96 Badges
+Jul 24, 2016
+260
+953
+Oct 1, 2025
+Add bookmark
+#11
+So the only way to end the aspiration for liberty disaster is to give in? Really? You can't double down and fight back?
+9
+2
+Reactions:
+Reply
+Report
+ItsMorkino
+Sergeant
+34 Badges
+Mar 28, 2016
+59
+375
+Oct 1, 2025
+Add bookmark
+#12
+Pavía said:
+Hello, and welcome to another
+Tinto Talks
+, the happy Wednesdays where we talk about
+Europa Universalis V
+!
+Today, we will talk about three more generic Disasters: '
+Decline of the Empire
+', '
+Court and Country
+', and '
+Aspiration for Liberty
+'. These 3 disasters pose a challenge for the players to deal with. Let’s start, without further ado:
+Decline of the Empire
+​
+‘Decline of the Empire’ is a generic disaster that portrays the difficulties of ruling large empires in pre-modern eras; we were inspired by cases close to our starting date, such as the decline of the Khmer Empire in the 14th century, the Empire of Mali in the 15th century, and other such cases.
+The disaster can trigger for countries of Empire rank that have fallen below 0 Stability and whose ruler or regent commands fewer than 150 total Ability points. In addition, it requires that the state either exerts less than a certain level of average control in its Home Region, varying by Age from 40% in the Age of Traditions to 60% in the Age of Revolutions, or that the proportion of primary and accepted culture pops within the realm has dropped too low.:
+View attachment 1372317
+View attachment 1372318
+View attachment 1372319
+​
+While active, there will be penalties on Estates Satisfaction Equilibrium, Bank Interest, and Monthly Rebel Growth:
+View attachment 1372320
+​
+To recover from the disaster, you will need to recover positive Stability, to improve the Control up to 50% in the Home Region, and to have more than 50% of Primary or Accepted Cultures in your country:
+View attachment 1372321
+​
+Some flavour events may also trigger, besides the main mechanical effect of disaster - dealing with dissatisfied Estates, and growing Rebels:
+View attachment 1372323
+​
+Until, hopefully, one day it will end:
+View attachment 1372324
+​
+Court and Country
+‘Court and Country’ is one of our old friends from EU4, which has been reworked and revamped for EU5. It may trigger after the Age of Absolutism, in countries whose Crown Estate Power is more than 25%, or whose Societal Value is ‘Absolutism vs Liberalism’ is at least 50 towards Absolutism:
+View attachment 1372353
+View attachment 1372331
+View attachment 1372332
+Note; Court and Country contains many new events, which affect the Societal Value position of Absolutism vs Liberalism
+​
+While active, the Estates of your country will be less satisfied, and the pops will also be more likely to join the Rebels:
+View attachment 1372333
+​
+There are two ways of finishing the disaster, either by embracing Absolutism or Liberalism. In the first case, the Revolution may hit your country much harder when it appears, while in the latter, you'll be giving up Crown Power to your estates. There's no clean solution - it depends on which type of country you want to play with during the Ages of Absolutism and Revolutions:
+View attachment 1372336
+Note; the 35.53% of Crown Power needed is calculated at the beginning of the disaster, setting a realistic and dynamic goal that is tailored uniquely and fairly for each country's situation.
+​
+As you've seen, there are different actions that play with both the mechanics for Age of Absolutism, and also with those of the Estates:
+View attachment 1372337
+​
+And there are, of course, random flavour events triggering while the disaster is active:
+View attachment 1372339
+​
+Aspiration for Liberty
+​
+Another old friend from EU4! Now, in EU5, it may trigger if being in the Age of Revolutions, while the Stability is lower than 20, having an average country literacy of 60, and either by having No Parliament, an Autocratic Parliament, or the 'Absolute Rule' Policy. It will make your country more receptive to Revolution, as well:
+View attachment 1372340
+View attachment 1372341
+​
+It will also impact Estate Satisfaction Equilibrium, and the Stability Investment Cost:
+View attachment 1372342
+​
+It will only end if the Legislative Assemblies are Reinstated, and having more than 90 Stability:
+View attachment 1372343
+Note; The stability required to complete the disaster is heavily dependent on your country's average literacy. Higher literacy = harder to quell the demands of the people
+View attachment 1372344
+​
+And this couple of events may trigger while the disaster is active:
+View attachment 1372346
+View attachment 1372347
+​
+And that’s all for today! Next Wednesday, we’ll talk about a situation,
+The Revolution
+, and a disaster that may trigger under it, the
+Revolutionary Chaos
+. But before that, tomorrow we’ll have a new Dev Diary, about
+Military and War
+; and on Friday, we’ll have a Tinto Talks about the
+Netherlands
+.
+And also remember, you can
+Pre-Purchase Europa Universalis V now
+! Cheers!
+Click to expand...
+The decline of an Empire should really be a situation. It happens slowly, hiding bad outcomes behind good short term rewards. Building up corruption slowly in exchange for money or favors with the estates that even the player may be tempted to take despite knowing that it furthers their downfall. As the situation deepens, other nations should be able to be a part of it, taking advantage of their decline to snag concessions, territory, or at the extreme stages and in the later game even partitioning parts of the empire. Other nations should be able to accelerate your decline. It should be dynamic and feel like an empire is really in the thralls of a slow decline.
+I dont think it should be something that comes on fast by simply meeting some criteria, hits hard, you overcome it, and boom you're back to golden.
+44
+8
+3
+Reactions:
+Reply
+Report
+Aquila SPQR
+LEGATVS PROPRAETOR BYZABOO MEME-MAN
+Jul 3, 2010
+2.438
+18.068
+Oct 1, 2025
+Add bookmark
+#13
+I hope it won't be nerfed in the first patch into basically non-existence because of some disgruntled players.
+45
+6
+1
+Reactions:
+Reply
+Report
+Apukispay
+Second Lieutenant
+39 Badges
+Apr 22, 2021
+183
+1.302
+Oct 1, 2025
+Add bookmark
+#14
+How likely is the player to dissolve parliament, is there any incentive to doing so? it seems that you would only be depriving yourself from useful and interesting mechanics by doing it.
+Toggle signature
+-
+Advocating in favor of Taino Cacicazgos
+-
+Suggestions for SoP consistency in the Caribbean
+-
+Taino Chiefdoms as tribal settled States.
+4
+2
+Reactions:
+Reply
+Report
+T
+titan.bevel
+Colonel
+Aug 1, 2024
+904
+3.356
+Oct 1, 2025
+Add bookmark
+#15
+I think the condition shown for decline of the empire ends are different from what you describe : you describe that you need"to improve the Control up to 50% in the Home Region, and to have more than 50% of Primary or Accepted Cultures" and the tooltip says only ONE of these 2 conditions is required.
+I'd hope the tooltip is the one in the wrong here.
+Toggle signature
+2 proposals
+on missions
+a proposal on religious influence
+a proposal on CB and peace deals
+maps ought to be more important !
+trade need some monopoly notion
+,
+and some import and export differences
+2
+1
+Reactions:
+Reply
+Report
+P
+Polesie Admiral
+Owns EU5
+45 Badges
+Nov 7, 2022
+2.436
+8.655
+Oct 1, 2025
+Add bookmark
+#16
+I wanna ask about 2 unrelated disasters, the Serbian empire decline- if it make Serbia fragmented, and the Time of Troubles, cuz in the video it wasnt seems so bad and foreign powers didnt intervened in it
+Toggle signature
+my EU5 suggestions:
+expanding the Tatar Yoke mechanics
+IO-Based short term alliances for targeted wars
+Representation of Jewish pops using estates and laws mechanics
+Suggestion to harden conquest of small nations
+Reworking the Thirty Years War with Multiple Leagues
+Suggestion for Northern wars situation
+Subsidizing countries grant favours on them
+High inflation directly lowers satisfaction
+2
+1
+Reactions:
+Reply
+Report
+Nikolai II
+A bunny with a hat
+135 Badges
+Nov 18, 2001
+9.852
+2.926
+www.giantitp.com
+Oct 1, 2025
+Add bookmark
+#17
+Pavía said:
+View attachment 1372333
+​
+There are two ways of finishing the disaster, either by embracing Absolutism or Liberalism. In the first case, the Revolution may hit your country much harder when it appears, while in the latter, you'll be giving up Crown Power to your estates. There's no clean solution - it depends on which type of country you want to play with during the Ages of Absolutism and Revolutions:
+Note; the 35.53% of Crown Power needed is calculated at the beginning of the disaster, setting a realistic and dynamic goal that is tailored uniquely and fairly for each country's situation.
+​
+Click to expand...
+So, trying to reach 65% for all estates - with a 25% malus, meaning you're actually striving for 90% satisfaction equilibrium in all estates. That sounds like a pretty harsh deal (and not one uniquely tailored fairly for every country, like maybe a country that has a country-specific modifier giving an additional -20% to a particular caste while granting +10% to everyone else).
+It would seem better to go for either "make all happy" or "get 50+ liberalism" should be enough, not demanding both to that rather high extent?
+Or is it so easy to attain satisfaction that 90% on all estates should be seen as rather normal?
+Toggle signature
+FSM! I am convinced. Are you?
+IPU! I have faith. Do you?
+GENERATION 33: The first time you see this, copy it into your sig on any forum and add 1 to the generation. Social experiment.
+2
+2
+1
+Reactions:
+Reply
+Report
+PonuryWojtek
+Sergeant
+54 Badges
+Sep 18, 2016
+65
+485
+Oct 1, 2025
+Add bookmark
+#18
+Staden said:
+So the only way to end the aspiration for liberty disaster is to give in? Really? You can't double down and fight back?
+Click to expand...
+From the tooltip it seems like it's either. Either give in or have above 90 stability.
+4
+2
+1
+Reactions:
+Reply
+Report
+Baphomet enjoyer
+Colonel
+1 Badges
+May 19, 2024
+800
+8.024
+Oct 1, 2025
+Add bookmark
+#19
+Pavía said:
+View attachment 1372342
+​
+It will only end if the Legislative Assemblies are Reinstated, and having more than 90 Stability:
+Click to expand...
+Don't you mean or? The pic says "at least one of these"
+3
+Reactions:
+Reply
+Report
+Lopatou_ovalil
+Major
+94 Badges
+Nov 15, 2012
+662
+178
+Oct 1, 2025
+Add bookmark
+#20
+GenericUsername1444 said:
+My whole country is a disaster in 2025
+Click to expand...
+43
+5
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+6
+Next
+1 of 6
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

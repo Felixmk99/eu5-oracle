@@ -1,0 +1,466 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-12-15th-of-may.1677441/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #12 - 15th of May
+Thread starter
+Johan
+Start date
+May 15, 2024
+Welcome to another Tinto Talks, where we delve into the details of the most top-secret project ever made.
+This week we talk about something that is rather new to our GSG, and that is the concept of international organizations. Now this may sound like an anachronistic term, and when you read further in this Tinto Talks, you’ll go “but you already have this in previous games”. Yes, we did have some hard-coded systems in previous games, like the Holy Roman Empire, but what we have here in Project Caesar is a completely dynamic system, 100% scriptable and extendable for modders, which allows for many of these, and with far more flavor.
+What is an international organization? Well, at its heart is a group of countries that share some common things, and then quite a few attributes that can be defined for them. The instruction file right now is 140 lines long, and it will keep growing.
+Some examples of things that an IO can have are the following.
+If it has a leader or not, and if the leader is a character or a country.
+If it's unique or there can be multiples of it.
+If locations can be owned by it or not.
+Member benefits or penalties.
+Laws and Policies it can have.
+Special statuses inside the organization
+How members will behave during wars
+And dozens more unique attributes.
+Membership in some of these can take a diplomatic relations slot.
+As we continue our development of this game, we keep adding more of these, adding more unique flavor to the game.
+We have “control-groups” like every PDS game has had since EU1, and Stellaris added icons for quick selects…  The one for Project Caesar can be pretty much anything in the game, and if you start as a member of an organization, you get a control group for it from the start.
+Common Organizations
+Let's take a look at some of the generic ones, some of these have been hard-coded systems in previous GSGs, and these are not unique organizations in a campaign, but can exist in multiple instances.
+Coalitions
+These can be created, with a country as a target, when the target has an aggressive expansion beyond a certain threshold.
+Unions
+This is a sort of defensive alliance between countries that share the same ruler. They may or may not have different levels of integration.
+There are a few others like this, including defensive leagues and tribal federations.
+Religious Organizations
+Catholic Church
+Every country in the world that is part of the Catholic faith is a part of this organization. They have issues that the cardinals vote on, and being a member has implications and restrictions.  Of course, this has the added benefit of having Catholic pops in Catholic countries paying a tithe to the Church, which eventually finds its way into the Papacy.
+One reason to go Lutheran?
+Crusades & Jihads
+These are temporary international organizations that will be created when a Crusade or Jihad is called. They have a target set and act like an alliance against that country.
+Autocephalous Patriarchates
+Meaning self-headed, an Autocephalous Patriarchate is a metropolitan bishop in the Eastern Christian confessions which acts independently and does not depend on or answer to any other hierarchically superior church authority. The different patriarchates then have their own synods of bishops to decide upon anything affecting their own religious jurisdiction.
+WiP grahics etc.
+There are many of these, for Orthodox, Miaphysite, and other Eastern Christian confessions.
+There are many more, some other religions have a central organization, and others have fragmented ones.
+Specific Organization
+There are also a fair amount of completely unique and flavorful organizations.
+What's this then?
+Tatar Yoke
+The Tatar Yoke consists of various principalities of Eastern Europe that are subject to Tatar Rule following their invasion in the 13th century. The most prominent of rulers is awarded the title of Grand Prince, and is tasked with collecting tribute from the other tributaries on behalf of the Golden Horde Khan.
+Middle Kingdom
+The Middle Kingdom is the meaning of China and has been considered the cultural center of East Asia since Antiquity.
+This organization is led by the Huángdì, the Emperor of China, who has a number of Fēng Chén, akin to vassals or tributaries, that can be promoted to Celestial Governors, equivalent to the Secretariats that the Yuán dynasty used in the administrative organization of their empire. Its members have a unique societal value, Sinicized vs Unsinicized, and there’s a Tribute system that determines how much Celestial Authority the Huángdì gets, which is used to enforce Laws and Decrees.
+The Tribute system is a system where the Huángdì sends gold to the other nations in the Middle Kingdom, depending on their size.
+Holy Roman Empire
+The glory of the ancient Roman Empire lives in the memory of all in Europe, Charlemagne was crowned Roman Emperor, but it was not until the coronation of Otto the Great that the current Holy Roman Empire was born, once again recovering the ambitions of a revived and unified European Empire.
+This organization, of course led by an Emperor, has different statuses for countries like secular and religious electors, secular princes, free cities, and imperial prelates. It has laws that impact the organization and its members, the most important at the early game being the Golden Bull, which is a must to get approved in order to further develop the institutions of the Empire.
+There are others in the game at the moment, like the Shogunate, the High Kingship of Ireland, and many more, as the system is very flexible to use.
+Next week we will talk about what Religions we have in the game.
+490
+186
+12
+12
+1
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+41
+Next
+1 of 41
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+May 15, 2024
+Add bookmark
+#2
+Wow.
+Last edited:
+May 15, 2024
+48
+23
+7
+1
+Reactions:
+Reply
+Report
+Teng_Ri
+if u read this v1
+May 3, 2020
+597
+3.382
+May 15, 2024
+Add bookmark
+#3
+Last edited:
+May 15, 2024
+135
+64
+5
+4
+Reactions:
+Reply
+Report
+Mindel
+AI Chatbot
+2 Badges
+Jan 23, 2018
+2.255
+11.180
+May 15, 2024
+Add bookmark
+#4
+Will the various colonies of a colonial nation be grouped into an organization?
+Also, will natives and other nations overseas be able to group themselves together into an anti-Europe anti-colonial organization?
+31
+25
+Reactions:
+Reply
+Report
+Gurtannon
+General
+28 Badges
+Mar 10, 2024
+1.702
+9.943
+May 15, 2024
+Add bookmark
+#5
+Holy map
+Toggle signature
+UltraOttomanist Turk
+51
+3
+2
+2
+Reactions:
+Reply
+Report
+D
+Dongerino
+Evropa's Gemmiest Herald
+43 Badges
+Jun 27, 2015
+1.131
+10.921
+May 15, 2024
+Add bookmark
+#6
+Sphere of Influence:
+The cooler Sphere of Influence:
+91
+37
+4
+2
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+May 15, 2024
+Add bookmark
+#7
+Speaking of “but you already have this in previous games”. Will there be some stuff taken from previous games, such as March of the Eagles.
+Like with the generals how they work for example, where you can have main in the mid/front flank, one in the right flank and one in the left flank?
+Oh and with pop (before it goes too far away from that topic). Is there a way to make your people make more/less pop?
+Or at least some conscription types, like how HOI4 has?
+18
+2
+Reactions:
+Reply
+Report
+Imperialismo
+Sergeant
+58 Badges
+Apr 16, 2021
+97
+815
+May 15, 2024
+Add bookmark
+#8
+This is a huge improvement on EU4!
+39
+14
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+May 15, 2024
+Add bookmark
+#9
+So "hard-coded" will be a thing of the past? Or there will be some stuff hard-coded with this Project Caesar?
+23
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+May 15, 2024
+Add bookmark
+#10
+Mindel said:
+Will the various colonies of a colonial nation be grouped into an organization?
+Click to expand...
+No, thats a colonial nation
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+70
+32
+Reactions:
+Reply
+Report
+LeeDub
+Imagine the unfulfilled glories we'd see to!
+122 Badges
+Oct 1, 2008
+1.402
+3.128
+May 15, 2024
+Add bookmark
+#11
+Johan said:
+the most top-secret project ever made
+Click to expand...
+You can tell Johan is thoroughly enjoying the COMPLETE SECRECY of this UTTERLY UNKNOWN game.
+Toggle signature
+"Camaraderie... Adventure... And steel on steel. The stuff of legends! Right, Boo?"
+95
+12
+4
+Reactions:
+Reply
+Report
+unmerged_zwei833
+Major
+55 Badges
+Jul 8, 2011
+736
+1.813
+May 15, 2024
+Add bookmark
+#12
+Well, I'm a bit worry that international organizations (which is described as "completely dynamic system" in the DD) in Tinto Talk will become a "modular" thing and lack of real uniqueness, just like religion in CK3. I hope my worry is wrong.
+44
+19
+14
+1
+Reactions:
+Reply
+Report
+PhilzuNeide
+Second Lieutenant
+58 Badges
+Jan 18, 2017
+184
+1.167
+May 15, 2024
+Add bookmark
+#13
+How does the system determine which laws to follow if a nation is a member in multiple organizations?
+12
+2
+Reactions:
+Reply
+Report
+Teng_Ri
+if u read this v1
+May 3, 2020
+597
+3.382
+May 15, 2024
+Add bookmark
+#14
+hre map mode i assume. with electors? with kingdoms? with free cities?
+and moldavia does exist apparently
+Last edited:
+May 15, 2024
+31
+29
+2
+1
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+May 15, 2024
+Add bookmark
+#15
+Old_Sealand said:
+So "hard-coded" will be a thing of the past? Or there will be some stuff hard-coded with this Project Caesar?
+Click to expand...
+Architecture like "units" existing in "locations" and belonging to "countries" is hardcoded, but almost all gamelogic is 100% scripted.. including MUCH of the diplomacy
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+101
+83
+16
+Reactions:
+Reply
+Report
+Mindel
+AI Chatbot
+2 Badges
+Jan 23, 2018
+2.255
+11.180
+May 15, 2024
+Add bookmark
+#16
+Can organizations have sub-organizations?
+Here I'm thinking specifically of how the HRE has regional "circles" and of course the Protestant and Catholic Leagues considered as subgroups of the German states.
+47
+9
+1
+Reactions:
+Reply
+Report
+Mercisv11
+Sergeant
+Dec 28, 2023
+51
+373
+May 15, 2024
+Add bookmark
+#17
+"
+Click to expand...
+I love the art.
+92
+25
+3
+Reactions:
+Reply
+Report
+R
+RMS Oceanic
+Field Marshal
+49 Badges
+Jan 27, 2014
+2.807
+4.873
+May 15, 2024
+Add bookmark
+#18
+Can organisations be centralised like the HRE or Native Federations in EU4?
+7
+1
+Reactions:
+Reply
+Report
+StelarCF
+First Lieutenant
+67 Badges
+Apr 5, 2013
+277
+334
+May 15, 2024
+Add bookmark
+#19
+Are there alternatives to enacting the Golden Bull or variations that can be made on it?
+7
+3
+1
+Reactions:
+Reply
+Report
+AntarcticRanger
+Captain
+19 Badges
+Mar 13, 2024
+461
+1.873
+May 15, 2024
+Add bookmark
+#20
+DYNAMIC INTERNATIONAL ORGANIZATIONS!
+This, this, it's too much
+Also other eastern Christians! Let's GO!
+Various levels of integration for PUs!
+This is soo cool!
+19
+6
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+41
+Next
+1 of 41
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

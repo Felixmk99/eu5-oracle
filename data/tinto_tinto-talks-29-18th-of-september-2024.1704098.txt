@@ -1,0 +1,491 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-29-18th-of-september-2024.1704098/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #29 - 18th of September 2024
+Thread starter
+Johan
+Start date
+Sep 18, 2024
+Welcome everyone to another Tinto Talks, the Happy Wednesday where we inform you about how things will work in our super secret game with the codename Project Caesar.
+In today's Tinto Talks we will delve into a few different and not entirely related topics, but they are important for what we need to talk about as they will be referenced a fair bit in future Tinto Talks.
+Prosperity & Devastation
+In Project Caesar this is a single value in a location ranging from -100% to +100%, where positive is prosperity and negative is devastation.
+Prosperity represents how prosperous and resourceful a location is. A prosperous location increases development over time. Prosperity will slowly rise, unless different negative circumstances reduce it. If it goes negative it will cause devastation.
+There is no direct way for the player to increase prosperity, but having a peaceful country will have it increase slowly over time.
+‘Market Fairs’ is a nice privilege to give.
+Devastation represents how ravaged a location is. It includes burnt-down farms and abandoned villages, and the biggest sources of devastation are blockades and occupation.
+It has a rather huge impact on a location over time, reducing how much food and raw materials it produces and the population over time.
+If you have high devastation in any location in a province, the Age of Renaissance has an advance that enables a cabinet action, where you can focus on recovering devastation in a province, until it has recovered fully.
+Ideally, you do not want any sort of war or conflict happening on your own lands.
+Not ideal, let's end this war asap…
+Development
+One concept that has been in many of our previous GSGs is development. It has been used for various things, but in Project Caesar development represents how cultivated the land is, and how much it is used by the pops living there. The higher the development, the more people can live there, and the more it can be exploited.
+As mentioned in earlier Tinto Talks, this is a value that the player mostly only has indirect control over, but you can have your cabinet working on improving development in an entire province at once.
+Development helps a fair bit in improving the quality of a location, but all of these values here are still constantly being balanced.
+The Woods probably has some other advantage…
+Roads
+We have had roads in many of our former games, and this game will also have roads. In Project Caesar this includes one of the most in-depth systems of roads we have ever made. A road is basically a connection between two land locations that reduces the proximity calculations from 40 down to 20. Most settled nations start with the capacity to build gravel roads, but there are three advances in later ages that will introduce new types of roads that can be built. Those roads will reduce proximity further, and increase movement speed for armies.
+Now this may sound like it could be a lot of micromanagement if we had used the ways railroads were built in Victoria 2, or how roads were built in Imperator, but we have a few easier ways to build or upgrade road networks.
+Here we have Kalmar selected and we are looking at building a road to Idre, which technically is in Norway at the start of the game.  You can always build a road INTO the location of any country that has a positive opinion of you, so road networks can and will be connected for trade.
+The green locations are locations you can afford to build a road from Kalmar to at the moment.
+Striped locations are locations with a road network.
+The white-outlined locations are the proposed path for the road between Kalmar and Idre.
+Road building is one of the most important and fun parts of the control-growing gameplay loop.
+Piracy & Privateers
+To clarify here, a privateer is a pirate sponsored by a specific country. The ability to sponsor privateers has several different ways to unlock. First of all, every nation has access to an advance in the Age of Absolutism called Letter of Marque that reduces the cost for privateers while also making them sturdier. There are also unique advances in the Age of Discovery for some countries that allow them to hire privateers, while if you pick the Diplomatic Focus in the Age of Renaissance you have the possibility to recruit privateers that early.
+Sponsoring a Privateer can be done in an area, and cost about 250 sailors per privateer, and 10 sailors each month they are active. A pirate/privateer in an area, depending on its current strength, can reduce the maritime presence of all non-friendly countries in all sea zones in that area. This hurts relations and will give them a way to get a casus belli on you though.
+So how do you fight privateers? Well, you have a fleet of ships in any location in that sea area, and they will actively reduce the capacity of those pirates. Galleys are a bit better than heavy ships at hunting pirates, but light ships are by far the best at dealing with pirates, where a single light ship is about ten times as effective as a heavy ship at the start of the game.
+You need sailors for your privateers, or they disappear..
+There is a situation in the later half of the 16th century where piracy will start to grow in certain areas of the map. Pirates also have a chance to spawn from locations with pirate covens. These are buildings that peasants will build in coastal locations where control is very low.
+This privilege when granted to the Burghers will help your privateers be more cost effective…
+Stay tuned, as next week we will focus on Conquest, Integration and Casus Belli’s.
+Attachments
+development.png
+387,2 KB
+· Views: 0
+Last edited:
+Sep 18, 2024
+147
+142
+7
+5
+4
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+24
+Next
+1 of 24
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Sep 18, 2024
+Add bookmark
+#2
+Wow.
+74
+33
+16
+9
+9
+3
+Reactions:
+Reply
+Report
+bluepotato81
+Second Lieutenant
+24 Badges
+Jun 12, 2024
+145
+1.862
+Sep 18, 2024
+Add bookmark
+#3
+What an interesting new
+development
+of the new game
+I can already see the
+path
+to this being one of the best Paradox games
+Hopefully this game won't turn out to be
+devastating
+Last edited:
+Sep 18, 2024
+Toggle signature
+Deliver me from mine enemies, O my God: defend me from them that rise up against me. Defend me from the workers of iniquity, and save me from bloody men. The mighty are gathered against me, awake to help me, and behold.
+Nor is there pain, or cause of pain, Or cease in pain, or noble path to lead from pain;
+The Master said, "Is it not pleasant to learn with a constant perseverance and application? Is it not delightful to have friends coming from distant quarters? Is he not a man of complete virtue, who feels no discomposure though men may take no note of him?"
+Do not despair of the mercy of Allāh. Indeed, Allāh forgives all sins. Indeed, it is He who is the Forgiving, the Merciful.
+The Tao that can be told is not the eternal Tao, and the name that can be named is not the eternal Name.
+It is not your duty to finish the work, but neither are you at liberty to neglect it;
+The finest essence here—that constitutes the self of this whole world; that is the truth; that is the self.
+O Son of Man! Veiled in My immemorial being and in the ancient eternity of My essence, I knew My love for thee; therefore I created thee, have engraved on thee Mine image and revealed to thee My beauty.
+Rise up for me, O Ahura, through Armaiti give strength, through the holiest Spirit give might, O Mazda, through the good Recompense, through the Right give powerful prowess, through Good Thought give the reward.
+O my mind, remember the Lord in meditation; He is the Destroyer of pain, the Eradicator of fear, the Sovereign Lord King. He is the Greatest Lover, the Merciful Master, the Enticer of the mind, the Support of His devotees - this is His very nature.
+In some ways, it is, in some ways, it is not, in some ways, it is, and it is not, in some ways, it is indescribable, in some ways, it is, and it is indescribable, in some ways, it is not, and it is indescribable, in some ways, it is, it is not, and it is indescribable.
+So be diligent in seeking knowledge, keeping company with those of understanding, and studying at all times, and you will attain goodness and blessings.
+An ash I know there stands, - Yggdrasill is its name, - a tall tree, showered - with shining loam. - From there come the dews - that drop in the valleys. - It stands forever green over - Urðr's well.
+Our God, with His mercy - Brought for us beauty and loveliness - He gave a command to the Pen of Power - We were thrown into the Mystery of Love.
+I saw my father, I saw him, and I gave him three requests. I asked him for a great heart, which can be carried by the big and the little. I asked him for calmness, in which there is no rebellion. I asked him for a level path, to rise to light’s place in peace.
+44
+9
+4
+2
+1
+1
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Sep 18, 2024
+Add bookmark
+#4
+This topic devastates me.
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+31
+2
+1
+Reactions:
+Reply
+Report
+gianlucad
+Hello
+90 Badges
+Nov 9, 2008
+2.128
+1.962
+Sep 18, 2024
+Add bookmark
+#5
+Old_Sealand said:
+Wow.
+Click to expand...
+How.
+Toggle signature
+Any society that would give up a little liberty to gain a little security will deserve neither and lose both.
+-
+Benjamin Franklin
+​
+11
+7
+6
+5
+2
+Reactions:
+Reply
+Report
+Historic Accuracy Enjoyer
+Recruit
+Mar 7, 2024
+9
+90
+Sep 18, 2024
+Add bookmark
+#6
+This seems like an amazing change from the mana clicking, great that this is uploaded now!
+24
+1
+Reactions:
+Reply
+Report
+Korsjan Rīkis
+Lt. General
+38 Badges
+May 11, 2021
+1.562
+5.746
+Sep 18, 2024
+Add bookmark
+#7
+10
+7
+5
+5
+1
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Sep 18, 2024
+Add bookmark
+#8
+On this topic, can we have the option of 'removing' built roads if we wish to? I always hated in Imperator conquering a new land and discover that the AI built random road paths all over the place, all ugly and disorganised.
+"Empire-gardening" is part of the fun of these games, too, ya know?
+Last edited:
+Sep 18, 2024
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+101
+21
+5
+2
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Sep 18, 2024
+Add bookmark
+#9
+So with the devastation, it could be possible to turn metropolies into small towns? Sort of like how Rome used to have millions of people and then turned to couple thousands people living in it?
+33
+9
+1
+Reactions:
+Reply
+Report
+Biegeltoren
+Second Lieutenant
+31 Badges
+Oct 17, 2019
+175
+924
+Sep 18, 2024
+Add bookmark
+#10
+Is the first image wrong?
+Also, do armies moving through locations without occupying also cause devastation? That feels like it would be fitting.
+Toggle signature
+My EU5 mod for the Andes!
+25
+Reactions:
+Reply
+Report
+Blackcat321
+Second Lieutenant
+77 Badges
+Feb 4, 2016
+131
+925
+Sep 18, 2024
+Add bookmark
+#11
+I think you the image for prosperity is wrong. It's showing the development example.
+17
+Reactions:
+Reply
+Report
+D Austin Vaughan
+Second Lieutenant
+43 Badges
+Nov 22, 2017
+178
+890
+Sep 18, 2024
+Add bookmark
+#12
+Dealing with Pirate coves in the Caribbean and Indian Ocean will be pretty immersive and fun I can imagine. I wonder if these will lead to playable nations like in EU4 (for us Pirate Republic enjoyers).
+Toggle signature
+Glory to the eternal blue sky
+15
+1
+Reactions:
+Reply
+Report
+S
+supachit
+Sergeant
+66 Badges
+May 19, 2018
+52
+101
+Sep 18, 2024
+Add bookmark
+#13
+So why would I not just build a road in every province? Do they cost money to maintain? If that is the case couldn't you make a massive money sink for the AI or if the AI makes roads inside your country?
+22
+3
+Reactions:
+Reply
+Report
+CirclePete
+Major
+74 Badges
+Aug 27, 2016
+558
+409
+Sep 18, 2024
+Add bookmark
+#14
+The development screenshot is shown twice.
+Shouldn't the 1st one be something about prosperity instead?
+Toggle signature
+Community Portrait Pack
+a vast collection of portraits improving immersion for Heart of Iron IV.
+Heavy focus on characters who previously only had generic portraits.
+Reply
+Report
+matfer13
+Field Marshal
+1 Badges
+Dec 17, 2023
+3.015
+18.591
+Sep 18, 2024
+Add bookmark
+#15
+@Johan
+I think you posted a wrong image
+Reply
+Report
+Deterock
+Augustus/Freelance translator of EUV news
+73 Badges
+Aug 12, 2017
+231
+713
+vk.com
+Sep 18, 2024
+Add bookmark
+#16
+Shouldn't devastation and prosperity also affect taxes and production (if production will give you money as in EU4)? The more prosperous locacation is, the more money it should give to you and vice versa with devastation.
+Toggle signature
+Clarus, divus, aeternus Augustus of Ru-speaking community of Paradox Interactive.
+Предпочитаешь читать новости о любимых играх на русском? Присоединяйся к русскоязычному сообществу:
+https://vk.com/pdxint
+If you'd prefer to read news about your favourite Paradox Interactive games in Russian, here's a place for you:
+https://vk.com/pdxint
+4
+4
+1
+1
+Reactions:
+Reply
+Report
+T
+Tavolo87
+First Lieutenant
+Jun 7, 2024
+285
+922
+Sep 18, 2024
+Add bookmark
+#17
+wait wait wait
+life expectancy???
+does this mean pop will have their own average life expectancy?? If true that is absolutely crazy
+19
+1
+Reactions:
+Reply
+Report
+E
+edward1997
+Sergeant
+88 Badges
+Apr 20, 2015
+94
+483
+Sep 18, 2024
+Add bookmark
+#18
+If I build a road into another country location, how is the price calculated ? Do we share the cost ? Otherwise we give another country an important infrastructure for free.
+And does the AI build roads into other country ? If so, what are the "weights" that makes it take this decision ? Can the player refuse ?
+5
+Reactions:
+Reply
+Report
+L
+Liam1234
+Second Lieutenant
+45 Badges
+Apr 15, 2018
+181
+944
+Sep 18, 2024
+Add bookmark
+#19
+Could we see the development map for other areas we have had a tinto maps for?
+Norfolk seems fairly low, should its development not be higher?
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Sep 18, 2024
+Add bookmark
+#20
+It's weird seeing Baltics being so developed, compared to some other parts of Europe. I guess it's because of location density.
+9
+2
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+24
+Next
+1 of 24
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

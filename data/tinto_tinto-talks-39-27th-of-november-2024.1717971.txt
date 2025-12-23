@@ -1,0 +1,566 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-39-27th-of-november-2024.1717971/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #39 - 27th of November 2024
+Thread starter
+Johan
+Start date
+Nov 27, 2024
+Hello everyone and welcome to another Happy Wednesday, the day of the week where you get a new Tinto Talks, the special posts we make to gather feedback about the very very secret game with the codename Project Caesar.
+While we may have some skills and some experience in designing games, we are not perfect, and that is why we are doing these Tinto Talks, so we can get feedback on what may be less than stellar, and for us to think about things that we may not have thought about. Sometimes it's small easy things we can do immediately and will tell you in the thread directly, and sometimes it's larger things, which we talk about later.
+Our Tinto Talks from a month ago, about Great Powers and Hegemons was one of the very few we have made that had a negative reaction, but what was great with it was that there was plenty of great, constructive and usable feedback from it. Pretty much everything in this thread today has been built on community ideas that have then been revised and discussed internally.
+Country Ranks
+First of all, we reworked so that rank for a country is now more about the flavor and internal mechanics, moving away from the unlocking of powerful diplomatic actions, like intervene and threaten war, so that they are for Great Powers instead. There were also some modifiers that more fit being a great power than a Kingdom and Empire in name, like the power projection bonus that a rank gave.
+Also a new icon for the rank..
+Great Powers
+First of all, being a great power is not without its costs, and now being considered one increases the amount of gold your country needs to spend to keep up its legitimacy. Also, all Great Powers have a negative opinion of -25 of each other.
+The bonuses you get now scale with the position you have among the great powers, where being the no.1 gives the highest one.
+Yuan gets a bit more than France..
+Another change we did, was that the amount of great powers is now fluid, and depends on how many countries are close to the number 1 power in the world. There is always a minimum of great powers though, and a maximum, which depends on the total number of countries in the world.
+Hegemonies
+We have done a lot of changes to both the system for Hegemons and how they actually work as well.
+First of all, we changed the hegemony system to not be unlocked by advances, but instead they become available directly when the Age of Discovery starts. Why you may now ask, well, this is important for the new mechanics, as you no longer actively decide to become a hegemon, but the hegemon is proclaimed on you by being the strongest in a particular area.
+Every month the strongest in the area the hegemony concerns will be proclaimed as that hegemon. If there is a hegemon already, you need to be at least 10% more powerful in that area. So, for the Military Hegemon, if France has 200k soldiers, then Sweden needs at least 240k soldiers to become the new Military Hegemon..  Or reduce the French army to be smaller in a way. You will not lose your hegemony if you lose a war though.
+Another major change though is that you can hold multiple hegemonies, and there are now some drawbacks to being a Hegemon. Of course, all other countries distrust a hegemon so for every hegemony you hold, you get a -20 opinion from every country, and a +20% extra impact on aggressive expansion. There is also an increase to expected court costs, and a monthly prestige gain.
+We also removed the system of Hegemonies becoming more powerful the longer you hold them, and removed most stacking modifiers, and having them merely gives one bonus each, however, instead, each hegemony gives you two unlocks. One unique cabinet action each, and a unique diplomatic action, that each can be used while you hold that hegemony.
+The UI also shows you all the competing great powers… Not sure the word “competing” is relevant here though.
+We also added two new hegemonies since last month, but what do the hegemonies give you then.
+Economic Hegemon
+This is the Great Power that has the highest income from Trade and Taxes.
+As you can see in the screenshot above, their units consume less food, which can be useful over a campaign.
+They can use the Diplomatic Action ‘Divert Trade’, which forces a non-greater-power country to give up part of their merchant capacity and power in all markets they are present in. This can not be done to anyone that has their own market though, but this forced divert of trade can not be broken for 10 years, unless a war breaks out between the hegemon and the target.
+The Cabinet Action this hegemon gets is “Reduce Paperwork”, which increases the production efficiency in an entire area. So what is an area? An Area is a group of provinces, and a province is a group of locations. Production Efficiency is a powerful modifier which directly impacts the output of a building, without increasing its input requirements.
+Naval Hegemon
+This is the Great Power that has the most Heavy Ships of all Great Powers.
+Their bonus is 10% less naval damage taken.
+They can use the Diplomatic Action “Force Embargoes”, which makes the target non-greater-power embargo another country. An embargoed country can not trade in the market they are embargoed in, and their locations will not belong to that market, both which are rather non-ideal. This forced embargo can not be broken for 10 years, unless a war breaks out between the hegemon and the target.
+This hegemon can use the Cabinet Action “Naval Focus”, which increases the maritime growth and harbour suitability of all ports in an area.
+Military Hegemon
+This is the Great Power with the biggest army of all Great Powers.
+Their bonus is 10% cheaper warscore costs.
+They have the “Violate Sovereignty" Diplomatic Action. This is probably the most requested feature ever by any warmongering player, and allows you to enforce a military and food access on any non-greater-power country for 6 months.  This means that you can pretty much ignore neutrality, and make sure your army is well fed as you march it to another theatre.  There is a slight drawback that the country who you march through will dislike you and get a casus belli on you.
+The Cabinet Action this hegemon gets is “Soldiers as Workforce”, which gives you faster construction speed in an area. This impacts roads, buildings and rgos, so can be useful to get more barracks, forts and iron mines quickly for the war machine.
+Cultural Hegemon
+This is the first of the new ones, and this is granted to the Great Power with the highest Cultural Influence.
+Their bonus is a 25% growth to cultural tradition growth.
+They can use the Diplomatic Action “Force Change Court Language”. This forces a non-greater-power country to change their court language to yours, which further strengthens your stronghold on culture. This can not be changed for 10 years, unless a war breaks out between the hegemon and the target.
+This hegemon can use the Cabinet Action “Assimilate Area”, which allows you to assimilate pops in an entire area at once, which is a few times more powerful than the Promote Culture cabinet action which can only target a province at a time.
+Diplomatic Hegemon
+This is the second of our new hegemonies, and it is granted to the Great Power with the highest Diplomatic Reputation.
+Their bonus is 30% higher impact from Improving Relations.
+They can use the Diplomatic Action “Influence Country”, which increases trust and opinion in a target non-greater-power country.
+Their Cabinet Action is “Diplomatic Corps”, which allows this Hegemon to dramatically increase their diplomatic capacity while also gaining more diplomats each month.
+The current 5 Great Powers at the start of the game
+Stay tuned, as next week we’ll go through Government Reforms, how they work, and take a look at what types we have there.
+Last edited:
+Nov 27, 2024
+248
+133
+21
+15
+7
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+18
+Next
+1 of 18
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Nov 27, 2024
+Add bookmark
+#2
+Nice. Thank you for considering my hegemon suggestions. I also like the extra information on your competitors in GP ranking.
+I'll be honest, though, I'd prefer if making someone else change their court culture remained a passive effect, rather than something I can force. It's the kind of thing that it's inherently cooler to earn rather than coerce. Maybe the coercion ability of Cultural Hegemons can be changed to something else, like maybe demand Artifacts/Artworks back? Or outright stealing them?
+Another thought; perhaps Economic Hegemon can be divided between Trade and Taxes/Industry hegemons? These, after all, imply different kinds of strengths and abilities to coerce. You can split requirements to obtain them by revenue source, and Trade Hegemons could perhaps grant you commerce-related actions, like forcing Market border changes, while Trade/Industry Hegemons could force productivity-related actions, like seizing food/goods or overclocking RGOs and Building outputs? This way, for example, China could be an economic Hegemon with more
+in-character
+abilities, without being a Trade Hegemon, something better suited for the Netherlands or Britain.
+Just a few suggestions. This update on the earlier DD looks pretty good as is.
+PS: Also, I like the implication here created by the red flags that the ship is either sinking or they're pirates declaring they're gonna have no mercy on you with these 3 decks of death and destruction they somehow got their grubby hands on lol
+Last edited:
+Nov 27, 2024
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+70
+15
+2
+Reactions:
+Reply
+Report
+bluepotato81
+Second Lieutenant
+24 Badges
+Jun 12, 2024
+145
+1.862
+Nov 27, 2024
+Add bookmark
+#3
+How the hell did the Ashikaga Shogunate go UP in rank?????
+(not complaining though, great work)
+Toggle signature
+Deliver me from mine enemies, O my God: defend me from them that rise up against me. Defend me from the workers of iniquity, and save me from bloody men. The mighty are gathered against me, awake to help me, and behold.
+Nor is there pain, or cause of pain, Or cease in pain, or noble path to lead from pain;
+The Master said, "Is it not pleasant to learn with a constant perseverance and application? Is it not delightful to have friends coming from distant quarters? Is he not a man of complete virtue, who feels no discomposure though men may take no note of him?"
+Do not despair of the mercy of Allāh. Indeed, Allāh forgives all sins. Indeed, it is He who is the Forgiving, the Merciful.
+The Tao that can be told is not the eternal Tao, and the name that can be named is not the eternal Name.
+It is not your duty to finish the work, but neither are you at liberty to neglect it;
+The finest essence here—that constitutes the self of this whole world; that is the truth; that is the self.
+O Son of Man! Veiled in My immemorial being and in the ancient eternity of My essence, I knew My love for thee; therefore I created thee, have engraved on thee Mine image and revealed to thee My beauty.
+Rise up for me, O Ahura, through Armaiti give strength, through the holiest Spirit give might, O Mazda, through the good Recompense, through the Right give powerful prowess, through Good Thought give the reward.
+O my mind, remember the Lord in meditation; He is the Destroyer of pain, the Eradicator of fear, the Sovereign Lord King. He is the Greatest Lover, the Merciful Master, the Enticer of the mind, the Support of His devotees - this is His very nature.
+In some ways, it is, in some ways, it is not, in some ways, it is, and it is not, in some ways, it is indescribable, in some ways, it is, and it is indescribable, in some ways, it is not, and it is indescribable, in some ways, it is, it is not, and it is indescribable.
+So be diligent in seeking knowledge, keeping company with those of understanding, and studying at all times, and you will attain goodness and blessings.
+An ash I know there stands, - Yggdrasill is its name, - a tall tree, showered - with shining loam. - From there come the dews - that drop in the valleys. - It stands forever green over - Urðr's well.
+Our God, with His mercy - Brought for us beauty and loveliness - He gave a command to the Pen of Power - We were thrown into the Mystery of Love.
+I saw my father, I saw him, and I gave him three requests. I asked him for a great heart, which can be carried by the big and the little. I asked him for calmness, in which there is no rebellion. I asked him for a level path, to rise to light’s place in peace.
+8
+4
+3
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Nov 27, 2024
+Add bookmark
+#4
+Nice to see that the community has impact for the game, that is going to be played by that community.
+35
+6
+1
+Reactions:
+Reply
+Report
+Praetorian44
+Field Marshal
+103 Badges
+Dec 14, 2009
+5.143
+3.876
+Nov 27, 2024
+Add bookmark
+#5
+Shame, I was really hoping that this TT would be about a change to the AE and rival systems based on the feedback to that thread.  Glad to see that the ranks and hegemons have been improved though.
+Toggle signature
+Check out my Paradox Let's Plays on YouTube!
+Hearts of Iron 4:
+Tsarist Russia
+,
+Kingdom of Sweden
+,
+Byzantine Empire
+,
+Communist France
+,
+Great Britain
+Crusader Kings III:
+Toulouse France RP
+,
+Lorraine HRE RP
+,
+Persia Kesranid
+,
+Poland Piast Dynasty RP
+,
+England William the Conqueror
+Victoria 3:
+France
+,
+Japan
+Millennia:
+Rome
+Europa Universalis 4:
+Milan
+Imperator Rome:
+Roman Republic
+Stellaris:
+United Orc Tribes
+28
+1
+Reactions:
+Reply
+Report
+Á
+Árpád Álmosfi
+Sergeant
+6 Badges
+Oct 29, 2019
+54
+167
+Nov 27, 2024
+Add bookmark
+#6
+Beeeeg France. I love it.
+Ps: Time to make Hungary the strongest economically, looooots of gold mines
+1
+1
+Reactions:
+Reply
+Report
+Simsons98
+Recruit
+50 Badges
+Jun 9, 2015
+8
+42
+28
+Nov 27, 2024
+Add bookmark
+#7
+So there arent any local-Great Powers only global ones?
+23
+11
+1
+1
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Nov 27, 2024
+Add bookmark
+#8
+Great changes, and great community feedback which allowed these to happen!
+When you use 'non-greater-power country', does that mean that those actions can also be used on other great powers who are of a lessen rank than the hegemon?
+2
+Reactions:
+Reply
+Report
+Diamss
+Empereur des Français
+66 Badges
+Nov 29, 2021
+45
+424
+Nov 27, 2024
+Add bookmark
+#9
+Who are the holders of each hegemony at the start of the game?
+9
+Reactions:
+Reply
+Report
+M
+Myxach
+Second Lieutenant
+3 Badges
+Nov 1, 2014
+120
+423
+Nov 27, 2024
+Add bookmark
+#10
+PP +10?
+But doesn’t PP>10 make it possible to colonize a foreign country?
+Do I understand correctly that great power 1 can colonize its neighbors?
+1
+Reactions:
+Reply
+Report
+D
+Doomdrake1
+Private
+Jul 17, 2024
+11
+10
+Nov 27, 2024
+Add bookmark
+#11
+Nicely done. Love all the changes.
+1
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Nov 27, 2024
+Add bookmark
+#12
+bluepotato81 said:
+How the hell did the Ashikaga Shogunate go UP in rank?????
+(not complaining though, great work)
+Click to expand...
+balance changes dramatically every day.
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+38
+29
+Reactions:
+Reply
+Report
+eggs86
+Private
+Mar 21, 2024
+18
+94
+Nov 27, 2024
+Add bookmark
+#13
+Stellaris(n't) reference???
+Click to expand...
+1
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Nov 27, 2024
+Add bookmark
+#14
+Old_Sealand said:
+Nice to see that the community has impact for the game, that is going to be played by that community.
+Click to expand...
+thats how it should be!
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+92
+46
+4
+1
+1
+Reactions:
+Reply
+Report
+Tercio Soldier
+Major
+58 Badges
+Feb 25, 2020
+568
+4.336
+Nov 27, 2024
+Add bookmark
+#15
+Shouldn't the Golden Horde and the Holy Roman Emperor be Great powers at game start?
+5
+3
+3
+1
+Reactions:
+Reply
+Report
+Teutonic_Knight_2000
+Major
+63 Badges
+Apr 11, 2017
+628
+1.808
+Nov 27, 2024
+Add bookmark
+#16
+I have a proposal for a new type of Hegemony - Development Hegemon. It would consist in the fact that the countries with the most developed locations (number of buildings, size, etc..) would be rewarded with bonuses in innovations and technologies.
+Toggle signature
+Nationality:
+Polish
+Home:
+Mazovia, Poland
+Age:
+25
+Studying:
+Administration (
+Master's degree
+)
+Religion:
+Roman Catholicism
+5
+3
+2
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Nov 27, 2024
+Add bookmark
+#17
+Praetorian44 said:
+Glad to see that the ranks and hegemons have been improved though.
+Click to expand...
+thank you.
+or more like.. thanks to the community for good suggestions.
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+75
+11
+3
+1
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Nov 27, 2024
+Add bookmark
+#18
+Simsons98 said:
+So there arent any local-Great Powers only global ones?
+Click to expand...
+only global ones.
+we ran into lots of problems with it not being possible to determine "what is the local you look at"
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+104
+38
+1
+1
+Reactions:
+Reply
+Report
+Metz
+Field Marshal
+107 Badges
+Nov 21, 2008
+7.108
+13.741
+Nov 27, 2024
+Add bookmark
+#19
+Is there an accounting to quality over quantity? What if your army of 100k is much stronger than the hegemon's of 200k?
+Maybe a check to see if X military stat is above Y value accounting for at least Z amount of solders (with Z being a proportion of the hegemon's army/navy)?
+15
+3
+1
+Reactions:
+Reply
+Report
+T
+Thorum
+Lt. General
+29 Badges
+Feb 18, 2017
+1.662
+4.557
+Nov 27, 2024
+Add bookmark
+#20
+Great powers (and hence hegemons) are still only global, not regional ?
+Also,
+that's 10% more, not 20% ?
+4
+3
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+18
+Next
+1 of 18
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

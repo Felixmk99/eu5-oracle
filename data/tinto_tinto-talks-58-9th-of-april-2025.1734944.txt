@@ -1,0 +1,476 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-58-9th-of-april-2025.1734944/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #58 - 9th of April 2025
+Thread starter
+Pavía
+Start date
+Apr 9, 2025
+Hello, and welcome to another Tinto Talk, the happy Wednesdays where we talk about our entirely super-top-secret game with the codename Project Caesar.
+Today, I will be your host instead of Johan since we will be talking about the flavour mechanics. These will be basically IOs, Situations, and Religions, and we will be talking about a bunch of them for some weeks, although from time to time Johan will come back to present some other stuff. So, let’s start without further ado with the Holy Roman Empire, the
+most convoluted organization invented by mankind
+only Imperial polity that existed in Western Europe for most of the game period.
+In 1337, it’s a very different beast compared to previous installments in other PDX GSGs. The Great Interregnum that started in 1254 after the deaths of Frederick II and Conrad IV of the House of Hohenstaufen, and the double election of two contenders (Richard of Cornwall and Alfonso X of Castile) in 1257 led to a period of weak and diminishing Imperial Authority. In the coming decades, the Houses of Habsburg, Luxembourg, and Wittelsbach would fight for the Imperial election, making the Electorates increasingly more important.
+A beautiful beast! The color code for every country:
+Yellow: Emperor
+Light Blue: Prince-Elector
+Middle Blue: Archbishop-Elector
+Dark Blue: Imperial Prelates
+Light Green: Free Imperial Cities
+Middle Green: Republics
+Pink/Brownish: Imperial Peasant Republics
+Grey: Imperial Princes
+Purple Stripes: Imperial Land not owned by an HRE member
+Other stripes: Land owned by an HRE member not yet incorporated as Imperial land
+Here is an overview of the HRE IO panel and all the different member types that you can find by scrolling down on it:
+And here is the sub-panel that show all its members:
+The HRE comes with a bunch of mechanics and features, which you can easily grasp in the IO’s tooltip:
+Let’s start with the most important base feature, the Imperial Authority, which is the currency used by the Holy Roman Emperor to enact Imperial Laws. There are a few sources to either add or subtract Imperial Authority:
+Note: the missing +0.01 comes from value rounding which is not reflected in the tooltip.
+​
+Imperial Laws create different effects that impact the members of the HRE. At the start, there are only two available:
+You may notice that there’s a category, ‘Fundamental Laws’, with only one policy possible, the ‘Golden Bull’. This was the single most important law approved in the HRE, becoming its base political constitution up until its dissolution after being enacted in 1356. In Project Caesar, the Emperor has a very high incentive to pass it as soon as possible, as it unlocks additional laws and actions:
+When you have 35 Imperial Authority, you can try to enact it, and a Vote in the Imperial Diet will happen:
+That works quite similarly to country parliaments, as you have to secure a positive vote of the different HRE members:
+And this would be the situation after the law passes, with 8 new Imperial Laws available:
+In general terms, most of the laws have 5 policies available, with the starting ones usually being in the middle positions of the 5. This is how it works (these are 'instructions' in the script):
+#With the enactment of the Golden Bull, most HRE laws are set to the 3rd policy which has limited or no modifiers active at all
+#The HRE Emperor can try to change the policy to the next adjacent one (so from 3rd tier to 4th or 2nd tier)
+#The left tier is the 4th and 5th and is more in favor of benefitting the HRE as a whole
+#The right tier is the 2nd and 1st and is more in favor of benefitting the HRE Emperor first and foremost
+#Some laws have only 3 policies in which cases there are not pro-Emperor vs pro-Member positions
+#The only law which does not follow the rule is the power_of_the_emperor_law which starts at improved_imperial_authority_policy (4) policy.
+#The reason for this is to delay the unification of the HRE + there is not much design space for an even further decentralized HRE.
+#As such, having 2 policies for the decentralized HRE are not really doable.
+#                               LAW
+# Pol 5          Pol 4          Pol 3          Pol 2          Pol 1
+#   |--------------|--------------|--------------|--------------|
+Click to expand...
+Let’s take as example the Imperial Voting Law:
+The Imperial Election is then a key feature, since it elects the Holy Roman Emperor, who then sets all the Imperial Laws, Diets, etc. Here you can see an example of how it works:
+The King of Bohemia got backed by most of the Electors, and thus, became the Holy Roman Emperor after the death of Ludwig IV of Upper Bavaria.
+​
+This event will trigger if a different country gets its ruler elected as Emperor, as in this example:
+One of the factors behind the election is the Dynastic Power, a new value that is currently only used for the HRE mechanics (although it could potentially be used for other IOs, as it’s a scriptable/moddable feature), which impacts the likelihood of a certain country from a powerful dynasty to be elected or re-elected as Emperor:
+Last but not least is the Imperial Contribution. It is an amount of money and manpower that any member of the HRE may contribute to the Emperor, who can later spend it in Imperial Actions, and also defending the Empire (in theory…):
+… And that’s all for today, since it’s already a very long TT! Next week, we will be taking a look at the
+Catholic Religion and the Catholic Church IO
+. Cheers!
+151
+126
+8
+6
+1
+Reactions:
+Reply
+Report
+Written by
+Pavía
+Content Design Lead PDX Tinto
+Paradox Staff
+12 Badges
+Messages
+4.509
+Reaction score
+192.684
+1
+2
+3
+…
+Go to page
+Go
+15
+Next
+1 of 15
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+So_MeOne
+Second Lieutenant
+Aug 3, 2020
+121
+1.880
+Apr 9, 2025
+Add bookmark
+#2
+Oh, Voltaire is rolling in his grave right now!
+33
+5
+1
+1
+Reactions:
+Reply
+Report
+matfer13
+Field Marshal
+1 Badges
+Dec 17, 2023
+3.015
+18.591
+Apr 9, 2025
+Add bookmark
+#3
+@Pavía
+why do you always have to edge us?
+8
+3
+1
+1
+Reactions:
+Reply
+Report
+GenericUsername1444
+Colonel
+Jun 25, 2024
+805
+10.781
+Apr 9, 2025
+Add bookmark
+#4
+Toggle signature
+Professional Georgian
+32
+10
+1
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Apr 9, 2025
+Add bookmark
+#5
+But I thought Spain was NOT the Emperor?
+Also;
+I knew it! I knew joining this whole
+EU,
+I mean, HRE thing was a scam from the start!
+Last edited:
+Apr 9, 2025
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+30
+2
+1
+Reactions:
+Reply
+Report
+S
+SauronGorthaur
+Colonel
+24 Badges
+Jun 4, 2014
+987
+3.660
+Apr 9, 2025
+Add bookmark
+#6
+So after the natural disasters TT we finally get the man-made disaster one.
+40
+4
+Reactions:
+Reply
+Report
+Berasa 16
+Corporal
+24 Badges
+Feb 20, 2020
+25
+172
+Apr 9, 2025
+Add bookmark
+#7
+17
+6
+2
+Reactions:
+Reply
+Report
+Goldchruzi
+Swedish Goth & Vandal Fanatic
+45 Badges
+Apr 22, 2020
+72
+734
+Apr 9, 2025
+Add bookmark
+#8
+Hopefully it will be feasible for the Franks to retake the Throne of
+Charlemagne
+Charles the Great Caroling as emperors. Definitely going to be one of my first campaigns.
+Last edited:
+Apr 9, 2025
+Toggle signature
+EU5:
+Gothic Culture Fix
+(WIP)
+If you mention the East Germanic tribes, I will appear faster than the goat-drawn chariot of Fairguneis flies across the skies above.
+14
+3
+1
+Reactions:
+Reply
+Report
+trov55
+Second Lieutenant
+23 Badges
+Feb 9, 2019
+181
+736
+Apr 9, 2025
+Add bookmark
+#9
+Pink/Brownish: Imperial Peasant Republics
+Click to expand...
+Wait, why isn't Dithmarschen a Peasant Republic?
+20
+3
+2
+Reactions:
+Reply
+Report
+Danskjävel
+Corfitz Ulfeldt
+32 Badges
+Jan 4, 2017
+369
+1.887
+Apr 9, 2025
+Add bookmark
+#10
+Looks great! I have a small wish regarding flavour in generel, though.
+Say France is eclipsed and annexed by a French minor. This minor does not reform France, but occupies the same territory, and is French culture. How much France-flavour does the minor take from France?
+I'm really hoping for flavour dynamism like this. Dynamic but culture/region/language/religion specific.
+12
+4
+3
+Reactions:
+Reply
+Report
+Pavía
+Content Design Lead PDX Tinto
+Paradox Staff
+12 Badges
+Jan 3, 2006
+4.509
+192.684
+Apr 9, 2025
+Add bookmark
+#11
+matfer13 said:
+@Pavía
+why do you always have to edge us?
+Click to expand...
+WAD.
+Toggle signature
+Antiguo caballero villano del OT en español. Now member of EUIV & EUV Team at Paradox Tinto.
+39
+4
+1
+Reactions:
+Reply
+Report
+So_MeOne
+Second Lieutenant
+Aug 3, 2020
+121
+1.880
+Apr 9, 2025
+Add bookmark
+#12
+Very meaty TT!
+1. Can Imperial Authority be gained or lost via selecting options in events / situations?
+2. If your country changes Dynasty, do you lose all Dynastic Power accumulated?
+3. Will the option to disband HRE have its own requirments / flavor?
+5
+Reactions:
+Reply
+Report
+nyetflix2
+Lt. General
+Nov 13, 2022
+1.574
+9.424
+Apr 9, 2025
+Add bookmark
+#13
+Honestly maybe change payee and payer into payments to and payments from? Payee and payer don't sound very natural to me, I don't think I've ever heard them.
+Toggle signature
+EU5 Mesoamerica feedback
+10
+5
+4
+1
+Reactions:
+Reply
+Report
+Pavía
+Content Design Lead PDX Tinto
+Paradox Staff
+12 Badges
+Jan 3, 2006
+4.509
+192.684
+Apr 9, 2025
+Add bookmark
+#14
+Thrudgelmir2333 said:
+View attachment 1278980
+But I thought Spain was NOT the Emperor?
+Click to expand...
+YET!
+Happy Charles V noises
+.
+Toggle signature
+Antiguo caballero villano del OT en español. Now member of EUIV & EUV Team at Paradox Tinto.
+38
+2
+2
+2
+Reactions:
+Reply
+Report
+S
+Snemelc
+Corporal
+71 Badges
+Feb 1, 2018
+46
+157
+Apr 9, 2025
+Add bookmark
+#15
+What's up with Valentinous? It is half full grey, half colorless.
+3
+Reactions:
+Reply
+Report
+Traxium318
+Captain
+91 Badges
+Apr 28, 2013
+319
+2.013
+Apr 9, 2025
+Add bookmark
+#16
+Wow much empire very catholic not very much roman
+Toggle signature
+#ReviveImperatorRome #pls
+Spanish PDX content creator mostly on Project Cesar, Vic3 and CK3
+11
+6
+1
+1
+Reactions:
+Reply
+Report
+GenericUsername1444
+Colonel
+Jun 25, 2024
+805
+10.781
+Apr 9, 2025
+Add bookmark
+#17
+@Pavía
+will you go through all the world's great (in terms of followers) religions in the upcoming TTs? Thanks.
+These will be basically IOs, Situations, and Religions, and we will be talking about a bunch of them for some weeks
+Click to expand...
+Toggle signature
+Professional Georgian
+5
+Reactions:
+Reply
+Report
+D
+dw70676
+Second Lieutenant
+76 Badges
+Aug 13, 2011
+191
+1.756
+Apr 9, 2025
+Add bookmark
+#18
+A beautiful mess!
+Is there a mechanism for members to secede or neighboring countries to join the HRE?
+4
+Reactions:
+Reply
+Report
+TheJLLNinja
+Private
+52 Badges
+Dec 7, 2018
+23
+179
+Apr 9, 2025
+Add bookmark
+#19
+How long will the HRE elections take? Same as EU4 with immediate succession, or is there a possibility for interregnums?
+19
+Reactions:
+Reply
+Report
+Goblin Slave
+Goblin
+58 Badges
+Jul 6, 2018
+188
+2.402
+Apr 9, 2025
+Add bookmark
+#20
+Is it possible to join the empire as an outsider like in EU4? What does the process look like?
+13
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+15
+Next
+1 of 15
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

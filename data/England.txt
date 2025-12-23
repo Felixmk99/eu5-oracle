@@ -1,0 +1,215 @@
+Source URL: https://eu5.paradoxwikis.com/England
+Source Date: 2025-12-17
+
+This is a
+compilation
+and strategy article for
+England
+.
+Mechanics and flavor content are
+transcluded
+from other pages.
+England
+Country type
+Settled
+Government type
+Monarchy
+Primary culture
+English
+Primary religion
+Catholicism
+Capital location
+London
+The English crown is still reeling from the treacherous rebellion that occurred ten years prior and resulted in the underhanded assassination of King Edward II. Although the ringleaders were executed, several co-conspirators have been granted mercy in the name of peace — a peace which could easily be shattered at any moment.
+Meanwhile, King Edward II's surviving heir, King Edward III, has already proven to be a capable young ruler, and is making bold designs on the French throne — a throne which is his birthright as the grandson of a Capet ruler.
+In the north, the misguided
+Balliol
+weakly contends for the Scots crown, while our loyal vassals maintain a tight grip on the governments of
+Wales
+,
+The Pale
+, and
+Aquitaine
+.
+How shall we brave the turbulent years to come? Will we cross the channel and become a continental power, or should we look to the seas for global dominion?
+England
+is a nation primarily located in the Britain
+region
+of the Western Europe
+sub-continent
+, with some minor holdings in the Picardy and Normandy
+areas
+of the France region. In addition to this, England has several
+vassals
+, namely Aquitaine in southern
+France
+, Wales, the
+Earldom of Lancaster
+, the
+Bishopric of Durham
+, and The Pale in Ireland. Shortly after the game begins, an event will fire for England that starts the
+Hundred Years' War
+situation, which revolves around England and France fighting for dominance over the French throne. England is also involved in the struggle for Irish dominance via their subject of the Pale, which starts the game as the leader of the
+Lordship of Ireland
+and must fight against its rivals in the
+High Kingship of Ireland
+.
+Moving beyond England's borders and subjects, they start the game off as
+rivals
+to both France and
+Scotland
+while guaranteeing the independence of the Scottish breakaway state of Balliol, whose ruler they are supporting in the Scottish Civil War. They also begin the game with dynastic ties to France, Lancaster, and
+Arundel
+.
+Formation
+[
+edit
+|
+edit source
+]
+Events and Flavor
+[
+edit
+|
+edit source
+]
+Main article:
+English events
+As one of the countries designated as a Tier I nation prior to the release of the game, England has a large amount of flavor content, with 233
+Dynamic Historical Events
+, 18 unique
+Advances
+, 8 unique
+Government Reforms
+, 3 unique
+Buildings
+, and 2 unique
+Estate Privileges
+.
+Strategy
+[
+edit
+|
+edit source
+]
+The below is
+one of many
+player suggested strategies for
+England
+. Bear in mind, due to the dynamic nature of the game, it may unfold differently for other players.
+As England, your first goal in a new campaign is to deal with the Hundred Years' War, whether that be by claiming the French throne or by choosing to ignore the continent altogether and instead focusing on consolidating the British Isles. No matter which path you choose, a good first move is to release your Picard holdings as a vassal, and then grant scutage to both Picardy and Aquitaine. This will ensure that in the inevitable wars with France, you won't lose any warscore from your mainland vassals being occupied. In general, as long as you pay attention to where France and France's vassals fleets are, they will never be able to land troops on Great Britain. You have naval superiority from the start of the game, and repeatedly destroying the French fleets and any small stacks they manage to land is an excellent way to farm warscore in the first few wars.
+Achievements
+[
+edit
+|
+edit source
+]
+Rule Britannia
+Starting as England, form Great Britain and be the Naval Hegemon.
+References
+[
+edit
+|
+edit source
+]
+Countries
+Tabber requires Javascript to function.
+Eastern Europe
+Albania
+Arianiti
+Armenia
+Bosnia
+Bulgaria
+Byzantium
+Croatia
+Epirus
+Georgia
+Halych
+Hungary
+Kyiv
+Lithuania
+Mataranga
+Muscovy
+Muzaka
+Perm
+Poland
+Samtskhe
+Serbia
+Smolensk
+Teutonic Order
+Thopia
+Velikiy Novgorod
+Volhynia
+Vyatka
+Wallachia
+Western Europe
+Aragon
+Austria
+Aquitaine
+Balliol
+Brandenburg
+Brittany
+Bohemia
+Castile
+Denmark
+Dithmarschen
+England
+Florence
+France
+Guelders
+Granada
+Holland
+Iceland
+Moravia
+Milan
+Naples
+Navarre
+Norway
+Papal States
+Portugal
+Scania
+Scotland
+Sicily
+Spain
+Sweden
+Valencia
+Venice
+Wales
+Central Africa
+East Africa
+Ethiopia
+Kitara
+North Africa
+Morocco
+Tlemcen
+Tunis
+South Africa
+Zimbabwe
+West Africa
+Middle East
+Oman
+Ottomans
+Yemen
+Central Asia
+Timurid
+East Asia
+Chūzan
+Hokuzan
+Japan
+Míng
+Nanzan
+Ryūkyū
+Yuan
+South Asia
+Delhi
+Mughal
+South East Asia
+Khmer
+Majapahit
+North America
+Cahokia
+South America
+Australasia
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=England&oldid=21188
+"

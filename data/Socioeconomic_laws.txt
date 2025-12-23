@@ -1,0 +1,1827 @@
+Source URL: https://eu5.paradoxwikis.com/Socioeconomic_laws
+Source Date: 2025-12-19
+
+Please help with verifying or updating older sections of this article.
+At least some were last verified for
+version
+pre-release.
+Europa Universalis 5
+Laws
+Succession
+Religious
+Military
+Administrative
+Socioeconomic
+Estate
+International organization
+This page is
+automatically generated
+from the game files. It should not be edited directly.
+Instead, please suggest changes or improvements on the
+talk page
+.
+List
+[
+edit
+|
+edit source
+]
+Tribal Migration
+[
+edit
+|
+edit source
+]
+Our people do not permanently occupy out lands. Instead, we travel freely, as fate and our people's needs dictate.
+Potential
+has_tribal_government: True
+country_type: pop
+Allow
+has_tribal_government: True
+country_type: pop
+Policy
+Allow
+Country Modifier
+Estate Preferences
+Time to implement
+On Fully Activated
+Frequent Migration
+No place can bind us forever, as our spirits are as free as the wind itself. We are entirely nomadic and do not claim any lands as our own.
++10.00%
+Army Movement Speed
+−25.00%
+Migrate Cost
+Nobility
+Seasonal Travel
+As the world changes throughout the year, so must we. Our people cycle through different known sites over the year, returning to the same spots each time. We are as birds, and migrate to find better food, shelter, and breeding opportunities when the seasons turn.
+−50.00%
+Migrate Cost
+Burghers
+Permanent Settlement
+Sometimes, following the storm is not as important as finding shelter from it. The time has come for us to establish more permanent settlements that our people can live in all year, every year.
+capital:
+At least one of:
+owner: root
+has_owner: False
++0.10%
+Stability Decay
++100.00%
+Migrate Cost
+Clergy
+5 years
+change_country_type: location
+Tribal Cultural Identity
+[
+edit
+|
+edit source
+]
+As time progresses, so does our understanding of our culture and identity. We no longer have to fear neighboring tribes; we have tamed the wilderness and have become its master. Now it is time to embrace who we are as a people.
+Potential
+has_tribal_government: True
+Allow
+has_tribal_government: True
+Policy
+Country Modifier
+Estate Preferences
+Time to implement
+Dynastic Lineage
+The lineage of our rulers has been divinely blessed. Their royal blood is what confirms them as worthy of leadership, and therefore we must trust their guidance if we wish to find glory and prosperity.
++0.10
+Monthly Progress to Centralization
++10.00%
+Crown Power
+Crown
+20 years
+Rule by the Public
+To ensure a just government, those who hold power in it must be democratically elected. By choosing our leaders, we choose the fate of our nation.
++0.10
+Monthly Progress to Communalism
+−0.025%
+Stability Decay
+Commoners
+20 years
+State of Faith
+Allowing mortals to make decisions the fate of our people should not be done without spiritual guidance. Our ruler must be the voice of the gods, and represent their divine judgment in all things.
++0.10
+Monthly Progress to Traditionalist
++1.00
+Tolerance of the True Faith
+Clergy
+20 years
+Tribal Identity
+Centralized and formalized states, far from being civilized, are inherently destructive to nature. We must find a different way, and follow the traditional path of balance between the natural and human realms, if we are to truly propser.
++0.10
+Monthly Progress to Traditional Economy
++0.50
+Monthly Tribal Cohesion
+Commoners
+Nobility
+Tribal Modernization
+[
+edit
+|
+edit source
+]
+The time has come to discard our old ways and embrace a position in the larger world. No longer seen as a mere tribe, we shall officially become a country, one that represents and defends our people and the way we live.
+Potential
+has_tribal_government: True
+Allow
+has_tribal_government: True
+Not:
+has_policy: tribal_identity_policy
+country_type: location
+gold:
+GREATER_THAN_EQUAL: 100
+Policy
+Allow
+Country Modifier
+Estate Preferences
+Time to implement
+On Fully Activated
+Modernize into a Monarchy
+The lineage of our rulers has been divinely blessed. Their royal blood is what confirms them as worthy of leadership, and therefore we must trust their guidance if we wish to find glory and prosperity.
+has_policy: dynastic_lineage_policy
++0.20
+Monthly Progress to Aristocracy
+−1.00
+Monthly Tribal Cohesion
+Nobility
+20 years
+add_government_power: government_power_extreme_bonus
+add_gold: -100
+change_government_type: government_type:monarchy
+Modernize into a Republic
+To ensure a just government, those who hold power in it must be democratically elected. By choosing our leaders, we choose the fate of our nation.
+has_policy: rule_by_the_public_policy
++0.20
+Monthly Progress to Plutocracy
+−1.00
+Monthly Tribal Cohesion
+Burghers
+20 years
+add_government_power: government_power_extreme_bonus
+add_gold: -100
+change_government_type: government_type:republic
+Modernize into a Theocracy
+Allowing mortals to make decisions the fate of our people should not be done without spiritual guidance. Our ruler must be the voice of the gods, and represent their divine judgment in all things.
+has_policy: state_of_faith_policy
++0.20
+Monthly Progress to Spiritualist
+−1.00
+Monthly Tribal Cohesion
+Clergy
+20 years
+add_government_power: government_power_extreme_bonus
+add_gold: -100
+change_government_type: government_type:theocracy
+Education of the Elites
+[
+edit
+|
+edit source
+]
+The education of our elites is of vital importance. By providing our upper-class citizens with ample access to appropriate works of art, we will further our cultural goals, both at home and abroad, through the creation of legendary works and the amplification of our splendor!
+Allow
+total_effective_building_levels:university:
+GREATER_THAN: 0
+Policy
+Country Modifier
+Estate Preferences
+Potential
+Open Institutions
+Education must be freely accessible to all those who seek it. We shall permit unrestrained access to the wisdom held within our institutions of learning, and throw the doors open wide to receive our people, that they may more readily develop the innovation and intellectual sophistication that will set us apart from other states.
+−5.00%
+Clergy Estate Satisfaction Equilibrium
++0.025
+Monthly Progress to Innovative
++20.00%
+Institution Growth
+Commoners
+Burghers
+Not:
+has_estate_privilege:
+Strengthened Faith
+At least one of:
+estate_power(estate_type:crown_estate):
+GREATER_THAN_EQUAL: 0.6
+estate_power(estate_type:clergy_estate):
+LESS_THAN_EQUAL: 0.25
+Mixed Institutions
+A balanced approach may be best if we are to keep our heads of faith and general populace satisfied while also providing valuable knowledge and access to education. Let us find a reasonable middle ground between the theological and secular schools of thought.
++1
+Possible Number of Artists
++0.025
+Monthly Progress to Innovative
++5.00
+Max Literacy for Burghers
++5.00
+Max Literacy Nobles
+Burghers
+Theological Institutions
+The national identity of our people is inextricably tied to our faith and the headship of our clerical leaders. In order to better solidify the role of religion in our state, we should align our educational institutions with our religious ones, and instruct our people accordingly.
++5.00%
+Clergy Estate Satisfaction Equilibrium
++0.025
+Monthly Progress to Spiritualist
++10.00
+Max Literacy for Clergy
+Clergy
+Not:
+government_type: government_type:theocracy
+Education of the Missionaries
+Heathens and heresy are the factors that most strenuously test our beliefs. They seduce otherwise pious people away from the true faith with poisonous thoughts, drawing them away from the light to be devoured by darkness. Our missionaries must be learned and have unshakeable belief if they are to counter this corrosive evil.
++0.05
+Pop Conversion Speed
++5.00%
+Clergy Estate Satisfaction Equilibrium
++0.025
+Monthly Progress to Spiritualist
++15.00
+Max Literacy for Clergy
+Clergy
+government_type: government_type:theocracy
+Education of the Theocrat
+The fate of our nation twists in the hands of the divine, who hold dominion over all mundane matters. But it is the sacred duty of our ruler to interpret signs from the heavens, and communicate them to our people, so that we remain always favored above all other nations. To avoid any dangerous misinterpretations, the state must focus its efforts on thoroughly educating future rulers.
++10.00%
+Crown Power
+Crown
+government_type: government_type:theocracy
+Education of the Court
+Our ruler might represent the will of our government, but all humans are prone to human error. With the support of a highly educated court behind them, our ruler is less likely to commit a grave mistake in judgment.
+−15.00%
+Replace Cabinet Member Cost
++5.00
+Max Literacy Nobles
++5.00%
+Efficiency of Our Cabinet
++0.05
+Monthly Progress to Aristocracy
+Nobility
+Education of the People
+Knowledge and education are two of the most enriching aspects in anyone's life, and therefore, the state must ensure our people have access to both. We are all born with free will and free thought, and it is the state's duty to preserve these natural rights, which are held by all our people.
+−5.00%
+Noble Estate Satisfaction Equilibrium
+−5.00%
+Clergy Estate Satisfaction Equilibrium
++5.00
+Max Literacy for Burghers
++5.00
+Max Literacy for Peasants
++5.00
+Max Literacy for Soldiers
++5.00
+Max Literacy for Laborers
++0.10
+Monthly Progress to Humanist
++0.05
+Monthly Progress to Innovative
+Burghers
+Commoners
+Confucian Academies
+Private institutions combining the functions of a school with those of a religious shrine, these academies educate elite students in classical texts and Confucian philosophy while preparing them for civil service examinations. While officially an apparatus of the state, these institutions are given extensive authority and special privileges that set them apart from other government entities.
++10.00%
+Efficiency of Our Cabinet
++5.00
+Max Literacy Nobles
+Clergy
+Nobility
+any_international_organizations_member_of:
+international_organization_type: international_organization_type:sect
+international_organization_has_policy:
+Confucianism
+Compulsory Education for Nobility
+It is mandatory for our Nobility to undergo thorough schooling. With the goal of improving our government functions, every member of the elite classes shall be rigorously educated in the study of law, art, and Latin.
++15.00
+Max Literacy Nobles
++10.00%
+Legislative Efficiency
++10.00%
+Skill of New Artists
+Nobility
+culture:
+Scots
+has_unlocked_policy_trigger:
+type: scottish_noble_education
+Education of the Masses
+[
+edit
+|
+edit source
+]
+The education of our population is of vital importance. By providing our people with ample access to the appropriate materials, regardless of their place in the social hierarchy, we will create a more educated and artistically fluent population, and further our governmental goals both at home and abroad.
+Potential
+estate_power(estate_type:peasants_estate):
+GREATER_THAN: 0
+Policy
+Country Modifier
+Estate Preferences
+Potential
+Uneducated Masses
+What use are reading and writing to those whose sole purpose is to tend crops? The masses are best left to their fields and flocks, innocent of the many dangerous ideas hidden between book covers.
++5.00%
+Noble Estate Satisfaction Equilibrium
++0.05
+Monthly Progress to Serfdom
++0.10
+Monthly Progress to Traditionalist
++10.00
+Max Literacy Nobles
++10.00
+Max Literacy for Clergy
+Nobility
+Religious Teachings
+The millennia-old, tried-and-true method of letting our religious institutions take responsibility for educating our people, while the state focuses on more important tasks.
++5.00%
+Clergy Estate Satisfaction Equilibrium
++10.00
+Max Literacy Nobles
++10.00
+Max Literacy for Clergy
++5.00
+Max Literacy for Burghers
++5.00
+Max Literacy for Laborers
++5.00
+Max Literacy for Soldiers
++5.00
+Max Literacy for Peasants
++0.10
+Monthly Progress to Spiritualist
+Clergy
+Devout Education
+A pious education, focusing on ensuring that students are well-versed in the workings of the divine. Theology can be more useful than mathematics, after all... albeit perhaps not in every situation.
++10.00%
+Clergy Estate Satisfaction Equilibrium
++0.025
+Monthly Progress to Spiritualist
++0.02
+Monthly Rite Power
++10.00
+Max Literacy Nobles
++10.00
+Max Literacy for Clergy
++5.00
+Max Literacy for Burghers
++5.00
+Max Literacy for Peasants
++5.00
+Max Literacy for Soldiers
++5.00
+Max Literacy for Laborers
++0.10
+Monthly Progress to Traditionalist
+Clergy
+At least one of:
+government_type: government_type:theocracy
+has_estate_privilege:
+Religious Administration
+Individual Apprenticeships
+The sacred process by which a skilled mentor passes down a lifetime of knowledge to a protégé. While many of these mentorship-apprentice arrangements are formally arranged, eager learners can also be taught by their families, established elder members of society, or even their guild quartermasters.
++10.00
+Max Literacy Nobles
++10.00
+Max Literacy for Clergy
++10.00
+Max Literacy for Burghers
++15.00%
+Trade Advantage
+Burghers
+has_estate_privilege:
+Land of Commerce
+Oral Tradition
+Wisdom is passed down to younger generations through methods such as storytelling or the performing arts. Venerable members of a community tell and re-tell ancient tales and the lessons learned from them, which young listeners will memorize and repeat in the future. In this way, the history of our people will be preserved from generation to generation by those who lived it.
++0.025
+Monthly Progress to Spiritualist
++0.01
+Monthly Tribal Cohesion
++0.15
+Monthly Rite Power
++0.10
+Monthly Progress to Communalism
++25.00%
+Change Liturgical Language Cost
+Clergy
+At least one of:
+Not:
+has_advance: written_alphabet
+government_type: government_type:steppe_horde
+government_type: government_type:tribe
+Presbyterian Education
+Our Church will be responsible for educating the people of our nation. These efforts will be financially supported through tax revenue collected from upon the landowning elite.
++10.00%
+Maximum Tax for Noble Estate
++5.00%
+Clergy Estate Satisfaction Equilibrium
++5.00
+Max Literacy Nobles
++5.00
+Max Literacy for Clergy
++5.00
+Max Literacy for Burghers
++5.00
+Max Literacy for Peasants
++5.00
+Max Literacy for Soldiers
++5.00
+Max Literacy for Laborers
++0.10
+Monthly Progress to Innovative
+Commoners
+Clergy
+culture:
+Scots
+has_unlocked_policy_trigger:
+type: scottish_presbyterian_education
+Personal Religious Education
+Why centralize education in formal institutions when the printing-press has allowed every household to become its own school? We will let our people educate themselves, giving them the responsibility of deciding what knowledge they find worthy of acquiring.
++0.025
+Monthly Progress to Individualism
++5.00
+Max Literacy Nobles
++5.00
+Max Literacy for Clergy
++5.00
+Max Literacy for Burghers
++5.00
+Max Literacy for Peasants
++5.00
+Max Literacy for Soldiers
++5.00
+Max Literacy for Laborers
++2.00
+Max Literacy for Slaves
+Burghers
+Commoners
+has_advance: written_alphabet
+has_advance: printing_press_advance
+At least one of:
+has_estate_privilege:
+Sponsor Printing of Religious Texts
+is_protestant: True
+Epic Tradition
+Young people learn best when the knowledge is presented in the form of gripping, memorable tales, and they are both captivating and easy to understand. Much can be learned from the fantastic stories of our ancestors, and we shall make sure our people understand these lessons well.
++15.00%
+Skill of New Artists
+−50.00%
+Cost of Increase Literacy Action
++10.00%
+Invite Artist Cost
+Burghers
+has_advance: written_alphabet
+All of:
+At least one of:
+All of:
+has_advance: printing_press_advance
+At least one of:
+has_estate_privilege:
+Religious Literacy Rights
+has_estate_privilege:
+Embellish Great Works of Faith
+government_type: government_type:tribe
+government_type: government_type:steppe_horde
+religion:
+has_sects: True
+Epic Tradition
+Young people learn best when the knowledge is presented in the form of gripping, memorable tales, and they are both captivating and easy to understand. Much can be learned from the fantastic stories of our ancestors, and we shall make sure our people understand these lessons well.
++15.00%
+Skill of New Artists
++10.00%
+Invite Artist Cost
+Burghers
+has_advance: written_alphabet
+All of:
+At least one of:
+All of:
+has_advance: printing_press_advance
+At least one of:
+has_estate_privilege:
+Religious Literacy Rights
+has_estate_privilege:
+Embellish Great Works of Faith
+government_type: government_type:tribe
+government_type: government_type:steppe_horde
+religion:
+has_sects: False
+Secular Education
+Houses of worship are the home of the divine, not the classroom. Let us keep secular and religious instruction separate, as the mundane and divine realms are.
+−25.00%
+Clergy Estate Satisfaction Equilibrium
++25.00%
+Institution Growth
++10.00
+Max Literacy
+Burghers
+Commoners
+Not:
+government_type: government_type:theocracy
+has_embraced_institution: institution:enlightenment
+Vedic Education
+An education method that teaches the masses about Hinduism without seperating anyone into castes.
++5.00%
+Clergy Estate Satisfaction Equilibrium
+−5.00%
+Noble Estate Satisfaction Equilibrium
++5.00
+Max Literacy
++0.05
+Monthly Progress to Spiritualist
+has_unlocked_policy_trigger:
+type: vedic_education
+religion:
+Hinduism
+Slavery Laws
+[
+edit
+|
+edit source
+]
+The influx of workers and cheap labor from external sources has long been a cornerstone of our economy, both at home and abroad. The matter of embracing or banning is a clear reflection of what place the lower strata, and slaves in particular, occupy in our society.
+Policy
+Country Modifier
+Estate Preferences
+Slave Trade Allowed
+Slave trade and slavery are legally allowed throughout our nation.
+Slavery Blocked:
+no
+Ban Exports of Slaves:
+no
+Ban Imports of Slaves:
+no
+Burghers
+Slave Trade Banned
+Slave trade and slavery are henceforth prohibited throughout our nation.
+Slavery Blocked:
+yes
+Ban Exports of Slaves:
+yes
+Ban Imports of Slaves:
+yes
+Clergy
+Commoners
+Colonial Policy
+[
+edit
+|
+edit source
+]
+This establishes the policy that our country will follow for colonial affairs.
+Policy
+Allow
+Country Modifier
+Estate Preferences
+Potential
+Settled Colonies
+We have adopted colonial policies that encourage founding settlements in newly discovered lands, where settlers from the heart of our nation can exploit any
+Raw Goods
+and continue to expand inland.
++100.00%
+Monthly Colonial Migration
+−10.00%
+Colonial Maintenance
++0.05
+Monthly Progress to Outward
+Commoners
+Trade Colonies
+We have adopted colonial policies that encourage the foundation of trading posts and entrepôts in strategic locations, which are aimed at exchanging different goods and opening new
+Markets
+for the benefit of our economy.
+−25.00%
+Foreign Buildings Cost
++20.00%
+Colonial Range
++0.05
+Monthly Progress to Individualism
+Burghers
+Encomienda System
+We will appoint a regional governor in our name who will be in charge of collecting tribute from the native population of the area. This organization allows us to establish colonies efficiently and with smaller costs than normal, although it is certainly not helping our relationships with the locals.
++0.20
+Monthly Progress to Serfdom
++0.20
+Monthly Progress to Traditional Economy
+−20.00%
+Create Colonial Charter Cost
+Nobility
+culture:
+Castilian
+has_unlocked_policy_trigger:
+type: encomienda_system_policy
+Sepúlveda
+We have adopted colonial policies in alignment with Sepúlveda's reasoning that native peoples are naturally disposed to be slaves, and that slavery is also the best way for their Christianity overlords to convert them to the true faith. As a result, the landowners in our colonies face no retribution for the way they treat the local population and can ultimately extract greater profits from their labor.
++20.00%
+Pop Conversion Speed %
++50.00%
+Monthly Colonial Migration
+Nobility
+has_unlocked_policy_trigger:
+type: valladolid_sepulveda
+Las Casas
+We have adopted colonial policies in alignment with Las Casas's reasoning that native peoples are not barbarians, and have free will. They should therefore convert to Christianity out of their own free will and cannot be enslaved without consequences.
+−20.00%
+Pop Conversion Speed %
++25.00%
+Monthly Colonial Migration
++1.00
+Tolerance of Heathen Beliefs
+Clergy
+has_unlocked_policy_trigger:
+type: valladolid_las_casas
+Portuguese Captaincies
+We have adopted colonial policies that stipulate officials who represent our empire will only earn a token salary — in exchange for a generous portion of our colonial profits.
+has_advance: por_the_bandeirantes
++50.00%
+Monthly Colonial Migration
+−20.00%
+Income from Colonial Subjects
+−50.00%
+Colonial Maintenance
++0.05
+Monthly Progress to Aristocracy
+Nobility
+Burghers
+culture:
+Portuguese
+Portuguese Governorate General
+Our colonies will be governed by one central office, which all regional captaincies will report to. This secures our centralized control over our colonies.
++0.05
+Monthly Progress to Centralization
++50.00%
+Income from Colonial Subjects
++50.00%
+Monthly Colonial Migration
+Crown
+culture:
+Portuguese
+has_unlocked_policy_trigger:
+type: portuguese_governorate_general
+Native Policy
+[
+edit
+|
+edit source
+]
+This establishes the policy that our country will follow regarding the native people inhabiting our colonies.
+Policy
+Country Modifier
+Estate Preferences
+Trade
+Our colonial authorities will encourage trade with the native population to start a regular flow of profitable goods into our markets.
++25.00
+Society of Pops Opinions
+−20.00%
+Colonial Maintenance
++0.05
+Monthly Progress to Free Trade
+Burghers
+Subjugation
+Our colonial authorities will attempt to subjugate the native population into a new, profitable source of labor for our country.
+−33.00
+Society of Pops Opinions
+Native Subjugation Casus Belli:
+yes
+Enslave Tribesmen:
+yes
++0.05
+Monthly Progress to Serfdom
+Nobility
+Commoners
+Integration
+Our colonial authorities will try to integrate the native population with our own, to make them more self-sufficient and promote social stability.
+−20.00
+Society of Pops Opinions
++50.00%
+Monthly Religious Conversion from Buildings
+Promote Tribesmen:
+yes
++0.05
+Monthly Progress to Humanist
+Clergy
+Economic Policy
+[
+edit
+|
+edit source
+]
+A nation's economic policy sets out specific economic objectives and means to achieve them, and makes decisions and creates regulations for taxation, spending, currency, trade, and more.
+Policy
+Allow
+Country Modifier
+Estate Preferences
+Potential
+Lockean Proviso
+This proviso limits property appropriation by requiring that when someone claims unowned resources, there must equally valuable resources available for others. The government moderates this balance and ensures that private property acquisition does not deprive others of their equal opportunity to gain wealth.
++5.00%
+Raw Materials Output
++0.0020
+Monthly Development
+War Economy
+The economic security of the state is based on our ability to wage and win wars. Manufactories in our state should have no other purpose than fueling our military ambitions.
+modifier:ban_exports_of_firearms: False
+modifier:ban_exports_of_cannons: False
+modifier:ban_exports_of_weaponry: False
++10.00%
+Firearms Output
++10.00%
+Cannon Output
++10.00%
+Weaponry Output
+−5.00%
+Army Maintenance
+Crown
+Embrace the Economic Theory
+Economics play a vital role within the apparatus of the state. The complex systems of trade, finance, and luxury must be handled by our intellectuals and scholars to best serve the needs of the government.
+−1.00%
+Bank Interest
+−0.05%
+Monthly Inflation
+Burghers
+Free Trade
+Merchants from all over the world should be able to trade within our borders. Abandoning the narrowness of mercantilism, the state will now gain easier access to foreign goods — and ducats.
++10.00%
+Trade Advantage
++0.10
+Monthly Progress to Free Trade
+Burghers
+Royal Charters
+Royal charters are allowances granted by the Crown to individuals or trade companies that bestow them with unique rights and powers. These charters are an excellent way for us to support ventures — and exploit opportunities — abroad.
++10.00%
+Trade Maritime Advantage
+−5.00%
+Navy Maintenance
+Nobility
+Cameralism
+To strengthen our economic position and attract immigrants, we will rely on a bureaucratic system, designed to administrate our efforts in great detail. These chambers will organize everything from the construction of new manufactories to the distribution of new settlers arriving in our territory.
++0.10
+Monthly Progress to Land
++0.10
+Monthly Progress to Free Subjects
++15.00%
+Legislative Efficiency
++10.00%
+Pop Migration Speed
+Burghers
+Commoners
+culture:
+has_culture_group: German
+has_advance: manufactories_advance
+Black Market Consortium
+The pirates that run amok in the republic cannot be trusted to bathe themselves, let alone to govern a nation whose future hands on the edge of a cutlass. A Consortium formed of the most influential black market merchants shall be established as its true governors. Profit must come before liberty.
+Allow Black Market Buildings:
+yes
++2.50%
+Trade Efficiency
+Burghers
+has_reform: government_reform:pirate_brethren_reform
+Cultural Traditions
+[
+edit
+|
+edit source
+]
+Ancient tradition is the foundation of many cultures and civilizations. While progress is what will drive us to greatness, our traditions will always serve us as the reminder of our origins, and as a source for the strength and unity of our people.
+Policy
+Country Modifier
+Estate Preferences
+Time to implement
+Potential
+Martial Society
+Martial values have always been important in our societyy, but as we expand our borders, the need for militarization becomes ever more apparent. We must continue this trend, and build a strong nation with military might at its core.
++0.05
+Monthly Army Tradition
++0.10
+Monthly Progress to Belligerent
+Nobility
+Civil Society
+A strong nation requires more than military might — it needs a dynamic civil society where artisans, traders, clerics, and institutions of all kinds can flourish, creating prosperous communities that generate wealth, maintain social order, and contribute to the development of a sophisticated state.
++2.50%
+Maximum Tax for Peasants Estate
++0.10
+Monthly Progress to Conciliatory
+Burghers
+Maritime Society
+Our maritime traditions form the very fabric of our society. United in the thrill of taming the sea and venturing into foreign ports, our people have built a name for themselves as masters of naval affairs.
+−0.10%
+Navy Tradition Decay
++0.05
+Monthly Progress to Naval
+Burghers
+At least one of:
+has_or_had_tag: HSA
+All of:
+country_type: building
+is_merchant_republic: True
+Prussian Virtues
+The virtues of Pietism — diligence, sincerity, and a sense of duty above all — are the core values of our society.
++0.10
+Monthly Progress to Humanist
+−0.025%
+Stability Decay
++0.20%
+Monthly Control
+Clergy
+At least one of:
+has_or_had_tag: PRU
+has_or_had_tag: BRA
+has_unlocked_policy_trigger:
+type: pietism_society
+Sarmatism
+Our society originated with the ancient Sarmatians. However, Sarmatism is not just a theory of origin, but a cultural and political phenomenon that promotes the ideals of Aristocracy and the Golden Liberty.
+Nobility
+5 years
+has_unlocked_policy_trigger:
+type: plc_sarmatism
+Foreign Cultural Law
+[
+edit
+|
+edit source
+]
+As our state grows in size, so does the complexity of our social structures. Cultural unity within our state is no longer a given, and we now require policies to establish and maintain internal peace.
+Policy
+Country Modifier
+Estate Preferences
+Potential
+Allow Foreign Rituals
+Culture is similar in many ways to religion, in that it dictates social values and traditions and is influenced by the environment in which it develops. Accepting foreigners in our population for who they are, and allowing them to live their lifestyles undisturbed, will ensure a peaceful coexistence.
++1.00
+Cultures Capacity
+−25.00%
+Add Accepted Culture Cost
+Commoners
+Integrate Foreign Traditions
+Although foreign ideas can be alien to us, we should nevertheless stay abreast of interesting ideas and innovations in these foreign cultures, and adopt those that would serve us and our people. This will ease assimilation of foreigners into our society while increasing our own cultural influence.
++10.00%
+Pop Assimilation Speed
++5.00%
+Cultural Influence %
+Burghers
+Blood Tax of Foreigners
+The cultural aspects of our minority population are of little concern to us. As long as they provide soldiers for our military efforts when required, these foreigners are free to practice their traditions.
++5.00%
+Maximum Tax for Peasants Estate
++25.00%
+Non-Culture Levy Size
++25.00%
+Add Accepted Culture Cost
+Nobility
+Agrarian Constitution
+This legal framework seeks to maximize the economic exploitation and governance of territories we have conquered. The subjugated population is legally obliged to undergo reorganization, resulting in the establishment of rural settlements. This system is aimed at integrating the locals into our administration, converting them at a steady pace and expanding our influence.
++1.00%
+Estates Satisfaction Equilibrium
+−5.00%
+Proximity Cost
++10.00%
+Pop Assimilation Speed
+Nobility
+country_exists:
+Teutons
+this:
+Teutons
+Promote Chinese Traditions
+Despite our aptitude towards culture and preserving our ways, there is much benefit for us should we choose to study the ways of our Chinese neighbors.
++0.10
+Monthly Progress to Sinicized
+−10.00%
+Cultural Tradition %
+−2.50%
+Estates Satisfaction Equilibrium
+Crown
+At least one of:
+is_subject_of:
+Yuán(CHI)
+capital:
+sub_continent: sub_continent:east_asia
+capital:
+sub_continent: sub_continent:south_east_asia
+Neither of:
+tag: CHI
+culture:
+has_culture_group: Chinese
+Limit Chinese Traditions
+As we strive to preserve and weave our traditions into the annals of history, we must stay vigilant lest we become just another satellite state to a greater power.
++0.10
+Monthly Progress to Unsinicized
++5.00%
+Cultural Influence %
++0.03
+Monthly Legitimacy
++0.02
+Monthly Republican Tradition
++0.03
+Monthly Devotion
++0.03
+Monthly Tribal Cohesion
+Nobility
+At least one of:
+is_subject_of:
+Yuán(CHI)
+capital:
+sub_continent: sub_continent:east_asia
+capital:
+sub_continent: sub_continent:south_east_asia
+Not:
+culture:
+has_culture_group: Chinese
+Not:
+tag: CHI
+Precious Metal Distribution
+[
+edit
+|
+edit source
+]
+[ShowGoodsName('goods_gold')
+Potential
+At least one of:
+produced_in_country:goods_gold:
+GREATER_THAN: 0
+produced_in_country:silver:
+GREATER_THAN: 0
+has_law: precious_metal_distribution_law
+Policy
+Country Modifier
+Estate Preferences
+Export Ban
+We will enforce strict prohibition on the export of our precious Gold and Silver reserves to foreign lands. This preserves our wealth for domestic use, shielding our treasures from the greedy eyes of other nations. While this measure may safeguard our riches, it comes at the cost of international trade opportunities. A solemn decision for those who prioritize the sanctity of our vaults over global commerce...
+Ban Exports of Gold:
+yes
+Ban Exports of Silver:
+yes
+−5.00%
+Gold Output
+−5.00%
+Silver Output
++33.00%
+Income from Minting
++0.025
+Monthly Progress to Mercantilism
+Nobility
+Regulated Export
+The trade of our valuable Gold and Silver resources is managed with a watchful eye. This balanced approach limits the quantity of these precious metals that can be traded, ensuring that our wealth remains largely within our borders. By doing so, we strike a compromise between bolstering our economy and protecting our national riches. A prudent choice for rulers who seek both financial stability and regional influence.
++1.00%
+Trade Efficiency
+Crown
+Unlimited Export
+We shall open the floodgates and allow unrestricted trade of our Gold and Silver reserves with foreign nations. With this bold step, we embrace the potential for unparalleled wealth accumulation through international commerce. However, this policy exposes our treasures to the risk of being dispersed across the world, making them vulnerable to the greed of rival powers. A daring option for rulers who seek to dominate the global market and reap the rewards of boundless riches.
++10.00%
+Trade Advantage
++5.00%
+Gold Output
++5.00%
+Silver Output
+−33.00%
+Income from Minting
++0.025
+Monthly Progress to Free Trade
+Burghers
+Press Laws
+[
+edit
+|
+edit source
+]
+This determines how print media outlets in a country are run and regulated.
+Policy
+Country Modifier
+Estate Preferences
+State Press Only
+Only the State has the right to print the news. All other forms of press are illegal.
++20.00%
+Crown Power
++0.10
+Monthly Progress to Serfdom
++0.10
+Monthly Progress to Absolutism
+Crown
+Censored Press
+All printing must be approved by the state, which has the inalienable legal right to censor any material it opposes.
++5.00
+Max Literacy
++0.05
+Monthly Progress to Absolutism
+Nobility
+Free Press
+Citizens can print whatever they like without interference or sanction.
+−10.00%
+Crown Power
++10.00
+Max Literacy
++0.10
+Monthly Progress to Liberalism
++0.10
+Monthly Progress to Individualism
++0.10
+Monthly Progress to Free Subjects
+Burghers
+Mining Law
+[
+edit
+|
+edit source
+]
+This law determines who owns the mining operations in our country.
+Policy
+Country Modifier
+Estate Preferences
+Potential
+Bergordnung
+Control over the mining privileges rests in the hand of the state, allowing for flexible and efficient mining operations.
+−20.00%
+Expand Mining Cost
+−20.00%
+Founding Town Cost
+Crown
+Burghers
+At least one of:
+culture:
+has_culture_group: German
+culture:
+Slovene
+Direct Control of the Ruler
+All rare minerals are directly owned by our ruler, giving them ultimate control over any extraction operations.
+−20.00%
+Expand Mining Cost
++5.00%
+Gold Output
+Crown
+culture:
+Shona
+Nobility-Controlled Mining Operations
+The Nobility controls all mining operations.
+−10.00%
+Expanding Raw Materials Time
++0.05
+Monthly Progress to Traditional Economy
++0.10
+Monthly Progress to Aristocracy
++2.50%
+Noble Estate Satisfaction Equilibrium
+Nobility
+Burghers-Controlled Mining Operations
+The Burghers control all mining operations.
+−10.00%
+Expand Mining Cost
++0.05
+Monthly Progress to Capital Economy
++0.10
+Monthly Progress to Plutocracy
++2.50%
+Burgher Estate Satisfaction Equilibrium
+Burghers
+Commoner-Controlled Mining Operations
+The Commoners controls all mining operations.
++0.10
+Monthly Progress to Free Subjects
++2.50%
+Peasant Estate Satisfaction Equilibrium
+Commoners
+Novo Brdo Code
+The
+Novo Brdo
+Code provides detailed guidelines on property rights, safety measures, and economic practices, significantly influencing the development and prosperity of our mining communities.
+−20.00%
+Expanding Raw Materials Time
++0.10
+Monthly Progress to Traditional Economy
+−5.00%
+Founding Town Cost
+Nobility
+has_or_had_tag: SER
+custom_tooltip:
+text: has_unlocked_novo_brdo_tt
+has_variable: novo_brdo_variable
+Royal Fifth
+As per the monarch's ancient patrimonial rights, the Crown is entitled to the natural riches of the land. However, such an arrangement would be tyrannical, so this natural right has been reduced to a simple twenty percent tax on all precious metals produced in the country and its colonies.
++10.00%
+Silver Output
++10.00%
+Gold Output
++15.00%
+Mercury Output
++25.00%
+Income from Colonial Subjects
+Crown
+has_unlocked_policy_trigger:
+type: royal_fifth_law
+Amazigh Familial Connections
+[
+edit
+|
+edit source
+]
+The many tribes across our land hold certain authority over local affairs. Our stance towards them may define the course of our history.
+Potential
+capital:
+region: region:maghreb_region
+estate_power(estate_type:tribes_estate):
+GREATER_THAN: 0
+Policy
+Country Modifier
+Estate Preferences
+Reliance on Local Tribes
+Local chiefs and strongmen have great influence over their people. To appease them and win their cooperation would progress our own agenda.
++100.00%
+Tribes Power
+−5.00%
+Proximity Cost through Land
+Tribes
+Cordial Relations
+While we do not outright recognize their seniority in local matters, maintaining a healthy and respectful relationship between us and local tribes benefits us all.
++2.50%
+Tribes Satisfaction Equilibrium
+Crown
+Refuse Recognition
+The tribal groups that our lands graciously host have sought to disrupt our authority for far too long. If we are to consolidate our grip on power, we must demonstrate our might and bring these unruly factions to heel.
+−25.00%
+Tribes Satisfaction Equilibrium
++0.10
+Monthly Legitimacy
+Nobility
+Border Controls
+[
+edit
+|
+edit source
+]
+This Law determines if
+Migration
+is allowed in or out of the country.
+Policy
+Allow
+Country Modifier
+Estate Preferences
+Open Borders
+The borders of our country are open to anyone, and all may come and go freely.
+Disallow Foreign Migration:
+no
++0.10
+Monthly Progress to Liberalism
+Crown
+Nobility
+Clergy
+Burghers
+Commoners
+Tribes
+Closed Borders
+Nobody is permitted to leave or enter our country.
+Not:
+has_estate_privilege:
+Invite German Settlers
+Disallow Foreign Migration:
+yes
++0.05
+Monthly Progress to Traditionalist
+Nobility
+Clergy
+Burghers
+Commoners
+Tribes
+Language of Pleading
+[
+edit
+|
+edit source
+]
+The customs of our social hierarchy and legal proceedings must be concisely and uniformly written down in the language we find most appropriate.
+Potential
+has_embraced_institution: institution:legalism
+At least one of:
+Not:
+court_language: culture.language
+has_unlocked_policy_trigger:
+type: multi_lingual_court
+Policy
+Country Modifier
+Estate Preferences
+Potential
+Court Language
+By obfuscating everyday legal processes behind the prestigious language only used by the Crown, the rabble cannot so easily interfere in matters of state.
++2.50%
+Noble Estate Satisfaction Equilibrium
++10.00%
+Cultural Influence %
++0.10
+Monthly Progress to Serfdom
+Nobility
+Common Language
+By clarifying everyday legal process into the common tongue, ordinary folk become less likely to run afoul of the law.
++2.50%
+Peasant Estate Satisfaction Equilibrium
++10.00%
+Cultural Tradition %
++0.10
+Monthly Progress to Free Subjects
+Commoners
+Multi-Lingual Court
+By giving equal rights to all the languages of our realm, we ensure the support of the Commoners and the stability of the realm.
++3.00
+Cultures Capacity
++0.10%
+Monthly Control
++0.05
+Monthly Progress to Communalism
+Crown
+has_unlocked_policy_trigger:
+type: multi_lingual_court
+At least one of:
+culture:
+Kannadiga
+culture:
+Telugu
+culture:
+Tamil
+Colonial Aspirations
+[
+edit
+|
+edit source
+]
+Having overcome decades of turmoil, France has reached a point where it can finance overseas exploration. New policies will enable the court to pursue colonial ambitions with greater efficiency
+Potential
+has_variable: enable_fra_colonial_ambitions
+Policy
+Country Modifier
+Estate Preferences
+Potential
+New World Settlements
+While previous attempts have been made to establish colonies in the New World, they proved ineffective. However, with renewed financial backing from the state, establishing settlements in the New World should now be less challenging and more rewarding.
++50.00%
+Monthly Colonial Migration
+−8.00%
+Colonial Maintenance
+−20.00%
+Create Colonial Charter Cost
++0.025
+Monthly Progress to Mercantilism
+Burghers
+Ambitions in the Far East
+The Indian spice trade, while contested by other European powers, still remains a valuable market in which to establish a base of power.
+−20.00%
+Foreign Buildings Cost
++25.00%
+Colonial Range
++5.00%
+Trade Maritime Advantage
++5.00%
+Trade Efficiency
+Burghers
+French East India Company
+Having grown more established in India and the Far East, the French East India Company has been opened to expand the current French influence in the region. Only time will tell if the company will prove profitable, however...
++10.00%
+Trade Efficiency
++1.50
+Tolerance of Heathen Beliefs
+−20.00%
+Foreign Buildings Cost
++33.00%
+Colonial Range
++10.00%
+Trade Maritime Advantage
+Burghers
+has_unlocked_policy_trigger:
+type: french_east_india_company
+Primacy of Florentine Guilds
+[
+edit
+|
+edit source
+]
+The powerful mercantile institutes that make up our social fabric, the merchant guilds are an important proponent of our continued prosperity and affluence. Though all of them are important, it is undeniable that some are better at obtaining power and influence than others.
+Potential
+has_estate_privilege:
+Florence Guilds
+Policy
+Country Modifier
+Estate Preferences
+Arti Minori
+Arti Minori
+refers to the smaller trade associations that represent artisan crafters and other occupations of lesser scale and importance. These guilds focus on specialized skills such as saddlemaking, locksmithing, or carpentry, and they hold the lowest status within the merchant sphere.
++10.00%
+Maximum RGO Size in Towns & Cities
++0.10
+Monthly Progress to Free Subjects
++5.00%
+Peasant Estate Satisfaction Equilibrium
+−5.00%
+Burgher Estate Satisfaction Equilibrium
+Commoners
+Arti Mediane
+Arti Mediane
+serve as intermediate guilds occupying a middle position between the
+Arti Minori
+and
+Arti Maggiori
+. These guilds represent trades and professions of moderate scale and influence, such as blacksmithing and shoemaking, and acted as a bridge between the smaller specialized crafts and the more dominant industries.
++0.1
+Possible Burghers in Towns and Cities
+−5.00%
+Buildings Cost
+−5.00%
+Burgher Estate Satisfaction Equilibrium
+Burghers
+Arti Maggiori
+The
+Arti Maggiori
+are the largest and most influential merchant guilds. These guilds represent the major industries and trades that hold significant economic and political power, such as the textile industry or the banking and finance sector.
++2.50%
+Burgher Estate Satisfaction Equilibrium
++10.00%
+Burghers Power
++5.00%
+Production Efficiency
+Burghers
+Estudo Geral
+[
+edit
+|
+edit source
+]
+The por_estudo_geral is a national University that aims to educate the citizens of our humble state. Its location and proximity to the capital is a crucial matter to us.
+Potential
+has_unlocked_law_trigger:
+type: por_estudo_geral_law
+At least one of:
+owns: location:coimbra
+owns: location:lisbon
+Policy
+Country Modifier
+On Activate
+On Deactivate
+Potential
+Estudo Geral in Lisbon
+Establishing the Estudo Geral within the periphery of the court will allow us to centralize power and to exercise greater control over the University's operations.
++0.05
+Monthly Progress to Centralization
+if:
+limit:
+Not:
+location:lisbon:
+has_building:
+University
+location:coimbra:
+destroy_building: building(building_type:university|root)
+location:lisbon:
+change_building_level_in_location:
+building:
+University
+value: 1
+location:lisbon:
+add_location_modifier:
+mode: add_and_extend
+modifier: por_estudo_geral
+years: -1
+if:
+limit:
+location:lisbon:
+has_location_modifier: por_estudo_geral
+location:lisbon:
+remove_location_modifier: por_estudo_geral
+owns: location:lisbon
+Estudo Geral in Coimbra
+By situating the national University in the famously scholarly settlement of Coimbra, we will safeguard its independence and assure the estates of our educational goals.
++0.05
+Monthly Progress to Decentralization
+if:
+limit:
+Not:
+location:coimbra:
+has_building:
+University
+location:lisbon:
+destroy_building: building(building_type:university|root)
+location:coimbra:
+change_building_level_in_location:
+building:
+University
+value: 1
+location:coimbra:
+add_location_modifier:
+mode: add_and_extend
+modifier: por_estudo_geral
+years: -1
+if:
+limit:
+location:coimbra:
+has_location_modifier: por_estudo_geral
+location:coimbra:
+remove_location_modifier: por_estudo_geral
+owns: location:coimbra
+Amber Monopoly
+[
+edit
+|
+edit source
+]
+Amber is amongst the most prized resources within our state. Its trade is of ample importance and must be regulated carefully.
+Potential
+has_unlocked_law_trigger:
+type: teu_amber_monopoly_law
+Policy
+Country Modifier
+Estate Preferences
+State-Controlled Gathering
+The state reserves itself the exclusive right to manage the Amber resource. The export of this valuable good is managed by government ministers, bolstering the authority of the ruling class.
++1.00%
+Trade Efficiency
++0.05
+Monthly Progress to Aristocracy
+Crown
+Amber in Burghers Hands
+It is perhaps best that the Amber is controlled directly by those who trade in it. By eliminating piddling middlemen from the trade process, our overall renevue will greatly expand.
++10.00%
+Trade Capacity
++0.05
+Monthly Progress to Free Trade
+Burghers
+Gathering by the Commoners
+Amber should be controlled by the hands that collect it. The resource gathering shall be managed by the Commoners.
++0.05
+Monthly Progress to Free Subjects
++25.00%
+Amber Output
+Commoners
+Dominant Currency
+[
+edit
+|
+edit source
+]
+A focus on different types of currencies is bound to shape our country in many diverse ways, not just economically, but socially as well.
+Potential
+has_unlocked_law_trigger:
+type: kor_currency
+Policy
+Allow
+Country Modifier
+On Activate
+Potential
+Barter Economy
+The means of transaction might as well be conducted by barter.
+Metal Coinage
+Our attempts to make use of metal currencies have been rather ineffective due to our lack of resources. Perhaps now we will be able to change the course.
++1.00%
+Minting Threshold
+Jeohwa
+In order to stimulate the economy, let us found a new Paper currency, the Jeohwa. It will also allow us to pivot towards the Capital Economy.
+capital.market:
+stockpile_in_market(goods:paper):
+GREATER_THAN: 20
+capital.market:
+add_goods_supply:
+amount: -20
+goods:
+Paper
+Chinese Currency
+Instead of spending our efforts and resources on maintaining our own currency, we could rely on imported foreign coins of China.
++10.00%
+Trade Efficiency
+country_exists:
+Yuán(CHI)
+Scottish Colonial Affairs
+[
+edit
+|
+edit source
+]
+With tales of riches from the new world, Scotland stands to reap the benefits should it establish a sizable colonial basis. Although an overambition may prove catastrophic for the state's economic stability.
+Potential
+has_unlocked_law_trigger:
+type: sco_colonial_affairs_law
+Policy
+Allow
+Country Modifier
+Estate Preferences
+Time to implement
+No Colonial Ventures
+Colonial ventures and attempts to establish trade companies in the new world have been deemed too great a risk to the financial stability of Scotland.
+−50.00%
+Monthly Colonial Migration
++0.02
+Stability Investment
++0.0010
+Monthly Development
+Crown
+1 years
+Limited Colonial Ventures
+Colonial ventures have been deemed a worthwhile economic risk for the state, and have been officially sanctioned.
++10.00%
+Monthly Colonial Migration
+−3.00%
+Colonial Maintenance
+−5.00%
+Create Colonial Charter Cost
++15.00%
+Change Policy Cost
+−5.00%
+Tax Efficiency
+Crown
+1 years
+Experienced Colonial Administration
+Through countless efforts by explorers and investors, Scotland has found its place in the sun amongst the colonial powers and reaps great benefits from its colonial possessions.
+any_subject:
+is_subject_type: colonial_nation
+count:
+GREATER_THAN: 2
+−15.00%
+Colonial Maintenance
+−20.00%
+Create Colonial Charter Cost
+Crown
+1 years
+Enclosure Movement
+[
+edit
+|
+edit source
+]
+The Enclosure Movement is the process by which formerly communal land is surrounded by walls or fences, and thus transformed into private property.
+Potential
+has_law: enclosure_movement
+Locked
+has_policy: enclosure_act
+estate_power(estate_type:peasants_estate):
+LESS_THAN_EQUAL: 0.25
+Policy
+Allow
+Country Modifier
+Estate Preferences
+On Activate
+On Deactivate
+Potential
+Enclosure Allowed
+By permitting enclosures, we allow communal lands used by local populations to be privately owned, and for exclusive use by the owner.
++0.10
+Monthly Progress to Aristocracy
++2.50%
+Noble Estate Satisfaction Equilibrium
+Allows Peasants to Migrate:
+yes
+−0.20
+Rural Migration Attraction
++0.20
+Towns and Cities Migration Attraction
+Nobility
+Burghers
+add_estate_satisfaction:
+type:
+Nobility
+value: estate_satisfaction_severe_penalty
+Enclosure Disallowed
+Communal lands are protected from becoming Enclosures and cannot be privately owned.
+−5.00%
+Noble Estate Satisfaction Equilibrium
++0.10
+Monthly Progress to Free Subjects
+Commoners
+add_estate_satisfaction:
+type:
+Commoners
+value: estate_satisfaction_severe_penalty
+Enclosure Act
+Communal lands are further enclosed or privatized in order to support the rise of commercial agriculture and the growth of industrialization.
+culture:
+English
++20.00%
+Food Production %
++0.20
+Monthly Progress to Aristocracy
+Allows Peasants to Migrate:
+yes
+−0.40
+Rural Migration Attraction
++0.40
+Towns and Cities Migration Attraction
+Crown
+Nobility
+has_variable: enclosure_act
+Factory Working Conditions
+[
+edit
+|
+edit source
+]
+The expansion of our manufacturing industry is accelerating industrialization and boosting production capacity. As factory workers become increasingly central to the economy, regulating their rights in order to prevent exploitation becomes vital.
+Potential
+has_variable: factory_working_conditions_law
+Policy
+Allow
+Country Modifier
+Estate Preferences
+Decent Conditions
+A maximum 12-hour workday is enforced, and regular inspections of factories are carried out.
++0.10
+Monthly Progress to Free Subjects
++0.10
+Towns and Cities Migration Attraction
++5
+Character Life Expectancy
+Commoners
+Fair Conditions
+In addition to regulated working hours and factory inspections, additional protection is offered for child workers, limiting their work hours and mandating educational opportunities.
+societal_value:serfdom_vs_free_subjects:
+GREATER_THAN_EQUAL: 0
+−5.00%
+Burgher Estate Satisfaction Equilibrium
+−5.00%
+Noble Estate Satisfaction Equilibrium
++10.00
+Max Literacy for Laborers
++10
+Character Life Expectancy
+Commoners
+Unregulated Conditions
+Factory owners are free to run their businesses as they please. Accidents are a frequent issue, workers often experience exploitation, and workplace fatalities are all too common.
++0.10
+Monthly Progress to Capital Economy
+−5
+Character Life Expectancy
+−0.10
+Towns and Cities Migration Attraction
+Burghers
+Trade Unions
+[
+edit
+|
+edit source
+]
+During the early onset of industrialization, trade unions play a crucial role in shaping labor rights and working conditions. These unions negotiate with employers in order to secure better wages, shorter working hours, and safer conditions for their members through collective bargaining.
+Potential
+has_variable: trade_unions_law
+Policy
+Country Modifier
+Estate Preferences
+Allowed
+Workers may partake in collective bargaining and strikes, and protests can be carried out to disrupt production and pressure employers into meeting demands.
++0.10
+Monthly Progress to Free Subjects
++25.00%
+Peasants Power
++5
+Character Life Expectancy
+Commoners
+Prohibited
+Workers are not allowed to join forces or attempt any collective action. Strikes are illegal.
++0.10
+Monthly Progress to Capital Economy
++5.00%
+Noble Estate Satisfaction Equilibrium
++5.00%
+Burgher Estate Satisfaction Equilibrium
++0.025
+Monthly Progress to Absolutism
+Burghers
+Vestiarium
+[
+edit
+|
+edit source
+]
+Establishing and upholding legal regulations for managing state assets is important for efficient resource allocation and controlled spending. It is necessary for administration and helps the ruling authorities make decisions related to a variety of priorities.
+Potential
+has_variable: vestiarium
+Policy
+Country Modifier
+Estate Preferences
+Diplomatic Focus
+Items are categorized according to their practical and symbolic significance, as their intended use is lavish state ceremonies to impress foreign dignitaries and diplomatic gifts.
++1.00
+Diplomatic Reputation
++10.00%
+Improve Relations
+−20.00%
+Send Gift Cost
+Clergy
+Administrative Focus
+Items are managed according to their usefulness to governance and financial planning so that they can be efficiently used for building projects, and ensure that government expenditures are kept under control.
+−2.50%
+Expected Cost of Court
++0.50%
+Monthly Control
+−10.00%
+Urban Buildings Cost
+Nobility
+Tìfāyìfú
+[
+edit
+|
+edit source
+]
+Tìfāyìfú shall be regarded as our cultural policy towards the Chinese. Amongst the chief requirements shall be for the Hàn to organize their hair in the Biànzi style.
+Potential
+has_unlocked_law_trigger:
+type: mch_queue_hair
+Policy
+Country Modifier
+Enforce Biànzi
+The Hàn Chinese shall be forced to shave the front of the heads, while their hair on the back shall be grown longer and braided to form the Manchu Biànzi.
++5.00%
+Noble Estate Satisfaction Equilibrium
++25.00%
+Cultural Influence %
+−10.00%
+Non-Culture Levy Size
+Adoption of the Hànfú
+The Manchu officials will adopt Hànfú, the Hàn Chinese clothing style, to be more in line with the dominant ethnicity of the state.
++0.10
+Monthly Progress to Sinicized
+Intellectual Movements
+[
+edit
+|
+edit source
+]
+The ideological perspectives of the nineteenth century divides man to such extent that entire movements emerge, each stemming from the apparent discord among different philosophical, political, and cultural viewpoints.
+Potential
+has_variable: intellectual_movements
+Locked
+custom_tooltip:
+text: flavor_rus.72.custom2
+has_variable: intellectual_movements_decision
+dominant_culture:
+has_culture_group: East Slavic
+has_culture_group: Slavic
+Policy
+Country Modifier
+Estate Preferences
+On Activate
+Slavophiles
+The Slavophiles stress the importance of Orthodoxy, Communalism, preservation of traditional values and critique of materialism, individualism and the superficial nature of Western culture. They favor a more isolated path to preserve a unique cultural and spiritual heritage.
++1.00
+Cultures Capacity
++25.00%
+Speed of Integration
++0.05
+Monthly Progress to Traditional Economy
++5.00%
+Clergy Estate Satisfaction Equilibrium
+Commoners
+hidden_effect:
+set_variable:
+name: intellectual_movements_decision
+value: True
+years: 10
+Westernizers
+The Westernizers value closer ties with Europe and believe that all should align themselves with Western culture. The adoption of Western ideas, institutions, and technologies must take precedence to allow for rapid modernization, industrialization, and social reforms. Concepts such as cultural identity and religious unity hold little value.
++10.00%
+Monthly Research Progress %
++1.00
+Tolerance of Heretical Beliefs
+−25.00%
+Cultural Influence %
+−0.05
+Pop Assimilation Speed
+Burghers
+hidden_effect:
+set_variable:
+name: intellectual_movements_decision
+value: True
+years: 10
+Alcohol Restrictions
+[
+edit
+|
+edit source
+]
+In order to balance out the religious duties of the servants of our faith, and the desires of our people, we must decide if the consumption alcohol is allowed or not.
+Potential
+has_unlocked_law_trigger:
+type: ira_alcohol_ban
+religion:
+group:
+Islam
+Policy
+Country Modifier
+Estate Preferences
+Ban on Alcohol
+By banning alcohol for any citizens in our realm, we can properly ensure the loyalty of the servants of our faith, even if it angers our populace.
+Ban Exports of Beer:
+yes
+Ban Exports of Wine:
+yes
+Ban Exports of Liquor:
+yes
+Ban Imports of Beer:
+yes
+Ban Imports of Wine:
+yes
+Ban Imports of Liquor:
+yes
+−10.00%
+Ḏimmī Estate Satisfaction Equilibrium
++10.00%
+Clergy Estate Satisfaction Equilibrium
+Clergy
+No Restrictions on Alcohol
+Instead of banning alcohol for our people, it would be instead preferable to keep it unrestricted for any of our citizens, ensuring the loyalty of the masses.
++5.00%
+Ḏimmī Estate Satisfaction Equilibrium
+Commoners
+References
+[
+edit
+|
+edit source
+]
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=Socioeconomic_laws&oldid=21236
+"

@@ -1,0 +1,896 @@
+Source URL: https://eu5.paradoxwikis.com/Developer_diaries
+Source Date: 2025-12-17
+
+This article is
+timeless
+and should be accurate for any version of the game.
+Europa Universalis 5
+Version history
+Base game
+1.0
+•
+1.0.2
+•
+1.0.3
+•
+1.0.4
+•
+1.0.5
+1.0.6
+•
+1.0.7
+•
+1.0.8
+•
+1.0.9
+•
+1.0.10
+Developer diaries
+are articles, sometimes accompanied by videos, published by
+Paradox
+to describe the game design in detail.
+Base game
+[
+edit
+|
+edit source
+]
+All developer diaries, Tinto Talks, and other Tinto posts for the
+base game
+.
+Base game (1.0)
+No.
+Title and Link
+Description
+Date
+—
+Patch 1.0.8 live now
+1.0.8 patch notes
+2025-12-02
+—
+1.0.7 Patch Notes
+1.0.7 patch notes
+2025-11-20
+—
+1.0.6 Hotfix
+1.0.6 patch notes
+2025-11-18
+—
+1.0.5 Patch Notes
+1.0.5 patch notes
+2025-11-17
+—
+Hotfix 1.0.4
+1.0.4 patch notes
+2025-11-13
+—
+1.0.3 Patch Notes
+1.0.3 patch notes
+2025-11-10
+—
+1.0.2 Patch Notes
+1.0.2 patch notes
+2025-11-06
+7
+Diplomacy
+Overview of diplomacy mechanics
+2025-10-09
+6
+Military and Warfare
+Overview of military and warfare mechanics
+2025-10-02
+5
+Religions and Cultures
+Overview of religion and culture mechanics
+2025-09-25
+4
+Discovery
+Overview of exploration and colonization mechanics
+2025-09-18
+3
+Trade and Economics
+Overview of economic mechanics
+2025-09-11
+2
+Government, Politics, and Estates
+Overview of political mechanics
+2025-09-04
+1
+Population and Living World
+Overview of population and game map mechanics
+2025-08-29
+Tinto Talks
+[
+edit
+|
+edit source
+]
+Instead of releasing developer diaries only in the relatively short amount of time between announcing and releasing the game, there were regular
+Tinto Talks
+,
+Tinto Flavor
+,
+Tinto Maps
+,
+Tinto Flags
+, and Saturday building posts about the game
+Project Caesar
+before and after it was announced as
+Europa Universalis V
+. The goal of these posts was to gather player feedback early enough in the development process that the game could be adapted to the feedback.
+[1]
+After the game's release date was announced, "regular" developer diaries were posted as well.
+No.
+Title and Link
+Description
+Date
+92
+1.0.10 Patchnotes & Holiday Period
+Overview of 1.0.10 release
+2025-12-17
+91
+1.0.10 Lepanto
+Overview of upcoming changes to 1.0.10 beta
+2025-12-10
+90
+Patch 1.0.10 changes
+Highlights of patch 1.0.10
+2025-12-03
+89
+Game changes
+Overview of upcoming game changes
+2025-11-19
+88
+Patchwork
+Overview of upcoming patchwork
+2025-11-12
+87
+The future
+Brief overview of updates and plans for the near and long term future
+2025-11-05
+86
+Loading screens and achievements
+Overview of loading screens and achievements
+2025-10-29
+85
+Modding
+Overview of modding
+2025-10-22
+84
+Onboarding systems
+Overview of onboarding systems
+2025-10-15
+83
+Revolution
+Overview of the Revolution disaster
+2025-10-08
+82
+Generic disasters
+Overview of the Decline of the Empire, Court and Country, and Aspiration for Liberty disasters
+2025-10-01
+81
+Multiplayer
+Overview of multiplayer features
+2025-09-24
+80
+Golden Age of Piracy and Little Ice Age
+Overview of the Golden Age of Piracy and Little Ice Age situations
+2025-09-10
+79
+Columbian Exchange and Colonial Revolution
+Overview of the Columbian Exchange and Colonial Revolution situations
+2025-09-03
+78
+Treaty of Tordesillas and Great Pestilence
+Overview of the Treaty of Tordesillas and Great Pestilence situations
+2025-08-27
+77
+UI systems
+Overview of the user interface building blocks
+2025-08-20
+76
+Changes from feedback
+Overview of some changes implemented from player feedback
+2025-08-13
+75
+Black Death
+Overview of the Black Death situation
+2025-08-06
+74
+Red Turbans Rebellion + Crisis of the Chinese Dynasty
+Overview of the Red Turbans Rebellion situation and the Crisis of the Chinese Dynasty disaster
+2025-07-30
+73
+Middle Kingdom
+Overview of the Middle Kingdom IO and the Influence of China disaster
+2025-07-23
+72
+Inti and Folk religions
+Overview of the Inti and Folk religions
+2025-07-16
+71
+Tonal religions
+Overview of the Tonal (Mesoamerican) religion group
+2025-07-09
+70
+The Hundred Years' War
+Overview of the Hundred Years' War situation
+2025-07-02
+69
+The Guelphs & Ghibellines and the Italian Wars
+Overview of the Guelphs & Ghibellines and the Italians Wars situations
+2025-06-25
+68
+Buddhism
+Overview of Buddhist religions
+2025-06-18
+67
+Shinto and Shogunate
+Overview of Shinto religion mechanics and the Shogunate IO
+2025-06-11
+66
+Islamic religions
+Overview of Sunnism, Shiism, and Ibadism mechanics
+2025-06-04
+65
+Orthodoxy, Miaphysitism, and Nestorianism
+Overview of Orthodox, Miaphysite, and Nestorian mechanics
+2025-05-28
+64
+Unit graphics
+Overview of land unit graphics
+2025-05-21
+63
+Dharmic religions
+Overview of Hinduism, Jainism, and Sikhism mechanics
+2025-05-14
+62
+Teutonic Order example
+Example start with the Teutonic Order, particularly of its starting war with Lithuania
+2025-05-07
+61
+Protestants
+Overview of Protestant mechanics and the War of Religions situation
+2025-04-30
+60
+Western Schism, Reformation, Council of Trent
+Overview of situations involving Catholicism
+2025-04-23
+59
+Catholicism
+Overview of Catholicism mechanics
+2025-04-16
+58
+Holy Roman Empire
+Overview of Holy Roman Empire mechanics
+2025-04-09
+57
+Various updates
+Overview of changes to ages, colonialism, and more
+2025-04-02
+56
+Diplomacy/warfare update
+Overview of changes to the diplomatic and warfare systems
+2025-03-26
+55
+Political update
+Overview of changes to the political system
+2025-03-19
+54
+Economic improvements
+Overview of changes to the economic system
+2025-03-12
+53
+Mercenaries and POWs
+Overview of mercenaries and prisoners of war
+2025-03-05
+52
+Weather and volcanoes
+Overview of weather and natural disasters
+2025-02-26
+51
+Subjects and overlords
+Overview of subjects and overlords
+2025-02-19
+50
+Formable countries
+Overview of formable countries
+2025-02-12
+49
+Disease system
+Overview of disease system
+2025-02-05
+48
+Unions and regencies
+Overview of unions and regencies
+2025-01-29
+47
+Market screen
+Overview of market screen
+2025-01-22
+46
+Military objectives
+Overview of military objectives
+2025-01-15
+45
+Terrain
+Overview of climate, vegetation, and topography
+2025-01-08
+44
+Trade goods
+Overview of trade goods
+2025-01-01
+43
+Norway example
+Example start with Norway
+2024-12-25
+42
+Disasters
+Overview of disasters
+2024-12-18
+41
+Parliaments
+Overview of parliaments
+2024-12-11
+40
+Government reforms
+Overview of government reforms
+2024-12-04
+39
+Country ranks feedback
+Changes to country ranks
+2024-11-27
+38
+Societal values
+Overview of societal values
+2024-11-20
+37
+Cultural influence and tradition
+Overview of cultural influence and tradition
+2024-11-13
+36
+Culture
+Overview of culture and language
+2024-11-06
+35
+Country ranking
+Overview of country ranking
+2024-10-30
+34
+Slavery
+Overview of slavery
+2024-10-23
+33
+Diplomacy
+Overview of diplomacy
+2024-10-16
+32
+Rebels
+Overview of rebels
+2024-10-09
+31
+Peace system
+Overview of the peace system
+2024-10-02
+30
+Conquest
+Overview of conquest
+2024-09-25
+29
+Devastation/prosperity
+Overview of devastation and prosperity
+2024-09-18
+28
+Winter climate
+Overview of winter effects
+2024-09-04
+27
+Foreign buildings
+Overview of foreign buildings
+2024-08-28
+26
+Nation types
+Overview of nation types
+2024-08-21
+25
+Colonialism
+Overview of colonialism
+2024-08-14
+24
+Naval aspects
+Overview of naval aspects
+2024-08-07
+23
+Logistics and sieges
+Overview of logistics and sieges
+2024-07-31
+22
+Armies and combat
+Overview of armies and combat
+2024-07-24
+21
+Exploration
+Overview of exploration
+2024-07-17
+20
+Advances
+Overview of advances
+2024-07-10
+19
+Ages and institutions
+Overview of ages and institutions
+2024-07-03
+18
+Laws
+Overview of laws
+2024-06-26
+17
+Population system
+Overview of population mechanics
+2024-06-19
+16
+Cabinet
+Overview of cabinet
+2024-06-12
+15
+Dynasties
+Overview of characters and dynasties
+2024-06-05
+14
+Situations
+Overview of situations
+2024-05-29
+13
+Religion
+Overview of religion
+2024-05-22
+12
+International organizations
+Overview of international organizations
+2024-05-15
+11
+Military
+Overview of military
+2024-05-08
+10
+Markets
+Overview of markets and trade
+2024-05-01
+9
+Buildings
+Overview of buildings
+2024-04-24
+8
+More economy info
+Further details of economy
+2024-04-17
+7
+Economy makeup
+Overview of economy
+2024-04-10
+6
+Control/proximity
+Overview of control and proximity
+2024-04-03
+5
+Estates
+Overview of estates
+2024-03-27
+4
+Governments
+Overview of governments
+2024-03-20
+3
+Believable world
+Overview of population
+2024-03-13
+2
+Map
+Overview of the game map and geography
+2024-03-06
+1
+Project announcement
+Announcement and vision of Project Caesar
+2024-02-28
+Tinto Flavor
+[
+edit
+|
+edit source
+]
+No.
+Title and Link
+Date
+47
+Content is King
+2025-10-29
+46
+Switzerland & The Hansa
+2025-10-24
+45
+Kilwa & Zimbabwe
+2025-10-24
+44
+Poland, Lithuania & Ruthenia
+2025-10-17
+43
+Kanem Bornu & Songhai
+2025-10-14
+42
+Austria
+2025-10-10
+41
+The Netherlands
+2025-10-03
+40
+Denmark
+2025-09-09
+39
+England & Great Britain
+2025-09-05
+38
+Portugal
+2025-08-29
+37
+Castile/Spain
+2025-08-22
+36
+Native Americans (Haudenosaunee, Cahokia, Puebloans)
+2025-08-12
+35
+Mamluks
+2025-08-08
+34
+Dai Viet, Khmer, Ayodhya
+2025-08-01
+33
+China
+2025-07-25
+32
+Inca
+2025-07-18
+31
+Aztecs
+2025-07-11
+30
+France
+2025-07-04
+29
+Milan & Naples
+2025-06-27
+28
+Majapahit
+2025-06-20
+27
+Japan, Nanbokucho, Sengoku
+2025-06-13
+26
+Korea and Manchuria
+2025-06-10
+25
+Ottomans
+2025-06-06
+24
+Golden Horde
+2025-06-03
+23
+Byzantium (Eastern Roman Empire)
+2025-05-30
+22
+Serbia and Georgia
+2025-05-27
+21
+Venice and Genoa
+2025-05-26
+20
+Muscovy/Russia
+2025-05-23
+19
+Sweden
+2025-05-20
+18
+Delhi
+2025-05-16
+17
+Vijayanagar & Indian regional content
+2025-05-13
+16
+Brandenburg & Prussia
+2025-05-09
+15
+Military Orders
+2025-04-25
+14
+The Papal States
+2025-04-17
+13
+Saxony
+2025-04-11
+12
+Ilkhanate & Persia & Chagatai & Rise of Timur
+2025-04-04
+11
+Ethiopia
+2025-03-21
+10
+Scotland
+2025-03-14
+9
+Hungary
+2025-03-07
+8
+Morocco
+2025-02-28
+7
+Bavaria
+2025-02-21
+6
+Bohemia
+2025-02-14
+5
+Aragon
+2025-02-07
+4
+Mali
+2025-01-31
+3
+Novgorod
+2025-01-24
+2
+Florence
+2025-01-17
+1
+Types of Content & Guidelines
+2025-01-10
+Tinto Maps
+[
+edit
+|
+edit source
+]
+No.
+Title and Link
+Date
+Feedback Post
+—
+The World
+2025-01-06
+2025-09-29
+Ex5
+Pacific Ocean
+2025-01-03
+—
+Ex4
+South Atlantic
+2024-12-27
+—
+30
+South America
+2024-12-20
+2025-08-25
+29
+Central America
+2024-12-13
+2025-08-18
+Ex3
+Indian Ocean
+2024-12-02
+—
+28
+North America
+2024-11-29
+2025-08-11
+27
+Oceania
+2024-11-22
+2025-09-08
+26
+Indonesia
+2024-11-15
+2025-07-14
+25
+South East Asia
+2024-11-08
+2025-07-07
+24
+Japan and Korea
+2024-10-25
+2025-06-09
+23
+China
+2024-10-18
+2025-07-21
+22
+Mongolia, Manchuria, and Eastern Siberia
+2024-10-11
+2025-09-08
+21
+Chagatai and Tibet
+2024-10-04
+2025-09-08
+20
+The Steppes
+2024-09-27
+2025-06-02
+19
+India
+2024-09-20
+2025-05-19
+18
+Persia and the Caucasus
+2024-09-13
+2025-03-31
+17
+Arabia
+2024-09-06
+2025-03-10
+16
+Central, Eastern, and Southern Africa
+2024-08-30
+2025-05-05
+Ex2
+Sahara
+2024-08-27
+—
+15
+Horn of Africa
+2024-08-23
+2025-04-07
+Ex1
+North Atlantic
+2024-08-12
+2025-09-01
+14
+Western Africa
+2024-08-09
+2025-04-14
+13
+Maghreb
+2024-08-02
+2025-01-07
+12
+Germany
+2024-07-26
+2025-02-17
+11
+Scandinavia
+2024-07-19
+2025-09-01
+10
+Levant and Egypt
+2024-07-12
+2024-12-16
+9
+Carpathia and the Balkans
+2024-07-05
+2024-11-25
+8
+Russia
+2024-06-28
+2024-12-09
+7
+Anatolia
+2024-06-21
+2024-09-09
+6
+Great Britain and Ireland
+2024-06-14
+2025-05-12
+5
+Italy
+2024-06-07
+2024-07-16
+4
+Poland, Ruthenia, and the Baltic
+2024-05-31
+2024-09-02
+3
+France
+2024-05-24
+2024-07-04
+2
+Iberia
+2024-05-17
+2024-06-11
+1
+Low Countries
+2024-05-10
+2024-05-18
+Tinto Flags
+[
+edit
+|
+edit source
+]
+No.
+Title and Link
+Date
+4
+Dynamic Randoms
+2025-10-27
+3
+Rest of the World
+2025-10-20
+2
+Great Britain & Ireland
+2025-10-13
+1
+Iberia
+2025-10-06
+Video diaries
+[
+edit
+|
+edit source
+]
+Developer video diaries and developer's let's play sessions on the various expansions.
+Videos
+No.
+Title and Link
+Date
+7
+Europa Universalis V - Feature Video: Diplomacy & International Relations
+2025-10-09
+6
+Europa Universalis V - Feature Video: Military
+2025-10-02
+5
+Europa Universalis V - Feature Video: Culture & Religion
+2025-09-25
+4
+Europa Universalis V - Feature Video: Discovery
+2025-09-18
+3
+Europa Universalis V - Feature Video: Trade & Economics
+2025-09-11
+2
+Europa Universalis V - Feature Video: Government, Politics & Estates
+2025-09-04
+1
+Europa Universalis V - Feature Video: Population & The Living World
+2025-08-28
+References
+[
+edit
+|
+edit source
+]
+↑
+In
+Tinto Talks #1 - February 28th 2024
+Johan said:
+"Well, from a development perspective communicating with the players is extremely beneficial, as it provides us with feedback. But if it's so late in the development process that you can not adapt to the feedback, then a development diary is "just" a marketing tool."
+Europa Universalis V
+Game
+Achievements
+•
+Features
+•
+Game rules
+Guides
+Beginner's guide
+•
+Europedia
+•
+Keyboard shortcuts
+•
+Map modes
+•
+Tutorial videos
+•
+User interface
+Development
+Developer diaries
+•
+Downloadable content
+•
+Patches
+Community
+Easter eggs
+•
+Jargon
+•
+Modding
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=Developer_diaries&oldid=21174
+"

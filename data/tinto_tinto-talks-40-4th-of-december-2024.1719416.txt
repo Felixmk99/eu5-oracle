@@ -1,0 +1,517 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-40-4th-of-december-2024.1719416/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #40 - 4th of December 2024
+Thread starter
+Johan
+Start date
+Dec 4, 2024
+Hello everyone and welcome to another Tinto Talks, the Happy Wednesday when we talk more about our upcoming top secret game with the codename Project Caesar.
+This week we will go into details about the government reforms and look into some specific ones that you may use or not.
+Representing everything from ancient traditions to progressive amendments, Government Reforms outline the shape of governance in a country. Each one is unique, but they often give powerful trade-offs or open up unique play styles.
+At the start of the game, countries are only allowed 2 government reforms, but in every Age there is at least one advance that unlocks another slot for reforms. Some specific reforms also add another slot, so they are essentially “free” for that country. On average in the final Age of the game, a country may have 7 or 8 reforms.
+Common Government Reforms that are available to everyone are likely to have an Age requirement, spreading out their availability over the game.
+Some reforms are major reforms, and a country may not have more than one major reform at the same time.
+There will be a diverse selection of reforms in each age, with about 5 common new ones added each age, and another 2 per government type. The unique ones are far more plentiful, and diverse, with over 150 currently in the game.
+In the User Interface, the government reforms exist in the Crown’s part of the Estates Screen, as the Crown does not really have any estate privileges…
+France can have 3 reforms, but are the current ones actually beneficial?
+Removing a Government Reform currently costs 20 stability, which is a bit cheap, but that may change. Some reforms can not be removed at will though, and are locked until specific circumstances allow them to be removed.
+Adding a new reform does not have a cost, but it takes up to 2 years before the benefits are fully implemented.
+Common Reforms
+Here are some examples of early government reforms that many nations have access to from the start.
+Religious Tolerance
+For when your country is populated by people who practice different beliefs and confessions. Therefore, it would be prudent to govern in a tolerant manner with them, ensuring their support for the government.
+It will make your country a bit more communal though..
+Diplomatic Traditions
+From time immemorial our people have favored the word above the sword, giving us the ability to forge lasting relationships with our allies and friends and a reputation as honest and loyal.
+For certain types of countries, this is rather important..
+Military Order
+This is a major reform that catholic theocracies have access to. It is one of the types of reforms that truly defines a country.
+The Military Orders were created in the Middle Ages as a militant body of the Catholic Church. Its members are both warriors and monks who take religious vows and are destined to defend and expand Christianity.
+Military Sponsorships are vitally important to a Holy Order!
+Unique Government Reforms
+So let's take a look at some of the more unique government reforms that we have in the game right now.
+Family Sagas
+This is a unique reform that anyone with the primary culture of Icelandic can get, which both Iceland and Greenland starts with.
+Our ancient sagas passed orally through the generations tell of adventurous expeditions to a distant and wild land over the western sea. Perhaps one day we may follow in the footsteps of our old compatriots.
+If only they had the population to exploit it..
+Three Departments
+This is available to any country that has Chinese or Korean as their court language.
+The Three Departments System originates from the ancient Chinese empires and is the primary administrative structure of the state. All departments focus on several aspects of the process of drafting, establishing and revisiting state policies.
+If you want laws changed, this is the reform to have..
+Magna Carta
+This is a unique reform that England starts with, and is also possible for any country with the English primary culture, or if their overlord has this reform.
+The 'Great Charter' is a constitutional law that distributes power away from the monarch and towards the barons. First signed in 1215, it is also one of the earliest documents to enshrine the idea of civil liberties, such as the right to a fair trial, and protection against illegal imprisonment.
+It gives some power to the nobility, and shapes the country towards certain ideals.
+Stay tuned, as next week we will look into all the different types of Parliaments, and how you interact with them...
+203
+85
+16
+14
+7
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+23
+Next
+1 of 23
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+Spudzzy03
+Private
+11 Badges
+Jan 29, 2021
+17
+157
+Dec 4, 2024
+Add bookmark
+#2
+Great birthday present
+23
+3
+1
+Reactions:
+Reply
+Report
+M
+Myxach
+Second Lieutenant
+3 Badges
+Nov 1, 2014
+120
+423
+Dec 4, 2024
+Add bookmark
+#3
+This sounds more like policies.
+33
+11
+Reactions:
+Reply
+Report
+olivenkranz
+Imperator Enjoyer
+54 Badges
+May 13, 2020
+1.050
+1.472
+Dec 4, 2024
+Add bookmark
+#4
+Finally !
+Toggle signature
+Paradoxum, Imperatorem redde!
+- Not Augustus
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Dec 4, 2024
+Add bookmark
+#5
+I gotta say, I never know how to feel about this. On one hand I have to recognise that vikings did set foot in Canada. On the other, it frustrates me to see this being put on the same level of ability as Iberian explorations, mechanics-wise. Even if it's held back by population, it just always feels like an ahistorical leg-up.
+I can already tell it's not going to be a popular comment to make, but I just think that if the Icelandic or Norweagian really were specially prepared to be part of the colonial powers more than, let's say, the Bretons or the Irish or the Scots, we would have seen major colonies in the game period, as opposed to the Americas' colonisation being utterly dominated by Iberians for almost a century.
+Edit:
+I would be much more content if, instead of giving you exploration/settling bonuses, it gave you defence against native resistance on cold areas, for example, or a reduction of penalties from 'Artic' Climate on settling. In other words, some kind of hygienic advantage on specific areas the Nords would be better at settling. But not direct, general benefits befitting of early colonial empires that would apply just as well on Cuba, the Amazon, Australia and the Congo. That makes no sense to me.
+Last edited:
+Dec 4, 2024
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+107
+65
+20
+4
+Reactions:
+Reply
+Report
+Goblin Slave
+Goblin
+58 Badges
+Jul 6, 2018
+188
+2.402
+Dec 4, 2024
+Add bookmark
+#6
+How many unique government reforms should we expect the average country to have? I imagine France gets more than a random HRE minor. (Japan vs Serbia vs Ryukyu etc…)
+7
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Dec 4, 2024
+Add bookmark
+#7
+Imagine if with "Can Invite Settlers", you can invite from other countries, that way it wouldn't matter how big your own population is, since you can "steal" from other countries.
+15
+1
+Reactions:
+Reply
+Report
+Tercio Soldier
+Major
+58 Badges
+Feb 25, 2020
+568
+4.336
+Dec 4, 2024
+Add bookmark
+#8
+Could we have the 7 partidas as a starting government reform for Castile? Pretty please? It basically defined what government should be in Spain for centuries and was still referenced in th XIXth century.
+3
+2
+2
+Reactions:
+Reply
+Report
+Zerodv
+Field Marshal
+30 Badges
+Dec 1, 2014
+7.387
+7.442
+Dec 4, 2024
+Add bookmark
+#9
+Thrudgelmir2333 said:
+View attachment 1226108
+I gotta say, I never know how to feel about this. On one hand I have to recognise that vikings did set foot in Canada. On the other, it frustrates me to see this being put on the same level of ability as Iberian explorations.
+Click to expand...
+Wy shouldn't it be? There is evidence that the Norse might have briefly settled Madeira too, it is directly comparable, they just didn't have the adequate technology 4-5 centuries prior.
+38
+17
+6
+Reactions:
+Reply
+Report
+D
+dw70676
+Second Lieutenant
+76 Badges
+Aug 13, 2011
+191
+1.756
+Dec 4, 2024
+Add bookmark
+#10
+Can an overlord force their vassal to enact a government reform?
+10
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Dec 4, 2024
+Add bookmark
+#11
+Holidays are coming it seems, this was a bit shorter and way too general than what I would have expected.
+6
+3
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Dec 4, 2024
+Add bookmark
+#12
+So Government Reforms are sort of like Crown Privileges and they aren't really in their own tab then at all, unlike in EU4, as I understand it?
+3
+2
+2
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Dec 4, 2024
+Add bookmark
+#13
+Spudzzy03 said:
+Great birthday present
+Click to expand...
+Happy Birthday
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+Reply
+Report
+squid_whisperer
+Sergeant
+21 Badges
+Jun 27, 2024
+74
+614
+Dec 4, 2024
+Add bookmark
+#14
+Some of these don't really seem like reforms to me, the way that the reforms specifically do in EU4. Like "Religious Tolerance" seems like something that should be called a "national focus". Could the naming of these be in some way more specific, to make it seem like it is a concrete reform rather than some general aspiration?
+Great work, by the way. I am very excited for this game y'all are building
+39
+3
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Dec 4, 2024
+Add bookmark
+#15
+Zerodv said:
+Wy shouldn't it be? There is evidence that the Norse might have briefly settled Madeira too, it is directly comparable, they just didn't have the adequate technology 4-5 centuries prior.
+Click to expand...
+Exactly. There's a reason they couldn't stick around, when the Portuguese could.
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+13
+8
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Dec 4, 2024
+Add bookmark
+#16
+Thrudgelmir2333 said:
+View attachment 1226108
+I gotta say, I never know how to feel about this. On one hand I have to recognise that vikings did set foot in Canada. On the other, it frustrates me to see this being put on the same level of ability as Iberian explorations, mechanics-wise. Even if it's held back by population, it just always feels like an ahistorical leg-up.
+I can already tell it's not going to be a popular comment to make, but I just think that if the Icelandic or Norweagian really were specially prepared to be part of the colonial powers more than, let's say, the Bretons or the Irish or the Scots, we would have seen major colonies in the game period, as opposed to the Americas' colonisation being utterly dominated by Iberians for almost a century.
+Click to expand...
+Its about giving Iceland and the norse there their proper knowledge and skill..
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+111
+16
+12
+6
+2
+Reactions:
+Reply
+Report
+D
+Dongerino
+Evropa's Gemmiest Herald
+43 Badges
+Jun 27, 2015
+1.131
+10.921
+Dec 4, 2024
+Add bookmark
+#17
+It's alright I suppose. Still feels quite similar to EU4's modifier shopping every 50 years, which by its own is a pretty pointless feature.
+26
+5
+4
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Dec 4, 2024
+Add bookmark
+#18
+Goblin Slave said:
+How many unique government reforms should we expect the average country to have? I imagine France gets more than a random HRE minor. (Japan vs Serbia vs Ryukyu etc…)
+Click to expand...
+France will have more.
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+52
+3
+1
+1
+1
+Reactions:
+Reply
+Report
+D
+Davincie
+Captain
+80 Badges
+Feb 5, 2020
+323
+1.952
+Dec 4, 2024
+Add bookmark
+#19
+Thrudgelmir2333 said:
+View attachment 1226108
+I gotta say, I never know how to feel about this. On one hand I have to recognise that vikings did set foot in Canada. On the other, it frustrates me to see this being put on the same level of ability as Iberian explorations, mechanics-wise. Even if it's held back by population, it just always feels like an ahistorical leg-up.
+I can already tell it's not going to be a popular comment to make, but I just think that if the Icelandic or Norweagian really were specially prepared to be part of the colonial powers more than, let's say, the Bretons or the Irish or the Scots, we would have seen major colonies in the game period, as opposed to the Americas' colonisation being utterly dominated by Iberians for almost a century.
+Click to expand...
+You would have to see the Iberian reforms to say this puts them on the same level of ability, the Iberians might have vastly better reforms for exploration and colonization
+21
+7
+1
+1
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Dec 4, 2024
+Add bookmark
+#20
+Johan said:
+Its about giving Iceland and the norse there their proper knowledge and skill..
+Click to expand...
+Why, if their colonial efforts failed? Its not like Portugal was a massive population nexus, either.
+If it really IS a matter of knowledge of how to colonise and explore, that is.
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+29
+20
+5
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+23
+Next
+1 of 23
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

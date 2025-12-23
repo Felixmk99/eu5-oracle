@@ -1,0 +1,425 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-13-22nd-of-may-2024.1680927/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #13 - 22nd of May 2024
+Thread starter
+Johan
+Start date
+May 22, 2024
+Welcome to another Tinto Talks, where we give out top-secret information about our upcoming unannounced game with the code name Project Caesar. This time we will touch a little bit on the aspect of religion in this game.
+Every country, pop, or character has a religion they adhere to. This impacts their relationship with the place they currently are, and their relationship with others in the world.
+This is the religious setup of Aragon in 1337.
+Every religion in Project Caesar belongs to a Religion Group, such as Christianity or Paganism. Fellow religions in the same group consider each other to be merely Heretic, whereas religions in different groups condemn each other as Heathen.
+Every religion has a specific view of other religions as well, that ranges from Kindred to Enemy, which impacts relations between countries of different faiths, and how populations of another faith view your country.
+Each country also has their own tolerance of their true faith, of heretics, and of heathens, which impacts how happy or angry the population will be depending on which country they belong to.
+The Same Religion here, is from the law relating to valid heirs.
+The religious unity of your country has a really large impact on the satisfaction of your Clergy Estate.
+Important to know is that in Project Caesar, you just do not send missionaries to your locations and eventually they have changed religion. Here conversion is a slower process, which relies on government activities and infrastructure.
+A unique building for Muslim countries that has a tiny impact on conversion.
+Each religion belongs to a group, which impacts which tolerance is applied and how religions interact with each other. Religions in the same group are viewed as heretics, but those of another group as heathens.
+The groups we currently have are, but that may change as we continue to develop the game.
+Christian
+Muslim
+Eastern
+Dharmic
+Zoroastrian
+Manichean
+Judean
+Andean
+Pagan
+The current Christian religions. Take into account that they are very much WIP!
+In some games we have made there have not been any major differences between religions, merely being different modifiers, and while some religions in Project Caesar are still only a few modifiers, many will have mechanics. Right now, we have made unique mechanics for Catholicism, Orthodoxy, Miaphysitism, the various Protestants, Muslims, Buddhists, Shinto, Nahuatl, Hinduism & the Inti religion. Each of these will get their own unique later development diary.
+Now every religion will still have some modifiers that describe them, in many cases it is things that enable or disable certain mechanics.  Some examples include the fact that countries with Jain as their state religion can not start wars without a casus belli, and that Calvinist countries will never reroll the dice in a battle, as everything is preordained.
+Stay tuned for next week, where we talk about another completely new feature that adds flavor to the game.
+Sadly, I can’t reply today, as I am at some management thingie in Stockholm, but
+@Pavía
+will help you out!
+255
+94
+16
+10
+4
+2
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+42
+Next
+1 of 42
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+May 22, 2024
+Add bookmark
+#2
+Wow.
+11
+6
+4
+3
+Reactions:
+Reply
+Report
+Emp3ror552
+Sergeant
+Apr 24, 2024
+60
+237
+May 22, 2024
+Add bookmark
+#3
+Johan can you say culture groups will change? Culture group of turks were wrong in the eu4. Whats the point of making belong the Turks in Anatolia as Levantine and those further east as Iranian. I'm sorry, but this just means that the creators of the game didnt care about these things. Turks should be belong to same culture group.
+67
+18
+10
+5
+1
+Reactions:
+Reply
+Report
+H
+HyperCopeEmia
+Corporal
+2 Badges
+Jul 1, 2023
+31
+1.034
+May 22, 2024
+Add bookmark
+#4
+118
+9
+3
+Reactions:
+Reply
+Report
+AntarcticRanger
+Captain
+19 Badges
+Mar 13, 2024
+461
+1.873
+May 22, 2024
+Add bookmark
+#5
+Yooooo!
+Reply
+Report
+Teng_Ri
+if u read this v1
+May 3, 2020
+597
+3.382
+May 22, 2024
+Add bookmark
+#6
+classic
+Last edited:
+May 22, 2024
+143
+26
+3
+1
+1
+Reactions:
+Reply
+Report
+Mindel
+AI Chatbot
+2 Badges
+Jan 23, 2018
+2.255
+11.180
+May 22, 2024
+Add bookmark
+#7
+Hellenic? Norse?
+78
+16
+6
+3
+1
+Reactions:
+Reply
+Report
+ibvfteh
+Lt. General
+38 Badges
+Feb 9, 2019
+1.597
+9.577
+May 22, 2024
+Add bookmark
+#8
+full image
+71
+26
+12
+2
+Reactions:
+Reply
+Report
+Gurtannon
+General
+28 Badges
+Mar 10, 2024
+1.702
+9.943
+May 22, 2024
+Add bookmark
+#9
+Animist looks even more placeholder than before
+Toggle signature
+UltraOttomanist Turk
+100
+29
+4
+Reactions:
+Reply
+Report
+olivenkranz
+Imperator Enjoyer
+54 Badges
+May 13, 2020
+1.050
+1.472
+May 22, 2024
+Add bookmark
+#10
+Salvation is here!
+Toggle signature
+Paradoxum, Imperatorem redde!
+- Not Augustus
+3
+Reactions:
+Reply
+Report
+A
+Asheviere
+Second Lieutenant
+Nov 23, 2021
+161
+1.640
+May 22, 2024
+Add bookmark
+#11
+Kindred? I always knew Catholics were actually vampires in disguise.
+38
+7
+2
+1
+Reactions:
+Reply
+Report
+Universalis_
+Sergeant
+18 Badges
+Aug 26, 2016
+91
+1.314
+May 22, 2024
+Add bookmark
+#12
+Please, consider changing the wastelands on South America.
+Some of the Brazilian ones don't make sense at all
+51
+21
+6
+3
+Reactions:
+Reply
+Report
+Imperialismo
+Sergeant
+58 Badges
+Apr 16, 2021
+97
+815
+May 22, 2024
+Add bookmark
+#13
+Here's me hoping religion is more than just simple modifiers
+33
+12
+Reactions:
+Reply
+Report
+K
+klawton
+Private
+25 Badges
+Dec 1, 2021
+12
+121
+May 22, 2024
+Add bookmark
+#14
+Yo Hindu Australia in EU5 confirmed??
+58
+7
+Reactions:
+Reply
+Report
+KanzlerMaxVonBaden
+Second Lieutenant
+80 Badges
+May 21, 2018
+189
+1.517
+May 22, 2024
+Add bookmark
+#15
+Is there a possibility to merge religions? Like mending the shism between Christian churches or unifying Islam.
+61
+2
+1
+1
+Reactions:
+Reply
+Report
+VectorTheGreat
+Sergeant
+38 Badges
+Jun 12, 2019
+91
+350
+27
+May 22, 2024
+Add bookmark
+#16
+This was a pretty short diary. Sad
+43
+16
+Reactions:
+Reply
+Report
+S
+SgtPepper2077
+Corporal
+56 Badges
+Aug 5, 2021
+26
+54
+May 22, 2024
+Add bookmark
+#17
+Let Tinto cook
+7
+5
+5
+Reactions:
+Reply
+Report
+promant
+Meme Lord
+23 Badges
+Feb 24, 2017
+164
+332
+May 22, 2024
+Add bookmark
+#18
+All hail to Hindu Australia!
+Toggle signature
+Suggestions:
+Rework on Samogitia:
+link
+Dodo bird model in Mauritius:
+link
+----------------------------------------------------------------
+Modding:
+Generating countries at runtime:
+link
+18
+8
+Reactions:
+Reply
+Report
+HansFlammenwerfer
+First Lieutenant
+21 Badges
+Aug 2, 2019
+223
+1.360
+May 22, 2024
+Add bookmark
+#19
+I kinda wish you'd have divided Islam similarly to how divided Christianity was. I don't even mean distinguishing between the 4 Sunni Imams (which would be nice, and wouldn't make Sunnism any weaker with the "kindred" system); but representation for the separate Shia branches like Ismailis and Zaydis as well as the Abassids' state religion during Al Mamun's reign and for much of the Abassids history, the Mutazilite school, would be really cool.
+Other "sects of Islam" that can be represented would be the Alawites and the Druze (in quotations since I don't think Druze consider themselves Muslims, just Muwahhids). If those two are too niche, then representation of 'eastern gnostics' as a catch-all term for the insular, non-prosleytising religions in the region would work too. And since the Christians get something as esoteric as Strigolnichestvo represented; can the Muslims get the pagans of Harran represented (by now, they'll be calling themsleves Sabaens).
+Last edited:
+May 22, 2024
+81
+26
+6
+2
+Reactions:
+Reply
+Report
+I
+ImperatorRoman
+Colonel
+52 Badges
+Mar 18, 2014
+901
+2.098
+May 22, 2024
+Add bookmark
+#20
+I'm wondering if there will be a mechanic to simulate attempts at reunification between the Catholic and Eastern Orthodox churches. Possibly extended to include the Miaphysite and Nestorian churches as well. Would be an interesting alternative to just trying to convert pops.
+35
+5
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+42
+Next
+1 of 42
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

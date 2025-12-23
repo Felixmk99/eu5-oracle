@@ -1,0 +1,498 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-38-20th-of-november-2024.1716232/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #38 - 20th of November 2024
+Thread starter
+Johan
+Start date
+Nov 20, 2024
+Hello and Welcome to another Tinto Talks. The day of the week where we spill information about our top secret game with the codename Project Caesar.
+Today we will delve deeply into the world of Societal Values.
+Societal values describe the attributes of a country. Different countries start with different societal values, creating a unique and different experience. Please that values are all subject to testing and balancing.
+The societal value ranges from -100 to +100 , where a -100 value is completely to the left, and +100 to the right of the value.
+They change slowly over time, primarily influenced by the estate privileges, government reforms or laws that the country has. However, if you feel that you can’t wait for your society to change, you can always have a member of the Cabinet focusing on attempting to nudge a societal value to something else in your country.
+A character with good diplomatic skill is useful for this action..
+There are 13 common Societal Values that all countries have from the start, and currently one unique for countries in and around China, which will be talked about in a later TT. We have another one added in the Age of Absolutism as well. Some of these societal values you may recognize the name, or the design intent from previous games like EU2 or EU3, but they almost always have different impacts.
+Centralization vs Decentralization
+A centralized country may be more efficient, while a decentralized country is more resilient.
+Centralization increases crown power dramatically, but being decentralized has other benefits.
+Traditionalist vs Innovative
+A traditionalist country prioritizes stability and tradition over all other values, while an innovative country wants a more literate population and faster adoption of any new institution.
+A Traditionalist country will have a higher estate satisfaction, stability will grow faster and a bigger cultural tradition growth, while institutions will be far more costly to embrace.
+An Innovative country will have a higher maximum literacy, bigger cultural influence growth, cheaper institution growth but stability will be much slower to grow.
+Spiritualist vs Humanist
+A spiritualist country is pretty much organized around its Clergy, while a humanist country is much more tolerant towards heretic and heathen religions.
+A spiritualist country will convert pops faster, increase the amount of clergy in towns and cities, and increase the tolerance of the true faith, while reducing the speed of assimilation.
+A humanist country will assimilate pops faster, increase tolerance of heathen and heretics, but reduce the speed of conversions.
+Aristocracy vs Plutocracy
+An aristocratic country is about having the leadership from those with noble blood, while a plutocratic country takes their leadership from the richest and most powerful.
+An aristocratic country will increase the amount of diplomats you get, the amount of noble pops of cities, increase the power of the nobility and the expected cost of the court.
+A plutocratic country will increase the amount of burghers in cities, reduce the cost of the court, increase trade efficiency but dramatically increase the power of the burghers.
+Serfdom vs Free Subjects
+A country with high serfdom is about exploiting the peasants as much as possible, whereas a country with free subjects treats peasants as human beings.
+Magna Carta and Yeomanry will make England slowly go towards Free Subjects.
+As you can see a serfdom focused country increases possible tax for peasants, the raw materials they produce, and the supply limit in your country, while it also increases the amount of food your peasants will eat.
+A country with free subjects on the other hand will increase monthly prosperity, make pops promote faster, reduce the food consumption of peasants, but reduce the amount of tax you can collect from the peasants.
+Belligerent vs Conciliatory
+A belligerent country is a country that does not worry about the opinion of other countries. A conciliatory country appeases others, either due to being weaker, or it just believes that it's easier to catch flies with honey.
+A belligerent country will create casus belli faster, get cheaper warscore costs, and faster spy network constructions, but the diplomatic reputation will suffer significantly.
+A conciliatory country will increase the efficiency of the cabinet, the loyalty of subjects, and improve the diplomatic reputation, but casus belli will be far more difficult to create.
+Quality vs Quantity
+An army that focuses on quality is focused on making each soldier perform better, while an army focused on quantity tries to get more people to fight in the battles.
+A country that leans towards quality will have morale recover faster, gain a bonus to military tactics, and have far higher initiative, but the maintenance costs will be higher.
+A country which favors quantity will have a higher possible frontage, cheaper armies, less food consumed by armies, but the initiative will be far worse in battle.
+Offensive vs Defensive
+A country that is focused on offensive prefers the attack, and using their armies and navies in enemy locations, while a defensive country relies more on their forts to defeat the enemy.
+Do you want to attack or defend? Easy choice or ?
+Land vs Naval
+A country focused on land is usually a country without much of a coastline, while a naval-focused one may be those that values its coastline more than others.
+Here we have actively wanted to avoid military-only attributes, as otherwise 99% would always go land.
+A land country will trace proximity quicker over land, trade over land, have larger RGOs, but trade over sea is more expensive.
+A naval country will trace proximity quicker over water, trade over water, maritime presence is faster, but trade over land is more expensive.
+Capital Economy vs Traditional Economy
+A country with a capital economy is more focused on earning money, particularly from trade and towns and cities, while one with a traditional economy is more oriented about living off what the land provides.
+A capital economy country will have cheaper buildings, lower bank interest rates and higher production efficiency while food production is reduced.
+A traditional country will produce more raw materials, produce more food, and have a higher population capacity, but buildings will be more expensive.
+Individualism vs Communalism
+A country based on individualism may get more exceptional characters, while one focused on communalism is all about the greater good of society.
+An individualistic country will have higher morale in its armies and navies and a far faster migration speed for its pops, but a slightly lower estate satisfaction.
+A communalist country will have a lower satisfaction threshold for pops to join rebels, far cheaper to revoke privileges from the estates, a slightly higher estate satisfaction, but pops will migrate far slower.
+Mercantilism vs Free Trade
+A mercantilist country aims to protect the market price of the produced goods in their country, while a country focused on free trade wants to benefit more from trades around the world.
+This determines how you handle trade in your country..
+Outward vs Inward
+An outward country focuses more on interacting with other countries, while an inward country looks inside its borders.
+An outward country will have a higher power projection, higher diplomatic capacity and faster migration to colonies but a lower cultural tradition growth,
+An inward country will have a higher crown power, higher control, faster cultural tradition growth, but the colonial migration will be very slow.
+Liberalism vs Absolutism
+A Liberal country will emphasize the importance of civic liberties and legislative governing bodies, while an Absolutist country will focus more on the centralized authority of its ruler while reining in the power of the different estates.
+A liberal country will get a higher cultural capacity, easier to get through requests in parliament, its pops are less likely to support rebels, but the impact of estate power from cabinet positions is higher.
+An absolutist country will have a higher crown power, cheaper-to-revoke estate privileges, quicker integration, but the expected cost of the court is higher.
+As mentioned earlier, this societal value appears from the Age of Absolutism, and shapes the last two ages dramatically.
+Stay tuned, as next week we revisit a topic as it has been revised…
+Last edited:
+Nov 20, 2024
+223
+113
+9
+8
+5
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+18
+Next
+1 of 18
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+bluepotato81
+Second Lieutenant
+24 Badges
+Jun 12, 2024
+145
+1.862
+Nov 20, 2024
+Add bookmark
+#2
+YOO COMMUNIS- aw wait it's the other word dammit
+also, loving these new artworks. they're so good
+Last edited:
+Nov 20, 2024
+Toggle signature
+Deliver me from mine enemies, O my God: defend me from them that rise up against me. Defend me from the workers of iniquity, and save me from bloody men. The mighty are gathered against me, awake to help me, and behold.
+Nor is there pain, or cause of pain, Or cease in pain, or noble path to lead from pain;
+The Master said, "Is it not pleasant to learn with a constant perseverance and application? Is it not delightful to have friends coming from distant quarters? Is he not a man of complete virtue, who feels no discomposure though men may take no note of him?"
+Do not despair of the mercy of Allāh. Indeed, Allāh forgives all sins. Indeed, it is He who is the Forgiving, the Merciful.
+The Tao that can be told is not the eternal Tao, and the name that can be named is not the eternal Name.
+It is not your duty to finish the work, but neither are you at liberty to neglect it;
+The finest essence here—that constitutes the self of this whole world; that is the truth; that is the self.
+O Son of Man! Veiled in My immemorial being and in the ancient eternity of My essence, I knew My love for thee; therefore I created thee, have engraved on thee Mine image and revealed to thee My beauty.
+Rise up for me, O Ahura, through Armaiti give strength, through the holiest Spirit give might, O Mazda, through the good Recompense, through the Right give powerful prowess, through Good Thought give the reward.
+O my mind, remember the Lord in meditation; He is the Destroyer of pain, the Eradicator of fear, the Sovereign Lord King. He is the Greatest Lover, the Merciful Master, the Enticer of the mind, the Support of His devotees - this is His very nature.
+In some ways, it is, in some ways, it is not, in some ways, it is, and it is not, in some ways, it is indescribable, in some ways, it is, and it is indescribable, in some ways, it is not, and it is indescribable, in some ways, it is, it is not, and it is indescribable.
+So be diligent in seeking knowledge, keeping company with those of understanding, and studying at all times, and you will attain goodness and blessings.
+An ash I know there stands, - Yggdrasill is its name, - a tall tree, showered - with shining loam. - From there come the dews - that drop in the valleys. - It stands forever green over - Urðr's well.
+Our God, with His mercy - Brought for us beauty and loveliness - He gave a command to the Pen of Power - We were thrown into the Mystery of Love.
+I saw my father, I saw him, and I gave him three requests. I asked him for a great heart, which can be carried by the big and the little. I asked him for calmness, in which there is no rebellion. I asked him for a level path, to rise to light’s place in peace.
+67
+14
+6
+2
+1
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Nov 20, 2024
+Add bookmark
+#3
+I'll be honest; I always felt treating these two values as diametric opposites of eachother was never the perfect solution. After all, it's not like countries good in naval matters automatically have crappy armies and logistics on land, and vice-versa. The French navy was never a pushover and neither was the British army. Spain was feared just as much for its Tercios as it was for its Galleons.
+This is actually a dimension where I feel like the old system of National Focuses fared better? Having good armies or good navies is, I feel, more of a matter of long-term societal and cultural investments and not so much of mutually-excluding specialties/philosophies.
+Edit: Also, yes, this Fort Defense reduction in "Offensive" feels a bit too punishing, if the dynamics will be anything like in EUIV lol Like
+@WhiskyGlen
+points out below, it's stark when compared to the 10% siege ability reward you get for it. Maybe something between 15-35% would be more reasonable?
+Also,
+Last edited:
+Nov 20, 2024
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+114
+28
+20
+13
+1
+Reactions:
+Reply
+Report
+WhiskyGlen
+Major
+27 Badges
+Oct 24, 2013
+618
+702
+Nov 20, 2024
+Add bookmark
+#4
+Fort defense -50% for offensive?    Offense is usually my mindset, but that seems steep for 10% siege ability.
+For those that follow paradox religiously, how many of these talks before the game is usually announced, and how long after announcement until release?  Are we looking at less than a year for this, or a year/years?
+31
+6
+Reactions:
+Reply
+Report
+Mef
+Field Marshal
+19 Badges
+Feb 4, 2010
+3.482
+11.153
+Nov 20, 2024
+Add bookmark
+#5
+Johan said:
+Spiritualist vs Humanist
+A spiritualist country is pretty much organized around its Clergy, while a humanist country is much more tolerant towards heretic and heathen religions.
+Click to expand...
+Please find a different name for it than humanist, because in this game's timeframe humanism describes a scholarly movement that started in the 14th century that argues for studying the humanities. It was championed by many clergymen, including popes like the famous Pius II.
+It makes no sense to contrast humanism with the clergy and humanism has nothing to do with tolerance for other religions.
+97
+29
+8
+5
+Reactions:
+Reply
+Report
+slupie
+First Lieutenant
+109 Badges
+Jun 7, 2011
+207
+1.568
+Nov 20, 2024
+Add bookmark
+#6
+Is adding more values moddable?
+8
+Reactions:
+Reply
+Report
+Aart
+Second Lieutenant
+30 Badges
+Apr 25, 2019
+167
+939
+Nov 20, 2024
+Add bookmark
+#7
+Johan said:
+from previous games like EU2 or EU3, but they almost always have different impacts.
+No way
+Click to expand...
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Nov 20, 2024
+Add bookmark
+#8
+slupie said:
+Is adding more values moddable?
+Click to expand...
+yes
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+Reply
+Report
+I
+ImperatorRoman
+Colonel
+52 Badges
+Mar 18, 2014
+901
+2.098
+Nov 20, 2024
+Add bookmark
+#9
+Oh man this looks great
+3
+Reactions:
+Reply
+Report
+antonkaiser16
+Sergeant
+53 Badges
+May 16, 2017
+54
+70
+Nov 20, 2024
+Add bookmark
+#10
+When can we expect a dev diary about America? Will it be playable?
+31
+3
+1
+1
+Reactions:
+Reply
+Report
+Y
+yusufho
+Sergeant
+Jul 3, 2024
+54
+294
+Nov 20, 2024
+Add bookmark
+#11
+Spiritualist achievement : ONE WORLD ONE RELIGION
+Reply
+Report
+Guaire123456789
+First Lieutenant
+33 Badges
+Feb 17, 2016
+257
+970
+Nov 20, 2024
+Add bookmark
+#12
+WhiskyGlen said:
+Fort defense -50% for offensive?    Offense is usually my mindset, but that seems steep for 10% siege ability.
+For those that follow paradox religiously, how many of these talks before the game is usually announced, and how long after announcement until release?  Are we looking at less than a year for this, or a year/years?
+Click to expand...
+Its the first time we have had these talks before the game is anmounced. Usually we only got dev diaries with the game's announcement
+Toggle signature
+Presidente de China en el
+HOI del foro
+21
+7
+Reactions:
+Reply
+Report
+Metz
+Field Marshal
+107 Badges
+Nov 21, 2008
+7.108
+13.741
+Nov 20, 2024
+Add bookmark
+#13
+On average how long does it take to go from one end to the other end of societal values? Are some values easier to shift? Such as inward vs outward for example.
+Will the French Revolution or another liberal revolution force several countries to drastically switch from one end to the other end of some of the values?
+17
+1
+Reactions:
+Reply
+Report
+E
+EUnderhill
+Happy Feet!
+26 Badges
+Mar 27, 2002
+5.215
+2.068
+Visit site
+Nov 20, 2024
+Add bookmark
+#14
+So the EUII sliders never died...they only lay dreaming in the depths to rise again (with more granularity) !?!
+Toggle signature
+"It aint the fly you mind so much as where he's been."
+11
+6
+2
+Reactions:
+Reply
+Report
+Genfried
+Private
+73 Badges
+Apr 22, 2012
+24
+20
+Nov 20, 2024
+Add bookmark
+#15
+The image tells me that Yeomanry and Magna Carta move it +0.10 which implies moving to serfdom(Already at 10%) instead of Free Subjects, or am I reading this incorrectly?
+Edit: Clarified the 0.10
+Last edited:
+Nov 20, 2024
+4
+3
+2
+1
+Reactions:
+Reply
+Report
+Tercio Soldier
+Major
+58 Badges
+Feb 25, 2020
+568
+4.336
+Nov 20, 2024
+Add bookmark
+#16
+Can you provide examples of the starting societal values of some countries? I am more interested in Aragon and Castile but anyone would be useful.
+14
+Reactions:
+Reply
+Report
+perceval350
+Major
+53 Badges
+Apr 3, 2024
+664
+2.938
+Nov 20, 2024
+Add bookmark
+#17
+Will actions taken also have an impact on societal values ? Like offensive being improved by fighting battles out of your territory
+8
+Reactions:
+Reply
+Report
+D
+Davincie
+Captain
+80 Badges
+Feb 5, 2020
+323
+1.952
+Nov 20, 2024
+Add bookmark
+#18
+trace proximity?
+Reply
+Report
+blue0china
+Second Lieutenant
+84 Badges
+May 30, 2018
+184
+1.193
+Nov 20, 2024
+Add bookmark
+#19
+Would a state governed by an elite class of scholar-officials, produced through the imperial examination system, be considered an aristocracy or a plutocracy? Or might it occupy a position somewhere in between on the spectrum?
+9
+2
+Reactions:
+Reply
+Report
+M
+Myxach
+Second Lieutenant
+3 Badges
+Nov 1, 2014
+120
+423
+Nov 20, 2024
+Add bookmark
+#20
+A bit empty without the art on top
+1
+1
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+18
+Next
+1 of 18
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

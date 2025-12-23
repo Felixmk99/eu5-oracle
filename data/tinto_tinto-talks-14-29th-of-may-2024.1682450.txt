@@ -1,0 +1,443 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-14-29th-of-may-2024.1682450/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #14 - 29th of May 2024
+Thread starter
+Johan
+Start date
+May 29, 2024
+Welcome everyone to where we talk about our completely secret, not yet announced game. In today's Tinto Talks we will delve into a completely new feature.
+A small reminder, this is very much a WiP, and nothing is final.
+The core of this system was one of the first things I designed back in the spring of 2020, a feature that could be described as both a narrative and mechanical guide for the game. This is something that has been inspired by the Incident System from EU4, and also by the International Crisis mechanic of Victoria 2, but it is not really like any of those.
+Today is when we introduce our new
+Situation
+System.
+So what is a “Situation” then? Good question. You could describe it as content that involves multiple countries over a period of time. In Project Caesar, we are using this feature to create a historical narrative that creates different experiences, as our goal is to have an immersive and varied experience for the player.
+A Situation can have unique actions, events that trigger, and other types of unique content, and each of them will have its own UI and mapmode.
+If a situation may involve or affect you, it will show with an alert, in the new color of purple!
+Let's take a look at some of the situations we have in the game right now.
+Black Death
+This was the first situation we created, and it has been going through many revisions during the last four years.
+Black death can be 1346, random or off, and origin can be historical or random.
+Usually, it will happen from 1346, as the Bubonic Plague appears somewhere in Central Asia and starts spreading through the old world, killing 40-60% of the population of the affected areas.
+It spreads through adjacencies, moving armies, or through trade. There are ways you can attempt to alleviate this, but the efficiency of it is low, and the cost is high. You can try to isolate your court, expel the sick, blame minorities, and other very efficient ways to deal with the problem.
+Slowly spreading centrally, but some traders have already taken it into Italy...
+Italian Wars
+In the Age of Discovery, this is probably the most important situation for anyone in Western Europe. It is about control over Italy and will happen as soon as a French or Iberian Major Power or the Emperor declares war on an Italian Power.
+There will be up to six different leagues that will fight over control of Italy. There is a French league, an Iberian league, the Emperor's league, and up to 3 Italian leagues. The first two will dynamically select their leaders based on strength calculations.
+If one league gets hegemony over Italy, i.e. owning over 60% of the region either through conquest or diplomacy, then they will win. The Italians can also win by making sure the foreign leagues are destroyed through a special peace deal.
+Leagues can be abandoned and anyone owning locations in Italy can join one of them.
+The situation allows enemies and rivals of foreign league leaders to intervene and assist the defending Italians and it also grants access to unique interactions in order to send aid of any kind, attract cheaper condottieri and even create a new Italian league.
+This is how the situation would look if it fired in 1337 if Austria was to be the Holy Roman Emperor and Aragon was the dominant power in Iberia with vested interests in Italy.
+Red Turban Rebellions
+This is rather likely to happen as soon as the Yuan Empire ends up at low stability.
+It will create an international organization called The Red Turbans, which will get a lot of rebel countries.
+The situation can happen to Yuán after 1350 if their stability drops below 25 while also either of their estates is not satisfied. The requirements are harsh, but once you reach the Age of Discovery you have avoided the situation.
+With that being said, the situation will most likely fire in a playthrough. During this period, the Red Turban Rebels will spawn as an international organization which is in direct opposition to the Huángdì, the Chinese emperor. While the situation is going on, events will pop up that force Yuán to release historical Chinese tags in their historical order (so the first Sòng is released, then Wú, then Tiānwán, etc.), which join the IO and immediately declare their own, independent war on Yuan.
+Each rebel nation is playable when it spawns, and they can wage war with each other too.
+The countries spawned during this situation have a custom loyalty value which describes how, well, loyal they are to Yuán which goes from -100 to 100 and grows or shrinks depending on their opinion of Yuán. Most rebel nations will start at -100 as they actively fought against Yuan. However, some nations spawned through the situation represent the Mongolian generals who gained a lot of autonomy, but were still fighting for Yuán’s cause. They would spawn with +50 Loyalty. If any rebel country reaches more than 0 loyalty, they will automatically leave the Red Turban Rebels IO.
+In order to end the situation as Yuán, you have to regain internal stability, but also ensure that the Red Turban Rebels have no members left anymore after 20 years of the start of the situation. All states spawned through the situation with over 50 loyalty will then automatically be annexed by Yuán.
+On the other hand, the situation also ends once any rebel tag owns the majority of China (around 70%) of all the locations there. If that happens the rebel tag which fulfills this requirement will assume the Imperial Throne and take over the tag of China.
+The situation unlocks special diplomatic actions for Yuán and the rebels alike. Yuán can grant titles to any released state that is not at war with it, giving a significant loyalty and opinion boost in exchange for a hefty fee. They can also negotiate with local rebellions which decreases the process for a rebellion to break out and they can call loyalist countries (those with +50 loyalty) to their wars against the Red Turban Rebels. Meanwhile, the rebel states have a special cb against Yuan and other rebel states with a vastly reduced warscore cost for Chinese locations. They also get access to an action that allows them to rein in a conquered area, greatly reducing the local integration speed.
+Green are your loyal servants, orange are the rebels, red is the strongest of the rebels.
+Other situations include things like the Western Schism, the Hundred Years War & Sengoku Jidai. We will talk more about those in future Tinto Talks.
+If you have a suggestion of what you think would be an important historical event that should be a situation, then please post them here!
+Next week though, we will talk about something that many people have asked for repeatedly.
+368
+231
+9
+7
+7
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+43
+Next
+1 of 43
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+Teng_Ri
+if u read this v1
+May 3, 2020
+597
+3.382
+May 29, 2024
+Add bookmark
+#2
+surprise surprise happy wednesdays everyone
+Johan said:
+expel the sick, blame minorities, and other very efficient ways to deal with the problem
+Click to expand...
+trying to win over hoi4 players i see
+Johan said:
+Next week though, we will talk about something that many people have asked for repeatedly
+Click to expand...
+johan teaserson leading project teaser aint no way
+@generalistgaming
+Last edited:
+May 29, 2024
+62
+38
+4
+1
+Reactions:
+Reply
+Report
+Jarzki
+Second Lieutenant
+35 Badges
+Oct 30, 2018
+115
+2.067
+May 29, 2024
+Add bookmark
+#3
+It seems most situations, such as the Italian Wars, have "situational triggers" that are affected by either player or AI actions. Will there be any game rules regarding other situations than the Black Death?
+Will there be a situation for border wars between Sweden and Novgorod/Russia? Seems like a good fit in my humble opinion.
+Last edited:
+May 29, 2024
+18
+5
+1
+Reactions:
+Reply
+Report
+Silens
+Field Marshal
+66 Badges
+Nov 3, 2017
+4.171
+23.008
+May 29, 2024
+Add bookmark
+#4
+Releasing it at 14:53 is a painful reminder. You're evil.
+But then again, it means getting the DD 7 minutes earlier. You're still evil, but forgiven.
+110
+17
+1
+1
+Reactions:
+Reply
+Report
+cheetawilliam
+First Lieutenant
+95 Badges
+Dec 27, 2015
+295
+556
+May 29, 2024
+Add bookmark
+#5
+So with the black death being a situation, does that mean there are no other plagues? Or is this just a special one that's bigger than the others?
+51
+2
+2
+Reactions:
+Reply
+Report
+SimeusRex
+Private
+25 Badges
+Mar 16, 2024
+10
+81
+May 29, 2024
+Add bookmark
+#6
+Apologies for the off topic question, but since I did not have the opportunity to ask it the last tinto talks: Will migration be an element of religious conversion? For example Huguenots and religious migration to the New World (such as Puritans and Sephardim).
+On topic: Love the flavour the situation mechanics will provide!
+Last edited:
+May 29, 2024
+26
+1
+Reactions:
+Reply
+Report
+Emp3ror552
+Sergeant
+Apr 24, 2024
+60
+237
+May 29, 2024
+Add bookmark
+#7
+Johan can you say culture groups will change? Culture group of turks were wrong in the eu4. Whats the point of making belong the Turks in Anatolia as Levantine and those further east as Iranian. I'm sorry, but this just means that the creators of the game didnt care about these things. Turks should be belong to same culture group.
+72
+16
+4
+2
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+May 29, 2024
+Add bookmark
+#8
+Wow.
+3
+2
+2
+1
+Reactions:
+Reply
+Report
+Tercio Soldier
+Major
+58 Badges
+Feb 25, 2020
+568
+4.336
+May 29, 2024
+Add bookmark
+#9
+Could Castile join the Iberian league in that example for the Italian wars, or are leagues only made up of the major powers and Italian members?
+11
+2
+1
+Reactions:
+Reply
+Report
+Kimudena
+First Lieutenant
+15 Badges
+Feb 17, 2021
+230
+1.054
+May 29, 2024
+Add bookmark
+#10
+The purple alert system is a smart addition
+Toggle signature
+Tinto Talks are sponsored by
+Kingdom of Hungary
+in order to hide the existence of
+Voivodeship of Transylvania.
+8
+2
+Reactions:
+Reply
+Report
+I
+ImperatorRoman
+Colonel
+52 Badges
+Mar 18, 2014
+901
+2.098
+May 29, 2024
+Add bookmark
+#11
+Absolutely incredible.
+And now I'm wondering what next week's topic will be.
+17
+2
+1
+Reactions:
+Reply
+Report
+Vlad123
+Field Marshal
+1 Badges
+Feb 7, 2015
+2.590
+2.431
+May 29, 2024
+Add bookmark
+#12
+Wonderful!
+Toggle signature
+I do hoi4 (and other) Series on Youtube
+https://www.youtube.com/channel/UCWzJOXFBnbljpUd9R1P18tg/
+3
+Reactions:
+Reply
+Report
+Pelthis
+Major
+51 Badges
+Apr 2, 2015
+604
+1.154
+May 29, 2024
+Add bookmark
+#13
+Ok. This is one of the most interesting Tinto Talks until now in my book. I don't know how many of these Situations are planned, but I already see incredible modding potential.
+And about next week teaser... You had my curiosity, but now you have my attention.
+Edit : Just going back on the game rules screenshot. Does it mean we'll be able to obfuscate information so we wouldn't be able to know right of the bat that our planned war target has exactly 12 standing regiments, 36k levies and 50k manpower ?
+57
+4
+Reactions:
+Reply
+Report
+B
+BLM-93
+Corporal
+1 Badges
+Nov 16, 2017
+29
+156
+May 29, 2024
+Add bookmark
+#14
+I'm curious about the rise of the Incas and the Aztecs. Will they be Situations like the ones here?
+26
+1
+Reactions:
+Reply
+Report
+Z
+ZarkinDrife
+Second Lieutenant
+31 Badges
+Oct 6, 2022
+114
+466
+May 29, 2024
+Add bookmark
+#15
+Will these coincide with mission trees or focuses or whatever this game gets, so the outcome of a situation decides your path?
+10
+1
+Reactions:
+Reply
+Report
+Jarzki
+Second Lieutenant
+35 Badges
+Oct 30, 2018
+115
+2.067
+May 29, 2024
+Add bookmark
+#16
+"You can try to isolate your court, expel the sick,
+blame minorities
+, and other very efficient ways to deal with the problem."
+Johan truly grasps the essence of a PDX player
+Last edited:
+May 29, 2024
+76
+15
+5
+2
+Reactions:
+Reply
+Report
+Mercisv11
+Sergeant
+Dec 28, 2023
+51
+373
+May 29, 2024
+Add bookmark
+#17
+Succession wars.
+If some great Christian power, the monarch dies without clear descendants other great related powers can try to put his relative or take him under personal union. See the war of Spanish succession.
+Moreover if the dead king ruled over several states in union these can ally themselves to some or another side according to opinions.
+74
+32
+Reactions:
+Reply
+Report
+Biegeltoren
+Second Lieutenant
+31 Badges
+Oct 17, 2019
+175
+924
+May 29, 2024
+Add bookmark
+#18
+How large/small do you see these situations to be? Would something as large as the african slave trade/triangle trade be a situation? Would something as small as the Dutch Revolt be a situation?
+Toggle signature
+My EU5 mod for the Andes!
+34
+1
+Reactions:
+Reply
+Report
+H
+HyperCopeEmia
+Corporal
+2 Badges
+Jul 1, 2023
+31
+1.034
+May 29, 2024
+Add bookmark
+#19
+78
+13
+2
+Reactions:
+Reply
+Report
+Greve von Skreve
+Recruit
+34 Badges
+Mar 24, 2024
+7
+20
+May 29, 2024
+Add bookmark
+#20
+Will the evangelical league use a different system?
+Maybe The Napoleonic Wars can use the situations mechanic
+15
+3
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+43
+Next
+1 of 43
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

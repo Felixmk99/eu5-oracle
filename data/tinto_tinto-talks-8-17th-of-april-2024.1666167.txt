@@ -1,0 +1,450 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-8-17th-of-april-2024.1666167/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #8 - 17th of April 2024
+Thread starter
+Johan
+Start date
+Apr 17, 2024
+Hello, and welcome to the eighth iteration of Tinto Talks where we talk about what we are doing in our very secret future game, with the code name Project Caesar.
+Btw, on a completely unrelated note, Paradox Tinto has just announced our new expansion ‘Winds of Change’ for EU4. Go check out its cool contents and trailer!
+This week we’ll continue talking about the economical part of the game. Last week we talked about the different items in the monthly budget, and now we’ll continue with explaining some of the core concepts of the economy. Please be aware that all images here are tooltips or parts of tooltips, and some are very much Work in Progress!
+Loans and Bankruptcy
+Let's start with Loans, which will work a fair bit differently than any other previous Paradox GSG. At first glance, it is kind of similar to previous games, where you can take a loan, you get money, and you pay interest on it for a set period of time.  However, in Project Caesar, there are some new changes. Take a look at this WiP tooltip for taking a loan:
+Yeah, 10% interest is perfectly fair…
+In this game, you are not borrowing money from an abstract national bank, but instead, your internal loans are taken from what the estates have made available. The estates invest money they have, not only in immediate gains for their own power, or other ways that benefit the country, or other [REDACTED], but they also invest in having money available for the country, where they will benefit from the interests.
+If there is no money to borrow from the estates available and you have no ducats left, you will go bankrupt, which is a little bit more severe than in, let's say EU4...
+There is also another way to get gold, you can send a diplomat to one of the banking countries, like Peruzzi and Bardi, if there is one that you know of within diplomatic range, to request a loan. Make sure you don’t forget to pay them on time, or default on the loans, or you may never be able to loan from them again.
+Core Concepts
+So let’s continue, by taking a look at the tooltip for a location, so we can quickly have a reference to some important aspects in the rest of this development diary.
+Enjoy the nice placeholder icons, sadly the forum does not allow for nested tooltips, like the game does…
+Food
+If you notice the line of food above, you see that Kalmar is not self-sufficient in food, and needs to rely on the rest of Östra Småland for food, unless they buy it from the local market.
+Even the small town of Kalmar needs food from nearby locations…
+Primarily, there are a lot of burghers here that consume a lot of food. There are also a lot of modifiers that impact how much food the location produces as well.
+If the granaries in Östra Småland are close to full, we would sell their surplus to the local market in Riga, but only get about 56% of the profit, as we only have 56% control in Kalmar. If the entire province lacks food, we would have to buy food at 100% of the current price in that market. The price for food is different in each market, and depends entirely on how much food is sold to that market.
+Taxes
+We mentioned taxes in last week's Tinto Talk, and specifically mentioned Tax Base there. The tax base of an estate is based on the total of all their Tax Base in all the locations they are present in.
+Quickly find the error in the text in this tooltip!
+We are slowly increasing our control over Kalmar up to 58.2%, so the tax base will be slowly increasing, and if we would get it to the 100 maximum, it would be even bigger.
+As you can see here, the nobility and the burghers have a fair bit of power here, and the peasants have basically none. Currently, we are able to tax more from the burghers each month, and could probably go above the 25% tax rate we have currently set on their estate.
+To clarify, only the money that is in the “potential” row exists, and anything you don’t tax on that goes to the estates. So you get 0.05 ducats there (perhaps more, but Paradox rounding), and the remaining 0.37 goes to the estates.
+Raw Materials
+As you noticed in the tooltips above, we talk about Raw Materials and Resource Gathering Operations. Every location has one raw material possible that can be extracted, this includes things like lumber, stone, grain, amber, or copper. Of course, there are other ways to get access to the raw materials than merely owning and controlling a location.
+Only peasants and slaves will work on gathering raw materials, and how many will work with it depends on how big of an infrastructure you have built up for that.  Pops that are working with this will not be producing food, unless the goods are food related.
+The maximum size of an infrastructure that can be built up depends on population, development, technologies, and societal values.
+We mentioned buildings in one tooltip earlier, and next week we will talk about how they work in Project Caesar.
+258
+179
+16
+12
+6
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+35
+Next
+1 of 35
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Apr 17, 2024
+Add bookmark
+#2
+200
+47
+10
+1
+Reactions:
+Reply
+Report
+Teng_Ri
+if u read this v1
+May 3, 2020
+597
+3.382
+Apr 17, 2024
+Add bookmark
+#3
+94
+85
+8
+1
+Reactions:
+Reply
+Report
+HussarHD
+Hetman Żuławski
+69 Badges
+Dec 28, 2013
+132
+246
+Apr 17, 2024
+Add bookmark
+#4
+A MAP, WE'VE BEEN BLESSED WITH A MAP
+64
+12
+5
+Reactions:
+Reply
+Report
+Parmelion
+Lead Developer of Ante Bellum
+23 Badges
+Mar 14, 2016
+356
+1.466
+Apr 17, 2024
+Add bookmark
+#5
+Hello Johan, would you be able to describe the map of Carpathia in Project Caesar by using only a screenshot of it? Thank you!
+Toggle signature
+Lead Developer - Ante Bellum
+•
+Steam
+•
+Wiki
+•
+Discord
+•
+Spotlight
+•
+Plaza
+•​
+93
+22
+6
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Apr 17, 2024
+Add bookmark
+#6
+On the ducats part, what happens when some Mansa Musa comes along to throw around some cash?
+Is it considered same as printing/minting ducats.
+23
+Reactions:
+Reply
+Report
+Swedishguy05
+Sergeant
+45 Badges
+Jan 27, 2022
+68
+582
+Apr 17, 2024
+Add bookmark
+#7
+Babe wake up, new Tinto Talk just dropped.
+18
+2
+1
+Reactions:
+Reply
+Report
+M
+MasterPaw
+Lt. General
+50 Badges
+Apr 6, 2019
+1.451
+4.760
+Apr 17, 2024
+Add bookmark
+#8
+Unrelated trailer is so funny
+40
+3
+Reactions:
+Reply
+Report
+H
+HyperCopeEmia
+Corporal
+2 Badges
+Jul 1, 2023
+31
+1.034
+Apr 17, 2024
+Add bookmark
+#9
+I know it's a little unrelated to the topic of the tinto talk but are the little animals on the map of eu4 i.e moose in stockholm gonna be in game or no? (game picked only as an example with no implications of "project Ceasar" being eu5)
+54
+36
+29
+3
+1
+1
+Reactions:
+Reply
+Report
+H
+humbleacadie
+Second Lieutenant
+Mar 21, 2024
+105
+501
+Apr 17, 2024
+Add bookmark
+#10
+Btw, on a completely unrelated note, Paradox Tinto has just announced our new expansion ‘Winds of Change’ for EU4. Go check out its cool contents and trailer!
+Click to expand...
+Not related in any single way to Project Ceasar which is definitely NOT EUV
+35
+6
+Reactions:
+Reply
+Report
+Jarzki
+Second Lieutenant
+35 Badges
+Oct 30, 2018
+115
+2.067
+Apr 17, 2024
+Add bookmark
+#11
+Finally we have actual money lenders instead of getting the money from some ether!
+By the way, could the "[REDACTED]" once again point to artists and scientists? Would be great if they are part of a deeper mechanic than they are in, say, EU IV.
+Last edited:
+Apr 17, 2024
+23
+Reactions:
+Reply
+Report
+A
+ALForceL
+Private
+Oct 25, 2023
+10
+35
+Apr 17, 2024
+Add bookmark
+#12
+I wonder what will trade look like in EU5, I hope it will not be based on static trade directions
+21
+13
+1
+Reactions:
+Reply
+Report
+LordVarangian
+Emperor of Missions
+1 Badges
+Apr 9, 2018
+27
+127
+Apr 17, 2024
+Add bookmark
+#13
+I love taxing the peasantry who hoard all the money for themselves and giving tax exemptions to the poor people of my realm, like the clergy or the nobles
+Toggle signature
+Co-Owner of Europa Expanded
+Europa Expanded wishes to add flavor to all countries in EU4. The latest update was
+The Caliphate
+update, which added 1000+ missions, unique disasters, new formables, and tons of new reforms in the Islamic World
+42
+20
+6
+5
+Reactions:
+Reply
+Report
+F
+FinnishKarelia
+Sergeant
+1 Badges
+Sep 30, 2022
+61
+81
+Apr 17, 2024
+Add bookmark
+#14
+How much will EU5 cost
+@Johan
+@Johan
+@Johan
+@Johan
+Toggle signature
+Forum's most hated
+75
+8
+Reactions:
+Reply
+Report
+H
+humbleacadie
+Second Lieutenant
+Mar 21, 2024
+105
+501
+Apr 17, 2024
+Add bookmark
+#15
+10% interest loan ! Finally, realistic loan rates !
+History of interest rates
+43
+9
+5
+3
+Reactions:
+Reply
+Report
+APlayerInMC
+First Lieutenant
+5 Badges
+Mar 27, 2024
+221
+1.062
+Apr 17, 2024
+Add bookmark
+#16
+Old_Sealand said:
+View attachment 1118417
+Click to expand...
+M&T Talk
+6
+Reactions:
+Reply
+Report
+Teng_Ri
+if u read this v1
+May 3, 2020
+597
+3.382
+Apr 17, 2024
+Add bookmark
+#17
+Johan said:
+you can send a diplomat to one of the banking countries, like Peruzzi and Bardi, if there is one that you know of within diplomatic range, to request a loan
+Click to expand...
+you are indeed a benevolent god big j well played
+Last edited:
+Apr 17, 2024
+7
+Reactions:
+Reply
+Report
+Franconian
+Lt. General
+126 Badges
+Oct 4, 2009
+1.478
+5.354
+Apr 17, 2024
+Add bookmark
+#18
+HussarHD said:
+A MAP, WE'VE BEEN BLESSED WITH A MAP
+Click to expand...
+LET'S PAINT IT
+Toggle signature
+Watch me play strategy, RPGs and Wuxia/Xianxia games on
+https://www.twitch.tv/franconian
+live, or in playlists on
+https://www.youtube.com/@mefallen
+I was imagining Petrarch sobbing whilst a mad Irishman hacked repeatedly at the corpse of Nigel Farage, mutilating it still further. Meanwhile, an Ulsterman dressed entirely in orange yelled that the Irishman was actually English, and less Irish than him. - DoomBunny
+War is dark and full of horror. But there's an unshakable tinge of honor and glory from time to time. - DarthShizNit
+16
+9
+3
+3
+1
+Reactions:
+Reply
+Report
+Stami
+Beyond the Cape Mod Developer
+55 Badges
+Aug 3, 2012
+1.058
+4.588
+steamcommunity.com
+Apr 17, 2024
+Add bookmark
+#19
+Are markets static? Will Riga always be a market or is there anything that will make that city lose market status? Conversely, can other cities claim market status?
+Toggle signature
+Beyond the Cape mod for Europa Universalis V
+#Exploration #Navy
+40
+3
+2
+Reactions:
+Reply
+Report
+Imperialismo
+Sergeant
+58 Badges
+Apr 16, 2021
+97
+815
+Apr 17, 2024
+Add bookmark
+#20
+Supply and demand economy real?!?!?!
+18
+6
+1
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+35
+Next
+1 of 35
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

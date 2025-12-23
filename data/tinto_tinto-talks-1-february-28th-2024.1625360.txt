@@ -1,0 +1,563 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-1-february-28th-2024.1625360/
+Source Date: 2025-12-23
+
+Next dev diary
+Show only dev responses
+Tinto Talks #1 - February 28th 2024
+Thread starter
+Johan
+Start date
+Feb 28, 2024
+Hello everyone and welcome to ..  yeah, what is this really?
+Is this a game called “Tinto Talks?”  No.. not really.
+First of all Tinto stands for “Paradox Tinto”, the studio which we founded in Sitges in 2020, with a few people moving down with me from PDS to Spain. We have now grown to be almost 30 people. Now, that is out of the way, what about the “Talks” part? Well…
+A long time ago, we started talking about a game as soon as we started working on it. Back in the long almost forgotten past we used to make games in about 8-9 months. I remember us announcing Vicky2 with just 2 mockup screenshots, and half a page of ideas.
+This changed a bit over time, with first the rule of not announcing a game until it passed its alpha milestone, in case it would be canceled…  as happened with Runemaster. And then when projects started going from an 18 month development cycle with games like EU4 to many years like our more recent games, the time from announcement to release became much closer to the release of the game.
+Why does this matter?
+Well, from a development perspective communicating with the players is extremely beneficial, as it provides us with feedback. But if it's so late in the development process that you can not adapt to the feedback, then a development diary is “just” a marketing tool. I think games like Imperator might have looked different if we had involved the community earlier and listened to the feedback.
+If we look back at HoI4, this was from the first time we talked about Air Warfare, about 10 years ago, and it has not much in common with the release version..
+However, talking about a game for a long long time is not great for building hype either, and to be able to make proper huge announcements is an important part as well.
+So what is this then? Well, we call this sub-forum “Tinto Talks”. We will be talking about design aspects of the game we are working on. We will not tell you which game it is, nor be able to tell you when it will be announced, nor when it will be released.
+We will be talking with you here, almost every week, because we need your input to be able to shape this game into a masterpiece.
+Without you, and your input, that will not be possible.
+So what about Project Caesar then?
+Project Caesar?  Yeah.. At PDS, which Tinto is a "child" of, we tend to use roman emperor/leader names for our games.  Augustus was Stellaris, Titus was CK3, Sulla was Imperator, Nero was Runemaster, Caligula was V3 etc.. We even named our internal "empty project for clausewitz & jomini", that we base every new game on Marius.
+In Q2 2020, I started writing code on a new game, prototyping new systems that I wanted to try out. Adapting the lessons learned from what had worked well, and what had not worked well. Plus, recruiting for a completely new studio in Paradox Tinto, training people on how to make these types of games, while also making some expansions for EU4.
+Today though, even though we are a fair bit away from announcing our new game, we want to start talking weekly about the things we have worked on, to get your feedback on it, and adapt some of it to become even better.
+However, we’ll start with the vision, which is not really something you do change at this stage.
+Believable World
+You should be able to play the game and feel like you are in a world that makes sense, and feels rich and realistic. While not making the gaming less accessible, features should be believable and plausible, and avoid abstraction unless necessary.
+Setting Immersion
+Our games thrive on player imagination and “what if” scenarios. We ensure both a high degree of faithfulness to the setting which will give a “special feel” to the game. We will strive to give this game the most in-depth feeling of flavor possible.
+Replayability
+There should be many ways to play different starts and reasons to replay them. Different mechanics in different parts of the world create a unique experience depending on what you choose to play. With a deep and complex game, there should be so many choices and paths that the player should feel they can always come back to get a new story with the same start.
+Yeah, sounds ambitious right?
+Which games do
+YOU
+think represent these pillars well?
+Cheers, and next week, we’ll talk about the most important things in the world..  Besides family, beer, friends, and the Great Lord of the Dark…  MAPS!
+189
+144
+9
+3
+1
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+15
+Next
+1 of 15
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+Traxium318
+Captain
+91 Badges
+Apr 28, 2013
+319
+2.013
+Feb 28, 2024
+Add bookmark
+#2
+It's happening!!
+That art showing bread and oíl on Andalusia's day
+Toggle signature
+#ReviveImperatorRome #pls
+Spanish PDX content creator mostly on Project Cesar, Vic3 and CK3
+13
+4
+1
+Reactions:
+Reply
+Report
+Liquid Ghost
+Lt. General
+71 Badges
+Sep 23, 2009
+1.270
+2.419
+Feb 28, 2024
+Add bookmark
+#3
+Huh.
+So we'll be having sort of-but-not-really dev diaries about a game, you won't tell us what it is, and you want our input.
+This is going to feel like playing "Guess Who", but for a game.
+59
+8
+6
+1
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Feb 28, 2024
+Add bookmark
+#4
+Imagine Europa Universalis with Total War battles combined.
+(Now that we know that this is not what majority wants, we can move on from that idea)
+Last edited:
+Feb 28, 2024
+80
+29
+10
+4
+2
+1
+Reactions:
+Reply
+Report
+Froozigiusz
+Sergeant
+85 Badges
+Apr 14, 2021
+73
+683
+Feb 28, 2024
+Add bookmark
+#5
+This really seems to be a
+magnum opus
+showing on the horizon. Do not disappoint us, and take your very much needed time!
+24
+4
+2
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Feb 28, 2024
+Add bookmark
+#6
+Liquid Ghost said:
+Huh.
+So we'll be having sort of-but-not-really dev diaries about a game, you won't tell us what it is, and you want our input.
+This is going to feel like playing "Guess Who", but for a game.
+Click to expand...
+every week will have more details
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+Reply
+Report
+Chewyshoot
+Corporal
+140 Badges
+Dec 19, 2019
+41
+131
+www.youtube.com
+Feb 28, 2024
+Add bookmark
+#7
+Cheers Johan and the team, couldn't be more excited to see what you guys have been working on!
+I eagerly await each Tinto Talk!
+Last edited:
+Feb 28, 2024
+14
+3
+Reactions:
+Reply
+Report
+UberEpicZach
+A CK3: A Game of Thrones Lead
+44 Badges
+Oct 14, 2018
+122
+806
+discord.gg
+Feb 28, 2024
+Add bookmark
+#8
+"Believable World
+You should be able to play the game and feel like you are in a world that makes sense, and feels rich and realistic. While not making the gaming less accessible, features should be believable and plausible, and avoid abstraction unless necessary."
+This is something I really like train of thought wise, I think this could be a cool direction to focus in on
+Toggle signature
+-
+CK3 Mod Co-op Co-Owner
+-
+Lead Developer on
+CK3 A Game Of Thrones,
+Kingdom of Heaven, Catholic Trinity, Dynamic Crusader States
+- Developer on the Expanded Mod Series.
+43
+2
+Reactions:
+Reply
+Report
+P
+Panagean
+Major
+47 Badges
+Nov 27, 2019
+743
+4.280
+Feb 28, 2024
+Add bookmark
+#9
+UberEpicZach said:
+"Believable World
+You should be able to play the game and feel like you are in a world that makes sense, and feels rich and realistic. While not making the gaming less accessible, features should be believable and plausible, and avoid abstraction unless necessary."
+This is something I really like train of thought wise, I think this could be a cool direction to focus in on
+Click to expand...
+The abstraction inherent in V3's political simulation is one of the main reasons I've largely given up on it so this is a big plus for me too!
+Toggle signature
+Far too many words on Victoria 3's Gameplay Loop
+My suggestions for Victoria 3:
+Politics:
+-
+Suggestions for the politics of Colonial Companies
+-
+Give political parties negotiated agendas
+-
+Dynamic political system overhaul
+(possibly mutually redundant with the parties suggestion)
+-
+Add Artisans as a 9th IG
+Economics:
+-
+Partially remove player control of production methods
+(apparently some version of this is on the dev to-do list, woo! ...And has since been fridged.
+)
+-
+Split out ownership from employment
+-
+Add "Leisure Pursuits" as a pop need
+(the first half of this suggestion is now apparently in the game!)
+[Extra line to make it possible to click the last entry]
+27
+3
+1
+Reactions:
+Reply
+Report
+Jarvin
+Lt. General
+28 Badges
+Oct 24, 2015
+1.353
+4.361
+Feb 28, 2024
+Add bookmark
+#10
+You should be able to play the game and feel like you are in a world that makes sense, and feels rich and realistic. While not making the gaming less accessible, features should be believable and plausible, and avoid abstraction unless necessary.
+Click to expand...
+You mention avoiding abstracting, which I presume means avoiding things like development, but is the general sense of being 'grounded' included?
+Something I feel like a chunk of PDX games has issues with - EUIV in particular - is piling up systems on top of each other, instead of working within clearly defined game foundations, which leads to some nasty stuff like modifier creep, among others
+Which games do
+YOU
+think represent these pillars well?
+Click to expand...
+I actually can't think of anything personally~~
+I think it's a significant challenge you are setting for yourself, but I am extremely happy that you do
+I wanna mention that I think for a game like this it's very important that as you play the game not only do "you" feel unique, but you also see rest of the world developing and doing their own unique stuff.
+Having access to unique,  region-specific or otherwise, mechanics is cool, but seeing other AI and non-AI nations use it is even cooler, and having to deal with them is the best.
+I really hope that whatever this game you are making comes out to be, it won't rely on just modifiers to create 'flavor'
+I remember playing older Total War games, where you see 3d merchant ships traveling between trade routes, then noticing that if you make the surrounding cities you'll also see a ton more ships, and finding that extremely cool, even if it had no actual bearing on gameplay (and rather resulted from it)
+The thing about creating a believable and immersive world, is that it needs to feel lived in, meaning that nations other than the player should feel more 'real' and probably have more agency, rather than being solely obstacles in whatever story the player wants to tell.
+Again back to Total Wars, I remember cool systems like the Roman factions & senate in Rome:Total War, where the AIs for them would be very expansive and aggrsesive, just like you.
+Or Crusades in Medieval 2, where sometimes a crusade would get called, and you'd actually be able to participate in it with other AIs, and feel like a part of something.
+I feel like this is at odds with how a lot of PDS games have been in the past, but again I hope that this is something you'll be able to realize.
+I am so, so happy that you are finally announcing a new game; for all the great fun I've had with EU4 and other games, I am very excited to see a game that takes some lessons from it and is fresher.
+Last edited:
+Feb 28, 2024
+29
+6
+2
+1
+Reactions:
+Reply
+Report
+Traxium318
+Captain
+91 Badges
+Apr 28, 2013
+319
+2.013
+Feb 28, 2024
+Add bookmark
+#11
+One point about inmersion is that I Think most of us prefer traditional ost and music ingame player over what CK3 did.
+Not that I dislike CK3 ost but I find most of the time nothing is happening on sound, events interrupt tracks and I hate the holy war songs repeating at all time.
+Then we remember fondly songs like Johans Waltz, the Stonemasons, the allies theme, The Byzantine Empire etc... And tracks from CK3 like upheaval at samarra (which I love) dont end up appearing many times
+Toggle signature
+#ReviveImperatorRome #pls
+Spanish PDX content creator mostly on Project Cesar, Vic3 and CK3
+32
+5
+3
+Reactions:
+Reply
+Report
+theJalden
+Major
+56 Badges
+Dec 7, 2013
+509
+1.331
+Feb 28, 2024
+Add bookmark
+#12
+Believable World
+You should be able to play the game and feel like you are in a world that makes sense, and feels rich and realistic. While not making the gaming less accessible, features should be believable and plausible, and avoid abstraction unless necessary.
+Click to expand...
+I know EU5 is due, and what everyone is probably talking about, but I also love the idea of playing in a fantasy world. I wonder what this entails for a paradox-style game. Non-player actors behave as one might expect, seeking to enrich themselves, allying when prudent for them. Probably wouldn't entail a minor country close to the arctic circle be completely OP.
+Setting Immersion
+Our games thrive on player imagination and “what if” scenarios. We ensure both a high degree of faithfulness to the setting which will give a “special feel” to the game. We will strive to give this game the most in-depth feeling of flavor possible.
+Click to expand...
+Purple Phoenix confirmed
+Replayability
+There should be many ways to play different starts and reasons to replay them. Different mechanics in different parts of the world create a unique experience depending on what you choose to play. With a deep and complex game, there should be so many choices and paths that the player should feel they can always come back to get a new story with the same start.
+Click to expand...
+I only had about 1000 hours in EUIV, sounds like that will need to be improved for the next version, lol
+Toggle signature
+"I and my companions suffer from a disease of the heart which can only be cured by gold" Hernan Cortes
+7
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Feb 28, 2024
+Add bookmark
+#13
+Many don't know but the game actually is called "Tinto Talks" and we are all now playing it here.
+67
+20
+2
+1
+Reactions:
+Reply
+Report
+Liquid Ghost
+Lt. General
+71 Badges
+Sep 23, 2009
+1.270
+2.419
+Feb 28, 2024
+Add bookmark
+#14
+I think
+Mount & Blade: Warband
+(I haven't checked out the sequel) scores high in Immersion and Replayability. Which faction you choose and what missions you take and  which settlements you visit makes for good replayability; and you certainly get quite immersed while getting thrown into a very unstable world with a bit of power that can tip the scales one way or another. But believable world....mmmm, not so much. The geography and cultural composition of the realms are like moving from a different section of a theme park to another.
+We're moving from Northman World to Desert Warriors World now
+. Castles are quite empty save from guards and a few important NPCs.
+Anyway, I don't know how useful that is, but it's what first came to mind.
+5
+1
+1
+1
+Reactions:
+Reply
+Report
+Pyoro
+General
+46 Badges
+May 4, 2009
+1.893
+12.507
+Feb 28, 2024
+Add bookmark
+#15
+Difficult question right to start with, and even more difficult if I take into account that it tends to feel like a movable target.
+For example, had you asked that question after I made the jump from Civ to EU3, I'd definitely have said EU3. It felt so much more like a real world than the obvious "arcade-style" Civ games, for various reasons I don't think I need go into too deeply. Of course it all the abstractions and limitations and whatnot too, but it was new to me, and seemed to about the limit I could imagine for a game to be.
+But of course I've played other games since; and especially the games featuring strong emergent narratives like Dwarf Fortress/Rimworld have shown me that to get that feel of a living, "real" world things need to be taken a step further. So EU4 with it's Mission Tree click-for-bonus gameplay and random accumulation of 5% boni somewhere in the submenu of a menuscreen falls right through the floor to me nowadays.
+Out of the PDX games that I have played (so no HoI, no Imperator), I'd probably say Crusader Kings 2 managed best to give me that organic "real" feel. The illusion had significant dents (no care about character locations being one of the biggest ones), but as it was trying something that was new to me, again, it seemed like a good step into that direction that I was interested in.
+Stellaris felt like too much of a dead world to me right from the start. Here I had Distant Worlds to compare, and with the partial AI control over your empire and just generally more of a living world that worked better for me.
+EU4 I barely even bothered playing in the vanilla state; for reasons mentioned above. It felt too controlled, too arcade-y, not brave enough mechanically.
+Of course, if we include MEIOU into the equation, well, that's an entirely different story then ...
+... so, yeah, hard to give a good answer. I'm not sure I have a definite "best candidate" here, even outside of PDX games.
+I kinda wanted to at least make two important points where imo recent PDX games failed:
+Believable World
+Click to expand...
+... this demands and requires challenge, and out-of-player-control aspects. You can do whatever you want, if you give the player too much too predictable control over everything, and make it too easy to achieve every goal always, it's in my opinion never going to feel believable.
+Of course AI-control tends to be frustrating because AI is stupid or doesn't do what the player wants. So the game must ensure that either it's stupid in a fun way, or it needs to be mitigated in some other way. Tough to achieve I'm sure, but if the world just exists as a player-validation background it's not going to be believable.
+Replayability
+Click to expand...
+... also this. I mean, you say "mechanics", but it feels like recently "mechanics" translates to "you get an extra button to press". Or, dunno. Just look at how "mechanically different" Vicky 3 monarchies are from democracies ... they just aren't. Mechanics can't be "shuffle around some percentages". They really need to demand a different style of play.
+30
+5
+3
+1
+Reactions:
+Reply
+Report
+olivenkranz
+Imperator Enjoyer
+54 Badges
+May 13, 2020
+1.050
+1.472
+Feb 28, 2024
+Add bookmark
+#16
+There a couple of things that I find very interesting that could be changed compared to existing PDX games. (I mean in-house games)
+The first is resource production. Instead of every tile producing just one good, there could be a balance to it, maybe based on a province, depending on scale. No city only produced leather, cloth or glass or didn't grow any produce at all. Usually, each city produced a bit of everything it needed, with more complex and rare goods being traded. There could be various buildings that produced goods that are locally consumed or traded away. The amount of detail regarding the variety of goods and the demand are obviously a design choice, but I find it weird that a territory only produces one type of thing, which especially for cities wasn't always the case.
+Another thing is the distribution and extraction of resources, which should be based on the terrain and should be dynamically exploitable. A forest might lend itself for lumber and the mountain nearby might have some iron ore - and if you have the resources, you could exploit both! Some type of landscaping (making it arable and deforestation especially) should be doable as well. In this case, the granularity would be a design choice as well, such as needing tools, stone and wood to build a building or abstracting it with money alone.
+Tied into both would be some kind of population mechanic. It could be like in Imperator or Victoria or a new one entirely, but the population shouldn't be able to be increased with a button click (eu4 devving). Laws in particular could be a possibility to incentivize population growth.
+Speaking of laws, those are a tricky beast, yet I think they are an area that could make peace time play very interesting. A diverse and large choice of various laws that can get passed or repealed with various effects, enabling mechanics or impacting the diplomatic game, there are many options that could make this interesting. Some kind of politics system would tie in nicely. Again, the expression of those ideas are subject to design choices and performance constraints.
+Something else that I think yould be interesting is fleshing the concept of cultures out. In the ck2 series, each religion has unique features and abilities and in ck3 something like that exists for cultures as well, but I find those a bit basic and you usually want to take the same path. What I was thinking of was some things that characterises the culture you are playing. There should be some kind of bonuses or abilities and mechanics that could be unlocked by that. Are you fighting wars all the time? Then your culture will become more warlike, maybe even at the expense of other things. That could allow the levying of extra units or having to pay them less. These features of a culture shouldn't be directly changeable by the player but be impacted by the actions of all nations of that culture. If over a longer period of time two actors of the same culture act differently enough or are influenced by neighbours, then they might separate.
+One last thing that comes to my mind immediately is the combat system. In all Paradox games, tactics don't really exist beyond a modifier (excluding hoi) if at all. Would it be possible to have some type of interface that is 2d instead of the 1d lines bashing each other? There, you could setup your army more dynamically and have different tactic types. That wouldn't necessitate the encirclements of on-map divisions in hoi4 but still isn't the simplistic line bashing with a modifier that exist in most other PDX games.
+Regarding the "source" of these units, I actually like Imperator's levy system quite a bit.
+I of course welcome any and all discussion on the topics I mentioned. And maybe, some other topics will come to my mind.
+Toggle signature
+Paradoxum, Imperatorem redde!
+- Not Augustus
+16
+4
+1
+Reactions:
+Reply
+Report
+T
+TurnipWatch
+Private
+26 Badges
+Sep 1, 2023
+24
+68
+Feb 28, 2024
+Add bookmark
+#17
+Believable World, Setting Immersion, Replayability
+Click to expand...
+I assume it's
+Star Trek: Infinite 2.
+15
+1
+Reactions:
+Reply
+Report
+Zylathas
+Lt. General
+76 Badges
+May 27, 2013
+1.476
+4.322
+Feb 28, 2024
+Add bookmark
+#18
+Keep in mind this thread was posted at 14:53.
+63
+15
+13
+8
+1
+Reactions:
+Reply
+Report
+Fallofthepurple
+Fugitive Miner
+49 Badges
+May 30, 2013
+1.012
+8.996
+Feb 28, 2024
+Add bookmark
+#19
+Damn, my podcast guess wasnt that bad
+Thanks for the DD and some immediate thoughts on not-EUV:
+Believable World
+You should be able to play the game and feel like you are in a world that makes sense, and feels rich and realistic. While not making the gaming less accessible, features should be believable and plausible,
+and avoid abstraction unless necessary
+.
+Click to expand...
+I know people will talk about mana here so id like to hit a couple different angles in regards to "Believable World" and "Setting Immersion".
+I am a big advocate of
+"making as many things as possible happen on the map"
+both in terms of gameplay (as opposed to fullscreen menus) and visually. In older titles - and ill include EUIV here - the map setup is rather spartan in that regard and serves mostly for the purpose of wargaming which makes sense cause thats what PDS games all used to be but I think we can go deeper than that.
+Visually, I think that Vicky 3 and Imperator (and some non-PDS games like CIV VI) do an excellent job at making the map come alive and depicting the impact of the players decisions whether that be the smog rising from my industrial heartland or legions constructing roads to connect my empire. I know the latter point isnt that important to some people but as someone who primarily plays for RP its important to me
+One last point id like to talk about in regards to non-EUV is the way ideas have worked in EUIV. The level of abstraction that idea groups have has always irked me and Id like to do away with them altogether.
+While I dont want to advocate for EUIIIs system I do think it had a nice
+idea
+and although its execution is more than dated a more modern approach of cause-and-effect as already employed in more recent PDS titles could do this justice instead of returning to clicking one of the meme sliders every X years.
+Dont just make me pick "Quantity" or "Innovative" have those be a result of my actions, buildings, policies pushing me into that direction instead of the other way around.
+Also I absolutely love Estates and I hope they return and are expanded upon beyond just privileges. They provide great avenues for narrative and gameplay decisions that help remove a lot of obscurity and lower the level of abstraction.
+23
+3
+Reactions:
+Reply
+Report
+Metz
+Field Marshal
+107 Badges
+Nov 21, 2008
+7.108
+13.741
+Feb 28, 2024
+Add bookmark
+#20
+I think one thing that needs to be expanded on going forward is keeping players in the mid to late game.
+In CK3 and in EU4, you can probably "finish" or "clear" the game by 1/2 and 1/3 of the timeline given to you respectively. Victoria 3 is still young but the way technology works helps refresh the game at different points in time via changes to PM and the growth of SoL requiring new or different goods to be added into your economy. With HoI4, many games tend to be done by 1943 with some multiplayer games finishing up in 1941-1942 (but that may be down to asymmetric player skill in the match).
+The issues with CK3 and EU4 are that once you peak in strength, it is hard to find something that will stop you aside from self-restraint or self-sabotage. Historically, a rapidly growing Spain got hit by inflation and a split of its European empire. Then occupation by another great power made it lose practically all its colonial positions all at once. If games such as CK3 and EU4 added more mechanics similar to the League War or the crisis system found in Victoria 2, then it may be able to retain players for longer. Even features that get unlocked halfway through the game that make you revisit basics you addressed at the beginning of a game may help.
+61
+8
+2
+1
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+15
+Next
+1 of 15
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

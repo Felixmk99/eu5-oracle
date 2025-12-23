@@ -1,0 +1,304 @@
+Source URL: https://eu5.paradoxwikis.com/Sweden
+Source Date: 2025-12-12
+
+This is a
+compilation
+and strategy article for
+Sweden
+.
+Mechanics and flavor content are
+transcluded
+from other pages.
+Sweden
+Country type
+Settled
+Government type
+Monarchy
+Primary culture
+Swedish
+Primary religion
+Catholicism
+Capital location
+Stockholm (1)
+The Kingdom of Sweden is a feudal Kingdom under the rule of King Magnus VII av Bjälbo, who also holds the crown of
+Norway
+. The
+Kingdom of Scania
+was bought from the impoverished Danish just a few years ago. Our territory is vast, but sparsely populated, and mostly covered by dense forests. Deep in those woods, riches of
+Iron
+and
+Copper
+remain hidden, waiting to be used to enrich our country.
+Our Kingdom currently faces grave challenges, fallout from our recent clash with the mercantile power
+Lord Republic of Velikiy Novgorod
+over Ingria. Meanwhile, the
+Kingdom of Denmark
+and the
+Teutonic Order
+control most of the lands to the south — lands that we could govern and exploit with much more finesse.
+Sweden is positioned to be one of the foremost nations in the world. Will we be able to defeat our challenges, take our rightful place of power, and establish the Dominium Maris Baltici - the Dominion over the Baltic Sea?
+Sweden begins the game in a union with Norway and holding Scania as a
+fiefdom
+. The kingdom controls the Stockholm market region, serving as its economic heartland.
+At start, Sweden benefits from a diverse and large resource base with possibility to colonize the north of Scandinavia for expansion. Its geographic position—distant from much of central Europe’s turmoil—offers potential for gradual consolidation and growth in relative peace.
+Government
+[
+edit
+|
+edit source
+]
+Personal Union:
+Sweden is in a personal union with
+Norway
+, which provides initial stability.
+Vassals:
+The fiefdom of Scania is under Swedish suzerainty at the game start.
+Parliament:
+Sweden starts with a parliament that includes the peasant class.
+Culture
+[
+edit
+|
+edit source
+]
+Sweden’s primary culture is Swedish.
+Minor cultural differences exist in Finnish territories, but this accounts for under 10% of the total population. For colonization in the north of Scandinavia, setting a Swedish-culture origin province helps maintain cultural unity in new territories.
+If territories with Danish or Norwegian culture are acquired, they start as unaccepted cultures — requiring efforts to integrate them or accepting their cultures. This is not neccessary at the start, but becomes important if Scania is annexed.
+Religion
+[
+edit
+|
+edit source
+]
+Sweden begins as a Catholic realm, though pockets of older (e.g. Norse) beliefs persist.
+There is a high likelihood that the Lutheran Reformation will originate in Sweden. Even if it does not, it almost always begins in Northern Europe, meaning that in most playthroughs, you will eventually face the choice of conversion — or to spend significant resources to remain Catholic.
+Economy
+[
+edit
+|
+edit source
+]
+Markets
+[
+edit
+|
+edit source
+]
+At game start, Sweden controls the Stockholm market region, which ties together its core Swedish territories.
+The fiefdom of Scania can create - and often does create, the Lund market expanding Sweden’s trade reach in southern areas.
+Due to the geographic and economic layout of Northern Europe (large territories, long distances), establishing additional markets via colonization can offer strategic economic benefit.
+Goods
+[
+edit
+|
+edit source
+]
+Sweden has a varied and rich resource base, including grain, livestock, lumber, furs, marble, amber, and metals.
+Among these, copper, iron, furs, lumber and silver form the backbone of the Swedish export economy.
+Iron - Tools - Lumber - Coal Loop
+[
+edit
+|
+edit source
+]
+A notable economic strategy involves using the
+Iron - Tools - Lumber - Coal Loop
+.
+In optimal conditions, this loop yields a net positive output of resources (coal, iron, tools, lumber), adding significant taxable production capacity for otherwise underused population.
+This also has a strong added benefit of increasing the in-market demand for each of the goods type thus increasing their prices and balancing it towards their base prices in cases where you have a large supply.
+This is mainly the case for Lumber which often otherwise pushed down in price and exported cheaply. This artifically increases the price which in turn creates higher export revenue.
+Naval
+[
+edit
+|
+edit source
+]
+Sweden is, by nature, a naval-oriented realm with one of the longest coastlines in the game, vast inland distances with difficult terrain and relatively low value locations in interior provinces (outside the core heartland).
+Note: The Gulf of Bothnia and occasionally even the Stockholm Archipelago and Gulf of Finland freeze over each winter, temporarily cutting maritime access while also heavily reducing Maritime Presence.
+Strategic Economic Zones
+[
+edit
+|
+edit source
+]
+Core Region (Uppland, Södermanland, Västmanland)
+[
+edit
+|
+edit source
+]
+Sweden’s economic heart lies in Uppland, Södermanland, and Västmanland — regions of high control with valuable resources. This is where most of your early towns are located, serving as the foundation of your economic growth.
+Primary resources include iron, marble, copper, and later silver, all of which should be connected by roads. By expanding trade capacity and securing domestic production to reduce imports, you can become an export powerhouse in raw materials, driving rapid development across your core provinces.
+Around 1450–1500, an event triggers in Sala, transforming its produced resource from lumber to silver.
+Note: Avoid developing Salas RGO beforehand, as this event resets its levels.
+Gotland
+[
+edit
+|
+edit source
+]
+Historically the second-largest production center for Sweden. Early lack of Maritime Presence means that it is hard to increase control in the region until you can build out your navy.
+Over time, improved sea lanes and control can turn Gotland into a significant production and trade hub.
+Consider releasing Gotland early on as this will significantly increase the islands tax base until you can build up Maritime Presence.
+In the 1380's, Gotland gets an event to form a independent pirate republic. This also grants the
+Livonian
+and
+Teutonic Orders
+wargoals to seize it.
+Southern Sweden
+[
+edit
+|
+edit source
+]
+At game start, southern Sweden suffers from low control and poor proximity, making it unprofitable to develop. Its resources are also comparatively weak, being a mix of mostly low value agrarian goods.
+Use these provinces as a population reserve. Employ them as sources for colonization efforts in the north and, later, the New World.
+The “Expel Population” action can also be used to transfer surplus population from the south to your core and coastal provinces.
+Scania
+[
+edit
+|
+edit source
+]
+Scania begins as a Swedish fiefdom, with two of its provinces under Danish control. Shortly after the game begins, Sweden may purchase the Danish provinces for 250 gold, integrating them into Scania. Ensure sufficient funds or estate loan availability to avoid bankruptcy during this event.
+Scania frequently forms the Lund Market, encompassing southern Sweden and Denmark. An early annexation provides a strong economic boost, but the low control in southern Sweden due to undeveloped sea routes often makes it wiser to let Scania develop independently while focusing elsewhere.
+To fully capitalize on annexation, establish ports near Lund, such as in Sölvesborg or Karlskrona so that you can transfer control to Lund.
+Southern Finland
+[
+edit
+|
+edit source
+]
+Southern Finland shares Southern Sweden’s temperate climate and lacks the harsh
+Arctic Climate
+penalties of the north.
+However, due to the two-sea-province gap between mainland Sweden and Finland, it can be difficult to profit from early on as control in the region will be heavily reduced.
+Once you have fleets that patrol the seas and boost Maritime Presence, Finland becomes an integral part of your realm thanks to its close sea proximity to Stockholm and many coastal provinces.
+Northern Territories (Norrland, Lappland and Karelia) - Colonizable Areas
+[
+edit
+|
+edit source
+]
+Sweden and
+Novgorod
+are among the few European powers capable of colonizing from the very start.
+After stabilizing your economy, it is wise to settle the available northern colonies. However, the existing Treaty of Oreshek forbids Swedish colonization in traditional Karelian (Novgorodian) lands and vice versa — making a northern rush less strategically important.
+Note: Going to war with Novgorod means this can be cancelled, allowing you to colonize Karelia.
+The Arctic modifier and frozen Baltic sea during winter hinder development in the north, but a unique Cabinet Action Develop farms in the North and East grants powerful one-time development bonuses in colonizable areas.
+Note: Use this only on fully colonized provinces — activating it mid-colonization reduces the effect significantly as it only boosts your currently colonized locations.
+Achievements
+[
+edit
+|
+edit source
+]
+Lion of the North
+Start as Sweden, ensure the victory of the Protestant League.
+References
+[
+edit
+|
+edit source
+]
+Countries
+Tabber requires Javascript to function.
+Eastern Europe
+Albania
+Arianiti
+Armenia
+Bosnia
+Bulgaria
+Byzantium
+Croatia
+Epirus
+Georgia
+Halych
+Hungary
+Kyiv
+Lithuania
+Mataranga
+Muscovy
+Muzaka
+Perm
+Poland
+Samtskhe
+Serbia
+Smolensk
+Teutonic Order
+Thopia
+Velikiy Novgorod
+Volhynia
+Vyatka
+Wallachia
+Western Europe
+Aragon
+Austria
+Aquitaine
+Balliol
+Brandenburg
+Brittany
+Bohemia
+Castile
+Denmark
+Dithmarschen
+England
+Florence
+France
+Guelders
+Granada
+Holland
+Iceland
+Moravia
+Milan
+Naples
+Navarre
+Norway
+Papal States
+Portugal
+Scania
+Scotland
+Sicily
+Spain
+Sweden
+Valencia
+Venice
+Wales
+Central Africa
+East Africa
+Ethiopia
+Kitara
+North Africa
+Morocco
+Tlemcen
+Tunis
+South Africa
+Zimbabwe
+West Africa
+Middle East
+Oman
+Ottomans
+Yemen
+Central Asia
+Timurid
+East Asia
+Chūzan
+Hokuzan
+Japan
+Míng
+Nanzan
+Ryūkyū
+Yuan
+South Asia
+Delhi
+Mughal
+South East Asia
+Khmer
+Majapahit
+North America
+Cahokia
+South America
+Australasia
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=Sweden&oldid=21056
+"

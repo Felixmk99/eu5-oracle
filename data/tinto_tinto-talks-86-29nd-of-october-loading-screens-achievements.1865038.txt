@@ -1,0 +1,724 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-86-29nd-of-october-loading-screens-achievements.1865038/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #86 - 29nd of October - Loading Screens & Achievements
+Thread starter
+Dargeths
+Start date
+Oct 29, 2025
+Hello, and welcome to another
+Tinto Talks
+, the happy Wednesdays where we talk about
+Europa Universalis V
+.
+For those who don’t know me, my name is Arnau, and I am the Associate Producer at Tinto. It has been a while since my last Dev Diary for EU4. That's because I was responsible for coordinating and assisting in the development of the latest EU4 DLCs, particularly with
+Winds of Change
+. That was over a year ago. Since then, I have been coordinating EU5 efforts, helping different team coordinators and leads to achieve our milestones on time, and maintain the quality we aimed for. In summary, my main role is to make the Dev team's life easier so they can focus on developing this amazing game.
+Today marks the release of the last Tinto Talk before our Big Launch Day. After over five years of development, we have just six days left until the release. Yesterday, we celebrated this significant milestone with a team photo featuring most of our members in Tinto. While this photo captures only a small portion of the folks who have contributed to the development of
+Europa Universalis V
+, I want to note that this project has been a collaboration involving more than 700 people. At Sitges, we are only the Core Team. I would like to take this opportunity to thank the entire development team for their hard work and to congratulate them on the fantastic results they have achieved.
+Note: Office doggos were really important in our development process, and as such, they're duly accredited in the game's Credits.
+​
+​
+Loading Screen
+​
+First, a brief foreword by Art Director
+@SaintDaveUK
+, who will walk us through the vision behind the loading screens:
+When coming up with ideas for Loading Screen illustrations, we want to represent the various themes of the game and portray different parts of the world. In general, we also wanted to show an alternative or even surprising look at the world instead of simply repainting existing or famous scenes in our style.
+For much of the game, the player is positioned safely at a bird's-eye view. However, for the loading screens and indeed most of our illustrations, we wanted to bring the player right into the action, face-to-face with the terrible and wonderful world they are about to inhabit.
+The complexity of these screens means the process is a long one involving many people and disciplines, starting with an intense brainstorming stage, of which themes and cultures we want to show. Our research team then takes that idea and gathers as many references as they can to make sure we get it right.
+It’s no secret that Tinto is a team of animal lovers (we frequently have to climb over numerous sleeping pets to get around the office), so we tried to include animals where possible.
+The 2D illustrators begin the sketching process (starting with a set of thumbnails, above), and after several weeks, we reach the final illustration. They make the scenes densely packed with detail and things to look at, as you will probably look at these many times over the years, and hopefully, you will occasionally notice something new.
+The layers are then placed into a scene by the 3D artists to prepare the subtly animated parallax effect. The camera is made to draw slowly away from the focal point, as the foreground and edges are revealed.
+Finally, the audio team’s soundscape is the immersive finishing touch - whether it is the clamour of a crowd, the trumpeting of an elephant, or the horrifying rip of a musket volley, you are drawn right into the action. It’s also not just loading screens, all illustrations in the game’s interface, whether in side panels or event windows - have a similar soundscape experience.
+​
+A screenshot from Wwise (audio software) showing the individual actors in the Luther loading screen. Some of these elements' positions are defined by where they appear in the image (like the swan honking), whereas others will randomly appear in 3D space (like footsteps). A real treat if you have a surround sound setup, since all soundscapes are built for Dolby Atmos.
+​
+We think these loading screens are truly some of the most immersive experiences we have ever made, and we really hope you enjoy them.
+​
+Martin Luther Nailing the 95 Theses
+The proclamation that begins the Protestant Reformation causes a ruckus outside All Saints' Church in Wittenberg, Saxony. The established clergy are, of course, outraged, but many townspeople, including Prince-elector Frederick III of Saxony, are curious. Flanked by companion scholars like Melanchthon, Luther is also accompanied by a swan, which is a trope in Lutheran art.
+The Port of Lübeck
+Sailors unload their cargo as burghers gather in the bustling marketplace beneath gabled brick houses. Boatswains call out orders, and traders advertise offers as herring, wool, and Baltic timber change hands beneath the banners of the Hanseatic League.
+Battle of White Mountain
+Imperial veteran infantry and Polish cavalry crash into the inexperienced Bohemian defenders of Prague. The entrenched artillery on the hillside falls to advancing pike squares as the Catholic League seals its decisive victory over the Protestant revolt.
+Damascus Welcomes Foreigners
+In front of the mosque of the Umayyads, the Mamluk governor of Damascus welcomes Venetian merchants.
+Zheng He Returns to Nanjing
+Admiral Zheng He’s treasure fleet arrives at Nanjing after a successful voyage, greeted by officials and traders as Bengali envoys alight. The Yifeng Gate and the Porcelain Tower rise over the bustling port.
+La Noche Triste
+Hernán Cortés recoils on horseback, ordering retreat through the chaos as Emperor Cuitláhuac leads the Aztec counterattack. The Spanish ranks break under the assault, with Fray Bartolomé de Olmedo (in the white robes of the Mercedarian order) among the embattled conquistadors.
+Indian Court
+A Hindu ruler in south India holds court with traders and Muslim visitors as European ships appear on the horizon; dhows sail to meet the newcomers.
+Ashanti entourage
+The king, adorned in kente cloth and gold jewellery, visits the town to survey the extensive constructions that he is a patron of. His entourage carries the golden stool through the market, which is selling a variety of local and foreign goods, including n’dama cattle.
+Beaver Wars
+Iroquois warriors armed with trade guns and outfitted in wooden armour ambush an Algonquian warpath bolstered by a small French expedition.
+​
+​
+Achievements
+​
+Before listing all the achievements that
+Europa Universalis V
+will release, I would like to explain and highlight the criteria and design behind them.
+First of all, EU5 achievements can only be unlocked in Ironman game mode, which has an unmodified checksum. This means that console commands cannot be used to help obtain them, and players must be careful with their actions, as the game restricts control over saved games. This limitation disallows players from correcting mistakes or changing decisions. The same applies to mods that significantly alter the game.
+We are happy with the philosophy and achievement-hunting experience that
+Europa Universalis IV
+and most of the Paradox Grand Strategy Games have followed over the past few years. At the same time, we have made efforts to design achievements that cater to all player types, whether you are a new player learning the game or someone with thousands of hours invested in Paradox games. You will find challenges suited to your skill level.
+Over the course of 10 years of developing
+Europa Universalis IV
+, we included a total of 373 achievements. For the release of
+Europa Universalis V
+, we plan to launch with 50 achievements. Some achievements from EU4 are returning, but they will feature tweaks and adjustments as a tribute.
+​
+Gamplay Learning Achievements​
+All these achievements have been designed with the idea of unlocking them during the first few hours of playing the game. All are short-term objectives that the player can try to achieve to during the first few hours learning the game.
+​
+Country Specific Achievements​
+We have created several achievements for the most popular countries. The idea is to establish historical milestones so that players can try to recreate these scenarios.
+​
+Late Game Achievements​
+This category includes a mix of generic achievements that cannot be completed until you reach the late Ages, along with some country-specific achievements that require certain triggers that become available after a specific year.
+​
+Difficult Achievements​
+A set of achievements that will require a high level of understanding of the mechanics and col loops of the game, and will probably demand different tries to achieve them.
+​
+Gampley Learning Achievements
+​
+That is Mine!
+Conquer a province
+Till Death Do Us Part
+Secure a Royal Marriage with another country.
+Brothers in Arms
+Be in a war with over 90% warscore as a secondary participant.
+Victorious!
+Win a war.
+City of Cities
+Own a core province with at least 100 development.
+Cold War
+Have a war without any ongoing conflict for 3 years.
+Crusader Kings
+Win a Crusade or a Jihād.
+For the Glory
+Diplomatically annex a subject.
+At Every Continent
+Own one location on each continent.
+Grand Coalition
+Join a Coalition of more than 5 countries.
+It Belongs in a Museum!
+Gain a new Work of Art.
+A Cabinet of Curiosities
+Have a Cabinet Action of all three categories active at the same time.
+Hearts and Minds
+Improve the cultural opinion with another country.
+​
+Country Specific Achievements
+​
+Lingua Franca
+As France, be the Cultural Hegemon.
+Rule Britannia
+Starting as England, form Great Britain and be the Naval Hegemon.
+Plus Ultra
+As Castile or Spain, have presence in Iberia, Maghreb, the Caribbean, Mesoamerica and Peru.
+City of Man's Desire
+Starting as the Ottomans, conquer Constantinople and end the Rise of the Turks situation as the strongest Beylik.
+Felix Austria
+Starting as Austria, become Emperor of the HRE and be a Great Power.
+Hóngwǔ Dì
+As Míng, own the entirety of China and be the leader of the Middle Kingdom.
+Break the Yoke
+Break the Tatar Yoke as a Russian country
+Je Maintiendrai
+Form the Netherlands as a minor nation starting with Dutch culture.
+Lion of the North
+Start as Sweden, ensure the victory of the Protestant League.
+The Navigator
+As Portugal, have presence in Africa, America, India and Indonesia before the Age of Reformation.
+House for Hus
+Starting as Bohemia, win the Hussite Wars situation as Hussite.
+True Heir of Timur
+Having had Timur as the ruler of your country, form the Mughal Empire.
+​
+Difficult
+Achievements
+​
+What a Great Guy
+Be present on every subcontinent
+Total Control
+Have 20 Locations with 100% control
+Be In All The Clubs
+Belong to 6 International Organizations.
+What the Lord Giveth
+Having 8 privileges enacted for the Nobility, then remove all of them
+Welfare State
+Have a market of your country with a full stockpile of at least 20.000 food.
+500 Miles
+Own at least 100 locations with 5 roads each.
+Respected
+Have 100 Prestige, 100 Legitimacy, and 100 Stability.
+L'État, C'est Moi
+Reach 100 Value for both Centralization and Absolutism.
+​
+Late Game
+Achievements
+​
+A Manchurian Candidate
+Start as a country with the Jurchen culture, become the leader of the Middle Kingdom.
+A Pile of Gold
+Own 25 locations which produce gold or silver.
+A Brave New World
+Discover the New World.
+The Three Mountains
+Form Ryūkyū.
+Here I Stand
+Convert to Lutheranism and unlock 3 Aspects of Faith.
+Just a Little Bit More Patience
+Play a campaign from 1337 until 1836.
+Potato Potato
+Starting as a European country, produce potatoes.
+The Spice Must Flow
+Starting as a European country, the trade in cloves.
+Scientific Victory
+Have at least 450 Advances researched.
+Cities Skylines
+Have 200 total building levels in one location.
+Moneytalks
+Become the Economic Hegemon.
+Doge Coins
+Starting as Venice, become the Economic Hegemon.
+​
+That’s all of them, and that’s all for today!
+As
+@Pavía
+has already mentioned this morning, at
+17:00 CET/11:00 EST
+we’ll start the
+Europa Universalis V Pre-Release Stream
+, in which we will showcase gameplay, talk about the design process, and so much more, in this extended event
+LIVE
+from the Tinto Offices in Sitges. So, don’t miss the opportunity to interact with us.
+​
+And also remember, you can
+Pre-Purchase Europa Universalis V now
+!
+Be Ambitious
+!​
+141
+137
+76
+6
+6
+4
+Reactions:
+Reply
+Report
+Written by
+Dargeths
+Corporal
+Paradox Staff
+9 Badges
+Messages
+32
+Reaction score
+1.153
+1
+2
+3
+…
+Go to page
+Go
+32
+Next
+1 of 32
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Oct 29, 2025
+Add bookmark
+#2
+This is a whole "platipude" of achievements.
+Also:
+What, do I need to...
+become
+the trade in cloves?
+Thats a bit weird. I dont remember a DD about that.
+Also, please consider
+my humble suggestions for achievements
+.  Some are outdated and dont fit more recent game mechanics, but still
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+56
+14
+3
+1
+Reactions:
+Reply
+Report
+B
+Bozkurt
+Major
+12 Badges
+Jun 15, 2024
+618
+2.356
+Oct 29, 2025
+Add bookmark
+#3
+I hope you will change your decision on ironman as soon as possible like the CK3 team.
+Toggle signature
+#1 PROUD AI SUPPORTER
+159
+143
+26
+1
+Reactions:
+Reply
+Report
+GenericUsername1444
+Colonel
+Jun 25, 2024
+805
+10.781
+Oct 29, 2025
+Add bookmark
+#4
+Achievement idea:
+Straw Hat Pirates
+As a Nepalese country, establish a peasant republic or a pirate republic (more difficult as gaining access to the sea would be quite challenging).
+This would be a pretty cool easter egg, and I hope it wouldn't be against copyright to use it (or a similar flag).
+Toggle signature
+Professional Georgian
+20
+12
+9
+4
+2
+Reactions:
+Reply
+Report
+ibvfteh
+Lt. General
+38 Badges
+Feb 9, 2019
+1.597
+9.577
+Oct 29, 2025
+Add bookmark
+#5
+“EU5 achievements can only be unlocked in Ironman game mode, which has an unmodified checksum. This means that console commands cannot be used to help obtain them, and players must be careful with their actions, as the game restricts control over saved games. This limitation disallows players from correcting mistakes or changing decisions. The same applies to mods that significantly alter the game.”
+Dear Devs,
+I Respectfully Disagree with this post
+I really hope you’ll reconsider locking achievements behind Ironman in EU5.
+I get the intent "keeping achievements meaningful" but in practice, it just ends up excluding a lot of players for egoistical reason. Here’s why:
+It create reason to start once more
+Achievements are a great way to keep
+goals in a sandbox game
+. What do I do now? -> Do achievements.
+But locking them to Ironman cuts off people who just want a few fun challenges to chase without turning the game into a high-stakes marathon.
+I want to just try Achievements like "Don't be Cilli" - It
+fun
+, not
+competitive
+Bugs happen, and Ironman makes them devastating
+Every Paradox launch has bugs, and that’s fine — complex games will. But
+losing a 20-hour campaign
+because of a bug or crash and having zero way to recover isn’t “challenging,” it’s just discouraging.
+Not everyone can play for 10 hours straight
+People have jobs, families, and lives. Forcing Ironman means
+one bad autosave
+, crash, or misclick after a long day can
+wipe out months of progress
+. That’s just exhausting.
+It punishes experimentation and learning
+The best part of EU is trying weird ideas in Achievements, pushing limits, seeing what happens. Conquer the entire Roman Empire as Ottomans in 50 years.
+Ironman
+makes that stressful
+instead of fun — you don’t learn from failure, you just lose progress.
+Mods and accessibility are important
+Some players
+need
+mods
+: for colorblindness, UI readability, or just small fixes that make the game playable. Ironman blocks all of that, and it’s frustrating when the only “fix” is to give up achievements altogether.
+Ironman doesn’t stop cheating anyway
+Anyone who wants to cheat can still do it with external tools. CK3 and Vic3 prove it —
+their achievement rates look identical
+to EU4’s. The restriction doesn’t protect integrity, it just makes life harder for some players.
+It’s inconsistent with other Paradox games
+CK3 and Vic3 both showed that open achievements work
+perfectly fine
+. Bringing back Ironman-only feels like a step backward when the newer model already works. And it has proven itself.
+And honestly,
+the game isn’t about competition
+.
+It’s a single-player
+SANDBOX
+. Achievements are
+personal goals, not trophies
+to lord over others. Achivements are something
+YOU
+achieve! Some of us just like seeing a little popup for doing something cool.
+Is it an Achievement for a child to start walking? YES
+Do we hold fair competitions about that and give up certificates only when it was done fairly and equal to other kids? NO
+Why gate that behind a playstyle that doesn’t suit everyone? Why it should be exclusive?
+NO MISTAKES ALLOWED - toxic mentality
+Edit: I am personally fine with any
+middle ground
+solution. Double the achievements, have the in-game ones be non Ironman, or leave Ironman only for a few (while also duplicating them for non-Ironman).
+Last edited:
+Oct 29, 2025
+234
+161
+44
+2
+1
+Reactions:
+Reply
+Report
+Lord Lambert
+I cover Tinto Talks on Youtube
+92 Badges
+Jan 26, 2014
+4.643
+30.666
+Oct 29, 2025
+Add bookmark
+#6
+Its like he is staring right at me.. every time I open the game...
+Toggle signature
+I play Paradox games on youtube, check me out here if you like:
+Lord Lambert
+Moving armies on a detailed map is about half the fun of a PDS game - Johan
+My signature has changed.
+This was not my choice.
+​
+37
+6
+2
+1
+Reactions:
+Reply
+Report
+S
+Sebroar
+Captain
+45 Badges
+May 19, 2023
+455
+1.868
+Oct 29, 2025
+Add bookmark
+#7
+It's hard to believe that this is the last TT, I already feel the nostalgia. Truly the end of an era.
+Good luck for release!
+Toggle signature
+Currenty fighting to make the Great Pestilence less lethal to reflect the results of new research. I failed miserably, but I'm still fighting.
+Justice for the Andes!
+23
+2
+Reactions:
+Reply
+Report
+Pavía
+Content Design Lead PDX Tinto
+Paradox Staff
+12 Badges
+Jan 3, 2006
+4.509
+192.684
+Oct 29, 2025
+Add bookmark
+#8
+Dargeths said:
+Since then, I have been coordinating EU5 efforts, helping different team coordinators and leads to achieve our milestones on time, and maintain the quality we aimed for. In summary, my main role is to
+make the Dev team's life easier so they can focus on developing this amazing game
+whip the team to get shit done.​
+Click to expand...
+FTFY.
+Toggle signature
+Antiguo caballero villano del OT en español. Now member of EUIV & EUV Team at Paradox Tinto.
+62
+3
+2
+1
+1
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Oct 29, 2025
+Add bookmark
+#9
+WC tryhards in shambles.
+56
+5
+2
+1
+Reactions:
+Reply
+Report
+Silvermarch
+Corporal
+126 Badges
+Dec 20, 2012
+47
+686
+Oct 29, 2025
+Add bookmark
+#10
+In my opinion, it's just unreasonable to keep it behind unmodded ironman.
+135
+104
+16
+Reactions:
+Reply
+Report
+D
+Dongerino
+Evropa's Gemmiest Herald
+43 Badges
+Jun 27, 2015
+1.131
+10.921
+Oct 29, 2025
+Add bookmark
+#11
+First of all, EU5 achievements can only be unlocked in Ironman game mode, which has an unmodified checksum.
+Click to expand...
+Big disagree with this. We've had tons of threads about this already where you can see that most of us don't want this.
+144
+111
+13
+Reactions:
+Reply
+Report
+Nikolai
+Basileus Romaion
+78 Badges
+Jun 17, 2001
+26.473
+16.529
+Oct 29, 2025
+Add bookmark
+#12
+Too bad I who play mostly to make AARs out of it (or potentially at least) won't be able to do the achievements, as I need to be able to go back and check details in previous saves as a minimum.
+Toggle signature
+Fear not, for I am with you; Be not dismayed, for I am your God.
+-Isa 41:10
+For God so loved the world, that He gave His only begotten Son, that whoever believes in Him shall not perish, but have eternal life.
+-John 3:16
+My
+Inkwell
+. Recipient of the prestigeous
+St. EdwaAARd's Crown ♔
+for
+excellence in AARcraft
+.
+Red Special Cookie
+●
+Dreams of Ptolemaios
+- An Imperator: Rome AAR  --
+Dreams of a Better Future - Tales of the Roccan Resistance
+- A Stellaris AAR --
+Norgesveldet 3.0 - Dreams of Kalmar
+- First ever EU5 AAR
+40
+11
+2
+1
+Reactions:
+Reply
+Report
+D
+Dongerino
+Evropa's Gemmiest Herald
+43 Badges
+Jun 27, 2015
+1.131
+10.921
+Oct 29, 2025
+Add bookmark
+#13
+Absolutely love the art though
+17
+11
+3
+2
+Reactions:
+Reply
+Report
+ShortLad
+Corporal
+Aug 20, 2025
+32
+373
+Oct 29, 2025
+Add bookmark
+#14
+Will there be any mutayr related achievements for all us based mutayr enjoyers
+43
+16
+4
+3
+1
+Reactions:
+Reply
+Report
+B
+Bozkurt
+Major
+12 Badges
+Jun 15, 2024
+618
+2.356
+Oct 29, 2025
+Add bookmark
+#15
+Also in this forum there were lots of talks and I am disappointed you didn't talk more about reasoning behind your decision and why you reject the reasoning of non-ironman supporters.
+Toggle signature
+#1 PROUD AI SUPPORTER
+81
+64
+7
+Reactions:
+Reply
+Report
+P
+Pretzelsticks
+Recruit
+8 Badges
+May 15, 2025
+6
+55
+Oct 29, 2025
+Add bookmark
+#16
+I LOVE THE PLATYPUS
+36
+7
+6
+1
+Reactions:
+Reply
+Report
+M
+Miguelinileugim
+Major
+1 Badges
+May 6, 2021
+568
+1.937
+Oct 29, 2025
+Add bookmark
+#17
+What's the meaning behind so many Platypuses?
+14
+7
+2
+Reactions:
+Reply
+Report
+A
+Anteriousis
+Sergeant
+17 Badges
+Mar 14, 2024
+79
+357
+Oct 29, 2025
+Add bookmark
+#18
+THE LAST TINTO TALK AFTER SO LONG
+12
+Reactions:
+Reply
+Report
+D
+Davincie
+Captain
+80 Badges
+Feb 5, 2020
+323
+1.952
+Oct 29, 2025
+Add bookmark
+#19
+Thank you for all the colourful outfits, too often the past is portrayed as grays and blacks.
+Achievements seem a bit easy though!
+11
+7
+1
+Reactions:
+Reply
+Report
+B
+BlyatMan502
+Recruit
+Mar 15, 2024
+6
+53
+Oct 29, 2025
+Add bookmark
+#20
+The Lion...
+23
+6
+2
+1
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+32
+Next
+1 of 32
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

@@ -1,0 +1,507 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-57-2nd-of-april-2025.1734057/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #57 - 2nd of April 2025
+Thread starter
+Johan
+Start date
+Apr 2, 2025
+Welcome to another Tinto Talks, the Happy Wednesday where we talk about our entirely super-top-secret game with the codename Project Caesar.
+Today we will go through the rest of the major changes that have been made in the last year on the project, many due to your direct feedback.
+New Country Type
+As was heavily requested, we have added the navy-based countries, and you will find out more in detail how they work and how you can play them when we talk more about the Pirates! Situation.
+Ages matter more.
+One thing we wanted to do was to make each age feel more unique and different to play, while also adding interesting choices.
+First of all, we changed the start of the Age of Renaissance to occur 5 years later, so that you get more of a feel of what you want to do before making decisions on what bonus advances you want.
+Secondly, we went through how our buildings unlock, and made it so that guilds are unlocked in the Age of Traditions and Age of Renaissance, the workshops during the Age of Reformation, the manufactories during the Age of Absolutism, and the Mills inthe  Age of Revolutions.  Each new category for a building increases productivity and capacity, and when you get the mills, you will employ laborers instead of burghers.
+As mentioned before, we unlock Hegemons through the Age of Discovery, and the ‘Absolutism vs Liberalism’ Societal Value in the Age of Absolutism. After testing, we moved the ‘Outward vs Inward’ societal value to be unlocked when the Age of Discovery starts, and the ‘Mercantilism vs Free Trade’ societal value to the Age of Reformation.
+It's the age to colonize….
+Each age also has some unique bonuses which are active during the entire age, changing how the Age is played a bit. They also have different values for how much levies cost and the size of an expected army.
+The Age of Renaissance gives higher cultural tradition and an increased diplomatic capacity, so as to emphasize cultural progress and to encourage a reliance on subjects.
+The Age of Discovery gives cheaper colonial charters and faster exploration, as one would expect.
+The Age of Reformation gives lower trade maintenance and faster religious conversions.
+Age of Absolutism allows you to integrate subjects faster and revoking privileges from the Estates is far cheaper.
+Age of Revolutions reduces the warscore cost, but also reduces the loyalty of subjects.
+Colonizing Changes
+First of all, we removed the concept of failing with explorations, as it was a source of endless frustration and ragequits among our internal testers. Anything that affected the chance of failure of an expedition now impacts the staging time of the exploration expedition.
+Speaking of staging, now when you start a colonial charter you need to select an origin province where they will send pops from. To hook this into the economy part of the game better, it will also require goods to be able to ship colonists. The current origin location gets a small boost to increasing prosperity and development while the colonial charter is active.
+Colonial charter targets now prioritise where there is a lower population, where you have foreign buildings, and natural harbour suitability.
+So where should the peasants colonising Norrland come from?
+Market Creation
+A big problem when you had a country at the edge of a market was the fact that you had low market access, and thus a weaker economy, and creating a new market was prohibitively expensive. A simple but rather elegant solution was to scale the cost of creating a new market by the market access that location currently has. This also has the added benefit of making it easy and cheap to set up a new market for your colonial subject.
+Liberate Slaves Peace Treaty
+Another thing requested was to force a country to release all pops they had enslaved from you, if let's say they raid your coasts for slaves, and you then send the marines to, let’s say, the shores of Tripoli, you can then force them to sign a peace treaty to return all your slaves.
+Culture
+Some of you requested a more dynamic way to handle cultures, so we have added two new cabinet actions, which each currently take about 10 years to complete.
+Unify Culture Group
+If you are an Empire, and the Dominant Country of your primary culture, the Unify Culture Group cabinet action can be used on a culture group belonging to your primary culture that has no other countries with that culture group. Upon completion, your primary culture will change to a brand new culture. Pops in your country of the same culture group and language will also change to this culture. This can only be done once.
+Form New Culture
+If you are a Kingdom or Empire, and NOT the Dominant Country of your primary culture, you can break away from it and form a new culture.
+We are clearly different from the Swedes!
+Satisfaction
+Keeping your pops and estates satisfied is a key part of the core gameplay of Project Caesar.  The balance here has been tweaked countless times over the years of development, and currently, each privilege or other source of satisfaction gives small values, so it's harder to get all estates perfectly happy all the time as a player.
+One other thing we made is that when you build buildings in lower control areas, the pops that belong to the estates these buildings employ get a small boost to satisfaction, inversely related to the current control. This makes it possible to target some infrastructure development to keep the populace happy in less central parts of your realm.
+If you so wish, you can also use a cabinet action targeting a specific rebel to stop their progress and even make it go backwards.
+They got funding, but we got the government to stop them!
+This is the last Tinto Talks I’ll write for a while, as I’m handing it off to
+@Pavía
+for the near future as we focus on flavour mechanics. He’ll start next week by talking about
+Voltaire’s Nightmare
+the Holy Roman Empire.
+Last edited:
+Apr 2, 2025
+233
+122
+10
+5
+5
+3
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+15
+Next
+1 of 15
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+livebythecreed77
+Colonel
+44 Badges
+Jul 29, 2015
+920
+4.465
+Apr 2, 2025
+Add bookmark
+#2
+Gonna miss your Tinto Talks Johan!
+41
+14
+Reactions:
+Reply
+Report
+Baphomet enjoyer
+Colonel
+1 Badges
+May 19, 2024
+800
+8.024
+Apr 2, 2025
+Add bookmark
+#3
+Wait im watching the nintendo direct, post it later
+21
+1
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Apr 2, 2025
+Add bookmark
+#4
+while also adding
+Click to expand...
+WHAT? I need to know!
+23
+2
+2
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Apr 2, 2025
+Add bookmark
+#5
+Nice.
+Regarding the Conquistador feature and colonial changes, have any thoughts been given to expanding it to more uses? I still think it makes perfect sense, for example, to use it to establish European companies in India and Indonesia.
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+13
+8
+3
+1
+Reactions:
+Reply
+Report
+squid_whisperer
+Sergeant
+21 Badges
+Jun 27, 2024
+74
+614
+Apr 2, 2025
+Add bookmark
+#6
+"One thing we wanted to do was to make each age feel more unique and different to play, while also adding" I think there is something missing
+5
+Reactions:
+Reply
+Report
+Álvaro Núñez de Lara
+Field Marshal
+1 Badges
+May 18, 2020
+3.852
+23.666
+Apr 2, 2025
+Add bookmark
+#7
+Johan said:
+This is the last Tinto Talks I’ll write for a while, as I’m handing it off to
+@Pavía
+for the near future as we focus on flavour mechanics. He’ll start next week by talking about
+Voltaire’s Nightmare
+the Holy Roman Empire.
+Click to expand...
+Is this an announcement?
+Where is the announcement Johan?
+WHERE
+49
+2
+1
+1
+1
+Reactions:
+Reply
+Report
+Álvaro Núñez de Lara
+Field Marshal
+1 Badges
+May 18, 2020
+3.852
+23.666
+Apr 2, 2025
+Add bookmark
+#8
+The art on the heading of the Tinto Talks goes SO HARD. Kudos to the art team.
+20
+4
+Reactions:
+Reply
+Report
+Flower_Marlin
+Second Lieutenant
+2 Badges
+May 28, 2016
+193
+1.542
+Apr 2, 2025
+Add bookmark
+#9
+I sure hope the "form new culture" action can also have some scripted events to aid it, mostly for flavour railroading reasons, like the birth of a Dutch culture. That aside, HELL YEAH PIRATE NATIONS WOOHOO
+15
+7
+2
+Reactions:
+Reply
+Report
+NetFoley
+First Lieutenant
+13 Badges
+Mar 28, 2024
+238
+1.423
+Apr 2, 2025
+Add bookmark
+#10
+Beautiful illustrative picture
+Toggle signature
+4 November Release date believer
+3
+Reactions:
+Reply
+Report
+Gurtannon
+General
+28 Badges
+Mar 10, 2024
+1.702
+9.943
+Apr 2, 2025
+Add bookmark
+#11
+What is Expected army size?
+Pretty sure in past TT, it has been told that there were no army force limits, has it changed, or is this something different?
+Toggle signature
+UltraOttomanist Turk
+16
+Reactions:
+Reply
+Report
+D
+Davincie
+Captain
+80 Badges
+Feb 5, 2020
+323
+1.952
+Apr 2, 2025
+Add bookmark
+#12
+What event features the art of the top?
+2
+Reactions:
+Reply
+Report
+GenericUsername1444
+Colonel
+Jun 25, 2024
+805
+10.781
+Apr 2, 2025
+Add bookmark
+#13
+It's been a fun run.
+Toggle signature
+Professional Georgian
+8
+Reactions:
+Reply
+Report
+squid_whisperer
+Sergeant
+21 Badges
+Jun 27, 2024
+74
+614
+Apr 2, 2025
+Add bookmark
+#14
+"Unify Culture Group: Pops in your country of the same culture group and language will also change to this culture. This can only be done once."
+Could you expand on the reasoning of this action? What is it intended to simulate, and why can it only be done once? Is that once per game?
+14
+4
+1
+Reactions:
+Reply
+Report
+Silens
+Field Marshal
+66 Badges
+Nov 3, 2017
+4.171
+23.011
+Apr 2, 2025
+Add bookmark
+#15
+Interesting background picture (it's the Imperial crown of Austria):
+21
+2
+2
+1
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Apr 2, 2025
+Add bookmark
+#16
+What happens if you're Colonial Empire and want to use Unify Culture Group? Does it take into consideration your colonial subjects? And would they still get their own culture later on down the line, like in EU4, with Iberians getting Texans/Brazilians or British getting Americans etc?
+24
+1
+Reactions:
+Reply
+Report
+T
+titan.bevel
+Colonel
+Aug 1, 2024
+904
+3.356
+Apr 2, 2025
+Add bookmark
+#17
+The current origin location gets a small boost to increasing prosperity and development while the colonial charter is active.
+Click to expand...
+What's the reason for this ? Logically as the loc looses population, it'd be more logical for it to LOOSE prosperity and development, rather than boost it, wouldn't it ?
+Toggle signature
+2 proposals
+on missions
+a proposal on religious influence
+a proposal on CB and peace deals
+maps ought to be more important !
+trade need some monopoly notion
+,
+and some import and export differences
+10
+2
+2
+Reactions:
+Reply
+Report
+ibvfteh
+Lt. General
+38 Badges
+Feb 9, 2019
+1.597
+9.577
+Apr 2, 2025
+Add bookmark
+#18
+Johan said:
+Welcome to another Tinto Talks, the Happy Wednesday where we talk about our entirely super-top-secret game with the codename Project Caesar.
+Today we will go through the rest of the major changes that have been made in the last year on the project, many due to your direct feedback.
+New Country Type
+As was heavily requested, we have added the navy-based countries, and you will find out more in detail how they work and how you can play them when we talk more about the Pirates! Situation.
+Ages matter more.
+One thing we wanted to do was to make each age feel more unique and different to play, while also adding
+First of all, we changed the start of the Age of Renaissance to occur 5 years later, so that you get more of a feel of what you want to do before making decisions on what bonus advances you want.
+Secondly, we went through how our buildings unlock, and made it so that guilds are unlocked in the Age of Traditions and Age of Renaissance, the workshops during the Age of Reformation, the manufactories during the Age of Absolutism, and the Mills inthe  Age of Revolutions.  Each new category for a building increases productivity and capacity, and when you get the mills, you will employ laborers instead of burghers.
+As mentioned before, we unlock Hegemons through the Age of Discovery, and the ‘Absolutism vs Liberalism’ Societal Value in the Age of Absolutism. After testing, we moved the ‘Outward vs Inward’ societal value to be unlocked when the Age of Discovery starts, and the ‘Mercantilism vs Free Trade’ societal value to the Age of Reformation.
+View attachment 1275407
+It's the age to colonize….
+Each age also has some unique bonuses which are active during the entire age, changing how the Age is played a bit. They also have different values for how much levies cost and the size of an expected army.
+The Age of Renaissance gives higher cultural tradition and an increased diplomatic capacity, so as to emphasize cultural progress and to encourage a reliance on subjects.
+The Age of Discovery gives cheaper colonial charters and faster exploration, as one would expect.
+The Age of Reformation gives lower trade maintenance and faster religious conversions.
+Age of Absolutism allows you to integrate subjects faster and revoking privileges from the Estates is far cheaper.
+Age of Revolutions reduces the warscore cost, but also reduces the loyalty of subjects.
+Colonizing Changes
+First of all, we removed the concept of failing with explorations, as it was a source of endless frustration and ragequits among our internal testers. Anything that affected the chance of failure of an expedition now impacts the staging time of the exploration expedition.
+Speaking of staging, now when you start a colonial charter you need to select an origin province where they will send pops from. To hook this into the economy part of the game better, it will also require goods to be able to ship colonists. The current origin location gets a small boost to increasing prosperity and development while the colonial charter is active.
+Colonial charter targets now prioritise where there is a lower population, where you have foreign buildings, and natural harbour suitability.
+View attachment 1275406
+So where should the peasants colonising Norrland come from?
+Market Creation
+A big problem when you had a country at the edge of a market was the fact that you had low market access, and thus a weaker economy, and creating a new market was prohibitively expensive. A simple but rather elegant solution was to scale the cost of creating a new market by the market access that location currently has. This also has the added benefit of making it easy and cheap to set up a new market for your colonial subject.
+Liberate Slaves Peace Treaty
+Another thing requested was to force a country to release all pops they had enslaved from you, if let's say they raid your coasts for slaves, and you then send the marines to, let’s say, the shores of Tripoli, you can then force them to sign a peace treaty to return all your slaves.
+Culture
+Some of you requested a more dynamic way to handle cultures, so we have added two new cabinet actions, which each currently take about 10 years to complete.
+Unify Culture Group
+If you are an Empire, and the Dominant Country of your primary culture, the Unify Culture Group cabinet action can be used on a culture group belonging to your primary culture that has no other countries with that culture group. Upon completion, your primary culture will change to a brand new culture. Pops in your country of the same culture group and language will also change to this culture. This can only be done once.
+Form New Culture
+If you are a Kingdom or Empire, and NOT the Dominant Country of your primary culture, you can break away from it and form a new culture.
+View attachment 1275405
+We are clearly different from the Swedes!
+Satisfaction
+Keeping your pops and estates satisfied is a key part of the core gameplay of Project Caesar.  The balance here has been tweaked countless times over the years of development, and currently, each privilege or other source of satisfaction gives small values, so it's harder to get all estates perfectly happy all the time as a player.
+One other thing we made is that when you build buildings in lower control areas, the pops that belong to the estates these buildings employ get a small boost to satisfaction, inversely related to the current control. This makes it possible to target some infrastructure development to keep the populace happy in less central parts of your realm.
+If you so wish, you can also use a cabinet action targeting a specific rebel to stop their progress and even make it go backwards.
+View attachment 1275404
+They got funding, but we got the government to stop them!
+This is the last Tinto Talks I’ll write for a while, as I’m handing it off to
+@Pavía
+for the near future as we focus on flavour mechanics. He’ll start next week by talking about
+Voltaire’s Nightmare
+the Holy Roman Empire.
+Click to expand...
+Does Age matter for the Antagonism mechanic?
+I feel like nations in different ages are antagonised by different values. At the Renaissance, they are antagonised by religion. But at Absolutism, culture is a much stronger factor. Social values might start also matter much more at the endgame, everyone was antagonised by the revolutionary republic
+21
+Reactions:
+Reply
+Report
+Gurtannon
+General
+28 Badges
+Mar 10, 2024
+1.702
+9.943
+Apr 2, 2025
+Add bookmark
+#19
+Will Ages give same modifiers to entire world?
+I dont think age of reformation having faster  conversion speed makes sense for nations outside of Europe, do you plan to add different ages for each technology group etc in the future?
+Toggle signature
+UltraOttomanist Turk
+8
+1
+Reactions:
+Reply
+Report
+P
+PatatjeFriet
+Sergeant
+40 Badges
+Feb 10, 2019
+78
+292
+Apr 2, 2025
+Add bookmark
+#20
+Johan said:
+He’ll start next week by talking about
+Voltaire’s Nightmare
+the Holy Roman Empire.
+Click to expand...
+17
+9
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+15
+Next
+1 of 15
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

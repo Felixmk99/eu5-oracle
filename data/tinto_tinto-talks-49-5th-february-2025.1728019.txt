@@ -1,0 +1,459 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-49-5th-february-2025.1728019/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #49 - 5th February 2025
+Thread starter
+Johan
+Start date
+Feb 5, 2025
+Welcome to another Tinto Talks, the Happy Wednesday where we discuss details from our secret upcoming top secret game with the codename of Project Caesar.
+This week we will talk about our disease system.
+This is the tooltip of an outbreak together with the spread...
+We have 2 types of diseases, environmental, which does not spread through movement of trade nor movement of people, and those that spread. A disease does not just infect the pops in a location, but can also infect armies.
+Each disease has many different attributes, all of which can be complex calculations, and this is a very flexible system entirely modeled through script.
+A chance for it to spawn each month.
+How often the disease processes, i.e. how fast it ticks.
+How quickly it spreads to other pops.
+How it spreads between location and pops.
+How quickly it stagnates in a location or unit.
+How many pops and/or soldiers die or become resistant, each tick.
+How many pops and/or soldiers die each tick (of the above).
+The mortality for characters.
+How quickly resistances decay.
+How much presence is needed before it spreads to adjacent locations.
+If you want specific pop types affected…
+And more…
+When diseases are present in a location, the resistance to it builds up, making further outbreaks less effective. Pops, locations and sub units can have resistances. So if pops move around they can bring diseases they have with them that they themselves are immune to. Likewise, a unit carrying disease may spread it to any locations it travels through.
+There is a big Smallpox outbreak here in Saint-Marcellin, but the resistance is already nice.
+So let's take a detailed look at the different diseases we have.
+Bubonic Plague
+With the default options, this will happen in 1346, start somewhere in Central Asia, and spread throughout the Old World.
+It spreads relatively quickly and the mortality rate for pops is between 30% to 60%.
+A great pestilence that sweeps through busy trade routes, sparing neither low nor high. Those infected suffer black swellings in the groin and armpits, terrible fever, and death. Some believe it is carried by the vermin that scurry in our streets and fields, spreading foul sickness from one poor soul to another.
+Great Pestilence
+This will spawn in the New World whenever someone from the Old World colonizes a location, and spreads from there. It represents the collection of diseases that the European colonizers brought to the Americas. It can and will spawn at multiple places. It doesn’t impact pops from the Old World as they are immune to most of these.
+This has a gigantic mortality effect, killing between 75% to 90% of all pops.
+Terrible news reaches us from abroad. Misery and plague sweep the lands, and death runs with them, apparently brought by mysterious bearded foreigners. This plague is not something our elders have ever heard of, and no answers in our ancestors' memories could help us face the catastrophe if it reaches our settlements. Will our people perish, or will we somehow resist when this walking death reaches us?
+Malaria
+This is an environmental disease that is pretty much permanent in most Sub-Saharan Africa. Most of the local people have limited resistance to it, but any colonizers from abroad will die.
+There will be regular outbreaks that can kill 10% to 20% of the pops that do not have resistance in a location.
+The ancient bane of humankind, Malaria, is an infectious disease transmitted from person to person by the bite of an infected mosquito. This illness produces chills, headaches, sweating, and a very intense fever that repeats every three to four days.
+Typhus
+Outbreaks will appear in the areas of the old world where one of the three types of Typhus are endemic. It will also spawn in forest, woods or jungle locations, spreading from there.
+It spreads relatively slowly, but the mortality is between 4% to 40%.
+This deathly sickness creates on those stricken by it a great deal of fever, a big red rash that might extend over the entire body, and a confusion of the mind that might get worse, to the point of full-on delirium. Those poor souls that reach that point would develop gangrenous lesions and invariably die
+Influenza
+This will spawn during winter and spread in a relatively short period of time. It will not appear in the Americas until the Great Pestilence has ravaged the continent fully.
+This kills off on average about 1 in 1000 people, so it is not the most lethal of diseases.
+Known by the common folk as the Flu, it is a widely spread sickness with usually mild symptoms like a runny nose or a fever in healthy individuals, but that might be extremely dangerous for those that are too young or too old or already weakened by injury or another malady.
+Measles
+This will spawn in most locations around the world, and it's far more likely to spread in towns or cities.It will not appear in the Americas until the Great Pestilence has ravaged the continent fully.
+It is a bit more deadly than Influenza, but about 2 in 1000 people will die from it.
+Measles, also known as morbili, rubeola, and red measles, is a plague that spreads extremely fast from person to person, causing fever, coughs, sneezes, and a great flat rash that eventually covers the entire body. It preys most eagerly on children, who are at great risk of death if they fall on its claws.
+Smallpox
+This keeps spawning in most locations around the world, but not in arid or arctic climates. It will spread in a small region and is highly contagious. It's far more likely to spread in locations with a lot of trade.It will not appear in the Americas until the Great Pestilence has ravaged the continent fully.
+The mortality is between 5% and 30%, so an outbreak where there is low resistance can be deadly.
+Smallpox is a terrible disease that produces on the sad victim fever, vomits, and finally an enormous amount of liquid-filled blisters that cover their entire body. The outbreaks of this plague are very deathly and those that survive are commonly left blind for life.
+There are ways to reduce the impact of disease in your country.  First of all there are medical advances in most ages, and there are also buildings you can build.
+First there is the Hospital that you can build in any town or city with at least 20 development. This is available at the start of the game for more advanced countries.
+Then after the Scientific Revolution you can research the advance for Medical Schools and build them in your town and cities.
+Next week we will talk about how forming new countries will work…
+209
+126
+8
+6
+1
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+21
+Next
+1 of 21
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Feb 5, 2025
+Add bookmark
+#2
+That's sick
+105
+20
+3
+2
+1
+Reactions:
+Reply
+Report
+GenericUsername1444
+Colonel
+Jun 25, 2024
+805
+10.781
+Feb 5, 2025
+Add bookmark
+#3
+Before you begin reading, put this on
+Toggle signature
+Professional Georgian
+75
+22
+2
+2
+2
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Feb 5, 2025
+Add bookmark
+#4
+You forgot the disease that is Acute Paradoxaddictis. It afflicted countless grand strategy rulers throughout the ages.
+Also, what's with the beard-ism over here? Shame. Completely beard-less people can carry pestilence and fleas just as easily across oceans.
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+42
+6
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Feb 5, 2025
+Add bookmark
+#5
+Would be interesting to see Institutions spreading same way like diseases would through pops/armies/trade.
+52
+28
+5
+3
+1
+Reactions:
+Reply
+Report
+Goblin Slave
+Goblin
+58 Badges
+Jul 6, 2018
+188
+2.402
+Feb 5, 2025
+Add bookmark
+#6
+This might be a silly question, but is there anything stopping me from exiling my undesirable rulers and heirs to the malarial jungles of West Africa?
+41
+9
+4
+3
+3
+Reactions:
+Reply
+Report
+squid_whisperer
+Sergeant
+21 Badges
+Jun 27, 2024
+74
+614
+Feb 5, 2025
+Add bookmark
+#7
+In the "Most Affected Countries" breakdown, could we get a relative percentage of total population column? It might be more meaningful information to know that it has killed 20% of Ryazan's population than to know that it killed 29000 people.
+Also - thank you! These TTs are amazing, I am feeling very excited to play this game
+44
+15
+1
+Reactions:
+Reply
+Report
+Goblin Slave
+Goblin
+58 Badges
+Jul 6, 2018
+188
+2.402
+Feb 5, 2025
+Add bookmark
+#8
+Do you have a map to show the provinces/locations that harbor endemic malaria? (Something like this?)
+50
+6
+2
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Feb 5, 2025
+Add bookmark
+#9
+1. How does the game checks whether pop is Old World or New World habitant and thus affect the disease accordingly? And same for how the immunity happens or is that tied to Hospitals?
+2. Can you start biological warfare and infect the whole world with it, including Greenland?
+18
+2
+Reactions:
+Reply
+Report
+squid_whisperer
+Sergeant
+21 Badges
+Jun 27, 2024
+74
+614
+Feb 5, 2025
+Add bookmark
+#10
+This is amazing! Basically a small pandemic simulator. Would have been fun to play with this during the high days of COVID
+4
+Reactions:
+Reply
+Report
+GenericUsername1444
+Colonel
+Jun 25, 2024
+805
+10.781
+Feb 5, 2025
+Add bookmark
+#11
+These new icons are so much better than CK's
+This diary is simply more proof that Project Caesar will be the ultimate GSG
+Last edited:
+Feb 5, 2025
+Toggle signature
+Professional Georgian
+49
+14
+6
+Reactions:
+Reply
+Report
+Flower_Marlin
+Second Lieutenant
+2 Badges
+May 28, 2016
+193
+1.542
+Feb 5, 2025
+Add bookmark
+#12
+Wait so the Malaria death rate for Colonizers (who have no resistance) will be 10-20%? Seems a bit low, no? After all, this was the major deterring factor in the colonization attempts of Africa for much of the colonial history. I'd put the number somewhere between 30-40% to be honest. This is considering that even with the earliest forms of quinine treatments, the mortality rate for Malaria patients was around 17%.
+EDIT:
+https://pmc.ncbi.nlm.nih.gov/articles/PMC10021769/
+This paper indicates the mortality rate for white European troops in Sierra Leone was as high as 500 per 1000 men in... the 1800s. Yeah the death rate should be higher.
+Last edited:
+Feb 5, 2025
+57
+21
+7
+4
+Reactions:
+Reply
+Report
+Sylennus
+Private
+35 Badges
+Oct 19, 2021
+13
+80
+Feb 5, 2025
+Add bookmark
+#13
+That looks awful to endure as a country but great to play around as a player. You mention it's really flexible and uses scripts so I assume new diseases can be modded in. Is it possible to have diseases with (only) positive modifiers and/or mechanics ? Not that it would make a lot of sense in a realistic setting, but something like increased productivity for pops (or higher stats for important characters) if they are infected ?
+8
+4
+1
+Reactions:
+Reply
+Report
+squid_whisperer
+Sergeant
+21 Badges
+Jun 27, 2024
+74
+614
+Feb 5, 2025
+Add bookmark
+#14
+Does the bubonic plague need additional mechanics to resolve itself? Or are the disease spread attributes that you have implemented enough for it to gradually vanish as a large scale problem the same way it did historically? This must be awfully hard to tune, given the large set of parameters.
+6
+Reactions:
+Reply
+Report
+Kr4mpus
+Second Lieutenant
+36 Badges
+May 12, 2024
+109
+642
+Feb 5, 2025
+Add bookmark
+#15
+Will inoculations be a thing?
+Toggle signature
+I made this only to comment on tinto talks
+14
+2
+Reactions:
+Reply
+Report
+Flower_Marlin
+Second Lieutenant
+2 Badges
+May 28, 2016
+193
+1.542
+Feb 5, 2025
+Add bookmark
+#16
+Amazing dev diary though, can't wait to play Plague Inc. 2.
+11
+6
+Reactions:
+Reply
+Report
+squid_whisperer
+Sergeant
+21 Badges
+Jun 27, 2024
+74
+614
+Feb 5, 2025
+Add bookmark
+#17
+In the map that you shared, is the large blacked-out region where that nation's visibility ends? Why is it black, rather than the parchment color that is used for terra incognita elsewhere?
+5
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Feb 5, 2025
+Add bookmark
+#18
+a unit carrying disease may spread it to any locations it travels through
+Click to expand...
+I'm so gonna biological warfare my 'allies'...
+3
+1
+1
+Reactions:
+Reply
+Report
+D
+Daverix
+Second Lieutenant
+64 Badges
+Jul 24, 2021
+102
+698
+Feb 5, 2025
+Add bookmark
+#19
+So does that mean i can get rid of an annoying Heir now like in CK3, by assigning him to an army and let him walk into an infected area?
+Also i am curious how these diseases affect Sieges.
+9
+2
+2
+1
+Reactions:
+Reply
+Report
+matfer13
+Field Marshal
+1 Badges
+Dec 17, 2023
+3.015
+18.591
+Feb 5, 2025
+Add bookmark
+#20
+YEAH WE GOT HONEY!!!
+30
+9
+1
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+21
+Next
+1 of 21
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

@@ -1,0 +1,470 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-17-19th-of-june-2024.1689183/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #17 - 19th of June 2024
+Thread starter
+Johan
+Start date
+Jun 19, 2024
+Welcome everyone to the 17th Tinto Talks, in this Happy Wednesday, we will give you further information about the most secret game you could ever think of, the one with the codename Project Caesar.
+Today we will delve into the depths and mechanics of how the population system of the game actually works.
+As a recap, we have 6 different social classes, with Nobles, Clergy & Burghers viewed as upper class, while Peasants, Tribesmen & Slaves make up the other three.  Every location has a population, and each combination of social class, culture and religion creates a unique “pop” in the game. That Pop may contain 1 person, or 250 Million, but it is still referred to as a “pop”.
+Design copied from an old game I made a decade or two ago… UI is a bit placeholdery, but i like the browsing capabilities..
+Population Capacity
+Each location has a population capacity which depends on quite a lot of factors. The core of it is vegetation, topography and climate, while the amount of buildings and development increases it as well. If your population is higher than its current capacity, then there is a very large impact on its migration attraction and population growth.
+While there are no restrictions on how many peasants, slaves or tribesmen there can be in a single location, the amount of upper class pops there can be is limited, and depends on what infrastructure there exists for that type of pop. Of course, if their estates have money, they tend to want to construct buildings that increase how many they are to further increase their power in the country.
+There are reasons why you want upper class pops, and not just always creating an egalitarian “all are peasants” society, and that is when the capital economy developing during this era depends heavily on burghers, so you want to have a fair amount of those. You also want clergy of your national religion as they will help with stability, and having nobles of proper culture will help with your diplomacy and warfare.
+Having levies raised from a specific class, reduces the maximum population there can be for that certain class.
+Promotion & Demotion
+If there can be more pops of a certain social class, pops will promote to become that class over time. While there is a base value, promoting to some classes like nobles will just be a fraction of that each month. If you wish to speed this up in your country, you can use a cabinet member to increase it. There are many factors that impact how quickly pops can be promoted, some are affecting your entire country, some others are more local, like during Devastation or a Lack of Control.  Demotion happens when you have pops over your capacity, and will happen much, much quicker than promotion.
+16 peasants will be promoted every month to become what is needed in Kalmar...
+Population Growth
+Only peasants and tribesmen grow organically on their own, but all types of pops can die off from negative growth.
+Overpopulation, Lack of food, War exhaustion and Devastation have a significant negative impact on population growth, while having access to free land & lots of food increases the growth.
+Not to forget, the population can die directly from diseases and warfare as well.
+Peaceful and nice, the population should grow nicely here…
+Assimilation
+Assimilation is a very slow process, and pops will assimilate to the primary culture in core locations if they belong to a culture that your country does not appreciate. Societal Values and Lack of Control have a significant impact on this, but there are buildings and other things that can impact it. In most majorly populated areas the natural growth of pops will outpace the assimilation. However, there is a cabinet action where you can increase assimilation in a specific province.
+Sadly this is a slow process in this location, 3 pops will assimilate next month..
+Conversion
+Converting pops works similarly to assimilation, but there are two major differences. First of all, there are mechanics and systems that sometimes change the religion of pops from what your country may desire.  Secondly, there is normally no conversion, but you have to actively enforce religious conversion in a province by using a cabinet. The amount of the population that convert each month depends on what type of buildings you may have, your societal values, laws you can enact, or the privileges given to the clergy.  If your clergy is very powerful as well, conversion is quicker.
+103,26% of 0 base conversion is still going to be 0 pops.
+Migration
+There are several ways for pops to migrate, multiple ones regarding the colonization aspect of the game will be talked about in a later Tinto Talks. There is also content that does migration, where events, disasters or other scripted content will set up specific migration from one place to another.
+However, there is also a natural migration mechanic, where the population will move between locations. Pops will move away from locations that have a negative migration attraction, and will go to one with higher migration attraction in the same market. Upper class pops are usually allowed to migrate, while not many countries allow their peasants to move freely.
+As for other things, you can use your cabinet to control this, where you can have one member of the cabinet leading an effort to expel people from one province, severely reducing their migration attraction, while another one could attract people to another province. You can also construct buildings in lowly populated locations to attract pops to move there.
+The price of stone in Kalmar is not inviting, but it's calm and plenty of land is available..
+Literacy
+Each pop keeps track of its own literacy as well, and there are buildings, advances, laws and other things that impact how quickly it can grow and how high it can be.  The average literacy of a country has an impact on the research speed of that country, and the literacy of a pop has some impact on its satisfaction. However, there is also an immediate impact on the location of the average literacy of all of the same social class. Amongst other things, the average literacy of the nobles in a location has an impact on how quickly control can increase there, and the average literacy of slaves in a location increases the unrest of the location.
+Literate Burghers will definitely make you richer over the long term..
+Population Needs
+Each pop has its own needs for goods, and if they can’t get all of those goods, their satisfaction will be lower. The goods that a pop requires depend on their social class, their culture, their religion and where they live. They also may start caring about goods when they know about them, as the demand for tobacco will only appear in Europe when the pops actually know about it. Obviously people in colder climates want more lumber or coal, while a Jain pop is not wanting any fur at all.
+I am not entirely sure why these burghers want mercury…
+Satisfaction
+The population needs impact their satisfaction in two ways. If they can't get the goods that they want, it's a penalty to their satisfaction. However, the prices of the goods also affect their satisfaction, as if the prices are high, then satisfaction drops, but if you can get the goods they require cheaper in the market they live in, their satisfaction will increase, but their literacy impacts how much they understand the price impact though.
+Satisfaction also depends heavily on the status of their culture in the country, the religion they belong to, and how satisfied their estate currently is. There are other ways to make pops more satisfied like certain buildings, or the good old method of stationing armies.
+Pops with low satisfaction will join and start supporting a rebel faction.
+Of course, these poor pops lack one of the most important things in life.
+Even though pops may not be upset enough to rebel, their satisfaction has other impacts, as the average satisfaction of all pops in a location has an impact on prosperity and control.
+Here even the paradox maths check out!
+Stick around, as next week we’ll be talking a bit about laws!
+Attachments
+monthly_conversion.png
+118,2 KB
+· Views: 0
+190
+176
+8
+5
+1
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+33
+Next
+1 of 33
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+Sete
+Lt. General
+49 Badges
+Jan 24, 2018
+1.644
+4.531
+Jun 19, 2024
+Add bookmark
+#2
+Ah day off!
+Edit: Solid TT. Not much to ask about this one.
+10
+2
+Reactions:
+Reply
+Report
+H
+HyperCopeEmia
+Corporal
+2 Badges
+Jul 1, 2023
+31
+1.034
+Jun 19, 2024
+Add bookmark
+#3
+After previous tt
+113
+27
+4
+Reactions:
+Reply
+Report
+EinarH
+Second Lieutenant
+17 Badges
+Mar 15, 2024
+127
+1.160
+Jun 19, 2024
+Add bookmark
+#4
+Love the pop ledger
+11
+5
+2
+Reactions:
+Reply
+Report
+bluepotato81
+Second Lieutenant
+24 Badges
+Jun 12, 2024
+145
+1.862
+Jun 19, 2024
+Add bookmark
+#5
+lets bloody go
+Toggle signature
+Deliver me from mine enemies, O my God: defend me from them that rise up against me. Defend me from the workers of iniquity, and save me from bloody men. The mighty are gathered against me, awake to help me, and behold.
+Nor is there pain, or cause of pain, Or cease in pain, or noble path to lead from pain;
+The Master said, "Is it not pleasant to learn with a constant perseverance and application? Is it not delightful to have friends coming from distant quarters? Is he not a man of complete virtue, who feels no discomposure though men may take no note of him?"
+Do not despair of the mercy of Allāh. Indeed, Allāh forgives all sins. Indeed, it is He who is the Forgiving, the Merciful.
+The Tao that can be told is not the eternal Tao, and the name that can be named is not the eternal Name.
+It is not your duty to finish the work, but neither are you at liberty to neglect it;
+The finest essence here—that constitutes the self of this whole world; that is the truth; that is the self.
+O Son of Man! Veiled in My immemorial being and in the ancient eternity of My essence, I knew My love for thee; therefore I created thee, have engraved on thee Mine image and revealed to thee My beauty.
+Rise up for me, O Ahura, through Armaiti give strength, through the holiest Spirit give might, O Mazda, through the good Recompense, through the Right give powerful prowess, through Good Thought give the reward.
+O my mind, remember the Lord in meditation; He is the Destroyer of pain, the Eradicator of fear, the Sovereign Lord King. He is the Greatest Lover, the Merciful Master, the Enticer of the mind, the Support of His devotees - this is His very nature.
+In some ways, it is, in some ways, it is not, in some ways, it is, and it is not, in some ways, it is indescribable, in some ways, it is, and it is indescribable, in some ways, it is not, and it is indescribable, in some ways, it is, it is not, and it is indescribable.
+So be diligent in seeking knowledge, keeping company with those of understanding, and studying at all times, and you will attain goodness and blessings.
+An ash I know there stands, - Yggdrasill is its name, - a tall tree, showered - with shining loam. - From there come the dews - that drop in the valleys. - It stands forever green over - Urðr's well.
+Our God, with His mercy - Brought for us beauty and loveliness - He gave a command to the Pen of Power - We were thrown into the Mystery of Love.
+I saw my father, I saw him, and I gave him three requests. I asked him for a great heart, which can be carried by the big and the little. I asked him for calmness, in which there is no rebellion. I asked him for a level path, to rise to light’s place in peace.
+1
+Reactions:
+Reply
+Report
+CapCreeperGR
+Private
+31 Badges
+Jun 25, 2021
+12
+75
+Jun 19, 2024
+Add bookmark
+#6
+15
+4
+2
+1
+Reactions:
+Reply
+Report
+Caracus
+Second Lieutenant
+71 Badges
+Jun 23, 2017
+194
+989
+Jun 19, 2024
+Add bookmark
+#7
+Johan be like:
+38
+10
+3
+Reactions:
+Reply
+Report
+S
+SSJ Sidious
+Private
+77 Badges
+Mar 13, 2024
+17
+223
+Jun 19, 2024
+Add bookmark
+#8
+Is there migration between countries or is there only internal migration?
+36
+2
+2
+Reactions:
+Reply
+Report
+Kingsleydale
+Machine God
+128 Badges
+Dec 26, 2011
+233
+667
+Jun 19, 2024
+Add bookmark
+#9
+Is there a max capacity any one location can reach with buildings, or is it theoretically limitless?
+Toggle signature
+11
+2
+Reactions:
+Reply
+Report
+Imperialismo
+Sergeant
+58 Badges
+Apr 16, 2021
+97
+815
+Jun 19, 2024
+Add bookmark
+#10
+Always the best part of my day!
+Reply
+Report
+giorgosth128
+Captain
+43 Badges
+Oct 8, 2017
+313
+1.206
+Jun 19, 2024
+Add bookmark
+#11
+very interesting but when you said that only peasants grow organicly what does that means nobles do not have children or are they like imortall god emperors?
+29
+19
+5
+Reactions:
+Reply
+Report
+Aquila SPQR
+LEGATVS PROPRAETOR BYZABOO MEME-MAN
+Jul 3, 2010
+2.438
+18.068
+Jun 19, 2024
+Add bookmark
+#12
+You asked for norse pops? You got them! All 38 of them. Enjoy!
+48
+4
+Reactions:
+Reply
+Report
+S
+SolusContinuum
+Recruit
+81 Badges
+Feb 5, 2017
+9
+75
+Jun 19, 2024
+Add bookmark
+#13
+Loving the goods icons!
+5
+2
+1
+1
+Reactions:
+Reply
+Report
+Tercio Soldier
+Major
+58 Badges
+Feb 25, 2020
+568
+4.336
+Jun 19, 2024
+Add bookmark
+#14
+If there is no base conversion unless enforced by a cabinet in a single province how difficult is it going to be to convert colonies in the Americas or Africa?
+14
+1
+Reactions:
+Reply
+Report
+STAR7827
+Corporal
+31 Badges
+Feb 20, 2024
+39
+174
+Jun 19, 2024
+Add bookmark
+#15
+Beer, liquor and wine!?
+3
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Jun 19, 2024
+Add bookmark
+#16
+SSJ Sidious said:
+Is there migration between countries or is there only internal migration?
+Click to expand...
+Within a market yes
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+72
+17
+4
+Reactions:
+Reply
+Report
+D
+Didsss
+Sergeant
+51 Badges
+Dec 27, 2016
+90
+732
+Jun 19, 2024
+Add bookmark
+#17
+Can one nation expel minorities or increase their emigration desire, and can another nation become a free haven and get increased migration attraction from the expelled pops? Kind of like France expelling the Huguenots and the Dutch Republic accepting them?
+27
+1
+Reactions:
+Reply
+Report
+High Priest Elek
+Corporal
+55 Badges
+Nov 21, 2018
+26
+20
+Jun 19, 2024
+Add bookmark
+#18
+How will migration to the new world function if migration occurs within a market?
+7
+3
+2
+1
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Jun 19, 2024
+Add bookmark
+#19
+Kingsleydale said:
+Is there a max capacity any one location can reach with buildings, or is it theoretically limitless?
+Click to expand...
+in theory limitless.. or like.. 64bit limitless
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+79
+50
+4
+4
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Jun 19, 2024
+Add bookmark
+#20
+EvsseH said:
+Love the pop ledger
+Click to expand...
+So do I..  can get almost all info there.
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+75
+9
+4
+1
+1
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+33
+Next
+1 of 33
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

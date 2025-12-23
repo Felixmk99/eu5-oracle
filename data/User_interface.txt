@@ -1,0 +1,57 @@
+Source URL: https://eu5.paradoxwikis.com/User_interface
+Source Date: 2025-11-06
+
+Please help with verifying or updating older sections of this article.
+At least some were last verified for
+version
+pre-release.
+Europa Universalis 5
+User interface
+Ingame screen
+Country interface
+Location interface
+Ledger
+EU5's
+Interface
+, also called
+user interface
+(
+UI
+), or
+graphical user interface
+(
+GUI
+), has a number of specific screens and visual elements. This article will focus on the pragmatic purpose and utility of the interface (as opposed to the stylistic elements).
+Launcher
+[
+edit
+|
+edit source
+]
+Main menu
+[
+edit
+|
+edit source
+]
+Single player interface
+[
+edit
+|
+edit source
+]
+Color code
+[
+edit
+|
+edit source
+]
+Starting screen
+[
+edit
+|
+edit source
+]
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=User_interface&oldid=14336
+"

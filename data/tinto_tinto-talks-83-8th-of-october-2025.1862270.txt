@@ -1,0 +1,489 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-83-8th-of-october-2025.1862270/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #83 - 8th of October 2025
+Thread starter
+Pavía
+Start date
+Oct 8, 2025
+Hello, and welcome to another
+Tinto Talks
+, the happy Wednesdays where we talk about
+Europa Universalis V
+!
+Today, we will be talking about the
+Revolution
+! This is the most relevant mechanic for the Late Game, giving its name to the last age, the Age of Revolutions! Let’s take a look at it without ado:
+The Revolution in EU5 is a disaster that may happen to a settled country that is a Great Power, that has embraced the Enlightenment institution, with an average Literacy higher than 50%, and whose Peasant estate satisfaction is low, or whose Peasant or Burgher estates are taxed heavily. The size of the Revolution will depend on factors such as Stability, Absolutism, Literacy, Discontent, etc.
+Note: Please note that I'm triggering all this content from console in a 1337 game, which is why we have the 1337 characters, and also why some stuff may break after triggering it.
+​
+A follow-up event will allow you to either continue playing with your current regime, or to become the Revolutionary country in the subsequent civil war:
+I think so...
+If you continue playing as the Revolutionaries, you'll have to fight and win the civil war to succeed; while if you keep playing as the regular country, you'll have this disaster ongoing:
+If the Revolutionaries win, you’ll consolidate as a Revolutionary State, while still being a Great Power, it will lead to a Situation:
+I'll let the event tooltip speak for itself:
+The Great Power that triggers the Revolution will be its Herald, but if more countries become revolutionary, the strongest one will be/become the Revolutionary Target, giving it a Bonus:
+This is the Situation, which is called the 'People's Uprising':
+While the situation is active, countries will experience events that will shift society. You can either attempt to snuff out Revolutionary characters from the court through the "Institute Governmental Purges" action, or (once you are Revolutionary) spread and fund similarly-minded rebels in foreign countries through the "Spread Revolutionary Sentiment" action.
+​
+Monarchies can fight Revolutionaries through the
+"Crush the Revolution"
+CB or the
+"War Against the [Revolutionary Country]"
+event, which rallies allied monarchies to join the fight. If the Revolutionary target is at peace, the Monarchy that received the
+"War Against the [Revolutionary Country]"
+event will start a new war. Alternatively, if the Revolutionary target is already defending against another monarchy using the same CB, the Monarchy country that receives this event and their allies will join the existing war instead of triggering a new one.
+Note; It is over for France, Andorra has joined the war!
+Revolutionary countries may also experience a unique disaster, 'Revolutionary Chaos'. This disaster may occur in a Revolutionary country whose Stability and Republican values have eroded significantly.
+​
+Among many, one of the features of this disaster is the rise of ambitious characters, with great skills, almost Napoleon-esque...
+As well as Robespierre:
+Note: Every country that is NOT France will have a slim chance to spawn characters inspired by Napoleon, Robespierre, etc, during this Disaster.
+​
+And that’s all for today! And, from my end, it will be my last Tinto Talks up until release - although I still some some more pending Tinto Flavour posts!
+Next Wednesday,
+@Evife
+, our UI/UX Coordinator, will talk about the
+Onboarding Systems
+of the game. But before that, tomorrow we’ll have a new Dev Diary, about
+Diplomacy and Influencer
+; and on Friday, we’ll have a Tinto Talks about
+Austria
+.
+And also remember, you can
+Pre-Purchase Europa Universalis V now
+! Cheers!
+116
+47
+6
+5
+3
+1
+Reactions:
+Reply
+Report
+Written by
+Pavía
+Content Design Lead PDX Tinto
+Paradox Staff
+12 Badges
+Messages
+4.509
+Reaction score
+192.684
+1
+2
+3
+…
+Go to page
+Go
+12
+Next
+1 of 12
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+GenericUsername1444
+Colonel
+Jun 25, 2024
+805
+10.781
+Oct 8, 2025
+Add bookmark
+#2
+Psychologist: Nerd Napoleon isn't real, he can't hurt you
+Nerdpoleon:
+Toggle signature
+Professional Georgian
+147
+21
+2
+1
+Reactions:
+Reply
+Report
+High Speed Flying Gladius
+Major
+Jul 28, 2022
+685
+3.355
+Oct 8, 2025
+Add bookmark
+#3
+Do you hear the people sing?
+Toggle signature
+Do not mistake the finger for the Moon.
+Currently writing a megacampaign AAR.
+Weekly AAR Showcase - May 13 2024/ Aug 20 2025.
+WritAAR of the Week - May 5 2024/ Dec 2 2024.
+Best Character Writer of the Week - Nov 7 2024/ Oct 19 2025.
+3rd-place Q3 2024 ACAs
+Inkwell!
+This new "reading" mechanic sounds kinda op tbh. I hope paradox will nerf it before release.
+Please keep politics to the Balkans feedback thread.
+24
+12
+12
+5
+Reactions:
+Reply
+Report
+PyRonin
+Sergeant
+12 Badges
+Dec 10, 2018
+51
+135
+Oct 8, 2025
+Add bookmark
+#4
+Nice
+3
+Reactions:
+Reply
+Report
+Goran42069
+Second Lieutenant
+18 Badges
+Jan 1, 2016
+115
+1.079
+Oct 8, 2025
+Add bookmark
+#5
+When is the population tinto maps scheduled for ?
+13
+1
+Reactions:
+Reply
+Report
+D
+Davincie
+Captain
+80 Badges
+Feb 5, 2020
+323
+1.952
+Oct 8, 2025
+Add bookmark
+#6
+If you split off from as a nation like in the event here do you keep all the advances you've researched and various things like reforms you've unlocked?
+2
+Reactions:
+Reply
+Report
+Gurtannon
+General
+28 Badges
+Mar 10, 2024
+1.702
+9.943
+Oct 8, 2025
+Add bookmark
+#7
+“Note: Every country that is NOT France will have a slim chance to spawn characters inspired by Napoleon, Robespierre, etc, during this Disaster“
+Why does Napoleon appear only for France?
+Considering Timur is not just for Barlas, I think it makes more sense for Napoleon to not be unique as he was a Corsican born.
+Whoever owns Corsica should get the Napoleon chracter as he was born there and Corsica isnt part of the French culture anyways
+If you dont agree it is fine, then maybe Timur should be unique to Barlas as well and we should get chracters inspired by Timur for other Chagatai tags similar to Napoleon, if historical chracter design are meant to be rigid like Napoleon
+Edit: Here is proof of Timur not being unique to Barlas my refute answer is not visible as this post
+Last edited:
+Oct 8, 2025
+Toggle signature
+UltraOttomanist Turk
+51
+12
+3
+2
+1
+Reactions:
+Reply
+Report
+Palna Thoke
+First Lieutenant
+50 Badges
+May 30, 2021
+273
+1.867
+Oct 8, 2025
+Add bookmark
+#8
+I would think that "Maximum war exhaustion: -5.00" would be a bad thing? Doesn't it mean that the country need 5 less war exhaustion to unconditionally surrender or am I misunderstanding? If that's the case shouldn't it instead be "Maximum war exhaustion: +5.00"?
+6
+2
+1
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Oct 8, 2025
+Add bookmark
+#9
+Hopefully the people doing these revolutions keep a good head on their shoulders.
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+14
+5
+Reactions:
+Reply
+Report
+S
+Snemelc
+Corporal
+71 Badges
+Feb 1, 2018
+46
+157
+Oct 8, 2025
+Add bookmark
+#10
+What will be the government form after a won revolution? Becuase in France, at the start it was a constitutional monarchy, which later on spiraled into le grand terreur, which made it a full republic.
+9
+Reactions:
+Reply
+Report
+Twig1000
+Second Lieutenant
+47 Badges
+Mar 3, 2018
+183
+1.322
+Oct 8, 2025
+Add bookmark
+#11
+Looking forward to the Onboarding Systems talk, I think it's going to be
+really
+important for new players/casuals/people who haven't been obsessively following every post
+8
+Reactions:
+Reply
+Report
+W
+WaseK
+First Lieutenant
+63 Badges
+Mar 24, 2012
+215
+349
+Oct 8, 2025
+Add bookmark
+#12
+I always thought Napoleon might be small but this potratit is over all of my imaginations. :-D  Is this some kind of easter-egg from developers? Or pure rivalry between Sweden-Spain PU against France?
+))
+Last edited:
+Oct 8, 2025
+8
+1
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Oct 8, 2025
+Add bookmark
+#13
+You
+vs. the guy she told you not to worry about
+.
+54
+2
+2
+1
+Reactions:
+Reply
+Report
+Pavía
+Content Design Lead PDX Tinto
+Paradox Staff
+12 Badges
+Jan 3, 2006
+4.509
+192.684
+Oct 8, 2025
+Add bookmark
+#14
+Davincie said:
+If you split off from as a nation like in the event here do you keep all the advances you've researched and various things like reforms you've unlocked?
+Click to expand...
+If you dont change tag, yes. So, in the given case, a Revolutionary France would keep all advances and unlocked content from France.
+Toggle signature
+Antiguo caballero villano del OT en español. Now member of EUIV & EUV Team at Paradox Tinto.
+40
+7
+Reactions:
+Reply
+Report
+matfer13
+Field Marshal
+1 Badges
+Dec 17, 2023
+3.015
+18.591
+Oct 8, 2025
+Add bookmark
+#15
+Great TT!! Btw, Napoleon's full name in Corsican and Italian is "Napoleone di Buonaparte", Bonaparte is the Frechified family name
+23
+5
+5
+Reactions:
+Reply
+Report
+Kotyk-durkotyk
+Colonel
+23 Badges
+May 26, 2024
+1.137
+15.631
+Oct 8, 2025
+Add bookmark
+#16
+1. I think that you should switch off all the hats for later ages for 3D characters
+2. Is this probability distribution visible in-game or is this just for the Tinto Talks?
+Toggle signature
+Check out my EU5 threads:
+Ruthenia and Steppe Fix
+–
+my EU5 Mod
+with historical corrections for the Ruthenian and Steppe Regions
+Ruthenian / Cossack / Ukrainian Content Pack
+Orthodoxy Needs a Full Rework in EU5
+15
+1
+Reactions:
+Reply
+Report
+PyRonin
+Sergeant
+12 Badges
+Dec 10, 2018
+51
+135
+Oct 8, 2025
+Add bookmark
+#17
+So basically TImur is the first boss of eu5 and Napoleon is the final boss
+16
+9
+Reactions:
+Reply
+Report
+T
+titan.bevel
+Colonel
+Aug 1, 2024
+904
+3.356
+Oct 8, 2025
+Add bookmark
+#18
+I find the glasses look a bit weird on Napoleon character. Maybe also tryto alter his DNA to better match sme / most feature of the historical character ? (especially the face and the hairs I'd say)
+Toggle signature
+2 proposals
+on missions
+a proposal on religious influence
+a proposal on CB and peace deals
+maps ought to be more important !
+trade need some monopoly notion
+,
+and some import and export differences
+13
+3
+Reactions:
+Reply
+Report
+Pavía
+Content Design Lead PDX Tinto
+Paradox Staff
+12 Badges
+Jan 3, 2006
+4.509
+192.684
+Oct 8, 2025
+Add bookmark
+#19
+Gurtannon said:
+“Note: Every country that is NOT France will have a slim chance to spawn characters inspired by Napoleon, Robespierre, etc, during this Disaster“
+Why does Napoleon appear only for France?
+Considering Timur is not just for Barlas, I think it makes more sense for Napoleon to not be unique as he was a Corsican born.
+Whoever owns Corsica should get the Napoleon chracter as he was born there and Corsica isnt part of the French culture anyways
+If you dont agree it is fine, then maybe Timur should be unique to Barlas as well and we should get chracters inspired by Timur for other Chagatai tags similar to Napoleon, if historical chracter design are meant to be rigid like Napoleon
+Click to expand...
+1. Napoleon is a historical character, and we are restrictive regarding which countries they spawned from.
+2. Timur starts as a character for Barlas, it doesn't spawn...?
+Toggle signature
+Antiguo caballero villano del OT en español. Now member of EUIV & EUV Team at Paradox Tinto.
+49
+11
+9
+3
+Reactions:
+Reply
+Report
+livebythecreed77
+Colonel
+44 Badges
+Jul 29, 2015
+920
+4.465
+Oct 8, 2025
+Add bookmark
+#20
+Great dev diary! Is Napoleon's stats as a character console generated or will always be 100 100 100? Not that I disagree just out of curiosity.
+8
+2
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+12
+Next
+1 of 12
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

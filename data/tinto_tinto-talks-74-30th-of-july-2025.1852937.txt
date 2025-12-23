@@ -1,0 +1,523 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-74-30th-of-july-2025.1852937/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #74 - 30th of July 2025
+Thread starter
+Roger Corominas
+Start date
+Jul 30, 2025
+Hello and welcome to another edition of happy Wednesday Tinto Talks. Today, we will continue our Chinese flavor with a look at the
+Red Turbans Rebellion
+situation, as well as the
+Crisis of the Chinese Dynasty
+disaster.
+The Red Turbans Rebellion is a very turbulent time that historically brought the fall of the Yuán dynasty and the rise of the Míng dynasty. In the game, the situation can start after 1350 if Yuán has low stability, low legitimacy, the Commoners' estate has low satisfaction, at least two of the other two states have low satisfaction, or if they have arrested Hán Shāntóng. As such, it is very difficult for Yuán to avoid it. Once it starts, the following event will fire:
+​
+As you can see, getting the rebellions will bring about even more problems and penalties for Yuán. Additionally, while the situation is ongoing, some events will be firing, making the historical rebels appear, each event with an extra option to allow the player to switch and continue playing as the newly created rebel country (both options of the events do the same, the only difference is the extra effect of switching playable country)
+Some of these warlords may take the side of the emperor, though, if allowed:
+With all the rebels, China will be quite fractured:
+There is definitely war in
+Ba Sing Se
+China
+​
+Besides the historical ones, there’s also the option of generic cultural rebellions happening, as well as many other events that can fire during the situation, including some representing the loss of authority over the farthest territories.
+​
+Let’s now look at the the situation panel, and see which actions can the emperor and the rebels take:
+​
+As you can see, the panel shows the current most powerful warlord, as well as all the countries and their allegiances. We can also see here also the actions available to the emperor.
+​
+Let’s take a look now at the actions available to the warlords, both rebels and loyalists, which are different. Let’s look first at the ones for the rebels:
+​
+And now the actions available to the loyalists:
+​
+The situation can end in three possible ways: a victory for Yuán, a victory for the rebels, or a stalemate. For Yuán to win in their favor, besides the obvious of defeating all the rebel countries, they need to raise their stability, legitimacy, and celestial authority. For the rebels to win, they need to unify the majority of China under the banner of a single country or their subjects, or have destroyed the Middle Kingdom IO. If none of these conditions is fulfilled by the Age of Discovery, the situation will end, and the stronger rebel will claim emperorship in the case that Yuán has been destroyed.
+In case Yuán is the winner, they will receive the following event:
+​
+And this is the event that will fire in case of a rebel victory:
+And the cycle starts anew…
+​
+Let’s now take a look at another set of troubles that can happen to China if they are not careful: the Crisis of the Chinese Dynasty disaster. This is a dynamic disaster that can happen to any ruling dynasty of China (and therefore, the localization will be slightly different; ‘Chinese Dynasty’ is just the generic name we use to talk about it, not the in-game one, as you may see). Any time outside when the Red Turbans situation is active in which the leader of the Middle Kingdom has low celestial authority and either low stability or low legitimacy, the disaster can start. When it does, the following event will fire:
+​
+Once it’s active, the country will receive some penalizing effects, and they will need to reform their structure to be able to avoid the collapse:
+​
+As you can see, there’s some actions available to the country to deal with the issue, let’s take a look at them in detail.
+Starting with Negotiate with Rebels, it is the only action not required in order to end the disaster, but a useful tool to counteract the rising rebels.
+​
+Looking now at the actions that the country will have to perform to end the disaster, Reform the Cabinet will be available if the country has all the estates satisfied, they have high crown power, or are employing at least three very capable cabinet members.
+​
+The Revise the Tax Code is special, in that to be able to perform it, you need to have done first a specific Cabinet Action:
+​
+As you can see, the cabinet action will be a bit painful while being performed, but once finished we will get the results:
+To be able to perform the action of Restore Stability in the Dynasty we will first need to raise the stability of the country.
+​
+Finally, to perform Strengthen the Throne, we will need to raise the legitimacy:
+​
+All these actions can be performed in whatever order you want (or can), but, as you can see, they all help each other a bit. Once a country has performed them all, they will have managed to successfully avoid the crisis, and the disaster will end.
+​
+And that is all for today, putting an end to this Chinese block. Join us on Friday when we will continue with a Tinto Flavour about
+Ayutthaya
+,
+Dai Viet
+, and
+Khmer
+. Cheers!
+And remember:
+Wishlist Europa Universalis V now!
+​
+101
+36
+5
+4
+3
+Reactions:
+Reply
+Report
+Written by
+Roger Corominas
+Major
+Paradox Staff
+Messages
+606
+Reaction score
+29.830
+1
+2
+3
+…
+Go to page
+Go
+11
+Next
+1 of 11
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+GenericUsername1444
+Colonel
+Jun 25, 2024
+805
+10.781
+Jul 30, 2025
+Add bookmark
+#2
+China will grow larger
+(Not a political statement; C&C reference)
+Toggle signature
+Professional Georgian
+32
+5
+3
+1
+1
+Reactions:
+Reply
+Report
+livebythecreed77
+Colonel
+44 Badges
+Jul 29, 2015
+920
+4.465
+Jul 30, 2025
+Add bookmark
+#3
+Exactly on time impressive, very nice
+6
+Reactions:
+Reply
+Report
+SuperLexxe
+The Noobwhisperer
+56 Badges
+May 31, 2015
+793
+6.709
+Jul 30, 2025
+Add bookmark
+#4
+Would you be willing to add more factions to the
+Red Turban Rebellion
+? The
+Ispah rebellion
+is a very unique one, and there are several other "smaller" factions. I’m sure the Chinese community are more educated on this though, and can pitch in.
+I would also suggest making it possible for
+Liang
+in Yunnan to turn from vassal to a faction as well. Historically,
+Basalawarmi
+led
+Liang
+(Yunnan) as the last loyalist stronghold in China after Yuan was pushed to the steppe, resisting the Xia and Ming for a while.
+More factions, more chaos, more fun.
+I would also like to highlight the
+absolute importance and dominance
+that the
+Yangtze river
+had on the wars in China. Not only was it a major obstacle, akin to a sea-strait, but it was also a highway that connected most of Central and Southern China and was constantly fought for control over. The
+largest naval battle of the 14th century
+occurred on
+lake Poyang
+, and decided the future ruler of China from among the Red Turban Rebellion factions.
+Lastly, it would be amazing for
+Yuan
+to still have
+post-Rebellion Content
+, because they remained a prominent force on the steppe:
+The Northern Yuan Dynasty & The Oirat Confederation
+The Northern Yuan Dynasty      1. The Factions of Mongolia  If the Yuan dynasty is defeated by the Red Turban Rebellion and lose their hold of China, they should re-establish themselves with their holdings and vassals in Mongolia as the ‘Northern...
+forum.paradoxplaza.com
+Last edited:
+Jul 31, 2025
+Toggle signature
+EU5 Community Maps & Information:
+1.
+Persia & Caucasus
+2.
+Circassia & Alania
+3.
+Central Asia
+4.
+China & Mongolia
+5.
+Manchuria & Korea
+-
+Oirat Confederation
+-
+Sultanate of Granada
+-
+73
+4
+3
+1
+Reactions:
+Reply
+Report
+Twig1000
+Second Lieutenant
+47 Badges
+Mar 3, 2018
+183
+1.322
+Jul 30, 2025
+Add bookmark
+#5
+Will we get a Tinto Flags this week?
+16
+4
+2
+1
+Reactions:
+Reply
+Report
+Kotyk-durkotyk
+Colonel
+23 Badges
+May 26, 2024
+1.137
+15.631
+Jul 30, 2025
+Add bookmark
+#6
+Are there any ~probabilities for AI outcome of the Rebellion?
+Will AI China mostly form Ming or what do you aim for in this regard?
+Thanks, that looks interesting and challenging.
+Toggle signature
+Check out my EU5 threads:
+Ruthenia and Steppe Fix
+–
+my EU5 Mod
+with historical corrections for the Ruthenian and Steppe Regions
+Ruthenian / Cossack / Ukrainian Content Pack
+Orthodoxy Needs a Full Rework in EU5
+18
+2
+1
+Reactions:
+Reply
+Report
+qiukeshan
+Corporal
+2 Badges
+Mar 18, 2024
+49
+176
+Jul 30, 2025
+Add bookmark
+#7
+Is there no Chinese exclusive army?
+8
+Reactions:
+Reply
+Report
+nyetflix2
+Lt. General
+Nov 13, 2022
+1.574
+9.424
+Jul 30, 2025
+Add bookmark
+#8
+'initiativeness'?
+Toggle signature
+EU5 Mesoamerica feedback
+11
+2
+1
+Reactions:
+Reply
+Report
+D
+Davincie
+Captain
+80 Badges
+Feb 5, 2020
+323
+1.952
+Jul 30, 2025
+Add bookmark
+#9
+Lots of negatives for China, any positives?
+Also it's been mentioned before but please have someone with an English degree read over all the events, this dev diary very prominently has the line 'Finally a loyalist with initiativeness'. That should just be initiative!
+18
+6
+Reactions:
+Reply
+Report
+Streamlet
+Captain
+24 Badges
+Aug 4, 2020
+426
+3.574
+Jul 30, 2025
+Add bookmark
+#10
+Roger Corominas said:
+As you can see, we have added the Tusi states, which is a new type of subject, in the border towards Yunnan.
+Click to expand...
+I forgot to ask before, but last week you mentioned that Tusi states are a new type of subject? Could you elaborate on that a bit or show a screenshot?
+12
+Reactions:
+Reply
+Report
+Gurtannon
+General
+28 Badges
+Mar 10, 2024
+1.702
+9.943
+Jul 30, 2025
+Add bookmark
+#11
+Can we start as future rebel tags in Yuan at the start of the game?
+Because otherwise we will litterally have to play as Yuan for 15-20 years which we are enemy of and will be free to destroy its economy and deleting forts which will take all the struggle and challenge of the rebellion away
+Toggle signature
+UltraOttomanist Turk
+37
+9
+Reactions:
+Reply
+Report
+Napoleon-1919810
+Private
+1 Badges
+Jul 25, 2025
+13
+91
+Jul 30, 2025
+Add bookmark
+#12
+1.I'd like to know if the AI-controlled Zhu Yuanzhang (or more precisely, the dominant warlord faction) could be given Ottoman-style gameplay bonuses to ensure they can typically achieve China's unification.
+2.Regarding the 'core territory' concept mentioned in last week’s development diary, could it be made dynamic? For instance, a country deeply influenced by Chinese culture (one that chooses to embrace Sinicization during disasters) could have territories where its primary culture is dominant converted into 'core territories.' Conversely, if these lands are occupied by a foreign power outside the Sinosphere for an extended period (e.g., 50 years), they would automatically lose core status. As we know historically, regions like Yunnan were not considered part of China’s 'core territories' until the Ming and Qing dynasties.
+13
+5
+1
+Reactions:
+Reply
+Report
+SuperLexxe
+The Noobwhisperer
+56 Badges
+May 31, 2015
+793
+6.709
+Jul 30, 2025
+Add bookmark
+#13
+Gurtannon said:
+Can we start as future rebel tags in Yuan at the start of the game?
+Because otherwise we will litterally have to play as Yuan for 15-20 years which we are enemy of and will be free to destroy its economy and deleting forts which will take all the struggle and challenge of the rebellion away
+Click to expand...
+It would also be great for multiplayer, not having to have 5-10 people wait to join mid-host.
+Toggle signature
+EU5 Community Maps & Information:
+1.
+Persia & Caucasus
+2.
+Circassia & Alania
+3.
+Central Asia
+4.
+China & Mongolia
+5.
+Manchuria & Korea
+-
+Oirat Confederation
+-
+Sultanate of Granada
+-
+14
+2
+Reactions:
+Reply
+Report
+Birchinjaro
+Captain
+May 15, 2024
+487
+3.035
+Jul 30, 2025
+Add bookmark
+#14
+This situation is honestly one of the best ones in the game, great amount of content and great amount of options so props to the devs
+9
+1
+Reactions:
+Reply
+Report
+Pyoro
+General
+46 Badges
+May 4, 2009
+1.893
+12.507
+Jul 30, 2025
+Add bookmark
+#15
+Literally watched a Collapse of the Yuan Dynasty utub vid over lunch today. Fun coincidence.
+Kinda found it interesting that the Yuan court apparently was kinda torn on whether the solution to the crisis was centralization or de-centralization. That felt very EU-gameplay-ish.
+5
+Reactions:
+Reply
+Report
+blue0china
+Second Lieutenant
+84 Badges
+May 30, 2018
+184
+1.193
+Jul 30, 2025
+Add bookmark
+#16
+May I ask whether, for East Asian names — particularly those with specific naming conventions such as those used by the Ming imperial family, or the
+tsūji
+found in certain Japanese and Vietnamese lineages, where the first character of the given name is passed down across generations — there exists a dedicated, dynamic trigger system to reflect these patterns within the name lists?
+Now that we have family trees, I believe this would greatly affect the sense of immersion.
+13
+Reactions:
+Reply
+Report
+1
+111asdasd1234
+Corporal
+Oct 25, 2024
+36
+159
+Jul 30, 2025
+Add bookmark
+#17
+Should a Chinese dynasty crisis also show up in military terms as it did during the Ming–Qing wars? Things like:
+Morale takes a big hit when fighting in the countryside
+Troops suffer more damage from cavalry
+Besieged towns are far more likely to surrender
+After a lost battle, surviving soldiers might switch sides
+10
+3
+Reactions:
+Reply
+Report
+Gurtannon
+General
+28 Badges
+Mar 10, 2024
+1.702
+9.943
+Jul 30, 2025
+Add bookmark
+#18
+SuperLexxe said:
+It would also be great for multiplayer, not having to have 5-10 people wait to join mid-host.
+Click to expand...
+otherwise 10+ guy will have to play Yuan in coop, and it will be broken haha
+Toggle signature
+UltraOttomanist Turk
+4
+2
+Reactions:
+Reply
+Report
+Duart77
+Private
+32 Badges
+Jul 9, 2017
+16
+115
+Jul 30, 2025
+Add bookmark
+#19
+”Tibet, a core region of Yuán”?
+3
+3
+1
+Reactions:
+Reply
+Report
+Roger Corominas
+Major
+Paradox Staff
+May 19, 2021
+606
+29.830
+Jul 30, 2025
+Add bookmark
+#20
+Twig1000 said:
+Will we get a Tinto Flags this week?
+Click to expand...
+I saw your thread, and the idea is already being discussed by the appropriate people.
+60
+26
+1
+1
+1
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+11
+Next
+1 of 11
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

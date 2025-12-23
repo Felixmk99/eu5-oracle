@@ -1,0 +1,507 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-23-31st-of-july.1697510/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #23 - 31st of July
+Thread starter
+Johan
+Start date
+Jul 31, 2024
+Hello everyone to another Tinto Talks, the Happy Wednesday, the day of the week where we discuss details about our super secret game with the codename Project Caesar.
+This week we will delve into the glorious world of logistics and sieges. You all know the saying “amateurs talk tactics, professionals talk logistics”.
+Leader Assignment
+First of all, one thing we have added is what we refer to as commission time. If a character has been assigned to lead an army or navy, you can not remove him from command before at least 12 months have passed. This removes the “teleport a leader around the world” exploit, and also makes it more of a choice of how to deploy your characters.
+Reinforcing Regiments
+While your levies do not reinforce, your regular regiments will attempt to reinforce if you still have manpower, and get access to the goods they require. A regiment that is part of an army that is retreating, is in combat, loaded on a ship or currently taking attrition losses will not be able to reinforce.
+A regiment can only reinforce in your owned locations and in a location owned by someone you are fighting a war together with, when that location is currently not occupied.
+Not many soldiers, but 5 a month is enough here …
+Army Movement
+When people talk about logistics it is usually intrinsically linked to the movement of armies, and movement of armies in Project Caesar has some changes in it compared to what you may be used to.
+One thing that has taken its inspiration from the Hearts of Iron series is the fact that when an army is moving they will slowly be losing morale. This creates the natural flow of armies marching and then resting, and not just marching across Europe and immediately joining a battle, like the march has had no impact at all.
+We also have added the fact that an army that is beyond a certain size will be marching slower, where the size is based on its total frontage it is fielding. While you can attach units to other units, this makes the attached units move slower, as military organization in the late medieval era was rather limited. In later ages you get advances that reduce this penalty significantly, completely limiting it in the Age of Revolutions, and speaking particularly about that age, we have an advance there that makes multiple corps combat more interesting, making them to ‘March to the Sound of the Guns’. This advance allows an army to automatically react, if another army of ours in an adjacent location enters combat, and then quickly march to join that battle.
+Guess which is my favorite advance from this part of the Age of the Revolutions tree?
+Food and Armies
+Now you are wondering, that is fine, but an army can not march on an empty stomach? That is entirely true. Each army has food it needs to consume every month, else they will start deserting and dying. If you run out of food during a siege, you are basically forced to abandon the siege very quickly as your army evaporates.
+A standard infantry regiment can usually carry a few months of rations with them, but when they are gone, they are gone. Here the new category of units comes into place. One major type of the Auxiliary Category is the Logistic units, which can carry far more food than any other type of unit.
+They might be bad at fighting, but they will provide some food…
+So how do you get food for your armies then? Well, if they are stationed in your own locations they will take food from the local provincial supplies, so you sometimes have to be careful about where you station your armies, so as to not cause the local population to starve. If you want to get the food from your allies or countries you have military access with, you need to negotiate a treaty that allows you to take their food supplies. This is not always something every country will accept. Your subjects have no say in this though, as most types of subject give this access implicitly.
+Maybe we should have more than a single A’Urughs…
+Food Supply
+When you are at war, you can steal food from occupied provinces. If you control the capital of a province, you can steal the food of the local populace there to feed your armies.
+If your army is at an hostile location, where you can not get local food, you can try to trace access up to 2 locations away, through controlled locations to get the food. If you can’t reach your own locations at that distance there are two ways to get food to your armies.
+First of all, if there is a Supply Depot within that range, your army will draw food from it. A Supply Depot can be created by any army and you can deposit food until its maximum storage capabilities, and any army within range can withdraw from it. Any army can gather food from their homeland and deposit it into the depot if there's space. There are advances increasing the capacity of your depots as well.
+You also have capacity for the navies to provide logistic support as well. There are two unit abilities that can be done for them, gathering food and distributing food. Gather food will take food from any adjacent province you own, and your fleet can store food depending on the food carrying capacity of the ships. Distributing food allows a navy to act like a floating supply depot that your armies can get food from.
+While we do understand that not every player may enjoy caring much about logistics, for those you can assign logistic objectives to supporting armies and navies, and then they will solve it for your main armies.
+You also steal food from your enemy in a battle when they are defeated, as a defeated army can not protect their entire baggage train as they try to escape.
+Sieges and Occupations
+Now let's turn to the second part of this talk, where we will talk about how sieges will work. First of all, there are two different types to talk about here, as not all locations are equal. Locations without any fortifications will not have any long siege, but an army with a single full strength regiment is enough to take it in a few weeks. A location with some sort of fortifications requires a full siege though.
+Having an offensive societal value is not ideal to defend your sieges..
+Food has a significant impact on how you plan your military campaigns, as it affects how long you can sustain a siege. The key thing here, and this is something I am a big fan of, is that sieges are gambles. You don’t know when a fort will fall, and now with the fact that if you run out of food you will run the risk of actually losing and failing a siege. About every 30 days there is a chance for something to happen in the siege, with chances of it getting worse for defenders or another month of holding out.
+It won’t surrender immediately, but maybe we can avoid disease amongst our troops..
+With these changes, the assault is now a more potentially viable option, as either you win, and save time and food, or you fail the assault, and have taken casualties and thus preserving your food supply longer.
+While besieging a coastal location, it is not only important to blockade it making the siege faster, it can also at the same time supply your army with food.
+Automatic Control
+As the map is more granular than in previous games we have made, warfare would turn into a massive slog to manually siege or occupy every single location. Now while we have automation systems, it still would not be very fun. Project Caesar has two different ways to automatically gain control over several locations at once. First of all, if you take a fort, all locations in its zone of control will start changing control to you. This is also valid for forts owned by an enemy if we have taken it. Secondly, if you take the capital you will start getting control over all locations in that province. Of course, this is blocked by hostile armies and forts.
+As mentioned in previous posts on the forum, we have the zone of control system in Project Caesar as well, but the one with far less complicated rules that was used in Imperator Rome. As you might have noticed earlier, there is an advance in the Age of Revolutions that allows you to ignore Zone of Control. While that may be useful to chase down enemy armies, you often want to take forts and cities anyway to get your logistics sorted out.
+Recruitment Options
+One thing that has not been mentioned yet about the military is that we have different recruitment methods for regiments, where you can either rush the training so a regiment can be ready much quicker, but at far less strength, or spend more time in training and start with higher experience.
+So training does pay off!
+Next week we will talk about ships, and some aspects of the naval part of the game.
+Attachments
+siege_outcome.png
+282 KB
+· Views: 0
+229
+191
+11
+10
+8
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+31
+Next
+1 of 31
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+So_MeOne
+Second Lieutenant
+Aug 3, 2020
+121
+1.880
+Jul 31, 2024
+Add bookmark
+#2
+Hello! Would there be away to bypass the need for supplies by relying on living off the land (Like the Napoleon's army or Hordes, for example)?
+Disadvantages of that could be higher attrition if staying in one place / or going the same route as before...
+Last edited:
+Jul 31, 2024
+39
+5
+3
+1
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Jul 31, 2024
+Add bookmark
+#3
+Wow.
+20
+11
+3
+2
+1
+Reactions:
+Reply
+Report
+P
+Pollllo
+Master
+Jul 17, 2022
+100
+397
+Jul 31, 2024
+Add bookmark
+#4
+You love showing off Poland don't you?
+18
+5
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Jul 31, 2024
+Add bookmark
+#5
+With leader assignment. Does it also mean if I want to assign leader from army in America to army in China will take longer time, because of travelling, than to army in Europe?
+24
+4
+1
+Reactions:
+Reply
+Report
+Ofiotaurus
+Private
+52 Badges
+May 28, 2021
+10
+164
+Jul 31, 2024
+Add bookmark
+#6
+Can we cut off enemy supplies or use scorched earth tactics to stall them and cause attrition?
+37
+3
+1
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Jul 31, 2024
+Add bookmark
+#7
+Lots of ideas developed by Imperator, which I approve of.
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+23
+10
+Reactions:
+Reply
+Report
+Universalis_
+Sergeant
+18 Badges
+Aug 26, 2016
+91
+1.314
+Jul 31, 2024
+Add bookmark
+#8
+Camp Follower Only WC Challenge
+73
+7
+1
+1
+1
+Reactions:
+Reply
+Report
+K
+Karlov
+Sergeant
+7 Badges
+Nov 25, 2018
+51
+526
+Jul 31, 2024
+Add bookmark
+#9
+I hope we can start Verden few centuries earlier...
+1
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Jul 31, 2024
+Add bookmark
+#10
+Reinforcing Regiments. Does that mean when your army reinforces, it takes manpower from all over your country or the locations around that army?
+And if so, does it mean, if the locations your army is, somehow has very low manpower, it takes longer time to reinforce, compared to locations that have very high manpower?
+9
+1
+Reactions:
+Reply
+Report
+Mindel
+AI Chatbot
+2 Badges
+Jan 23, 2018
+2.255
+11.180
+Jul 31, 2024
+Add bookmark
+#11
+Can you create hostile revolts in your own land or neutral/enemy land if your army sits around taking food from the area long enough to starve the locals?
+15
+1
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Jul 31, 2024
+Add bookmark
+#12
+Army Movement. How does it all affect when you're on Force March? Does your army get even more lower morale or how does it work exactly?
+1
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Jul 31, 2024
+Add bookmark
+#13
+So_MeOne said:
+Hello! Would there be away to bypass the need for supplies by relying on living off the land (Like the Napoleon's army or Hordes, for example)?
+Disadvantages of that could be higher attrition if staying in one place / or going the same route as before...
+Click to expand...
+That is what you do when you don't have food..  and it works as well as it did for Napoleon in russia.
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+101
+43
+6
+3
+1
+Reactions:
+Reply
+Report
+Mindel
+AI Chatbot
+2 Badges
+Jan 23, 2018
+2.255
+11.180
+Jul 31, 2024
+Add bookmark
+#14
+Is there anything which stops you from removing all units from a commissioned army except one and reassigning them to another army under another leader?
+2
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Jul 31, 2024
+Add bookmark
+#15
+Pollllo said:
+You love showing off Poland don't you?
+Click to expand...
+Yes, but who doesn't?
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+53
+24
+13
+4
+Reactions:
+Reply
+Report
+Cephei80
+Banned
+5 Badges
+Jan 22, 2016
+983
+2.491
+Jul 31, 2024
+Add bookmark
+#16
+will nations still be able to have levies later or will that mechanic disappear after a certain point ?  there was still many emergency popular mobilization army like the mary luises of napoleonic france, the farmers and cossack partisans of Russia , the Morrocan clans , the spanish guerilla all helping the main armies of their respective nations .
+even today we saw Irak recently mass mobilising the population into the PMU because to get to the main army require longer training and lot of equipments and they needed peoples to fight asap . this is why i am wondering if we could have a similar option later to raise levies
+2
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Jul 31, 2024
+Add bookmark
+#17
+Old_Sealand said:
+With leader assignment. Does it also mean if I want to assign leader from army in America to army in China will take longer time, because of travelling, than to army in Europe?
+Click to expand...
+you can only assign leaders to armies in your own locations
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+83
+23
+16
+3
+2
+Reactions:
+Reply
+Report
+Jarzki
+Second Lieutenant
+35 Badges
+Oct 30, 2018
+115
+2.067
+Jul 31, 2024
+Add bookmark
+#18
+Will there be some mechanics related to mercenaries, such as shifting allegiance etc?
+3
+Reactions:
+Reply
+Report
+SuperLexxe
+The Noobwhisperer
+56 Badges
+May 31, 2015
+793
+6.709
+Jul 31, 2024
+Add bookmark
+#19
+With logistics and army movement being more important in Project Caesar, and with there being so many locations, being able to visually communicate your intentions to your ally would be important in multiplayer, without your ally having to search the locations to figure out what you mean. Would it be possible to have Battle Plan
+drawings
+similar to Victoria 2 to provide visual cues? While maybe not the most leveraged mechanic, it was a treat for those who used it!
+And speaking of multiplayer, in EU4 you can create separate group chats with commands /c [channel name] and /i [player name]. These days this would appear to be lost knowledge in the MP community
+, but would it be possible to exist in Project Caesar?
+On a side note, it was mentioned that Condottieri aren’t exactly in the game. What degree of agency will the player have over their rented Mercs? Should the player consider the inherent risks of having their men thrown into a meatgrinder for pay, if they won't be able to control them?
+Toggle signature
+EU5 Community Maps & Information:
+1.
+Persia & Caucasus
+2.
+Circassia & Alania
+3.
+Central Asia
+4.
+China & Mongolia
+5.
+Manchuria & Korea
+-
+Oirat Confederation
+-
+Sultanate of Granada
+-
+32
+14
+5
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Jul 31, 2024
+Add bookmark
+#20
+Ofiotaurus said:
+Can we cut off enemy supplies or use scorched earth tactics to stall them and cause attrition?
+Click to expand...
+yeah, but if they carry enough food it will take a while.
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+89
+1
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+31
+Next
+1 of 31
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

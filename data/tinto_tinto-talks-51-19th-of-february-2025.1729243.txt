@@ -1,0 +1,522 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-51-19th-of-february-2025.1729243/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #51 - 19th of February 2025
+Thread starter
+Johan
+Start date
+Feb 19, 2025
+Welcome to the 51st Tinto Talks, the Happy Wednesday where we give you information about our entirely secret game with the Codename of Project Caesar.
+Today we will talk about subjects and how they function in our game
+Subjects and their Overlord
+In Project Caesar, as it starts at the end of the Medieval Era, and reaches into the Post-Napoleonic World, we have to have a system that works for feudal states and also for grand empires spanning the world. This is simulated by our subject system.
+A Subject is any country that is subordinate to an overlord. It typically has limitations on its diplomacy in return for protection in a war. Subjects may also suffer subject taxation, and have a certain percentage of their great power score exacted by their overlord. Additionally, a subject may not become a great power. The exact rules are dependent on the subject type. Subjects have subject loyalty towards their overlord, and a liberty desire - both of which indicate their current stance on their subordination. Any subject may in turn be the overlord of other countries, allowing long chains of Subject-Overlord relationships.
+An Overlord is a country that has any number of subjects as its subordinates. In return for protecting each subject in wars, it typically receives subject taxation, and exacts a certain percentage of the subject's great power score. The exact rules are dependent on each subject's subject type. Any Overlord may in turn be the subject of other countries, allowing long chains of Subject-Overlord relationships.
+Subject Loyalty
+Every subject has a Subject Loyalty towards their overlord. Ranging from 0 to 100, and when a subject has less than 50 subject loyalty towards its overlord, it becomes a Disloyal Subject. When in such a state, it will no longer join the wars of its overlord and cannot be annexed.
+There is also the concept of ‘Liberty Desire’, which represents a subject's current drive for independence from its overlord, and it affects subject loyalty. Its value is from -100 to +100, but it has a monthly decay towards 0. The value is also used as a currency in some Subject Interactions.
+The Breton
+s are loyal.. for now..
+Diplomatic Capacity
+As we mentioned in earlier Tinto Talks, the cost of having a subject is not a fixed number as in previous games we have made, but depends on many factors, including the type of subject.
+Of course we have nested tooltips to find out detailed information..
+Create New Subjects
+If you have locations in more than 2 different provinces, you’ll always have the possibility to create a subject of one of your provinces. You can also select from the valid types of subjects that your country can have in that province. After you have selected the type of subject you want, you may, if the type of subject allows it,also pick the character to be the ruler of the new subject.
+There are also ways to convince your subject to change from one type of subject to another type, where it would be valid.
+Vassal
+The most typical type of subject, a vassal oversees its territory on behalf of its overlord, pays vassal fees and joins the military campaigns of its overlord.
+Almost all countries can make Vassal Subjects.
+Probably needs to improve and merge some lines here to make tooltip less unwieldy..
+Fiefdom
+A Fiefdom is a junior title that is the property of its overlord's ruler. This can only be created and maintained by a Monarchy though. There are some drawbacks to it, as it can not be created by diplomatic offers, and does not grant any prestige.
+March
+A March is a subject country focused on defending our domain, acting as a barrier between their overlord and external threats.
+A March pays half the gold that a vassal does and can not be annexed, but the March gets a discipline boost and gets better-lasting forts that are also cheaper.
+Colonial Nation
+A Colonial Nation is a subject centered around the administration of overseas colonies on behalf of its overlord.
+There are two ways to create a colonial nation. First of all, you can make one from a conquered overseas territory, but secondly, and most commonly you have the option to create one directly from when one of your colonial charters finishes.
+A Colonial Nation gives up 33% of its trade capacity and trade advantage to their overlord, while also giving up 10% of their manpower and sailors, and pays 20% of their tax to the overlord.
+Conquistadors
+Conquistadors are the leaders of a private army who have signed contracts with their rulers to explore and conquer certain territories in exchange for the title of Governor, and a share of the new lands and spoils.
+This is a unique type of subject that is only available to Catholic countries with the Capital in Iberia, and this advance is available from the Age of Discovery.
+A Conquistador can be commissioned by selecting an area in America, and then a character to lead them. It will also require about 2,000 manpower and some gold to start. It will start with preparing in a nearby good port.
+Just a few months…. And then it’s Conquest of Paradise.
+Afterwards the Conquistador have gathered enough resources for their expedition they will set sail, and you will hear from them the next time in a few months time, informing you that they have started their activities.
+Let's see what he can do!
+This spawns an army-based country in a location in the area, starting with about 2 regiments of conquistadors. They start at war with the owner of the location where they spawn, and will automatically conquer any location they get control over.  They also have the capacity to raise levies from the local people, even if it's from a non-accepted culture. If they manage to get to peace or get enough locations they will convert into a colonial nation of yours.
+Some other unique subject types we will go into detail on when we talk about countries that can use them in a Tinto Flavor include Appanages, State Banks, Hanseatic Members and more..
+Playing as Overlord
+Several types of subjects allow the overlord to annex a subject. Annexation is when an overlord completely takes over one of its subjects. The overlord will gain all of the subject's owned locations,  and any character not fleeing to other countries.
+A disloyal subject can not be annexed though, and the cost of annexation depends on the amount of cities and towns that a subject has, with rural locations having less of an impact.
+Less than 30 years, should be worth it..
+There are also plenty of different subject interactions, like giving locations or provinces to your subjects, take land, manpower, gold or sailors from them and much more.
+And of course there are other unique ones..
+Playing as Subject
+If you play a country that is a subject you have a few tools at your disposal.  First of all there are two different cabinet actions that you can use.
+Frustrate Annexation
+This action uses the administrative ability of the ruler and the cabinet member assigned to the task to slow down annexation.
+By hindering their delegates with an archaic constitutional legislature and obstructing them at every turn, we can increase the amount of time it will take for our overlord to annex us.
+Sow Disloyalty
+This action uses the diplomatic ability of the ruler and the cabinet member assigned to the task to reduce the loyalty to your overlord.
+By spreading cruel rumors about our overlord and espousing the benefits of ruling ourselves, we can decrease our own subject loyalty, potentially becoming a disloyal subject.
+Maybe I need a better cabinet member to do it?
+And if you want to become independent there are two ways to do it.
+First of all, there is the classic option of just declaring war on your overlord, but that is often not entirely a good idea, especially not if you have a tax base at about 1% of your powerful overlord.
+However, the other option in Project Caesar, is to start an independence movement. This is somewhat similar to a coalition in that it is an international organization with a target country. You can invite other countries to join it, including other subjects of the same overlord, and when you have gathered enough strength in your movement, often securing the backing of another powerful country, you can start the war and have a chance at liberty.
+Stay tuned for next week we will delve into weather and natural disasters.
+Attachments
+subject_loyalty.png
+169,3 KB
+· Views: 0
+Last edited:
+Feb 19, 2025
+164
+110
+10
+7
+3
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+16
+Next
+1 of 16
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+So_MeOne
+Second Lieutenant
+Aug 3, 2020
+121
+1.880
+Feb 19, 2025
+Add bookmark
+#2
+Great TT!
+Can't wait to overcap diplomatic capacity and do a subject swarm World Conquest hehehe *evil smile*
+Last edited:
+Feb 19, 2025
+10
+7
+Reactions:
+Reply
+Report
+trov55
+Second Lieutenant
+23 Badges
+Feb 9, 2019
+181
+736
+Feb 19, 2025
+Add bookmark
+#3
+Can non-colonial subjects be able to colonize if there is nearby land available?
+19
+2
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Feb 19, 2025
+Add bookmark
+#4
+Nice!
+About the Conquistadors; it does seem their mechanic is specifically designed to help model the conquest of Mexico and Peru. But what about India and Africa? Is the Portuguese conquest of Indian ports, Angola and Mozambique also possible to model in such a way? And could it extend to the British conquest, too? This seems to have potential for a lot more than just the conquest of the Aztecs.
+We could call them "Military Expeditions" and use them to model long-distance, inter-continental invasions. Perhaps with technology, the amount of resources a tag can apply to them increases, enabling more ambitious projects.
+Edit:
+----------------
+Last edited:
+Feb 20, 2025
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+58
+15
+7
+5
+2
+Reactions:
+Reply
+Report
+Z
+ZarkinDrife
+Second Lieutenant
+31 Badges
+Oct 6, 2022
+114
+466
+Feb 19, 2025
+Add bookmark
+#5
+Will vassal swarms still be a thing that is viable if done in Project Caesar?
+Also, will eyalets be one of the unique ones that are introduced again?
+1
+Reactions:
+Reply
+Report
+GenericUsername1444
+Colonel
+Jun 25, 2024
+805
+10.781
+Feb 19, 2025
+Add bookmark
+#6
+Johan said:
+There are also ways to convince your subject to change from one type of subject to another type, where it would be valid.
+Click to expand...
+Could you elaborate on that?
+One of my biggest gripes with subjects in EU4 was just how static they were.
+Also, a fear I have regarding vassals in EU5 is just how many there are, due to the increased detail of the map.
+Vassal swarms
+will be practically omnipresent.
+This is our map of the Persia & Caucasus region - I hope you understand where I'm coming from.
+Toggle signature
+Professional Georgian
+29
+1
+Reactions:
+Reply
+Report
+J
+J-Baptoun
+Sergeant
+33 Badges
+Aug 24, 2021
+76
+281
+Feb 19, 2025
+Add bookmark
+#7
+Hello, I have a question about the DD on epidemics. Is the game currently playable as an American nation, where the fact that epidemics decimate our populations, and the European armies much more developed than us, makes these countries in theory unplayable from a certain point?? And how did you go about balancing??
+9
+3
+1
+1
+Reactions:
+Reply
+Report
+Goblin Slave
+Goblin
+58 Badges
+Jul 6, 2018
+188
+2.402
+Feb 19, 2025
+Add bookmark
+#8
+How much control will we have over our subject's armies during wartime, can we control them like our own armies or will they be completely autonomous? Does it vary significantly based on the subject type?
+6
+5
+1
+Reactions:
+Reply
+Report
+S
+Snemelc
+Corporal
+71 Badges
+Feb 1, 2018
+46
+157
+Feb 19, 2025
+Add bookmark
+#9
+What subject type are iceland and greenland? I don't think they were so close to the norwegian crown, that they would count as vassals.
+12
+Reactions:
+Reply
+Report
+Imp0815
+Lt. General
+102 Badges
+Jun 26, 2012
+1.392
+3.624
+Feb 19, 2025
+Add bookmark
+#10
+The
+Conquistador
+mechanic reads really fun and straightforward. Good thing!
+Toggle signature
+Read my suggestion post: Stellaris Space Combat should be better
+28
+4
+1
+Reactions:
+Reply
+Report
+Silens
+Field Marshal
+66 Badges
+Nov 3, 2017
+4.171
+23.011
+Feb 19, 2025
+Add bookmark
+#11
+Can nations have an overlord-vassal relationship with international organizations, i.e. banks?
+2
+1
+1
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Feb 19, 2025
+Add bookmark
+#12
+Do non-Iberians have something own thing, like Iberians having Conquistadors?
+And would be interesting to see subjects having also influence percentage (on top of Liberty Desire) over overlord (such as French vassals over French kings). I guess in a way it would work similar to estate but giving away land is shown on the map. Just a thought and an idea.
+13
+4
+1
+1
+Reactions:
+Reply
+Report
+D
+dw70676
+Second Lieutenant
+76 Badges
+Aug 13, 2011
+191
+1.756
+Feb 19, 2025
+Add bookmark
+#13
+Can you annex a disloyal subject through war?
+4
+1
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Feb 19, 2025
+Add bookmark
+#14
+trov55 said:
+Can non-colonial subjects be able to colonize if there is nearby land available?
+Click to expand...
+yes
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+64
+7
+2
+1
+Reactions:
+Reply
+Report
+Kr4mpus
+Second Lieutenant
+36 Badges
+May 12, 2024
+109
+642
+Feb 19, 2025
+Add bookmark
+#15
+Getting the cores of an integrated subject sounds VERY strong. Correct me if I'm wrong but didn't cores require you to either assimilate or accept the population of a location? So will integrating Brittany as France grant you cores on all the Breton land, even if you don't accept the culture?
+Toggle signature
+I made this only to comment on tinto talks
+15
+3
+Reactions:
+Reply
+Report
+H
+Hare'da Irijon
+Sergeant
+20 Badges
+Jul 2, 2017
+56
+1.162
+Feb 19, 2025
+Add bookmark
+#16
+The overlord will gain all of the subject's owned locations, cores, and any character not fleeing to other countries.
+Click to expand...
+They will flee?
+Anyways:
+What is preventing the AI from just annexing all their subjects immedietly? It's a pretty frustrating thing that happens in EU4 - IRL the French vassals lasted all the way until the 16th century (they're there if you manually change the date, too), but in the game the French AI just immedeitly annexes then after the 10 years timer runs off.
+8
+6
+1
+Reactions:
+Reply
+Report
+Genfried
+Private
+73 Badges
+Apr 22, 2012
+24
+20
+Feb 19, 2025
+Add bookmark
+#17
+When making/releasing vassals can you modify the subjects religion, court language etc?
+Because when playing a theocracy for example, why would I make vassals that are not of my religion?
+7
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Feb 19, 2025
+Add bookmark
+#18
+Thrudgelmir2333 said:
+Nice!
+Though it does seem a bit unfair that conquistadors are only available to Iberians? Perhaps some lesser leeway can be given to other Atlantic cultures? Or even Maghrebians?
+Click to expand...
+Its a purely Iberian one.
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+84
+30
+26
+13
+1
+Reactions:
+Reply
+Report
+D
+dw70676
+Second Lieutenant
+76 Badges
+Aug 13, 2011
+191
+1.756
+Feb 19, 2025
+Add bookmark
+#19
+If I make a more technologically advanced country my subject, does my tech advancement benefit any?
+5
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Feb 19, 2025
+Add bookmark
+#20
+ZarkinDrife said:
+Will vassal swarms still be a thing that is viable if done in Project Caesar?
+Click to expand...
+Depends.. there is no magical +X gold/+x Manpower for any country like eu4 has.
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+88
+37
+7
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+16
+Next
+1 of 16
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

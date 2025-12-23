@@ -1,0 +1,497 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-60-23rd-of-april-2025.1736924/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #60 - 23rd of April 2025
+Thread starter
+Pavía
+Start date
+Apr 23, 2025
+Hello, and welcome to another Tinto Talks, the happy
+Sant Jordi
+San Jorge
+Saint George’s Day
+Castile and León Day
+Wednesday where we talk about our entirely super-top-secret game with the codename Project Caesar.
+This week, we will be talking about a trending topic: What happens if two (or more) Popes are elected in a Papal Conclave? What makes a man go
+neutral
+join the Dark Side
+nail Ninety-five Theses against indulgences on a church in Wittenberg? How does a general council of the Catholic Church react to this?
+Or, in other words, we will be talking today about three historical Situations present in our game: the
+Western Schism
+, the
+Reformation
+, and the
+Council of Trent
+.
+The Western Schism
+​
+When a Pope dies, some processes need to be started, leaning towards the most important one, the Papal Conclave, which will determine the election of a new Pope:
+The Pope has died! As shown last week, the special Papal Heir Selection determines that a regency will start, with a clergyman becoming the Head of the Papal Conclave.
+​
+If it’s the year 1360 or later, a Schism might strike the Catholic Church, making for a divided election:
+The Western Schism may be managed in this panel:
+Where you might see a few things:
+The contenders - the Papal States (the Pope residing either in Avignon or in Rome) on one side, and the country backing the second Pope on the other.
+The support gathered by each Pope (which will slowly tick up, until one of them reaches 100% support).
+The Reform Desire (more on this later).
+The Curial countries that support each candidate.
+The available actions.
+This is the starting point of the Vote Progress hoverable tooltip (in the panel above, you see the numbers after some months/years have passed):
+The ‘Unity of Faith’ action:
+And this is what happens because of the Curia Actions of the Catholic Church IO being blocked:
+Finally, this is the situation map mode, showing the countries supporting each side:
+The French candidate has more support than the current candidate, while Castile is sitting on the fence of the split election.
+There will be some possible actions to gather support for each candidate, and some events may trigger randomly during the situation. And after a while, one of the candidates will gather enough support to reunite the Catholic Church again:
+However, there are more perils for the Catholic Church…
+The Reformation
+​
+After the year 1510, a certain Augustinian monk will protest against the uses of the Church, starting the Reformation:
+The birthplace of the Reformation will be semi-dynamic, there are some weights in place, so it will usually trigger in a different place of the Catholic Christendom. In this case, Martin Luther was serving his duty in Perugia, Italy.
+The doctrine that a proper Catholic should follow!
+​
+This is the starting panel of the situation:
+The elements that you can see are:
+The Lutheran and Catholic pops at each moment.
+The main active reformers (since all of them are characters that may spawn by event).
+The Lutheran Preachers, which is a building that may spawn and spread throughout Catholic countries:
+This might be a situation a year or so after the Reformation starts:
+Ignore the weird graphical bug that we just found while writing this TT, each character has its own different portrait.
+A second reformer, Zwingli, appeared in Switzerland, making the Free City of Bern a Lutheran bastion, and also 7 Lutheran Preachers buildings appeared. In the map mode, you can see the countries already converted to Lutheranism, the locations that already have Lutheran pops, and also other Protestant confessions present, such as some Hussites in Bohemia. Ignore the red borders, BTW; some countries decided that the start of the Reformation was a good moment to declare war on me, the Papal States, while preparing the screenshots for this Tinto Talks (traitors and heretics, they are!).
+​
+The Reformation may last for a while, because these are its ending triggers:
+Which leads us to the third and final Situation for today:
+The Council of Trent
+​
+If the Reformation is still active, and the Reform Desire (the modifier I mentioned in the Western Schism situation) is over 50%, the Council of Trent will trigger:
+The main point of the Council of Trent is to debate, and eventually approve, some new Laws for the Catholic Church IO; When those Laws are voted and passed, it will end the Council:
+And these are some examples of the Laws that are available for voting, each one having different policies that can be set:
+Except for the Papal Authority doctrine, all the policies have proper Latin names, as they should be!
+​
+And that’s all for today! We hope that you enjoyed it
+and that your favourite cardinal becomes Pope
+. Next week, we will be taking a look at the final part of the Western Christian religious puzzle: the mechanics for the different
+Protestant
+confessions, and another situation, the
+War of Religion
+. And don’t forget that this Friday we will post the Tinto Flavour with the content for the Military Orders of the Teutonic & Livonian Orders and the Knights Hospitallers. Cheers!
+167
+70
+7
+5
+3
+Reactions:
+Reply
+Report
+Written by
+Pavía
+Content Design Lead PDX Tinto
+Paradox Staff
+12 Badges
+Messages
+4.509
+Reaction score
+192.684
+1
+2
+3
+…
+Go to page
+Go
+15
+Next
+1 of 15
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Apr 23, 2025
+Add bookmark
+#2
+94
+22
+2
+1
+Reactions:
+Reply
+Report
+EinarH
+Second Lieutenant
+17 Badges
+Mar 15, 2024
+127
+1.160
+Apr 23, 2025
+Add bookmark
+#3
+Too soon Tinto...
+58
+13
+3
+Reactions:
+Reply
+Report
+matfer13
+Field Marshal
+1 Badges
+Dec 17, 2023
+3.015
+18.591
+Apr 23, 2025
+Add bookmark
+#4
+Ayo Ace attorney reference!
+68
+13
+3
+Reactions:
+Reply
+Report
+Brother Zael
+Corporal
+76 Badges
+Jul 9, 2015
+48
+70
+Apr 23, 2025
+Add bookmark
+#5
+New dev boop yippee!!
+Interesting to see the changes to trent compared to the completely totally unrelated eu4 council of trent.
+Thanks as always
+7
+Reactions:
+Reply
+Report
+Álvaro Núñez de Lara
+Field Marshal
+1 Badges
+May 18, 2020
+3.852
+23.666
+Apr 23, 2025
+Add bookmark
+#6
+The timing of this TT is creepily providencial.
+46
+19
+13
+Reactions:
+Reply
+Report
+Katana500
+Captain
+37 Badges
+Dec 4, 2015
+349
+1.474
+Apr 23, 2025
+Add bookmark
+#7
+Will non Curia countries be able to chose which pope they support?
+And can the split become permanent?
+16
+1
+Reactions:
+Reply
+Report
+KanzlerMaxVonBaden
+Second Lieutenant
+80 Badges
+May 21, 2018
+189
+1.517
+Apr 23, 2025
+Add bookmark
+#8
+Is there an option to permanently divide Catholics, with one Church following Rome and the other Avignion?
+25
+Reactions:
+Reply
+Report
+Goblin Slave
+Goblin
+58 Badges
+Jul 6, 2018
+188
+2.402
+Apr 23, 2025
+Add bookmark
+#9
+Is there anything you can do as a player to try to spawn the reformation in your lands? Are there events and the like that will make it more likely to spawn in one place rather than another? (Outside of the predefined weights)
+3
+Reactions:
+Reply
+Report
+DamixDatrox
+Bosnian knight
+Aug 5, 2020
+13
+83
+Apr 23, 2025
+Add bookmark
+#10
+Pope Francis PBUH
+11
+7
+Reactions:
+Reply
+Report
+Kotyk-durkotyk
+Colonel
+23 Badges
+May 26, 2024
+1.137
+15.631
+Apr 23, 2025
+Add bookmark
+#11
+Hey, nice TT, but I again not a single word about the treaty of Berestia and the
+Greek Catholic church
+It was totally ignored in EU4, will it be represented in Project Caesar?
+Toggle signature
+Check out my EU5 threads:
+Ruthenia and Steppe Fix
+–
+my EU5 Mod
+with historical corrections for the Ruthenian and Steppe Regions
+Ruthenian / Cossack / Ukrainian Content Pack
+Orthodoxy Needs a Full Rework in EU5
+23
+2
+Reactions:
+Reply
+Report
+Kr4mpus
+Second Lieutenant
+36 Badges
+May 12, 2024
+109
+642
+Apr 23, 2025
+Add bookmark
+#12
+You really killed the pope to promote this? Crazy
+Toggle signature
+I made this only to comment on tinto talks
+60
+6
+Reactions:
+Reply
+Report
+Pavía
+Content Design Lead PDX Tinto
+Paradox Staff
+12 Badges
+Jan 3, 2006
+4.509
+192.684
+Apr 23, 2025
+Add bookmark
+#13
+Álvaro Núñez de Lara said:
+The timing of this TT is creepily providencial.
+Click to expand...
+It was His will.
+Toggle signature
+Antiguo caballero villano del OT en español. Now member of EUIV & EUV Team at Paradox Tinto.
+96
+22
+9
+6
+Reactions:
+Reply
+Report
+Dualninja
+First Lieutenant
+40 Badges
+Mar 20, 2023
+289
+1.880
+Apr 23, 2025
+Add bookmark
+#14
+Is it possible for a pope to be assassinated, because many were historically by many different methods. Some were stabbed, thrown out a window, chucked in the Tibre, or worse, having had an aneurysm from talking to J.D Vance!
+Last edited:
+Apr 24, 2025
+79
+7
+3
+3
+1
+1
+Reactions:
+Reply
+Report
+Azgabeth
+Ex Deo, Cum Deo, Pro Deo
+41 Badges
+Nov 17, 2017
+793
+4.697
+Apr 23, 2025
+Add bookmark
+#15
+Can the Western Schism result in a permanent split in the Catholic Chruch?
+With a Avignon Chruch IO and a Rome Church IO for example?
+Toggle signature
+Ex Deo, Cum Deo, Pro Deo
+19
+2
+1
+1
+Reactions:
+Reply
+Report
+Pavía
+Content Design Lead PDX Tinto
+Paradox Staff
+12 Badges
+Jan 3, 2006
+4.509
+192.684
+Apr 23, 2025
+Add bookmark
+#16
+Katana500 said:
+Will non Curia countries be able to chose which pope they support?
+And can the split become permanent?
+Click to expand...
+Right now, it only works for Curia countries, but since it's a scripted system, we could make it so any type of country in the IO is eligible, with different weights.
+Toggle signature
+Antiguo caballero villano del OT en español. Now member of EUIV & EUV Team at Paradox Tinto.
+64
+12
+3
+1
+Reactions:
+Reply
+Report
+pheonicia
+Field Marshal
+90 Badges
+Feb 2, 2015
+3.510
+23.853
+Apr 23, 2025
+Add bookmark
+#17
+The Latin names definitely are flavorful, but I have no idea what they mean.
+Toggle signature
+Will HOI4 be released on H hour CET of D Day? - Mannstien
+Once again though, there are no actual zombies, it is all hysteria and panic. - Darkrenown
+No, cats were invented in 1902 by Satan, but we included them for gameplay reasons. - Darkrenown
+ubi solitudinem faciunt pacem appellant; they make a wasteland and call it peace.
+Pronoun: 3rd person (use my name)
+25
+9
+3
+Reactions:
+Reply
+Report
+LordThanatos
+Major
+95 Badges
+Sep 15, 2018
+634
+8.786
+Apr 23, 2025
+Add bookmark
+#18
+This actually looks really good in comparison to the overall issues with the way the Catholic Church is structured in the game. If the issues raised about the mechanics from the last Tinto Talks (
+Cardinals, Saints, Bulls, Laws and Conclave elections under a player-led Papal States
+) are fixed, then I don't see much here that immediately stands out as needing to change, at least for a really good base game experience.
+(Edit:
+Nevermind. There are more big problems.
+)
+As stated in the above linked thread, though, the laws you showcase here for papal authority are a strange mix. Ultramontanism, Gallicanism and presumably Invisible Church are positions on church authority over the state and vice versa, not positions on which entity should have authority over the Catholic Church as a whole, where Conciliarism was explicitly a movement to create an ecumenical council to take some level of control over the Catholic church.
+It's also strange to have these positions on secular or religious governance for a state on a church-wide level when it seems as though it should be an issue for individual states. Historically I'd argue that there have been what could be described as Ultramontanic states and Gallican states around at the same time, pretty much from the church's inception. Neither was a movement which all of Catholicism subscribed to at any time (Even if both terms are from the 18th century, I think they describe similar schools of thought which existed earlier just fine).
+As I'd discussed in the above thread, there should be a 'Church leadership' law for the Catholic IO where there could be Papal Authority and Conciliarism (Perhaps a form where there is a pope and council, and one with only a council), among any other options which might make sense, and a 'Church authority' law for individual Catholic countries where they can decide how much authority the church has over the state or vice versa - hopefully with associated consequences angering the papacy for not choosing Ultramontanism. This has a few benefits aside from just being more accurate and nuanced: It allows situations where the conbinations of overall church leadership and the church authority in individual states could interact in interesting ways.
+Last edited:
+Apr 24, 2025
+Toggle signature
+Proposals to improve how Catholicism is represented:
+Fixing Mechanics around The Papal States and Catholicism
+Feedback on Protestantism:
+Initial Feedback
+Make Eastern Christian Patriarchs extraterritorial.
+Feedback on non-Buddhist Dharmic Religions:
+Initial Feedback
+,
+More Feedback
+Feedback on Islam:
+Incorrect Religious Schools
+,
+Dhimmi
+,
+Other Ideas
+43
+7
+3
+1
+Reactions:
+Reply
+Report
+Tercio Soldier
+Major
+58 Badges
+Feb 25, 2020
+568
+4.336
+Apr 23, 2025
+Add bookmark
+#19
+After last week's dev diary responses are there plans to make the Pope more involved in the appointment of cardinals and saints? Also is there right now a maximum number of cardinals at each time?
+18
+1
+Reactions:
+Reply
+Report
+S
+SauronGorthaur
+Colonel
+24 Badges
+Jun 4, 2014
+987
+3.660
+Apr 23, 2025
+Add bookmark
+#20
+So what happens when you the Catholic world does not manage to avoid an anti-pope? Is there a way to make the schism permanent at some point? Can countries other than France decide they want their own anti-pope and contribute/restart the process? If the issue persists until the Hussite Wars (or even the reformation) hit, do both situations interplay in some way?
+9
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+15
+Next
+1 of 15
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

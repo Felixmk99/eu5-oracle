@@ -1,0 +1,477 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-24-7th-of-august-2024.1698427/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #24 - 7th of August 2024
+Thread starter
+Johan
+Start date
+Aug 7, 2024
+Welcome to another Tinto Talks, the Happy Wednesday where we spill the secrets about our entirely super secret, nobody will ever guess its name, game, which we refer to as Project Caesar.
+Today we will delve into a lot of naval related aspects, when we talk about everything from Maritime Presence to Naval Combat.
+Importance of Maritime Presence
+First of all, we need to get back to the importance of maritime presence and naval capacity in Project Caesar. Before you can get advanced road networks through your country, your proximity propagation is much faster through places where you have maritime presence. Any seazone where you have no maritime presence OR a location without any road network costs about 40 ‘proximity’ to traverse through, which basically means you can not propagate any control more than 3 locations away. Of course, there are things that impact your proximity costs per location, like topography, vegetation, development and societal values as well.
+The heartland has some access, but the coasts are the most important to us..
+For a coastal seazone, if you have 100% maritime presence, the base cost is 5 per location.  If you have less than 100% maritime presence it will scale the price accordingly. So at 33% maritime presence, and you have no other modifiers, it would cost 0.33*5 + 0.67*40, i.e. about 28.45.
+Lakes and Major Rivers are always considered to be 100% maritime presence sea zones for proximity calculations and market access calculations.
+Why is the seazone outside Stockholm called 'Trälhavet'?
+As you can see here, tracing the proximity out from Kalmar to the seazone of Kalmar Sund is a bit costly, as going from land to sea through a port has a higher base cost. This is severely reduced by the infrastructure and development you have built up in that location, as well as the natural harbor attributes that location has.
+Natural Harbors
+This is something new for this game that we have not done before. With so many locations, and such granularity, and mechanics emphasizing a deeper simulation, we had to start treating places differently, as there is a reason why certain places on the map are better suited as ports than others. This also explains why certain locations grew to be important places in history over others.
+The brighter the green the better the harbor can be..
+Of course, you can improve the harbor suitability of a location by building certain infrastructure, so even if the location you want to build up lacks the natural benefits, it can still be built up, even if it is more costly to do so as well.
+The Harbor Suitability of a location has a significant impact on the trade and proximity calculations, and also impacts how quickly armies can be loaded or unloaded from the location.
+Bristol has its uses.  The main question though, Rovers or City?
+Shipbuilding
+One of the disadvantages of playing a naval nation, in other games we’ve made, was the simple fact that unless you had a large coastline you could not compete, no matter how good the coastal locations you had were. One of the reasons was the simple fact that you could only build a ship at a time, and if you wanted to recruit a regiment, you couldn’t.
+In Project Caesar this has changed, first of all, there are three different construction queues in a location. First there is the civil one for buildings, RGO’s, and all other non-military oriented things you can do in a location. Secondly we have the army based queue, and finally, we have the naval based queue, so you can recruit regiments at the same time that you build ships in a location.
+We also added the concept of parallel ship building in a location, where buildings can unlock additional shipbuilding slots in a location, where at the end of the game you can build close to twenty ships at the same time in the same shipyard, with all the related advances and other stuff unlocked.
+This is a unique building that Venice has in its capital that increases the parallel capacity of shipbuilding by 4.
+Blockades
+One of the most powerful abilities that you can do during a war is blockading another nation's coast.  The immediate impact is a reduction of food production, maximum control and making trades being more costly and likely to reroute. There is also the fact that development growth is severely slowed, the decline of prosperity and a dramatic reduction of your maritime presence.
+As some say, an image tells you more than 1,000 words, we’ll use a few screenshots of tooltips related to blockades to make it a bit more clear.
+This can’t be all bad right?
+Even with only a single port fully blockaded, the maritime presence in the seazone is severely impacted, and will take many months to recover, unless you got coastal forts or navies patrolling it for a long time after a war.
+I do love the adjective for Holland..
+Not all ships are great at blockading, as you most likely want to have Heavy Ships and/or Light Ships to do the blockading.
+This type of hulk doesn’t smash…
+Not all locations are equal, and different populations, infrastructure and development increases how much ships are required to blockade a location.
+There are about 32,000 people living in this nice rural settlement..
+Ships Repairing
+Every month that a fleet is in a seazone that is not adjacent to a friendly port they will start taking attrition.  This attrition is increased dramatically if the fleet is outside the naval range. This attrition creates a chance for ships to be damaged. While usually you can only repair a ship in a port, there are advances in some ages that allows you to repair your ships in coastal sea zones, where at the Age of Revolutions you can repair a ship up to 50% efficiency without going back to a port.
+Naval Range is calculated from every core port that you own, or is owned by one of your subjects, or owned by someone you have negotiated fleet basing rights with.
+Can we control the entire mediterranean sea as Venice?
+Transporting Troops
+Ships in Project Caesar all have the capacity to transport regiments. The transport capacity of a ship is not measured in regiments but in the amount of men it can carry. Usually the transport ships are far better at carrying regiments, but other types of ships can carry some as well.
+We also have automated transportation, similar to eu4, to make moving armies around the world less painful.
+Combat
+In a naval battle there is no separate bombardment phase, as most ships have guns, and they tend to want to use them constantly. Otherwise, it works similar to land combat, in that you have different sections, but the individual ships you have will fire upon each other.
+But while it comes to the actual combat algorithm, ships work a bit differently, as there is no combat power or amount of soldiers fíghting to consider, but instead ships have an amount of cannons and hull size. Cannons are the offensive value, and hull size the defensive.
+Types of Ships
+There are four different categories of ships, Heavy Ships, Light Ships, Galleys and Transports. In each category there are at least one ship in each age that can be researched, but there are also many unique ships that can be built. There is no real restriction on what roles different ships can perform, but a Transport is not the best at blockading, and a Light Ship may not be ideal for transporting a lot of soldiers.
+Each type of ship differs on how many trained sailors they need for their crew, how many cannons they can have, and more.
+You can also raise ships as levies from your population, but those are usually best suited to transport armies shorter distances, and should not be relied upon in a sea battle.
+WiP UI, but here is a unique galley for Aragon... 2 more guns, 1 more hull, but need 30 more sailors. And there’s also an Early Iberian Caravel, which all the Iberian countries may build.
+Stay tuned, as next week we will talk about how colonization works.
+221
+191
+9
+5
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+28
+Next
+1 of 28
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Aug 7, 2024
+Add bookmark
+#2
+Wow.
+70
+17
+12
+4
+2
+1
+Reactions:
+Reply
+Report
+So_MeOne
+Second Lieutenant
+Aug 3, 2020
+121
+1.880
+Aug 7, 2024
+Add bookmark
+#3
+Interesting! So there are still types of ships from EU4 (Heavy Ships, Light Ships, Galleys and Transports). Will the Project Caesar have flagships?
+17
+2
+Reactions:
+Reply
+Report
+Mindel
+AI Chatbot
+2 Badges
+Jan 23, 2018
+2.255
+11.180
+Aug 7, 2024
+Add bookmark
+#4
+Will naval doctrines be a thing?
+8
+Reactions:
+Reply
+Report
+SuperLexxe
+The Noobwhisperer
+56 Badges
+May 31, 2015
+793
+6.709
+Aug 7, 2024
+Add bookmark
+#5
+It was previously mentioned that you could replenish garrisons with your army, and use your army to garrison captured castles.
+Would it be possible to do the reverse, and replenish your army by conscripting garrisons? Especially important if you want to retreat from an enemy and save the manpower you had previously deposited into captured forts.
+Toggle signature
+EU5 Community Maps & Information:
+1.
+Persia & Caucasus
+2.
+Circassia & Alania
+3.
+Central Asia
+4.
+China & Mongolia
+5.
+Manchuria & Korea
+-
+Oirat Confederation
+-
+Sultanate of Granada
+-
+16
+Reactions:
+Reply
+Report
+Teutonic_Knight_2000
+Major
+63 Badges
+Apr 11, 2017
+628
+1.808
+Aug 7, 2024
+Add bookmark
+#6
+@Johan
+There will be 4# Tinto Maps Feedback this week???
+Toggle signature
+Nationality:
+Polish
+Home:
+Mazovia, Poland
+Age:
+25
+Studying:
+Administration (
+Master's degree
+)
+Religion:
+Roman Catholicism
+4
+Reactions:
+Reply
+Report
+LemonCake101
+Lemon Cake
+66 Badges
+Dec 24, 2017
+85
+558
+Aug 7, 2024
+Add bookmark
+#7
+I feel like I am going to be only ever building naval infrastructure in the 'best possible' spots now... or just say screw it and dump all the money into a 'every province a port' approach
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Aug 7, 2024
+Add bookmark
+#8
+I find this whole DD quite Hollandish.
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+18
+1
+1
+Reactions:
+Reply
+Report
+PhilzuNeide
+Second Lieutenant
+58 Badges
+Jan 18, 2017
+184
+1.167
+Aug 7, 2024
+Add bookmark
+#9
+Do Rivers have separate tiles which subdivide them so you have to pay multiple times if you want to connect your territory in the Switzerland with your territories at the Rhine estuary in the Netherlands?
+19
+3
+Reactions:
+Reply
+Report
+Mindel
+AI Chatbot
+2 Badges
+Jan 23, 2018
+2.255
+11.180
+Aug 7, 2024
+Add bookmark
+#10
+Will there anything in naval combat to simulate the Korean vs Japanese dynamic, where the Japanese are always trying to close in and board enemy ships while the Koreans are always trying to maintain range and pound the enemy from afar with cannons?
+14
+4
+Reactions:
+Reply
+Report
+D
+Didsss
+Sergeant
+51 Badges
+Dec 27, 2016
+90
+732
+Aug 7, 2024
+Add bookmark
+#11
+Does Venice have a strait crossing modifier or will the Venetian navy be able to block armies from moving into the province somehow?
+8
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Aug 7, 2024
+Add bookmark
+#12
+Did Jumilla swap to Aragon?
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+2
+Reactions:
+Reply
+Report
+Jubs
+Recruit
+62 Badges
+Mar 28, 2019
+7
+33
+Aug 7, 2024
+Add bookmark
+#13
+I asked a similar question last week:
+1 If my fort is besieged on the coast, can I use the ‘distribute food’ ability with my navy to stop / lower the chance of a Supply Shortage (siege dice roll)? OR  2 Is Food only for armies/navies and pops, and NOT sieges?
+1
+Reactions:
+Reply
+Report
+CorneliusBottomly
+First Lieutenant
+4 Badges
+Apr 3, 2018
+293
+2.004
+Aug 7, 2024
+Add bookmark
+#14
+This has MEIOU written all over it.
+23
+8
+2
+1
+Reactions:
+Reply
+Report
+Friedrich von Deutschland
+General
+99 Badges
+Jan 25, 2015
+1.965
+5.673
+Aug 7, 2024
+Add bookmark
+#15
+“Before you can get advanced road networks through your country, your proximity propagation is much faster through places where you have maritime presence.”
+Will there be a difference in how this calculation works for control vs markets? A well maintained and fully staffed post-road can deliver important messages very quickly, competitive with sea travel, but this pace isn’t viable for bulk goods and even if it was shipping is vastly cheaper than a wagon train.
+22
+10
+1
+Reactions:
+Reply
+Report
+Kr4mpus
+Second Lieutenant
+36 Badges
+May 12, 2024
+109
+642
+Aug 7, 2024
+Add bookmark
+#16
+I hope Navy tradition will matter a lot and be hard to get and maintain, so a land locked country can't just conquer a port, built a 50 heavyship doomstack and be lord of the seas.
+Toggle signature
+I made this only to comment on tinto talks
+5
+3
+Reactions:
+Reply
+Report
+K
+kk89183747
+Private
+Feb 27, 2024
+17
+86
+Aug 7, 2024
+Add bookmark
+#17
+Will automatic transportation be adequate, unlike eu4, where it is completely dysfunctional?
+10
+2
+1
+1
+Reactions:
+Reply
+Report
+So_MeOne
+Second Lieutenant
+Aug 3, 2020
+121
+1.880
+Aug 7, 2024
+Add bookmark
+#18
+You mentioned that there will be "unique ships". Does that mean that some countries will have ships tied to their tag or culture, like the Special Naval Units in EU4?
+Last edited:
+Aug 7, 2024
+1
+1
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Aug 7, 2024
+Add bookmark
+#19
+1. What are Major Rivers counted as? And still wish at least those would be navigatable.
+2. When ship repairs from attrition, does it repairs by taking sailors or the ship resources as well to repair or those are 2 separate repairs?
+3.  What prevents nations with many coastal provines to add such special buildings, where they can spawn more than 1 ship in same location at the same time?
+4. So when ships transport capacity is measured by in the amount of men it can carry. Does it mean cavalry would count as 2 or 3, because of also including horses/elephants? (Or it's like in Age of Empire games, where you can't more than 6 people and same for 6 elephants, even though they are different sizes)
+5. Is ship compat similar to EU4 or improved? Since in EU4 is kind of lacking on some parts, and if you play correctly, you can stop enemy from retreating completely by doing cyclings, where they're locked from ever retreating, and thus destroy the enemy ships. Or if you're feeling lazy, sending both mega stacks at each other and let RNG do the work.
+6. I assume with ship  types and categories, it's same like with units, where you can mod more ship categories and ship units?
+10
+5
+1
+Reactions:
+Reply
+Report
+K
+Kilgaris
+Private
+44 Badges
+May 7, 2017
+19
+53
+Aug 7, 2024
+Add bookmark
+#20
+LemonCake101 said:
+I feel like I am going to be only ever building naval infrastructure in the 'best possible' spots now... or just say screw it and dump all the money into a 'every province a port' approach
+Click to expand...
+I dunno I feel like this is working as intended from a historical view point.
+42
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+28
+Next
+1 of 28
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

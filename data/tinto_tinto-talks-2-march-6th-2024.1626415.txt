@@ -1,0 +1,466 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-2-march-6th-2024.1626415/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #2 - March 6th, 2024
+Thread starter
+Johan
+Start date
+Mar 6, 2024
+Welcome to the second week of Tinto Talks, where I talk about the design we have for our new top secret game, which we refer to as “Project Caesar.” Today we’ll delve into everyone's favorite topic, MAPS!
+Let's begin with the projection we chose for this game. In the past we have used the Mercator or Miller projection which has some severe drawbacks, as you are all aware of. As we are restricted to a cylindrical map, we had to pick the least bad of them, which is why we went with the Gall Stereographic projection.
+Why is that one good? Well, it keeps areas we care most about, those in the middle latitudes, bigger without making the poles ridiculously oversized or the equator too undersized. It also has a reasonable conformal shape, meaning that the shape of the continents stays the closest to their real areas and angles without sacrificing a recognizable shape of them.
+In most of our games set in the past, we have used the word of province for the smallest piece of clay on the map. However, with the map design we are doing for this game, it does not really thematically fit, as the map is more granular, and what people associate with a real-world province would not fit. So we went to a terminology we had used in the code since the first game we made in the old Europa Engine, which was “Location.”
+So now our smallest subdivision is referred to as a Location, while a group of locations is a Province, and a group of provinces is an Area, and a group of areas is called a Region, and a group of regions is called a Subcontinent, and a group of subcontinents is called a Continent.
+If we take the home of Paradox Interactive, it’s located in our location ‘Stockholm,’ which is in the province of ‘Uppland,’ which is in the “Svealand” area, which is in the “Scandinavia” region, which is part of the “Western Europe” sub continent, which is in the “Europe” continent.
+Now you may wonder, why did we go with such granularity on a map like this? Well, this is entirely gameplay driven, from making a deep engaging gameplay peacetime possible, to better controlling the pacing of the game, and also to allow for more fun military campaigns.
+We have tried to make provinces as historical as possible when it comes to borders, while trying to keep the size of the locations consistent, with a more or less regular progression from the smallest to the biggest, with our rule of thumb is that a location shouldn't have more than 3 times the number of pixels compared to a neighboring one.
+So is the entire globe then divided into lots of tiny locations? No, as there are 4 types of locations, and for these we have taken heavy inspiration from the maps of Imperator and Victoria 3.
+The first type of location is of the more uniform size. For a land location this would be the normal location that can be settled, and for a sea location, this would be a coastal sea location, or any location adjacent to a coastal sea location.
+The second type is the “sea current” locations, which connect coastal areas with each other, allowing travel faster in 1 direction.
+The third is what we call an “impassable wasteland,” which can be used to describe parts of Sahara, Greenland, or other places where hardly any people live even today. We also use these types for the majority of the water covering the oceans.
+Finally, we have what we currently call “passages.” These are land locations that can not be settled by anyone, but can still be traversed by an army, with some insanely heavy attrition, or allow trade to pass through. Think of passages across the Saharan desert.
+Speaking of desert...  In a lot of our games we define each province as having a single terrain value, like Forest, Tundra, or Desert. This is rather limiting because eventually you end up with a huge list of complex things like “Arctic Forested Hill” or “Desert Mountain.”  What we have done in Project Caesar is to take a deep look at how we did this in Victoria 2, where we had split terrain into topography and vegetation, and take it further. Now we have 3 different values in each location:
+Climate - Includes things like Arid, Arctic, Continental, etc.
+Topography - Flatland, Hills, Mountains etc.
+Vegetation - Forest, Woods, Farmlands, Desert, etc.
+What the actual gameplay impact of these is, we’ll talk about much later… Sorry.
+Next week we’ll be back talking about something that could be rather controversial…
+276
+190
+16
+9
+2
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+29
+Next
+1 of 29
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Mar 6, 2024
+Add bookmark
+#2
+229
+74
+13
+9
+1
+Reactions:
+Reply
+Report
+M
+Me_
+Myself
+83 Badges
+Jan 14, 2011
+10.062
+15.041
+Mar 6, 2024
+Add bookmark
+#3
+The EU5 maps looks nice.
+Toggle signature
+Sit now there, and look out upon the lands where evil and despair shall come to those whom thou allied. Thou hast dared to mock me, and to question the power of France, master of the fates of Europe. Therefore with my explorers thou shalt see, and with my spies thou shalt hear; and never shall thou be released from vassalage until all is fulfilled unto its bitter end.
+"AI cannot do it / would not know how to do it" is not an argument against a suggestion.
+"AI would have to be taught how to do it" is an implied element of every suggestion.
+126
+24
+6
+6
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Mar 6, 2024
+Add bookmark
+#4
+Are the water parts, with no lines "sea impassable wasteland"?
+And with terrain, will this game allow us to change the terrain? Let's say for example from forest to farmlands.
+14
+1
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Mar 6, 2024
+Add bookmark
+#5
+Old_Sealand said:
+Are the water parts, with no lines "sea impassable wasteland"?
+Click to expand...
+yes
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+59
+18
+7
+3
+Reactions:
+Reply
+Report
+DominusNovus
+Field Marshal
+86 Badges
+Oct 2, 2007
+8.031
+8.734
+Mar 6, 2024
+Add bookmark
+#6
+Johan said:
+Let's begin with the projection we chose for this game. In the past we have used the Mercator or Miller projection which has some severe drawbacks, as you are all aware of. As we are restricted to a cylindrical map, we had to pick the least bad of them, which is why we went with the Gall Stereographic projection.
+Click to expand...
+I like all the detail here, could you explain why you’re restricted to cylindrical?
+Toggle signature
+Nationality: Yankee
+Occupation: Clerk
+Religion: Catholic
+Issues: Free Trade, Laissez-Faire, Pro-Military, Pluralism, Full Citizenship
+11
+8
+2
+Reactions:
+Reply
+Report
+Grzegorz Grzybek
+Captain
+102 Badges
+Apr 1, 2016
+359
+1.222
+Mar 6, 2024
+Add bookmark
+#7
+I can see the trade routes from here!
+34
+4
+1
+Reactions:
+Reply
+Report
+Parmelion
+Lead Developer of Ante Bellum
+23 Badges
+Mar 14, 2016
+356
+1.466
+Mar 6, 2024
+Add bookmark
+#8
+Very happy to see so many wastelands, will definitely give the map much more strategic depth. Here's hoping that terrain and climate will be much more impactful, compared to, for example, EU IV.
+Toggle signature
+Lead Developer - Ante Bellum
+•
+Steam
+•
+Wiki
+•
+Discord
+•
+Spotlight
+•
+Plaza
+•​
+28
+8
+1
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Mar 6, 2024
+Add bookmark
+#9
+Johan said:
+yes
+Click to expand...
+That's going to make sea battles interesting. Instead of trying to avoid by going around, one must always face the enemy.
+18
+7
+4
+2
+1
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Mar 6, 2024
+Add bookmark
+#10
+DominusNovus said:
+I like all the detail here, could you explain why you’re restricted to cylindrical?
+Click to expand...
+because we decided to not make a globe map engine, partially because it does not serve any purpose, as its so hard to get good overviews at a glance on those.
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+Reply
+Report
+Metz
+Field Marshal
+107 Badges
+Nov 21, 2008
+7.108
+13.741
+Mar 6, 2024
+Add bookmark
+#11
+With larger maps you can face the issue of movement time for armies. Either armies will move too fast, too slow, or the time will be changed to reflect morning, day, and night. Adding time of day cycle however would make the game stretch longer (considering ~400 years of gameplay vs Victoria's 100 years) unless it is optimized to go at a turbo speed at speed 5. This opens the question to the controversial issue that was mentioned in the original post, that EU5 or Project Caesar may have warfare similar to that of Victoria 3, especially if it will integrate population/POPS into the way it manages society/economics.
+20
+3
+2
+1
+Reactions:
+Reply
+Report
+Pyoro
+General
+46 Badges
+May 4, 2009
+1.893
+12.507
+Mar 6, 2024
+Add bookmark
+#12
+All sounds pretty good to me.
+If it's not a secret, how do cities (which I'll just randomly assume are a thing in some fashion) fit into this? 1 per "location"?
+And do we already get to know anything about the granularity of political control over these geographic "units"? Ie, does that mean that Location A can belong to Country X, and Location B that is part of the same Province to Country Y? Or are there's closer dependencies within that system, so for example countries must always fully control a Province except perhaps for temporary occupations or something (I'd be surprised if that were the case, but then, CK3 did get rid of Baronies, and that certainly was a surprise move to me then too ^^)?
+11
+6
+Reactions:
+Reply
+Report
+Silens
+Field Marshal
+66 Badges
+Nov 3, 2017
+4.171
+23.008
+Mar 6, 2024
+Add bookmark
+#13
+Looking at Central Africa and Oceania, will Malaria be present as an area feature? Will it somehow be affected by climate, vegetation and topography?
+5
+1
+1
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Mar 6, 2024
+Add bookmark
+#14
+Metz said:
+With larger maps you can face the issue of movement time for armies. Either armies will move too fast, too slow, or the time will be changed to reflect morning, day, and night. Adding time of day cycle however would make the game stretch longer (considering ~400 years of gameplay vs Victoria's 100 years) unless it is optimized to go at a turbo speed at speed 5. This opens the question to the controversial issue that was mentioned in the original post, that EU5 or Project Caesar may have warfare similar to that of Victoria 3, especially if it will integrate population/POPS into the way it manages society/economics.
+Click to expand...
+Project Caesar will have a warfare system that involving moving units in locations on the map.
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+94
+60
+21
+5
+4
+1
+Reactions:
+Reply
+Report
+Kingsleydale
+Machine God
+128 Badges
+Dec 26, 2011
+233
+667
+Mar 6, 2024
+Add bookmark
+#15
+What is the average number of locations per province? If you can answer that?
+Toggle signature
+2
+1
+Reactions:
+Reply
+Report
+crGrc
+Captain
+94 Badges
+Jul 2, 2009
+424
+1.151
+Mar 6, 2024
+Add bookmark
+#16
+Looks like EU5 is back on the menu boys!
+42
+6
+Reactions:
+Reply
+Report
+Tolomeidb2
+First Lieutenant
+66 Badges
+Jul 6, 2013
+229
+902
+Mar 6, 2024
+Add bookmark
+#17
+Don't know yet how naval combat works, but you shouldn't be able to engage navies in the middle of the Altantic ocean if you share the tile, if there are only 2 tiles large going from Europe to America.
+Interesting thread otherwise!
+15
+Reactions:
+Reply
+Report
+Metz
+Field Marshal
+107 Badges
+Nov 21, 2008
+7.108
+13.741
+Mar 6, 2024
+Add bookmark
+#18
+Looks like the Caspian Sea is navigable.
+11
+9
+8
+6
+Reactions:
+Reply
+Report
+cheetawilliam
+First Lieutenant
+95 Badges
+Dec 27, 2015
+295
+556
+Mar 6, 2024
+Add bookmark
+#19
+A very nice read, having passes be heavy in atrition is quite nice, and hopefull control of them will mean something for trade as well. At least till other routes are found.
+Yet to get to my question, can those location traits be changed in the duration of the game. I think this would be quite essential to model things like deforestation, draining of land and perhaps even desertification and the changing climate across centuries. As well as being great for modability. Could also introduce an urban topography if a location is build up enough etc.
+16
+3
+Reactions:
+Reply
+Report
+DaddySugar331
+First Lieutenant
+27 Badges
+Sep 22, 2020
+287
+1.756
+Mar 6, 2024
+Add bookmark
+#20
+Too few islands! I want more! I need more islands!!! I want every single island in the world to be in this game! I LOVE ISLANDS!
+61
+49
+10
+8
+3
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+29
+Next
+1 of 29
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

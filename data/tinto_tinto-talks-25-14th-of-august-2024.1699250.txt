@@ -1,0 +1,460 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-25-14th-of-august-2024.1699250/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #25 - 14th of August 2024
+Thread starter
+Johan
+Start date
+Aug 14, 2024
+Welcome to another Tinto Talks, the 25th one, the Happy Wednesday where we give you lots of information about our upcoming, still secret and unannounced game, with the codename of Project Caesar.
+Today we delve into the mechanics of colonialism, another aspect of painting the map.
+Power Projection
+One important factor that has a big impact on the colonialism game is Power Projection. Each country has a power projection value, and it is primarily to allow a country to be able to exploit those with a lower power projection. Power Projection is very dependent on how advanced a country is, where each age has an advance that gives you about +10 of it. It is also modified by societal values, rank of the country and more. One important aspect is that the +10 advance for Age of Traditions is in the advance tree from the Meritocracy.
+You do not gain Power Projection by doing specific actions, like in EU4, but it's entirely based on your country's current setup.
+Sadly, the “Sweden is properly balanced” modifier has not been developed yet..
+Colonial Charters
+So, how does colonization work in ‘Project Caesar'? Well, you colonize by starting a colonial charter in a province for an upfront fee in gold. Then each month some of the population will be moving from the homeland to the colonial charter, until all locations that can be owned are owned by you.
+In almost all cases, there are people living in a location you want to colonize, so for you to be able to have a charter to flip to your ownership there are a few rules. A location needs to have at least 1,000 people living there, and a certain percentage of the population needs to follow your state religion and be of an accepted culture of your country.
+Progress for the sake of progress must be discouraged!
+This percentage depends heavily on the difference in power projection of your country and the countries in the location. Yes, I said countries in plural, and next week you will understand what we are talking about. This has the implication that at the start of the game, Yuán could in theory start colonizing Europe, if it only had been closer and discovered. How the countries and pops already present in a location react to your colonization is something that will be clarified in a later Tinto Talks.
+As long as you have a colonial charter, people from your owned locations will start moving to the locations in the colonial charter. The amount of people moving is rather low in the beginning of the game, but there are advances that will increase it in later ages. Societal values have an impact on it, and so does the distance to the colony.
+One thing to take into account is that colonization does not magically create new pops out of thin air, and being able to create a huge colonial empire is not a feasible strategy as a low population country.
+Full speed ahead! Only 40 months per location to get to 1,000 pops!
+Colonial Charters are not free, and moving people are definitely not free, and countries need to support them. The higher the population in the target province, the more expensive it is to colonize, the distance also has an impact, but colonizing in the same area or region as your capital is significantly cheaper. You can always cut costs to your charters, but that will also reduce the amount of pops moving every month.
+Not too expensive, so we can easily afford it..
+Colonial Nations
+When a colonial charter is finished, and all possible locations in that province have become yours, you have multiple options for what you want to happen to that charter. If the province is close, and you think you can get decent enough control over it, you may want to just keep the locations as a part of your home country.  You also have the option to have the province form a new colonial nation, or have it join an adjacent colonial nation.
+Colonial Nations are a subject type that can not be annexed, but has a few advantages, or disadvantages depending on your point of view, in that while they start transferring less gold than a vassal would, they also grant some manpower and sailors, while also giving part of their merchants to their overlord.
+To clarify, you can make colonial nations anywhere on the map where you can colonize.
+Supporting the Colonies
+If you feel that your charters or colonial nations are not growing enough, there are two tools you can use in the cabinet. Both of these become available from advances in the Age of Discovery
+With ‘Supporting a Colonial Charter’ you will move pops from a province you decide upon and to the colonial charter you decided. The amount of pops getting moved depends on your current colonial migration capacities, so when you use it you can about double the migration to a specific
+With the ‘Supporting Colonies’ you can move 100 pops every month from a selected province to a target province in a colonial nation subject. This can be useful when you want to boost a colony and you have overpopulated provinces at home, or when you think your country would be in a better situation if you could expel some minorities.
+Restrictions on Colonization
+There are several ways which can block other nations from colonizing certain places, including diplomatic treaties. At the start of the game, Norrland, Finland, Karelia and Kola are under the claims of Sweden and Novgorod who have divided the area between them.
+We also have the situation ‘Treaty of Tordesillas’ where the New World will be split among two Catholic powers, causing lots of interesting dynamics.
+Next week we will be back to talk about the difference between countries, and why owning locations is not all there is to life…
+And what is this teaser for next week about?
+184
+139
+8
+5
+3
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+37
+Next
+1 of 37
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Aug 14, 2024
+Add bookmark
+#2
+Wow.
+94
+27
+17
+14
+4
+3
+Reactions:
+Reply
+Report
+bluepotato81
+Second Lieutenant
+24 Badges
+Jun 12, 2024
+145
+1.862
+Aug 14, 2024
+Add bookmark
+#3
+INCREDIBLE
+seems like a charter is a province. could make for some highly flexible gameplay
+Last edited:
+Aug 14, 2024
+Toggle signature
+Deliver me from mine enemies, O my God: defend me from them that rise up against me. Defend me from the workers of iniquity, and save me from bloody men. The mighty are gathered against me, awake to help me, and behold.
+Nor is there pain, or cause of pain, Or cease in pain, or noble path to lead from pain;
+The Master said, "Is it not pleasant to learn with a constant perseverance and application? Is it not delightful to have friends coming from distant quarters? Is he not a man of complete virtue, who feels no discomposure though men may take no note of him?"
+Do not despair of the mercy of Allāh. Indeed, Allāh forgives all sins. Indeed, it is He who is the Forgiving, the Merciful.
+The Tao that can be told is not the eternal Tao, and the name that can be named is not the eternal Name.
+It is not your duty to finish the work, but neither are you at liberty to neglect it;
+The finest essence here—that constitutes the self of this whole world; that is the truth; that is the self.
+O Son of Man! Veiled in My immemorial being and in the ancient eternity of My essence, I knew My love for thee; therefore I created thee, have engraved on thee Mine image and revealed to thee My beauty.
+Rise up for me, O Ahura, through Armaiti give strength, through the holiest Spirit give might, O Mazda, through the good Recompense, through the Right give powerful prowess, through Good Thought give the reward.
+O my mind, remember the Lord in meditation; He is the Destroyer of pain, the Eradicator of fear, the Sovereign Lord King. He is the Greatest Lover, the Merciful Master, the Enticer of the mind, the Support of His devotees - this is His very nature.
+In some ways, it is, in some ways, it is not, in some ways, it is, and it is not, in some ways, it is indescribable, in some ways, it is, and it is indescribable, in some ways, it is not, and it is indescribable, in some ways, it is, it is not, and it is indescribable.
+So be diligent in seeking knowledge, keeping company with those of understanding, and studying at all times, and you will attain goodness and blessings.
+An ash I know there stands, - Yggdrasill is its name, - a tall tree, showered - with shining loam. - From there come the dews - that drop in the valleys. - It stands forever green over - Urðr's well.
+Our God, with His mercy - Brought for us beauty and loveliness - He gave a command to the Pen of Power - We were thrown into the Mystery of Love.
+I saw my father, I saw him, and I gave him three requests. I asked him for a great heart, which can be carried by the big and the little. I asked him for calmness, in which there is no rebellion. I asked him for a level path, to rise to light’s place in peace.
+17
+Reactions:
+Reply
+Report
+Ofiotaurus
+Private
+52 Badges
+May 28, 2021
+10
+164
+Aug 14, 2024
+Add bookmark
+#4
+When do we get see the Tinto Maps after feedback?
+5
+Reactions:
+Reply
+Report
+P
+Pollllo
+Master
+Jul 17, 2022
+100
+397
+Aug 14, 2024
+Add bookmark
+#5
+Johan said:
+View attachment 1174947
+And what is this teaser for next week about?
+Click to expand...
+Playable tribal nations it seems, good.
+28
+1
+Reactions:
+Reply
+Report
+flatoranger
+Khan of Valhalla
+2 Badges
+Nov 3, 2015
+41
+199
+Aug 14, 2024
+Add bookmark
+#6
+Are there going to be a mechanic for dynamic new colonial cultures?
+56
+4
+4
+3
+Reactions:
+Reply
+Report
+Jarzki
+Second Lieutenant
+35 Badges
+Oct 30, 2018
+115
+2.067
+Aug 14, 2024
+Add bookmark
+#7
+What if you colonize a province where locations have less than 1000 native population? Will the majority culture switch to whatever was the biggest culture moving in? How will this work in case of places like Siberia or Finland?
+15
+1
+Reactions:
+Reply
+Report
+D
+Daverix
+Second Lieutenant
+64 Badges
+Jul 24, 2021
+102
+698
+Aug 14, 2024
+Add bookmark
+#8
+Old_Sealand said:
+Wow.
+Click to expand...
+It's pronounced Owo.
+31
+17
+2
+1
+1
+Reactions:
+Reply
+Report
+T
+Tamerlin
+Recruit
+141 Badges
+Apr 26, 2014
+5
+39
+Aug 14, 2024
+Add bookmark
+#9
+This is entirely irrelevant to colonization (which looks cool), but will Project Caesar have console commands similar to EUIV and older games, or the whole debug mode common to the newer games?
+16
+1
+Reactions:
+Reply
+Report
+ArVass
+Dinosaur Hunter
+27 Badges
+Apr 4, 2016
+2.296
+12.720
+Aug 14, 2024
+Add bookmark
+#10
+BEAVER RAAAAAAAAH
+Toggle signature
+Justice for Anabaptists!
+Justice for Unitarians!
+Split the Nigerian language!
+Bosnia was a vassal of Hungary in 1337
+2
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Aug 14, 2024
+Add bookmark
+#11
+Jarzki said:
+What if you colonize a location that has less than 1000 native population? Will the majority culture switch to whatever was the biggest culture moving in? How will this work in case of places like Siberia or Finland?
+Click to expand...
+Yes it will switch to the one with the majority of the pops.
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+Reply
+Report
+ItsMorkino
+Sergeant
+34 Badges
+Mar 28, 2016
+59
+375
+Aug 14, 2024
+Add bookmark
+#12
+Will colonization idea groups be locked behind prerequisites like taking naval ideas? I think idea group branches make it much more beneficial to invest heavily in one direction rather than picking and choosing. Like Around the Cape or MEIOU
+8
+Reactions:
+Reply
+Report
+L
+Liam1234
+Second Lieutenant
+45 Badges
+Apr 15, 2018
+181
+944
+Aug 14, 2024
+Add bookmark
+#13
+You said that Yuan  could theoretically start colonising Europe, is that anywhere in Europe, or only in the areas without a landed country?
+Could Yuan colonise France?
+15
+11
+3
+Reactions:
+Reply
+Report
+SafS.99
+First Lieutenant
+Oct 1, 2023
+217
+1.713
+Aug 14, 2024
+Add bookmark
+#14
+1. Is it possible to attract migrants from other nations to settle our colonies through diplomatic action?
+For example Greenland attracting Nordic immigrants to help them settle Newfoundland.
+2. Is it possible to pick specific Culture/Religion pops to migrate to certain colonies?
+Like encouraging Puritan pops to migrate to New England
+37
+1
+1
+Reactions:
+Reply
+Report
+Genfried
+Private
+73 Badges
+Apr 22, 2012
+24
+20
+Aug 14, 2024
+Add bookmark
+#15
+Johan said:
+This percentage depends heavily on the difference in power projection of your country and the countries in the location. Yes, I said countries in plural, and next week you will understand what we are talking about. This has the implication that at the start of the game, Yuán could in theory start colonizing Europe, if it only had been closer and discovered. How the countries and pops already present in a location react to your colonization is something that will be clarified in a later Tinto Talks.
+Click to expand...
+So if I am playing as Yuán or a Russian nation I could in time(or right away) start to colonize the steppes just like in EU3?
+2
+Reactions:
+Reply
+Report
+Treefoil
+Sergeant
+41 Badges
+Mar 15, 2024
+67
+210
+Aug 14, 2024
+Add bookmark
+#16
+Can you encourage foreigners to your colonies, like the Germans in early USA, or Huguenots in SA?
+And to confirm we can colonize “landed” countries?
+15
+1
+Reactions:
+Reply
+Report
+gcpt
+The Greatest Citrus Merchant
+28 Badges
+Jan 4, 2018
+48
+128
+Aug 14, 2024
+Add bookmark
+#17
+It's possible to divulge a bit more into the situation of the Treaty of Tordesilhas? Like, will it be just like IRL or will it be more dynamic, regarding distances and/or nations which apply it?
+8
+1
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Aug 14, 2024
+Add bookmark
+#18
+Liam1234 said:
+You said that Yuan  could theoretically start colonising Europe, is that anywhere in Europe, or only in the areas without a landed country?
+Could Yuan colonise France?
+Click to expand...
+Yes if they get the range and discover France before France get their pp bigger.
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+Reply
+Report
+Pilum2211
+Sergeant
+40 Badges
+Oct 2, 2019
+63
+420
+Aug 14, 2024
+Add bookmark
+#19
+Will Pops migrate at random from provinces in your country to the colonies or is it weighted by the local economic situation, the number of people and discrimination?
+Basically, will Pops from poorer regions be more likely to try their luck in new lands?
+18
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Aug 14, 2024
+Add bookmark
+#20
+gcpt said:
+If it's possible to divulge a bit more into the situation of the Treaty of Tordesilhas? Like, will it be just like IRL or will it be more dynamic, regarding distances and/or nations which apply it?
+Click to expand...
+Dynamic
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+37
+Next
+1 of 37
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

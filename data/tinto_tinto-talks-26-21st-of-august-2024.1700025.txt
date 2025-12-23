@@ -1,0 +1,481 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-26-21st-of-august-2024.1700025/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #26 - 21st of August 2024
+Thread starter
+Johan
+Start date
+Aug 21, 2024
+Welcome everyone to the 26th Tinto Talks, the Happy Wednesday where we tell you interesting information about our super top-secret game with the code name of Project Caesar.
+Previously in Grand Strategy Games, playable entities, or countries as we usually refer to them, always required you to own land, and their existence was based upon owning land. You annexed and eliminated a country by taking all their land.  Now during the four years since we created the first iterations of this system, things have changed, and you will soon have landless playable characters in Crusader Kings III.
+Anyway, in Project Caesar we currently have four categories of playable countries.
+This tooltip may make it 100% clear?
+We have been talking about making a navy based country type, and it would be fairly easy to do, but we haven't really found any country that fits that category.
+Settled Countries
+These are countries that are based on owning locations. These function the same as you would expect a country to work in a GSG, these countries own land, they build buildings, have cores, raise armies, etc.
+Army Based Countries
+This type of country is very similar to the location based countries with a few differences. While they can still do everything that a location based country does, they also have one strong advantage and a strong disadvantage in comparison.
+The advantage is the fact that as long as they have an army, then the country will still continue to exist, which we use to simulate REDACTED amongst other things.
+The disadvantage, depending on your point of view, is that if the country does not have an army at all, it can shatter into multiple pieces.
+Many of the Steppe Hordes at the start of the game are ‘ABC’, which fits nicely into their other mechanics. Yes, I do like the acronym ABC for “Army Based Countries”
+Extraterritorial Counties
+These are countries that are based around the buildings they own. They can’t own land directly, but can have subjects that own land. Their buildings often have pops directly linked to the building, and those pops are also tied to the country.
+One risk with them is that they need to keep positive relationships with the places they have buildings in, or they may not be able to survive.
+Various banks, holy orders and Hanseatic League holdings in 1337..
+There are many types of playable entities that we simulate with these systems, and here are a few of them..
+Banking Countries
+There are a few of these countries in Europe at the start of the Game, with Peruzzi and Bardi, and later on you get Fuggers and more. They have main offices in certain cities and have the possibility to build more branches around the world.
+Other countries can request loans from them, and they also have the diplomatic ability to take over any estate loan that a country has, and force that country to pay interest to them instead. They also have far lower interest rates on their estate loans, so they can easily become rich from other countries' debts.
+This is an advance only available for banking countries.
+Trade Companies
+During the Age of the Reformation you can set up Trade Companies in overseas places, which will be a good subject to get trade going to benefit their overlord. We will go into more detail about these in a later Tinto Talks.
+Hanseatic League
+This is represented by a building based country which has a few subjects that are normal land owning countries. This is a playable country from the start, and one that is really fun if you want to focus on a purely trading game.
+Maybe the trade monopolies estate privilege is less than good for us..
+We also have Holy Orders, as a building based type of country, and while I can’t go into details about it at this point, at the start of the game, the Daimyos of Japan are using the building based country mechanic..
+Society of Pops
+This is one of the most challenging types of countries in the game, as most of the mechanics are not available to them. They own no land, but instead are entirely based upon the pops associated with them. As they own no land, they do not interact with RGO’s nor can build most buildings. Almost all of them start without advances for taxation, codifying laws or constructing cities.
+A lot of the world has different societies of pops, where larger groups of people live but are on the fringe of more organized and advanced states. In the New World there are a mixture of settled countries and society of pops.
+These types of countries can migrate their pops from one province to another over time, and they can also force the allegiance of pops to change to them through warfare with another society.
+The borders between different societies and even settled countries are extremely fluid, and they can be in the same location as either of them.
+They can raise levies directly from their pops, and their armies can live off the land anywhere, gathering some small amount of food from any type of land. Their armies can always force any pop of their culture and religion to swear allegiance to their society.
+Amongst the ways they can stop being colonized is forcing colonizers to the peace table, forcing them to cancel their colonial charters.
+A settled country can in a war force a Society of Pops to abandon pops that they own, and if they no longer “own” any pops, that society will no longer be an existing country.
+A society of pops can attempt to settle if they achieve certain advances, after which they will take control over all locations where they have pops and are the dominant culture and religion, and then become a Settled Country.
+Currently though, the gameplay experience is not where we want it, and unless that is improved by beta, they are very likely to be AI only at release.
+Here the Kven People have settled…
+And to clarify, Society of Peoples and Army Based Countries have ways to become Settled Countries through mechanics, but there are no other normal ways of changing Country Types, except through special events.
+Stay tuned, as next week we go into detail about buildings you can build outside your own country.
+Attachments
+banking_advance.png
+277,2 KB
+· Views: 0
+334
+141
+9
+6
+2
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+31
+Next
+1 of 31
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Aug 21, 2024
+Add bookmark
+#2
+Wow.
+134
+55
+35
+21
+19
+4
+Reactions:
+Reply
+Report
+Jarzki
+Second Lieutenant
+35 Badges
+Oct 30, 2018
+115
+2.067
+Aug 21, 2024
+Add bookmark
+#3
+You know who you are
+270
+32
+7
+4
+1
+1
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Aug 21, 2024
+Add bookmark
+#4
+297
+32
+9
+9
+2
+Reactions:
+Reply
+Report
+bluepotato81
+Second Lieutenant
+24 Badges
+Jun 12, 2024
+145
+1.862
+Aug 21, 2024
+Add bookmark
+#5
+how the hell do you get here so fast
+Old_Sealand said:
+Wow.
+Click to expand...
+whatever time to read the tt
+Toggle signature
+Deliver me from mine enemies, O my God: defend me from them that rise up against me. Defend me from the workers of iniquity, and save me from bloody men. The mighty are gathered against me, awake to help me, and behold.
+Nor is there pain, or cause of pain, Or cease in pain, or noble path to lead from pain;
+The Master said, "Is it not pleasant to learn with a constant perseverance and application? Is it not delightful to have friends coming from distant quarters? Is he not a man of complete virtue, who feels no discomposure though men may take no note of him?"
+Do not despair of the mercy of Allāh. Indeed, Allāh forgives all sins. Indeed, it is He who is the Forgiving, the Merciful.
+The Tao that can be told is not the eternal Tao, and the name that can be named is not the eternal Name.
+It is not your duty to finish the work, but neither are you at liberty to neglect it;
+The finest essence here—that constitutes the self of this whole world; that is the truth; that is the self.
+O Son of Man! Veiled in My immemorial being and in the ancient eternity of My essence, I knew My love for thee; therefore I created thee, have engraved on thee Mine image and revealed to thee My beauty.
+Rise up for me, O Ahura, through Armaiti give strength, through the holiest Spirit give might, O Mazda, through the good Recompense, through the Right give powerful prowess, through Good Thought give the reward.
+O my mind, remember the Lord in meditation; He is the Destroyer of pain, the Eradicator of fear, the Sovereign Lord King. He is the Greatest Lover, the Merciful Master, the Enticer of the mind, the Support of His devotees - this is His very nature.
+In some ways, it is, in some ways, it is not, in some ways, it is, and it is not, in some ways, it is indescribable, in some ways, it is, and it is indescribable, in some ways, it is not, and it is indescribable, in some ways, it is, it is not, and it is indescribable.
+So be diligent in seeking knowledge, keeping company with those of understanding, and studying at all times, and you will attain goodness and blessings.
+An ash I know there stands, - Yggdrasill is its name, - a tall tree, showered - with shining loam. - From there come the dews - that drop in the valleys. - It stands forever green over - Urðr's well.
+Our God, with His mercy - Brought for us beauty and loveliness - He gave a command to the Pen of Power - We were thrown into the Mystery of Love.
+I saw my father, I saw him, and I gave him three requests. I asked him for a great heart, which can be carried by the big and the little. I asked him for calmness, in which there is no rebellion. I asked him for a level path, to rise to light’s place in peace.
+11
+1
+Reactions:
+Reply
+Report
+R
+Raphael Freitas
+Sergeant
+20 Badges
+Dec 31, 2023
+71
+582
+Aug 21, 2024
+Add bookmark
+#6
+Navy based country: the pirates of the Caribbean. Or the brotherhood of Nassau as i think they were called.
+There is also this Chinese lady called Zheng Yi Sao that had a huge pirate fleet and dominated a huge chunk of the south asian trade and controlled gambling houses and other stuff in mainland China and I think Singapore.
+Last edited:
+Aug 21, 2024
+160
+24
+6
+2
+1
+Reactions:
+Reply
+Report
+Traxium318
+Captain
+91 Badges
+Apr 28, 2013
+319
+2.013
+Aug 21, 2024
+Add bookmark
+#7
+Looks like Sphere of Influence kinda integrated in PC base gamee lol
+Toggle signature
+#ReviveImperatorRome #pls
+Spanish PDX content creator mostly on Project Cesar, Vic3 and CK3
+11
+5
+Reactions:
+Reply
+Report
+Universalis_
+Sergeant
+18 Badges
+Aug 26, 2016
+91
+1.314
+Aug 21, 2024
+Add bookmark
+#8
+These new country types are great, lots of potential added to different mods imo.
+24
+1
+Reactions:
+Reply
+Report
+Ofiotaurus
+Private
+52 Badges
+May 28, 2021
+10
+164
+Aug 21, 2024
+Add bookmark
+#9
+So how will this fucntion with modding? Can somebody just make a Assasin's creed type of entity?
+19
+1
+Reactions:
+Reply
+Report
+D
+diglosgr
+Corporal
+53 Badges
+Aug 20, 2014
+46
+309
+Aug 21, 2024
+Add bookmark
+#10
+"
+Army Based Countries"
+*Laughs in Prussian*
+75
+19
+2
+1
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Aug 21, 2024
+Add bookmark
+#11
+I read "Extraterritorial" as "Extraterrestrial" and immediately thought about Prussian Space Marines.
+68
+9
+1
+1
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Aug 21, 2024
+Add bookmark
+#12
+Surely to soon wage war with the Republic of Dave.
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+22
+2
+Reactions:
+Reply
+Report
+R
+RMS Oceanic
+Field Marshal
+49 Badges
+Jan 27, 2014
+2.807
+4.873
+Aug 21, 2024
+Add bookmark
+#13
+Are there special events for Extraterritorial Countries to settle?
+6
+3
+Reactions:
+Reply
+Report
+H
+Hare'da Irijon
+Sergeant
+20 Badges
+Jul 2, 2017
+56
+1.162
+Aug 21, 2024
+Add bookmark
+#14
+Society of Pops should really be renamed to "Stateless society"...
+I also believe they should be visible on the map (similarly to V3 decentralised countries - just the border with the name without the internal colour)
+Question - would we be able to mod in more country types?
+Opinion - maybe uses "state" instead of "country"?
+96
+22
+9
+1
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Aug 21, 2024
+Add bookmark
+#15
+bluepotato81 said:
+how the hell do you get here so fast
+whatever time to read the tt
+Click to expand...
+39
+5
+3
+Reactions:
+Reply
+Report
+PhilzuNeide
+Second Lieutenant
+58 Badges
+Jan 18, 2017
+184
+1.167
+Aug 21, 2024
+Add bookmark
+#16
+Can you simply destroy the building of an Extraterritorial Country in your domain or do you need to wage a war like in CK2 to destroy Trade Posts?
+12
+5
+Reactions:
+Reply
+Report
+Imperialismo
+Sergeant
+58 Badges
+Apr 16, 2021
+97
+815
+Aug 21, 2024
+Add bookmark
+#17
+I hope this system becomes the standard for future PDX games
+32
+11
+3
+Reactions:
+Reply
+Report
+Uloncl
+Sergeant
+58 Badges
+Apr 16, 2021
+74
+593
+Aug 21, 2024
+Add bookmark
+#18
+i hope theres some kind of formable navy based country at least if theres nothing at the start of the game that would fit that category, would a pirate nation fit that description
+Toggle signature
+its ability to govern itself is a threat to my ability to extract its wealth
+34
+Reactions:
+Reply
+Report
+Vlad123
+Field Marshal
+1 Badges
+Feb 7, 2015
+2.590
+2.431
+Aug 21, 2024
+Add bookmark
+#19
+Why i cannot turn my banksters family in a settled country!?
+Toggle signature
+I do hoi4 (and other) Series on Youtube
+https://www.youtube.com/channel/UCWzJOXFBnbljpUd9R1P18tg/
+28
+Reactions:
+Reply
+Report
+B
+Bordinho
+Recruit
+11 Badges
+Mar 27, 2024
+7
+39
+Aug 21, 2024
+Add bookmark
+#20
+Johan said:
+We have been talking about making a navy based country type, and it would be fairly easy to do, but we haven't really found any country that fits that category.
+Click to expand...
+Would merchant navies (the English and Dutch being very powerful entities, for example), and maybe pirates/privateers, fit the criteria?
+22
+4
+1
+1
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+31
+Next
+1 of 31
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

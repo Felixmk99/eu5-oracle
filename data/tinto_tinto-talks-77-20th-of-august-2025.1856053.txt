@@ -1,0 +1,545 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-77-20th-of-august-2025.1856053/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #77 - 20th of August 2025
+Thread starter
+Johan
+Start date
+Aug 20, 2025
+Hello everyone, and welcome to another Happy Wednesday where we talk about features for Europa Universalis V - which, you may now be aware of, already has a release date, November 4th!
+Today, we will go through a few UI building blocks we use in EU5, where some are blocks that you are familiar with, and some are completely new.
+Tooltips
+First of all, the Paradox classic, the tooltip. Without the tooltip, I suspect the games would not be even remotely playable. This game is not different in this aspect, but we have taken a few extra steps to make it even better. We have been basing our tooltip design heavily around the nested tooltip systems that we first used in Crusader Kings III.
+As this game is a bit complex, we try to clarify a fair bit of words and what they mean in our game. Those words, which we internally call game concepts, are colored blue and can be tool-tipped, giving a small explanation about them.
+Wait until the end o
+f this post to see what a Hint is…
+As we often have values with a lot of sources impacting them, they become harder to read, but in EU5, we have switched to using tables in tooltips whenever
+That is a nice policy in the Maritime Law.
+A final thing we have in tooltips is the actions, so it shows what will happen when you click on a button with a left mouse button and/or right mouse button icon.
+We got a quick action here to right-click to do some relevant actions.
+If the action is not possible, there is a small condition block in the tooltip showing why.
+Ah, yes, this is too expensive, as our Nobles are too powerful...
+Outliner
+This is a building block we have used for almost two decades to have quick tracking of armies, constructions, and other things in progress. In EU5, we now have two versions of the outliner, where you can have a simpler one if you feel the normal one is too noisy.
+It's a quick way to select units and change things on the fly.
+And of course, we got settings so you can toggle what you want to be able to see:
+Right-Click Menus
+As with many of our games, we have context-sensitive right-click menus that appear when you right-click locations, countries, characters, or units. This can save you some time doing things you wish to do quickly.
+The menu below is what we get when right-clicking on a foreign location on the map; the bottom buttons allow you to get location, province, and area-specific actions instead.
+And you can directl
+y see their current opinion, trust, favors, and your spynetwork..
+When right-clicking a unit, you get a menu like this, and the menu won't close if you just click a toggle.
+Alert
+One thing that we have been using in our GSGs for a long time is the alert system. We first introduced it in the Revolutions DLC for the original Victoria almost twenty years ago.  In EU4 we had 3 different colored alerts, but here we have added 3 new colors.
+The orange alert is between the yellow and red in danger.
+The blue alert, which is for pure UI hints, like a tutorial notification, or not having a control group.
+The purple alert for situations and disasters.
+You can always discard an alert if you think it's noisy, and it will only appear again if the conditions change.
+Messages
+Another classic that has been with us since the original Europa Universalis back at the start of the millennium is our message system, where every message in the game can be configured to show in the news log, be shown as a pop-up with pause or not, or be shown as a text message on the map.
+The little button at the top right allows you to configure how you want to display it.
+Each message has a category as well, making it easier to configure.
+Search and Filters
+One of the new systems we have developed for Europa Universalis V is our concept of search and filters for every list of elements in the game. The search bar allows you to search for anything in the list, like listing buildings with a specific modifier, or finding something by a partial name match.
+Filters also allow you to toggle on what should be displayed in the list, and you can toggle any selection of filters.
+Another good thing with the filters is that you can easily go from, let's say, a selected location, and then click the population number there, and it will go to the population view with that location as a filter.
+Mapmode Color Ledgers
+Another cool thing we have added to the game is a color ledger for most map modes, so you can see what the colors actually mean.  We have added a button next to the current mapmode so you can toggle it at any time.
+Hints
+Finally, we have our Hints system. This can be accessed from the top left menu, but you can also shift-click alerts and many buttons in the game to get a specific hint relevant to it.
+A hint has a few flavorful quotes at the top, where the characters with the best stats you have in your country will give you their advice on the selected hint. This was, of course, inspired by the advisors of
+Civilization 2.
+You also get an explanation of the reason for the hint, and a few suggestions for actions you can take to alleviate or remove the problem. Any yellow text here is clickable and will take you to the panel where you can do something about it.
+This can be really helpful to teach you the game mechanics…
+And that’s all for today! I hope that this helps to understand how we’ve been building the UI systems of the game, to be as helpful for the player as possible, and make them robust in the long term.
+And also remember, you can
+Pre-Purchase Europa Universalis V now
+! Cheers!
+186
+65
+7
+4
+2
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+27
+Next
+1 of 27
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+Riiizzz
+Second Lieutenant
+28 Badges
+May 7, 2025
+105
+338
+Aug 20, 2025
+Add bookmark
+#2
+Right on the dot, let's go!
+Toggle signature
+CPU: AMD Ryzen 7 9800X3D
+RAM: 32GB DDR5-6000MHz
+GPU: AMD Radeon RX 9070 XT
+11
+Reactions:
+Reply
+Report
+GenericUsername1444
+Colonel
+Jun 25, 2024
+805
+10.781
+Aug 20, 2025
+Add bookmark
+#3
+Thank you so much for taking into consideration our proposals! I am certain that EU5 will be the best game you have made yet.
+However, I think I should reiterate that many people dislike the huge portrait of the ruler in the top left of the screen, in some ways obfuscating the national flag. I hope that is something one can toggle.
+Last edited:
+Aug 20, 2025
+Toggle signature
+Professional Georgian
+124
+37
+8
+1
+Reactions:
+Reply
+Report
+OneNineTwoSix
+Captain
+36 Badges
+Mar 10, 2016
+411
+1.814
+Aug 20, 2025
+Add bookmark
+#4
+Nice spreadsheet picture in the background.
+The Game is trully ready for release
+Toggle signature
+My Achievements. My Ironman. My Dune.
+5
+4
+3
+1
+Reactions:
+Reply
+Report
+Kotyk-durkotyk
+Colonel
+23 Badges
+May 26, 2024
+1.137
+15.631
+Aug 20, 2025
+Add bookmark
+#5
+Hi, I'd like to point out two UI issues from today’s screenshot:
+These icons look too large
+and take up a considerable portion of the screen in the centre. It’s distracting every time I see it. I believe many people have suggested moving them to the corner, similar to EU4. It would be interesting to know your reasoning at least.
+Although there has been a huge improvement since May,
+Barcelona still looks a bit oversized
+and occupies most of the location (except for that coastal strip to the north). I think the city image should not extend beyond the location border and should instead be
+limited to a set number of pixels from the borders
+to avoid this.
+Thanks!
+Last edited:
+Aug 20, 2025
+Toggle signature
+Check out my EU5 threads:
+Ruthenia and Steppe Fix
+–
+my EU5 Mod
+with historical corrections for the Ruthenian and Steppe Regions
+Ruthenian / Cossack / Ukrainian Content Pack
+Orthodoxy Needs a Full Rework in EU5
+48
+23
+3
+1
+Reactions:
+Reply
+Report
+antalguerrero
+Second Lieutenant
+Apr 29, 2011
+151
+572
+Aug 20, 2025
+Add bookmark
+#6
+Please Johan, could I get mapname and "UI" name for the same location be different by Modding, for aesthetical purposes?
+Last edited:
+Aug 20, 2025
+Toggle signature
+# Y dale dale breakbeat, dale breakbeat, pa que los niño' se vuervan crazy # |
+Class
+'88
+15
+1
+Reactions:
+Reply
+Report
+B
+Bozkurt
+Major
+12 Badges
+Jun 15, 2024
+618
+2.356
+Aug 20, 2025
+Add bookmark
+#7
+I hope we can create multiple presets for ui and switch during the game as we wish,like what to see in ledger or get notification for what etc.
+Toggle signature
+#1 PROUD AI SUPPORTER
+7
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Aug 20, 2025
+Add bookmark
+#8
+Were you listening to Shakira when writing this?
+16
+2
+Reactions:
+Reply
+Report
+D
+dw70676
+Second Lieutenant
+76 Badges
+Aug 13, 2011
+191
+1.756
+Aug 20, 2025
+Add bookmark
+#9
+This may have been answered before, but will EU5 have EU4 style ledgers that can be used to "size up" other countries?
+4
+1
+Reactions:
+Reply
+Report
+Daniel the Finlander
+Colonel
+61 Badges
+Feb 2, 2016
+1.064
+8.242
+Aug 20, 2025
+Add bookmark
+#10
+Will the contents of the ledger be properly aligned with the top bar before release? four of the sorting buttons also seem to have placeholder icons
+Toggle signature
+modder and a lover of mods
+eu5 > imperator > eu4
+EU5 mod: Historically Accurate Courland
+EU5 mod: Historically Accurate Finland
+32
+3
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Aug 20, 2025
+Add bookmark
+#11
+dw70676 said:
+This may have been answered before, but will EU5 have EU4 style ledgers that can be used to "size up" other countries?
+Click to expand...
+The header pic of today's TT is literally of the ledger
+9
+3
+Reactions:
+Reply
+Report
+D
+Davincie
+Captain
+80 Badges
+Feb 5, 2020
+323
+1.952
+Aug 20, 2025
+Add bookmark
+#12
+Can you show the UI for building buildings?
+4
+1
+Reactions:
+Reply
+Report
+LordThanatos
+Major
+95 Badges
+Sep 15, 2018
+634
+8.786
+Aug 20, 2025
+Add bookmark
+#13
+LordThanatos said:
+One big UI issue is with that the IO/control group buttons were in the bottom-center of the screen, hovering in a really awkward location. Any chance those have been moved somewhere better, like a corner of the screen, rather than right in the middle of everything?
+Edit: Oh, wait. They're still in the same place...
+Is there at least an option to have these somewhere else? I don't want to just remove them, but I don't want them in the center of my screen. Even just three of these looks really irritating, nevermind like five, or more.
+Click to expand...
+As I said in the last feedback post, the UI is looking a lot better - though some better alignment on the ledgers with the sorting categories would be nice. One thing that I do really dislike about the UI is the location of these IO/Control-Group buttons:
+Johan said:
+Click to expand...
+I really hate where they are on the screen. Please tell me there are options to move them somewhere less irritating, like a corner of the screen?
+I don't want to disable them, but I really don't want them hovering in the center-bottom of the screen, they're in such a bad position and I can definitely see them getting in the way constantly.
+Last edited:
+Aug 20, 2025
+Toggle signature
+Proposals to improve how Catholicism is represented:
+Fixing Mechanics around The Papal States and Catholicism
+Feedback on Protestantism:
+Initial Feedback
+Make Eastern Christian Patriarchs extraterritorial.
+Feedback on non-Buddhist Dharmic Religions:
+Initial Feedback
+,
+More Feedback
+Feedback on Islam:
+Incorrect Religious Schools
+,
+Dhimmi
+,
+Other Ideas
+29
+13
+1
+Reactions:
+Reply
+Report
+Goran42069
+Second Lieutenant
+18 Badges
+Jan 1, 2016
+115
+1.079
+Aug 20, 2025
+Add bookmark
+#14
+Is there a colorblind setting for mapmodes like proximity to capital ?
+11
+3
+Reactions:
+Reply
+Report
+Kotyk-durkotyk
+Colonel
+23 Badges
+May 26, 2024
+1.137
+15.631
+Aug 20, 2025
+Add bookmark
+#15
+Columns are not aligned at all. Concerning...
+-
+Toggle signature
+Check out my EU5 threads:
+Ruthenia and Steppe Fix
+–
+my EU5 Mod
+with historical corrections for the Ruthenian and Steppe Regions
+Ruthenian / Cossack / Ukrainian Content Pack
+Orthodoxy Needs a Full Rework in EU5
+23
+11
+1
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Aug 20, 2025
+Add bookmark
+#16
+I was really hoping this'd be a ledger on how to afford all the content Ill wanna buy for EU5 T T
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+1
+Reactions:
+Reply
+Report
+P
+Paraso
+Private
+25 Badges
+Aug 28, 2019
+12
+27
+Aug 20, 2025
+Add bookmark
+#17
+Message settings are nice
+4
+1
+Reactions:
+Reply
+Report
+Kotyk-durkotyk
+Colonel
+23 Badges
+May 26, 2024
+1.137
+15.631
+Aug 20, 2025
+Add bookmark
+#18
+By the way, do rural locations require a
+citadel
+to be built to be promoted to a town? That would require some money for maintenance and would be realistic to
+prevent town spamming everywhere as a meta
+.
+Also it would be more historically accurate and would
+slow down fast expansion
+when wars are won in 1 day by occupying the nearby ULM capital.
+I think all towns should have
+X
+fort levels and all cities (
+X
++
+Y
+) fort levels (
+X
+> 0,
+Y
+> 0).
+Toggle signature
+Check out my EU5 threads:
+Ruthenia and Steppe Fix
+–
+my EU5 Mod
+with historical corrections for the Ruthenian and Steppe Regions
+Ruthenian / Cossack / Ukrainian Content Pack
+Orthodoxy Needs a Full Rework in EU5
+10
+2
+Reactions:
+Reply
+Report
+ComradDoge
+Sergeant
+34 Badges
+Oct 26, 2014
+68
+512
+eu4.paradoxwikis.com
+Aug 20, 2025
+Add bookmark
+#19
+The category section of the outliner blends in too much, please consider fully colouring them in.
+Toggle signature
+EU4 - Doge Shattered Europa
+​
+14
+2
+1
+Reactions:
+Reply
+Report
+D
+dw70676
+Second Lieutenant
+76 Badges
+Aug 13, 2011
+191
+1.756
+Aug 20, 2025
+Add bookmark
+#20
+bokorthedust said:
+The header pic of today's TT is literally of the ledger
+Click to expand...
+I was thinking mostly in terms of military, which I don't really see there, unless it is hidden under Wars? Compare the EU4 military ledger:
+Attachments
+1755695377602.png
+185,5 KB
+· Views: 0
+1
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+27
+Next
+1 of 27
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

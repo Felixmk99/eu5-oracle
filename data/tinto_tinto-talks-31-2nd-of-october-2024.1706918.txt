@@ -1,0 +1,461 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-31-2nd-of-october-2024.1706918/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #31 - 2nd of October 2024
+Thread starter
+Johan
+Start date
+Oct 2, 2024
+Welcome to another Tinto Talks, the Happy Wednesday where we spill the secrets of our upcoming game, with the codename Project Caesar.
+Last week we talked about wars and wargoals, and today we are going to talk about how wars will end, as we discuss the peace system. If you have played other GSG games for Paradox, some of this may not be news to you though.
+Peace Offers
+To end a war you need to negotiate a peace with either the leader on the other side, or if you are the leader on your side, you can negotiate a separate peace with a single independent country on the other side.
+One thing that is important to notice, is that if you declare war for a war goal to conquer a certain province, then you can not take any other land, UNLESS you take the wargoal.
+To be able to take land, you also need to have control over the province capital.
+A Peace Offer, will consist of a set of treaties that can have a total value of up to 100 Peace Cost. Of course the other side would have to agree, and they are very likely not to accept anything where the peace cost is higher than the current warscore.
+Peace in our time?
+Peace Treaties
+A peace treaty can be the transfer of a location, province or area. It can also be to force another country to stop sending privateers, or transferring gold to you, or dismantling fortification in a location, humiliating them or any other of the dozens upon dozens of possible peace treaties of Project Caesar.
+The cost of each treaty depends on many factors, whether it’s part of the wargoal or not, the population, the type of the treaty and so on.
+Numbers are still being tweaked..
+Aggressive Expansion
+Aggressive Expansion is one of the drawbacks of strengthening your own country ahead of others. Taking territory is one of the easiest ways to increase it.  While taking land impacts your own country a fair bit, it also impacts the opinions of other countries near the source of the aggressive expansion a fair bit.   If you get your AE high enough, countries with a low enough opinion of you may join a coalition against you.  A Coalition is an international organization oriented around severely reducing the power of a single country.
+We can probably live with this AE though?
+War Enthusiasm
+When it comes to how willing a nation is to fight, much comes down to their War Enthusiasm. If this is high then the AI is unlikely to accept a peace that is not favorable to them.  This is determined by the state of the country, with war exhaustion, control of capital and military strength are big factors.  For the leader of a side in the war the overall military balance is a huge factor as well.
+Bohemia really wants to continue this war…
+War Participation
+Most of the time you bring allies to help you out in a war, but they expect to be rewarded for the part they pull. The War Participation is how much a country has contributed to the progress of the war. This is primarily done through battles, blockades and sieges.
+You may sometimes have to convince your allies to join an offensive war that you are starting, and thus you can promise them part of the spoils of the war.  If the part that they gain from signing a peace is less than their participation they will get upset.
+Stay tuned, as next week, we’ll talk about the conflicts in the world that do not involve declarations of war, and negotiations of peace.
+307
+135
+40
+16
+6
+5
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+29
+Next
+1 of 29
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Oct 2, 2024
+Add bookmark
+#2
+Wow.
+82
+47
+10
+5
+3
+1
+Reactions:
+Reply
+Report
+bluepotato81
+Second Lieutenant
+24 Badges
+Jun 12, 2024
+145
+1.862
+Oct 2, 2024
+Add bookmark
+#3
+owo
+Last edited:
+Oct 2, 2024
+Toggle signature
+Deliver me from mine enemies, O my God: defend me from them that rise up against me. Defend me from the workers of iniquity, and save me from bloody men. The mighty are gathered against me, awake to help me, and behold.
+Nor is there pain, or cause of pain, Or cease in pain, or noble path to lead from pain;
+The Master said, "Is it not pleasant to learn with a constant perseverance and application? Is it not delightful to have friends coming from distant quarters? Is he not a man of complete virtue, who feels no discomposure though men may take no note of him?"
+Do not despair of the mercy of Allāh. Indeed, Allāh forgives all sins. Indeed, it is He who is the Forgiving, the Merciful.
+The Tao that can be told is not the eternal Tao, and the name that can be named is not the eternal Name.
+It is not your duty to finish the work, but neither are you at liberty to neglect it;
+The finest essence here—that constitutes the self of this whole world; that is the truth; that is the self.
+O Son of Man! Veiled in My immemorial being and in the ancient eternity of My essence, I knew My love for thee; therefore I created thee, have engraved on thee Mine image and revealed to thee My beauty.
+Rise up for me, O Ahura, through Armaiti give strength, through the holiest Spirit give might, O Mazda, through the good Recompense, through the Right give powerful prowess, through Good Thought give the reward.
+O my mind, remember the Lord in meditation; He is the Destroyer of pain, the Eradicator of fear, the Sovereign Lord King. He is the Greatest Lover, the Merciful Master, the Enticer of the mind, the Support of His devotees - this is His very nature.
+In some ways, it is, in some ways, it is not, in some ways, it is, and it is not, in some ways, it is indescribable, in some ways, it is, and it is indescribable, in some ways, it is not, and it is indescribable, in some ways, it is, it is not, and it is indescribable.
+So be diligent in seeking knowledge, keeping company with those of understanding, and studying at all times, and you will attain goodness and blessings.
+An ash I know there stands, - Yggdrasill is its name, - a tall tree, showered - with shining loam. - From there come the dews - that drop in the valleys. - It stands forever green over - Urðr's well.
+Our God, with His mercy - Brought for us beauty and loveliness - He gave a command to the Pen of Power - We were thrown into the Mystery of Love.
+I saw my father, I saw him, and I gave him three requests. I asked him for a great heart, which can be carried by the big and the little. I asked him for calmness, in which there is no rebellion. I asked him for a level path, to rise to light’s place in peace.
+47
+5
+4
+4
+3
+3
+Reactions:
+Reply
+Report
+Mindel
+AI Chatbot
+2 Badges
+Jan 23, 2018
+2.255
+11.180
+Oct 2, 2024
+Add bookmark
+#4
+Are you planning to reuse the current favor system from EU4 for calling in allies?
+42
+3
+1
+Reactions:
+Reply
+Report
+Failtier
+Comprador
+47 Badges
+Jul 6, 2011
+385
+1.593
+Oct 2, 2024
+Add bookmark
+#5
+Old_Sealand said:
+Wow.
+Click to expand...
+How is that possible?
+10
+2
+1
+1
+1
+Reactions:
+Reply
+Report
+Aquila SPQR
+LEGATVS PROPRAETOR BYZABOO MEME-MAN
+Jul 3, 2010
+2.438
+18.068
+Oct 2, 2024
+Add bookmark
+#6
+Since nothing here is new, I'll ask the most important question now:
+Terrain map when?
+56
+4
+2
+Reactions:
+Reply
+Report
+Tercio Soldier
+Major
+58 Badges
+Feb 25, 2020
+568
+4.336
+Oct 2, 2024
+Add bookmark
+#7
+Sad to see there are no two way peace deals
+281
+60
+2
+1
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Oct 2, 2024
+Add bookmark
+#8
+I kind of feel like them being of the 'same religion' ought to be a negative factor for war cost and AE, not a positive one? Wasn't that one of the factors causing wars between christians to be really granular in border changes, and all? While territories of enemy religions were seen as fair game by your peers.
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+122
+21
+1
+1
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Oct 2, 2024
+Add bookmark
+#9
+Old_Sealand said:
+Wow.
+Click to expand...
+This time more like meh... I expected more.
+117
+36
+7
+1
+1
+Reactions:
+Reply
+Report
+Nafetz16
+Private
+30 Badges
+Mar 13, 2024
+14
+66
+Oct 2, 2024
+Add bookmark
+#10
+What are the effects of AE on your own country? Less stability like in Imperator?
+12
+2
+Reactions:
+Reply
+Report
+K
+Karlov
+Sergeant
+7 Badges
+Nov 25, 2018
+51
+526
+Oct 2, 2024
+Add bookmark
+#11
+Тime to do some war crimes...
+6
+6
+1
+1
+Reactions:
+Reply
+Report
+theEXPERTpt
+Sergeant
+Mar 7, 2023
+85
+312
+Oct 2, 2024
+Add bookmark
+#12
+Failtier said:
+How is that possible?
+Click to expand...
+He probably uses a program to write that automatically. There's no way he does this every week. Basically, he's cheating.
+14
+2
+2
+1
+Reactions:
+Reply
+Report
+ArVass
+Dinosaur Hunter
+27 Badges
+Apr 4, 2016
+2.296
+12.720
+Oct 2, 2024
+Add bookmark
+#13
+I am once again reposting this image until you show us a towns and cities mapmode of the world so far
+Toggle signature
+Justice for Anabaptists!
+Justice for Unitarians!
+Split the Nigerian language!
+Bosnia was a vassal of Hungary in 1337
+80
+7
+4
+1
+Reactions:
+Reply
+Report
+D
+Didsss
+Sergeant
+51 Badges
+Dec 27, 2016
+90
+732
+Oct 2, 2024
+Add bookmark
+#14
+Two questions, one from last TT:
+1. How long do you intend for a CB to last? Months? Years? Decades?
+2. Do all locations amount to the same AE? Looks like they are all 0.71. So it doesn't depend on dev, pops, or whether it is part of HRE like in eu4?
+19
+15
+1
+Reactions:
+Reply
+Report
+DoctorSnakes
+Second Lieutenant
+24 Badges
+Jun 13, 2020
+114
+489
+Oct 2, 2024
+Add bookmark
+#15
+One thing that is important to notice, is that if you declare war for a war goal to conquer a certain province, then you can not take any other land, UNLESS you take the wargoal.
+Click to expand...
+I think this is strange. I have no doubt that there are historical examples of wars that were declared for one goal, only for a peace deal to happen where something else is agreed upon. No doubt often done as a compromise, or when the goal changes.
+136
+35
+6
+1
+Reactions:
+Reply
+Report
+matfer13
+Field Marshal
+1 Badges
+Dec 17, 2023
+3.015
+18.591
+Oct 2, 2024
+Add bookmark
+#16
+Will peace require for one of the 2 sides involved to need at least 10 warscore like in Imperator Rome? I hope not
+13
+1
+Reactions:
+Reply
+Report
+Ispil
+HIP Advisor
+42 Badges
+Dec 13, 2013
+4.393
+15.684
+Oct 2, 2024
+Add bookmark
+#17
+Looks... about as frustrating as the EU4 system, frankly. Still a fixed 100-point cap, still the same AE effect as it always was with no level of nuance.
+I'm disappointed.
+196
+45
+10
+Reactions:
+Reply
+Report
+perceval350
+Major
+53 Badges
+Apr 3, 2024
+664
+2.938
+Oct 2, 2024
+Add bookmark
+#18
+Can you do a bilateral peace deal?
+113
+15
+3
+1
+Reactions:
+Reply
+Report
+Jon Snow21
+Corporal
+22 Badges
+Jul 6, 2023
+34
+143
+Oct 2, 2024
+Add bookmark
+#19
+If I want to conquer a province and won other provinces as well, I will get only that of war goal or even the extra "portion"?
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Oct 2, 2024
+Add bookmark
+#20
+Also, how come control influences twice the warscore cost of a location? Lack of control decreases it, control increases it, but they are the two sides of the same equation.
+14
+8
+2
+2
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+29
+Next
+1 of 29
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

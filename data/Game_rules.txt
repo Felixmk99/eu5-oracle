@@ -1,0 +1,443 @@
+Source URL: https://eu5.paradoxwikis.com/Game_rules
+Source Date: 2025-11-19
+
+Please help with verifying or updating older sections of this article.
+At least some were last verified for
+version
+pre-release.
+Game rules are configuration choices available when starting a new game that can slightly alter some mechanics. Some options will disable
+Achievements
+. Game rules can be saved as presets.
+Game rules can be changed at any point during a game, unless the game was started in Ironman Mode.
+Player Difficulty
+[
+edit
+|
+edit source
+]
+The Player Difficulty game rule will give either bonuses or penalties to human countries. Setting it to Easy or Very Easy disables achievements.
+Very Easy
+Easy
+Normal
+Hard
+Very Hard
+−25%
+Army Maintenance
++25%
+Efficiency of Our Cabinet
++25%
+Crown Power
++0.5%
+Estates Satisfaction Recovery
++25%
+Army Morale
++25%
+Legislative Efficiency
++25%
+Navy Morale
++25%
+Tax Efficiency
++10%
+Trade Efficiency
+−10%
+Army Maintenance
++10%
+Efficiency of Our Cabinet
++10%
+Crown Power
++0.2%
+Estates Satisfaction Recovery
++10%
+Army Morale
++10%
+Legislative Efficiency
++10%
+Navy Morale
++10%
+Tax Efficiency
++5%
+Trade Efficiency
+No effects
+−5%
+Estates Satisfaction Equilibrium
+−10%
+Estates Satisfaction Equilibrium
+AI Difficulty
+[
+edit
+|
+edit source
+]
+The AI Difficulty game rule will give either penalties or bonuses to AI countries. Setting it to Easy or Very Easy disables achievements.
+Very Easy
+Easy
+Normal
+Hard
+Very Hard
+−50%
+Army Morale
+−50%
+Navy Morale
+−25%
+Army Morale
+−25%
+Navy Morale
+No effects
++10%
+Discipline
++0.2%
+Estates Satisfaction Recovery
++10%
+Estates Satisfaction Equilibrium
+−10%
+Pop Food Consumption
++0.05%
+Population Growth
++10%
+Naval Damage Done
+−10%
+Naval Damage Taken
++10%
+Monthly Research Progress %
++10%
+Tax Efficiency
++5%
+Trade Efficiency
++20%
+Discipline
++0.3%
+Estates Satisfaction Recovery
++25%
+Estates Satisfaction Equilibrium
+−20%
+Pop Food Consumption
++0.1%
+Population Growth
++20%
+Naval Damage Done
+−20%
+Naval Damage Taken
++20%
+Monthly Research Progress %
++20%
+Tax Efficiency
++10%
+Trade Efficiency
+Country Change
+[
+edit
+|
+edit source
+]
+The Country Change game rule allows switching the player country after the game has started. If set to Country Change Prohibited, the button to switch countries will still appear in the pause menu, but the option to play as another country will be greyed out. If set to Country Change Allowed, achievements will be disabled and Ironman Mode cannot be enabled.
+Other general game rules
+[
+edit
+|
+edit source
+]
+Game rule
+Setting
+Effects
+Historical AI
+Historical
+The AI will always choose the historical options in dynamic historical events.
+Weighted
+The AI will pick event options dependent on its situation.
+Random
+The AI will pick event options completely at random.
+Tooltip Tutorials
+Tutorial Tooltipping Active
+This setting enables additional tutorial-like tooltips which might feel like handholding.
+Events and other UI objects give additional tooltipping to highlight what mechanics can be used to resolve certain tasks and difficulties.
+Additional Tooltipping Inactive
+This setting deactivates the additional tutorial-like tooltips. This might increase immersion and make the experience feel less handholding.
+Mission Packs
+Missions Enabled
+This setting will allow full access to
+Missions
+.
+Missions Disabled
+This setting will disable all
+Missions
+, making it impossible to complete any in the game.
+Mission Rewards
+Every Task Rewards
+Every mission task will provide a reward.
+Only Mission End Rewards
+The
+Missions
+have only a reward at the end of the mission. Mission tasks as such have no rewards on completion.
+No Rewards
+The
+Missions
+have no game altering rewards on completion whatsoever.
+Ledger Information
+Show All
+All information is displayed in the ledger.
+Hide Country and Goods
+Country and goods information is hidden in the ledger.
+Multiplayer game rules
+[
+edit
+|
+edit source
+]
+The following game rules only have an effect in multiplayer games. None of them disables achievements.
+Game rule
+Setting
+Effects
+Victory Cards
+Victory Cards Disabled
+Countries
+will not get victory cards for score.
+Victory Cards Enabled
+Countries
+will occasionally get victory cards for score.
+Multiplayer Pause Settings
+Block clients pause/unpause
+Clients are NOT able to pause or unpause the game.
+Block clients unpause from host/system
+Clients are able to pause and unpause the game, but they are NOT able to unpause if the host or the system paused the game.
+Allow clients pause/unpause
+Clients are able to pause and unpause the game always.
+Multiplayer Unpause Timeout
+0
+All players are able to unpause the game at all times.
+30
+The host and the client who paused the game can unpause always.
+The rest of the clients must wait 30 seconds to be able to unpause the game.
+60
+The host and the client who paused the game can unpause always.
+The rest of the clients must wait 60 seconds to be able to unpause the game.
+120
+The host and the client who paused the game can unpause always.
+The rest of the clients must wait 120 seconds to be able to unpause the game.
+Go to Lobby after Hotjoin
+Yes
+All players will be forced into the lobby when a client hotjoins.
+No
+All players will remain in-game when a client hotjoins.
+Pause when a player leaves the game
+Yes
+The game will be paused when a player leaves the game.
+No
+The game will not be paused when a player leaves the game.
+Change speed in multiplayer wars
+Yes
+Slow down speed when a war starts with at least 2 players.
+No
+Keep the current speed when a war starts with at least 2 players.
+Change Countries Dynastic Naming
+Yes
+Countries named after dynasties will change their name and flag according to the ruler's dynasty if that changes.
+No
+Countries named after dynasties will not change their name and flag, regardless of the dynasty they are ruled by.
+Flavor game rules
+[
+edit
+|
+edit source
+]
+Flavor game rules are used to make the game more or less historical.
+Game rule
+Setting
+Effects
+Achievements
+Formable Countries
+Only Historical
+Only countries that were formed in history are allowed to be formed.
+Allow Plausible
+Allow the formation of ahistorical countries which creation would have been historically plausible.
+Allow Ahistorical
+All countries can be formed, including those that are ahistorical and may be immersion-breaking.
+AI Colonization
+All countries
+All AI countries can
+Colonize
+.
+Only Western Countries
+AI countries can only
+Colonize
+if their capital is in Europe.
+AI Exploration
+All countries
+All AI countries can
+Explore
+.
+Only Western Countries
+AI countries can only
+Explore
+if their capital is in Europe.
+Culture Conversions
+Dynamic rules
+Countries can convert
+Culture
+if visible criteria are filled.
+Inside Culture Group only
+Countries can only convert
+Culture
+to other cultures belonging to the same culture group.
+Present in Country
+Countries can convert
+Culture
+to any culture present in the country.
+Any Culture
+Countries can convert
+Culture
+to any culture unrestricted.
+Religion Conversions
+Dynamic rules
+Countries can convert
+Religion
+if visible criteria are filled.
+Inside Religion Group only
+Countries can only convert
+Religion
+to other religions belonging to the same religion group.
+Present in Country
+Countries can convert
+Religion
+to any religion present in the country.
+Any Culture
+Countries can convert
+Religion
+to any religion unrestricted.
+Black Death Outbreak Year
+1346
+The
+Bubonic Plague
+Disease
+and the
+Black Death
+Situation
+will emerge in the historical year, 1346.
+Random
+The
+Bubonic Plague
+Disease
+and the
+Black Death
+Situation
+has a 0.5% monthly chance to emerge in the
+Age of Renaissance
+.
+The
+Bubonic Plague
+Disease
+and the
+Black Death
+Situation
+has a 1% monthly chance to emerge in the
+Age of Discovery
+.
+The
+Bubonic Plague
+Disease
+and the
+Black Death
+Situation
+will emerge at the beginning of the
+Age of Reformation
+if it hasn't emerged already.
+Disabled
+The
+Bubonic Plague
+Disease
+and the
+Black Death
+Situation
+will never emerge.
+Black Death Origin
+Central Asia
+The
+Bubonic Plague
+Disease
+and the
+Black Death
+Situation
+will emerge from a random location anywhere in the
+Desht-i Kipchak
+,
+Astrakhan
+, or
+Lower Yik
+areas.
+Random
+The
+Bubonic Plague
+Disease
+and the
+Black Death
+Situation
+will emerge from a random location anywhere in
+Asia
+,
+Europe
+, or
+North Africa
+.
+Institution Spawn
+Dynamic
+Institutions will spawn in locations dynamically depending on what circumstances would have spawned them historically.
+Institutions will spread at a fast rate to locations that met the spawning requirements but weren't picked as the institution spawn location.
+Historical
+Institutions will spawn in the exact historical location they spawned in history.
+Random City
+Institutions will spawn in a random city.
+Byzantium Name
+Default
+The Greek
+Country
+centered around Byzantion will be known as the Byzantine Empire.
+Eastern Roman Empire
+The Greek
+Country
+centered around Byzantion will be known as the Eastern Roman Empire, even though they are about one thousand Roman miles from the city of Rome.
+Ironman Mode
+[
+edit
+|
+edit source
+]
+Ironman Mode is a special game rule that disables manual saving and changing game rules after the game has started. The game is saved automatically once every 6 months, as well as when exiting the game. Ironman mode can only be enabled before the game has started, and only if the Country Change game rule is set to prohibited.
+References
+[
+edit
+|
+edit source
+]
+Europa Universalis V
+Game
+Achievements
+•
+Features
+•
+Game rules
+Guides
+Beginner's guide
+•
+Europedia
+•
+Keyboard shortcuts
+•
+Map modes
+•
+Tutorial videos
+•
+User interface
+Development
+Developer diaries
+•
+Downloadable content
+•
+Patches
+Community
+Easter eggs
+•
+Jargon
+•
+Modding
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=Game_rules&oldid=18859
+"

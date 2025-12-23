@@ -1,0 +1,2378 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-35-30th-of-october.1712624/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #35 - 30th of October
+Thread starter
+Johan
+Start date
+Oct 30, 2024
+Hello everyone and welcome to another Tinto Talks, as it's a Happy Wednesday, the day of the week where we spill information about our super-mega-fantastically-secret game with the code name of Project Caesar.
+Today we’ll talk about three relatively related topics, relating to Country Ranks, Great Powers and Hegemonies.
+Country Ranks
+There are four ranks that countries can have in Project Caesar. It is more similar to EU4 than Imperator in that changing country ranks is something you actively do on your own. Besides having various rules on what a country can do, they also give some benefits, and rather importantly to the player experience, they impact what the countries are called.
+The code supports multiple types of ranks at the same level, so modders could in theory add dozens of variants of a duchy rank if they so desire.
+The default rank is the County Rank, which all countries default to, unless set up to be something else.
+The first rank above that is the Duchy Rank, where you can now guarantee other countries, and a little bit higher diplomatic capacity and power projection. Countries that start on this level include the Duchy of Brittany or the Duchy of Lithuania. To be able to upgrade from a county to a duchy, you can not be in any International Organizations that disallow rank changes, but you also need at least 100,000 pops of your primary culture.
+The next rank above that is the Kingdom Rank, which requires 1 million pops of your primary culture and gives a larger diplomatic range and other abilities. This includes countries like the Kingdom of Sweden and the Sultanate of Delhi
+The final rank, the Empire Rank, which is the hardest to promote to, allows for a wider variety of diplomatic actions, and other abilities. At the start of the game there is only one Empire in Europe though, the Eastern Roman one. A country must become a Great Power before they are able to attain this rank, and there are special restrictions on Catholic countries from pretending to be emperors without the Pope’s permission.
+Yeah, Livonian Order with about 380 Prussians has a bit of a challenge here..
+Great Powers
+A great power is a country that through advances, population, land area, development, and other factors has risen to be one of the most powerful countries in the world, and as such gains the ability to influence other countries simply by throwing its weight around.
+The countries with the highest great power score become great powers. Subjects and countries fighting for their independence may not become Great Powers.
+The countries you’d perhaps expect to be Great Powers in 1337 right?
+Currently there are always eight different countries that are the Great Powers, but this is not a design we are 100% satisfied with. We have been talking about making the amount variable per age, or by using a threshold. We’ve also talked about mechanics for regional powers, but all designs so far have some severe drawbacks, for example how we would define the geographical area to make it feel good.
+There are some advantages to being a Great Power after all…
+Hegemony
+This is another feature that was introduced in the ‘Emperor’ DLC for EU4, but here will be a part of the base game. In that game this was a late game mechanic that would pit the most dominant countries against each other. This created a mechanic that most people never saw, and if they saw it in single-player, it was merely a tool to make the player even more powerful when he had already won the game.
+In this game, however, the Hegemony mechanics unlock through an advance in the Age of Discovery.
+We currently have three types of hegemony, Military, Navy and Economic, in the game, similar to EU4, and you can only be one type of Hegemony at the same time. We could be open to adding maybe a Cultural Hegemony as well, as the next few weeks Tinto Talks will show things about Culture-related systems.
+To proclaim a Hegemony you need to be a Great Power, and then have a bigger army, navy or economy than all other great powers. After you proclaim it, you get a bonus where most of it scales with how long you have held the hegemony.
+In a game where a casus belli is not always easy to get, the fact that you can always create a Casus Belli on any hegemon, if you are not one yourself, can be beneficial.
+If you ever lose a war as a hegemon, you will lose your hegemony.
+And remember, if you lose your hegemony, your prestige and diplomatic reputation will suffer.
+This one is kind of fun to have..
+Stay tuned, as next week, we will do the first development diary about our new cultural mechanics in Project Caesar.
+189
+92
+46
+18
+5
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+26
+Next
+1 of 26
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Oct 30, 2024
+Add bookmark
+#2
+The idea of being an hegemon nullifying the adverse attrition of nature gives me very "
+Canute ordering the waves
+" vibes lol
+I will say, I think it's a good idea, yes, to include more than just the old three from EU4. Cultural Hegemony sounds like a good option, but maybe have also one entirely dedicated to diplomatic soft power? Or one dedicated to vassalages? The EU4 distribution, after all, was designed after Diplomacy and Naval matters being fed from the same Diplo-points mana well, which will no longer be the case in this game.
+I suppose that, ideally, you'd have one hegemony type for every one of the most popular player objectives for video games, but I understand if that would be all tough to fine-tune right now.
+Last edited:
+Oct 30, 2024
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+149
+14
+4
+3
+1
+Reactions:
+Reply
+Report
+Tercio Soldier
+Major
+58 Badges
+Feb 25, 2020
+568
+4.336
+Oct 30, 2024
+Add bookmark
+#3
+Are historical kingdoms with small populations like the kingdom of Navarre kingdom rank? They definetively didn't have a population of 1 million.
+121
+18
+3
+Reactions:
+Reply
+Report
+Goblin Slave
+Goblin
+58 Badges
+Jul 6, 2018
+188
+2.402
+Oct 30, 2024
+Add bookmark
+#4
+Sweet Jesus those 3d characters are looking rough, are they still early in development? (Except for the King of France, he looks pretty fire)
+79
+19
+12
+1
+Reactions:
+Reply
+Report
+bluepotato81
+Second Lieutenant
+24 Badges
+Jun 12, 2024
+145
+1.862
+Oct 30, 2024
+Add bookmark
+#5
+Didn't expect JAPAN of all countries to be a great power at this time. Sure they defeated the Mongols but not the first country(or.. any number of consequent countries) to come to my mind when I think of '1330s Superpowers'
+Toggle signature
+Deliver me from mine enemies, O my God: defend me from them that rise up against me. Defend me from the workers of iniquity, and save me from bloody men. The mighty are gathered against me, awake to help me, and behold.
+Nor is there pain, or cause of pain, Or cease in pain, or noble path to lead from pain;
+The Master said, "Is it not pleasant to learn with a constant perseverance and application? Is it not delightful to have friends coming from distant quarters? Is he not a man of complete virtue, who feels no discomposure though men may take no note of him?"
+Do not despair of the mercy of Allāh. Indeed, Allāh forgives all sins. Indeed, it is He who is the Forgiving, the Merciful.
+The Tao that can be told is not the eternal Tao, and the name that can be named is not the eternal Name.
+It is not your duty to finish the work, but neither are you at liberty to neglect it;
+The finest essence here—that constitutes the self of this whole world; that is the truth; that is the self.
+O Son of Man! Veiled in My immemorial being and in the ancient eternity of My essence, I knew My love for thee; therefore I created thee, have engraved on thee Mine image and revealed to thee My beauty.
+Rise up for me, O Ahura, through Armaiti give strength, through the holiest Spirit give might, O Mazda, through the good Recompense, through the Right give powerful prowess, through Good Thought give the reward.
+O my mind, remember the Lord in meditation; He is the Destroyer of pain, the Eradicator of fear, the Sovereign Lord King. He is the Greatest Lover, the Merciful Master, the Enticer of the mind, the Support of His devotees - this is His very nature.
+In some ways, it is, in some ways, it is not, in some ways, it is, and it is not, in some ways, it is indescribable, in some ways, it is, and it is indescribable, in some ways, it is not, and it is indescribable, in some ways, it is, it is not, and it is indescribable.
+So be diligent in seeking knowledge, keeping company with those of understanding, and studying at all times, and you will attain goodness and blessings.
+An ash I know there stands, - Yggdrasill is its name, - a tall tree, showered - with shining loam. - From there come the dews - that drop in the valleys. - It stands forever green over - Urðr's well.
+Our God, with His mercy - Brought for us beauty and loveliness - He gave a command to the Pen of Power - We were thrown into the Mystery of Love.
+I saw my father, I saw him, and I gave him three requests. I asked him for a great heart, which can be carried by the big and the little. I asked him for calmness, in which there is no rebellion. I asked him for a level path, to rise to light’s place in peace.
+63
+13
+2
+1
+Reactions:
+Reply
+Report
+Gianvitus
+Captain
+44 Badges
+Aug 29, 2017
+310
+1.634
+Oct 30, 2024
+Add bookmark
+#6
+Johan said:
+Stay tuned, as next week, we will do the first development diary about our new cultural mechanics in Project Caesar.
+Click to expand...
+Finally: can't wait for it.
+19
+13
+Reactions:
+Reply
+Report
+Danskjävel
+Corfitz Ulfeldt
+32 Badges
+Jan 4, 2017
+369
+1.887
+Oct 30, 2024
+Add bookmark
+#7
+As opposed to the peace treaty TT, this looks like it's actually building upon and improving already well functioning systems.
+It might be a good idea to also have some mechanics working actively against the hegemons though. And have it based on mechanics rather than modifiers.
+Last edited:
+Oct 30, 2024
+10
+5
+Reactions:
+Reply
+Report
+ibvfteh
+Lt. General
+38 Badges
+Feb 9, 2019
+1.597
+9.577
+Oct 30, 2024
+Add bookmark
+#8
+So Empire Rank is limited to 10 nations max?
+18
+Reactions:
+Reply
+Report
+peteoj
+Lt. General
+4 Badges
+Oct 28, 2022
+1.533
+12.953
+Oct 30, 2024
+Add bookmark
+#9
+I'm really liking the 3d characters compared to eu4 especially just for immersion sakes and better readability, I know they're not a focus but I'd enjoy a larger variety in clothing.
+53
+31
+10
+1
+Reactions:
+Reply
+Report
+Diamond2323
+Sergeant
+52 Badges
+Jun 3, 2018
+84
+571
+Oct 30, 2024
+Add bookmark
+#10
+Very interesting. I always thought that EU4's Great Power system was far too binary, either you're a GP (and can do all the GP things) or you aren't, regardless if you're the 8th or the 1st. Is this still the case in Project Caesar?
+In terms of the new country ranks, they seem to be well-structured, although I'm not sure what the idea is behind not automatically promoting to a higher tier. I think that worked in Imperator: maybe automatic upgrades for everything except Empire rank?
+Toggle signature
+"The meeting of two personalities is like the contact between two chemical substances. If there is any reaction, both are transformed."
+​
+13
+2
+1
+Reactions:
+Reply
+Report
+F
+Fehervari
+Captain
+30 Badges
+Apr 9, 2017
+452
+1.672
+Oct 30, 2024
+Add bookmark
+#11
+@Johan
+Could you please shed some light on how development is calculated? We had some ideas of our own, but we could be quite a bit of the mark.
+Fehervari said:
+@Johan
+We're doing some calculations for Hungary's cities and towns based on Kubinyi András' method for centrality points calculation:
+https://tti.abtk.hu/images/kiadvanyok/folyoiratok/tsz/tsz2004-1-2/001-030_Kubinyi.pdf
+Instead of specific places however, we're applying a corrected version that can work for entire locations too.
+My question concerns development. For locations that include places with atleast some urban functions, could the sum of centrality values being divided with the area(km^2) of the location be a good approach to calculate the relative values of what the game considers "development"?
+For locations that lack places with any kind of urban functions, we're planning to use population density values for basis.
+To give an idea how this could look like here's a WIP version table with the current calculated values for
+our suggestion's locations
+:
+Spoiler:
+Table (WIP values)
+ID
+Location Name
+Population Size
+Area (km^2)
+Pop. density (/km^2)
+Centrality
+Rural correction
+Development
+Dev. %
+Urbanisation
+88
+Buda
+10047
+637
+15,76
+50,7
+79,55
+100,00%
+city
+82
+Esztergom
+11985
+780
+15,37
+36,3
+46,54
+58,51%
+city
+77
+Visegrád
+3723
+378
+9,84
+16,4
+43,34
+54,49%
+town
+43
+Pozsony
+7815
+449
+17,41
+15,1
+33,65
+42,29%
+town
+192
+Szászsebes
+16320
+1401
+11,64
+43,1
+30,75
+38,66%
+city
+115
+Várad
+20094
+1245
+16,14
+38,1
+30,59
+38,46%
+city
+74
+Vác
+4437
+551
+8,06
+16,1
+29,24
+36,75%
+town
+60
+Eger
+13821
+911
+15,18
+25,5
+28,00
+35,20%
+town
+240
+Újlak
+13133
+760
+17,29
+19,7
+25,93
+32,59%
+town
+186
+Pécs
+38949
+1707
+22,82
+37,1
+21,74
+27,32%
+city
+23
+Kassa
+21318
+1409
+15,13
+29,5
+20,94
+26,32%
+town
+195
+Zágráb
+14280
+1410
+10,13
+28,2
+20,00
+25,14%
+town
+37
+Sajószentpéter
+12215
+722
+16,92
+14
+19,40
+24,38%
+36
+Sárospatak
+24286
+1528
+15,89
+29
+18,98
+23,85%
+town
+13
+Eperjes
+18462
+1030
+17,93
+19,4
+18,84
+23,68%
+town
+10
+Lőcse
+13362
+1301
+10,27
+23,9
+18,37
+23,09%
+town
+56
+Miskolc
+14076
+1169
+12,04
+20,7
+17,70
+22,25%
+town
+178
+Gyulafehérvár
+27642
+2104
+13,14
+36,9
+17,54
+22,05%
+city
+31
+Korpona
+7803
+1094
+7,14
+19
+17,37
+21,84%
+town
+132
+Kolozsvár
+13362
+1325
+10,09
+23
+17,36
+21,82%
+town
+48
+Selmecbánya
+11220
+1062
+10,56
+18
+16,95
+21,30%
+town
+17
+Besztercebánya
+4437
+671
+6,61
+11,3
+16,84
+21,17%
+202
+Verőce
+5330
+518
+10,28
+8,5
+16,40
+20,61%
+67
+Gyöngyös
+14382
+959
+14,99
+15,3
+15,95
+20,05%
+town
+52
+Nyitra
+16320
+1416
+11,53
+21,1
+14,90
+18,73%
+town
+104
+Fehérvár
+15096
+1928
+7,83
+28,7
+14,89
+18,71%
+town
+242
+Szalánkemén
+9180
+769
+11,93
+11,2
+14,56
+18,30%
+78
+Hatvan
+6401
+688
+9,31
+9,8
+14,25
+17,92%
+16
+Gölnicbánya
+5202
+917
+5,67
+12,5
+13,63
+17,13%
+86
+Győr
+12291
+1534
+8,01
+20,6
+13,43
+16,88%
+town
+41
+Szikszó
+24168
+1545
+15,64
+19,7
+12,75
+16,02%
+town
+93
+Kőszeg
+5840
+434
+13,45
+5,5
+12,66
+15,92%
+8
+Rózsahegy
+7803
+1167
+6,69
+14,5
+12,43
+15,62%
+33
+Újbánya
+7803
+927
+8,41
+11,5
+12,40
+15,59%
+45
+Ság
+8543
+827
+10,33
+10
+12,09
+15,20%
+29
+Körmöcbánya
+4616
+874
+5,28
+10,5
+12,01
+15,09%
+100
+Pest
+4829
+1084
+4,46
+13
+11,99
+15,08%
+61
+Komárom
+4029
+735
+5,48
+8,5
+11,56
+14,53%
+166
+Szeged
+2934
+1318
+2,23
+15,2
+11,53
+14,49%
+town
+143
+Lendva
+3315
+381
+8,69
+4,345577088
+11,39
+14,32%
+211
+Csázma
+24735
+2080
+11,89
+23,5
+11,30
+14,20%
+town
+57
+Nógrád
+7472
+906
+8,25
+10
+11,04
+13,88%
+204
+Bodrog
+3570
+1293
+2,76
+14,1
+10,90
+13,71%
+215
+Eszék
+11220
+1010
+11,10
+11
+10,89
+13,68%
+235
+Diakóvár
+12291
+1307
+9,40
+14,2
+10,86
+13,65%
+267
+Szávaszentdemeter
+3570
+1134
+3,15
+12,3
+10,84
+13,63%
+144
+Torda
+20375
+1692
+12,04
+18,3
+10,82
+13,60%
+town
+62
+Szőgyén
+7293
+558
+13,08
+6
+10,76
+13,52%
+89
+Sopron
+12750
+1163
+10,96
+12,2
+10,49
+13,19%
+18
+Privigye
+6936
+814
+8,52
+8,4
+10,31
+12,96%
+198
+Brassó
+8364
+1139
+7,35
+11,7
+10,28
+12,92%
+39
+Nagyszombat
+12827
+1418
+9,05
+14,5
+10,23
+12,85%
+27
+Tornavár
+7472
+695
+10,75
+7
+10,07
+12,66%
+59
+Maros
+9231
+658
+14,02
+6,5
+9,87
+12,41%
+92
+Debrecen
+13898
+1387
+10,02
+13,6
+9,81
+12,33%
+121
+Teke
+16499
+1243
+13,27
+12
+9,65
+12,13%
+14
+Szucsány
+6681
+1038
+6,44
+10
+9,64
+12,12%
+185
+Csanád
+13362
+1655
+8,07
+15,9
+9,61
+12,08%
+town
+6
+Kisszeben
+19380
+910
+21,30
+8,7
+9,56
+12,02%
+113
+Veszprém
+13974
+1700
+8,22
+16,1
+9,47
+11,90%
+town
+184
+Lippa
+1922
+1172
+1,64
+11
+9,39
+11,80%
+168
+Arad
+9180
+751
+12,22
+7
+9,32
+11,71%
+149
+Aranyosbánya
+2958
+860
+3,44
+8
+9,30
+11,69%
+54
+Bars
+15198
+1042
+14,59
+9,2
+8,83
+11,10%
+103
+Szombathely
+13821
+883
+15,66
+7,6
+8,61
+10,82%
+124
+Berényhida
+7650
+705
+10,85
+6
+8,51
+10,70%
+307
+Kismarton
+5559
+722
+7,70
+6
+8,31
+10,44%
+187
+Kapronca
+15045
+1237
+12,17
+10,1
+8,17
+10,27%
+20
+Trencsén
+12827
+1232
+10,41
+10
+8,12
+10,21%
+50
+Dédes
+8160
+711
+11,48
+5,740070204
+8,08
+10,15%
+180
+Sződ
+8747
+674
+12,98
+5,4
+8,01
+10,07%
+191
+Szekcső
+14280
+1027
+13,91
+8,2
+7,99
+10,04%
+51
+Tokaj
+14816
+895
+16,56
+7
+7,83
+9,84%
+81
+Szatmár
+16779
+2546
+6,59
+19,8
+7,78
+9,78%
+town
+147
+Gyula
+2346
+779
+3,01
+6
+7,70
+9,68%
+196
+Siklós
+13949
+918
+15,19
+7
+7,62
+9,58%
+87
+Csorna
+2346
+834
+2,81
+6,3
+7,56
+9,50%
+21
+Holics
+2958
+936
+3,16
+7
+7,47
+9,40%
+228
+Velike
+8543
+950
+8,99
+7
+7,37
+9,26%
+125
+Körmend
+11220
+1020
+11,00
+7,5
+7,35
+9,24%
+109
+Beszterce
+16218
+2530
+6,41
+18,6
+7,35
+9,24%
+town
+114
+Vasvár
+12827
+1531
+8,38
+11,2
+7,32
+9,20%
+224
+Pozsegavár
+17340
+1555
+11,15
+11,3
+7,27
+9,13%
+200
+Nagyszeben
+13362
+1615
+8,27
+11,7
+7,24
+9,10%
+230
+Titel
+7548
+1778
+4,25
+12,7
+7,14
+8,98%
+216
+Monoszló
+7242
+991
+7,31
+7
+7,06
+8,88%
+141
+Somogyvár
+29156
+1275
+22,87
+9
+7,06
+8,87%
+136
+Tapolca
+29070
+1700
+17,10
+12
+7,06
+8,87%
+58
+Szécsény
+12291
+1296
+9,49
+9
+6,95
+8,73%
+108
+Pápa
+5789
+1687
+3,43
+11,7
+6,94
+8,72%
+53
+Szölős
+6962
+1303
+5,34
+9
+6,90
+8,68%
+105
+Dés
+10608
+1454
+7,29
+9,9
+6,81
+8,56%
+71
+Asszonypataka
+3570
+1324
+2,70
+9
+6,80
+8,54%
+162
+Varasd
+9180
+829
+11,07
+5,53458114
+6,67
+8,39%
+145
+Körösszeg
+21420
+1831
+11,70
+12,1
+6,61
+8,31%
+4
+Lubló
+5789
+1215
+4,76
+8
+6,58
+8,28%
+127
+Solt
+8364
+1110
+7,53
+7
+6,31
+7,93%
+55
+Somorja
+17111
+1756
+9,74
+11
+6,26
+7,87%
+205
+Baranyavár
+13770
+1121
+12,29
+7
+6,25
+7,85%
+226
+Bács
+28050
+2386
+11,76
+14,7
+6,16
+7,74%
+220
+Csütörtökhely
+13260
+1176
+11,27
+7,1
+6,04
+7,59%
+140
+Székelyvásárhely
+20706
+1507
+13,74
+9
+5,97
+7,51%
+84
+Heves
+14433
+1683
+8,57
+10
+5,94
+7,47%
+199
+Hunyadvár
+3570
+1348
+2,65
+8
+5,94
+7,46%
+102
+Fegyvernek
+6375
+1188
+5,37
+7
+5,89
+7,41%
+189
+Körös
+16575
+1712
+9,68
+10
+5,84
+7,34%
+26
+Kapos
+14433
+1377
+10,48
+8
+5,81
+7,30%
+138
+Kapornak
+27132
+1756
+15,45
+10,1
+5,75
+7,23%
+42
+Gömör
+23919
+1573
+15,20
+9
+5,72
+7,19%
+160
+Nádasd
+28254
+1594
+17,72
+9,1
+5,71
+7,17%
+183
+Déva
+4616
+1445
+3,19
+8
+5,54
+6,96%
+151
+Kanizsa
+13260
+1226
+10,82
+6,7
+5,46
+6,87%
+28
+Csetnek
+7548
+1831
+4,12
+10
+5,46
+6,87%
+236
+Dubica
+6681
+975
+6,86
+5,3
+5,44
+6,84%
+123
+Bánffyhunyad
+8721
+1659
+5,26
+9
+5,42
+6,82%
+25
+Vágújhely
+7242
+1128
+6,42
+6
+5,32
+6,69%
+24
+Nagymihály
+19890
+1518
+13,10
+8
+5,27
+6,62%
+251
+Érsomlyó
+1734
+1335
+1,30
+7
+5,24
+6,59%
+161
+Küküllővár
+21420
+1730
+12,38
+9
+5,20
+6,54%
+158
+Segesd
+17034
+1249
+13,64
+6,5
+5,20
+6,54%
+128
+Nagyböszörmény
+12750
+1155
+11,04
+6
+5,19
+6,53%
+137
+Muraszombat
+3876
+611
+6,34
+3,171522325
+5,19
+6,52%
+237
+Bród
+13592
+1053
+12,90
+5,4
+5,13
+6,44%
+157
+Kalocsa
+4182
+1572
+2,66
+8
+5,09
+6,40%
+253
+Marót
+6936
+826
+8,39
+4,197179443
+5,08
+6,39%
+182
+Bátmonostor
+4182
+1387
+3,02
+7
+5,05
+6,35%
+76
+Muhi
+14790
+1212
+12,20
+6
+4,95
+6,22%
+227
+Valkóvár
+21318
+1217
+17,52
+6
+4,93
+6,20%
+155
+Csáktornya
+5559
+762
+7,30
+3,64987771
+4,79
+6,02%
+34
+Galgóc
+17952
+1337
+13,43
+6,4
+4,79
+6,02%
+47
+Kisvárda
+13770
+1256
+10,96
+6
+4,78
+6,00%
+30
+Rimaszombat
+5559
+765
+7,27
+3,635261495
+4,75
+5,98%
+177
+Krapina
+11220
+1089
+10,30
+5,150790908
+4,73
+5,94%
+190
+Csehi
+18437
+1400
+13,17
+6,585984253
+4,71
+5,91%
+181
+Torja
+9486
+1280
+7,41
+6
+4,69
+5,89%
+83
+Tata
+7803
+1220
+6,40
+5,7
+4,67
+5,87%
+165
+Simánd
+14790
+1271
+11,64
+5,819724792
+4,58
+5,76%
+171
+Hetes
+21930
+1257
+17,44
+5,7
+4,53
+5,70%
+222
+Cseri
+14280
+1344
+10,63
+6
+4,47
+5,61%
+252
+Németi
+11169
+1579
+7,08
+7
+4,43
+5,57%
+96
+Böszörmény
+7803
+1362
+5,73
+6
+4,40
+5,54%
+176
+Atád
+16983
+1227
+13,85
+5,4
+4,40
+5,53%
+111
+Bolcshida
+12291
+1363
+9,01
+6
+4,40
+5,53%
+164
+Hód-Vásárhely
+5202
+1594
+3,26
+7
+4,39
+5,52%
+2
+Bártfa
+16575
+1823
+9,09
+8
+4,39
+5,52%
+163
+Ozora
+28050
+1605
+17,47
+7
+4,36
+5,48%
+169
+Tolnavár
+13362
+1605
+8,32
+7
+4,36
+5,48%
+46
+Huszt
+1734
+2320
+0,75
+10
+4,31
+5,42%
+266
+Zimony
+5202
+1268
+4,10
+5,4
+4,26
+5,35%
+179
+Medgyes
+15504
+1910
+8,12
+8
+4,19
+5,27%
+64
+Udvard
+4998
+780
+6,40
+3,202445978
+4,10
+5,16%
+212
+Gorica
+11169
+1457
+7,66
+5,9
+4,05
+5,09%
+116
+Monyorókerék
+12291
+1234
+9,96
+4,980403654
+4,04
+5,07%
+98
+Székelyhíd
+16830
+1488
+11,31
+6
+4,03
+5,07%
+231
+Mezősomlyó
+5789
+1741
+3,32
+7
+4,02
+5,05%
+150
+Szentes
+4616
+1358
+3,40
+5,4
+3,98
+5,00%
+40
+Beregszász
+12291
+1383
+8,89
+5,5
+3,98
+5,00%
+22
+Ungvár
+2222
+2036
+1,09
+8
+3,93
+4,94%
+79
+Kálló
+14433
+1800
+8,02
+7
+3,89
+4,89%
+112
+Bonchida
+19253
+2081
+9,25
+8
+3,84
+4,83%
+49
+Técső
+1422
+2114
+0,67
+8
+3,79
+4,76%
+210
+Temesvár
+21930
+2288
+9,58
+8,4
+3,67
+4,61%
+120
+Szolnok
+4182
+1636
+2,56
+6
+3,67
+4,61%
+175
+Segesvár
+9308
+1910
+4,87
+7
+3,66
+4,61%
+44
+Fülek
+13898
+1740
+7,99
+6
+3,45
+4,33%
+214
+Ozalj
+16040
+1602
+10,01
+5,4
+3,37
+4,24%
+75
+Ecsed
+19253
+2382
+8,08
+8
+3,36
+4,22%
+208
+Szalatnok
+18182
+2052
+8,86
+6,8
+3,31
+4,17%
+5
+Zsolna
+4182
+1953
+2,14
+6
+3,07
+3,86%
+234
+Blagaj
+14433
+1535
+9,40
+4,700346839
+3,06
+3,85%
+73
+Máramarossziget
+1734
+2362
+0,73
+7
+2,96
+3,73%
+85
+Nyék
+2270
+621
+3,66
+1,828621713
+2,95
+3,70%
+250
+Osztrozsác
+8364
+1192
+7,02
+3,5098401
+2,95
+3,70%
+126
+Szászrégen
+12827
+1483
+8,65
+4,323920651
+2,92
+3,66%
+152
+Csíksomlyó
+9486
+1303
+7,28
+3,641152239
+2,80
+3,51%
+193
+Sepsiszentgyörgy
+15504
+1681
+9,23
+4,612823205
+2,74
+3,45%
+68
+Tiszalök
+8925
+1325
+6,74
+3,368134005
+2,54
+3,20%
+69
+Óvár
+4029
+907
+4,44
+2,221663991
+2,45
+3,08%
+7
+Vágbeszterce
+10608
+1478
+7,18
+3,587543877
+2,43
+3,05%
+219
+Lugos
+2346
+2565
+0,91
+6
+2,34
+2,94%
+213
+Rékás
+7803
+1293
+6,03
+3,01641223
+2,33
+2,93%
+194
+Révkanizsa
+5202
+1067
+4,87
+2,437030318
+2,28
+2,87%
+146
+Belényes
+7854
+3079
+2,55
+7
+2,27
+2,86%
+241
+Petrinya
+13974
+1782
+7,84
+3,920849071
+2,20
+2,77%
+70
+Nezsider
+3443
+934
+3,69
+1,842536861
+1,97
+2,48%
+135
+Simontornya
+6375
+1277
+4,99
+2,496470881
+1,96
+2,46%
+119
+Adony
+4029
+1062
+3,79
+1,896051648
+1,78
+2,24%
+170
+Kovácsháza
+6375
+1386
+4,60
+2,299526191
+1,66
+2,09%
+134
+Békés
+6962
+1506
+4,62
+2,31141223
+1,53
+1,93%
+156
+Székelyudvarhely
+18717
+2478
+7,55
+3,776736946
+1,52
+1,92%
+91
+Jászberény
+3570
+1170
+3,05
+1,526114869
+1,30
+1,64%
+107
+Nagyfalu
+3570
+1290
+2,77
+1,383332597
+1,07
+1,35%
+19
+Breznóbánya
+1222
+759
+1,61
+0,8046405139
+1,06
+1,33%
+35
+Malacka
+1734
+929
+1,87
+0,9336401282
+1,01
+1,26%
+225
+Becskerek
+11067
+2420
+4,57
+2,286799819
+0,95
+1,19%
+308
+Szoboszló
+3570
+1389
+2,57
+1,285301153
+0,93
+1,16%
+159
+Jenő
+9308
+2314
+4,02
+2,010939587
+0,87
+1,09%
+94
+Káta
+2346
+1213
+1,93
+0,9670714202
+0,80
+1,00%
+110
+Cegléd
+2346
+1272
+1,84
+0,9224936526
+0,73
+0,91%
+269
+Kozara
+11067
+2773
+3,99
+1,995359085
+0,72
+0,90%
+245
+Barlód
+4182
+1713
+2,44
+1,22042436
+0,71
+0,90%
+117
+Túr
+1734
+1131
+1,53
+0,7667767861
+0,68
+0,85%
+262
+Orbászvásárhely
+7242
+2443
+2,96
+1,482230528
+0,61
+0,76%
+129
+Gyergyószentmiklós
+1122
+962
+1,17
+0,5829758801
+0,61
+0,76%
+9
+Homonna
+7242
+2449
+2,96
+1,478524289
+0,60
+0,76%
+106
+Karcag
+1122
+996
+1,13
+0,5630144583
+0,57
+0,71%
+173
+Maroskapronca
+910
+905
+1,01
+0,5027606885
+0,56
+0,70%
+188
+Zenta
+1734
+1307
+1,33
+0,6633594351
+0,51
+0,64%
+167
+Abrudbánya
+1734
+1308
+1,33
+0,6626940796
+0,51
+0,64%
+229
+Karánsebes
+1734
+1469
+1,18
+0,5900916916
+0,40
+0,50%
+95
+Lápos
+2958
+1990
+1,49
+0,7432974509
+0,37
+0,47%
+218
+Hátszeg
+1734
+1533
+1,13
+0,5655115527
+0,37
+0,46%
+142
+Szarvas
+1922
+1626
+1,18
+0,5910731517
+0,36
+0,46%
+207
+Telek
+4182
+2401
+1,74
+0,8707472161
+0,36
+0,46%
+90
+Kővár
+910
+1167
+0,78
+0,3898845069
+0,33
+0,42%
+122
+Kecskemét
+2934
+2197
+1,34
+0,6678267513
+0,30
+0,38%
+203
+Fogaras
+1734
+1765
+0,98
+0,4912312248
+0,28
+0,35%
+264
+Illyéd
+2346
+2058
+1,14
+0,5700869575
+0,28
+0,35%
+248
+Modrus
+2958
+2460
+1,20
+0,6013267125
+0,24
+0,31%
+32
+Munkács
+2958
+2464
+1,20
+0,6001526632
+0,24
+0,31%
+97
+Zilah
+2346
+2232
+1,05
+0,5256152584
+0,24
+0,30%
+172
+Körösbánya
+910
+1436
+0,63
+0,3168479636
+0,22
+0,28%
+174
+Kiskunhalas
+2346
+2812
+0,83
+0,4171238215
+0,15
+0,19%
+298
+Glamocs
+1734
+2640
+0,66
+0,3283827025
+0,12
+0,16%
+265
+Keve
+1734
+2971
+0,58
+0,2917883103
+0,10
+0,12%
+1
+Alsókubin
+510
+1958
+0,26
+0,1302157427
+0,07
+0,08%
+272
+Orsova
+510
+2609
+0,20
+0,09773275441
+0,04
+0,05%
+The percentage values are relative to Buda's development level.
+(If I'm already at it, what centrality value would consider being the cut off point for the "city" and "town" statuses?)
+Would this approach be in line with what you consider "development", or should we use another one? For example utilising this below?
+https://real.mtak.hu/159822/1/02_RomhanyiSzilagyiDemeter.pdf
+View attachment 1197349
+Click to expand...
+1
+Reactions:
+Reply
+Report
+E
+EUnderhill
+Happy Feet!
+26 Badges
+Mar 27, 2002
+5.215
+2.068
+Visit site
+Oct 30, 2024
+Add bookmark
+#12
+I would love to see regional powers (and flexible numbers of GP)...but I'd also like to see the game not wait on it, so perhaps it is an expansion's problem.
+Toggle signature
+"It aint the fly you mind so much as where he's been."
+11
+3
+1
+Reactions:
+Reply
+Report
+E
+eanske
+Second Lieutenant
+Jun 10, 2020
+198
+1.296
+Oct 30, 2024
+Add bookmark
+#13
+I don't really like the Hegemony-feature as a classical snowball-feature. If I am the strongest empire on the planet I would expect to receive penalties to make the game interesting instead of bonuses to make the game easier.
+I do like that EU4 DLC content is in the PC base game!
+85
+38
+5
+Reactions:
+Reply
+Report
+D
+Didsss
+Sergeant
+51 Badges
+Dec 27, 2016
+90
+732
+Oct 30, 2024
+Add bookmark
+#14
+1. Are there any pop requirements to become an empire or simply have 1 million primary culture subjects and be a great power?
+2. What does power projection do? In EU4 it just gave some buffs if I remember correctly, is it the same for PC? It would be nice if it affected AI behaviour, making them more likely to accept deals, demands and alliances etc with the player
+10
+Reactions:
+Reply
+Report
+Mindel
+AI Chatbot
+2 Badges
+Jan 23, 2018
+2.255
+11.180
+Oct 30, 2024
+Add bookmark
+#15
+How about making great powers a regional thing, in the way that trading markets divide up local trade power in terms of a proportional pie chart?
+Then a hegemon could be a nation which holds great power status in many regions.
+One of the advantages of using a regional model is that it gives AI nations a way to distinguish between local great powers, which should be of much greater concern, from distant great powers, and decide their foreign policy accordingly.
+49
+12
+Reactions:
+Reply
+Report
+Praetorian44
+Field Marshal
+103 Badges
+Dec 14, 2009
+5.143
+3.876
+Oct 30, 2024
+Add bookmark
+#16
+I noted that you only stated that modders can add more ranks at each level, but can we add more than four total levels?
+Toggle signature
+Check out my Paradox Let's Plays on YouTube!
+Hearts of Iron 4:
+Tsarist Russia
+,
+Kingdom of Sweden
+,
+Byzantine Empire
+,
+Communist France
+,
+Great Britain
+Crusader Kings III:
+Toulouse France RP
+,
+Lorraine HRE RP
+,
+Persia Kesranid
+,
+Poland Piast Dynasty RP
+,
+England William the Conqueror
+Victoria 3:
+France
+,
+Japan
+Millennia:
+Rome
+Europa Universalis 4:
+Milan
+Imperator Rome:
+Roman Republic
+Stellaris:
+United Orc Tribes
+9
+2
+Reactions:
+Reply
+Report
+M
+mrflagio
+Lt. General
+54 Badges
+Apr 10, 2024
+1.237
+6.004
+Oct 30, 2024
+Add bookmark
+#17
+Just get rid of Great Power and Hegemony mechanics. They're just gamey 'win-more' mechanics and add next to nothing to the gameplay. They were EU4 feature bloat from some of its worst DLCs.
+55
+36
+11
+Reactions:
+Reply
+Report
+Aquila SPQR
+LEGATVS PROPRAETOR BYZABOO MEME-MAN
+Jul 3, 2010
+2.438
+18.068
+Oct 30, 2024
+Add bookmark
+#18
+Johan said:
+At the start of the game there is only one Empire in Europe though, the Eastern Roman one.
+Click to expand...
+Naturally.
+5
+3
+1
+Reactions:
+Reply
+Report
+K
+Kn19hte
+Corporal
+22 Badges
+Feb 27, 2024
+37
+411
+Oct 30, 2024
+Add bookmark
+#19
+I thought this game was supposed to be straying away from modifier stacking. Why can't the hegemon system unlock new abilities instead of providing unfounded bonuses such as to attrition or army movement speed.
+94
+34
+2
+Reactions:
+Reply
+Report
+ibvfteh
+Lt. General
+38 Badges
+Feb 9, 2019
+1.597
+9.577
+Oct 30, 2024
+Add bookmark
+#20
+Johan said:
+Hegemony
+This is another feature that was introduced in the ‘Emperor’ DLC for EU4, but here will be a part of the base game. In that game this was a late game mechanic that would pit the most dominant countries against each other. This created a mechanic that most people never saw, and if they saw it in single-player, it was merely a tool to make the player even more powerful when he had already won the game.
+In this game, however, the Hegemony mechanics unlock through an advance in the Age of Discovery.
+We currently have three types of hegemony, Military, Navy and Economic, in the game, similar to EU4, and you can only be one type of Hegemony at the same time. We could be open to adding maybe a Cultural Hegemony as well, as the next few weeks Tinto Talks will show things about Culture-related systems.
+To proclaim a Hegemony you need to be a Great Power, and then have a bigger army, navy or economy than all other great powers. After you proclaim it, you get a bonus where most of it scales with how long you have held the hegemony.
+In a game where a casus belli is not always easy to get, the fact that you can always create a Casus Belli on any hegemon, if you are not one yourself, can be beneficial.
+If you ever lose a war as a hegemon, you will lose your hegemony.
+And remember, if you lose your hegemony, your prestige and diplomatic reputation will suffer.
+View attachment 1209269
+This one is kind of fun to have..
+Stay tuned, as next week, we will do the first development diary about our new cultural mechanics in Project Caesar.
+Click to expand...
+As we have hegemony, will there be something like European balance of power? To not allow hegemons control everything
+4
+3
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+26
+Next
+1 of 26
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

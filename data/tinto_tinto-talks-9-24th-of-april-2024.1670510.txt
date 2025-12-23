@@ -1,0 +1,686 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-9-24th-of-april-2024.1670510/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #9 - 24th of April 2024
+Thread starter
+Johan
+Start date
+Apr 24, 2024
+Welcome to another Tinto Talks, this is the 9th of its kind, where we talk about our very secret game using the codename Project Caesar.  And today we continue with the 3rd of the 4 talks we have now about the economy systems of the game.   So lets start..
+Constructions
+In the previous development diary, we mentioned constructions and how you needed lumber for expanding the mines. In this game, almost all constructions require different materials to progress, and if that material is not available in the local market, then that construction is stalled until the material is available. This includes things like road building, shipbuilding, recruiting regiments, building buildings, or expanding R.G.O’s.
+Not sure why you want another monastery?
+For example, building a light ship in the Age of Renaissance requires Naval Supplies, Lumber, Weaponry, Copper, Tin, and Metalworks, while moving your capital requires Paper, Books, Stone, Lumber, Marble, and gold.
+Buildings
+Buildings are rather important in Project Caesar. There are hundreds of different types of buildings, some can only be built in rural locations, and some require a town or city.  Some can only be built in ports, and some can only be built in other countries. Some you can only build when there is no owner of a location. Lots of buildings are unique to cultures, regions, religions, or even to specific tags.
+Some buildings can only have 1 level, some have a fixed cap, and some have a cap that scales with the population or development, and so on.
+Buildings can also be categorized into three different categories: buildings that can produce goods, buildings that only give effects, and buildings that can only be built by the estates. Those pure estates usually have a drawback to them as well, and it's not easy to remove them
+Definitely not something we are all that keen on having in here.. it does increase demands for some goods though..
+So what about producing buildings then? This is where the truly fun parts of the economy start. Project Caesar has a large amount of different goods. We currently have about 70 different ones that have different needs, some are needed for the military, some are needed solely by pops, some are needed for buildings, and so on.
+Producing Buildings in towns and cities go from guilds and workshops to manufactories and mills at the of the game. These include everything from Paper Makers Guilds to Foundries. A producing building outputs one or more types of goods.
+Finally, we have buildings that are purely giving an effect. These include Granaries that increase how much food you can store, libraries that increase literacy, different types of forts, buildings that train manpower, port buildings to help with shipbuilding, and much more.
+Some claim you can build Stockades of wood, but we trust only stone!
+Almost all buildings though, have a production method, which impacts how they work.
+Production methods
+All buildings have at least one production method slot with one production method, but many have different methods in each slot, and there are plenty of buildings with multiple production method slots.
+What is a production method then?
+A production method is a list of goods that are required for a building to function. There are two categories of production methods, those that produce something and those that do not.
+As an example, a Castle does not produce any goods, but it still requires Stone, Metalworks, Weaponry, and Tar to function, and if it does not get those goods, then the Castle will not function properly.  The effectiveness of a building is based on the lowest available percentage of goods present, and it will only purchase and use required materials in that percentage required.  If the market cannot supply enough resources, then it will not work.
+The output of the producing building is also scaled by the percentage mentioned above.
+There are a few options here, but only wood pulp would be profitable here, probably because of the great supply of lumber in this market..
+And of course, you can automate the production method selection, which will adapt it on a monthly basis based on what resources are available and what would be profitable.  The UI also allows for macro decisions regarding production methods
+Other important aspects
+Every building requires employed pops to function as well, and those that require “upper class” pops like burghers, clergy, and nobles, also increase the potential for them in the location, making pops slowly promoted. This can be slightly awkward as powerful nobles or clergy construct more buildings that make them more numerous and powerful.
+Producing buildings that are not profitable will be closed, and pops will work in other buildings, however, you can always subsidize a building if you require the goods or other benefits it gives.
+Speaking of profit. The profit of a building is added to the
+Tax Base
+of a location, split among the power of the population in the location.
+You can always close and open a building, if you want to manipulate prices, or if you want your pops to work with other things, and you don’t want to destroy a building permanently.
+We mentioned last week about different ways to get raw materials, and one way to get it, besides trade, is through a set of rural buildings.  These include Lumber Mills that you can build in any wood or forest location to produce lumber, sheep farms, stone quarries, and many more.
+Yeah, this requires some input..  Might be worth it..
+There are stockpiles of goods, but those are in the market.  There are buildings you can build that increase the amount they can store, as if you do not have the goods required for a building, unit, or construction, those will not function.
+Speaking of markets, that is something we will talk about more next week when we delve deep into the trade system.
+375
+182
+18
+14
+7
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+35
+Next
+1 of 35
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+Teng_Ri
+if u read this v1
+May 3, 2020
+597
+3.382
+Apr 24, 2024
+Add bookmark
+#2
+(This comment has been reserved for the tinto talks memes)
+Spoiler:
+big j's memes
+Hello Johan, will there be Turkish language support in Project Caesar?
+Johan said:
+We can not talk about languages yet
+Click to expand...
+Stockpiles confirmed then, also food reserves by province?
+Johan said:
+yes
+Click to expand...
+Zone of control is confirmed I guess, will they work same like in eu4?
+Johan said:
+ZoC has some common with Eu4, and some common with Imperator
+Click to expand...
+Are you able to destroy buildings when you’re attacking?
+Johan said:
+not easily.
+Click to expand...
+Can locations import goods outside their local market to get resources they need?
+Johan said:
+.. yes you can trade resources between markets.
+Click to expand...
+Does this mean that Pops also have needs or only buildings and navy and armies?
+Johan said:
+There are plenty of things needing goods, including pops.
+Click to expand...
+"Zone of Control" on the castle tooltip ...
+Johan said:
+Rules are more similar to Imperator, which was a 2.0 of the system.
+Of course, in the Napoleonic Age, you can freely ignore ZoC if you got the tech for it.
+Click to expand...
+Will buildings decay and therefore require small amount of goods for maintanance?
+Johan said:
+yes, its included in the PM for it.
+Click to expand...
+we can stock resource?
+Johan said:
+yes, if you got the market center you can.
+Click to expand...
+Do occupied provinces produce stuff?
+Johan said:
+it will be produced, but market access and other things like occupation and sieges may impact the volume produced, and how much reaches the market
+Click to expand...
+Will it be very unoptimal to automate the majority?
+Johan said:
+Primarily we use production methods to differentiate inputs, but also to improve efficiency and volume as the technology progresses.  I'd say its 95-99% good enough to have it on automatic for many people.  I suspect people at this forum are more likely to want it to be manually.
+Of course, we have macro changing PM's, using filters on which buildings are affected, including filters like this..
+Click to expand...
+can estates build their own buildngs that have production methods?
+Johan said:
+yes
+Click to expand...
+"If the market cannot supply enough resources, then it will not work." .. How does it work for forts?
+Johan said:
+it impacts the garrison levels and other scaleable values..
+fortlevel cant not scale though.
+Click to expand...
+So, blocks the army passage like EU4, and occupies the whole province (not just location) when the fort/castle falls to the siege?
+Johan said:
+yes
+Click to expand...
+How many languages will be there? I know english but having it in my language(turkish) would double my pleasure.
+big jay said:
+More than english, but we can't confirm anything else right now
+Click to expand...
+Spoiler:
+he keeps on memeing
+Do the estates also build "normal" buildings, i.e. those not exclusive to the estates?
+Johan said:
+yes.  If their satisfaction is >50% then its a diceroll checking vs their satisfaction if they should build somethign that is a good building for the country, or one that is just for them.
+keeping estates happy and rich can help you build up your country.
+Click to expand...
+How do estates guarantee inputs for their buildings?
+Johan said:
+The worst estate buildings have no input goods they require..  Just to stop the player from easily ignore them.
+Click to expand...
+I take it that certain buildings and production methods will be locked behind technology?
+Also, will coal be available throughout the game or unlocked later in the game like in eu4?
+Johan said:
+yes to the first.
+and coal exists from the start, but has far less uses early
+Click to expand...
+Are the buildings built in locations with no owner tied to the new colonisation system?
+Are the buildings built in other countries treaty ports?
+Johan said:
+yes and yes
+Click to expand...
+Can buildings done by estates stall the ones you want to build?
+Johan said:
+yes, but it all depends on the situation.
+Click to expand...
+Estates build something I don't want, I close or destroy it, they build it again, I close it again, etc?
+Johan said:
+You can't close estate buildings.
+and destroying them makes them upset.
+Click to expand...
+Any chance of dynamic change of the vegetation aspect in a Location through human action?
+Johan said:
+maybe.  depends on the code technology i hope is ready soon.
+Click to expand...
+Is there need to spend goods for upkeeping units?
+Johan said:
+yes
+Click to expand...
+But there WERE wooden castles in the medieval period
+Johan said:
+Yes.. the Stockade building in Project Caesar.
+Click to expand...
+will all buildings be useable by all people's?
+Johan said:
+Most yes
+Click to expand...
+Current, potential or Maximum tax base?
+Johan said:
+the current is the one that is created.
+Click to expand...
+Will there be a fix for the issue in EU4 where the AI would go through player-built fortresses?
+Johan said:
+the AI can't cheat ZoC in Project Caesar, and the rules are less arcane than eu4, so it will be less confusing
+Click to expand...
+is it possible to make the
+default
+setting ‘automated’ for new buildings / new locations? Or will I have to click the automation button each time for each new building?
+Johan said:
+currently we use one global setting for your country
+Click to expand...
+Are tulips a luxury trade good
+Johan said:
+no
+Click to expand...
+Spoiler:
+cant stop him
+If "upper class" pops are all employed by buildings, do they stop trying to fund more buildings?
+Johan said:
+no
+Click to expand...
+Do buildings automatically select Production methods based on profitability/availability, or does it have to be micro'd?
+Johan said:
+yes, when built it picks the best available..  if you got automation on it will adapt during gameplay
+Click to expand...
+Does the profit from a building making a resource (eg. the paper mills) just go to the tax base of the location?
+Johan said:
+yes
+Click to expand...
+does the goods give a bonus like in eu4?
+Johan said:
+no
+Click to expand...
+But Johan, it would be very helpful if you could state hardware that you think will not run the game
+Johan said:
+'d not go with less than 32gb for anything these days anyway.
+Click to expand...
+There is also a book with a question mark next to it such as the stone quarry. What does it mean?
+Johan said:
+Special rules of where it can be built.
+the "tier" icons is the placeholder for rural, city and town.
+Click to expand...
+Why shouldn't I use automatic PMs if it updates to the most efficient one constantly? Like when is it relevant to micro it?
+Johan said:
+When you want to manipulate prices, or to make economic warfare on someone?
+Click to expand...
+in EU4 for example I can just sort buildings by income they would provide when built. Is this possible in Project Caesar as well?
+Johan said:
+Thats one way to use the UI.
+There is also a few more modern UI systems we have that accumulates any goods you may have need of and create a nice macro builder system for you to trade, build or expand for the resource from clicking the Alert for "Missing Goods".
+Click to expand...
+Does the UI allow operating on many building for such purposes?
+Johan said:
+Yes, you can operate on X amount of buildings at the same time
+Click to expand...
+if you need weaponry to recruit regiments, does that mean you will need horses to recruit cavalry?
+Johan said:
+yes
+Click to expand...
+will we be able to build multiple castles in a province, in different locations? And if so how would that affect the occupation of provinces with multiple castles and the buildings in the province?
+Johan said:
+need all castles then
+Click to expand...
+The process to produce paper from wood pulp wasn't invented until the end of the 18th century and did not become widespread until the 19th. Why is it available here?
+Johan said:
+because it lists all that exists?
+in the game its unlocked in a tech in the 2nd half of the 18th century
+Click to expand...
+Say a paper mill produces 1 unit of paper. As I understand, the profit from the mill is added to the locations tax. But only if the unit of paper is sold on the market to another country? If all of my buildings and pop require a cumulative total of 1 unit of paper, the mill would not provide profit?
+Johan said:
+If the prices of the goods used to make the paper is less than the price it get from selling the paper at the market (to whomever, your own pops, buildings or a trader or another countries pops in same marker or whatever.), then that difference is the profit.
+Click to expand...
+Will buildings also be locked behind Tech
+Johan said:
+yes
+Click to expand...
+Would as an example of specific culture/tag buldings, the Dutch culture/tag get to build polders as unique building option for them in wetland/marsh locations to improve food and/or agricultural production at that location?
+Johan said:
+yes
+Click to expand...
+Why would someone need to be TAG = NED or Dutch to build polders?
+Johan said:
+NED doesn't exist at the start...  its a culture check
+Click to expand...
+in the DD you mention "there are hundreds of different types of buildings". Does the "hundreds" mean the max permutation of production methods X building types? Or purely buildings types alone?
+Johan said:
+purely buildings.
+As an example, we used to have multiple granaries,  but when we added production methods, we could reduce it to one. Which helps you to not have to rebuild buildings when potatoes spread into europe.
+Click to expand...
+Preposterous! We must have stroopwafels as a compensation. They were invented in 1810 so go well with the paper pulp invention! Alternatively, you get meatballs, we get tulips, deal? They're supposedly both Turkish anyways, so that might appease the call for Turkish language until you can confirm its inclusion, winwinwin
+Johan said:
+well, i don't live in Sweden anymore...
+Click to expand...
+Spoiler:
+fourth lap
+I would like to see in peace deals, a way to demilitarise your enemy, in the way of destroying some of its border forts
+Johan said:
+yeah, that is a peace treaty you can pick
+Click to expand...
+Is this feature fully implemented and working, or is it in the pipeline, and might get canned and never mentioned again?
+Johan said:
+its in. I use it most of the time
+Click to expand...
+what does RGO stand for?
+Johan said:
+Resource Gathering Operation.  Its basically a "pseudobuilding" for getting raw materials from a  province/location.
+its an acronym we've used since Vicky1.
+Click to expand...
+What about when the castle is besieged ...
+Johan said:
+The max garrison might decrease, but the actual garrison will not exactly desert..  No impact really.
+Click to expand...
+End date of later than 1815 confirmed?!?!
+Johan said:
+yeah, i said about 500 years
+Click to expand...
+are precious metals (gold, silver) converted into money directly like in EU4, or are they extracted into their respective trade good first?
+Johan said:
+they are treated like trade goods, but there are some added twists.
+Click to expand...
+Are horses a RGO? If on the contrary they are "produced" by a building that itself requires horses to be built ...
+Johan said:
+both
+Click to expand...
+yep thats me..
+Last edited:
+Apr 25, 2024
+64
+29
+8
+3
+Reactions:
+Reply
+Report
+H
+HyperCopeEmia
+Corporal
+2 Badges
+Jul 1, 2023
+31
+1.034
+Apr 24, 2024
+Add bookmark
+#3
+129
+40
+21
+9
+Reactions:
+Reply
+Report
+Gurtannon
+General
+28 Badges
+Mar 10, 2024
+1.702
+9.943
+Apr 24, 2024
+Add bookmark
+#4
+Yoo
+Edit: why do I get dislikes lol? Is it because of Ottoman Empire you cant cope
+Last edited:
+Apr 25, 2024
+Toggle signature
+UltraOttomanist Turk
+19
+5
+3
+2
+2
+Reactions:
+Reply
+Report
+Universalis_
+Sergeant
+18 Badges
+Aug 26, 2016
+91
+1.314
+Apr 24, 2024
+Add bookmark
+#5
+Tinto: "I can fix that"
+61
+22
+9
+Reactions:
+Reply
+Report
+Emp3ror552
+Sergeant
+Apr 24, 2024
+60
+237
+Apr 24, 2024
+Add bookmark
+#6
+What will be the balance of power between European and Asian states? The thing I didn't like most about Eu4 was the pip issue and the European states gaining superiority over the Asian states as time went by even Asians reach highest technology level. If the Caesar project will be realistic and we consider that it will start in 1337(dark age of europe), I think it should be quite easy to conquer European states with such as the Golden Horde, Timurids etc.
+82
+20
+13
+9
+Reactions:
+Reply
+Report
+D
+Dongerino
+Evropa's Gemmiest Herald
+43 Badges
+Jun 27, 2015
+1.131
+10.921
+Apr 24, 2024
+Add bookmark
+#7
+Can't wait for the Vicky mod for this game
+93
+25
+7
+3
+1
+Reactions:
+Reply
+Report
+Teng_Ri
+if u read this v1
+May 3, 2020
+597
+3.382
+Apr 24, 2024
+Add bookmark
+#8
+Johan said:
+building a light ship requires Weaponry
+Click to expand...
+Weaponry
+Click to expand...
+WEAPONRY
+Click to expand...
+33
+11
+3
+Reactions:
+Reply
+Report
+Lindaegan
+Colonel
+26 Badges
+Mar 28, 2023
+992
+5.541
+Apr 24, 2024
+Add bookmark
+#9
+I just had an explosive orgasm at the gym. Amazing.
+Toggle signature
+O clouds in the sky, like a blue vesture spread
+Is he too with you there from Venkatam’s clear-stream hills?
+That the tears from my eyes should drown these hills, my breasts!
+Does it become his greatness to kill a woman’s essence thus?
+-
+Nachiyar Tirumozhi
+He, the first origin of this creation, whether he formed it all or did not form it,
+Whose eye controls this world in highest heaven, he verily knows it, or perhaps he knows not.
+-
+Rig Veda, Mandala X, 129.7
+49
+6
+3
+3
+Reactions:
+Reply
+Report
+Miskulliny
+Major
+8 Badges
+Aug 23, 2006
+615
+135
+Apr 24, 2024
+Add bookmark
+#10
+Stockpiles confirmed then, also food reserves by province? Praise Johan AlGaib
+46
+14
+4
+1
+Reactions:
+Reply
+Report
+Imperialismo
+Sergeant
+58 Badges
+Apr 16, 2021
+97
+815
+Apr 24, 2024
+Add bookmark
+#11
+Holy moly that's a lot of goods (not complaining though)
+26
+3
+Reactions:
+Reply
+Report
+Traxium318
+Captain
+91 Badges
+Apr 28, 2013
+319
+2.013
+Apr 24, 2024
+Add bookmark
+#12
+Where is map *angry slap*
+Toggle signature
+#ReviveImperatorRome #pls
+Spanish PDX content creator mostly on Project Cesar, Vic3 and CK3
+38
+18
+3
+Reactions:
+Reply
+Report
+Emp3ror552
+Sergeant
+Apr 24, 2024
+60
+237
+Apr 24, 2024
+Add bookmark
+#13
+How many languages will be there? I know english but having it in my language(turkish) would double my pleasure.
+12
+9
+3
+Reactions:
+Reply
+Report
+Teng_Ri
+if u read this v1
+May 3, 2020
+597
+3.382
+Apr 24, 2024
+Add bookmark
+#14
+Johan said:
+Producing buildings that are not profitable will be closed
+Click to expand...
+All buildings have at least one production method slot
+Click to expand...
+europa victorialis lul
+38
+27
+2
+Reactions:
+Reply
+Report
+Aquila SPQR
+LEGATVS PROPRAETOR BYZABOO MEME-MAN
+Jul 3, 2010
+2.438
+18.068
+Apr 24, 2024
+Add bookmark
+#15
+So there's no map indeed.
+46
+16
+Reactions:
+Reply
+Report
+Vladechni
+Second Lieutenant
+35 Badges
+Apr 15, 2017
+165
+516
+Apr 24, 2024
+Add bookmark
+#16
+Project Caesar is not beating the Victoria 2/3 dna allegations, good
+31
+19
+4
+2
+2
+Reactions:
+Reply
+Report
+Argentinonomade
+First Lieutenant
+20 Badges
+Sep 14, 2023
+207
+454
+Apr 24, 2024
+Add bookmark
+#17
+Could you anticipate what hardware specifications will be necessary?
+13
+6
+2
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Apr 24, 2024
+Add bookmark
+#18
+Crusader Victorians V confirmed.
+52
+14
+4
+Reactions:
+Reply
+Report
+Gurtannon
+General
+28 Badges
+Mar 10, 2024
+1.702
+9.943
+Apr 24, 2024
+Add bookmark
+#19
+Zone of control is confirmed I guess,  will they work same like in eu4?
+İf yes, how will it work with such tiny locations?
+Toggle signature
+UltraOttomanist Turk
+9
+5
+2
+Reactions:
+Reply
+Report
+I
+Irishman845
+Private
+39 Badges
+Nov 1, 2021
+23
+138
+Apr 24, 2024
+Add bookmark
+#20
+Are you able to destroy buildings when you’re attacking? If I’m trying to take a few locations on my border can I destroy buildings deeper in my enemies territory to make future conquest easier?
+20
+3
+2
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+35
+Next
+1 of 35
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

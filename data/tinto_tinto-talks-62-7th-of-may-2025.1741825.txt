@@ -1,0 +1,576 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-62-7th-of-may-2025.1741825/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #62 - 7th of May 2025
+Thread starter
+Johan
+Start date
+May 7, 2025
+Hello everyone and welcome to another Happy Wednesday! Today we will show off some more things related to our very super secret game Project Caesar.
+Lets do a quick start as the Teutonic Order, as they currently start at war, and I want to go through a bit how a battle works in detail. Background information about the country can be found in the latest Tinto Flavor about the Orders at
+https://forum.paradoxplaza.com/foru...5-25th-of-april-2025-military-orders.1737515/
+Our tax base is low, even if we have a decently sized population.
+But how is that population then?
+Fairly diverse eh?
+While over 70% are Catholics, only 26% belong to our Prussian culture, so we can not raise a large amount of levies. And considering I have nine different provinces, it would take centuries to make them all Prussian.
+However, I also have other problems, in that I don’t have great control over most of my country, and Masuria in the southeast is particularly low.
+Roads are too expensive during a war, but soon...
+So my early decision is to try to promote the Prussian culture in our capital, and increase control in Masuria.
+It seems all my leaders have a nice platemail uniform!
+So let's take a look at this war then, how should we handle it?  We have about 100 regulars and about 3.8k levies, and while we have a numerical superiority on our side, Poland and their allies have a rather large army as well.
+This is the war mapmode, and you can see our armies in green, allied in blue, and what is not hidden by fog of war, the enemy armies in red.
+Ideally, as we have a nice amount of manpower from all of our Order Commanderies in Europe, I’d like to raise some more regulars. Luckily, we earn some money from the trade in our cities, even though our tax base is so weak.
+I give the order recruit two more Crusader Knights, at 100 men each in Marienburg, and while I gather my levies and regulars in Osterode, I notice that the army of one of the Polish vassals, the County of Sieradz, have moved across the border and started sieging our Castle in Thorn.
+The red/green bars under the section numbers of regiments and men indicates how much frontage is filled.
+While my morale is a bit low after marching across my lands, I have just appointed a new general with some great stats, and decided to adjust my army to maximise my chances in the battle.
+I put my 192 men strong noble levy cavalry on the right flank together with 1,000 feudal levies.  The center gets 2,000 feudal levies, but my left flank has my 2 armored horsemen, and the remaining 524 feudal levies. I have high hopes that they will engage quickly and shatter the opposition flank. There are some tribesmen, footmen and clergy levies in the reserves, but I don’t expect much of them. My commander still needs 10 more days to give an effective bonus to the army, which I really want, as his 84 diplomacy is another +16.8% of morale.
+Yes, the 15 tribesmen will be useful…
+I finally give the orders to march to my army, and a few days later, we reach Thorn.
+They have a slight edge in morale, as their commander has an even higher diplomacy than ours. Their military tactics are 1.18 compared to our 1.09, due to a stronger noble estate and privileges granted in exchange for that. We do have the edge in discipline though, at 13.10% vs 2.37%, for which we thank the Crusader Discipline advance and the Military Orders estate privilege for the Clergy…
+White numbers at the top of the sections are currently engaged men, while the grey at the bottom is men still not fighting.
+At the first hour, our plan to use cavalry on the flanks paid off, as they with the slightly higher initiative got lucky and engaged immediately.  As there is no enemy engaged, they’ll do morale damage to the entire opposite section.
+A few hours later..
+Green numbers on brown at the top there is WiP
+Our left flank is not engaging fast enough and our 50 armored horsemen are getting destroyed by the enemy levies, and they are way too outnumbered to rout 1000 levies. In the center the enemy have their mailed knights engaged, so this should now be interesting.
+Lets check the tooltip for our Cavalry. 19 men remained, but they killed 42 enemies last hour, while losing 12 of their own.  We had hoped that the rest of the cavalry had engaged at the same time.
+Yeah, need to show as multiplicative numbers, not as +percentage.
+The mailed knight levies in the center shatter on our feudal levies, while our horsemen are destroyed. Luckily they bought enough time for the rest of that flank to engage.
+You can also tooltip a battle-widget on the map and see morale and how many are fighting..
+Quite a few hours later, fighting is still going on, and most regiments have engaged, while some of our reserves have joined our weakened flanks. We also have better dice rolls, so now it looks really good.
+This battle is now won, and it's just a matter of time until the enemy collapses and flees.
+Next week, Pavia is back and will be talking about some more religions: Hinduism, Jainism and Sikhism. Tomorrow though, is the big day!
+Don't forget to join us for the stream at May 8th, 6PM CEST / 9AM PDT at
+https://pdxint.at/CaesarAnnouncement
+!!
+Attachments
+62_battle_3.png
+293 KB
+· Views: 0
+Last edited:
+May 7, 2025
+119
+107
+7
+5
+2
+1
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+11
+Next
+1 of 11
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+Kotyk-durkotyk
+Colonel
+23 Badges
+May 26, 2024
+1.137
+15.631
+May 7, 2025
+Add bookmark
+#2
+I think you should also include the
+total
+number of locations owned by the country:
+Toggle signature
+Check out my EU5 threads:
+Ruthenia and Steppe Fix
+–
+my EU5 Mod
+with historical corrections for the Ruthenian and Steppe Regions
+Ruthenian / Cossack / Ukrainian Content Pack
+Orthodoxy Needs a Full Rework in EU5
+115
+43
+1
+Reactions:
+Reply
+Report
+GenericUsername1444
+Colonel
+Jun 25, 2024
+805
+10.781
+May 7, 2025
+Add bookmark
+#3
+I will break my oath of never pre-ordering soon.
+Toggle signature
+Professional Georgian
+68
+21
+11
+7
+Reactions:
+Reply
+Report
+Intrspace
+Second Lieutenant
+30 Badges
+Oct 5, 2014
+132
+489
+May 7, 2025
+Add bookmark
+#4
+Beautiful horsies <3
+Love the art
+25
+2
+Reactions:
+Reply
+Report
+Tercio Soldier
+Major
+58 Badges
+Feb 25, 2020
+568
+4.336
+May 7, 2025
+Add bookmark
+#5
+Wasn't this dev diary going to be about recent changes to the game?
+64
+12
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+May 7, 2025
+Add bookmark
+#6
+These are not the changes you are looking for!
+37
+2
+Reactions:
+Reply
+Report
+Goran42069
+Second Lieutenant
+18 Badges
+Jan 1, 2016
+115
+1.079
+May 7, 2025
+Add bookmark
+#7
+Are units like "crusader knights" composed of pops of the same culture (like in vic2 for example) ?
+9
+Reactions:
+Reply
+Report
+D
+Dongerino
+Evropa's Gemmiest Herald
+43 Badges
+Jun 27, 2015
+1.131
+10.921
+May 7, 2025
+Add bookmark
+#8
+Neat. But I thought you guys said today would be a TT about more changes made based on feedback.
+30
+6
+Reactions:
+Reply
+Report
+W
+WHaste333
+Private
+44 Badges
+Aug 7, 2023
+23
+62
+May 7, 2025
+Add bookmark
+#9
+The pruthenian culture should be renamed to old prussian.
+The name pruthenian is a gradual change from the original prūši (the exact writing and pronunciation can differ, but the idea is the same), which is also the origins for the name prussian. Therefore you have 2 names for the same thing, which is inconvenient and confusing.
+Last edited:
+May 7, 2025
+36
+11
+Reactions:
+Reply
+Report
+S
+Spiritoftwinings
+Corporal
+36 Badges
+Oct 29, 2017
+35
+163
+May 7, 2025
+Add bookmark
+#10
+This looks great. What determines the speed on which the grey numbers become white numbers? i.e. the engaging speed? is that a modifier that you can control in some way? I guess it's affected by the general maneuver or whatever is the equivalent in Project Caesar, but are there any other modifiers?
+11
+Reactions:
+Reply
+Report
+LordThanatos
+Major
+95 Badges
+Sep 15, 2018
+634
+8.786
+May 7, 2025
+Add bookmark
+#11
+The only piece of feedback I can give here is that I can't believe you're still using the Neopagan "Romuva" rather than the more accurate "Baltic Pagan" label.
+Neither is an endonym for the beliefs at this timeperiod - unfortunately - but Romuva is explicitly the name of the Neopagan movement and should not be used to refer to the pre-19th century Baltic beliefs.
+(Edit: My comment didn't go through in full. You can find my suggestion for an alternative name
+here
+, but anything not linked to a modern spiritual movement half a millennia removed from this one would be preferable.)
+Last edited:
+May 7, 2025
+Toggle signature
+Proposals to improve how Catholicism is represented:
+Fixing Mechanics around The Papal States and Catholicism
+Feedback on Protestantism:
+Initial Feedback
+Make Eastern Christian Patriarchs extraterritorial.
+Feedback on non-Buddhist Dharmic Religions:
+Initial Feedback
+,
+More Feedback
+Feedback on Islam:
+Incorrect Religious Schools
+,
+Dhimmi
+,
+Other Ideas
+34
+12
+6
+4
+Reactions:
+Reply
+Report
+Álvaro Núñez de Lara
+Field Marshal
+1 Badges
+May 18, 2020
+3.852
+23.666
+May 7, 2025
+Add bookmark
+#12
+Hi Johan.
+Cool stuff but it was said this DD would be about recent changes made to the game?
+15
+3
+Reactions:
+Reply
+Report
+T
+TomoYachi
+Major
+34 Badges
+Apr 23, 2025
+766
+4.297
+May 7, 2025
+Add bookmark
+#13
+Dongerino said:
+Neat. But I thought you guys said today would be a TT about more changes made based on feedback.
+Click to expand...
+surprise second dev diary incoming
+8
+4
+3
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+May 7, 2025
+Add bookmark
+#14
+Excellent, we get flanks!
+But I have to ask, how will artillery divisions fit into this? Do we still get backrows? Or must I fire my cannon's shot right in the enemy's face, like some kind of un-gentlemanly person who didn't ask first?
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+33
+Reactions:
+Reply
+Report
+D
+Didsss
+Sergeant
+51 Badges
+Dec 27, 2016
+90
+732
+May 7, 2025
+Add bookmark
+#15
+You mentioned that diplomacy skill give more moral, but what do the other two skills do for a commander?
+3
+1
+Reactions:
+Reply
+Report
+T
+TomoYachi
+Major
+34 Badges
+Apr 23, 2025
+766
+4.297
+May 7, 2025
+Add bookmark
+#16
+Johan said:
+Hello everyone and welcome to another Happy Wednesday! Today we will show off some more things related to our very super secret game Project Caesar.
+Lets do a quick start as the Teutonic Order, as they currently start at war, and I want to go through a bit how a battle works in detail. Background information about the country can be found in the latest Tinto Flavor about the Orders at
+https://forum.paradoxplaza.com/foru...5-25th-of-april-2025-military-orders.1737515/
+View attachment 1291487
+Our tax base is low, even if we have a decently sized population.
+But how is that population then?
+View attachment 1291488
+Fairly diverse eh?
+While over 70% are Catholics, only 26% belong to our Prussian culture, so we can not raise a large amount of levies. And considering I have nine different provinces, it would take centuries to make them all Prussian.
+However, I also have other problems, in that I don’t have great control over most of my country, and Masuria in the southeast is particularly low.
+View attachment 1291490
+Roads are too expensive during a war, but soon...
+So my early decision is to try to promote the Prussian culture in our capital, and increase control in Masuria.
+View attachment 1291491
+It seems all my leaders have a nice platemail uniform!
+So let's take a look at this war then, how should we handle it?  We have about 100 regulars and about 3.8k levies, and while we have a numerical superiority on our side, Poland and their allies have a rather large army as well.
+View attachment 1291492
+This is the war mapmode, and you can see our armies in green, allied in blue, and what is not hidden by fog of war, the enemy armies in red.
+Ideally, as we have a nice amount of manpower from all of our Order Commanderies in Europe, I’d like to raise some more regulars. Luckily, we earn some money from the trade in our cities, even though our tax base is so weak.
+I give the order recruit two more Crusader Knights, at 100 men each in Marienburg, and while I gather my levies and regulars in Osterode, I notice that the army of one of the Polish vassals, the County of Sieradz, have moved across the border and started sieging our Castle in Thorn.
+View attachment 1291494
+The red/green bars under the section numbers of regiments and men indicates how much frontage is filled.
+While my morale is a bit low after marching across my lands, I have just appointed a new general with some great stats, and decided to adjust my army to maximise my chances in the battle.
+I put my 192 men strong noble levy cavalry on the right flank together with 1,000 feudal levies.  The center gets 2,000 feudal levies, but my left flank has my 2 armored horsemen, and the remaining 524 feudal levies. I have high hopes that they will engage quickly and shatter the opposition flank. There are some tribesmen, footmen and clergy levies in the reserves, but I don’t expect much of them. My commander still needs 10 more days to give an effective bonus to the army, which I really want, as his 84 diplomacy is another +16.8% of morale.
+View attachment 1291496
+Yes, the 15 tribesmen will be useful…
+I finally give the orders to march to my army, and a few days later, we reach Thorn.
+They have a slight edge in morale, as their commander has an even higher diplomacy than ours. Their military tactics are 1.18 compared to our 1.09, due to a stronger noble estate and privileges granted in exchange for that. We do have the edge in discipline though, at 13.10% vs 2.37%, for which we thank the Crusader Discipline advance and the Military Orders estate privilege for the Clergy…
+View attachment 1291497
+White numbers at the top of the sections are currently engaged men, while the grey at the bottom is men still not fighting.
+At the first hour, our plan to use cavalry on the flanks paid off, as they with the slightly higher initiative got lucky and engaged immediately.  As there is no enemy engaged, they’ll do morale damage to the entire opposite section.
+A few hours later..
+View attachment 1291498
+Green numbers on brown at the top there is WiP
+Our left flank is not engaging fast enough and our 50 armored horsemen are getting destroyed by the enemy levies, and they are way too outnumbered to rout 1000 levies. In the center the enemy have their mailed knights engaged, so this should now be interesting.
+Lets check the tooltip for our Cavalry. 19 men remained, but they killed 42 enemies last hour, while losing 12 of their own.  We had hoped that the rest of the cavalry had engaged at the same time.
+View attachment 1291500
+Yeah, need to show as multiplicative numbers, not as +percentage.
+The mailed knight levies in the center shatter on our feudal levies, while our horsemen are destroyed. Luckily they bought enough time for the rest of that flank to engage.
+View attachment 1291502
+You can also tooltip a battle-widget on the map and see morale and how many are fighting..
+Quite a few hours later, fighting is still going on, and most regiments have engaged, while some of our reserves have joined our weakened flanks. We also have better dice rolls, so now it looks really good.
+View attachment 1291506
+This battle is now won, and it's just a matter of time until the enemy collapses and flees.
+Next week, Pavia is back and will be talking about some more religions: Hinduism, Jainism and Sikhism. Tomorrow though, is the big day!
+Click to expand...
+is there a reason why Successor Friedrich Willhelm's image clashes with the unit on the flank?
+Reply
+Report
+Kotyk-durkotyk
+Colonel
+23 Badges
+May 26, 2024
+1.137
+15.631
+May 7, 2025
+Add bookmark
+#17
+Are different sizes of numbers a bug or a feature?
+Toggle signature
+Check out my EU5 threads:
+Ruthenia and Steppe Fix
+–
+my EU5 Mod
+with historical corrections for the Ruthenian and Steppe Regions
+Ruthenian / Cossack / Ukrainian Content Pack
+Orthodoxy Needs a Full Rework in EU5
+22
+3
+1
+Reactions:
+Reply
+Report
+ItsMorkino
+Sergeant
+34 Badges
+Mar 28, 2016
+59
+375
+May 7, 2025
+Add bookmark
+#18
+Johan said:
+Hello everyone and welcome to another Happy Wednesday! Today we will show off some more things related to our very super secret game Project Caesar.
+Lets do a quick start as the Teutonic Order, as they currently start at war, and I want to go through a bit how a battle works in detail. Background information about the country can be found in the latest Tinto Flavor about the Orders at
+https://forum.paradoxplaza.com/foru...5-25th-of-april-2025-military-orders.1737515/
+View attachment 1291487
+Our tax base is low, even if we have a decently sized population.
+But how is that population then?
+View attachment 1291488
+Fairly diverse eh?
+While over 70% are Catholics, only 26% belong to our Prussian culture, so we can not raise a large amount of levies. And considering I have nine different provinces, it would take centuries to make them all Prussian.
+However, I also have other problems, in that I don’t have great control over most of my country, and Masuria in the southeast is particularly low.
+View attachment 1291490
+Roads are too expensive during a war, but soon...
+So my early decision is to try to promote the Prussian culture in our capital, and increase control in Masuria.
+View attachment 1291491
+It seems all my leaders have a nice platemail uniform!
+So let's take a look at this war then, how should we handle it?  We have about 100 regulars and about 3.8k levies, and while we have a numerical superiority on our side, Poland and their allies have a rather large army as well.
+View attachment 1291492
+This is the war mapmode, and you can see our armies in green, allied in blue, and what is not hidden by fog of war, the enemy armies in red.
+Ideally, as we have a nice amount of manpower from all of our Order Commanderies in Europe, I’d like to raise some more regulars. Luckily, we earn some money from the trade in our cities, even though our tax base is so weak.
+I give the order recruit two more Crusader Knights, at 100 men each in Marienburg, and while I gather my levies and regulars in Osterode, I notice that the army of one of the Polish vassals, the County of Sieradz, have moved across the border and started sieging our Castle in Thorn.
+View attachment 1291494
+The red/green bars under the section numbers of regiments and men indicates how much frontage is filled.
+While my morale is a bit low after marching across my lands, I have just appointed a new general with some great stats, and decided to adjust my army to maximise my chances in the battle.
+I put my 192 men strong noble levy cavalry on the right flank together with 1,000 feudal levies.  The center gets 2,000 feudal levies, but my left flank has my 2 armored horsemen, and the remaining 524 feudal levies. I have high hopes that they will engage quickly and shatter the opposition flank. There are some tribesmen, footmen and clergy levies in the reserves, but I don’t expect much of them. My commander still needs 10 more days to give an effective bonus to the army, which I really want, as his 84 diplomacy is another +16.8% of morale.
+View attachment 1291496
+Yes, the 15 tribesmen will be useful…
+I finally give the orders to march to my army, and a few days later, we reach Thorn.
+They have a slight edge in morale, as their commander has an even higher diplomacy than ours. Their military tactics are 1.18 compared to our 1.09, due to a stronger noble estate and privileges granted in exchange for that. We do have the edge in discipline though, at 13.10% vs 2.37%, for which we thank the Crusader Discipline advance and the Military Orders estate privilege for the Clergy…
+View attachment 1291497
+White numbers at the top of the sections are currently engaged men, while the grey at the bottom is men still not fighting.
+At the first hour, our plan to use cavalry on the flanks paid off, as they with the slightly higher initiative got lucky and engaged immediately.  As there is no enemy engaged, they’ll do morale damage to the entire opposite section.
+A few hours later..
+View attachment 1291498
+Green numbers on brown at the top there is WiP
+Our left flank is not engaging fast enough and our 50 armored horsemen are getting destroyed by the enemy levies, and they are way too outnumbered to rout 1000 levies. In the center the enemy have their mailed knights engaged, so this should now be interesting.
+Lets check the tooltip for our Cavalry. 19 men remained, but they killed 42 enemies last hour, while losing 12 of their own.  We had hoped that the rest of the cavalry had engaged at the same time.
+View attachment 1291500
+Yeah, need to show as multiplicative numbers, not as +percentage.
+The mailed knight levies in the center shatter on our feudal levies, while our horsemen are destroyed. Luckily they bought enough time for the rest of that flank to engage.
+View attachment 1291502
+You can also tooltip a battle-widget on the map and see morale and how many are fighting..
+Quite a few hours later, fighting is still going on, and most regiments have engaged, while some of our reserves have joined our weakened flanks. We also have better dice rolls, so now it looks really good.
+View attachment 1291506
+This battle is now won, and it's just a matter of time until the enemy collapses and flees.
+Next week, Pavia is back and will be talking about some more religions: Hinduism, Jainism and Sikhism. Tomorrow though, is the big day!
+Click to expand...
+The more we see with the 3d characters, the better they look, but they always look out of place. I know it's late now, but it would be so much better with a sort of 2d style (even if 3d modeled) character that fits the design style of the backgrounds, ui, and artwork
+16
+11
+5
+Reactions:
+Reply
+Report
+P
+Perkunvilkis
+Corporal
+May 30, 2024
+48
+294
+May 7, 2025
+Add bookmark
+#19
+Hello,
+Again i humbly ask to reconsider the naming of the cultures in Prussia. The original baltic inhabitants were called prussian and their country Prussia. The current situation makes it look like only the germanic population were called that even though they were only started being called that much later than the starting date. It will be ver confusing for some of the players from the region since many think of the baltic culture when they hear the prussian name not germanic.
+The name pruthenian is not really known outside scholars and was rarely used. The only popular use of it was the crusader kings game.
+I suggest naming the cultures baltic prussian and germanic prussian. In the original eu4 the name was old prussian.
+13
+12
+4
+1
+Reactions:
+Reply
+Report
+Mef
+Field Marshal
+19 Badges
+Feb 4, 2010
+3.482
+11.153
+May 7, 2025
+Add bookmark
+#20
+Johan said:
+But how is that population then?
+View attachment 1291488
+Click to expand...
+A clerical state like the Teutons can have a lot of clergy, huh?
+1.12% is a lot considering they promote at such slow numbers.
+Does this include pops in order buildings in foreign locations?
+2
+1
+1
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+11
+Next
+1 of 11
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

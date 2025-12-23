@@ -1,0 +1,964 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-50-12th-february-2025.1728609/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #50 - 12th February 2025
+Thread starter
+SaintDaveUK
+Start date
+Feb 12, 2025
+Hey everyone, and welcome back. Johan is busy today (allegedly) so instead I will walk you through this Tinto Talks on Formable Countries in our little project called Caesar. It’s a fairly tight feature so this should be nice and quick.
+What are Formable Countries?
+Basically, formable countries are new tags that you can switch to. Typically they represent historical unions and conquests, but some represent aspirations that never materialised.
+Generally speaking, the vision behind Formables is to offer roleplaying and historical immersion, and support player fantasies, rather than modifier stacking. They will change your country name, national flag, and map color. So while you may unlock some content such as advances or other minor unique content, the tag change is often the goal in itself.
+Spain gets some unique advances in the later ages, but not all do.
+Rather than your country changing automatically every age, you achieve it by completing certain objectives. Usually, you'll need to control a certain percentage of a predefined set of locations, for example Scandinavia needs 75% of the locations in the Scandinavia region.
+There’s typically additional requirements as well such as your Primary Culture belonging to a certain Culture Group. Forming Spain also requires you and all the independent countries in Iberia to be Christian, as it is thematically closely tied to the completion of the Reconquista. Iberian Muslims have the reverse rules for forming Al-Andalus.
+Some are directly tied to actions in International Organizations, like the Holy Roman Empire or the Ilkhanate.
+Formables also have a Tier that represents their natural order of precedence. You can only form countries that are the same or higher tier than you. For example, England (Tier 2) can form Great Britain (Tier 3) but Great Britain can’t form England. The AI will only form countries that are a higher tier.
+Country formation is just a click away.
+There are 3 settings to the relevant game rule.
+Only Historical Formable Countries
+Only countries that actually formed in the game’s time period will be allowed.
+Examples are Spain and Great Britain
+Allow Plausible Formable Countries
+(Default)
+Countries that could plausible have formed, or formed just after the time period will be allowed.
+Examples are Germany and Italy
+Allow Ahistorical Formable Countries
+Aspirational or fantasy countries can be formed. Examples include
+North Sea Empire (which is a Tier IV) if you control Britain and Scandinavia
+Europa (Tier V)
+Some countries have different flags depending on the exact manner in which they are formed. For example this variant of the Union Jack with a dominant saltire when you start as Scotland.
+And some formables come with little treats to sweeten the deal.
+The Teutonic Order has a long way to go before they can become Prussia…
+But it might be worth it…
+Some exist to fulfil common player fantasies, but only appear if the player chooses in the Game Rules to have the less historical ones.
+This is our current list of formable countries,
+let us know which ones you would like us add
+!
+Formable
+Tier
+Note
+Europa
+5
+Ahistorical
+Rome
+4
+Ahistorical
+Hindustan
+4
+Plausible
+Holy Roman Empire
+4
+Plausible
+Byzantium
+4
+Ilkhanate
+4
+Iran
+4
+Mongolia
+4
+Mughals
+4
+Rûm
+4
+Russia
+4
+United States
+4
+Celtica
+3
+Ahistorical
+Latin Empire
+3
+Ahistorical
+North Sea
+3
+Ahistorical
+Al-Andalus
+3
+Plausible
+Arabia
+3
+Plausible
+Canada
+3
+Plausible
+Egypt
+3
+Plausible
+Germany
+3
+Plausible
+Italy
+3
+Plausible
+Malaya
+3
+Plausible
+Ruthenia
+3
+Plausible
+Scandinavia
+3
+Plausible
+Shan
+3
+Plausible
+Banten
+3
+Bengal
+3
+Deccan
+3
+Delhi
+3
+Ethiopia
+3
+Great Britain
+3
+Gujurat
+3
+Hausa
+3
+Inca
+3
+Kongo
+3
+Manchu
+3
+Maratha
+3
+Mexico
+3
+Poland-Lithuania
+3
+Punjab
+3
+Rajput
+3
+Siam
+3
+Sokoto
+3
+Spain
+3
+Timurids
+3
+Two Sicilies
+3
+Yamato
+3
+Africa
+2
+Ahistorical
+Carthage
+2
+Ahistorical
+Hen Ogledd
+2
+Ahistorical
+Aotearoa
+2
+Plausible
+Greece
+2
+Plausible
+Jerusalem
+2
+Plausible
+Livonia
+2
+Plausible
+Maya
+2
+Plausible
+Albania
+2
+Armenia
+2
+Austria
+2
+Ayutthaya
+2
+Bahamis
+2
+England
+2
+Georgia
+2
+Golden Horde
+2
+Holstein
+2
+Ireland
+2
+Navarre
+2
+Nepal
+2
+Netherlands
+2
+Poland
+2
+Prussia
+2
+Scotland
+2
+Serbia
+2
+Sweden
+2
+Switzerland
+2
+Tibet
+2
+Wales
+2
+Connacht
+1
+Plausible
+Ulster
+1
+Plausible
+Aïr
+1
+Bavaria
+1
+Beja
+1
+Mazovia
+1
+Mecklenburg
+1
+Mossi
+1
+Nassau
+1
+Northumbria
+1
+Pomerania
+1
+Sardinia
+1
+Saxony
+1
+Silesia
+1
+That's it for today's dev diary. Thanks for reading, and we'll see you next time, where we will talk about Subject Types, and an interesting part of the Castilian player fantasy…
+Last edited:
+Feb 12, 2025
+197
+90
+12
+8
+3
+Reactions:
+Reply
+Report
+Written by
+SaintDaveUK
+Art Lead @ Tinto
+Paradox Staff
+120 Badges
+Messages
+1.521
+Reaction score
+39.660
+1
+2
+3
+…
+Go to page
+Go
+48
+Next
+1 of 48
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+Goldchruzi
+Swedish Goth & Vandal Fanatic
+45 Badges
+Apr 22, 2020
+72
+734
+Feb 12, 2025
+Add bookmark
+#2
+That is a very, very generous helping of unique formables
+The Latin Empire still exists nominally. The Latin Empress Catherine II (half-sister to King Philippe VI of France) still lives in 1337, but the tag itself lost all of their lands less than 100 years ago. Will there be events to help Catherine reform it somehow, as she has no land to her name? Or will this be ignored and whomever can form it if they meet the reqs?
+And is Africa the province of Africa, that being the Maghreb, or the entire continent of Africa? If the former, then it is time to restore the Kingdom of the
+Vandals &
+Alans in Africa!
+P.S. Can we get a secret Kingdom of the Visigoths if by miracle Theodoro manages to conquer & convert all of Iberia to Gothic, pretty please? I mean it was more recent than both Rome & Carthage
+Also, also, is Gothic a Germanic language yet? The last time we saw languages in the region it was grouped into the same group as Greek which makes no sense.
+Last edited:
+Feb 12, 2025
+Toggle signature
+EU5:
+Gothic Culture Fix
+(WIP)
+If you mention the East Germanic tribes, I will appear faster than the goat-drawn chariot of Fairguneis flies across the skies above.
+99
+10
+4
+2
+1
+Reactions:
+Reply
+Report
+M
+Masau
+Corporal
+72 Badges
+Nov 17, 2019
+46
+147
+Feb 12, 2025
+Add bookmark
+#3
+Are custom nations planned to be in this game?
+I can imagine that custom nations, if added, will be far more interesting in EU5 than EU4 as content can vary based on culture and other aspects, making them richer in flavor.
+I can imagine being exited at creating custom nations in EU5, as opposed to trying them once or twice in EU4 and not really touching the mechanic again.
+26
+7
+5
+Reactions:
+Reply
+Report
+Z
+ZarkinDrife
+Second Lieutenant
+31 Badges
+Oct 6, 2022
+114
+466
+Feb 12, 2025
+Add bookmark
+#4
+O! say can you see by the dawn's early light,
+⁠What so proudly we hailed at the twilight's last gleaming,
+Whose broad stripes and bright stars through the perilous fight
+Time to form the US as soon as possible
+10
+8
+5
+1
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Feb 12, 2025
+Add bookmark
+#5
+Can we form our own customizable nations ingame? (Not to confuse with Custom nations mechanic in EU4).
+31
+1
+Reactions:
+Reply
+Report
+Birchinjaro
+Captain
+May 15, 2024
+487
+3.035
+Feb 12, 2025
+Add bookmark
+#6
+Is it possible for the Two Sicilies formable to be called kingdom of sicily for the first few centuries?
+29
+2
+1
+Reactions:
+Reply
+Report
+Kotyk-durkotyk
+Colonel
+23 Badges
+May 26, 2024
+1.137
+15.631
+Feb 12, 2025
+Add bookmark
+#7
+Please, add
+Hetmanate (Cossack Hetmanate)
+/
+Zaporizhia
+(tier 2) to formable historical tags, as it existed as a separate entity in the XVII – XVIII centuries for more than 100 years.
+For some time it was independent, longer as a protectorate/vassal.
+Cossacks were a crucial part of the regional history for more than 300 years and played an important role in the Polish, Ottoman, Muscovite and Crimean history.
+It should have also a huge potential for unique flavour:
+Zaporizhian Sich unique bulding
+unique units (both land and naval)
+republic stuff
+provide good mercenaries to Europe
+naval and land raids to the Steppe
+liberation of slaves
+etc
+.
+While
+Ruthenia
+could have more
+monarch-ish narrative and content
+.
+For example, 1640s – 1650s
+Hetmanate under Bohdan Khmelnytskyi
+maps (all Ukraine-related cultures should be accepted, including Halychian, Volhynian, Polesian):
+Historical maps:
+Pays des Cosaques ou Ukraine
+​
+Vkraina quae et Terra Cossacorum
+​
+The tag name
+Ukraine
+would be also viable with an option to rename.
+Symbols:
+Flag
+​
+Coat of Arms
+​
+Last edited:
+Jul 28, 2025
+Toggle signature
+Check out my EU5 threads:
+Ruthenia and Steppe Fix
+–
+my EU5 Mod
+with historical corrections for the Ruthenian and Steppe Regions
+Ruthenian / Cossack / Ukrainian Content Pack
+Orthodoxy Needs a Full Rework in EU5
+133
+19
+10
+5
+4
+Reactions:
+Reply
+Report
+Katana500
+Captain
+37 Badges
+Dec 4, 2015
+349
+1.474
+Feb 12, 2025
+Add bookmark
+#8
+maybe Tuscany should be added as a formable for Florence
+105
+18
+2
+1
+Reactions:
+Reply
+Report
+1
+1RepMax
+Corporal
+64 Badges
+Oct 3, 2020
+33
+283
+Feb 12, 2025
+Add bookmark
+#9
+"Rather than your country changing automatically every age"
+Shots fired at Civ 7
+149
+21
+4
+2
+Reactions:
+Reply
+Report
+squid_whisperer
+Sergeant
+21 Badges
+Jun 27, 2024
+74
+614
+Feb 12, 2025
+Add bookmark
+#10
+Can we have:
+1: Aotearoa (for New Zealand)
+2: Australia (or some first-nations version of a united Australia, not sure what the best name should be)
+3: Hansa (some sort of formable for a centralized Hanseatic League)
+Thank you! Very excited for this game
+62
+8
+1
+1
+Reactions:
+Reply
+Report
+D
+Didsss
+Sergeant
+51 Badges
+Dec 27, 2016
+90
+732
+Feb 12, 2025
+Add bookmark
+#11
+Will there be any flavor for formables that didn't historically exist in the timeframe of the game? Thinking mostly about the crusader states, like Latin Empire and Kingdom of Jerusalem.
+21
+2
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Feb 12, 2025
+Add bookmark
+#12
+Europa (Tier V)
+Click to expand...
+Surely that's a hint.
+150
+19
+7
+2
+1
+Reactions:
+Reply
+Report
+Aretii
+Second Lieutenant
+69 Badges
+Apr 17, 2014
+132
+561
+Feb 12, 2025
+Add bookmark
+#13
+SaintDaveUK said:
+Rather than your country changing automatically every age
+Click to expand...
+lol
+SaintDaveUK said:
+Click to expand...
+UI note: For formations which change your government type, it seems like the government power listed in the tooltip should be the power type of the target government, not your current one (i.e. "Devotion" here should be "Legitimacy").
+SaintDaveUK said:
+They will change your country name, national flag, and map color.
+Click to expand...
+Will formables' cosmetics differ based on which country formed them? E.g. if you form Spain as Aragon rather than Castile, will the map color be based on Aragon's rather than on Castile's / will the flag be different? Or are they fixed and based on the most common circumstance of formation?
+27
+9
+2
+Reactions:
+Reply
+Report
+ibvfteh
+Lt. General
+38 Badges
+Feb 9, 2019
+1.597
+9.577
+Feb 12, 2025
+Add bookmark
+#14
+SaintDaveUK said:
+Hey everyone, and welcome back. Johan is busy today (allegedly) so instead I will walk you through this Tinto Talks on Formable Countries in our little project called Caesar. It’s a fairly tight feature so this should be nice and quick.
+What are Formable Countries?
+Basically, formable countries are new tags that you can switch to. Typically they represent historical unions and conquests, but some represent aspirations that never materialised.
+Generally speaking, the vision behind Formables is to offer roleplaying and historical immersion, and support player fantasies, rather than modifier stacking. They will change your country name, national flag, and map color. So while you may unlock some content such as advances or other minor unique content, the tag change is often the goal in itself.
+View attachment 1253582
+View attachment 1253583
+Spain gets some unique advances in the later ages, but not all do.
+Rather than your country changing automatically every age, you achieve it by completing certain objectives. Usually, you'll need to control a certain percentage of a predefined set of locations, for example Scandinavia needs 75% of the locations in the Scandinavia region.
+There’s typically additional requirements as well such as your Primary Culture belonging to a certain Culture Group. Forming Spain also requires you and all the independent countries in Iberia to be Christian, as it is thematically closely tied to the completion of the Reconquista. Iberian Muslims have the reverse rules for forming Al-Andalus.
+Some are directly tied to actions in International Organizations, like the Holy Roman Empire or the Ilkhanate.
+Formables also have a Tier that represents their natural order of precedence. You can only form countries that are the same or higher tier than you. For example, England (Tier 3) can form Great Britain (Tier 4) but Great Britain can’t form England. The AI will only form countries that are a higher tier.
+View attachment 1253586
+Country formation is just a click away.
+There are 3 settings to the relevant game rule.
+Only Historical Formable Countries
+Only countries that actually formed in the game’s time period will be allowed.
+Examples are Spain and Great Britain
+Allow Plausible Formable Countries
+(Default)
+Countries that could plausible have formed, or formed just after the time period will be allowed.
+Examples are Germany and Italy
+Allow Ahistorical Formable Countries
+Aspirational or fantasy countries can be formed. Examples include
+North Sea Empire (which is a Tier IV) if you control Britain and Scandinavia
+Europa (Tier V)
+View attachment 1253589
+Some countries have different flags depending on the exact manner in which they are formed. For example this variant of the Union Jack with a dominant saltire when you start as Scotland.
+View attachment 1253591
+And some formables come with little treats to sweeten the deal.
+View attachment 1253592
+The Teutonic Order has a long way to go before they can become Prussia…
+View attachment 1253593
+But it might be worth it…
+View attachment 1253594
+Some exist to fulfil common player fantasies, but only appear if the player chooses in the Game Rules to have the less historical ones.
+This is our current list of formable countries,
+let us know which ones you would like us add
+!
+Formable
+Tier
+Note
+Europa
+5
+Ahistorical
+Rome
+4
+Ahistorical
+Hindustan
+4
+Plausible
+Holy Roman Empire
+4
+Plausible
+Byzantium
+4
+Ilkhanate
+4
+Iran
+4
+Mongolia
+4
+Mughals
+4
+Rûm
+4
+Russia
+4
+United States
+4
+Celtica
+3
+Ahistorical
+Latin Empire
+3
+Ahistorical
+North Sea
+3
+Ahistorical
+Al-Andalus
+3
+Plausible
+Arabia
+3
+Plausible
+Canada
+3
+Plausible
+Egypt
+3
+Plausible
+Germany
+3
+Plausible
+Italy
+3
+Plausible
+Malaya
+3
+Plausible
+Ruthenia
+3
+Plausible
+Scandinavia
+3
+Plausible
+Shan
+3
+Plausible
+Banten
+3
+Bengal
+3
+Deccan
+3
+Delhi
+3
+Ethiopia
+3
+Great Britain
+3
+Gujurat
+3
+Hausa
+3
+Inca
+3
+Kongo
+3
+Manchu
+3
+Maratha
+3
+Mexico
+3
+Poland-Lithuania
+3
+Punjab
+3
+Rajput
+3
+Siam
+3
+Sokoto
+3
+Spain
+3
+Timurids
+3
+Two Sicilies
+3
+Yamato
+3
+Africa
+2
+Ahistorical
+Carthage
+2
+Ahistorical
+Hen Ogledd
+2
+Ahistorical
+Aotearoa
+2
+Plausible
+Greece
+2
+Plausible
+Jerusalem
+2
+Plausible
+Livonia
+2
+Plausible
+Maya
+2
+Plausible
+Albania
+2
+Armenia
+2
+Austria
+2
+Ayutthaya
+2
+Bahamis
+2
+England
+2
+Georgia
+2
+Golden Horde
+2
+Holstein
+2
+Ireland
+2
+Navarre
+2
+Nepal
+2
+Netherlands
+2
+Poland
+2
+Prussia
+2
+Scotland
+2
+Serbia
+2
+Sweden
+2
+Switzerland
+2
+Tibet
+2
+Wales
+2
+Connacht
+1
+Plausible
+Ulster
+1
+Plausible
+Aïr
+1
+Bavaria
+1
+Beja
+1
+Mazovia
+1
+Mecklenburg
+1
+Mossi
+1
+Nassau
+1
+Northumbria
+1
+Pomerania
+1
+Sardinia
+1
+Saxony
+1
+Silesia
+1
+That's it for today's dev diary. Thanks for reading, and we'll see you next time, where we will talk about Subject Types, and an interesting part of the Castilian player fantasy…
+Click to expand...
+why England is formable but for example France is not?
+What if I conquer France as one of its duchies?
+Last edited:
+Feb 12, 2025
+83
+14
+Reactions:
+Reply
+Report
+L
+Liam1234
+Second Lieutenant
+45 Badges
+Apr 15, 2018
+181
+944
+Feb 12, 2025
+Add bookmark
+#15
+Both Byzantium and Rome are in tier iV, so does that mean Ai Byzantium will not form Rome?
+28
+9
+Reactions:
+Reply
+Report
+S
+Szlhek
+Private
+Jan 19, 2025
+18
+195
+Feb 12, 2025
+Add bookmark
+#16
+I suppose that the "Cross of Burgundy" as the Spanish flag is only possible if the former is somehow linked to Burgundy (conquest, PU...)?
+Last edited:
+Feb 12, 2025
+21
+4
+1
+Reactions:
+Reply
+Report
+Kr4mpus
+Second Lieutenant
+36 Badges
+May 12, 2024
+109
+642
+Feb 12, 2025
+Add bookmark
+#17
+Shouldn't Denmark be reformable? It would make sense as an achievement to get the old "Estridsen" dynasty back by starting as Slesvig and reforming Denmark.
+Toggle signature
+I made this only to comment on tinto talks
+32
+20
+2
+Reactions:
+Reply
+Report
+Tissaia
+Major
+48 Badges
+Dec 4, 2019
+579
+4.327
+Feb 12, 2025
+Add bookmark
+#18
+So unifying culture group is a thing now?
+Can I assume it is also available for other countries, not only Russia and Russian culture?
+12
+2
+1
+Reactions:
+Reply
+Report
+Tercio Soldier
+Major
+58 Badges
+Feb 25, 2020
+568
+4.336
+Feb 12, 2025
+Add bookmark
+#19
+So does this mean that forming Spain as Castile or Aragon doesn't give significant flavor, and you will continue with mostly Castilian and Aragonese flavor?
+6
+1
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Feb 12, 2025
+Add bookmark
+#20
+There seems to be a lot of formbales missing, that are in EU4. For example Persia (unless it's Iran?), Japan (same here with Yamato), France, Estonia, Romania, some Indian formables, some New World formables, etc.
+Last edited:
+Feb 12, 2025
+60
+10
+1
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+48
+Next
+1 of 48
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

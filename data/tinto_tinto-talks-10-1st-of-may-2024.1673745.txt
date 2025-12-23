@@ -1,0 +1,447 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-10-1st-of-may-2024.1673745/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #10 - 1st of May 2024
+Thread starter
+Johan
+Start date
+May 1, 2024
+Welcome to another Tinto Talks, the final of four on the economy system for our secret game with the code name “Project Caesar”.
+Today we will talk about all the things related to trade, including markets, merchants and trades. This talk is heavy on tooltip screenshots, and a lot of concepts to digest, so I recommend checking it through multiple times.
+Markets
+Let's start with the markets themselves. These are dynamic and will change through the playthrough, as countries can create new markets and disband their old if they so desire.
+Each market has a center in a location, and the owner of that location is in control over that market.
+Every location and coastal seazone will belong to the most fitting market, which depends on the market attraction of the market, the distance between the location and the market center, diplomatic factors, and more.
+The Riga market has control over much of the Baltic region in the start..
+A market has merchants, who have a power depending on buildings and maritime presence in the market, and a merchant capacity which depends on the infrastructure for trade that country has in that market.  The Merchant Power impacts in which order exports from a market are executed, as there is not an endless supply of goods in a market. The Merchant Capacity impacts how much goods the merchants can ship.
+This is the source of the Hanseatic League’s merchant capacity in Riga.
+As you can see in the market screenshot, every good has a local price, and a supply vs demand value as well, let's take a look at the beer price in the next tooltip.
+Cheap beer, must be paradise…
+Prices change every month towards the Target Price, which depends on the supply and demand of the goods in the market, and the current price stability. Price stability can change through the ages as well.
+Supply & Demand
+The supply of each good in a market depends on several factors.
+The output from RGO’s
+The output from buildings
+Base Production
+Burgher Trades
+So what is ‘Base Production’? Some goods like clay, lumber, sand and stone are produced in every market, without the need for specific RGO’s, even if an RGO with that raw material can produce much more, and there are buildings that can be built to provide these as well.
+Also, your burghers will trade on their own, if they have the capacity for it. They will attempt to address needs within the market, and can trade in a slightly shorter range, thus enriching their estate. There are laws and privileges that impact them, like the “Trade Monopolies” estate privilege  that the Hanseatic League has granted in the earlier screenshot, which reduces their own merchant capacity by 25% to increase the capacity of the burghers by 100%
+So what about demand? This is primarily from the maintenance, input, and construction of buildings, recruiting and maintaining armies and navies, and the demands of the population, but there are more sources as well.
+Of course, trades themselves impact supply and demand as well.
+Trade
+You can use your merchant capacity in a market to either export a good from that market, or import a good from another market. Of course that market needs to be within your trade range, which is not world-spanning in 1337.
+A trade is a variable amount of goods shipped from one market to another market, purchasing it for the local price in the exporting market. The longer the distance between the markets, the more capacity each good will require to ship, and higher the maintenance costs will be.
+Trades have an impact on the last land location they are in before leaving the market, and the first one they enter in the importing market, giving boosts in development to them over time. A trade always has to trace a path on the map.
+Our merchant power makes us get the amount of goods we want in Riga.
+There are also the Sound Tolls, if you pass through Öresund or the Bosphorus to consider.
+Diplomacy and Trade
+There are many diplomatic factors that impact the trade and market mechanics of Project Caesar.
+First of all, you can “Deny Market Access” to a nation owning a market, which will reduce the attraction of their markets on your locations, but also make anyone with merchants in those markets upset with you.
+You can also request and/or offer market access preference making it likelier for a country’s locations to belong in a certain market.
+If you dislike paying Sound Tolls, you can always try to ask for exemption for it through diplomacy with the country controlling the strait.
+Some countries have isolated themselves completely, so you need to negotiate a specific exception to allow you to export or import from their markets.
+There is also the possibility to embargo a country, which would block the merchants from that country to trade in your markets, and also to not be allowed to move through your country. Of course, this a legit casus belli, so use with care.
+Other aspects to Trade
+Each market can have specific goods banned for export or import, with one common example being that muslim markets will ban import and export of wine, beer and liquor.
+We mentioned in an earlier Tinto Talks that Markets will have stockpiles, so that surplus can be stored for a rainy day.  There are buildings that will increase the amount that can be stored.
+There is also food in the markets, with prices adapting to the supply and demand of food as well.
+Västra Götaland är Sveriges Kornbod!
+There are also automation options where you can assign trading completely to the AI.  You can also lock some trades so that the AI will not interfere with them.
+Stay tuned, next week we’ll be talking about mercenaries, levies and regulars!
+Last edited by a moderator:
+May 1, 2024
+274
+182
+16
+3
+2
+2
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+46
+Next
+1 of 46
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+Jarzki
+Second Lieutenant
+35 Badges
+Oct 30, 2018
+115
+2.067
+May 1, 2024
+Add bookmark
+#2
+FINALLY!
+Picture below is based on real events:
+113
+33
+4
+4
+1
+Reactions:
+Reply
+Report
+Teng_Ri
+if u read this v1
+May 3, 2020
+597
+3.382
+May 1, 2024
+Add bookmark
+#3
+there it is
+worth the wait i guess
+106
+42
+6
+4
+1
+Reactions:
+Reply
+Report
+D
+Dongerino
+Evropa's Gemmiest Herald
+43 Badges
+Jun 27, 2015
+1.131
+10.921
+May 1, 2024
+Add bookmark
+#4
+IT LIVES
+5
+4
+Reactions:
+Reply
+Report
+Kubus12369_
+Corporal
+29 Badges
+Sep 28, 2021
+45
+169
+May 1, 2024
+Add bookmark
+#5
+Let's GO!
+5
+Reactions:
+Reply
+Report
+Lord636
+First Lieutenant
+102 Badges
+Jun 13, 2012
+268
+168
+May 1, 2024
+Add bookmark
+#6
+Those GLORIOUS HRE borders!
+14
+11
+8
+2
+Reactions:
+Reply
+Report
+Stami
+Beyond the Cape Mod Developer
+55 Badges
+Aug 3, 2012
+1.058
+4.588
+steamcommunity.com
+May 1, 2024
+Add bookmark
+#7
+LIES!!!
+Toggle signature
+Beyond the Cape mod for Europa Universalis V
+#Exploration #Navy
+16
+Reactions:
+Reply
+Report
+Lindaegan
+Colonel
+26 Badges
+Mar 28, 2023
+992
+5.541
+May 1, 2024
+Add bookmark
+#8
+Johan said:
+These are dynamic
+Click to expand...
+Tag-specific mechanics lovers in shambles.
+Toggle signature
+O clouds in the sky, like a blue vesture spread
+Is he too with you there from Venkatam’s clear-stream hills?
+That the tears from my eyes should drown these hills, my breasts!
+Does it become his greatness to kill a woman’s essence thus?
+-
+Nachiyar Tirumozhi
+He, the first origin of this creation, whether he formed it all or did not form it,
+Whose eye controls this world in highest heaven, he verily knows it, or perhaps he knows not.
+-
+Rig Veda, Mandala X, 129.7
+28
+9
+1
+Reactions:
+Reply
+Report
+Gurtannon
+General
+28 Badges
+Mar 10, 2024
+1.702
+9.943
+May 1, 2024
+Add bookmark
+#9
+There is language? Wow
+Toggle signature
+UltraOttomanist Turk
+14
+6
+Reactions:
+Reply
+Report
+Teng_Ri
+if u read this v1
+May 3, 2020
+597
+3.382
+May 1, 2024
+Add bookmark
+#10
+i knew sea tiles were now part of the markets. i can already see the lisbon market snaking around the cape all the way to india
+29
+12
+1
+Reactions:
+Reply
+Report
+HaxMode
+Captain
+12 Badges
+Dec 27, 2021
+496
+3.062
+May 1, 2024
+Add bookmark
+#11
+Toggle signature
+Babbling Buffoon
+50
+4
+1
+Reactions:
+Reply
+Report
+L
+LuckyLMJ
+Corporal
+27 Badges
+May 17, 2023
+27
+118
+May 1, 2024
+Add bookmark
+#12
+Are the markets dynamic? Can more of them be created or can they dissapear? (EDIT: I'm silly, this is confirmed to be the case)
+Also, do their names dynamically change?
+2
+1
+Reactions:
+Reply
+Report
+Tissaia
+Major
+48 Badges
+Dec 4, 2019
+579
+4.327
+May 1, 2024
+Add bookmark
+#13
+Someone asked for Venice, Johan wanted to show Riga, I guess that's a satisfying compromise...
+36
+4
+Reactions:
+Reply
+Report
+C
+CursedRacer850
+Private
+50 Badges
+Oct 30, 2021
+10
+33
+May 1, 2024
+Add bookmark
+#14
+not relevant to this post but please tell me that EU5 has the same culture/religion mechanics as in CK3 so i can create custom cultures/religions or at least ability merge cultures like Muscovite and Novgorodian into Russian
+67
+15
+4
+3
+1
+1
+Reactions:
+Reply
+Report
+EinarH
+Second Lieutenant
+17 Badges
+Mar 15, 2024
+127
+1.160
+May 1, 2024
+Add bookmark
+#15
+The map is uhh... interesting for sure
+6
+2
+1
+Reactions:
+Reply
+Report
+Imperialismo
+Sergeant
+58 Badges
+Apr 16, 2021
+97
+815
+May 1, 2024
+Add bookmark
+#16
+FInally! Dynamic markets with supply and demand!
+27
+5
+3
+Reactions:
+Reply
+Report
+L
+LukasVonGinger
+Private
+14 Badges
+Mar 7, 2024
+17
+115
+May 1, 2024
+Add bookmark
+#17
+That empire is the opposite of Holy! I love it!
+8
+1
+1
+Reactions:
+Reply
+Report
+M
+Miguelinileugim
+Major
+1 Badges
+May 6, 2021
+568
+1.937
+May 1, 2024
+Add bookmark
+#18
+> Trades have an impact on the last land location they are in before leaving the market, and the first one they enter in the importing market, giving boosts in development to them over time. A trade always has to trace a path on the map.
+Does this mean I can manipulate the market so that my lands fall somewhere in between two neighbouring markets?
+9
+1
+Reactions:
+Reply
+Report
+juant675
+friendly ghost
+85 Badges
+Feb 25, 2013
+93
+232
+May 1, 2024
+Add bookmark
+#19
+i know that this wasn't the theme of the talks but i would love to know if you could marry heathens
+12
+3
+1
+Reactions:
+Reply
+Report
+L
+Liam1234
+Second Lieutenant
+45 Badges
+Apr 15, 2018
+181
+944
+May 1, 2024
+Add bookmark
+#20
+What's going on with the borders in Britain, Why is there one Wales instead of two, (The welsh Marches and Principality), and what is happening in Scotland
+15
+4
+4
+1
+1
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+46
+Next
+1 of 46
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

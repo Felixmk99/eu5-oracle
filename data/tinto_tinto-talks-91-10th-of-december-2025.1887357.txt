@@ -1,0 +1,440 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-91-10th-of-december-2025.1887357/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #91 - 10th of December 2025
+Thread starter
+Johan
+Start date
+Dec 10, 2025
+Hello Everyone!
+We are currently testing an update for the 1.0.10 open beta that we aim to have out this week, so that we can iron out 1.0.10 before the Christmas break!
+As Christmas ends, after Reyes Magos, we will be back working, and while we don't want to rule out any small hotfix in January, our goal is that 1.0.10 is the last of the Lepanto updates, as we are working on the 1.1 Rossbach for February afterwards.
+What are we doing in this update? Well, let's take a look.
+Most important first!
+Rome is now a tier 5 formable, so Byzantium can form it.
+Gamebalance
+We have been looking at some major complaints here around, and the following are being tried.
+Cavalry now takes 25% less damage instead of 50% less damage.
+Levies are now 10% stronger in Age of Absolutism and Age of Revolutions.
+Occupation now changes maritime presence to benefit the occupier instead.  It used to benefit the owner of the location even when fully occupied.
+Lowering the infection rate of Malaria in the Regions of Maghreb, Egypt and South Africa to 5% its previous rate.
+Some important bugfixes that have been addressed recently.
+Slave Raiding from Privateering now works.  This might not be popular in the Med, but..
+The 'Block Building in Our Territory' works the right way around, it used to be checked opposite.
+You will no longer get the “Colony Failed” when you have subjects in the same province. This was rather annoying as locations flip to your colonial nation subjects.
+Some minor UI fixes.
+Integration breakdowns for Provinces now calculate correctly.  It used to add values that were supposed to multiply in the tooltip.
+Fixed flanking damage being inverted in tooltips, confusing many, including myself.
+Other annoyances..
+Subjects will no longer transfer occupation to overlord if they are the war leaders.
+Oh, and the AI? Well
+We are hoping that the AI changes we are testing now will reduce the bordergore and make the AI behave better.
+War Declaration AI
+Fixed an issue where AI would not declare war because of not wanting to spend stability even when the war would cost 0 stability to declare.
+AI is now less likely to attack neighbors of far away exclaved land
+Peace AI
+AI will now further delay signing peace deals when they have a longlasting siege worth a lot of warscore
+Fixed an issue where enemy alliance occupation percentage wasn't being calculated correctly causing AI to not peace out
+Fixed an issue where AI would make peace deals in a way that split the conceding country into disconnected unreachable pieces by reviving a dead nation
+Fixed an issue where AI was allowed to take exclaved land in peace deal
+AI will now only annex countries if their respective capitals is within conquering distance
+AI will no longer add highly situational peace treaties like food access or fleet basing rights into every peace deal when possible
+Military AI
+Fixed an issue where AI armies would get stuck in a cycle trying to reinforce an imminent battle
+Fixed  an issue where AI armies could get stuck waiting for transports that where being trapped behind a blockade
+Fixed an issue where AI would sometimes think they didn't have enough men to siege a fort due to checking combat power instead of raw number of men
+Fixed an issue where AI would sometimes not merge their small armies correctly together during peace
+Economy AI
+Overall reduced AI manpower target based on size of their economy while also increasing their military budget, meaning they will now have a larger army and less surplus manpower while keeping the cost roughly the same
+AI now gradually respects their desired buffer when building units based on how depleted their forces are
+Overall reduced AI maximum target for manpower as they wasted money on having way too much compared to their actual army
+Fixed an issue where AI would build fleets using up 100% of their monthly sailors, leaving nothing in reserve for reinforcements
+Fixed an issue where AI would not be able to buy things when they were saving up stability or government power to get out of disasters, even when the cost didn't include stability or government power
+AI is now more interested in keeping stability above 0, reduced desire when above 0
+Reduced AI willingness to invest into the stability slider to suppress ongoing rebels
+Enjoy, next week we will be back for the last Tinto Talks of the year..
+214
+18
+17
+4
+2
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+9
+Next
+1 of 9
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+LeonelBlack
+Recruit
+43 Badges
+Nov 20, 2025
+6
+29
+Dec 10, 2025
+Add bookmark
+#2
+Great news, keep the good works guys! Looking forward to the AI fixes
+28
+Reactions:
+Reply
+Report
+gufen
+Private
+8 Badges
+May 23, 2025
+17
+161
+Dec 10, 2025
+Add bookmark
+#3
+Please fix the "Fill Impassable Terrain" setting—it has no effect when toggled.
+Last edited:
+Dec 11, 2025
+67
+8
+1
+Reactions:
+Reply
+Report
+W
+WTH666444
+Lt. General
+22 Badges
+Mar 1, 2021
+1.514
+4.310
+Dec 10, 2025
+Add bookmark
+#4
+Looks good, but nothing on rivers and the map mode?
+41
+1
+Reactions:
+Reply
+Report
+D
+DanDan65
+Sergeant
+53 Badges
+Apr 2, 2019
+71
+338
+Dec 10, 2025
+Add bookmark
+#5
+Sounds great, is there anything on the current naval combat with ships constantly retreating back a forth between a tile without being destroyed
+20
+Reactions:
+Reply
+Report
+M
+Mythraelis
+Sergeant
+29 Badges
+Dec 8, 2021
+94
+69
+Dec 10, 2025
+Add bookmark
+#6
+Thx and have some nice holidays.
+7
+1
+Reactions:
+Reply
+Report
+M
+mrflagio
+Lt. General
+54 Badges
+Apr 10, 2024
+1.237
+6.004
+Dec 10, 2025
+Add bookmark
+#7
+Some nice fixes but the military rebalance isn't going to do anything. Cavalry is still mega OP because of their damage dealt and initiative, so reducing their damage taken modifier isn't going to do much and anyway regulars are still space marines in general.
+Also vassal swarm trivializes all conquests.
+Hopefully these can get tackled as part of 1.1 otherwise there's not much point in playing past the Age of Discovery since by then you've already won.
+edit: how tf are people disagreeing with this? I forgot that anything critical on a Tinto Talks results in drive-by downvotes. Y'all reap what ya sow.
+Last edited:
+Dec 10, 2025
+35
+28
+1
+1
+Reactions:
+Reply
+Report
+AlexTheTall
+Second Lieutenant
+70 Badges
+Jul 29, 2013
+165
+55
+Dec 10, 2025
+Add bookmark
+#8
+Wait what you are trying to do for "This update" is it for 1.0.10 or 1.1?
+Thank you <3 Keep up the good work
+1
+1
+Reactions:
+Reply
+Report
+ArVass
+Dinosaur Hunter
+27 Badges
+Apr 4, 2016
+2.296
+12.720
+Dec 10, 2025
+Add bookmark
+#9
+Great news!
+Can we expect changes to naval levies, so that countries wouldn't be landlocked if they have no towns? Currently this makes Polynesia, the Maldives, and other island countries landlocked and unplayable.
+Toggle signature
+Justice for Anabaptists!
+Justice for Unitarians!
+Split the Nigerian language!
+Bosnia was a vassal of Hungary in 1337
+15
+1
+Reactions:
+Reply
+Report
+P
+PerfectPatriot
+Private
+23 Badges
+Apr 4, 2022
+10
+8
+Dec 10, 2025
+Add bookmark
+#10
+When do you expect to be able to assist those of us who still can't play the game because of crashes?
+2
+1
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Dec 10, 2025
+Add bookmark
+#11
+I hope you'll introduce the 1.1 update as a beta in January for... stress testing
+10
+4
+Reactions:
+Reply
+Report
+finiks6
+Private
+47 Badges
+Dec 25, 2018
+23
+206
+Dec 10, 2025
+Add bookmark
+#12
+Looks good, thank you for the patch. I really hope 1.0.10 will be a good version for us to play during your break.
+4
+Reactions:
+Reply
+Report
+Zylathas
+Lt. General
+76 Badges
+May 27, 2013
+1.476
+4.322
+Dec 10, 2025
+Add bookmark
+#13
+I am not understanding the wording correctly, will 1.0.10 release this week or will it just be the beta for 1.0.10?
+1
+Reactions:
+Reply
+Report
+GenericUsername1444
+Colonel
+Jun 25, 2024
+805
+10.781
+Dec 10, 2025
+Add bookmark
+#14
+Thank you very much for acknowledging past mistakes and building upon their experience.
+I'm certain that under your guidance EU5 will blossom into a great game.
+Toggle signature
+Professional Georgian
+9
+6
+1
+Reactions:
+Reply
+Report
+toxicgrunt
+Game Complainer
+82 Badges
+May 10, 2015
+344
+1.765
+Dec 10, 2025
+Add bookmark
+#15
+gufen said:
+Please fix the "Fill Impassable Terrain" setting—it has no effect when toggled.
+Click to expand...
+Have you tried making these red, all caps, and a header? Heard that does wonders
+Toggle signature
+March of Crusading heartlandersalisoria
+14
+3
+Reactions:
+Reply
+Report
+Phatkoch69
+Captain
+23 Badges
+Nov 1, 2015
+491
+2.393
+Dec 10, 2025
+Add bookmark
+#16
+AlexTheTall said:
+Wait what you are trying to do for "This update" is it for 1.0.10 or 1.1?
+Thank you <3 Keep up the good work
+Click to expand...
+I read it as everything he listed is hoped to be part of the go live or beta (not sure which) latest variant of 1.0.10 intended to be released later this week.
+I'm guessing it will be an update to the beta followed shortly afterwards (if all is well) with a Live 1.0.10 to be used by the general gameplaying folks over xmas etc
+2
+Reactions:
+Reply
+Report
+P
+paper1
+Sergeant
+9 Badges
+Nov 13, 2025
+76
+340
+Dec 10, 2025
+Add bookmark
+#17
+When vassal assimiliation fix?????????
+4
+2
+Reactions:
+Reply
+Report
+PDX Ryagi
+Community Manager @ PDX Tinto
+Administrator
+Paradox Staff
+Moderator
+Apr 17, 2025
+342
+13.009
+Dec 10, 2025
+Add bookmark
+#18
+Zylathas said:
+I am not understanding the wording correctly, will 1.0.10 release this week or will it just be the beta for 1.0.10?
+Click to expand...
+Only an update to the beta will be released this week.
+26
+7
+Reactions:
+Reply
+Report
+HaxMode
+Captain
+12 Badges
+Dec 27, 2021
+496
+3.062
+Dec 10, 2025
+Add bookmark
+#19
+Seems cool. Looking forward to seeing more AI professional armies.
+Toggle signature
+Babbling Buffoon
+3
+1
+Reactions:
+Reply
+Report
+Phatkoch69
+Captain
+23 Badges
+Nov 1, 2015
+491
+2.393
+Dec 10, 2025
+Add bookmark
+#20
+PDX Ryagi said:
+Only an update to the beta will be released this week.
+Click to expand...
+So is the intention for a Live branch 1.0.10 before xmas break or will that still be 1.0.09 ?
+1
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+9
+Next
+1 of 9
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

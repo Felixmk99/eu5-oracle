@@ -1,0 +1,2881 @@
+Source URL: https://eu5.paradoxwikis.com/Parliament
+Source Date: 2025-12-18
+
+Please help with verifying or updating older sections of this article.
+At least some were last verified for
+version
+pre-release.
+Parliament debating an issue
+A
+Country
+can call its
+Estates
+into a session of Parliament, to solve any
+Parliament Issue
+they may have, while also giving the opportunities to create a
+Casus Belli
+, raise
+Taxes
+, increase
+Army Levies
+and
+Naval Levies
+, or change any of the current
+Laws
+. Any
+Estate
+may have a
+Parliament Agenda
+to resolve before they will pledge their support.
+Parliament may take place in the
+Capital
+or another
+Location
+which receives some small benefits. If the
+Location
+becomes
+Occupied
+, the Parliament will fail.
+Which estates can suggest parliament agendas depends on the parliament type. The Nobility estate can always suggest parliament agendas.
+Parliament type
+[
+edit
+|
+edit source
+]
+Each parliament has a parliament type, which affects how the parliament functions. It can be changed at the cost of 50 Government Power.
+Parliament type
+Can suggest agendas
+Agenda impact
+Other effects
+Requirements
+No Parliament
+The only reason to summon others in front of the ruler can be to give orders, not to discuss policy.
+Parliament mechanics are disabled
+−10%
+Estates satisfaction equilibrium
+Assembly
+Summoning all free people of our domain is the only way for us to determine the focus of our country.
+Commoners
+−33%
+Council
+While power is concentrated in a single authoritative monarch in many societies, many others have seen the alternative benefits of a system allowing a council to discuss and debate matters before acting upon them.
+Clergy
+−10%
+Estate Parliament
+Representatives of the Estates will gather in the parliament to discuss issues and find common ground in achieving these goals.
+Clergy
+Burghers
+Feudalism advance
+20% or more Burghers estate power
+3 or more privileges granted to the Burghers estate
+Autocratic Parliament
+The issue with separated power is that many urgent actions from the government can easily be locked in bureaucratic chaos and dragging discussions. The power of the State must be focused on the hands of the sovereign to ensure the success of our country.
+Clergy
+Burghers
++25%
+Crown power
+The Constitution advance
+Constitutional Parliament
+The authority of the ruler must be regulated while power and justice are in the hands of the people. In the Constitutional System, the role of the masses is significantly expanded.
+Clergy
+Burghers
++25%
++5%
+Estates satisfaction equilibrium
+−25%
+Parliament request issue support needed
+The Constitution advance
+Dutch Parliament
+The wealthy members of parliament are granted greater powers, while the clergy is bared from having representatives.
+Burghers
++25%
+(Burghers only)
+Low Franconian culture
+Polish-Lithuanian Parliament
+The parliament of the Polish-Lithuanian Commonwealth grants greater powers to the noble representatives.
+Clergy
+Burghers
++20%
+(Nobility only)
+Polish or Lithuanian culture group
+Parliament requests
+[
+edit
+|
+edit source
+]
+Parliament requests are actions that a country can spend 50%
+Parliament Support
+on to get through. The support required can be reduced by 20% by the Full College reform and increased by certain Nobles estate privilege. The request takes effect even if the parliament later fails. (E.g., you have 55% Parliament Support, 'spend' 50% on a new law and then fail at the end of parliament with only 5% support: the new law stays in effect.)
+Parliament request
+Effects
+Request Additional Taxes
++25%
+Maximum tax for 1 year
+Cannot be used again for 1 year
+Prepare for War
+Select a country within diplomatic range to gain a Dubious Claims on Province casus belli
+Cannot target countries with a truce, casus belli on, own subjects, or a rebel country
+Ask for Larger Levies
++25%
+levy size for 3 years
+Cannot be used again for 3 years
+Ask for Law Changes
+Select a law to change its policy
+Force Parliament Issue
+Passes the current parliament issue
+Cannot be used again for 5 years
+Requires either a ruler with the Absolute Rule modifier or the Autocratic Parliament type
+Call parliament
+[
+edit
+|
+edit source
+]
+The parliament can be called every 5 years in an attempt to get support to resolve a parliament issue. When the parliament is called, a location must be chosen as the parliament seat. Picking the capital will move societal values towards
+Centralization while picking another location will move them towards
+Decentralization and give the location the following for the duration of the parliament:
++5%
+Max Control
++10%
+Monthly Control
++0.01
+Local Monthly Development
++1%
+Local Monthly Prosperity
+Once the parliament is called, the chosen parliament issue is debated for 180 days. Whether it passes or fails depends on the estate power used to support or oppose it. Each estate will support or oppose an issue, which adds its estate power to either side. The estate which proposed an issue will always support it. Accepting a parliament agenda costs varying amount of
+stability and will shift societal values, enact a policy, affect opinion with another country, or reduce the taxes on the supporting estate for 5 years.
+If the parliament has not been called within the last 120 months, for every months afterwards that it is not called all estates will lose
+−1%
+Satisfaction Equilibrium.
+Parliament issues
+[
+edit
+|
+edit source
+]
+If a parliament issue passes, the country gains a bonus, but if it fails, the country loses 7
+Stability. Each estate will propose up to two parliament issues each time.
+This table is
+automatically generated
+and should not be edited directly.
+Instead, suggest changes on the
+talk page
+.
+Parliament issue
+Requirements
+Chance
+Estate
+Modifiers while the issue is debated
+Effects if the issue is being resolved
+Effects if the issue fails
+Expand Baronial Burghs
+Expanding the rights for baronial burghs will further the development of our nation.
+At least one of:
+has_or_had_tag: SCO
+culture:
+Scots
+Neither of:
+current_age: age_1_traditions
+current_age: age_2_renaissance
+1
+Burghers
+−20.00%
+Founding Town Cost
+ordered_owned_location:
+order_by: population
+limit:
+At least one of:
+location_rank: location_rank:town
+location_rank: location_rank:city
+max:
+value: num_provinces
+multiply: 0.1
+add: 1
+change_development: development_severe_bonus
+if:
+limit:
+current_age_or_later:
+age: age_4_reformation
+change_societal_value:
+type: mercantilism_vs_free_trade
+value: societal_value_tiny_move_to_left
+if:
+limit:
+current_age_or_later:
+age: age_4_reformation
+change_societal_value:
+type: mercantilism_vs_free_trade
+value: societal_value_tiny_move_to_right
+parliament_debate_failed_effect: True
+Expand Ecclesiastical Burghs
+Expanding the rights for ecclesiastical burghs will further the development of our nation.
+At least one of:
+has_or_had_tag: SCO
+culture:
+Scots
+Neither of:
+current_age: age_1_traditions
+current_age: age_2_renaissance
+1
+Clergy
+−20.00%
+Founding Town Cost
+ordered_owned_location:
+order_by: population
+limit:
+At least one of:
+location_rank: location_rank:town
+location_rank: location_rank:city
+max:
+value: num_provinces
+multiply: 0.1
+add: 1
+change_development: development_severe_bonus
+change_societal_value:
+type: spiritualist_vs_humanist
+value: societal_value_tiny_move_to_left
+change_societal_value:
+type: spiritualist_vs_humanist
+value: societal_value_tiny_move_to_right
+parliament_debate_failed_effect: True
+Noble Education Act
+We should invest heavily into the Education of the nobility to advance our administration.
+At least one of:
+has_or_had_tag: SCO
+culture:
+Scots
+has_advance: university_advance
+Not:
+has_variable: compulsory_education_nobles_passed
+50
+Nobility
++0.20
+Monthly Literacy
+unlock_policy_effect:
+type: scottish_noble_education
+change_societal_value:
+type: traditionalist_vs_innovative
+value: societal_value_tiny_move_to_right
+change_societal_value:
+type: spiritualist_vs_humanist
+value: societal_value_tiny_move_to_right
+set_variable: compulsory_education_nobles_passed
+change_societal_value:
+type: traditionalist_vs_innovative
+value: societal_value_tiny_move_to_left
+change_societal_value:
+type: spiritualist_vs_humanist
+value: societal_value_tiny_move_to_left
+parliament_debate_failed_effect: True
+Presbyterian Education Act
+We should establish a school in every parish of our country to further the education of our people. They shall be run by members of the Church and be paid by a tax laid upon the Landowners of our country.
+At least one of:
+has_or_had_tag: SCO
+culture:
+Scots
+religion:
+Calvinism
+Not:
+has_variable: presbyterian_education_passed
+50
+Clergy
++0.20
+Monthly Progress to Humanist
++0.20
+Monthly Progress to Free Subjects
+unlock_policy_effect:
+type: scottish_presbyterian_education
+change_societal_value:
+type: traditionalist_vs_innovative
+value: societal_value_tiny_move_to_right
+change_societal_value:
+type: serfdom_vs_free_subjects
+value: societal_value_tiny_move_to_right
+set_variable: presbyterian_education_passed
+change_societal_value:
+type: traditionalist_vs_innovative
+value: societal_value_tiny_move_to_left
+change_societal_value:
+type: serfdom_vs_free_subjects
+value: societal_value_tiny_move_to_left
+parliament_debate_failed_effect: True
+Establish the College of Justice
+The legal code is currently underdeveloped and does not meet our standards. We should establish a new Institution, the College of Justice, to tackle these issues and found a strong legal system.
+At least one of:
+has_or_had_tag: SCO
+culture:
+Scots
+Neither of:
+current_age: age_1_traditions
+current_age: age_2_renaissance
+Not:
+has_variable: college_of_justice_founded
+50
+Commoners
++0.20
+Monthly Progress to Centralization
+−10.00%
+Change Policy Cost
+unlock_policy_effect:
+type: scottish_civil_law
+set_variable: college_of_justice_founded
+change_societal_value:
+type: centralization_vs_decentralization
+value: societal_value_minor_move_to_left
+parliament_debate_failed_effect: True
+Establish the Signoria of Venice
+The old Commune of Venice serves its purpose and has its long tradition within our state. However, its administrative efficiency is showing its age. We might want to rework the supreme body of government and replace it with a new system which leads solves the domestic problems of the nation.
+has_or_had_tag: VEN
+has_reform: government_reform:council_of_forty
+Not:
+has_unlocked_government_reform_trigger:
+type: signoria_of_venice
+has_unlocked_parliament_issue_trigger:
+type: establish_the_signoria_of_venice
+50
+Nobility
+remove_reform: government_reform:council_of_forty
+unlock_government_reform_effect:
+type: signoria_of_venice
+add_reform: government_reform:signoria_of_venice
+change_societal_value:
+type: serfdom_vs_free_subjects
+value: societal_value_tiny_move_to_left
+change_societal_value:
+type: serfdom_vs_free_subjects
+value: societal_value_tiny_move_to_left
+parliament_debate_failed_effect: True
+Appease English Populace
+Our subjects in Britain have shown to be discontent despite our claim. Showing them that we are not oppressors might help placate them.
+has_or_had_tag: NED
+has_unlocked_parliament_issue_trigger:
+type: appease_english_population
+At least one of:
+c:GBR:
+in_union_with: ROOT
+c:ENG:
+in_union_with: ROOT
+10
+Commoners
++1.00
+Diplomatic Capacity
+if:
+limit:
+c:GBR:
+is_subject_of: ROOT
+c:GBR:
+add_liberty_desire: -10
+add_opinion:
+target: ROOT
+modifier: opinion_appeased_english_in_parliament
+add_opinion:
+target:
+Great Britain
+modifier: opinion_appeased_english_in_parliament
+if:
+limit:
+c:ENG:
+is_subject_of: ROOT
+c:ENG:
+add_liberty_desire: -10
+add_opinion:
+target: ROOT
+modifier: opinion_appeased_english_in_parliament
+add_opinion:
+target:
+England
+modifier: opinion_appeased_english_in_parliament
+parliament_debate_failed_effect: True
+Increase Control in Britain
+The British Isles are disconnected from the rest of the European continent, making it harder for us to rule over them. We should put the effort to make sure we overcome this challenge and increase our control over there.
+has_or_had_tag: NED
+has_unlocked_parliament_issue_trigger:
+type: increase_control_in_britain
+has_presence_in: region:great_britain_region
+any_owned_location:
+percent:
+GREATER_THAN_EQUAL: 0.1
+region: region:great_britain_region
+At least one of:
+location_rank: location_rank:town
+location_rank: location_rank:city
+10
+Crown
++0.10%
+Monthly Control
+ordered_owned_location:
+order_by: population
+max:
+value: num_provinces
+multiply: 0.1
+add: 1
+limit:
+region: region:great_britain_region
+At least one of:
+location_rank: location_rank:town
+location_rank: location_rank:city
+local_control:
+LESS_THAN_EQUAL: 0.8
+change_control: control_mild_bonus
+parliament_debate_failed_effect: True
+Tolerance of Heathens
+With our realm being a multireligious one, and our ruler being a believer in tolerance, we should allow these different beliefs in our nation.
+has_unlocked_parliament_issue_trigger:
+type: tolerance_of_non_hindus
+religion:
+Hinduism
+any_owned_location:
+any_pop:
+percent:
+GREATER_THAN_EQUAL: 0.05
+Not:
+religion: root.religion
+25
+Commoners
++0.05
+Monthly Progress to Humanist
+custom_tooltip:
+text: VIJ_ALL_NON_HINDU_POPS_GAIN_SATISFACTION
+every_owned_location:
+limit:
+any_pop:
+Not:
+religion: root.religion
+every_pop:
+limit:
+owner: root
+Not:
+religion: root.religion
+add_pop_satisfaction: pop_satisfaction_severe_bonus
+parliament_debate_failed_effect: True
+Control over the Heathens
+Rather than allowing our nation to be filled with many different faiths, we should try to control them further lest they rebel.
+has_unlocked_parliament_issue_trigger:
+type: increase_non_hindu_control
+religion:
+Hinduism
+any_owned_location:
+any_pop:
+percent:
+GREATER_THAN_EQUAL: 0.05
+Not:
+religion: root.religion
+25
+Commoners
++0.05
+Monthly Progress to Spiritualist
+custom_tooltip:
+text: VIJ_ALL_NON_HINDU_POPS_LOCATIONS_GAIN_CONTROL
+every_owned_location:
+limit:
+any_pop:
+percent:
+GREATER_THAN_EQUAL: 0.05
+Not:
+religion: root.religion
+change_control: control_mild_bonus
+parliament_debate_failed_effect: True
+Combat Famines
+Instead of sitting idly whilst the population starves, we should provide aid for any location which may be lacking food.
+At least one of:
+any_cabinet_character:
+has_variable: dlh_famine_reduction_flag
+ruler_or_regent:
+has_variable: dlh_famine_reduction_flag
+any_owned_location:
+raw_material:
+goods_method: farming
+is_full_expanded_rgo: False
+25
+Commoners
+−25.00%
+Cost of Purchasing Food
+add_estate_satisfaction:
+type:
+Commoners
+value: estate_satisfaction_mild_bonus
+ordered_owned_location:
+limit:
+raw_material:
+goods_method: farming
+is_full_expanded_rgo: False
+order_by: population
+max:
+value: num_provinces
+multiply: 0.05
+add: 1
+change_max_raw_material_workers: 1
+parliament_debate_failed_effect: True
+New Model Army
+The ravages of the ongoing civil war against the Royalists have proven that our army is in dire need of total reform.
+has_variable: allow_new_model_army_pi_variable
+1000
+Crown
++10.00%
+Army Morale
++10.00%
+Navy Morale
+change_societal_value:
+type: quality_vs_quantity
+value: societal_value_huge_move_to_left
+add_army_tradition: army_tradition_ultimate_bonus
+add_stability: stability_extreme_penalty
+Edict of Nantes
+After years of religious struggle, it is time for us to promote unity through co-existence and end the unnecessary bloodshed.
+always: False
+None
+Crown
+−0.25
+Monthly War Exhaustion
++20.00%
+Pop Leave Rebels Threshold
+custom_tooltip:
+text: end_the_french_wars_of_religion_tt
+if:
+limit:
+Not:
+has_variable: enable_fra_tolerance_edicts
+set_variable: enable_fra_tolerance_edicts
+unlock_policy_effect:
+type: edict_of_nantes
+add_policy:
+Edict of Nantes
+add_stability: stability_extreme_penalty
+Promote Rajasthani Officials
+By promoting the Rajasthani people in the nation, we can ensure that we have a number of militaristic officials we can depend upon.
+has_unlocked_parliament_issue_trigger:
+type: mug_promote_rajput_officials
+25
+Nobility
++5.00%
+Ḏimmī Estate Satisfaction Equilibrium
+random_accepted_culture:
+limit:
+language: language:rajasthani_language
+save_scope_as: target_culture
+custom_tooltip:
+text: promote_rajput_officials_passed_tt
+create_character:
+estate:
+Dhimmi
+culture: scope:target_culture
+religion:
+Hinduism
+adm: 30
+adm: 60
+dip: 20
+dip: 50
+mil: 50
+mil: 80
+add_stability: stability_mild_penalty
+Hussite Military Reforms
+Our people have traversed the valleys of history against all odds. Surviving wars, crusades and persecution. Our armies deserve to employ the finest of tactics and shift into the offense, against all those who seek our demise!
+has_country_modifier: hussite_military_reform_modifier
+100
+Crown
+−1.00
+Stability Investment
+−1.00
+Monthly Legitimacy
+−1.00
+Monthly Republican Tradition
+−1.00
+Monthly Devotion
+change_societal_value:
+type: offensive_vs_defensive
+value: societal_value_huge_move_to_left
+unlock_policy_effect:
+type: reformed_hussite_armies_policy
+change_societal_value:
+type: offensive_vs_defensive
+value: societal_value_huge_move_to_right
+add_stability: stability_extreme_penalty
+Measures Against Romuvan Resurgence
+With the resurgency of the Romuva faith, many are worried that they may try and cause unrest. We need to summon the estates to deal with this matter.
+has_unlocked_parliament_issue_trigger:
+type: lit_measures_against_romuva
+religion_percentage_in_country(religion:romuva):
+GREATER_THAN: 0.05
+is_situation_active: situation:reformation
+religion:
+NOT_EQUAL:
+Romuva
+50
+Clergy
++0.025
+Pop Conversion Speed
+custom_tooltip:
+text: lit_5_percent_of_pops_convert_to_our_religion_tt
+every_pop:
+limit:
+owner: root
+religion:
+Romuva
+split_pop:
+fraction: 0.05
+religion: root.religion
+add_stability: stability_extreme_penalty
+Bolster the Government
+The central authority of our country should stand tall above all interest groups and prominent members of our upper strata.
+at_war: False
+At least one of:
+parliament_type: parliament_type:council
+parliament_type: parliament_type:estate_parliament
+parliament_type: parliament_type:dutch_parliament
+parliament_type: parliament_type:plc_parliament
+parliament_type: parliament_type:autocratic_parliament
+parliament_type: parliament_type:constitutional_parliament
+estate_power(estate_type:crown_estate):
+LESS_THAN: 0.5
+government_type: government_type:monarchy
+Not:
+has_country_modifier: bolstered_crown_authority_modifier
+inline_script_value
+Showing the full calculation is not implemented yet
+Crown
++1.00
+Monthly Legitimacy
+add_country_modifier:
+modifier: bolstered_crown_authority_modifier
+years: 10
+mode: add_and_extend
+parliament_debate_failed_effect: True
+Bolster the Government
+The central authority of our country should stand tall above all interest groups and prominent members of our upper strata.
+at_war: False
+estate_power(estate_type:crown_estate):
+LESS_THAN: 0.5
+At least one of:
+parliament_type: parliament_type:council
+parliament_type: parliament_type:estate_parliament
+parliament_type: parliament_type:dutch_parliament
+parliament_type: parliament_type:plc_parliament
+parliament_type: parliament_type:autocratic_parliament
+parliament_type: parliament_type:constitutional_parliament
+government_type: government_type:republic
+Not:
+has_country_modifier: bolstered_state_authority
+inline_script_value
+Showing the full calculation is not implemented yet
+Crown
++1.00
+Monthly Republican Tradition
+add_country_modifier:
+modifier: bolstered_state_authority
+years: 10
+mode: add_and_extend
+parliament_debate_failed_effect: True
+Bolster the Government
+The central authority of our country should stand tall above all interest groups and prominent members of our upper strata.
+at_war: False
+estate_power(estate_type:crown_estate):
+LESS_THAN: 0.5
+At least one of:
+parliament_type: parliament_type:council
+parliament_type: parliament_type:estate_parliament
+parliament_type: parliament_type:dutch_parliament
+parliament_type: parliament_type:plc_parliament
+parliament_type: parliament_type:autocratic_parliament
+parliament_type: parliament_type:constitutional_parliament
+government_type: government_type:theocracy
+Not:
+has_country_modifier: bolstered_divine_authority
+inline_script_value
+Showing the full calculation is not implemented yet
+Crown
++1.00
+Monthly Devotion
+add_country_modifier:
+modifier: bolstered_divine_authority
+years: 10
+mode: add_and_extend
+parliament_debate_failed_effect: True
+Bolster the Government
+The central authority of our country should stand tall above all interest groups and prominent members of our upper strata.
+at_war: False
+estate_power(estate_type:crown_estate):
+LESS_THAN: 0.5
+At least one of:
+parliament_type: parliament_type:assembly
+parliament_type: parliament_type:council
+parliament_type: parliament_type:estate_parliament
+parliament_type: parliament_type:dutch_parliament
+parliament_type: parliament_type:plc_parliament
+government_type: government_type:tribe
+Not:
+has_country_modifier: bolstered_tribal_authority
+inline_script_value
+Showing the full calculation is not implemented yet
+Crown
++1.00
+Monthly Tribal Cohesion
+add_country_modifier:
+modifier: bolstered_tribal_authority
+years: 10
+mode: add_and_extend
+parliament_debate_failed_effect: True
+Bolster the Government
+The central authority of our country should stand tall above all interest groups and prominent members of our upper strata.
+At least one of:
+parliament_type: parliament_type:assembly
+estate_power(estate_type:crown_estate):
+LESS_THAN: 0.5
+government_type: government_type:steppe_horde
+Not:
+has_country_modifier: bolstered_khan_authority
+inline_script_value
+Showing the full calculation is not implemented yet
+Crown
++1.00
+Monthly Horde Unity
+add_country_modifier:
+modifier: bolstered_khan_authority
+years: 10
+mode: add_and_extend
+parliament_debate_failed_effect: True
+Conduct a Census
+The proper documentation of our people while tending to their development and prosperity is a great way to promote stability across the realm.
+always: True
+At least one of:
+parliament_type: parliament_type:council
+parliament_type: parliament_type:estate_parliament
+parliament_type: parliament_type:dutch_parliament
+parliament_type: parliament_type:plc_parliament
+parliament_type: parliament_type:autocratic_parliament
+parliament_type: parliament_type:constitutional_parliament
+inline_script_value
+Showing the full calculation is not implemented yet
+Crown
++0.50%
+Population Growth
+add_stability: stability_mild_bonus
+parliament_debate_failed_effect: True
+Support the State
+Our government can not function without the proper acknowledgment of its power. With a proper declaration of the parliament, we can solidify our reputation and strengthen our ruler.
+has_ruler: True
+Not:
+is_subject_type: fiefdom
+Not:
+is_subject_type: dominion
+At least one of:
+parliament_type: parliament_type:assembly
+parliament_type: parliament_type:council
+parliament_type: parliament_type:estate_parliament
+parliament_type: parliament_type:dutch_parliament
+parliament_type: parliament_type:plc_parliament
+parliament_type: parliament_type:autocratic_parliament
+parliament_type: parliament_type:constitutional_parliament
+inline_script_value
+Showing the full calculation is not implemented yet
+Crown
++50.00%
+Crown Power
+if:
+limit:
+has_ruler: True
+ruler:
+add_adm: 3
+add_dip: 3
+add_mil: 3
+else_if:
+limit:
+has_regent: True
+regent:
+add_adm: 3
+add_dip: 3
+add_mil: 3
+parliament_debate_failed_effect: True
+Increase Our Control
+Exerting control over our county is vital to the functionality of our state. We should improve our institutions that enforce control over our towns.
+has_ruler: True
+At least one of:
+parliament_type: parliament_type:assembly
+parliament_type: parliament_type:estate_parliament
+parliament_type: parliament_type:dutch_parliament
+parliament_type: parliament_type:plc_parliament
+parliament_type: parliament_type:autocratic_parliament
+parliament_type: parliament_type:constitutional_parliament
+has_advance: counting_house_advance
+any_owned_location:
+At least one of:
+location_rank: location_rank:town
+location_rank: location_rank:city
+Not:
+has_building:
+Counting House
+inline_script_value
+Showing the full calculation is not implemented yet
+Crown
++0.50%
+Monthly Control
+ordered_owned_location:
+order_by: population
+max:
+value: num_provinces
+multiply: 0.1
+add: 1
+check_range_bounds: False
+limit:
+Not:
+has_building:
+Counting House
+At least one of:
+location_rank: location_rank:town
+location_rank: location_rank:city
+construct_building:
+building_type:
+Counting House
+cost_multiplier: 0.5
+cost_multiplier_reason: game_concept_parliament_issue
+parliament_debate_failed_effect: True
+Great Power Relations
+The sword alone will only carry us so far. It would be far more beneficial for us to let the pen support the sword to achieve greater things. We need to secure our relations to the great powers of the world.
+At least one of:
+parliament_type: parliament_type:autocratic_parliament
+parliament_type: parliament_type:constitutional_parliament
+any_great_power:
+Not:
+is_rival_of: ROOT
+Not:
+is_enemy_of: ROOT
+is_known_by_country: root
+inline_script_value
+Showing the full calculation is not implemented yet
+Crown
++2.00
+Diplomatic Reputation
+add_diplomats: 5
+ordered_great_power:
+limit:
+Not:
+is_rival_of: ROOT
+Not:
+is_enemy_of: ROOT
+max: 2
+check_range_bounds: False
+order_by:
+value: expected_army_size
+multiply: -1
+add_opinion:
+target: ROOT
+modifier: careful_diplomatic_manouvering
+parliament_debate_failed_effect: True
+Increase Ties to Subject
+By increasing our diplomatic and administrative ties to our subject we will be able to bind them more closely to our state.
+num_subjects:
+GREATER_THAN_EQUAL: 1
+At least one of:
+parliament_type: parliament_type:assembly
+parliament_type: parliament_type:council
+parliament_type: parliament_type:estate_parliament
+parliament_type: parliament_type:dutch_parliament
+parliament_type: parliament_type:plc_parliament
+inline_script_value
+Showing the full calculation is not implemented yet
+Crown
++10.00
+Loyalty of Subjects
++20.00%
+Subject Income
+every_subject:
+add_liberty_desire: liberty_desire_weak_minus
+parliament_debate_failed_effect: True
+Promote Castle Works
+Across our country lie excellent sites for potential fortifications, ready to halt any advance of our enemies.
+has_advance: castle_advance
+Neither of:
+has_advance: bastion_advance
+has_advance: star_fort_advance
+has_advance: fortress_advance
+Not:
+has_country_modifier: fortification_works_modifier
+inline_script_value
+Showing the full calculation is not implemented yet
+Nobility
+−50.00%
+Fort Buildings Cost
++0.50
+Monthly Progress to Defensive
+add_country_modifier:
+modifier: fortification_works_modifier
+years: 10
+mode: add_and_extend
+parliament_debate_failed_effect: True
+Promote Bastion Works
+Across our country lie excellent sites for potential fortifications, ready to halt any advance of our enemies.
+has_advance: bastion_advance
+Neither of:
+has_advance: star_fort_advance
+has_advance: fortress_advance
+Not:
+has_country_modifier: fortification_works_modifier
+inline_script_value
+Showing the full calculation is not implemented yet
+Nobility
+−50.00%
+Fort Buildings Cost
++0.50
+Monthly Progress to Defensive
+add_country_modifier:
+modifier: fortification_works_modifier
+years: 10
+mode: add_and_extend
+parliament_debate_failed_effect: True
+Promote Star Fort Works
+Across our country lie excellent sites for potential fortifications, ready to halt any advance of our enemies.
+has_advance: star_fort_advance
+Not:
+has_advance: fortress_advance
+Not:
+has_country_modifier: fortification_works_modifier
+inline_script_value
+Showing the full calculation is not implemented yet
+Nobility
+−50.00%
+Fort Buildings Cost
++0.50
+Monthly Progress to Defensive
+add_country_modifier:
+modifier: fortification_works_modifier
+years: 10
+mode: add_and_extend
+parliament_debate_failed_effect: True
+Promote Fortress Works
+Across our country lie excellent sites for potential fortifications, ready to halt any advance of our enemies.
+has_advance: fortress_advance
+Not:
+has_country_modifier: fortification_works_modifier
+inline_script_value
+Showing the full calculation is not implemented yet
+Nobility
+−50.00%
+Fort Buildings Cost
++0.50
+Monthly Progress to Defensive
+add_country_modifier:
+modifier: fortification_works_modifier
+years: 10
+mode: add_and_extend
+parliament_debate_failed_effect: True
+Sponsor a Opera House
+Our people demand an expansion of our cultural institutions. Providing them with a new Opera House will satiate this cultural fever while providing our urban areas with the necessary attention.
+At least one of:
+parliament_type: parliament_type:estate_parliament
+parliament_type: parliament_type:dutch_parliament
+parliament_type: parliament_type:plc_parliament
+parliament_type: parliament_type:autocratic_parliament
+parliament_type: parliament_type:constitutional_parliament
+has_advance: opera_house_advance
+any_owned_location:
+Not:
+has_building:
+Opera House
+At least one of:
+location_rank: location_rank:town
+location_rank: location_rank:city
+Not:
+has_policy: strict_censorship
+inline_script_value
+Showing the full calculation is not implemented yet
+Nobility
++33.00%
+Cultural Tradition %
++0.50
+Monthly Progress to Aristocracy
+ordered_owned_location:
+order_by:
+value: population
+if:
+limit:
+location_rank: location_rank:city
+multiply: 5
+max: 1
+limit:
+Not:
+has_building:
+Opera House
+At least one of:
+location_rank: location_rank:town
+location_rank: location_rank:city
+construct_building:
+building_type:
+Opera House
+cost_multiplier: 0.5
+cost_multiplier_reason: game_concept_parliament_issue
+parliament_debate_failed_effect: True
+Expand Gravel Road Network
+The backbone of our country is what connects our provinces and populated centers. As such, we must pave new roads and finance their construction as well as expansion.
+At least one of:
+parliament_type: parliament_type:assembly
+parliament_type: parliament_type:council
+Neither of:
+has_advance: paved_road_advance
+has_advance: modern_road_advance
+has_advance: railroad_advance
+inline_script_value
+Showing the full calculation is not implemented yet
+Nobility
+−20.00%
+Road Building Time
+−20.00%
+Build Gravel Road Cost
+change_societal_value:
+type: centralization_vs_decentralization
+value: societal_value_move_to_left
+parliament_debate_failed_effect: True
+Expand Paved Road Network
+The backbone of our country is what connects our provinces and populated centers. As such, we must pave new roads and finance their construction as well as expansion.
+At least one of:
+parliament_type: parliament_type:estate_parliament
+parliament_type: parliament_type:dutch_parliament
+parliament_type: parliament_type:plc_parliament
+parliament_type: parliament_type:autocratic_parliament
+parliament_type: parliament_type:constitutional_parliament
+has_advance: paved_road_advance
+Neither of:
+has_advance: modern_road_advance
+has_advance: railroad_advance
+inline_script_value
+Showing the full calculation is not implemented yet
+Nobility
+−20.00%
+Road Building Time
+−20.00%
+Build Paved Road Cost
+change_societal_value:
+type: centralization_vs_decentralization
+value: societal_value_minor_move_to_left
+parliament_debate_failed_effect: True
+Fund Farming Estates
+Our farming estates secure the production of many basic necessities. However, the owners of the lands promise greater yields if we invest more time and resources into them.
+any_owned_location:
+raw_material:
+goods_method: farming
+is_full_expanded_rgo: False
+inline_script_value
+Showing the full calculation is not implemented yet
+Nobility
+−33.00%
+Expand Farming Cost
+−20.00%
+Expanding Raw Materials Time
+ordered_owned_location:
+limit:
+raw_material:
+goods_method: farming
+is_full_expanded_rgo: False
+order_by: population
+max:
+value: num_provinces
+multiply: 0.05
+add: 1
+check_range_bounds: False
+change_max_raw_material_workers: 1
+change_prosperity: prosperity_mild_bonus
+parliament_debate_failed_effect: True
+Promote Integration Process
+We should support the efforts to integrate the remote provinces of our domain and consolidate them more closer into our core territory.
+At least one of:
+parliament_type: parliament_type:council
+parliament_type: parliament_type:estate_parliament
+parliament_type: parliament_type:dutch_parliament
+parliament_type: parliament_type:plc_parliament
+parliament_type: parliament_type:autocratic_parliament
+parliament_type: parliament_type:constitutional_parliament
+any_owned_location:
+integration_level: conquered
+integration_progress:
+GREATER_THAN: 0
+integration_progress:
+LESS_THAN_EQUAL: 60
+inline_script_value
+Showing the full calculation is not implemented yet
+Nobility
++20.00%
+Speed of Integration
+ordered_province:
+limit:
+province_average_integration:
+LESS_THAN: 1
+order_by: population
+max: 1
+check_range_bounds: False
+every_location_in_province:
+limit:
+integration_level: conquered
+change_integration_progress: 20
+parliament_debate_failed_effect: True
+Back the War Effort
+Our war efforts stand to greatly benefit by the backing of our legislative framework.
+at_war: True
+inline_script_value
+Showing the full calculation is not implemented yet
+Nobility
++10.00%
+Reinforcement Speed
+add_war_exhaustion: war_exhaustion_severe_bonus
+parliament_debate_failed_effect: True
+Expand Our Armory
+Our army reserve has seen better days and is in dire need of new infrastructure for recruitment.
+At least one of:
+parliament_type: parliament_type:council
+parliament_type: parliament_type:estate_parliament
+parliament_type: parliament_type:dutch_parliament
+parliament_type: parliament_type:plc_parliament
+parliament_type: parliament_type:autocratic_parliament
+parliament_type: parliament_type:constitutional_parliament
+has_advance: armory_advance
+Not:
+has_advance: barracks_advance
+any_owned_non_rural_location:
+owner:
+has_primary_or_accepted_culture: prev.dominant_culture
+Not:
+has_building:
+Armory
+inline_script_value
+Showing the full calculation is not implemented yet
+Nobility
++50.00%
+Manpower
+ordered_owned_location:
+order_by: population
+max:
+value: num_provinces
+multiply: 0.1
+add: 1
+check_range_bounds: False
+limit:
+owner:
+has_primary_or_accepted_culture: prev.dominant_culture
+Not:
+has_building:
+Armory
+At least one of:
+location_rank: location_rank:town
+location_rank: location_rank:city
+construct_building:
+building_type:
+Armory
+cost_multiplier: 0.5
+cost_multiplier_reason: game_concept_parliament_issue
+parliament_debate_failed_effect: True
+Expand the Barracks Infrastructure
+Our army reserve has seen better days and is in dire need of new infrastructure for recruitment.
+At least one of:
+parliament_type: parliament_type:council
+parliament_type: parliament_type:estate_parliament
+parliament_type: parliament_type:dutch_parliament
+parliament_type: parliament_type:plc_parliament
+parliament_type: parliament_type:autocratic_parliament
+parliament_type: parliament_type:constitutional_parliament
+has_advance: barracks_advance
+any_owned_non_rural_location:
+owner:
+has_primary_or_accepted_culture: prev.dominant_culture
+Not:
+has_building:
+Barracks
+inline_script_value
+Showing the full calculation is not implemented yet
+Nobility
++50.00%
+Manpower
+ordered_owned_location:
+order_by: population
+max:
+value: num_provinces
+multiply: 0.1
+add: 1
+check_range_bounds: False
+limit:
+owner:
+has_primary_or_accepted_culture: prev.dominant_culture
+Not:
+has_building:
+Barracks
+At least one of:
+location_rank: location_rank:town
+location_rank: location_rank:city
+construct_building:
+building_type:
+Barracks
+cost_multiplier: 0.5
+cost_multiplier_reason: game_concept_parliament_issue
+parliament_debate_failed_effect: True
+Host Army Exercises
+If we are to keep a versatile army, we must promote military drills as a means to keep our soldiers at peak condition and ready.
+at_war: False
+At least one of:
+parliament_type: parliament_type:estate_parliament
+parliament_type: parliament_type:dutch_parliament
+parliament_type: parliament_type:plc_parliament
+parliament_type: parliament_type:autocratic_parliament
+parliament_type: parliament_type:constitutional_parliament
+inline_script_value
+Showing the full calculation is not implemented yet
+Nobility
+−0.10%
+Army Tradition Decay
+add_army_tradition: army_tradition_extreme_bonus
+parliament_debate_failed_effect: True
+Promote Noble Officers
+We should look toward our minor Nobility to promote new officers into the ranks of our government.
+At least one of:
+parliament_type: parliament_type:estate_parliament
+parliament_type: parliament_type:dutch_parliament
+parliament_type: parliament_type:plc_parliament
+parliament_type: parliament_type:autocratic_parliament
+has_estate_privilege:
+Only Nobility as Leaders
+inline_script_value
+Showing the full calculation is not implemented yet
+Nobility
++20.00%
+Noble Estate Satisfaction Equilibrium
+custom_tooltip: promote_noble_officers_passed.tt
+hidden_effect:
+create_character:
+estate:
+Nobility
+adm: 20
+adm: 60
+dip: 20
+dip: 60
+mil: 50
+mil: 90
+parliament_debate_failed_effect: True
+Support a Noble Cabinet
+The bureaucracy throughout our domain stands to benefit greatly from a legislative reform around its efficiency, and who is a better candidate to champion this reform than our most esteemed members of the upper society.
+At least one of:
+parliament_type: parliament_type:council
+parliament_type: parliament_type:estate_parliament
+parliament_type: parliament_type:dutch_parliament
+parliament_type: parliament_type:plc_parliament
+parliament_type: parliament_type:autocratic_parliament
+parliament_type: parliament_type:constitutional_parliament
+any_character:
+in_cabinet: True
+has_estate:
+Nobility
+Neither of:
+current_age: age_4_reformation
+current_age: age_5_absolutism
+current_age: age_6_revolutions
+inline_script_value
+Showing the full calculation is not implemented yet
+Nobility
++20.00%
+Efficiency of Our Cabinet
+−50.00%
+Set Cabinet Member Cost
+random_cabinet_character:
+limit:
+has_estate:
+Nobility
+add_adm: 5
+add_dip: 5
+add_mil: 5
+change_societal_value:
+type: aristocracy_vs_plutocracy
+value: societal_value_move_to_left
+parliament_debate_failed_effect: True
+Increase Ties to Neighbors
+The sword alone will only carry us so far. It would be far more beneficial for us to let the pen support the sword to achieve greater things. Our main concern should be the minor countries around ourselves.
+At least one of:
+current_age: age_1_traditions
+current_age: age_2_renaissance
+current_age: age_3_discovery
+any_neighbor_country:
+Not:
+has_target_casus_belli_on_us: ROOT
+Not:
+is_allied_with:
+target: ROOT
+Not:
+is_subject_of: ROOT
+Not:
+is_rival_of: ROOT
+Not:
+is_enemy_of: ROOT
+inline_script_value
+Showing the full calculation is not implemented yet
+Nobility
++2.00
+Diplomatic Reputation
+add_diplomats: 5
+ordered_neighbor_country:
+limit:
+Not:
+has_target_casus_belli_on_us: ROOT
+Not:
+is_allied_with:
+target: ROOT
+Not:
+is_subject_of: ROOT
+Not:
+is_rival_of: ROOT
+Not:
+is_enemy_of: ROOT
+max: 3
+check_range_bounds: False
+order_by:
+value: expected_army_size
+multiply: -1
+add_opinion:
+target: ROOT
+modifier: careful_diplomatic_manouvering
+parliament_debate_failed_effect: True
+Sponsor the Noble Arts
+Our sophisticated elites crave more art to admire above all else. If we employ more artists we would surely make them happy.
+At least one of:
+current_age: age_2_renaissance
+current_age: age_3_discovery
+current_age: age_6_revolutions
+inline_script_value
+Showing the full calculation is not implemented yet
+Nobility
++20.00%
+Noble Estate Satisfaction Equilibrium
++2.50%
+Noble Estate Satisfaction Recovery
+random_list:
+1:
+create_character:
+artist: architect
+estate:
+Burghers
+artist_skill: 0.2
+artist_skill: 0.9
+1:
+create_character:
+artist: composer
+estate:
+Burghers
+artist_skill: 0.2
+artist_skill: 0.9
+1:
+create_character:
+artist: writer
+estate:
+Burghers
+artist_skill: 0.2
+artist_skill: 0.9
+change_societal_value:
+type: aristocracy_vs_plutocracy
+value: societal_value_move_to_left
+parliament_debate_failed_effect: True
+Raise Noble Sponsored Mercenaries
+We should grant one of our most valiant Lords a permit to raise a mercenary company in order to defend our faith and countrymen in our name.
+At least one of:
+current_age: age_4_reformation
+current_age: age_5_absolutism
+can_build_units_of_category: sub_unit_category:army_infantry
+can_build_units_of_category: sub_unit_category:army_cavalry
+can_build_units_of_category: sub_unit_category:army_artillery
+inline_script_value
+Showing the full calculation is not implemented yet
+Nobility
++0.20
+Monthly Army Tradition
++0.50
+Monthly Progress to Belligerent
+if:
+limit:
+expected_army_size:
+LESS_THAN: 10
+create_mercenary:
+home: root.capital
+categories:
+army_infantry: 6
+army_cavalry: 2
+save_scope_as: parliament_mercs
+months: 120
+if:
+limit:
+exists: scope:parliament_mercs
+hire_mercenary: scope:parliament_mercs
+else_if:
+limit:
+expected_army_size:
+GREATER_THAN: 10
+expected_army_size:
+LESS_THAN: 20
+create_mercenary:
+home: root.capital
+categories:
+army_infantry: 12
+army_cavalry: 4
+army_artillery: 4
+save_scope_as: parliament_mercs
+months: 120
+else_if:
+limit:
+expected_army_size:
+GREATER_THAN: 20
+create_mercenary:
+home: root.capital
+categories:
+army_infantry: 16
+army_cavalry: 4
+army_artillery: 8
+save_scope_as: parliament_mercs
+months: 120
+change_societal_value:
+type: aristocracy_vs_plutocracy
+value: societal_value_move_to_left
+parliament_debate_failed_effect: True
+Sponsor a Confucian Academy
+To pursue higher knowledge and offer our scholars an extensive infrastructure for their work, we should invest into our academies.
+At least one of:
+parliament_type: parliament_type:council
+parliament_type: parliament_type:autocratic_parliament
+parliament_type: parliament_type:constitutional_parliament
+has_advance: confucian_academy_advance
+any_owned_location:
+Not:
+has_building:
+Confucian Academy
+At least one of:
+location_rank: location_rank:town
+location_rank: location_rank:city
+inline_script_value
+Showing the full calculation is not implemented yet
+Clergy
++5.00%
+Monthly Research Progress %
++0.50
+Monthly Progress to Innovative
+ordered_owned_location:
+order_by:
+value: population
+if:
+limit:
+location_rank: location_rank:city
+multiply: 5
+max: 1
+limit:
+Not:
+has_building:
+Confucian Academy
+At least one of:
+location_rank: location_rank:town
+location_rank: location_rank:city
+construct_building:
+building_type:
+Confucian Academy
+cost_multiplier: 0.5
+cost_multiplier_reason: game_concept_parliament_issue
+parliament_debate_failed_effect: True
+Sponsor a Cathedral
+Our governance will be forever revered if we construct a cathedral to celebrate our faith in one of our most prominent towns.
+has_advance: cathedral_advance
+any_owned_location:
+Not:
+has_building:
+Cathedral
+At least one of:
+location_rank: location_rank:town
+location_rank: location_rank:city
+inline_script_value
+Showing the full calculation is not implemented yet
+Clergy
++0.50
+Monthly Progress to Spiritualist
+ordered_owned_location:
+order_by:
+value: population
+if:
+limit:
+location_rank: location_rank:city
+multiply: 5
+max: 1
+limit:
+Not:
+has_building:
+Cathedral
+At least one of:
+location_rank: location_rank:town
+location_rank: location_rank:city
+construct_building:
+building_type:
+Cathedral
+cost_multiplier: 0.5
+cost_multiplier_reason: game_concept_parliament_issue
+parliament_debate_failed_effect: True
+Expand Forest Exploitation
+The forests of our country promise greater yields. We should expand our extraction operations to reach their potential.
+any_owned_location:
+raw_material:
+goods_method: forestry
+is_full_expanded_rgo: False
+inline_script_value
+Showing the full calculation is not implemented yet
+Clergy
+−33.00%
+Expand Forestry Cost
+−20.00%
+Expanding Raw Materials Time
+ordered_owned_location:
+limit:
+raw_material:
+goods_method: forestry
+is_full_expanded_rgo: False
+order_by: population
+max:
+value: num_provinces
+multiply: 0.05
+add: 1
+check_range_bounds: False
+change_max_raw_material_workers: 1
+change_prosperity: prosperity_mild_bonus
+parliament_debate_failed_effect: True
+Support a Clerical Cabinet
+The bureaucracy throughout our domain stands to benefit greatly from a legislative reform around its efficiency. The best option for this is to turn to our devoted holy men.
+At least one of:
+parliament_type: parliament_type:council
+parliament_type: parliament_type:estate_parliament
+parliament_type: parliament_type:dutch_parliament
+parliament_type: parliament_type:plc_parliament
+parliament_type: parliament_type:autocratic_parliament
+parliament_type: parliament_type:constitutional_parliament
+any_character:
+in_cabinet: True
+has_estate:
+Clergy
+Neither of:
+current_age: age_4_reformation
+current_age: age_5_absolutism
+current_age: age_6_revolutions
+inline_script_value
+Showing the full calculation is not implemented yet
+Clergy
++20.00%
+Efficiency of Our Cabinet
+−0.10%
+Stability Decay
+random_cabinet_character:
+limit:
+has_estate:
+Clergy
+add_adm: 5
+add_dip: 5
+add_mil: 5
+change_societal_value:
+type: spiritualist_vs_humanist
+value: societal_value_move_to_left
+parliament_debate_failed_effect: True
+Promote State Religion
+Having our subjects following the religion of our state is a crucial step towards the stability of our realm. We should increase our efforts to convert our people.
+religious_unity:
+LESS_THAN_EQUAL: 0.9
+inline_script_value
+Showing the full calculation is not implemented yet
+Clergy
++20.00%
+Clergy Estate Satisfaction Equilibrium
++2.50%
+Clergy Estate Satisfaction Recovery
+add_country_modifier:
+modifier: missionary_zeal
+years: 10
+mode: add_and_extend
+ordered_pop:
+limit:
+religion:
+NOT_EQUAL: root.religion
+Not:
+pop_type: pop_type:slaves
+is_not_protected_from_conversion: True
+order_by:
+value: pop_size
+multiply: location.proximity
+max: 1
+check_range_bounds: False
+split_pop:
+fraction: 0.1
+fraction: 0.3
+religion: root.religion
+parliament_debate_failed_effect: True
+Reach Out to our Faith
+The sword alone will only carry us so far. It would be far more beneficial for us to let the pen support the sword to achieve greater things. It is vital for us to improve our contacts to our religious brethren.
+At least one of:
+current_age: age_3_discovery
+current_age: age_4_reformation
+current_age: age_5_absolutism
+root.religion:
+any_country_in_religion:
+Not:
+has_target_casus_belli_on_us: ROOT
+Not:
+is_subject_of: ROOT
+Not:
+is_rival_of: ROOT
+Not:
+is_enemy_of: ROOT
+Not:
+this: ROOT
+inline_script_value
+Showing the full calculation is not implemented yet
+Clergy
++2.00
+Diplomatic Reputation
+add_diplomats: 5
+root.religion:
+ordered_country_in_religion:
+limit:
+Not:
+has_target_casus_belli_on_us: ROOT
+Not:
+is_subject_of: ROOT
+Not:
+is_rival_of: ROOT
+Not:
+is_enemy_of: ROOT
+Not:
+this: ROOT
+max: 3
+check_range_bounds: False
+order_by:
+value: expected_army_size
+multiply: 1
+add_opinion:
+target: ROOT
+modifier: careful_diplomatic_manouvering
+parliament_debate_failed_effect: True
+Promote Member of the Clergy
+Our administration could use the support of the Clergy to run more efficiently. By offering them higher positions in our government we could improve the situation of our state.
+estate_power(estate_type:clergy_estate):
+GREATER_THAN: 0
+inline_script_value
+Showing the full calculation is not implemented yet
+Clergy
++20.00%
+Clergy Estate Satisfaction Equilibrium
+custom_tooltip: promote_clergy_member_passed.tt
+hidden_effect:
+create_character:
+estate:
+Clergy
+adm: 20
+adm: 80
+dip: 50
+dip: 80
+mil: 10
+mil: 50
+parliament_debate_failed_effect: True
+Sponsor Religious Art
+Our faith serves as a great inspiration for artists all over our country. Since our Court is able to support artists, we should hire one of those who are inspired by the divine.
+At least one of:
+current_age: age_3_discovery
+current_age: age_4_reformation
+inline_script_value
+Showing the full calculation is not implemented yet
+Clergy
++33.00%
+Cultural Tradition %
++0.50
+Monthly Progress to Spiritualist
+random_list:
+1:
+create_character:
+estate:
+Clergy
+artist: iconographer
+artist_skill: 0.2
+artist_skill: 0.9
+1:
+create_character:
+estate:
+Clergy
+artist: composer
+artist_skill: 0.2
+artist_skill: 0.9
+1:
+create_character:
+estate:
+Clergy
+artist: writer
+artist_skill: 0.2
+artist_skill: 0.9
+change_societal_value:
+type: spiritualist_vs_humanist
+value: societal_value_move_to_left
+parliament_debate_failed_effect: True
+Support Religious Education
+Our state's reliance on the servants of the faith can be a great asset in the education of our population. This would accelerate our scientific advancements while increasing the loyalty of our devoted followers.
+At least one of:
+parliament_type: parliament_type:council
+parliament_type: parliament_type:estate_parliament
+parliament_type: parliament_type:dutch_parliament
+parliament_type: parliament_type:plc_parliament
+parliament_type: parliament_type:autocratic_parliament
+government_type: government_type:theocracy
+inline_script_value
+Showing the full calculation is not implemented yet
+Clergy
++0.05
+Monthly Literacy
++0.50
+Monthly Progress to Innovative
+add_research_progress: research_progress_mild_bonus
+custom_tooltip: support_religious_education_passed.tt
+hidden_effect:
+every_pop:
+limit:
+owner: root
+religion: root.religion
+At least one of:
+pop_type: pop_type:clergy
+pop_type: pop_type:peasants
+add_pop_satisfaction: pop_satisfaction_mild_bonus
+parliament_debate_failed_effect: True
+Sponsor a University
+The dissemination of knowledge in the pursuit of mental enlightenment and comprehension of the divine is a pure goal and one we must back with all our financial and political might by establishing liturgical institutions of great recognition.
+has_advance: university_advance
+Not:
+has_estate_privilege:
+Lecture Oaths
+any_owned_location:
+is_core_of: root
+At least one of:
+location_rank: location_rank:town
+location_rank: location_rank:city
+Not:
+has_building:
+University
+inline_script_value
+Showing the full calculation is not implemented yet
+Burghers
++5.00%
+Monthly Research Progress %
++0.50
+Monthly Progress to Innovative
+ordered_owned_location:
+order_by:
+value: population
+if:
+limit:
+location_rank: location_rank:city
+multiply: 5
+limit:
+is_core_of: root
+Not:
+has_building:
+University
+At least one of:
+location_rank: location_rank:town
+location_rank: location_rank:city
+max: 1
+construct_building:
+building_type:
+University
+cost_multiplier: 0.5
+cost_multiplier_reason: game_concept_parliament_issue
+parliament_debate_failed_effect: True
+Expand Gravel Road Network
+The backbone of our country is what connects our provinces and populated centers. As such, we must pave new roads and finance their construction as well as expansion.
+Neither of:
+has_advance: paved_road_advance
+has_advance: modern_road_advance
+has_advance: railroad_advance
+inline_script_value
+Showing the full calculation is not implemented yet
+Burghers
+−20.00%
+Road Building Time
+−20.00%
+Build Gravel Road Cost
+change_societal_value:
+type: centralization_vs_decentralization
+value: societal_value_move_to_left
+parliament_debate_failed_effect: True
+Expand Paved Road Network
+The backbone of our country is what connects our provinces and populated centers. As such, we must pave new roads and finance their construction as well as expansion.
+has_advance: paved_road_advance
+Neither of:
+has_advance: modern_road_advance
+has_advance: railroad_advance
+inline_script_value
+Showing the full calculation is not implemented yet
+Burghers
+−20.00%
+Road Building Time
+−20.00%
+Build Paved Road Cost
+change_societal_value:
+type: centralization_vs_decentralization
+value: societal_value_minor_move_to_left
+parliament_debate_failed_effect: True
+Expand Modern Road Network
+The backbone of our country is what connects our provinces and populated centers. As such, we must pave new roads and finance their construction as well as expansion.
+has_advance: modern_road_advance
+Not:
+has_advance: railroad_advance
+inline_script_value
+Showing the full calculation is not implemented yet
+Burghers
+−20.00%
+Road Building Time
+−20.00%
+Build Modern Road Cost
+change_societal_value:
+type: centralization_vs_decentralization
+value: societal_value_minor_move_to_left
+parliament_debate_failed_effect: True
+Expand Railroad Network
+The backbone of our country is what connects our provinces and populated centers. As such, we must pave new roads and finance their construction as well as expansion.
+has_advance: railroad_advance
+inline_script_value
+Showing the full calculation is not implemented yet
+Burghers
+−20.00%
+Road Building Time
+−20.00%
+Build Railroad Cost
+change_societal_value:
+type: centralization_vs_decentralization
+value: societal_value_minor_move_to_left
+parliament_debate_failed_effect: True
+Promote Urbanization
+It is evident that the way forward lies in promoting the urbanization of our major towns, as a means to grow our power base.
+At least one of:
+current_age: age_1_traditions
+current_age: age_2_renaissance
+current_age: age_3_discovery
+current_age: age_4_reformation
+at_war: False
+modifier:can_build_cities: True
+num_locations:
+GREATER_THAN: 1
+any_owned_rural_location:
+Not:
+any_neighbor_location:
+is_city: True
+inline_script_value
+Showing the full calculation is not implemented yet
+Burghers
++100.00%
+Pop Promotion Speed %
+ordered_owned_rural_location:
+limit:
+Not:
+any_neighbor_location:
+is_city: True
+order_by:
+value: development
+add: population
+add: num_buildings
+max: 1
+change_location_rank: location_rank:town
+every_pop:
+limit:
+owner: root
+add_pop_satisfaction: pop_satisfaction_ultimate_bonus
+parliament_debate_failed_effect: True
+Grant City Rights
+To keep our territory flourishing, we will need to expand the rights of our urban areas and grant more city rights.
+At least one of:
+current_age: age_4_reformation
+current_age: age_5_absolutism
+current_age: age_6_revolutions
+at_war: False
+modifier:can_build_cities: True
+num_locations:
+GREATER_THAN: 1
+any_owned_rural_location:
+location_rank: location_rank:town
+Not:
+any_neighbor_location:
+is_city: True
+inline_script_value
+Showing the full calculation is not implemented yet
+Burghers
++100.00%
+Pop Promotion Speed %
++10.00%
+Monthly Prosperity
+ordered_owned_rural_location:
+limit:
+location_rank: location_rank:town
+Not:
+any_neighbor_location:
+is_city: True
+order_by:
+value: development
+add: population
+add: num_buildings
+max: 1
+change_location_rank: location_rank:city
+change_development: development_weak_bonus
+every_pop:
+limit:
+owner: root
+add_pop_satisfaction: pop_satisfaction_ultimate_bonus
+parliament_debate_failed_effect: True
+Expand Mining Operations
+Mining could play a vital part in our economy, but the current operations are not up to a satisfactory standard.
+any_owned_location:
+raw_material:
+goods_method: mining
+is_full_expanded_rgo: False
+inline_script_value
+Showing the full calculation is not implemented yet
+Burghers
+−33.00%
+Expand Mining Cost
+−20.00%
+Expanding Raw Materials Time
+ordered_owned_location:
+limit:
+raw_material:
+goods_method: mining
+is_full_expanded_rgo: False
+order_by: population
+max:
+value: num_provinces
+multiply: 0.05
+add: 1
+check_range_bounds: False
+change_max_raw_material_workers: 1
+change_prosperity: prosperity_mild_bonus
+parliament_debate_failed_effect: True
+Increased Naval Infrastructure
+We need to improve the infrastructure of our coastal towns and cities to support our power projection across our waters.
+num_of_ports:
+GREATER_THAN_EQUAL: 1
+inline_script_value
+Showing the full calculation is not implemented yet
+Burghers
++25.00%
+Ship-building Speed
+if:
+limit:
+num_of_ports:
+LESS_THAN_EQUAL: 10
+ordered_port_in_country:
+order_by: population
+check_range_bounds: False
+max:
+value: root.num_of_ports
+multiply: 0.5
+add: 1
+change_development: development_weak_bonus
+if:
+limit:
+has_variable: bng_buffed_naval_parliament_debate_flag
+change_societal_value:
+type: land_vs_naval
+value: societal_value_minor_move_to_right
+else_if:
+limit:
+num_of_ports:
+GREATER_THAN: 10
+num_of_ports:
+LESS_THAN_EQUAL: 25
+ordered_port_in_country:
+order_by: population
+check_range_bounds: False
+max:
+value: root.num_of_ports
+multiply: 0.25
+add: 1
+change_development: development_weak_bonus
+else_if:
+limit:
+num_of_ports:
+GREATER_THAN: 25
+ordered_port_in_country:
+order_by: population
+check_range_bounds: False
+max:
+value: root.num_of_ports
+multiply: 0.1
+add: 1
+change_development: development_weak_bonus
+else:
+change_societal_value:
+type: land_vs_naval
+value: societal_value_tiny_move_to_right
+parliament_debate_failed_effect: True
+change_societal_value:
+type: land_vs_naval
+value: societal_value_tiny_move_to_left
+Expand our Shipbuilding Facilities
+We need to expand our shipbuilding capacities to provide a formidable fleet for our country.
+num_of_non_rural_ports:
+GREATER_THAN: 0
+has_advance: dock_advance
+Neither of:
+has_advance: dry_dock_advance
+has_advance: shipyard_advance
+has_advance: grand_shipyard_advance
+has_advance: naval_base_advance
+inline_script_value
+Showing the full calculation is not implemented yet
+Burghers
++50.00%
+Sailors
+ordered_owned_location:
+order_by: population
+max:
+value: num_provinces
+multiply: 0.1
+add: 1
+check_range_bounds: False
+limit:
+Not:
+has_building:
+Dock
+is_coastal: True
+At least one of:
+location_rank: location_rank:town
+location_rank: location_rank:city
+construct_building:
+building_type:
+Dock
+cost_multiplier: 0.5
+cost_multiplier_reason: game_concept_parliament_issue
+parliament_debate_failed_effect: True
+Expand our Shipbuilding Facilities
+We need to expand our shipbuilding capacities to provide a formidable fleet for our country.
+num_of_non_rural_ports:
+GREATER_THAN: 0
+has_advance: dry_dock_advance
+Neither of:
+has_advance: shipyard_advance
+has_advance: grand_shipyard_advance
+has_advance: naval_base_advance
+inline_script_value
+Showing the full calculation is not implemented yet
+Burghers
++50.00%
+Sailors
+ordered_owned_location:
+order_by: population
+max:
+value: num_provinces
+multiply: 0.1
+add: 1
+check_range_bounds: False
+limit:
+Not:
+has_building:
+Dry Dock
+is_coastal: True
+At least one of:
+location_rank: location_rank:town
+location_rank: location_rank:city
+construct_building:
+building_type:
+Dry Dock
+cost_multiplier: 0.5
+cost_multiplier_reason: game_concept_parliament_issue
+parliament_debate_failed_effect: True
+Expand our Shipbuilding Facilities
+We need to expand our shipbuilding capacities to provide a formidable fleet for our country.
+num_of_non_rural_ports:
+GREATER_THAN: 0
+has_advance: shipyard_advance
+Neither of:
+has_advance: grand_shipyard_advance
+has_advance: naval_base_advance
+inline_script_value
+Showing the full calculation is not implemented yet
+Burghers
++50.00%
+Sailors
+ordered_owned_location:
+order_by: population
+max:
+value: num_provinces
+multiply: 0.1
+add: 1
+check_range_bounds: False
+limit:
+Not:
+has_building:
+Shipyard
+is_coastal: True
+At least one of:
+location_rank: location_rank:town
+location_rank: location_rank:city
+construct_building:
+building_type:
+Shipyard
+cost_multiplier: 0.5
+cost_multiplier_reason: game_concept_parliament_issue
+parliament_debate_failed_effect: True
+Expand our Shipbuilding Facilities
+We need to expand our shipbuilding capacities to provide a formidable fleet for our country.
+num_of_non_rural_ports:
+GREATER_THAN: 0
+has_advance: grand_shipyard_advance
+Not:
+has_advance: naval_base_advance
+inline_script_value
+Showing the full calculation is not implemented yet
+Burghers
++50.00%
+Sailors
+ordered_owned_location:
+order_by: population
+max:
+value: num_provinces
+multiply: 0.1
+add: 1
+check_range_bounds: False
+limit:
+Not:
+has_building:
+Grand Shipyard
+is_coastal: True
+At least one of:
+location_rank: location_rank:town
+location_rank: location_rank:city
+construct_building:
+building_type:
+Grand Shipyard
+cost_multiplier: 0.5
+cost_multiplier_reason: game_concept_parliament_issue
+parliament_debate_failed_effect: True
+Expand our Shipbuilding Facilities
+We need to expand our shipbuilding capacities to provide a formidable fleet for our country.
+num_of_non_rural_ports:
+GREATER_THAN: 0
+has_advance: naval_base_advance
+inline_script_value
+Showing the full calculation is not implemented yet
+Burghers
++50.00%
+Sailors
+ordered_owned_location:
+order_by: population
+max:
+value: num_provinces
+multiply: 0.1
+add: 1
+check_range_bounds: False
+limit:
+Not:
+has_building:
+Naval Base
+is_coastal: True
+At least one of:
+location_rank: location_rank:town
+location_rank: location_rank:city
+construct_building:
+building_type:
+Naval Base
+cost_multiplier: 0.5
+cost_multiplier_reason: game_concept_parliament_issue
+parliament_debate_failed_effect: True
+Support a Mercantile Cabinet
+The bureaucracy throughout our domain stands to benefit greatly from a legislative reform around its efficiency, funded by the most wealthy members of society.
+any_character:
+in_cabinet: True
+has_estate:
+Burghers
+Neither of:
+current_age: age_4_reformation
+current_age: age_5_absolutism
+current_age: age_6_revolutions
+inline_script_value
+Showing the full calculation is not implemented yet
+Burghers
++20.00%
+Efficiency of Our Cabinet
++100.00%
+Pop Promotion Speed %
+random_cabinet_character:
+limit:
+has_estate:
+Burghers
+add_adm: 5
+add_dip: 5
+add_mil: 5
+change_societal_value:
+type: aristocracy_vs_plutocracy
+value: societal_value_move_to_right
+parliament_debate_failed_effect: True
+Balance the Budget
+The financial crisis that looms over our people's heads is a dire matter, urgently in need to be addressed.
+At least one of:
+num_loans:
+GREATER_THAN_EQUAL: 1
+inflation:
+GREATER_THAN: 0.01
+inline_script_value
+Showing the full calculation is not implemented yet
+Burghers
+−0.40%
+Monthly Inflation
+−2.00%
+Bank Interest
+random_loan:
+limit:
+loan_amount:
+GREATER_THAN: 0
+change_loan_amount:
+value: loan_amount
+multiply: -0.5
+add_inflation: inflation_mild_bonus
+parliament_debate_failed_effect: True
+Promote Member of the Burghers
+The burghers are vital to our state, both as merchants and members of the guilds. We should promote the capable members of their estate to our government.
+inline_script_value
+Showing the full calculation is not implemented yet
+Burghers
++20.00%
+Burgher Estate Satisfaction Equilibrium
++2.50%
+Burgher Estate Satisfaction Recovery
++0.10
+Monthly Progress to Plutocracy
+custom_tooltip: promote_burghers_member_passed.tt
+hidden_effect:
+create_character:
+estate:
+Burghers
+adm: 50
+adm: 80
+dip: 20
+dip: 80
+mil: 10
+mil: 50
+parliament_debate_failed_effect: True
+Market Expansion Acts
+Our market stands to greatly benefit by the loosening of our mercantile regulations.
+inline_script_value
+Showing the full calculation is not implemented yet
+Burghers
+−25.00%
+Trade Maintenance
+add_country_modifier:
+modifier: rush_of_merchants
+years: 10
+mode: add_and_extend
+parliament_debate_failed_effect: True
+Market Regulations
+Due to the competitiveness of our markets, it would be wise to tighten our mercantile regulations to ensure a competitive advantage for our own merchants.
+inline_script_value
+Showing the full calculation is not implemented yet
+Burghers
++1.00%
+Trade Efficiency
+add_country_modifier:
+modifier: merchant_benefits
+years: 10
+mode: add_and_extend
+parliament_debate_failed_effect: True
+Sponsor Trade Expedition
+We should invest into a dedicated merchant expedition to establish trade connections with other markets.
+exists: capital
+inline_script_value
+Showing the full calculation is not implemented yet
+Burghers
++20.00%
+Burgher Estate Satisfaction Equilibrium
++0.10
+Monthly Progress to Plutocracy
+capital:
+add_location_modifier:
+modifier: merchant_expedition
+years: 10
+mode: add_and_extend
+if:
+limit:
+location_rank: location_rank:rural_settlement
+Not:
+has_building:
+Market Village
+construct_building:
+building_type:
+Market Village
+cost_multiplier: 0.5
+cost_multiplier_reason: game_concept_parliament_issue
+instant: True
+else_if:
+limit:
+At least one of:
+location_rank: location_rank:town
+location_rank: location_rank:city
+Not:
+At least one of:
+has_building:
+Marketplace
+has_building:
+Merchants Quarters
+has_building:
+Grand Marketplace
+has_building:
+Commerce Center
+construct_building:
+building_type:
+Marketplace
+cost_multiplier: 0.5
+cost_multiplier_reason: game_concept_parliament_issue
+instant: True
+parliament_debate_failed_effect: True
+Develop the Interior
+We should not neglect our interior lands and develop them accordingly.
+num_locations:
+GREATER_THAN: 2
+num_of_ports:
+GREATER_THAN_EQUAL: 1
+inline_script_value
+Showing the full calculation is not implemented yet
+Burghers
+−20.00%
+Urban Buildings Cost
+ordered_owned_location:
+order_by: population
+limit:
+is_port: False
+check_range_bounds: False
+max:
+value: num_provinces
+multiply: 0.02
+add: 1
+change_development: development_weak_bonus
+change_societal_value:
+type: land_vs_naval
+value: societal_value_tiny_move_to_left
+parliament_debate_failed_effect: True
+change_societal_value:
+type: land_vs_naval
+value: societal_value_tiny_move_to_right
+Establish New Hunting Grounds
+We have not yet developed our hunting grounds to their full capacity and are therefore missing many possible profits.
+any_owned_location:
+raw_material:
+goods_method: hunting
+is_full_expanded_rgo: False
+inline_script_value
+Showing the full calculation is not implemented yet
+Commoners
+−33.00%
+Expand Hunting Cost
+−20.00%
+Expanding Raw Materials Time
+ordered_owned_location:
+limit:
+raw_material:
+goods_method: hunting
+is_full_expanded_rgo: False
+order_by: population
+max:
+value: num_provinces
+multiply: 0.05
+add: 1
+change_max_raw_material_workers: 1
+change_prosperity: prosperity_mild_bonus
+parliament_debate_failed_effect: True
+Expand Gathering Industries
+We should expand our gathering operations to meet the demands of those goods in the construction and maintenance of our wider economy.
+any_owned_location:
+raw_material:
+goods_method: gathering
+is_full_expanded_rgo: False
+inline_script_value
+Showing the full calculation is not implemented yet
+Commoners
+−33.00%
+Expand Gathering Cost
+−20.00%
+Expanding Raw Materials Time
+ordered_owned_location:
+limit:
+raw_material:
+goods_method: gathering
+is_full_expanded_rgo: False
+order_by: population
+max:
+value: num_provinces
+multiply: 0.05
+add: 1
+change_max_raw_material_workers: 1
+change_prosperity: prosperity_mild_bonus
+parliament_debate_failed_effect: True
+Expand the Training Fields Infrastructure
+Our army reserve has seen better days and is in dire need of new infrastructure for recruitment.
+has_advance: training_fields_advance
+Neither of:
+has_advance: regimental_camp_advance
+has_advance: conscription_center_advance
+any_owned_rural_location:
+owner:
+has_primary_or_accepted_culture: prev.dominant_culture
+Not:
+has_building:
+Training Fields
+inline_script_value
+Showing the full calculation is not implemented yet
+Commoners
++50.00%
+Manpower
+ordered_owned_location:
+order_by: population
+max:
+value: num_provinces
+multiply: 0.1
+add: 1
+check_range_bounds: False
+limit:
+owner:
+has_primary_or_accepted_culture: prev.dominant_culture
+Not:
+has_building:
+Training Fields
+location_rank: location_rank:rural_settlement
+construct_building:
+building_type:
+Training Fields
+cost_multiplier: 0.5
+cost_multiplier_reason: game_concept_parliament_issue
+parliament_debate_failed_effect: True
+Expand the Regimental Camp Infrastructure
+Our army reserve has seen better days and is in dire need of new infrastructure for recruitment.
+has_advance: regimental_camp_advance
+Not:
+has_advance: conscription_center_advance
+any_owned_rural_location:
+owner:
+has_primary_or_accepted_culture: prev.dominant_culture
+Not:
+has_building:
+Regimental Camp
+inline_script_value
+Showing the full calculation is not implemented yet
+Commoners
++50.00%
+Manpower
+ordered_owned_location:
+order_by: population
+max:
+value: num_provinces
+multiply: 0.1
+add: 1
+check_range_bounds: False
+limit:
+owner:
+has_primary_or_accepted_culture: prev.dominant_culture
+Not:
+has_building:
+Regimental Camp
+location_rank: location_rank:rural_settlement
+construct_building:
+building_type:
+Regimental Camp
+cost_multiplier: 0.5
+cost_multiplier_reason: game_concept_parliament_issue
+parliament_debate_failed_effect: True
+Expand the Conscription Center Infrastructure
+Our army reserve has seen better days and is in dire need of new infrastructure for recruitment.
+has_advance: conscription_center_advance
+inline_script_value
+Showing the full calculation is not implemented yet
+Commoners
++50.00%
+Manpower
+ordered_owned_location:
+order_by: population
+max:
+value: num_provinces
+multiply: 0.1
+add: 1
+check_range_bounds: False
+limit:
+Not:
+has_building:
+Conscription Center
+At least one of:
+location_rank: location_rank:town
+location_rank: location_rank:city
+construct_building:
+building_type:
+Conscription Center
+cost_multiplier: 0.5
+cost_multiplier_reason: game_concept_parliament_issue
+parliament_debate_failed_effect: True
+Expand Officer Lists
+The promotion of capable men in high ranks across our military is a surefire way to ensure capable leadership.
+Not:
+has_estate_privilege:
+Only Nobility as Leaders
+inline_script_value
+Showing the full calculation is not implemented yet
+Commoners
++20.00%
+Peasant Estate Satisfaction Equilibrium
+create_character:
+estate:
+Commoners
+adm: 20
+adm: 70
+dip: 20
+dip: 70
+mil: 40
+mil: 80
+parliament_debate_failed_effect: True
+Support a Common Cabinet
+The bureaucracy throughout our domain stands to benefit greatly from a legislative reform around its efficiency, backed by the popular support.
+any_character:
+in_cabinet: True
+has_estate:
+Commoners
+Neither of:
+current_age: age_4_reformation
+current_age: age_5_absolutism
+current_age: age_6_revolutions
+inline_script_value
+Showing the full calculation is not implemented yet
+Commoners
++20.00%
+Efficiency of Our Cabinet
++0.05
+Monthly Literacy
+random_cabinet_character:
+limit:
+has_estate:
+Commoners
+add_adm: 5
+add_dip: 5
+add_mil: 5
+change_societal_value:
+type: serfdom_vs_free_subjects
+value: societal_value_move_to_right
+parliament_debate_failed_effect: True
+Expand Food Stockpiles
+Our people are raising the pressing concern of food shortages to us. We should try to expand our Granary Network to prevent the same situation in the future.
+any_province:
+province_food_percentage:
+LESS_THAN: 0.5
+any_location_in_province:
+At least one of:
+location_rank: location_rank:town
+location_rank: location_rank:city
+inline_script_value
+Showing the full calculation is not implemented yet
+Commoners
+−50.00%
+Cost of Purchasing Food
+ordered_owned_location:
+order_by: province.province_food_percentage
+max:
+value: num_provinces
+multiply: -0.1
+add: 1
+limit:
+Not:
+has_building:
+Granary
+At least one of:
+location_rank: location_rank:town
+location_rank: location_rank:city
+construct_building:
+building_type:
+Granary
+cost_multiplier: 0.5
+cost_multiplier_reason: game_concept_parliament_issue
+parliament_debate_failed_effect: True
+Curb Central Authority
+The authority of the
+game_concept_Player.GetGovernment.GetParliament.GetName
+can not and will not be trumped by any authority outside its halls. In order to pursue our ideals, we must exercise this right in spite of royal decrees!
+always: False
+At least one of:
+government_type: government_type:monarchy
+government_type: government_type:republic
+any_active_disaster:
+disaster_type: disaster_type:revolution_disaster
+inline_script_value
+Showing the full calculation is not implemented yet
+Commoners
+−2.00
+Monthly Legitimacy
+−2.00
+Monthly Republican Tradition
+add_country_modifier:
+modifier: reduced_central_authority
+years: 10
+mode: add_and_extend
+if:
+limit:
+any_rebel:
+rebel_progress:
+GREATER_THAN: 0
+rebel_progress:
+LESS_THAN: 0.9
+rebel_name_key: revolutionary_rebel
+random_rebel:
+limit:
+rebel_progress:
+GREATER_THAN: 0
+rebel_progress:
+LESS_THAN: 0.9
+rebel_name_key: revolutionary_rebel
+add_rebel_progress: 0.05
+add_estate_satisfaction:
+type:
+Burghers
+value: estate_satisfaction_extreme_penalty
+add_estate_satisfaction:
+type:
+Commoners
+value: estate_satisfaction_extreme_penalty
+Revoke Privilege of the Nobility
+Those who took advantage of the labor and sweat of the common folk, now cower at the thought of their meager privileges being taken away.
+always: False
+At least one of:
+government_type: government_type:monarchy
+government_type: government_type:republic
+any_active_disaster:
+disaster_type: disaster_type:revolution_disaster
+estate(estate_type:nobles_estate):
+num_privileges:
+GREATER_THAN: 3
+inline_script_value
+Showing the full calculation is not implemented yet
+Commoners
+−100.00%
+Noble Estate Satisfaction Equilibrium
+custom_tooltip:
+text: random_noble_privilege_revoked_tt
+random_estate_privilege:
+limit:
+estate_type:
+Nobility
+root:
+revoke_estate_privilege: prev
+add_estate_satisfaction:
+type:
+Nobility
+value: estate_satisfaction_extreme_penalty
+change_societal_value:
+type: aristocracy_vs_plutocracy
+value: societal_value_large_move_to_right
+if:
+limit:
+any_rebel:
+rebel_progress:
+GREATER_THAN: 0
+rebel_progress:
+LESS_THAN: 0.9
+rebel_name_key: revolutionary_rebel
+random_rebel:
+limit:
+rebel_progress:
+GREATER_THAN: 0
+rebel_progress:
+LESS_THAN: 0.9
+rebel_name_key: revolutionary_rebel
+add_rebel_progress: 0.05
+add_estate_satisfaction:
+type:
+Burghers
+value: estate_satisfaction_extreme_penalty
+add_estate_satisfaction:
+type:
+Commoners
+value: estate_satisfaction_extreme_penalty
+Reduce Peasant Taxation
+The common man has lived his whole life being taxed by a lord. In order to push our agendas for liberating the people, this taxation must seize!
+always: False
+At least one of:
+government_type: government_type:monarchy
+government_type: government_type:republic
+any_active_disaster:
+disaster_type: disaster_type:revolution_disaster
+estate_tax_percentage:peasants_estate:
+GREATER_THAN: 0.1
+inline_script_value
+Showing the full calculation is not implemented yet
+Commoners
++1.00
+Monthly Progress to Liberalism
+−50.00%
+Crown Power
+add_country_modifier:
+modifier: peasants_estate_less_tax_burden
+years: 10
+mode: add_and_extend
+add_estate_satisfaction:
+type:
+Nobility
+value: estate_satisfaction_extreme_penalty
+change_societal_value:
+type: serfdom_vs_free_subjects
+value: societal_value_large_move_to_right
+if:
+limit:
+any_rebel:
+rebel_progress:
+GREATER_THAN: 0
+rebel_progress:
+LESS_THAN: 0.9
+rebel_name_key: revolutionary_rebel
+random_rebel:
+limit:
+rebel_progress:
+GREATER_THAN: 0
+rebel_progress:
+LESS_THAN: 0.9
+rebel_name_key: revolutionary_rebel
+add_rebel_progress: 0.05
+add_estate_satisfaction:
+type:
+Burghers
+value: estate_satisfaction_extreme_penalty
+add_estate_satisfaction:
+type:
+Commoners
+value: estate_satisfaction_extreme_penalty
+Establish a Constitution
+The will of the people must be encapsuled into a written document, accepted by all, to solidify our rights and at the same time curb central authority.
+always: False
+government_type: government_type:monarchy
+any_active_disaster:
+disaster_type: disaster_type:revolution_disaster
+At least one of:
+estate_power(estate_type:crown_estate):
+LESS_THAN: 0.2
+government_power:
+LESS_THAN: 20
+Not:
+parliament_type: parliament_type:constitutional_parliament
+inline_script_value
+Showing the full calculation is not implemented yet
+Commoners
++1.00
+Monthly Progress to Liberalism
+−50.00%
+Crown Power
+−2.00%
+Monthly Commoners Rebel Growth
+−2.00%
+Monthly Burghers Rebel Growth
+set_parliament_type: parliament_type:constitutional_parliament
+if:
+limit:
+Not:
+has_reform: government_reform:constitutional_state
+hidden_effect:
+unlock_government_reform_effect:
+type: constitutional_state
+add_reform: government_reform:constitutional_state
+if:
+limit:
+any_rebel:
+rebel_progress:
+GREATER_THAN: 0
+rebel_progress:
+LESS_THAN: 0.9
+rebel_name_key: revolutionary_rebel
+random_rebel:
+limit:
+rebel_progress:
+GREATER_THAN: 0
+rebel_progress:
+LESS_THAN: 0.9
+rebel_name_key: revolutionary_rebel
+add_rebel_progress: 0.05
+add_estate_satisfaction:
+type:
+Burghers
+value: estate_satisfaction_extreme_penalty
+add_estate_satisfaction:
+type:
+Commoners
+value: estate_satisfaction_extreme_penalty
+Parliament agendas
+[
+edit
+|
+edit source
+]
+While a parliament issue is being debated, estates that didn't propose the issue and can vote in the parliament will offer a parliament agenda. Accepting a parliament agenda will cost resources and reduce the satisfaction of the other estates that can vote but will also add support to the parliament issue that scales with the proposing estate's power and satisfaction and the importance of the agenda. Once a parliament agenda is accepted the same estate will offer another one if it can but the support provided by the same estate will be reduced by
+-25%
+for each accepted agenda.
+This table is planned to be
+automatically generated
+and should not be edited directly.
+Instead, suggest changes on the
+talk page
+.
+Parliament agenda
+Estates
+Importance
+Effects
+Requirements
+Chance
+References
+[
+edit
+|
+edit source
+]
+Mechanics
+Realm
+Country
+•
+Government
+•
+Parliament
+•
+Estate
+•
+Reforms
+•
+Laws
+•
+Characters
+•
+Missions
+Economy & Research
+Economy
+•
+Goods
+•
+R.G.O.
+•
+Market
+•
+Building
+•
+Population
+•
+Age
+Diplomacy & Warfare
+Diplomacy
+•
+Subjects
+•
+International organization
+•
+Warfare
+•
+Combat
+•
+Military
+The world
+Location
+•
+Culture
+•
+Religion
+•
+Language
+•
+Exploration
+•
+Situations
+•
+Disasters
+•
+Diseases
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=Parliament&oldid=21215
+"

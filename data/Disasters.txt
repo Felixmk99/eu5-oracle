@@ -1,0 +1,107 @@
+Source URL: https://eu5.paradoxwikis.com/Disasters
+Source Date: 2025-12-12
+
+Please help with verifying or updating older sections of this article.
+At least some were last verified for
+version
+pre-release.
+This page is planned to be
+automatically generated
+from the game files. It should not be edited directly.
+Instead, please suggest changes or improvements on the
+talk page
+.
+A Disaster is an important and disruptive incident affecting a single
+Country
+, and they could last or remain active over a long period of time, until the country manages to overcome it.
+Common disasters
+[
+edit
+|
+edit source
+]
+The following disasters can happen to every country.
+Disaster
+Effects
+Start requirements
+End requirements
+Country-specific disasters
+[
+edit
+|
+edit source
+]
+The following disasters can only happen to certain country
+Disaster
+Effects
+Start requirements
+End requirements
+Country
+References
+[
+edit
+|
+edit source
+]
+Mechanics
+Realm
+Country
+•
+Government
+•
+Parliament
+•
+Estate
+•
+Reforms
+•
+Laws
+•
+Characters
+•
+Missions
+Economy & Research
+Economy
+•
+Goods
+•
+R.G.O.
+•
+Market
+•
+Building
+•
+Population
+•
+Age
+Diplomacy & Warfare
+Diplomacy
+•
+Subjects
+•
+International organization
+•
+Warfare
+•
+Combat
+•
+Military
+The world
+Location
+•
+Culture
+•
+Religion
+•
+Language
+•
+Exploration
+•
+Situations
+•
+Disasters
+•
+Diseases
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=Disasters&oldid=20947
+"

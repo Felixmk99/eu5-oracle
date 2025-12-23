@@ -1,0 +1,653 @@
+Source URL: https://eu5.paradoxwikis.com/Economy
+Source Date: 2025-12-02
+
+Please help with verifying or updating older sections of this article.
+At least some were last verified for
+version
+pre-release.
+The economy menu
+At the start of the game most countries start with 30
+Stability, 20
+Prestige and 75 Government Power.
+Gold
+[
+edit
+|
+edit source
+]
+Gold, or Ducats, represents liquid wealth. It is spent on almost everything, from constructing buildings to maintaining armies, and many costs are scaled by the country's income. Gold changes hands through the purchases and sales on the market. The main sources of gold income and expenses are the following:
+Sources of income
+Sources of expenses
+Minting
+Estate tax
+Trade income
+Selling food
+Foreign buildings
+Mercenary income
+Positive diplomatic deals
+Interests from loans (given)
+Cost of the court
+Army maintenance (min 50%)
+Navy maintenance (min 50%)
+Fort maintenance (min 50%)
+Cost of colonies
+Diplomatic spending
+Stability spending
+Exploration cost
+Building subsidies
+Mercenary paying
+Negative diplomatic deals
+Interests from loans (taken)
+Buying food
+Each location has a tax base, which is the combined profit of its R.G.O. and buildings selling their goods to the market as well as Burghers activities, multiplied by the control percentage in the location. The tax base of each location is distributed among the estates of its pops according to their relative population in the location. Then each estate pays a portion of it to the country according to the tax rate imposed on it.
+Estate taxation can be automated, which will raise and lower estates tax until their Satisfaction Equilibrium is 50%.
+Minting
+[
+edit
+|
+edit source
+]
+Minting is one of the primary ways of gaining additional ducats. It is set on a scale that ranges from 0% to 25% of the country's tax base and increases demand for
+Gold and
+Silver in the capital market by an equal amount. In addition, every country has a minting threshold, starting at 5%, and minting above the minting threshold will increase inflation.
+Inflation
+[
+edit
+|
+edit source
+]
+Inflation represents the increase in all prices in the game. Each month inflation decreases by
+-0.1%
+and is increased by
++0.005
+for each 1% minting above the minting threshold.
+Gold and Silver also increase inflation but it depends on the total amount of a countries production that is precious metals. The calculation is: (Precious Metal Output)/(Total Country Output) x (1% inflation).
+So if a country produces 10 precious metals and in total produce 20 goods the inflation gained would be
++0.5%
+.
+The Reduce Inflation cabinet action can be used to reduce inflation, which is unlocked with
+Strict Monetary Control
+advance
+.
+Expected expenses
+[
+edit
+|
+edit source
+]
+Every country is expected to pay three expenses. How much each country chooses to pay ranges from 0% to 100%. Paying them is optional but doing so grants various bonuses. Each expected expense scales with the country's tax base but the percentage can be increased or decreased by various factors.
+Expense
+% of tax base
+Effect per 1% paid
+Cost of the Court
+10%
++0.01
+Monthly
+Government power
+Based on government type:
+Legitimacy if Monarchy
+Republican Tradition if Republic
+Devotion if Theocracy
+Horde Unity if Steppe Horde
+Tribal Cohesion if Tribe
+Stability Investment
+10%
++0.005
+Monthly Stability
+Diplomatic Spending
+10%
++0.1
+Loyalty of subjects
++0.5%
+Diplomatic capacity
++0.02
+Maximum diplomats
++0.004
+Monthly diplomats
++0.001
+Monthly progress to Conciliatory
+Maintenance
+[
+edit
+|
+edit source
+]
+Armies, navies and forts have a monthly influence cost, which by default it is set to be paid in full. It is possible to reduce the percentage of maintenance that is it paid for all three, but this will give penalties. Reducing the maintenance of armies or navies reduces their morale by an equal percentage. Reducing the maintenance of forts gives the following penalties for each 1% reduced:
+−2%
+Fort Defense
+−0.5%
+Garrison Size
+−0.0005
+Monthly Prestige
+Loans
+[
+edit
+|
+edit source
+]
+Loans are instant sums of money that can be taken and must be monthly paid over the course of 60 months with interest. The base interest for every country is 10% and can range from 1% to 25%. The sum of all loans of a country is called the debt.
+Left-clicking on the loan button will borrow money from the estates. There is a finite amount of gold that can be borrowed from estates.
+Right-clicking on the loan button will borrow money from banking countries. A list of all banking countries within diplomatic range will appear. How big the loan is depends on how much the banking country can afford to lend.
+If a country has negative gold at the end of a month, it will automatically take a loan. If there is not enough gold that can be borrowed, the country will become declare bankruptcy.
+Bankruptcy
+[
+edit
+|
+edit source
+]
+Bankruptcy can be declared while a country has loans, either manually from the Current Loans menu or automatically if the country has a negative balance and there is not enough gold that can be borrowed. Bankruptcy will remove all loans, reduce inflation and reset the country's gold to 1 but will also cost
+50
+Stability, downgrade 10% of all buildings, and bring the following penalties for 60 months:
+−90%
+Construction Speed
+−90%
+Crown Power
+−2.5%
+Estates Satisfaction Equilibrium
++200
+Pop Demotion Speed
+−50
+Pop Promotion Speed
+−100
+Great Power Score
+−90%
+Army Morale
++0.5
+Monthly Progress to Traditional Economy
+−90%
+Navy Morale
+−90%
+Monthly Research Progress %
+−50%
+Total Loan Capacity
+Stability
+[
+edit
+|
+edit source
+]
+Stability represents the internal peace of a country and ranges from
+−100
+to
++100
+. Over time is tends towards 0 unless other factors impact it. Starting wars is one of the actions that will reduce the stability of a country.
+Every point of Stability above 0 brings the following effects:
++0.1
+Great power score
++0.1%
+Pop join rebels threshold
++0.05%
+Pop leave rebels threshold
++0.05%
+Estates satisfaction equilibrium
++1%
+Pop promotion speed
+−0.003
+Monthly stability
+Every point of Stability below 0 brings the following effects:
+−0.1
+Great power score
+−0.1%
+Pop join rebels threshold
+−0.05%
+Pop leave rebels threshold
+−0.3%
+Estates satisfaction equilibrium
++0.5%
+Mercenary size
++0.003
+Monthly stability
+Prestige
+[
+edit
+|
+edit source
+]
+Prestige represents how well the country is seen and ranges from 0 to 100. Each point of Prestige gives the following effects:
++0.01
+Cultural influence
++0.05
+Diplomatic reputation
++0.05%
+Market attraction
++0.1%
+Skill of new artists
++0.3
+Great power score
++0.003
+Antagonism change modifier
+−0.005
+Prestige decay
+Control
+[
+edit
+|
+edit source
+]
+Main article:
+Control
+The effective
+Tax Base
+of a location is calculated by multiplying the
+Potential Tax Base
+with the location's
+Control
+.
+The current control of a location slowly trends towards its
+Maximum Control
+. The maximum control of a location is primarily determined by its Proximity to Capital, among other modifiers:
+Proximity
+:
+0
+at 0 Proximity to
++75%
+at 100 Proximity
+Average Satisfaction of pops:
+−10%
+at 0% Satisfaction to
+0
+at 100% Satisfaction
+Intergration Status
+: Conquered
+−10%
+, Integrated
++5%
+, Core
++20%
+Location rank
+:
+Town
++5%
+,
+City
++10%
+Buildings
+: Temple
++5%
+, Minting Office
++5%
+Friendly Armies in Location: Troop count / Location population *
+10%
+?
+Friendly Armies in Province: around
+1%
+?
+Maximum control can also be temporarily increased by using the Increase Province Control cabinet action.
+Tax
+[
+edit
+|
+edit source
+]
+A location's
+Potential Tax Base
+is calculated by adding the total profits from
+RGO
+, the sum of Potential Profits from buildings, and some factors involving Burghers trading
+what?
+.
+The effective
+Tax Base
+is then calculated by multiplying the Potential Tax Base with the location's Control. The loss in tax base due to low control is not received by any parties.
+The Tax Base is then divided among
+Estates
+, based on the local
+Tax Base Share
+. The Tax Base Share is the local population, weighted by
+Estate
+tax weight
+[1]
+Nobles
+150
+Clergy
+25
+Burghers
+20
+Peasants
+1
+Tribesmen
+0.01
+Note that the tax base weighting is different from the weighting used in Estate Power calculations.
+After dividing up the Tax Base to each estate, it is taxed according to the national
+tax rate
+for each estate.
+Example
+[
+edit
+|
+edit source
+]
+At the start of the game in April 1337, León has a
+Potential Tax Base of 7.26:
+Source
+calculation
+Tax Base Share
+R.G.O.
+2 level * 0.17 profit per level
+0.34 potential tax base
+Buildings
+adding up all Potential Profits, ignoring unprofitable buildings
+6.23 potential tax base
+Burghers trading
+??
+??
+Total Potential Tax Base
+7.26 potential tax base
+Factoring in Control, we get
+7.26 potential tax base *
+42.82% control =
+3.11 tax base.
+Tax Base Share for each Estate is calculated using the population:
+Estate
+weighted population
+Tax Base Share
+Nobles
+339 pops * 150
+50850 (32.31% of total)
+Clergy
+966 pops * 25
+24150 (15.35% of total)
+Burghers
+1850 pops * 20
+37000 (23.51% of total)
+Peasants
+2750 pops * 1 +
+1100 pops * 1 +
+41527 pops * 1
+45377 (28.83% of total)
+Finally, the tax generated from León can be calculated to match the tooltip:
+Estate
+calculation
+Taxed income
+Nobles
+3.11 tax base * 32.31% tax base share * 17.05% tax rate
+0.171 gold
+Clergy
+3.11 tax base * 15.35% tax base share * 0.00% tax rate
+0.000 gold
+Burghers
+3.11 tax base * 23.51% tax base share * 34.05% tax rate
+0.248 gold
+Peasants
+3.11 tax base * 28.83% tax base share * 44.61% tax rate
+0.399 gold
+Total Tax from the Location
+0.820 gold
+Government power
+[
+edit
+|
+edit source
+]
+Depending on its government type, each country has a government power resource, which represents how well its government functions and ranges from 0 to 100. Government power is spent on the same things regardless of which resource the country uses, but each type of government power provides different benefits.
+Government power
+Government type
+Effects per point
+Devotion
+Devotion represents the zeal of the faith inside our country. The higher it is, the more efficiently our Theocracy will run.
+Theocracy
++0.1
+Great power score
++0.05%
+Pop leave rebels threshold
++0.001
+Monthly religious influence
++0.05%
+Estates satisfaction equilibrium (starts at
+−5%
+)
+Horde Unity
+Horde Unity is a measure of how much support a Khān has from the tribes. It goes down over time and is increased by looting and razing provinces. A Steppe Horde with low unity is likely to succumb to internal strife.
+Steppe Horde
++0.1
+Great power score
++0.05%
+Pop leave rebels threshold
++0.1%
+Discipline
++0.05%
+Estates satisfaction equilibrium (starts at
+−5%
+)
+Legitimacy
+Legitimacy is a measure of how accepted the governance is by the population and estates in their Country. It is very much a prerequisite for running a country smoothly - at low levels we will find that nobody wants to work with us and rebellions may break out, attempting to install a Ruler that they find more palatable.
+Monarchy
++0.1
+Great power score
++0.05%
+Pop leave rebels threshold
++0.1%
+Crown power
++0.05%
+Estates satisfaction equilibrium (starts at
+−5%
+)
++0.002
+Monthly righteousness (if primary religion is Sānjiào)
+Republican Tradition
+Republican Tradition measures how well Republicanism is entrenched in our country. Republican Tradition represents how strong the traditions are in a Republic. A Republic elects a new Ruler every couple of years and keeping the same Ruler over several elections will reduce our Republican Tradition. At low levels, it may collapse and revert to some kind of autocracy. For a well-functioning republic government, this measure should be kept high.
+Republic
++0.1
+Great power score
++0.05%
+Pop leave rebels threshold
+24px
++0.1%
+Legislative efficiency
+−2%
+Stability investment cost (starts at
++200%
+)
+Tribal Cohesion
+Tribal Cohesion is a measure of how aligned the members of our Tribe are in terms of Religion and Culture. At low levels, running the Tribe will be like herding cats, with everyone wanting to do their own thing. This should be kept high for the Tribe to be run smoothly.
+Tribe
++0.1
+Great power score
++0.05%
+Pop leave rebels threshold
++0.25%
+Levy size
++0.05%
+Estates satisfaction equilibrium (starts at
+−5%
+)
+Manpower
+[
+edit
+|
+edit source
+]
+Manpower represents the limit of how many blaggards and scoundrels a
+Country
+can support in its standing
+Army
+.
+Manpower is expended when training and maintaining professional
+Regiments
+, which are usually more effective than
+Army Levies
+.
+The rate at which Manpower is gained can be increased by constructing Manpower
+Buildings
+or researching certain
+Advances
+.
+A country can store up to 5 years worth of their Manpower income.
+Sailors
+[
+edit
+|
+edit source
+]
+A
+Country
+may possess a number of Sailors, representing the fishermen, merchant seamen, and naval officers who make a living on the open seas.
+Such experienced tars are required to build
+Ships
+, and are expended while maintaining a
+Navy
+. These are separate from
+Naval Levies
+and more effective. They are even required to man
+Exploration
+missions.
+The rate at which Sailors are gained can be increased by constructing port
+Buildings
+or researching certain
+Advances
+.
+A country can store up to 5 years worth of their Sailors income.
+Food
+[
+edit
+|
+edit source
+]
+Food
+is a resources used by both armies and pops. Food is produced by:
+Food raw materials
+RGOs,
+Laborer and Slave pops which are not employed, and
+Villages buildings, which may directly produce food (Forest Village), or indirectly by producing food raw materials (Fishing Village).
+The local
+Food Productivity
+modifies the amount of food produced at each location. The Local Food Production % takes into account:
+Weather
+(e.g. wind damage
+-5%
+, sandstorm
+-15%
+) and
+Winter
+(mild
+-25%
+, normal
+-50%
+, severe
+-200%
+)
+Raised Levies
+-20%
+Location Rank (Rural Settlement
++10%
+, Town
+-20%
+, City
+-33%
+)
+Development
+(up to
++100%
+)
+Topography
+, Vegetation, rivers, and coasts
+Capital Economy vs Traditional Economy
+societal values
+(
+-20%
+to
++20%
+)
+Peasants, Dhimmi, and Tribes
+estate satisfaction
+Laws
+or Policies (e.g. Feudal Administration)
+Advances
+Bulidings
+(e.g. Irrigation)
+There are 3 layers involved in the production and distribution of food:
+Local Food
+: Local Food is produced and consumed in the Locations, and any excess or deficit is added to Provincial Food.
+Provincial Food
+: Provincial Food is a province-wide food storage, and any excess when it is full or deficit when it is empty is added to Market Food unless the province is under Siege. Armies will consume Provincial Food if they would otherwise suffer attrition. A province can only buy or sell as much food on the market as it can store in Provincial Food, regardless of Local Food production and consumption.
+Market Food
+: Market Food is a market-wide food storage. Food prices depends on the amount of Market Food present. Any food bought or sold on the market will affect the income of the location's owner. Market Food can be moved between markets via trades of food raw materials.
+Every location has a food consumption that depends on its pops. If a location does not have food in any of the three layers, it will suffer starvation, which brings the following effects:
+Allows Laborers to Migrate
+−10
+Character Life Expectancy
+−1
+Migration Attraction
++0.025
+Pop Migration Speed
+Allows Peasants to Migrate
++50%
+Pop Demotion Speed
+−2.5%
+Population Growth
+−25%
+Supply Limit
+Allows Tribesmen to Migrate
+−50%
+Upper-Class Population Capacity
+References
+[
+edit
+|
+edit source
+]
+↑
+tax weights defined as tax_per_pop in
+/Europa Universalis V/game/in_game/common/estates/00_default.txt
+Mechanics
+Realm
+Country
+•
+Government
+•
+Parliament
+•
+Estate
+•
+Reforms
+•
+Laws
+•
+Characters
+•
+Missions
+Economy & Research
+Economy
+•
+Goods
+•
+R.G.O.
+•
+Market
+•
+Building
+•
+Population
+•
+Age
+Diplomacy & Warfare
+Diplomacy
+•
+Subjects
+•
+International organization
+•
+Warfare
+•
+Combat
+•
+Military
+The world
+Location
+•
+Culture
+•
+Religion
+•
+Language
+•
+Exploration
+•
+Situations
+•
+Disasters
+•
+Diseases
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=Economy&oldid=19551
+"

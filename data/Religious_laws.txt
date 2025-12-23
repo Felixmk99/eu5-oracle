@@ -1,0 +1,1154 @@
+Source URL: https://eu5.paradoxwikis.com/Religious_laws
+Source Date: 2025-12-19
+
+Please help with verifying or updating older sections of this article.
+At least some were last verified for
+version
+pre-release.
+Europa Universalis 5
+Laws
+Succession
+Religious
+Military
+Administrative
+Socioeconomic
+Estate
+International organization
+This page is
+automatically generated
+from the game files. It should not be edited directly.
+Instead, please suggest changes or improvements on the
+talk page
+.
+List
+[
+edit
+|
+edit source
+]
+Iqṭā'
+[
+edit
+|
+edit source
+]
+Iqṭā'
+is the Islam practice of 'tax farming': collecting land revenues from the Commoners as part of
+Zakāh
+, the giving of alms, which Islam states generally collect to form their base income.
+Potential
+religion:
+group:
+Islam
+Requires one of the following religion groups
+Sunnism
+Ibadism
+Shiism
+Policy
+Country Modifier
+Estate Preferences
+Potential
+Tax Farming
+Effectively collecting property taxes is the backbone of our national economy. Despite what the Commoners might advocate for, this revenue is vital for funding various projects, endeavors, and campaigns. As such, the accumulation of revenue and the general administration thereof should be entrusted to methodical Iqṭā' holders.
+−5.00%
+Estates Satisfaction Equilibrium
++5.00%
+Tax Efficiency
++0.10
+Monthly Progress to Capital Economy
+Clergy
+Neither of:
+has_or_had_tag: MUG
+culture:
+has_culture_group: Indian
+Jāgir Taxation
+The
+Jāgir
+system grants land and the right to collect taxes to appointees of the state, known as
+Jagirdars
+. Over the decades since its inception, the system has evolved so that the ruling body retains administrative and military authority, while Jagirdars collect taxes and turn over a portion of that revenue to the treasury.
+−5.00%
+Peasant Estate Satisfaction Equilibrium
++10.00%
+Tax Efficiency
++0.10
+Monthly Progress to Capital Economy
+Nobility
+At least one of:
+has_or_had_tag: MUG
+culture:
+has_culture_group: Indian
+Land Acquisition
+Administrating the vast lands under our jurisdiction is no simple matter. Let us strive to bring the territories closer to our central authority by reasserting our possession of these lands, in spite of protests from the Commoners.
+−10.00%
+Expanding Raw Materials Time
++10.00%
+Maximum RGO Size
++0.05
+Monthly Progress to Centralization
+Crown
+Lenient Taxation
+Our people, regardless of their origin and faith, have long suffered under the taxation of the local
+Muqṭi'
+. Let us give them a helping hand by reducing their tax burden.
++2.50%
+Estates Satisfaction Equilibrium
+−5.00%
+Tax Efficiency
++0.10%
+Monthly Prosperity
++0.10
+Monthly Progress to Traditional Economy
+Commoners
+Inquisition Law
+[
+edit
+|
+edit source
+]
+Originally established to combat the heresy of Catharism, the Inquisition has become the Catholicism Church's primary tool for investigating and prosecuting heresy. Via specialized ecclesiastical courts, trained inquisitors investigate potential heretics, extract confessions of religious or moral transgression, and impose punishments ranging from penance to execution, for violating Catholic mores.
+Potential
+religion:
+Catholicism
+Requires one of the following religion groups
+Catholicism
+Policy
+Allow
+Country Modifier
+Estate Preferences
+Potential
+Papal Control
+The mark of the Holy See carries unprecedented influence throughout the Catholicism world. By making the gravitas and authority of the [GetCountry('PAP').GetGovernment.GetRulerTitle] a driving force behind our state's religious policies, we will accelerate the conversion of the non-believers while maintaining general social order.
+Clergy
+Local Courts
+For too long, heretics in our realm have enjoyed the same protections and privileges as the faithful. It is time to establish local courts with the authority to prosecute those who refuse our faith, regardless of the consequences to social harmony.
++20.00%
+Pop Conversion Speed %
+−1.00
+Tolerance of Heretical Beliefs
+−1.00
+Tolerance of Heathen Beliefs
+Commoners
+State Inquisitors
+The Inquisition is a matter for the state to oversee, not the [GetCountry('PAP').GetGovernment.GetRulerTitle] nor local authorities. State-selected Inquisitors hold the power to spy on all suspected enemies of the realm and subsequently to bring charges against them.
+Nobility
+Not:
+tag: PAP
+At least one of:
+culture:
+Venetian
+culture:
+has_culture_group: Iberian
+Council of Three Lands
+A central body of Jewish Authority, this council is in charge of religious and judicial affairs with an aim of spreading religious tolerance and protect its people from persecution.
+religion_percentage_in_country:
+religion:
+Judaism
+value:
+GREATER_THAN: 0
++1.00
+Cultures Capacity
++1.00
+Tolerance of Heathen Beliefs
+Commoners
+has_advance: council_of_three_lands_advance
+Spanish Inquisition
+Our chief weapon is surprise! Surprise and fear... Our two weapons are fear and surprise... and ruthless efficiency!
++20.00%
+Pop Conversion Speed %
++20.00%
+Counterespionage
+−2.00
+Tolerance of Heathen Beliefs
+−2.00
+Tolerance of Heretical Beliefs
+Clergy
+At least one of:
+has_or_had_tag: CAS
+has_or_had_tag: SPA
+culture:
+Castilian
+has_unlocked_policy_trigger:
+type: spa_inquisition_policy
+Society of Jesus
+[
+edit
+|
+edit source
+]
+The Society of Jesus, commonly known as the Jesuits, is a religious order founded by Ignatius of Loyola as part of the Counter-Reformation. Jesuits are distinguished from other Catholic orders by their emphasis on education, scholarship, and performing missionary work.
+Potential
+has_unlocked_global_law_trigger:
+type: society_of_jesus
+religion:
+Catholicism
+Requires one of the following religion groups
+Catholicism
+Locked
+is_locked_mechanic:
+mechanic: law
+type: society_of_jesus
+Policy
+Country Modifier
+Estate Preferences
+On Activate
+Jesuits Allowed
+The Jesuits are a Catholicism religious order, mostly of Iberian origin, that developed along with the Counter-Reformation. Through missionary work and aggressive conversion, their valuable influence and abilities will allow us to accelerate the conversion of our heathen and heretic population at the cost of reduced tolerance.
++5.00%
+Pop Conversion Speed %
++0.10
+Monthly Religious Influence
+−1.00
+Tolerance of Heretical Beliefs
++0.10
+Monthly Progress to Innovative
+Clergy
+unlock_building_effect:
+type: jesuit_college
+Not Allowed
+Despite being able to call upon religious orders to convert our heretic population, we shall instead tolerate all our subjects and treat them as true equals regardless of their beliefs. Jesuit meddling is not welcome in our realm.
++1.00
+Tolerance of Heretical Beliefs
+Commoners
+Role of the Patriarchate
+[
+edit
+|
+edit source
+]
+The Patriarchate is a major pillar of our faith, and an institution with considerable influence over the state.
+Potential
+At least one of:
+religion:
+Orthodoxy
+religion:
+Strigolnichestvo
+religion:
+Miaphysitism
+Not:
+has_policy: separate_clergy_from_state_policy
+Requires one of the following religion groups
+Orthodoxy
+Strigolnichestvo
+Miaphysitism
+Policy
+Country Modifier
+Estate Preferences
+Potential
+Separated Patriarchy
+The state and the Patriarchy are two entirely separate entities which do not meddle in each other's affairs.
++20.00%
+Join Autocephalous Patriarchate Cost
++20.00%
+Create Autocephalous Patriarchate Cost
++20.00%
+Third Rome Cost
++50.00%
+Maximum Tax for Clergy Estate
+Clergy
+State Patriarchy
+The Patriarchy assumes an influential position in the state and possesses authority over the religious matters of the country.
++0.10
+Monthly Religious Influence
+Nobility
+Combined Patriarchy
+The head of the state is also the head of the Patriarchy. Religious matters are handled as if they were typical government issues.
++0.15
+Monthly Religious Influence
+−20.00%
+Join Autocephalous Patriarchate Cost
+−20.00%
+Create Autocephalous Patriarchate Cost
+−20.00%
+Third Rome Cost
++50.00%
+Clergy Power
+Crown
+The Most Holy Synod
+While the Church has played a major role in the history of the state, it is becoming apparent that its position within our country needs to be rethought. By establishing the Most Holy Synod, the ruler keeps the influence of the Patriarchy in check.
++0.20
+Monthly Religious Influence
+−33.00%
+Third Rome Cost
+−10.00%
+Clergy Power
+Nobility
+Crown
+culture:
+has_culture_group: East Slavic
+country_rank_level:
+GREATER_THAN: 2
+Censorship
+[
+edit
+|
+edit source
+]
+The ability to control which literary works can be distributed, and whether opinions counter to established dogma are allowed, is essential to religious cohesion and generally favored by the Clergy. However, these restrictions are frowned upon by free thinkers and creative professionals, and can have profound consequences for the availability of
+Artists
+and for any
+Work of Art
+deemed heretical.
+Locked
+At least one of:
+All of:
+has_policy: de_heretico_comburendo
+legitimacy:
+LESS_THAN: 100
+estate_power(estate_type:clergy_estate):
+GREATER_THAN_EQUAL: 0.1
+All of:
+has_policy: doktrinalnaya_ohrana
+has_policy: oprichnik_policy
+Policy
+Allow
+Country Modifier
+Estate Preferences
+Potential
+No Censorship
+Free-thinking ideals are both uncontroversial and encouraged.
+Artists
+are more likely to settle and remain in a
+Country
+where they can freely express themselves, although there are inevitably zealots who oppose such liberty.
+−5.00%
+Clergy Estate Satisfaction Equilibrium
++1.00
+Tolerance of Heretical Beliefs
++1.00
+Tolerance of Heathen Beliefs
++10.00%
+Cultural Influence %
++0.05
+Monthly Progress to Humanist
++0.10
+Monthly Progress to Innovative
++0.05
+Monthly Progress to Individualism
++0.10
+Monthly Progress to Liberalism
+Burghers
+Limited Censorship
+The Clergy has some tolerance for heretical and controversial thinking, but their patience must not be tried.
+Artists
+may leave or refrain from settling in a
+Country
+, depending on how their work and peers are treated.
++2.50%
+Clergy Estate Satisfaction Equilibrium
+−0.025%
+Stability Decay
+Nobility
+Strict Censorship
+There is no tolerance for heretical thinking. The Clergy watches over everything, and will not hesitate to punish those who do not conform.
+Artists
+are less likely to settle or remain in a
+Country
+unless they are adherents of the current religious doctrine.
++5.00%
+Clergy Estate Satisfaction Equilibrium
++1.00
+Tolerance of the True Faith
++0.25
+Cultural Tradition
++25.00%
+Clergy Power
++0.10
+Monthly Progress to Spiritualist
++0.10
+Monthly Progress to Absolutism
+Clergy
+De Heretico Comburendo
+Heresy is not tolerated in any aspect of society, and is punishable by burning at the stake. Religious services, writings, and opinions of a heretical nature will be purged.
+Artists
+are likely to avoid settling or remaining in our country, and religious minorities will see their property confiscated and be subject to persecution.
+culture:
+English
++10.00%
+Clergy Estate Satisfaction Equilibrium
++5.00%
+Pop Conversion Speed %
++0.10
+Monthly Progress to Spiritualist
++50.00%
+Clergy Power
+Clergy
+has_unlocked_policy_trigger:
+type: de_heretico_comburendo
+Oprichniki Raids Permitted
+The Church is not immune to the purges of the Oprichnina, and members of the Clergy, particularly those who were perceived as a threat, are targeted. Monasteries are regularly pillaged, and monks are subjected to violence. Strict censorship is extended to theological works, religious texts, and historical writings, and people who adhere to different forms of Christianity are viewed with suspicion.
+culture:
+has_culture_group: East Slavic
++0.20
+Monthly Religious Influence
+−5.00%
+Clergy Estate Satisfaction Equilibrium
+−25.00%
+Clergy Power
+−3.00
+Tolerance of Heretical Beliefs
+Crown
+has_unlocked_policy_trigger:
+type: doktrinalnaya_ohrana
+Mandate of Ofen
+The Mandate of Ofen will guide our approach to handling the spread of heresy in our country. It will not only dictate what we condemn as heretical, but will also mandate that every parish church must read it aloud to their congregations twice each year to reinforce its statutes among our people.
+religion:
+Catholicism
++10.00%
+Pop Conversion Speed %
++0.10
+Monthly Progress to Spiritualist
++20.00%
+Clergy Power
+−2.00
+Tolerance of Heretical Beliefs
+Clergy
+Crown
+has_unlocked_policy_trigger:
+type: mandate_of_ofen
+Slave Conversion
+[
+edit
+|
+edit source
+]
+Our slaves come from many different lands, and thus bring with them diverse beliefs. We may need to regulate those closely, lest we risk corrupting our own populace by permitting their exposure to deviant practices and rituals.
+Potential
+Not:
+has_policy: slavery_outlawed
+pop_type_population_in_country:
+pop_type: pop_type:slaves
+value:
+GREATER_THAN: 0
+Policy
+Allow
+Country Modifier
+Estate Preferences
+Allow Slave Religion
+Slaves have been already forced to abandon their homes and live a life of servitude under foreign masters. Let them at least keep their beliefs and rituals; it does not matter what they believe on the inside as long as they obey.
++10.00%
+Slaves Output
++1.00
+Max Literacy for Slaves
++2.00%
+Slaves Food Consumption
+−2.50%
+Clergy Estate Satisfaction Equilibrium
++0.10
+Monthly Progress to Humanist
+Commoners
+Force Slave Conversion
+How can we expect slaves to obey and be loyal if they are not willing to embrace our own beliefs, and instead cling to their foolish superstitions? Only by forcing them to abandon their heathenry and accept the true faith wholeheartedly can we ensure their obedience.
+Not:
+has_policy: heir_any_religion
+Allow Conversion of Slaves:
+yes
++0.10%
+Unemployed Slave Promotion
++0.05%
+Monthly Slave Rebel Growth
++0.10
+Monthly Progress to Spiritualist
+Clergy
+Holy Mission
+[
+edit
+|
+edit source
+]
+The guideline for our every action is the Holy Mission we have been granted from our divine ruler. The vision the higher power has foreseen for us shall come to fruition!
+Potential
+government_type: government_type:theocracy
+Only for
+Theocracy
+Policy
+Country Modifier
+Estate Preferences
+Internal Mission
+We must focus our energy on the holy missions that affect those within our borders: to protect the faithful, aid the less fortunate, and fulfill our spiritual duties.
++1.00
+Tolerance of the True Faith
++0.10
+Monthly Progress to Inward
+Commoners
+External Mission
+The spread of our holy faith must be our foremost mission. We cannot rest until we have defeated all enemies of our religion!
+−10.00%
+War on Different Religion Cost
++0.10
+Monthly Progress to Outward
+Nobility
+Balanced Mission
+The affairs of our theocracy cannot be focused on only one aspect. It is in the best interests of both our state and our religion to invest equally in our internal and external missions.
++0.10
+Monthly Devotion
+Clergy
+Commercial Mission
+Although religion is the driving force of our ambitions, it is undeniable that our state depends on the might of the Ducat. Fortunately, religion and monetization go hand in hand.
++10.00%
+Trade Advantage
++0.10
+Monthly Progress to Free Trade
+Burghers
+Mission of Protection
+Our faith is at constant risk from heathens and heretics alike. The only ones who we can count on are other followers of our religion - our brothers and sisters in faith. It is our duty to protect them from the forces of evil.
++0.10
+Monthly Progress to Defensive
+−20.00%
+Fortification Maintenance
+Commoners
+Nobility
+Mission to Civilize
+Our mission is to seek out the misguided, primitive peoples across the world and teach them the proper way to live and believe, so that they too may join us in our divinity.
++0.10
+Monthly Progress to Spiritualist
++25.00%
+Monthly Colonial Migration
+Clergy
+Mission on the High Seas
+The seas are filled with heathens and villains, plundering the ships of our brethren in faith! At this rate, pilgrims will never be able to safely visit our holy sites if we do not undertake the divine mission to eliminate this piratical menace on the high seas.
++0.10
+Monthly Progress to Naval
++10.00%
+Navy Morale
+Burghers
+Nature of our Faith
+[
+edit
+|
+edit source
+]
+Religion is the pillar of our entire society, and as such, the nature of our faith plays a role in all facets of our culture. No major decisions can be made without carefully considering the religious perspective of taking these actions.
+Potential
+government_type: government_type:theocracy
+Only for
+Theocracy
+Policy
+Country Modifier
+Estate Preferences
+Potential
+Faith and Power
+Combat and power are the only ways to move closer to the divine. The people of our state show their piety and devotion through victory on the battlefield.
++1.00%
+Army Morale Recovery Speed
++1.00%
+Navy Morale Recovery Speed
+Nobility
+Belief and Unity
+Faith is the unifying power which keeps the state and the people together. The government exists for the sole purpose of ensuring that this unity remains unbroken.
++1.00
+Tolerance of Heretical Beliefs
++1.00
+Tolerance of Heathen Beliefs
+Clergy
+Church and State
+The faith and the state are the two pillars that hold up the world. Our laws are holy, and they cannot be questioned.
++10.00%
+Crown Power
++0.05
+Monthly Progress to Absolutism
+Crown
+is_country_religion_pagan: False
+God and Man
+The only relationship that matters is that between lowly mortals and the immortal divine. Our state exists merely to remind people of the proper ways to devote themselves to their faith.
++20.00%
+Pop Conversion Speed %
+Commoners
+is_country_religion_pagan: False
+Organize Our Faith
+We are a highly organized state oriented around a faith that is itself highly disorganized. By enacting an official hierarchy for our religion, we may convert more followers to the true faith.
++5.00%
+Crown Power
++1.00
+Tolerance of the True Faith
+Crown
+is_country_religion_pagan: True
+Divine Cause
+[
+edit
+|
+edit source
+]
+While monarchies and republics may be content to simply exist in the world, a Holy State requires a deeper, more spiritual calling. This Divine Cause shall guide our hand towards a glorious destiny.
+Potential
+government_type: government_type:theocracy
+Only for
+Theocracy
+Policy
+Country Modifier
+Estate Preferences
+Safeguard Holy Sites
+It is our sacred duty to look after the holy sites under our control, and to protect any pilgrims within our lands.
++0.10
+Monthly Progress to Communalism
++20.00%
+Fort Defense
+Commoners
+Clergy
+Combat Heresy
+In the mission to spread the true faith, we must never waver in our conviction, and be ready to root out heresy wherever it springs up — by force, if need be.
++0.10
+Monthly Progress to Belligerent
++10.00%
+Army Morale
+Nobility
+Clergy
+Expulsion of Heathens
+As our state grows, we inevitably become exposed to wrongful teachings. We must not tolerate heathens or heretics within our city walls! Therefore, we shall allow these nonbelievers to dwell in our cities only if they convert to the true faith.
++0.10
+Monthly Progress to Traditionalist
++20.00%
+Pop Assimilation Speed
+Commoners
+Pursuit of Knowledge
+Our cause is not the defense of our religion, nor the forceful expansion of our faith. Instead, we focus on the very nature of being, exploring the relationship between the mortal and the divine realms.
++5.00
+Max Literacy
++0.10
+Monthly Progress to Innovative
+Burghers
+Tribal Religious Values
+[
+edit
+|
+edit source
+]
+The religious values of our tribe dictate not only how we live, but how we treat those who do not share our beliefs and traditions, both within and outside of our territory.
+Potential
+has_tribal_government: True
+Allow
+has_tribal_government: True
+Policy
+Country Modifier
+Estate Preferences
+Religious Tribe
+Our expansion has made us a more diverse and populous community than before. While clan loyalties can take us far, a strongly religious society can better withstand expansion in both time and space, and will give us the cohesion we need to continue growing effectively.
++0.01
+Pop Conversion Speed
+Clergy
+Lip Service
+Religion is undeniably an important aspect of any society. However, it should never threaten the safety and stability of the tribe. As such, we should take a more relaxed view on religion altogether, while still publicly paying respect to spiritual concerns.
+−10.00%
+Stability Investment Cost
+Commoners
+Burghers
+Complete Religious Autonomy
+While religious practices help us maintain our legitimacy, we should not become mired in the principles of righteous rule and morality. Pragmatism will take us further and allow us to support a larger state than slavish spirituality can.
+−10.00%
+Army Maintenance
+Commoners
+Burghers
+Marriage Law
+[
+edit
+|
+edit source
+]
+Marriage law refers to the legal framework that governs the institution of marriage within a particular jurisdiction.
+Policy
+Allow
+Country Modifier
+Estate Preferences
+Potential
+Monogamous Marriage
+Monogamous marriage refers to a cultural or societal practice of union between two individuals, based on established customs, values, and norms.
+custom_tooltip:
+text: not_catholic_theocracies
+At least one of:
+government_type:
+NOT_EQUAL: government_type:theocracy
+religion:
+NOT_EQUAL:
+Catholicism
++1
+Maximum Amount of Female Spouses
++1
+Maximum Amount of Male Spouses
+Clergy
+Nikāḥ
+Nikāḥ in Islamic culture is the solemn and legally binding marriage contract between a man and a woman.
++4
+Maximum Amount of Female Spouses
++1
+Maximum Amount of Male Spouses
+Clergy
+religion.group:
+Islam
+Communal Living
+The Adamite sect rejects the concept of traditional marriage, preferring to live within communal structures without a clear hierarchy.
++10
+Maximum Amount of Female Spouses
++10
+Maximum Amount of Male Spouses
+Clergy
+Commoners
+All of:
+religion:
+Hussitism
+has_religious_aspect: religious_aspect:adamite_services
+Polygyny
+Marriage between a man and multiple women is seen as a sign of wealth and power within many communities.
++4
+Maximum Amount of Female Spouses
++1
+Maximum Amount of Male Spouses
+Clergy
+At least one of:
+is_country_religion_pagan: True
+religion:
+Hinduism
+culture:
+has_culture_group: Indian
+Díshù System
+The Díshù System allows the practice of entertaining concubines at court in order to secure heirs.
++4
+Maximum Amount of Female Spouses
++1
+Maximum Amount of Male Spouses
+Clergy
+At least one of:
+culture.language.language_family: language_family:chinese_language_family
+court_language.language_family: language_family:chinese_language_family
+culture.language: language:korean_language
+culture.language: language:vietnamese_language
+culture.language: language:japanese_language
+court_language: language:korean_language
+court_language: language:vietnamese_language
+court_language: language:japanese_language
+Celibacy
+Celibacy refers to the state of abstaining from marriage and sexual relations. It is a choice often tied to religious or personal beliefs, emphasizing a life without a romantic or sexual partner.
+0
+Maximum Amount of Female Spouses
+0
+Maximum Amount of Male Spouses
++2.50%
+Clergy Estate Satisfaction Equilibrium
+Clergy
+government_type: government_type:theocracy
+Heir Religion
+[
+edit
+|
+edit source
+]
+The ability to decide the religion of the
+Heir
+holds significant importance in matters of succession and governance. It allows rulers and governments to maintain religious stability, ensuring that the beliefs and practices of the ruler align with those of the majority of their subjects. Ultimately, the power to determine the religion of the heir represents an important element in the fine balance of religious freedom, governance, and societal harmony.
+Locked
+has_policy: heir_same_religion
+custom_tooltip:
+text: act_of_settlement_tt
+has_variable: act_of_settlement
+Policy
+Country Modifier
+Estate Preferences
+Potential
+Special Succession
+The religion of the
+Heir
+is not determined by the laws but by the
+Succession Law
+itself.
++10.00%
+Legislative Efficiency
+succession_law:
+has_tag: empty_heir_religion_law
+Same Religion
+Selecting the
+Heir
+from the same religion as the prevailing one ensures that the beliefs and practices of the population and Crown are aligned. While this policy can contribute to religious cohesion, it may also limit opportunities for those of different faiths to assume leadership positions.
+Heir of Same Religion:
+yes
++0.10
+Tolerance of the True Faith
++0.20%
+Clergy Estate Satisfaction Recovery
++0.10
+Monthly Progress to Spiritualist
+Clergy
+succession_law:
+Not:
+has_tag: empty_heir_religion_law
+or:
+not:
+country_exists: this
+not:
+exists: ruler_or_heir_if_regent
+ruler_or_heir_if_regent:
+religion: root.religion
+exists: union
+Same Religious Group
+Selecting the
+Heir
+from the same religious group is often desirable in order to maintain religious and cultural continuity and prevent potential religious conflicts. This policy can help safeguard the stability of the realm by minimizing religious divisions within the leadership, at the expense of individuals from faiths considered to be 'heathen' being able to assume leadership roles.
+Heir of Same Religion Group:
+yes
++0.25
+Tolerance of Heretical Beliefs
++0.10%
+Clergy Estate Satisfaction Recovery
+Nobility
+succession_law:
+Not:
+has_tag: empty_heir_religion_law
+or:
+not:
+country_exists: this
+not:
+exists: ruler_or_heir_if_regent
+ruler_or_heir_if_regent:
+religion.group: root.religion.group
+Any Religion
+Faith is personal, and does not reflect nor compromise an individual's ability to lead. The
+Heir
+may worship any religion and still assume leadership roles. This policy carries a higher risk of religious conflicts within the leadership, while promoting religious freedom and general acceptance.
+Heir of Any Religion:
+yes
++0.50
+Tolerance of Heathen Beliefs
++1.00%
+Clergy Estate Satisfaction Decay
++0.10
+Monthly Progress to Humanist
+Crown
+succession_law:
+Not:
+has_tag: empty_heir_religion_law
+Reformation Edicts
+[
+edit
+|
+edit source
+]
+The Reformation is sweeping across Europe, and France is on the front lines of its outbreak. State policy towards these emerging zealots will be critical in making them our friends — or foes.
+Potential
+has_variable: enable_fra_tolerance_edicts
+religion:
+Catholicism
+Not:
+has_variable: nantes_revoked_by_sun_king
+Requires one of the following religion groups
+Catholicism
+Locked
+custom_tooltip: why_law_is_locked_fra_religious_laws
+is_locked_mechanic:
+mechanic: law
+type: fra_reformation_tolerance_edicts
+Policy
+Country Modifier
+Estate Preferences
+Potential
+Edict of Lutheranism Tolerance
+Special privileges have been given to the Lutheranism population throughout France, preventing their persecution. However, the [GetCountry('FRA').GetGovernment.GetCourtTitle]'s policy is seen as heresy by the Catholicism Clergy.
+−5.00%
+Estates Satisfaction Equilibrium
+−15.00%
+Pop Conversion Speed %
+−1.00
+Tolerance of the True Faith
++1.00
+Tolerance of Heretical Beliefs
+−0.20
+Monthly Religious Influence
+Commoners
+has_unlocked_policy_trigger:
+type: protestant_tolerance
+Not:
+has_unlocked_policy_trigger:
+type: edict_of_nantes
+Edict of Religious Tolerance
+Special privileges have been given to the population throughout France who follow these new, reformed faiths, preventing their persecution.
+−5.00%
+Estates Satisfaction Equilibrium
+−33.00%
+Pop Conversion Speed %
+−1.50
+Tolerance of the True Faith
++1.00
+Tolerance of Heretical Beliefs
+−0.33
+Monthly Religious Influence
+Commoners
+has_unlocked_policy_trigger:
+type: reformist_tolerance
+Not:
+has_unlocked_policy_trigger:
+type: edict_of_nantes
+Edict of Nantes
+The Edict of Nantes grants considerable rights to the religious minorities throughout France, putting them on an equal footing with followers of the Catholicism faith. It also ends the decades-long persecution of our Huguenot citizens.
+−5.00%
+Clergy Estate Satisfaction Equilibrium
++0.02
+Stability Investment
++2.00
+Tolerance of Heretical Beliefs
+Commoners
+has_unlocked_policy_trigger:
+type: edict_of_nantes
+Edict of Fontainebleau
+The court has deemed the rise of Protestantism a serious threat to the stability of France, and practice of the heretic faith is now considered high treason.
++5.00%
+Pop Conversion Speed %
++1.00
+Tolerance of the True Faith
+−1.00
+Tolerance of Heretical Beliefs
+Clergy
+Not:
+has_unlocked_policy_trigger:
+type: edict_of_nantes
+Expanded Edict of Fontainebleau
+The continued rise of Protestantism and other Reformation faiths has led the council to expand the previous Edict of Fontainebleau to target all heretical faiths.
++12.50%
+Pop Conversion Speed %
++1.50
+Tolerance of the True Faith
+−2.00
+Tolerance of Heretical Beliefs
+Clergy
+has_unlocked_policy_trigger:
+type: expanded_edict_of_fontainebleau
+Not:
+has_unlocked_policy_trigger:
+type: edict_of_nantes
+Edict of Châteaubriant
+The rise of Protestantism in France has reached a crucial point, forcing the court to take extreme action. Under the Edict of Châteaubriant, followers of heretical beliefs are prevented from holding public offices, and conducting trade throughout France.
++2.50%
+Estates Satisfaction Equilibrium
++17.50%
+Pop Conversion Speed %
++1.00
+Tolerance of the True Faith
+−3.00
+Tolerance of Heretical Beliefs
++10.00%
+Stability Investment Cost
+Clergy
+has_unlocked_policy_trigger:
+type: edict_of_chateaubriant
+Not:
+has_unlocked_policy_trigger:
+type: edict_of_nantes
+Status of Jansenism
+[
+edit
+|
+edit source
+]
+A doctrine following the teachings of Saint Augustine,
+Jansenism
+emphasizes predestination, the profound and lasting effects of original sin, and rigorous morality. It has increasingly come under threat with the rise of Absolutism in France, as well as having been officially condemned by the Roman Bull
+Unigenitus
+.
+Potential
+has_unlocked_law_trigger:
+type: fra_jansenism_legality
+religion:
+Catholicism
+Requires one of the following religion groups
+Catholicism
+Policy
+Country Modifier
+Estate Preferences
+Potential
+No Formal Law
+The legality of Jansenism currently exists in a state of limbo, with the
+Unigenitus
+decree unimplemented. Followers of Jansenism are treated equally to other religious sects.
++2.50%
+Estates Satisfaction Equilibrium
+−0.50
+Monthly Religious Influence
++10.00%
+Parliament Base Support
+Burghers
+Commoners
+Unigenitus Decree
+The Unigenitus Decree has been codified into law, outlawing any form of practice of Jansenism. Known followers of Jansenism are forced to pay the
+Cinquantième
+tax.
+−5.00%
+Peasant Estate Satisfaction Equilibrium
++1.00
+Monthly Religious Influence
++5.00%
+Maximum Tax for Peasants Estate
++0.20%
+Monthly Commoners Rebel Growth
+−10.00%
+Parliament Base Support
+Crown
+Clergy
+has_unlocked_policy_trigger:
+type: unigenitus_codified
+Authority over the Clergy
+[
+edit
+|
+edit source
+]
+Scottish contribution to the Curia have become a burden on the state's finances. Seeking to curtail Curia contributions, the state has taken direct jurisdiction over the clergymen.
+Potential
+has_unlocked_law_trigger:
+type: sco_authority_over_the_clergy
+religion:
+Catholicism
+Requires one of the following religion groups
+Catholicism
+Policy
+Country Modifier
+Estate Preferences
+Time to implement
+Government Jurisdiction
+Roman and Curia influence have largely been curtailed in favor of the established government having direct jurisdiction of the religious institutions within Scotland.
++10.00%
+Crown Power
+−1.00
+Monthly Religious Influence
++0.20
+Cultural Tradition
+−1.00%
+Expected Cost of Court
+−15.00%
+Clergy Power
+−5.00%
+Clergy Estate Satisfaction Equilibrium
++5.00%
+Minimum Tax for Clergy Estate
+−50
+Papal Relations
+Crown
+Nobility
+1 years
+Limited Curia Access
+While the government retains most influence over the religious institutions within Scotland, a special provision has been given to high ranking clergymen, allowing them to engage openly with the Curia.
++5.00%
+Crown Power
+−0.33
+Monthly Religious Influence
+−10.00%
+Clergy Power
++5.00%
+Clergy Estate Satisfaction Equilibrium
+−15.00%
+Stability Investment Cost
++2.50%
+Minimum Tax for Clergy Estate
+−20
+Papal Relations
+Clergy
+1 years
+The Witchcraft Act
+[
+edit
+|
+edit source
+]
+If we are to live a life of piety and root out the corruption and evil among us, we must address the growing concerns of many around the existence of witches and the practice of the occult.
+Potential
+has_variable: witchcraft_decision
+Policy
+Country Modifier
+Estate Preferences
+Banned
+The infernal practice of witchcraft, and consulting with witches, have become capital offenses. Any who transgress shall reap what they sow...
+−10.00%
+Monthly Research Progress %
+Clergy
+Ignored
+The so-called practice of witchcraft is just superstition, or perhaps the effects of indigestion. Either way, the government has better things to spend its time on.
+−5.00%
+Clergy Estate Satisfaction Equilibrium
+−5.00%
+Peasant Estate Satisfaction Equilibrium
+Commoners
+The Holy Office
+[
+edit
+|
+edit source
+]
+The Holy Office has been requesting greater jurisdiction over religious life in the Most Serene Republic. We must now choose whether to comply with this request, or to defend the religious freedom of our subjects.
+Potential
+has_unlocked_law_trigger:
+type: venetian_papal_relation_law
+religion:
+Catholicism
+Requires one of the following religion groups
+Catholicism
+Policy
+Country Modifier
+Estate Preferences
+Venetian First, Christianity Second
+In Venice, loyalty to the Republic is more important than what type of Christianity you are.
++1.00
+Tolerance of Heretical Beliefs
+−0.20
+Monthly Religious Influence
+Nobility
+Burghers
+Christianity First!
+Being a proper Christianity is the only thing that matters for a citizen of Venice.
+−1.00
+Tolerance of Heretical Beliefs
++0.20
+Monthly Religious Influence
+Clergy
+Monastic Reformation Movement
+[
+edit
+|
+edit source
+]
+The Possessors and Non-Possessors have different views on the role of wealth within the Church and its impact on the spiritual life of clergy and followers.
+Potential
+has_variable: monastic_reformation_movement
+Locked
+custom_tooltip:
+text: flavor_mos.47.custom2
+has_variable: supported_monastic_reformation_movement
+Policy
+Country Modifier
+Estate Preferences
+On Activate
+Non-Possessors
+The Non-Possessors believe that the Church should distance itself from material wealth and follow a more monastic and contemplative lifestyle. A rejection of worldly possessions is important if one is to foster a closer relationship with God. The movement is heavily influenced by the teachings of Nil Sorsky.
+−20.00%
+Estate Enrichment
+−0.10
+Monthly Religious Influence
++0.05
+Monthly Progress to Communalism
+Commoners
+hidden_effect:
+set_variable:
+name: supported_monastic_reformation_movement
+value: True
+years: 10
+Possessors
+The Possessors support Church's ownership of land and property, deeming it necessary for the Church to possess material wealth in order to fulfill its spiritual and social responsibilities. Examples of such commitments are charitable activities, maintaining religious institutions, develop infrastructure and provide education.
++10.00%
+Clergy Power
++0.05
+Monthly Progress to Free Subjects
++10.00
+Max Literacy for Peasants
++10.00
+Max Literacy for Soldiers
++10.00
+Max Literacy for Laborers
+Clergy
+hidden_effect:
+set_variable:
+name: supported_monastic_reformation_movement
+value: True
+years: 10
+References
+[
+edit
+|
+edit source
+]
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=Religious_laws&oldid=21235
+"

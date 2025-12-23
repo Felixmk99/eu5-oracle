@@ -1,0 +1,854 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-85-22nd-of-october-modding.1864004/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #85 - 22nd of October - Modding
+Thread starter
+PDX Ryagi
+Start date
+Oct 22, 2025
+Hello, and welcome to another Tinto Talks, the happy Wednesdays where we talk about Europa Universalis V!
+This time, your friendly Neighborhood Community Manager Ryan will be hosting! Though most of you know me as Ryagi. I’ve been on the Community Team for Europa Universalis since the Origins Immersion Pack for EU4, and since then have found myself now managing said team.
+Now onto the juicy stuff! Something very near and dear to myself and many of us here at Tinto, modding!
+Firstly I want to get some myths busted. Is Europa Universalis V the most moddable game of all time? Not exactly, at least not at release. That being said, modding is still a core pillar of our community and our games, so many of the systems and mechanics in EU5 were designed with modding in mind (looking at you, Situations and International Organizations!).
+Do some mods have early access to the game already? Yes! Many (but not all) of the most popular overhauls in particular have for some time, and we’ve done this to ensure they get a head start on EUV. Even if that doesn’t necessarily mean they’ll be ready at launch, it does mean we’ll get them sooner than otherwise.
+For those of you that might notice Anbennar missing from the image above, we’d like to be transparent here; Some of the talented Developers within the Anbennar team have ambitions of their own. For legal reasons, these ambitions did not permit them to receive full early access. With that being said, we will still be supporting their work on modding EU5 and will continue to do so post-release! Of course, lack of Early Access does not completely bar them from their work...
+We have the following from the Team at Anbennar:
+The Anbennar team is thrilled to confirm its dedication to bringing our expansive fantasy world into Europa Universalis V. Regardless of early access status, players can expect the setting they've grown to love to be significantly expanded and built upon. We believe the enhanced mechanics of EU5 will unlock unprecedented opportunities, allowing us to dig deeper into Anbennar better than ever before.
+If you'd like to know more and (eventually) keep track of our progress once EU5 does come out, check out our Discord here:
+https://discord.gg/anbennar
+Click to expand...
+We’ll go deeper on what some of the
+other
+mods have in store later on in this very Tinto Talk. For now, let's take a brief look at what modding EU5 actually looks like. What is moddable and what isn’t? I’m not exactly new to modding, but nor would I consider myself an expert on the topic.
+So to best help with this following section, we’ve enlisted the generous help of Mod Author,
+@Stiopa866
+, who has also been assisting us behind the scenes with modding support.
+Modding EU5
+The reality of EU5 modding is in many ways similar to that of recent PDX GSGs - Victoria 3, Crusader Kings 3 and Imperator: Rome - as it also operates on the
+Jomini Framework
+- which brings many modding conveniences over from those games and allows to create some advanced mods with the rich scripting system and the datacontext-based GUI.
+In this short introduction to EU5’s modding, I’d like to share some of the syntax as well as some features that may set EU5 apart from other Jomini-based games.
+But first, how does modding EU5 currently work? This process is a little bit different for EU5 compared to other games, so let us go over that!
+In order to create a stub folder for your first mod, you will need to navigate into the Mods & DLCs Menu in the top right corner and then open the Mod Tools view by clicking on the sandbox icon next to Selected Mods:
+In the menu that pops up, you may put in basic information about the mod you are going to be creating:
+An example of a mod featuring the infamous John Universalis.
+After pressing the Create Mod Stub button, a new folder was created in the mod folder called “john_universalis” containing “metadata” which contains some basic data for the mod and is required for the game to recognize the mod. The syntax of the .metadata folder and files inside is much similar to other recent titles.
+Once we have the mod stub created, let us create a playset to which we will assign the mod and test it:
+We may also add other mods and order them according to when they should be loaded:
+Then, after having selected the new playset in the dropdown menu below, let us add the mod to the playset and apply the playset:
+The game will then reload briefly to apply the mods.
+Next, let us see what are some of the things we can do in terms of modding!
+Let us begin with the syntax for one of the most basic and widely used types of EUV content: the famous Event, along with some comments to explain what is going on!
+Code:
+flavor_pol.51 = {
+type = country_event         # This is a country event - it will be fired on countries and the country
+# for which it will fires will be considered ROOT
+title = flavor_pol.51.title        # Title key.
+desc = flavor_pol.51.desc        # Description key
+historical_info = flavor_pol.51.historical_info    # (Optional) Historical Info key, responsible for the
+# historical information box
+# Title, desc and historical_info can be made dynamic and be made
+# dependent on triggers or randomized amongst a list of keys.
+# In EU5, mean_time_to_happen events do not exist and all events need to be either fired
+# either by on_actions, script or by a dynamic_historical_event clause.
+dynamic_historical_event = {
+tag = POL        # This event can fire for POL tag. There can be more than one “tag”s
+from = 1500.1.1    # This event can fire from 1500.1.1…
+to = 1510.1.1        #  … to 1510.1.1
+monthly_chance = 10 # with a monthly chance of 10%
+}
+trigger = {
+has_law = distribution_of_power_law     # only requirement for this event is to have
+# “distribution_of_power_law“ available.
+}
+fire_only_once = yes         # This event can only fire once per campaign for any tag.
+illustration_tags = {        # Illustration tags that are used for the pops in the event picture
+10 = angry
+10 = interior
+}
+immediate = {
+# A scripted effect that saves two “pops” as saved scopes for the illustration purposes.
+event_illustration_estate_effect = { foreground = estate_type:nobles_estate background = estate_type:nobles_estate }
+}
+option = {
+name = flavor_pol.51.a    # key for the option.
+# can also be made dynamic, but with a different syntax.
+historical_option = yes    # This will make AI with “Historical AI” gamerule
+# always select this option
+if = {
+limit = {
+NOT = {
+has_policy = dop_favor_the_nobles
+}
+}
+add_policy = policy:dop_favor_the_nobles
+}
+set_variable = unlock_nihil_novi    # set_variable is the unified solution of jomini for
+# set_country_flag and variables.
+# grant the estate privilege under “estate_privilege:nihil_novi”
+# if this was a generic event, we could, for example, save a random privilege ahead of time
+# and assign it with a scope:target_privilege or a var:saved_privilege instead…
+grant_estate_privilege = estate_privilege:nihil_novi
+}
+option = {
+name = flavor_pol.51.b
+add_estate_satisfaction = {
+type = estate_type:nobles_estate
+value = estate_satisfaction_severe_penalty
+}
+add_stability = stability_severe_penalty
+# the values under “estate_satisfaction_severe_penalty” and “stability_severe_penalty” are
+# scripted - they are defined outside the file, are reusable, and can be made to depend on
+# dynamic factors.
+}
+}
+God, Honor, Fatherland… The three most common causes of death among the Szlachta.
+Let us also go over a practical example showcasing the power of the script! For this purpose, we will create a Situation, a fancy new way of representing dynamic and complex economic and political situations in EUV.
+To illustrate how a situation works under the hood, let us consider a modded scenario of utmost importance and historicity - the Rise of Ulm. We begin by crafting a new file called rise_of_ulm.txt in common/situations:
+Now we have a basic setup that will allow us to go into the game and see the situation for ourselves. But, all the text will appear unlocalized and barren, so let us give Rise of Ulm a title and a fitting description before we go in:
+Just reading this gives me the shivers…
+However, as it stands, the situation currently does absolutely nothing, appears suddenly and I get no notification of its start. Let us fix that really quick!
+The content of those events is trivial and is left as an exercise to the reader.
+Every situation features its own personal mapmode that we can customize in the situation, so let us implement that. Perhaps the most important information for the player in this case is its distance to Ulm, as it is that factor that determines how much time it has to prepare.
+First, we will be measuring the distance from different locations quite often, so let us create a new script value that we can reuse for this purpose in common/script_values:
+The “” notation is required for such “complex triggers” that accepts arguments
+And now we can properly define mapmode colors:
+Lastly, any mapmode is not complete without a tooltip to explain what is going on:
+And of course, localization:
+The result is smooth!
+Let us see the tooltip as well:
+We added a hint field earlier, let us also implement that now!
+Let us head over to common/scriptable_hints and create the following:
+After some localization work, we get the results:
+Bożydar also thinks the “End is nigh!” while Sędzimir wishes he lived in “more enlightened times…” Peculiar, I swear I had heard such words before...
+Now, it is time to address the elephant in the room and the second critical part of any situation, the Graphical Interface for it! In order to create the UI, we head over to gui/panels/situation and create a file of the same name as the key for our new situation, rise_of_ulm.gui:
+We begin the file by using the situation_panel widget, producing a generic panel:
+Let us think on what we can fill this space with. situation_panel has a variety of “blocks” that can be overridden to insert widgets into certain spots or to alter the entire behavior of the UI.
+We'll override the main of those blocks - situation_panel_main_content - in order to produce a panel with end requirements and a hint button which you might remember from other
+Tinto Talks
+.
+Some copy-paste magic is all it takes…
+I had to make a custom tooltip for the latter requirement, but it looks good!
+Let us add another small thing to the situation - a small counter in the top left for how much progress Ulm has made so far in their bid for world domination. For this, we will override the situation_header_left block, place an icon there and a textbox that displays the header text and the value of the “progress”:
+Perfection.
+Now, let us add some spice to our situation! An action that could be taken by the ulm to fabricate a claim on their neighbors could really ease Ulm’s rise. Such an action would be implemented via a generic action, the spinning wheel that keeps the game world feel alive and dynamic and that is a main building block of any immersive situation or international_organization.  The syntax here is in many ways similar to one used in missions and other actions (diplomatic_actions, cabinet_actions) and exists to give the user great agency. We shall now head over to common/generic_actions and create a new action there:
+We fill in some basic parameters for the action.
+Now, ideally the action would allow us to select a certain province on the map we want to get the casus belli, we can do this by adding another select_trigger (which this time will be shown to the player!)
+Not pictured: We also gotta put the action into a special AI list for performance reasons!
+Let's then localize it, and see how it looks in-game:
+Works out of the box! No GUI work needed, as that is baked into situation_panel
+We can target the provinces as expected.
+For now, however, that will be enough for this tiny “scripting system showcase”. I hope what you’ve seen has made you equally as excited for the modding capabilities of the game as it has done for us.
+You may be thinking though, what else can you do? To go over it all would be impossible, so perhaps this image will be give you food for thought:
+Not pictured is also the events folder, setup folder, gfx folder, gui folder and map_data folder.
+Above pictures was the in_game/common folder. In addition, there is also main_menu/common folder with the following:
+There is also one more feature that we would love to talk about- Database Entry Modes - EUV’s solution to the struggle of overriding content from vanilla/other mods. This is available in many of the game’s “database” objects, covering the vast majority of them. Here is a practical example:
+Here is an example of a mod injecting its own aptly-named custom modifier (defined in main_menu/common/modifier_type_definitions) into an auto modifier representing base values for a country (in in_game/common/auto_modifiers)
+A modifier we hope will be an accurate representation of the response to today's Tinto Talk…
+Here’s a list of what what modes are available:
+Code:
+INJECT:key - this mode tries to inject the script into an existing entry. Errors if the respective entry does not exist.
+REPLACE:key - this mode replaces an existing entry with a new one. Errors if the respective entry does not exist.
+TRY_INJECT:key same as INJECT: but does not error if the entry does not exist.
+TRY_REPLACE:key same as REPLACE: but does not error if the entry does not exist.
+REPLACE_OR_CREATE:key = { } # Same as REPLACE: but if the entry does not exist, it will create it
+INJECT_OR_CREATE:key = { } # Same as INJECT: but if the entry does not exist, it will create it
+Seeing all of this, you may be left wondering: what is
+not
+moddable?
+And as much as we wish we could say “nothing”, we must also face reality. No such system is ever complete and EUV is also burdened with some limitations, many of which will be looked at post release.
+Here’s some of the most notable features that might impede modding as of writing (that we know of!):
+Custom Start Dates are currently not available as a feature.
+The Database Entry Modes do have limitations - most importantly, on_actions and setup files are not affected by them as of now. Not every part of the game can be interacted with Script/GUI script easily - as with every game, not all use-cases are immediately clear during development and tend to be opened up with further patches. Many objects inside setup do work additively, and one may additively attach new on_actions to existing on_actions, so additive behavior is possible.
+There is a Map Editor available, but as of now it requires exceptionally good hardware.
+Lastly, in terms of multiplayer and achievement compatibility. It is important to specify, that like other Jomini-based games, mods that affect the GUI folder will also impact the checksum and therefore will impact the ability to join others’ multiplayer games. This is a notable change, as in EUIV GUI mods did not necessarily prevent this. This also affects achievement compatibility, as unmodified checksum is required to earn achievements.
+In terms of what folders affect checksum, it is:
+common
+events
+map_data
+gui
+localization
+setup
+In case you have any additional questions about moddability, feel free to ask them and we will try to respond to the best of our abilities!
+Now that we’ve gone over some of the basics, we’ve got some exciting real-life examples and teasers from some of our talented modding teams who took part in our Early Access Program!
+Extended Timeline
+​
+Hello, I am Qweytr, the team lead of the Extended Timeline mod. With EU5 on the horizon, we are excited to show you a first look at Extended Timeline, a continued project carried over from EU4. A mod that represents the historical timeline of the past 2000 years, from the Roman era, up to the modern day, with all their kingdoms, tribes, and empires, from their rise till their final days. While we are very excited to get this project underway, we are also faced with many challenges to overcome.
+To me, one of the core features of Extended Timeline is the ability to start at any start date and play for as long as you want. EU5, however, does not allow a free start date selection like EU4 did. To solve this, rather than making a large number of separate start dates, we will have a single database and a script that can create a start setup for any dates of our choice from it.
+Another obvious challenge is that with the massively increased number of locations and the addition of population, the amount of research needed to cover all the start dates is enormous. To tackle this we will start with data imported from the EU4 version of the mod and then gradually increase the detail to what is allowed by the new game. Still, this is a truly grand undertaking, with years of development ahead, but our aim is also to have a much larger team working on the mod to achieve a great level of historical detail and flavor in a reasonable amount of time.
+With the first versions of our script already finished, we can present to you a first look at Extended Timeline in EU5. If you would like to follow our development journey further or even help us with the development, make sure to follow us on our Extended Timeline
+Discord server
+!
+Imperium Universalis​
+And here from the Imperium Universalis team:
+good lookin and jackkade have been working on the new map, which will include more of the old world than previously depicted, though the new world won't be present just like in EU4. Pictured below is the extent of the map, with the area in red being playable.
+Other than that, NoahsRebels has been working on the family trees of a few countries in China. Pictured below is the current progress of the Zhou Dynasty's family tree up until 612 BC.
+We're still at a very early stage of development, so there isn't much else tangible to show for now, though if you'd like to keep up with future updates you can join our Discord server
+here
+.
+Europa Expanded​
+Introduction​
+Hello everyone!
+Stiopa, LordVarangian and Lia here,
+We are delighted to announce that we, too, are included in the EUV Modder program and have begun work on the next installment of our Vanilla+ mod, Europa Expanded.
+Today we’d like to share what our plans are, what we have made so far, and what you can expect on November 4th!
+Henceforth, we may refer to Europa Expanded for Europa Universalis V as EE 2.0 for short.
+What is EE 2.0?​
+Europa Expanded for Europa Universalis V will be more of the same format that you might know from Europa Expanded 1.12 and 1.13.
+Our goal is to create our own personal “fork” of the game, where we bring forward our own content, adjust the mechanics ever so slightly to our liking, as well as bring forth a great deal of new, deep and engaging mechanics (hopefully not too many though, so as not to turn into an overhaul!).
+What have we been doing since we got access to the game then? Let us see.
+Reconquista​
+As of writing, we have experimented with many new systems and forms of content. On one hand, we have a brand new Situation under works - the Reconquista.
+The Reconquista is our answer to the question on how to promote the historical conflict between Castile and Granada, promote the latter's survival as well as to introduce flavor for the eponymous Re-Reconquista. Unlike other situations - Reconquista is a Situation that will exist as of 1st April of 1337, having technically been in effect for several centuries as of the game start date.
+The situation is, of course, very much Work in Progress, including the UI!
+The Reconquista will be divided into several different phases:
+Peace Phase - the phase when Granada is part of the Iberian Tributary System International Organization while it is attempting to keep the Crusader Fervor value down - should it increase too high, Castile will break the relationship and the situation will enter Distress Phase.
+Distress Phase - the phase where the Granadan-Castilian truce is no longer taken for granted. The truce is over and various hostile actions become available, namely an action to create a special casus-belli for the conquest of Granada.
+War Phase - the last bastion of Islam is fighting against the forces of Christendom. New actions relating to war become available to both sides.
+In addition to new mechanics, the situation will add a plethora of new events for the main two actors of the conflict, will add actions for neighboring states to affect the conflict in some ways, as well as will try to integrate the Rio Salado War as part of it.
+Will a renewed coalition destroy the forces of Castile? Their future is yours to decide.
+Should the Muslims turn the tide and form Al-Andalus, a special form of the situation might emerge, instead being known as the Re-Reconquista. We are considering reversing the roles of two powers in this case, and maybe, should Christians turn the tide in such a case, perhaps the situation could emerge into a Re-Re-Reconquista? Just an idea!
+Cabinet Flavor Update​
+Here is yet another of our many projects! (Not all of which we will be talking about here today…)
+As our first content drops, we are planning to drop an event pack containing about ~30 new events about the EU5 Cabinet System, new government reforms and new cabinet actions relating to it. We do not have much information to divulge here just yet, but I would like to leave you with a sneak peek here:
+Radical Reforms? Haven’t heard that in a while
+Really? Local Courts is what the Burghers want?
+Dutch Revolt & the United Provinces​
+One of the new situations planned for Europa Expanded for EU5 is the Dutch Revolt situation. Anyone familiar with the EU4 vanilla Dutch Revolt, or even our Europa Expanded Dutch Revolt, will know roughly the idea of such a situation. Considering the time gap between the conflicts of the state of Burgundy and the Dutch States though, there are different liberties taken within the representation of this situation.
+To represent the dynamics of the conflict as it happened historically, the situation will slowly advance into new phases, where different interactions, and conflicts, will be unlocked for the situation.
+Unrest Phase - The first stage of the revolt, where the numerous locations and subjects in the Low Countries will slowly band together to try to create a unified revolt against whoever they consider the strongest external threat in the Low Countries. The rivals, as well as neighbors, of this overlord country can also play a role into this, stirring up trouble by arming the locals, or even sending economical aid to bolster the power of the revolting states.
+Revolt Phase - Je Maintiendrai! The United Provinces have finally been formed, and are ready to combat their overlords, trying their best to maintain the sovereignty of the Dutch State. During this phase, the overlord will mainly deal with trying to cull down the rebellion. Meanwhile, the Dutch and their allies will fight for their freedom in a series of conflicts, while simultaneously using a plethora of new interactions. Hiring privateers from all around Europe, foreign mercenaries, inviting foreign princes… all of that will be available to try to bolster your position in the Low Countries.
+Interwar Phase - Although the United Provinces may achieve independence in practicality, the conflict would still not be resolved until both sides agree to a peaceful resolution, or until one side has completely crushed the other. This phase intends for both sides to try and sow discontent and instigate unrest within the others’ holdings. For example, the United Provinces will attempt to increase separatism amongst the people of Flanders and Wallonia, while the Spanish could exploit internal divisions among the United Provinces.
+Now, we have talked about the United Provinces for a bit, but have never actually revealed what they are. Instead of a unified country, the Dutch Revolt will create an International Organization, where numerous states within the Low Countries have an option to join it. This is the United Provinces, meant to represent a more accurate Dutch state of the time, whilst also bringing conflicts such as the Statists versus Orangists into the gameloop of the region.
+Most of the laws planned within it are meant to either empower either the absolute kingship of the Orangists, or they are meant to bolster the States, empowering the Statists and the Stadtholders instead. For that reason, most of the Laws in this International Organization change the structure of how elections happen, how much voting power each province has, and even the diplomatic freedom of each province.
+However, instead of making it a mere Statists and Orangists conflict, we also want to represent the possibility of an Orangist state that does give each province extended rights, or a Statist realm that centralizes its power to the Stadtholder.
+The current IO is not yet fully developed,
+We do plan, however, to further expand the representation of internal politics within the Netherlands at the time. E.g:
+Representing the province militias
+Representing different allegiance of provinces (to the state, or to the monarchy)
+Representing the VOC.
+Representing numerous banks that developed in the United Provinces during the time period.
+New Generic Mission Packs​
+For Europa Expanded 2.0, we have developed our own mission philosophy. We have our own criticisms and opinions on the EU4 Mission Tree System, and we are aiming to create something new out of them.
+​
+This can be divided into three types of “Missions” that will be present in Europa Expanded 2.0:
+​
+Generic Mission Packs:​
+The Global mission packs, that can be acquired by everyone. Things such as conquering an area, or discovering an area, or anything of the sorts. These missions have either no requirements behind them, or a really small one that can be acquired by practically everyone. As an example of what we are planning to create here are the Societal Value Mission Packs that we are planning (a bit of it showcased below!)
+Situational Mission Packs:​
+The more restricted type but not quite reaching the “country-specific” mission pack level. These are meant to be there for certain government types, certain countries that are part of an International Organization or Situation, or even locked behind a religion. These mission packs are there to add flavor to a region, but are never meant to be truly restricted to a tag.
+Country Missions:​
+The most important part of any Europa Expanded patch has always been the comprehensive tidal wave of new mission trees which were supplanted by new mechanics and other forms of content. This raises the natural question of, what is their future in Europa Expanded 2.0?
+Well, we do like the mission trees of EUIV and the aspect of “working towards a certain goal, with exposed requirements in order to get a clear reward, known ahead of time”, and we do want to bring that into our mod for EUV, in some capacity.
+However, it is unlikely we will wish to use the existing EUV “Mission Pack” framework for those missions - if we are to bring narrative gameplay with goals to reach into EUV, we want such mission packs to be accessed concurrently (think like a quest system!). We do not want to mix the concept of those missions with the existing mission packs and we want to develop our own system for such, which will allow such “mission packs” to be completed and filled out concurrently. (A branch for Byzantium to conquer west Balkans would not be mutually exclusive with conquering Anatolia - a non-negotiable goal for us.)
+If we fail to design and develop such a system, only then will we consider creating country-specific mission packs that are integrated into the current framework.
+Centralization Mission Pack Showcase​
+Now, rather than keep talking about design philosophies, it would be best if we showed you examples of one of our fully developed packs, the Centralization Societal Value mission pack.
+In order to start this mission pack, you will have to select an area you wish to have centralized. These missions will then guide you towards increasing the local control or towards building up a local “area capital” within in order to turn it into the center of the aforementioned.
+Missions include reducing unrest, which is a source of lower control, building temples which allow you to extend your crown power, and even connecting roads to your capital.
+It must be stated that those requirements and rewards may vary depending on the approach you chose after your first mission is completed. One approach will help you build up the “area capital” while the other will try to spread the increased control evenly throughout.
+What’s Coming November 4th?​
+Unfortunately, despite our motivation, the development of the mod is still bogged down by the greatest bottleneck of all - our lives. We will not be able to finish much of the content we have shown in this dev diary by the release (and especially if we want to be confident it works as we intend it to!).
+That being said, if there is content we aim to release by then - it will be a few of our Mission Packs and/or the Cabinet Flavor Update.
+If you are interested in what we have to offer, come join our
+Discord Server
+!
+Voltaire’s Nightmare​
+Here are ShyGuy13 and ratkus, co-developers of Voltaire’s Nightmare 2 for EU4. Since the announcement of EU5, we have been eager to develop our mod in the new game, as we were often limited by the technical circumstances and boundaries in EU4. However, with EU5, we will be able to take our project to a new level, calling it Voltaire's Nightmare 3.
+At this stage, we would like to hold back on any in-game teasers until development has progressed further and we have something spectacular to show. Instead, we can give you an insight into our vision: to create the most detailed and accurate representation of the Holy Roman Empire in a grand strategy game.
+The highlighted area shows the planned scope of Voltaire's Nightmare 3.
+To begin with, we will show you a few values for comparison regarding the level of detail in EU5 and our modifications. We have roughly calculated what one pixel on each locations map represents in reality:
+Europa Universalis V:         2.673 km²
+Voltaire’s Nightmare 2:         1.732 km²
+Voltaire’s New Nightmare:        0.430 km²
+Voltaire’s Nightmare 3:       0.038 km²
+With these values you can clearly see the extent to which we will increase the level of detail in our new map compared to the other maps. To make this easier to understand, let's just say that one location in Voltaire's Nightmare 3 will be about the size of a municipality, allowing us to represent the HRE with several thousand individual locations.
+An early teaser of Bohemia and Moravia.
+While EU5 has around 300 members in the HRE, we will likely be able to increase this number considerably. Not only will we be able to fill in missing counties, bishoprics and dynasties, but we will also be able to incorporate entirely new entities, including:
+Ministeriales: Unfree knights and officials who were employed for administrative purposes who partly evolved into dynastic rulers over time.
+Imperial Knighthood: A class of lower nobility that was organized in “Knightly Cantons” and served as a counterbalance to the high nobility.
+Imperial Villages: Similar to imperial cities, certain villages enjoyed imperial immediacy, but had a much smaller population and far less political influence.
+In addition to a completely redrawn map, we naturally want to expand the gameplay in the Holy Roman Empire with new cultures, religions, events, situations, organizations, advances, formables, laws, and government reforms to add more depth and fun.
+If you want to follow the development of Voltaire’s Nightmare 3 or even become involved in it yourself, you are welcome to join our
+Discord
+server and get in touch with us.
+After the End
+Hi there, we are Geminus and Nullpointer (with help from MacMonika) from the After the End team here to showcase the beginning of our foray into the new world of Europa Universalis V.
+For those unfamiliar, After the End is a setting that originated in 2014 for Crusader Kings II, which brought the medieval experience to a post-post-apocalyptic America. Set in a far future long after a mysterious Event regressed the world’s societies to a medieval technology level. However, unlike many post-apocalyptic media, the Americas has grown past their scavenging era, having built new societies from the ashes of the old. These new civilizations echo our own modern societies and cultures, seen through a distinctly medieval lens.
+The original After the End has been expanded, interpreted and repurposed multiple times across multiple Paradox games and mediums. From the original CK II mod, to the Fanfork and the CK III interaction, to EU4’s Long after the End and numerous regional variants, AtE has always been a living, ever-evolving project. After the End: EU V should not be seen as a direct continuation of either the CK II or CK III projects, nor a simple port of the EU 4 ATE mod, but a fresh reinterpretation of its core concept adapted to make the best use of the tools and mechanics available in EU V.
+While the CK III version has a focus on characters, dynasties and a myriad of local faiths, EU V opens new ways to interpret the world. By moving beyond purely dynastic gameplay it allows us to better represent non feudal politics, such as theocracies and non-noble republics. The pop system also lets us better represent minorities, without the binary culture and religion mechanics that CK III features for their counties, with minority pops and building-based countries adding a new depth to the world.
+The more flexible religious systems also allow us to portray various schools and variations with the same religion through custom laws and policies rather than requiring splintered faiths. This means we can reflect the diverse philosophies of the Golden State of California and guruism, the schools of Americanist constitutionalism, and even the wide range of Catholic traditions across the Americas.
+Instead of a myriad of catholicisms, catholic countries will have access to Folk Devotions (such as folk saints, patron saints and local orders) depending on the holy sites they have available
+Europa Universalis V allows for us to create a truly interconnected and global representation of the After the End setting, one that reaches far beyond the Americas. Different parts of the world have responded in very different ways to the aftermath of the Event, which we intend to eventually represent with unique cultures, religions and mechanics and gameplay. However, for the initial release, we will be focusing on making a playable version of the post-post-apocalyptic Americas starting in the XXIXth century before tackling the rest of the world. We have plans once the gameplay in the Americas for the first two ages are in a solid position for new resources and RGO distributions that push for neo-neo-colonialism, as well as secondary institutions to represent redevelopment of technologies from before the event.
+Finally, EUV’s new system allows us to represent many groupings through the flexible International Organizations - from the Holy Columbian Commonwealth to the Brazilian Empire and even the Americanist Presidency itself! Catholicism will also make great use of International Organizations, with the Catholic Church initially split between various successors (such as the Conclavian Papacy of St. Louis and the Particular Patriarch of Asunción) and soft schisms. Will these divisions be amended once contact with Rome is restored, or will these divisions lead to full schisms?
+To assist us with this early implementation, we are making use of multiple Python scripts not only to quickly convert content from previous AtE iterations to EU5, but also to allow maps to be translated directly into mods as provinces, countries and pops. These are only a small sliver of the project as a whole, but as professional map-starers, they are certainly a great place to start.
+An Early Look at North America's cultural layout
+And it’s religious layout as well (all very wip)
+Let’s not forget the South American cultures!
+And finally, the religions of South America (even more wip!)
+If you are interested in following or even aiding our project, be sure to join After the End’s
+Discord
+to keep up with the mod’s development and get in touch with the team!
+New World Improvement Project​
+Nullpointer (aka Trovador at the ParadoxPlaza forums) here again! While Paradox did a commendable job mapping and implementing the Americas (and made great use of the community’s feedback on Tinto Maps), there’s always more flavor to be added - from historical tidbits to alternate history possibilities and regional flavor, many improvements focused on pre-Columbian and colonial Americas are possible.
+Despite not being my main assignment (I’m mainly working with the After the End team), I decided to give a try at a couple of these improvements as a way to learn how to mod EU5, and as a result, NWIP was born. This (relatively small, when compared to other projects here) mod should come with a Day 0 release including hundreds of custom colonial nation names (including both historical and alt-historical alternatives), over twenty custom formable nations, improved Columbian Exchange mechanics, more active exploration of the Americas by the AI and a rework of South America provinces and areas to better reflect historical colonial administration.
+Of course, this day 0 release will be just a snippet of what is possible to achieve, and community collaboration will be VERY welcome: if you are interested in providing either historical or alt-historical names for locations, provinces or areas in the Americas, keep an eye out for NWIP (and join our Discord:
+https://discord.gg/VTy2vdAuHN
+)!
+Formable colonial Brazil, including flags that evolve over time and localized locations
+A variety of historical and dynamic names, as well as more active colonial AI
+Late game North America (with “all countries explore and colonize” enabled, hence the chaos)
+Updated areas in South America, matching colonial provinces during EU5’s timeframe
+Arcanum
+Hello, Minnator here.
+Some of you might know me from the Eu4 Modathons, but today I am not here to showcase another mod, or announce an EUV Modathon (yet), but instead the next gen modding tool MelCo and I have been developing for EUV:
+Arcanum.
+As development of it only started when Project Ceasar was publicly announced, there is still work to be done, but the most important core systems and aids should be completed for the launch of EUV!
+But how does Arcanum actually help with modding?​
+In short, it’s built to make working with your mods smoother and to take some if not most of the heavy, repetitive work off your shoulders.
+Modifying any object is no longer a case of finding the right file, locating the object's definition within it, and understanding how to change the value. It can now all be done with a few simple clicks, with no prior knowledge required.
+And if you ever press the wrong button — no worries. The Undo/Redo system has your back, tracking every change, even across saving, so you can experiment freely.
+Saving said changes is just as flexible: it can be as simple as hitting a single button, or as advanced as you need — whether that’s moving objects between files or saving only certain objects in a file, which might be of use to the ones of you who use version control systems.
+The interactive map helps visualize your changes and makes it easier to select and edit locations or other objects (we’ll dive into that in more detail later).
+And of course, you can search any object or keyword to quickly find what you’re looking for.
+So what’s our progress, and how does the workflow actually look like?​
+While we might not have time and space to explain every feature in detail in this Tinto Talks, here is a cut down version of what we already have implemented:
+Project Files — Continue where you left off
+Mod-Lists — Load entire mod-lists to see changes you make reflected for your current playset
+FileWatchers — Modifications to your files will immediately detect and acted upon
+Queastor — Locate anything from settings to locations or modifiers in an instant using our powerful search engine
+Settings — Several hundred settings to allow for broad customization
+UI Customization — Decide what should be shown and where it should be shown for each object individually
+File Customization — Decide on an object basis how, in which order and in what format objects are written
+Error Log — In detail error log, getting you to the position of the error in any file with just one click
+Tree Based History — Never lose any progress and Undo / Redo any action taken
+Interactive Map — Deeply integrated and interactive map helping with productivity with map modes, smart selection, tooltips and more.
+Plugin Support — Create your own plugins to add custom behavior or Utilities (Limited support on release)
+What is the “default” workflow?​
+Firstly, we have our main menu, which opens on startup, where it is possible to select different play sets and to quickly switch the mod you are currently working on. You also get informed if a new version is released.
+The page where you select your mods and vanilla installation and access past projects
+After confirming your vanilla installation and mod(-list), a loading screen will quickly pass by, and we end up in our main editor view.
+This main window is where you will spend most of the time using the tool.
+The main editing screen from which everything is accessible
+This is split into three main views.
+On the left we have our dynamically generated and user customizable UI we call NUI.
+In the center we have our interactive map with quick-slots for map modes.
+And finally on the right edge of the screen we have a dynamic element which will become visible for specialized editors and views depending on the context.
+In the screenshot, you can enjoy our lovely debug menus there.
+In our example scenario, we want to change the color the arid climate has on the map. So we open our Queastor and search for “arid” and select the top suggestion.
+The Queastor showing the exact and also fuzzy search result for “arid”
+Once we click it, the Queastor closes and the arid climate is loaded into the NUI. Now we can simply click on the color-picker icon for its color property and select a new color like this brighter red.
+The “arid” climate loaded to NUI with the color picker for the Color opened.
+Now the map modes and all required data are immediately updated in the background, or live if you are currently displaying it in any view.
+To save the changes we made, we simply press Ctrl + S, and we are done.
+This workflow can be reproduced for any object, or even multiple objects at the same time.
+And as we like to say, “Arcanum is designed to be very efficient and (admittedly) a little overengineered”, so is your modding work from now on: also very efficient.
+So if I managed to make you curious, and you want to use Arcanum or follow its development to see what crazy features we are going to implement in the future, like an EUIV to EUV importer, feel free to join our [Discord](
+https://discord.gg/22AhD5qkme
+) and community.
+There you can also follow along on our own future development diaries.
+Be Ambitious!
+Minnator & MelCo
+Pdx.Tools​
+pdx.tools is a save file analyzer in the browser and a suite of community tools.
+We're excited to announce that thanks to prerelease access, significant preparation has gone into ensuring pdx.tools launches with EU5 support on day 1.
+For those unfamiliar on what pdx.tools offers the EU4 community (and to get the ideas flowing):
+- Interactive map and creation of time-lapse videos and screenshots across multiple map modes
+- Tools breaking down the most efficient way to dev-push an institution and religion flip
+- Easy melting / de-ironmaning of save files
+- Historical timeline of country events like wars, successions, decisions, and more
+- Uploading saves to share with the world and compete in an achievement leaderboard
+- Charts and tables you won't find in-game (like who has the best dev click efficiency)
+The journey to match and surpass EU4's feature set will be community-driven as ever. Bring your ideas, visualizations, or UX dreams to our Discord, jump into the Github repo, or ping comagoosie in this thread and help shape development.
+On the technical front, supporting the grand scale of EU5 from the map to save file sizes, while keeping pdx.tools' defining performance characteristics, required significant internal rework to provide a solid foundation to build upon. Everything from arena allocator deserialization to linear probing on the GPU (and if you know what those words mean, you must join in contributing).
+The result is that, not only will EU5 save files load roughly as fast as EU4, but pdx.tools has gained cross platform rendering capabilities outside of the browser. We have a proof-of-concept native application that cranks out screenshots across an entire directory of saves.
+To tide you over until release, here is one such screenshot generated by pdx.tools:
+Pdx-Unlimiter​
+The
+Pdx-Unlimiter
+is a savegame manager and toolbox for all Paradox Grand Strategy games, and thanks to pre-release access, will already support EU5 at release day.
+Since keeping track of all your savegames is getting more complicated with every new campaign you start or backup you revert to, you get a browsable and editable savegame history of all your saves. All types of savegames are supported, including Ironman and modded savegames. With the integrated fast game launcher, you can instantly continue a savegame without having to visit the Paradox Launcher or main menu each time.
+It also comes with:
+- A savegame editor for .eu5 files: The EU5 save structure is significantly larger and more convoluted than in EU4, meaning that you won't have any fun manually editing things in saves. The editor allows you to easily edit, search, and navigate the save structure, making your life significantly easier.
+- An ironman converter: If you ever wanted to ditch the Ironman mode for an existing save, now you can thanks to the built-in Pdx.Tools melter! Of course, this voids your achievement eligibility.
+- Automatic savegame checkpoints: You can create regular savegame checkpoints / backups to revert to if needed, so you don't have to restart a campaign from the start. Having a history of previous savegames for your campaign protects you against bugs, glitches, and terrible luck
+- Integrations for other community-made tools: The Paradox Converters and the Irony Mod Manager are supported and can be used from within the Pdx-Unlimiter.
+The application got a complete overhaul for version 3.0, which will release at the same time as EU5. Everything is new and improved:
+Minesweeper​
+Have you ever been stuck in a 13-year regency? Or been in a multiplayer campaign where two random South American native players are in a speed 1 player war? With EU5 Minesweeper, you’ll never have to be bored again!
+'
+EU5 Minesweeper adds Minesweeper to EU5, with 3 difficulty levels and endless replayability - the classic game you know, love, and only know and love because it comes preinstalled with your operating system.
+There isn’t too much to say about Minesweeper, so I’ll use this space to talk about EU5 modding in general. Early access gave me the excellent opportunity to see what’s technically possible with the new engine, and I can report that this game is infinitely easier to mod than EU4. EU5 minesweeper took just about 11 hours to implement in total, compared to the 3 weeks of work EU4 minesweeper took. My own personal skill growth over 5 years notwithstanding, I attribute most of this to EU5 having file watchers. In EU4, with every change you made, however minor, you had to restart the game to have it take effect; debugging anything took ages, let alone the tens of thousands of lines of (generated) code needed for something like Minesweeper. In EU5, the change just immediately updates in the game, with no need to restart - no matter how large of a change I made to my files, I never had to restart it for them to take effect! The advantages afforded to my sanity from this one change cannot be overstated. I imagine migrating my other old mods - Chess and Blackjack - to the new game will be similarly trivial!
+- Sol_InvictusXLII
+Wrapping things up
+With our look into what’s cooking for EU5 mods concluded, I’d like to stress as Community Manager that modding is one of our top priorities. The modding community has always been a key pillar for our games, and this remains unchanged with EU5. To me, support for modding is not a list of tasks that need completion but rather a continuous effort that goes far beyond our post release phase. So we’re in it for the long haul with this one!
+We hope that this first peak into EU5 modding has inspired some of you to begin your modding journey! Whether that’s as an author or a player.
+That’s all for today’s Tinto Talks! Next week, our Associate Producer,
+@Dargeths
+, will host our traditional look at Game Achievements!
+And remember, you can
+Pre-Purchase Europa Universalis V now!
+Cheers!
+Attachments
+1761132134834.png
+98,2 KB
+· Views: 0
+2.png
+734,3 KB
+· Views: 0
+1761132790029.png
+402,8 KB
+· Views: 0
+164
+58
+8
+4
+4
+2
+Reactions:
+Reply
+Report
+Written by
+PDX Ryagi
+Community Manager @ PDX Tinto
+Administrator
+Paradox Staff
+Moderator
+Messages
+342
+Reaction score
+13.009
+1
+2
+3
+…
+Go to page
+Go
+11
+Next
+1 of 11
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+antalguerrero
+Second Lieutenant
+Apr 29, 2011
+151
+572
+Oct 22, 2025
+Add bookmark
+#2
+This is, without a doubt, the Tinto Talk I've been looking forward to the most since TT#1 was published, when you started talking about Project Caesar.
+I have a thousand questions, but I will choose one that is quite important to me:
+Is it possible to introduce a completely new variable (from scratch) tied to locations, and have that variable represented by a mapmode?
+What I mean (schizo example): Could I make a mapmode that would show the current zipcodes of each location if I were crazy enough to?
+I'd also like to take this opportunity to say that many of us would be very, very happy if you could show us the bitmap file of locations today.
+Thank you very much
+@PDX Ryagi
+Toggle signature
+# Y dale dale breakbeat, dale breakbeat, pa que los niño' se vuervan crazy # |
+Class
+'88
+19
+2
+1
+Reactions:
+Reply
+Report
+GenericUsername1444
+Colonel
+Jun 25, 2024
+805
+10.781
+Oct 22, 2025
+Add bookmark
+#3
+I am particularly looking forward to Voltaire's Nightmare.
+I can't wait to see the detail on a map of this scale... and see my laptop explode.
+Toggle signature
+Professional Georgian
+26
+7
+3
+3
+Reactions:
+Reply
+Report
+Apukispay
+Second Lieutenant
+39 Badges
+Apr 22, 2021
+183
+1.302
+Oct 22, 2025
+Add bookmark
+#4
+So i have seen that during gameplay a SoP can become a settled state, how possible is it to mod one to be a settled country from the start of the game?
+Toggle signature
+-
+Advocating in favor of Taino Cacicazgos
+-
+Suggestions for SoP consistency in the Caribbean
+-
+Taino Chiefdoms as tribal settled States.
+2
+2
+Reactions:
+Reply
+Report
+Daniel the Finlander
+Colonel
+61 Badges
+Feb 2, 2016
+1.064
+8.242
+Oct 22, 2025
+Add bookmark
+#5
+Toggle signature
+modder and a lover of mods
+eu5 > imperator > eu4
+EU5 mod: Historically Accurate Courland
+EU5 mod: Historically Accurate Finland
+47
+10
+7
+2
+Reactions:
+Reply
+Report
+M
+Minnator
+Corporal
+35 Badges
+Nov 9, 2020
+27
+14
+Oct 22, 2025
+Add bookmark
+#6
+Can't wait for the first Modathon to take off
+6
+1
+Reactions:
+Reply
+Report
+ShortLad
+Corporal
+Aug 20, 2025
+32
+373
+Oct 22, 2025
+Add bookmark
+#7
+15
+Reactions:
+Reply
+Report
+Birchinjaro
+Captain
+May 15, 2024
+487
+3.035
+Oct 22, 2025
+Add bookmark
+#8
+So next week Is the last tinto talks ever?
+8
+5
+1
+1
+Reactions:
+Reply
+Report
+Twig1000
+Second Lieutenant
+47 Badges
+Mar 3, 2018
+183
+1.322
+Oct 22, 2025
+Add bookmark
+#9
+Is there anything you can tell for us
+time
+of release. Because I'm in Japan, Steam tells me it'll be releasing on the 5th rather than the 4th. I'd like to know what time it'll be out. Ideally, not 2am. 1am would be slightly better but 12 is ideal. I imagine it won't be staggered so what time CEST/GMT, ect are the devs thinking of? And then I'll conver that to JST/.
+9
+2
+Reactions:
+Reply
+Report
+Streamlet
+Captain
+24 Badges
+Aug 4, 2020
+426
+3.574
+Oct 22, 2025
+Add bookmark
+#10
+Can't wait to play Minesweeper, this is the sort of thing which makes the $60 price tag worth it
+27
+5
+Reactions:
+Reply
+Report
+Baphomet enjoyer
+Colonel
+1 Badges
+May 19, 2024
+800
+8.024
+Oct 22, 2025
+Add bookmark
+#11
+So many modders are already trying to fix the game before the game is even out!
+27
+6
+1
+1
+1
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Oct 22, 2025
+Add bookmark
+#12
+Uh, so it's just the CK3 system, but
+waaay
+narrower?
+That's a bit boring, isn't it? I don't even know if I like it in CK3, to be completely honest...
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+15
+2
+1
+Reactions:
+Reply
+Report
+PDX Ryagi
+Community Manager @ PDX Tinto
+Administrator
+Paradox Staff
+Moderator
+Apr 17, 2025
+342
+13.009
+Oct 22, 2025
+Add bookmark
+#13
+Twig1000 said:
+Is there anything you can tell for us
+time
+of release. Because I'm in Japan, Steam tells me it'll be releasing on the 5th rather than the 4th. I'd like to know what time it'll be out. Ideally, not 2am. 1am would be slightly better but 12 is ideal. I imagine it won't be staggered so what time CEST/GMT, ect are the devs thinking of? And then I'll conver that to JST/.
+Click to expand...
+We'll reveal a global release time map next week o7
+33
+13
+1
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Oct 22, 2025
+Add bookmark
+#14
+unmodified checksum is required to earn achievements.
+Click to expand...
+This is disappointing.
+52
+36
+5
+2
+1
+Reactions:
+Reply
+Report
+PDX Ryagi
+Community Manager @ PDX Tinto
+Administrator
+Paradox Staff
+Moderator
+Apr 17, 2025
+342
+13.009
+Oct 22, 2025
+Add bookmark
+#15
+Apukispay said:
+So i have seen that during gameplay a SoP can become a settled state, how possible is it to mod one to be a settled country from the start of the game?
+Click to expand...
+Seems theoretically possible to with setup changes.
+20
+3
+Reactions:
+Reply
+Report
+LysanderSage100
+Lt. General
+4 Badges
+Mar 27, 2024
+1.302
+6.907
+Oct 22, 2025
+Add bookmark
+#16
+Some features that could be useful for modding that I wonder if they'll be possible:
+- Invisible Crossings: In Eu4 Crossings were often used on land to represent desert passages or tunnels. Whilst the addition of Passes solves the Passage issue it doesn't solve the issue for tunnels, where you want connections through other locations. However they can get ugly if stretch too far or in to great a number, therefore I think an addition to mark Crossings as Invisible, or even better just an arrow at the start and end would be amazing and allow far more versatility in representing underground/mystical connections.
+- Armies Teleporting: On a related note it would be awesome to have some way to give Armies the ability to teleport, especially with the addition of armies automatically marching to join battles it would be cool to allow armies to teleport in or between places.
+- Unattackable units: The ability to mark certain units as unattackable, ie like blackflag if they are standing in the same location as you and the army is just unattackble units you can't attack it, however unlike blackflag they can attack you if they choose to (would be cool to represent flying units or submarines).
+- Attrition from Armies: It would be neat add an ability to Armies/Units to increase the attrition for enemy armies in the location they are standing in.
+- Area Attrition: It a related note it would be cool if Buildings/Armies/Units could increase attrition in an area around their location, not just their current location.
+- Pop 'Species': Whilst the devs have said you can modify it in it would be very, very, very cool if it was implemented by default, just hidden, due to the amount of mods I feel like will use it.
+- Unkillable Units/ Hero units: It would be cool to mark a unit as unkillable/having a huge amount of health on just one dude to represent heros and monstrous units.
+- It was mentioned movement speed takes into account map distortion, can you change this to represent different projections/regions
+21
+6
+2
+Reactions:
+Reply
+Report
+PDX Ryagi
+Community Manager @ PDX Tinto
+Administrator
+Paradox Staff
+Moderator
+Apr 17, 2025
+342
+13.009
+Oct 22, 2025
+Add bookmark
+#17
+antalguerrero said:
+This is, without a doubt, the Tinto Talk I've been looking forward to the most since TT#1 was published, when you started talking about Project Caesar.
+I have a thousand questions, but I will choose one that is quite important to me:
+Is it possible to introduce a completely new variable (from scratch) tied to locations, and have that variable represented by a mapmode?
+What I mean (schizo example): Could I make a mapmode that would show the current zipcodes of each location if I were crazy enough to?
+I'd also like to take this opportunity to say that many of us would be very, very happy if you could show us the bitmap file of locations today.
+Thank you very much
+@PDX Ryagi
+Click to expand...
+You can create your own mapmodes in gfx/map/mapmodes folder. Syntax is similar to the situation syntax showcased in the Tinto Talk, but expanded.
+28
+5
+3
+Reactions:
+Reply
+Report
+juanfegonzalezce
+Second Lieutenant
+37 Badges
+May 22, 2024
+192
+1.353
+Oct 22, 2025
+Add bookmark
+#18
+In my humble opinion, as an inhabitant of the New World, I believe that the "New World Improvement Project" is what future EU5 un-modded content should aspire to in the base-game. The New World should be a very dynamic regions, as it was in real life during the timeframe of EU5. It's awesome to see that these kinds of mods exists and I would love to help in them.
+Toggle signature
+EUV Colombia (northern South America) Feedback
+26
+9
+Reactions:
+Reply
+Report
+PDX Ryagi
+Community Manager @ PDX Tinto
+Administrator
+Paradox Staff
+Moderator
+Apr 17, 2025
+342
+13.009
+Oct 22, 2025
+Add bookmark
+#19
+LysanderSage100 said:
+Some features that could be useful for modding that I wonder if they'll be possible:
+- Invisible Crossings: In Eu4 Crossings were often used on land to represent desert passages or tunnels. Whilst the addition of Passes solves the Passage issue it doesn't solve the issue for tunnels, where you want connections through other locations. However they can get ugly if stretch too far or in to great a number, therefore I think an addition to mark Crossings as Invisible, or even better just an arrow at the start and end would be amazing and allow far more versatility in representing underground/mystical connections.
+- Armies Teleporting: On a related note it would be awesome to have some way to give Armies the ability to teleport, especially with the addition of armies automatically marching to join battles it would be cool to allow armies to teleport in or between places.
+- Unattackable units: The ability to mark certain units as unattackable, ie like blackflag if they are standing in the same location as you and the army is just unattackble units you can't attack it, however unlike blackflag they can attack you if they choose to (would be cool to represent flying units or submarines).
+- Attrition from Armies: It would be neat add an ability to Armies/Units to increase the attrition for enemy armies in the location they are standing in.
+- Area Attrition: It a related note it would be cool if Buildings/Armies/Units could increase attrition in an area around their location, not just their current location.
+- Pop 'Species': Whilst the devs have said you can modify it in it would be very, very, very cool if it was implemented by default, just hidden, due to the amount of mods I feel like will use it.
+- Unkillable Units/ Hero units: It would be cool to mark a unit as unkillable/having a huge amount of health on just one dude to represent heros and monstrous units.
+- It was mentioned movement speed takes into account map distortion, can you change this to represent different projections/regions
+Click to expand...
+Thanks for the feedback! As you might imagine, many of the things you mentioned are unfortunately not exposed to script. I can't promise anything (And certainly not at release) but are likely to be many workarounds found by the collaborative effort of modders, on top of mod future mod support.
+33
+4
+Reactions:
+Reply
+Report
+D
+Davincie
+Captain
+80 Badges
+Feb 5, 2020
+323
+1.952
+Oct 22, 2025
+Add bookmark
+#20
+If the nwip dev works so closely with you that he gets early access, why not work closer and put stuff like the colonial names in the base game?
+14
+1
+1
+1
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+11
+Next
+1 of 11
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

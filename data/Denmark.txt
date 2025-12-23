@@ -1,0 +1,241 @@
+Source URL: https://eu5.paradoxwikis.com/Denmark
+Source Date: 2025-12-12
+
+This article is a
+Stub
+,  which means that it does not sufficiently cover its subject matter.
+Please help expand
+this
+article if you can.
+This is a
+compilation
+and strategy article for
+Denmark
+.
+Mechanics and flavor content are
+transcluded
+from other pages.
+Denmark
+Country type
+Settled
+Government type
+Monarchy
+Primary culture
+Danish
+Primary religion
+Catholicism
+Capital location
+Roskilde (112)
+Long a powerful player on the world stage, the Kingdom of Denmark now finds itself in quite a precarious situation. During the previous rule of King Christoffer 2. Estridsen, large portions of the country were mortgaged to prominent members of the Danish and German
+Nobility
+, the
+Duchy of Schleswig
+was forcibly separated from the crown lands, and even the territory of
+Scania
+had to be sold to the
+Kingdom of Sweden
+. This shameful state of affairs worsened when King Christoffer 2. Estridsen was dethroned by Count Gerhard III. von Schauenburg after installing his own nephew Duke Valdemar 5. Estridsen on the throne, only to ultimately be brought back again as a puppet king. Since King Christoffer 2.'s death, Count Gerhard III. has been the de facto ruler of Denmark.
+It will not be easy to overcome this situation, but Danish are resilient and resolute, and Valdemar Estridsen, son of King Christoffer 2. is already crafting a plan to recover the authority of the Kingdom. Whether it will be successful or not remains to be seen.
+Denmark
+is a country in southern Scandinavia, holding land in
+Scania
+and
+Estonia
+. In 1337, Denmark starts in a
+Noble's Regency
+under the rule of
+Count Gerhard III von Schauenburg
+.
+Historical Context
+[
+edit
+|
+edit source
+]
+Government
+[
+edit
+|
+edit source
+]
+Parliament
+[
+edit
+|
+edit source
+]
+Denmark's
+Folketing
+(
+Parliament
+) can be called every 60 months.
+Vassal
+[
+edit
+|
+edit source
+]
+Schleswig
+starts as a
+vassal
+of Denmark and can be integrated later through an event.
+Economy
+[
+edit
+|
+edit source
+]
+Denmark starts with 27
+loans
+and a substantial debt.
+Diplomacy
+[
+edit
+|
+edit source
+]
+Denmark starts in an alliance with
+Brandenburg
+and
+Upper Bavaria
+.
+Scripted Content
+[
+edit
+|
+edit source
+]
+Main article:
+Danish Content
+1338-1350
+The Fate of Southern Halland
+- Sweden may get an event to purchase the locations of Asbo and Laholm from Denmark for 250
+Gold
+Strategy
+[
+edit
+|
+edit source
+]
+The below is
+one of many
+player suggested strategies for
+Denmark
+. Bear in mind, due to the dynamic nature of the game, it may unfold differently for other players.
+Opening Moves
+[
+edit
+|
+edit source
+]
+The player can hold off on repaying the many loans that Denmark starts with due to the Tuscan Banking Crisis event, which can be exploited in order to cancel any debts taken up by Italian banks in exchange for a hit to
+Diplomatic Reputation. The player should get an event for
+A Royal Wedding
+starting around 1338, which will push Valdemar Estridsen towards becoming king. After a few years Count Gerhard III will be assassinated, pushing Valdemar Estridsen to the throne and instantly annexing
+Schleswig
+. Denmark holds two overseas territories which can be either sold by event or kept. Firstly,
+Sweden
+may ask to buy the two Danish possessions in Scania for their vassal. Secondly, Estonia will revolt after the St. George's Night Uprising event. The player can choose whether to continue to fight and lose cores on the province, or to sell it to
+Livonia
+.
+Countries
+Tabber requires Javascript to function.
+Eastern Europe
+Albania
+Arianiti
+Armenia
+Bosnia
+Bulgaria
+Byzantium
+Croatia
+Epirus
+Georgia
+Halych
+Hungary
+Kyiv
+Lithuania
+Mataranga
+Muscovy
+Muzaka
+Perm
+Poland
+Samtskhe
+Serbia
+Smolensk
+Teutonic Order
+Thopia
+Velikiy Novgorod
+Volhynia
+Vyatka
+Wallachia
+Western Europe
+Aragon
+Austria
+Aquitaine
+Balliol
+Brandenburg
+Brittany
+Bohemia
+Castile
+Denmark
+Dithmarschen
+England
+Florence
+France
+Guelders
+Granada
+Holland
+Iceland
+Moravia
+Milan
+Naples
+Navarre
+Norway
+Papal States
+Portugal
+Scania
+Scotland
+Sicily
+Spain
+Sweden
+Valencia
+Venice
+Wales
+Central Africa
+East Africa
+Ethiopia
+Kitara
+North Africa
+Morocco
+Tlemcen
+Tunis
+South Africa
+Zimbabwe
+West Africa
+Middle East
+Oman
+Ottomans
+Yemen
+Central Asia
+Timurid
+East Asia
+Chūzan
+Hokuzan
+Japan
+Míng
+Nanzan
+Ryūkyū
+Yuan
+South Asia
+Delhi
+Mughal
+South East Asia
+Khmer
+Majapahit
+North America
+Cahokia
+South America
+Australasia
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=Denmark&oldid=21031
+"

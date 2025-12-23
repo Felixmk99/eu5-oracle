@@ -1,0 +1,571 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-41-11th-of-december-2024.1720391/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #41 - 11th of December 2024
+Thread starter
+Johan
+Start date
+Dec 11, 2024
+Hello Everyone and Welcome to another Tinto Talk! This is the Happy Wednesday where we give you information about our very secret game with the codename Project Caesar.
+This week we will talk about Parliaments. We have a simple feature with the same name in EU4, but this is rather different, as you will see. We have also gone heavily into making this flavorful as well, and many countries have their unique names for their Parliament, where it is a “Corts” in Aragon, and a “Riksdag” in Sweden…
+How is this parliament going?
+Type of Parliaments
+First of all, there are five types of parliaments, although technically you could argue that no parliament is a type as well. They are based on the different types of 'gatherings' that different societies had, which means that different countries will start with a different type of parliament and that you will be able to change it during the game.
+Assembly
+Available to all countries.
+Nobles + Peasants can have agendas, but they have very weak impact.
+Council
+Requires Codified Laws Advance
+Nobles + Clergy can have agendas, but have a weak impact.
+Can be useful…
+Estate Parliament
+Requires Feudalism Advance
+Nobles, Clergy and Burghers can all have agendas
+Autocratic Parliament
+Requires an Age of Absolutism Advance.
+Nobles, Clergy and Burghers can all have agendas
+Crown Power is 25% stronger.
+Can force through any issue they want in parliament for a small cost.
+Constitutional Parliament
+Requires an Age of Absolutism Advance.
+Nobles, Clergy and Burghers can all have agendas, and their impact is much higher.
+The Nobles Estate has an improved estate satisfaction.
+If you wish to let your peasants have a say in your parliament you can grant them a privilege, but don’t say we didn’t warn you.
+Calling a Parliament
+If you are able to hold any type of parliament, you can call them as long as it's been at least five years since the last parliament was called. If you do not call one for a decade the estates will get less and less satisfied for each passing month.
+When you call a parliament you get the choice of where the parliament should be held. You can always hold the parliament in your capital, which will give a small boost to centralization but you also have the option to pick another location. Usually you can pick any town or city, but there are countries that can hold a parliament in a rural location as well. If you pick a place that is not the capital, your country will become slightly more decentralized, but that location gains a nice bonus for the duration of the parliament, which lasts about half a year.
+A temporary mini-capital that prospers?
+You also need to pick an issue that will be the main debate of the parliament as well. You have up to two options per estate to choose from, where the parliament support you gain depends on their current power in the country.
+The needs of the crown do not grant additional support..
+Parliament Issues
+The issue picked has a modifier that is applied to the country while the debate is ongoing. In many cases this is rather beneficial, but it only lasts for the duration of the parliament. We currently have over 70 different parliament issues, and about a dozen country specific ones.
+If you fail to get enough support in parliament there will be a drawback which is usually a hit to stability, but if you get over 50% backing in parliament the country will get some benefits  depending on the Issue.
+This is something that many estates may view as beneficial..
+In those days a decree went out from Caesar Augustus that all the world should be registered. This was the first registration and was taken while Quirinius was governor of Syria. All went to their own towns to be registered.
+Parliament Support
+So what is Parliament Support then? You will always have a base support from your current crown power, which normally will be rather low (unless you have completely crippled your estates), and then you also have the potential support you get from picking an issue. There are also some government reforms and/or advances that increase the base support.
+So how do you increase the support during a parliament then?
+Parliament Agendas
+Well, you can always see what agendas that the estates want to push during a parliament, and if you grant them what they want, your parliament support will increase. The amount that the Parliament Support increases is based on the estate power that they have, multiplied by their current satisfaction. This makes it beneficial to keep estates happier than the minimum levels, if you wish to rely upon them in parliament.
+These agendas include law changes, changes in societal values, privileges granted and more. If you accept the agenda of an estate, then the next agenda they propose in this session will give far less parliament support.
+It’s for the greater good I assume?
+Parliament Requests
+You can also use the parliament support immediately during a session, and get a request fulfilled, but that will reduce your support by 50%.
+Request Additional Taxes
+This allows you to collect more taxes from the estates during the next 3 years
+Ask for Larger Levies
+This will make you able to raise 25% larger levies at any point during the next 3 years.
+Ask for Law Changes
+This will allow you to change laws at a much reduced cost of stability during the next 3 years.
+Prepare for War
+This will get you an insulted casus belli on a country of your choice within diplomatic range.
+Of course, using any of these requires you to probably have to pick an issue backed by a powerful estate, and probably accept an agenda or two.
+I would not recommend hovering closely to 50% if you really want an issue to succeed as there may be events that could reduce it happening.
+Parliament Seats
+We have two more things influencing parliaments that might be of interest as well. There are two special buildings that can be created that are counted as “Parliament Seats”, which gives extra significance to that location. One is an Urban Parliament Seat that the Burghers can ask for during a Parliament, which grants a significant permanent power to the Burghers in a town or city. The other one is the Rotten Borough, which the Nobles Estate will build in rural locations increasing their power if they are not currently happy.
+Before we end though, we would like to hear of any flavor names you would like to see for parliaments, we have about 35 at the moment...
+Stay tuned, as next week we will talk about disasters!
+193
+73
+11
+9
+1
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+18
+Next
+1 of 18
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Dec 11, 2024
+Add bookmark
+#2
+Nothing like having the Parliament-approved Census Officer give your love life the stink eye to get that baby-booming going.
+(Interesting side note, one of the first truly thorough Census done in Portugal was actually during the Enlightened Despotism of the Marquis of Pombal, not during the Cortes)
+Also, awesome, Cortes!
+But will they be available in Iberia from the start or do we have to wait till much later like in EU4?
+Last edited:
+Dec 11, 2024
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+31
+14
+Reactions:
+Reply
+Report
+GenericUsername1444
+Colonel
+Jun 25, 2024
+805
+10.781
+Dec 11, 2024
+Add bookmark
+#3
+I can't take it anymore
+I need this game so much
+Toggle signature
+Professional Georgian
+34
+11
+5
+1
+1
+Reactions:
+Reply
+Report
+ArVass
+Dinosaur Hunter
+27 Badges
+Apr 4, 2016
+2.296
+12.720
+Dec 11, 2024
+Add bookmark
+#4
+Toggle signature
+Justice for Anabaptists!
+Justice for Unitarians!
+Split the Nigerian language!
+Bosnia was a vassal of Hungary in 1337
+13
+9
+8
+2
+1
+Reactions:
+Reply
+Report
+Danskjävel
+Corfitz Ulfeldt
+32 Badges
+Jan 4, 2017
+369
+1.887
+Dec 11, 2024
+Add bookmark
+#5
+Looks like a huge improvement over EU4.
+Looking forward to playing with mechanics with some actual depth to it, and seeing my realm
+crumble
+prosper as I let the peasants have a say.
+Last edited:
+Dec 11, 2024
+22
+1
+Reactions:
+Reply
+Report
+BurekAuFromage
+Recruit
+22 Badges
+Sep 12, 2017
+8
+147
+Dec 11, 2024
+Add bookmark
+#6
+Skupština/Sabor for the South Slavic ones for sure
+7
+3
+Reactions:
+Reply
+Report
+matfer13
+Field Marshal
+1 Badges
+Dec 17, 2023
+3.015
+18.591
+Dec 11, 2024
+Add bookmark
+#7
+Can't wait to pull out one of these playing as a republic
+Last edited:
+Dec 11, 2024
+49
+7
+2
+2
+Reactions:
+Reply
+Report
+Metz
+Field Marshal
+107 Badges
+Nov 21, 2008
+7.108
+13.741
+Dec 11, 2024
+Add bookmark
+#8
+Do agendas and objectives change names with the later ages and with reforms?
+Can you post the names for parliaments you already have so that repeats aren’t suggested?
+12
+5
+Reactions:
+Reply
+Report
+Gianvitus
+Captain
+44 Badges
+Aug 29, 2017
+310
+1.634
+Dec 11, 2024
+Add bookmark
+#9
+Johan said:
+In those days a decree went out from Caesar Augustus that all the world should be registered. This was the first registration and was taken while Quirinius was governor of Syria. All went to their own towns to be registered.
+Click to expand...
+Very Christamsy
+17
+3
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Dec 11, 2024
+Add bookmark
+#10
+Thrudgelmir2333 said:
+Also, nothing like have the Parliament-approved Census Officer giving your love life the stink eye to get that baby-booming going.
+Click to expand...
+yeah, lol
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+30
+15
+1
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Dec 11, 2024
+Add bookmark
+#11
+honkajoki said:
+I don't see any parliament type that allows agendas for all four estates.
+Click to expand...
+give the peasants the privileve
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+59
+10
+2
+1
+Reactions:
+Reply
+Report
+GreenBlorg86234
+Corporal
+54 Badges
+Mar 14, 2024
+47
+276
+Dec 11, 2024
+Add bookmark
+#12
+Will nations be able to influence other countries parliaments? I think it could be an interesting feature, so long as it isn't broken, to use another country's parliament to cripple them, like how it was for a certain commonwealth...
+7
+2
+Reactions:
+Reply
+Report
+Universalis_
+Sergeant
+18 Badges
+Aug 26, 2016
+91
+1.314
+Dec 11, 2024
+Add bookmark
+#13
+Is the five-year thing something you can change through the game? Or be forced upon you?
+Let's say, the Estates force you to call upon the Cortes annually, is that possible?
+Do Parliaments interact with elections in Republics? Or are Parliaments a tool for Estates to interact with you directly? So their support and "influence" are directly related to their respective Estate power.
+11
+2
+Reactions:
+Reply
+Report
+Metz
+Field Marshal
+107 Badges
+Nov 21, 2008
+7.108
+13.741
+Dec 11, 2024
+Add bookmark
+#14
+Will there be in game options to have a bicameral or unicameral government? Same for presidential vs parliamentary system?
+8
+1
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Dec 11, 2024
+Add bookmark
+#15
+BurekAuFromage said:
+Skupština/Sabor for the South Slavic ones for sure
+Click to expand...
+We have "Sabor" for croatian.
+adding the other
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+46
+5
+3
+1
+Reactions:
+Reply
+Report
+Jarzki
+Second Lieutenant
+35 Badges
+Oct 30, 2018
+115
+2.067
+Dec 11, 2024
+Add bookmark
+#16
+What type of parliament would a revolutionary republic use? It seems to me that none of the parliaments mentioned would really fit a state like that.
+Johan said:
+Before we end though, we would like to hear of any flavor names you would like to see for parliaments, we have about 35 at the moment...
+Click to expand...
+Would it be possible to share the unique names that already exist?
+7
+1
+Reactions:
+Reply
+Report
+Daniel the Finlander
+Colonel
+61 Badges
+Feb 2, 2016
+1.064
+8.242
+Dec 11, 2024
+Add bookmark
+#17
+What decides if a debate passes or fails? Please don’t say it’s pure RNG like Victoria 3 lol
+Toggle signature
+modder and a lover of mods
+eu5 > imperator > eu4
+EU5 mod: Historically Accurate Courland
+EU5 mod: Historically Accurate Finland
+8
+2
+2
+Reactions:
+Reply
+Report
+H
+Hare'da Irijon
+Sergeant
+20 Badges
+Jul 2, 2017
+56
+1.162
+Dec 11, 2024
+Add bookmark
+#18
+Playing Poland will be hell....
+Questions:
+1. In the later periods, with the power of parliaments becoming more powerful in certain regions, they came to be called more often - or even - became permanent - as in the case of the multiple messy parliament of the French Revolution. Is there any way to represent it (for example by shortening the minimal time between calling the parliament )?
+2. Will there be a possibility for a permanent parliament seat to be established? (see - Westminster)
+3. Talking about Poland and France - can the parliament go rogue and act against the player if you mismanage it? See - refusing the mobilisation of more troops (one of the Polish events in EU4) and even joining a rebel faction (Literally what happened in France).
+4. Can an estate try to force a law through?
+5. Why aren't elections a thing? I'm not asking for a full-on party system like in Victoria 3 but at least rising and falling popular support for certain ideas. Again, it is in the timeframe with for example the English Whigs being a thing since the 17th century on.
+13
+1
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Dec 11, 2024
+Add bookmark
+#19
+Metz said:
+Can you post the names for parliaments you already have so that repeats aren’t suggested?
+Click to expand...
+Code:
+Cortes
+Corts
+Veche
+Althing
+Tynwald
+Riksdag
+Sejm
+Uijeongbu
+Senate
+Congress
+Meclis
+Estates General
+Rogati
+Reichstag
+Duma
+Staten-Generaal
+Tagsatzung
+Hluttaw
+Parlamento
+Jatiya Sangsad
+Tshogdu
+Sansad
+Majlis
+Oireachtas
+Council
+Landtag
+Folketing
+Storting
+Althing
+Seimas
+Mejlis
+Sabor
+Országgyülés
+Kurultai
+Upstalboom
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+90
+25
+11
+1
+Reactions:
+Reply
+Report
+pipn123
+Corporal
+101 Badges
+Jan 29, 2015
+41
+50
+Dec 11, 2024
+Add bookmark
+#20
+what kind of parliaments does hordes and eastern countries like Yuan, Ming, Japan, Korea have?
+2
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+18
+Next
+1 of 18
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

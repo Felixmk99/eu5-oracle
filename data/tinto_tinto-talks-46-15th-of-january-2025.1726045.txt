@@ -1,0 +1,480 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-46-15th-of-january-2025.1726045/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #46 - 15th of January 2025
+Thread starter
+Johan
+Start date
+Jan 15, 2025
+Welcome to another Tinto Talks. The Happy Wednesday where we talk about our rather secret game with the code name of Project Caesar.
+This week we will talk about military objectives and how they work in Project Caesar.
+As our games grow more complex as the decades go by, we have tried to alleviate some of the concerns about micromanagement of military aspects. Back in the days of Hearts of Iron III, we could set province objectives for parts of an army hierarchy and enable the AI for them, and the AI would try to fulfill them. In post release EU4 we added missions where navies could be assigned to patrol areas or blockade or an army could be set to siege an area. Hearts of Iron IV introduced the system of painting on the map how you wanted the armies to fight, and when we made Imperator we ended up with the system that I personally feel is best for our games, an objectives-based system, where you can give units objectives that they try to do.
+So for Project Caesar this is the path we are taking. And as we have been developing a new core architecture for the game, our AI has also been written from scratch for this game, of course, based on decades of experience making AI for GSG’s. This means that the military AI is using the same building blocks as the player can use with the UI.
+In the military view for your country there is a tab for your recruiting and overview of your units, and one for handling your objectives. You can also assign objectives directly to a unit you have selected of course, but that will also be shown in the objectives view.
+Objectives can be assigned by selecting the target area, province, location or sea-zone in the UI, or by clicking directly on the map.
+Any objective can easily be edited while active, and units can be added or removed from them at any time.
+These are the objectives we currently have during wartime.
+Blockade Ports
+Any navy can be assigned to it, and you select which seazones they should be present in. It will then split ships up to attempt to blockade as many enemy ports as possible.
+Carpet Siege
+Here you can select which provinces should be sieged down, and the AI will split the armies you have assigned into smaller units and move them around to siege or occupy as much as possible as quickly as possible. It will attempt to flee with the armies if any hostile armies appear.
+Defend Home Territory
+This will attempt to protect the areas near the capital with the armies you assign, to make sure no hostile armies siege them down.
+Hunt Armies
+This objective will use the armies you have assigned to attempt to find enemy armies and engage them if it feels it can win.
+We can see two smaller hostile armies in Przasnysz & Sierpc..
+Patrol the Seas
+This is an objective that can be useful at peace time as well, as it will use the assigned navies to attempt to build up the maritime presence as quickly as possible in the assigned seazones.
+Army Logistics
+This is something you may want to assign to a support army with Auxiliaries on big campaigns. They will gather food where it's possible nearby and move it forward to deposit in any Supply Depots you have set in the target area.
+Navy Logistics
+This will assign a navy to gather food at a nearby source and then go to the target seazone(s) and act as logistic support for the armies that may require it.
+Supporting objectives
+There are a lot of sub-objective and supporting objectives that are primarily used by the AI, like join units, maintain troop levels, etc..
+However, there are a few important support objectives that the player can use directly.
+Chase target
+This can be done when you see an enemy unit and wish to follow it and engage it. The unit will attempt to follow, but if it runs out of morale from movement, or the enemy manages to escape into the Fog of War, it may be lost.
+Automatic Fleet Transport
+This objective is automatically used, and is very similar to mechanics in EU4 and Imperator when you have an army and give it order to go somewhere they need naval transport. If there are navies assigned to support fleet transports, and you give an army the order, it will automatically create the objective and perform it for you.
+Repatriate Units
+This is a quick action when you just want your armies or navies that are exiled after a war to get home as soon as possible.
+Next week we will talk about our new and in-depth Union mechanics, and how Regencies work..
+239
+110
+11
+8
+2
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+13
+Next
+1 of 13
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+DSet
+Second Lieutenant
+72 Badges
+Jan 31, 2016
+119
+518
+Jan 15, 2025
+Add bookmark
+#2
+Wow!
+(no but for real, this is lit)
+Toggle signature
+FORTVNA • FAVET • FORTIBVS
+53
+16
+9
+2
+1
+Reactions:
+Reply
+Report
+nyetflix2
+Lt. General
+Nov 13, 2022
+1.574
+9.424
+Jan 15, 2025
+Add bookmark
+#3
+All of those native guys have the same facial expression lmao
+Toggle signature
+EU5 Mesoamerica feedback
+48
+8
+4
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Jan 15, 2025
+Add bookmark
+#4
+Nice. No more exiled babysitting. Sick of sending my nannies to get my armies home. Hopefully the objective is assignable in the same tooltip that tells you "
+Hey, your army is still in Turkmenistan.
+"
+Also, yes, by all means, more Imperator ideas in this game. The more, the better. Like local capitals. And incendiary pigs.
+Last edited:
+Jan 15, 2025
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+44
+7
+2
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Jan 15, 2025
+Add bookmark
+#5
+How moddable is AI decision making with armies? Not just by tweaking objectives, and will even that be moddable? Since in EU4 it's almost non-existent.
+19
+5
+2
+1
+Reactions:
+Reply
+Report
+bloof5k
+First Lieutenant
+34 Badges
+Aug 3, 2020
+289
+1.529
+Jan 15, 2025
+Add bookmark
+#6
+With the introduction of these mechanics, will we still be able to directly control units?  Or is this more of a mix between the Victoria 3 system and the Hearts of Iron IV battleplans as the only method of controlling units?
+I would also like to know how stable the game is off of development computers and if multiplayer has been tested at all.
+9
+9
+4
+Reactions:
+Reply
+Report
+S
+Shadow Draco
+Private
+30 Badges
+May 13, 2024
+13
+73
+Jan 15, 2025
+Add bookmark
+#7
+All i want is an AI that is not sieging random provinces in Siberia because there is no fort but instead goes for a deceicive battle for a change
+41
+6
+2
+Reactions:
+Reply
+Report
+Flower_Marlin
+Second Lieutenant
+2 Badges
+May 28, 2016
+193
+1.542
+Jan 15, 2025
+Add bookmark
+#8
+When we choose repatriate units, do they all go back to the capital? Or can we assign bases to armies where they can default to? This I suppose only applies to standing armies, but would be great for Levies also.
+13
+7
+Reactions:
+Reply
+Report
+Arcleae
+Recruit
+57 Badges
+Feb 13, 2017
+5
+94
+Jan 15, 2025
+Add bookmark
+#9
+Johan said:
+Repatriate Units
+This is a quick action when you just want your armies or navies that are exiled after a war to get home as soon as possible.
+Click to expand...
+Will they come back to a specific location that you can choose, or just to the nearest location to where they are when exiled?
+15
+1
+Reactions:
+Reply
+Report
+GenericUsername1444
+Colonel
+Jun 25, 2024
+805
+10.781
+Jan 15, 2025
+Add bookmark
+#10
+Finally, the best feature from Imperator is here
+Toggle signature
+Professional Georgian
+38
+7
+2
+2
+Reactions:
+Reply
+Report
+LordThanatos
+Major
+95 Badges
+Sep 15, 2018
+634
+8.786
+Jan 15, 2025
+Add bookmark
+#11
+A great addition. The army automation was one of the best quality of life features Imperator introduced, in my opinion - and I'm glad to see it not only return, but be improved. So many of the options listed here are ones I constantly wished I had in IR, and the UI looks like a flat upgrade for the system.
+I'd love if there were an economic version of this with control just as fine, too. I'm sure like most GSGs, building management will get tiring at the large empire level, even with the improved macro builder.
+Last edited:
+Jan 15, 2025
+Toggle signature
+Proposals to improve how Catholicism is represented:
+Fixing Mechanics around The Papal States and Catholicism
+Feedback on Protestantism:
+Initial Feedback
+Make Eastern Christian Patriarchs extraterritorial.
+Feedback on non-Buddhist Dharmic Religions:
+Initial Feedback
+,
+More Feedback
+Feedback on Islam:
+Incorrect Religious Schools
+,
+Dhimmi
+,
+Other Ideas
+28
+Reactions:
+Reply
+Report
+DSet
+Second Lieutenant
+72 Badges
+Jan 31, 2016
+119
+518
+Jan 15, 2025
+Add bookmark
+#12
+This is great for tactical movements of armies. Have there been any improvements with regards to strategic movements (where the AI chooses to base its armies and which armies it uses to fight, especially in globe-spanning colonial empires?
+Toggle signature
+FORTVNA • FAVET • FORTIBVS
+9
+Reactions:
+Reply
+Report
+I
+InvisibleBison
+Field Marshal
+45 Badges
+Oct 14, 2012
+3.551
+13.949
+Jan 15, 2025
+Add bookmark
+#13
+How tied into the notification system is this? Will we be alerted when an objective is accomplished/failed/made irrelevant? (Eg, sieged all locations in an area or an army that was being chased got away).
+18
+10
+2
+Reactions:
+Reply
+Report
+So_MeOne
+Second Lieutenant
+Aug 3, 2020
+121
+1.880
+Jan 15, 2025
+Add bookmark
+#14
+Interesting. How small are units created by Carpet Siege objective? Are they the smallest possible size to siege a location, or do they have some bulk, to not die instantly if they are not fast enough to escape from the enemy?
+10
+1
+Reactions:
+Reply
+Report
+P
+Polesie Admiral
+Owns EU5
+45 Badges
+Nov 7, 2022
+2.436
+8.655
+Jan 15, 2025
+Add bookmark
+#15
+UNIONS NEXT LET'S GOOOO
+Toggle signature
+my EU5 suggestions:
+expanding the Tatar Yoke mechanics
+IO-Based short term alliances for targeted wars
+Representation of Jewish pops using estates and laws mechanics
+Suggestion to harden conquest of small nations
+Reworking the Thirty Years War with Multiple Leagues
+Suggestion for Northern wars situation
+Subsidizing countries grant favours on them
+High inflation directly lowers satisfaction
+15
+2
+2
+1
+1
+Reactions:
+Reply
+Report
+lazprune
+Compulsive writer
+55 Badges
+Aug 27, 2013
+798
+3.582
+Jan 15, 2025
+Add bookmark
+#16
+Nice. Can we ask our allies to do things with a similar interface?
+Toggle signature
+Stuff and suggestions I have written (non-exhaustive):
+How Societies of pops could be made fun to play as:
+december 2024
+What non-horde army-based countries would be cool to have:
+january 2025
+What I wrote about CK3 before it was announced (still relevant for some features imo):
+https://forum.paradoxplaza.com/forum/index.php?threads/ck3-features-id-like-to-see-in-it.1160370/
+20
+4
+1
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Jan 15, 2025
+Add bookmark
+#17
+With Carpet Siege. Annoying part in EU4, is that when you want to carpet siege, you can't really make use of 1 unit, since they would get attritioned and stop sieging. Will the Carpet Siege take that into account here?
+23
+3
+1
+1
+Reactions:
+Reply
+Report
+matfer13
+Field Marshal
+1 Badges
+Dec 17, 2023
+3.015
+18.591
+Jan 15, 2025
+Add bookmark
+#18
+Just for curiosity can you tell us roughly how many tinto talks are left?
+4
+3
+1
+Reactions:
+Reply
+Report
+D
+Davincie
+Captain
+80 Badges
+Feb 5, 2020
+323
+1.952
+Jan 15, 2025
+Add bookmark
+#19
+You say the following:
+'Objectives can be assigned by selecting the target area, province, location or sea-zone in the UI, or by clicking directly on the map.'
+Could the following also be made possible:
+-Not selecting an area, so the army just goes where relevant. For example, so you can have an army that's will always siege your next enemy or repress rebels
+-Selecting larger areas, for example a continent or sub continent, so for example I could have an army of India without clicking all 300 areas therein.
+Oh and is your army smart enough now to island hop by itself, or is like in EU4 where it might do it if there's a fleet parked there and its put on auto siege, but you can't click on tiles over sea?
+10
+Reactions:
+Reply
+Report
+Blackcat321
+Second Lieutenant
+77 Badges
+Feb 4, 2016
+131
+925
+Jan 15, 2025
+Add bookmark
+#20
+How will Automatic fleet transport select which navy gets to transport? An annoying thing in EU4 is when the closest navy is too small and so it decides to use one on the other side of the world instead of using the closest navy to transport it piecemeal which would be preferable.
+21
+5
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+13
+Next
+1 of 13
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

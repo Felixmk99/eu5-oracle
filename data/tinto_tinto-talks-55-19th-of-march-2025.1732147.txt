@@ -1,0 +1,473 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-55-19th-of-march-2025.1732147/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #55 - 19th of March 2025
+Thread starter
+Johan
+Start date
+Mar 19, 2025
+Welcome to another Tinto Talks, the Happy Wednesday where we give you information about our rather secret game with the Codename Project Caesar, so that we can get feedback to improve the game before launch.
+As we mentioned last week, we are spending four weeks going through how your feedback together with internal testing have shaped the game in this last year. Today it is time to talk about the changes that are related to the political part of the game.
+Estate Power
+The power of the estates is one of the most important aspects of the core game loops of Project Caesar, so much so that we had to rearrange what we show in the top bar in the UI. We added so you can easily see each estate's current power and satisfaction, without having to go into a special screen.
+As part of the gameplay loop is about breaking the power of the estates and strengthening the central state as you shape a modern country, basing the core power of the estates to how many pops they had made a gameplay where urbanizing and developing your country would weaken the central government.
+The main change is that the amount of pops of a certain estate impact their power, but also impact the crown power with the same base value, before any privileges or laws give more power to the estate. This makes the relative power distribution between the estates feel logical, but the weakening of the crown is due to the privileges granted. This further ties in with advances increasing crown power and the increase of absolutism in later ages.
+It's just a cost of a few hundred of stability to remove all those privileges. And maybe not give that noble with insane stats command over the army..   And go more plutocratic?   Then we can reduce their power below 30%..   But the +0.17 military tactics is good…   tough choices..
+As characters all have an estate they belong to, it’s now also added in that giving characters command of armies or navies, or a place in the cabinet increases the power of the estate they belong to. A total of 25% for armies, 25% from navies and 25% from cabinet positions can be added.
+Connected to this, the direct family of the ruler is now always considered to be part of the crown estate, so if you want to strengthen the crown you may want to risk them commanding armies.
+Having a crown prince in the cabinet helps a bit..
+Parliament
+When it comes to the parliament we keep adding new agendas and issues from feedback and internal testing, but some important changes that come from you guys include the following.
+First of all, we added the Dutch-style parliament with only nobles and burghers, which you currently have access to if you have the Low Franconian culture.
+We also made it so that if you keep giving out the unique privileges for the nobles in Poland, you will end up in a situation where you need 100% of the support to pass anything in the parliament.
+We also added a building that was requested by the community, which is available through an advance in the Age of Discovery.
+Could be useful…
+Societal Values & Government Reforms
+While we were happy with how societal values were indirectly influenced by laws & privileges, they had the problem that eventually anything with a drift towards one direction would eventually get to the extreme. Now one could change this by lowering the amount it would drift, but that would make for rather dull gameplay, and eventually you’d get to extremes anyway.
+So what we did instead was to make a sort of soft-cap for how far a value could drift, at 100 times the current drift. So if you manage to stack up to +0.75 monthly towards Naval then you could get the values all the way to 75 Naval before it stopped there. If you’d drop to less than +0.75 naval, you’d still be at 75 naval though, as you’d not progress to the other side until you get all the way to at least +0.01 to land! This has the added benefit of you being able to shape your country how you want over a longer period of time, and even if you want to be a humanist country, you may not get further than a 65 on that slider, as you may not be willing to give up other aspects.
+If we increase our trade income, we can push it even further..
+While working on adding content this year, we added government reforms to every age, and while doing so, we decided to tie some of them to societal values. So now about half of the government reforms that are available to every country require that a specific societal value at least 50 to be selectable, and if you drop below that, you’d lose the reform. Some examples include that Religious Tolerance requires a country to be Humanist, while Bank Ledgers requires a country to have a Capital Economy.
+Proximity and Control
+The proximity and control gameplay loop is one of the most beloved by our playtesting, and it has been tweaked a fair bit during the last year, so as to make it feel more natural.
+Proximity now traces along rivers, where it's even easier to propagate proximity and market access downstream.
+And where in the world are we now?
+The buildings that act as proximity sources besides the capital, like the Bailiff, have been made a bit more powerful, but also far more costly.
+We also changed how roads are built, slowing them down by 50% as default, and rugged terrain like Mountains makes road-building far slower. I guess the rest of the team did not like my Nidaros-Oslo highway..
+We also tweaked how Maritime Presence works, with adding a decay to the current value, so that unless you invest in naval infrastructure and/or a navy, your control propagation over coastal seazones is limited.
+We improved the impact from some buildings, and navies now also increase maritime presence in every seazone in the “seazone” province they are currently in. There is also an objective you can assign to navies to patrol any area/province you want and it will move around increasing your maritime presence.
+A single galley does not provide much presence i guess…
+Stay tuned, as next week we will talk about changes to Diplomacy and Military…
+162
+135
+7
+4
+3
+1
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+12
+Next
+1 of 12
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+So_MeOne
+Second Lieutenant
+Aug 3, 2020
+121
+1.880
+Mar 19, 2025
+Add bookmark
+#2
+Interesting! It is always good to see the Developers adjust the game, by taking to heart players' suggestions. Personally, I like that now we can have our Parliament in a physical building, it gives more immersion.
+Here is another thing... I guess that Tinto Talk about revisiting the Peace System, if not next week, will be at a later date, right? After all, it was one of, if not the most requested system, when it comes to players wanting it to be changed...
+Last edited:
+Mar 19, 2025
+32
+9
+3
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Mar 19, 2025
+Add bookmark
+#3
+Hard disagree. Parliament should make all of its decisions in the street, to open air, during deep winter snow.
+How else are they supposed to make cool headed, transparent decisions for the country?
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+49
+6
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Mar 19, 2025
+Add bookmark
+#4
+What if I want to strengthen certain estate power to 100% and weaken all the rest estates? Pretty much to play as if that estate is ruling the nation.
+9
+3
+1
+Reactions:
+Reply
+Report
+GenericUsername1444
+Colonel
+Jun 25, 2024
+805
+10.781
+Mar 19, 2025
+Add bookmark
+#5
+Johan said:
+Connected to this, the direct family of the ruler is now always considered to be part of the crown estate, so if you want to strengthen the crown you may want to risk them commanding armies.
+Click to expand...
+This is a strategy you can employ in CK3 when you have too many male offspring, you have Gavelkind, and there's a plague nearby
+Toggle signature
+Professional Georgian
+15
+Reactions:
+Reply
+Report
+Goldchruzi
+Swedish Goth & Vandal Fanatic
+45 Badges
+Apr 22, 2020
+72
+734
+Mar 19, 2025
+Add bookmark
+#6
+Question about Maritime Presence, will pirates exist in zones with minimal presence? If yes, will they count as independent/tagless or rebels?
+Toggle signature
+EU5:
+Gothic Culture Fix
+(WIP)
+If you mention the East Germanic tribes, I will appear faster than the goat-drawn chariot of Fairguneis flies across the skies above.
+15
+Reactions:
+Reply
+Report
+Goblin Slave
+Goblin
+58 Badges
+Jul 6, 2018
+188
+2.402
+Mar 19, 2025
+Add bookmark
+#7
+Is there a river map mode? Can we see some of the older proximity/trade maps after the river change?
+31
+3
+Reactions:
+Reply
+Report
+Metz
+Field Marshal
+107 Badges
+Nov 21, 2008
+7.108
+13.741
+Mar 19, 2025
+Add bookmark
+#8
+Will having an outdated fleet also impact control? So as to force the player to gradually upgrade their fleet or will old ships still function normally regarding control? If so, what could force outdated ships to be upgraded for the sake of control (besides being better prepared for a naval war)?
+14
+Reactions:
+Reply
+Report
+LucasG21
+Captain
+85 Badges
+Feb 23, 2017
+488
+3.903
+Mar 19, 2025
+Add bookmark
+#9
+Nice changes.
+So how important are pop percentages now? Will simply not giving out any privileges be enough to keep the estates under control, or is a very mercantile society always going to be under pressure from the Burghers due to the sheer relevance of pops involved in trade?
+Toggle signature
+My suggestions:
+Improving the Galactic Empire
+(thanks to the invaluable support of PDX forumite Donofett, a mod with these ideas is now available on the Steam Workshop! -
+https://steamcommunity.com/sharedfiles/filedetails/?id=3182260120
+)
+5
+Reactions:
+Reply
+Report
+NGASAK
+Second Lieutenant
+30 Badges
+Jun 27, 2016
+158
+1.192
+Mar 19, 2025
+Add bookmark
+#10
+Feels like we are getting closer to announcement
+24
+3
+1
+Reactions:
+Reply
+Report
+tinholt
+Colonel
+60 Badges
+May 13, 2011
+806
+1.959
+Mar 19, 2025
+Add bookmark
+#11
+Thrudgelmir2333 said:
+Hard disagree. Parliament should make all of its decisions in the street, during deep winter snow.
+Thats the best way to make cool headed decisions for the country.
+Click to expand...
+Or you know, at a
+Tennis Court
+.
+16
+5
+4
+Reactions:
+Reply
+Report
+So_MeOne
+Second Lieutenant
+Aug 3, 2020
+121
+1.880
+Mar 19, 2025
+Add bookmark
+#12
+If you drop below 50 of specified side of Societal Value, do you lose the reforms related to it immediately, or you have some time (for example: a year), to change things around?
+15
+3
+1
+Reactions:
+Reply
+Report
+Bluehunter
+Corporal
+5 Badges
+Jul 27, 2014
+43
+289
+Mar 19, 2025
+Add bookmark
+#13
+How will you build roads in game? Do you need an army like in Imperator Rome to move around or do you just click like railways in Hoi4?
+2
+2
+Reactions:
+Reply
+Report
+pheonicia
+Field Marshal
+90 Badges
+Feb 2, 2015
+3.510
+23.853
+Mar 19, 2025
+Add bookmark
+#14
+Why not just have societal value decay to zero instead of getting stuck where you last left them?
+Toggle signature
+Will HOI4 be released on H hour CET of D Day? - Mannstien
+Once again though, there are no actual zombies, it is all hysteria and panic. - Darkrenown
+No, cats were invented in 1902 by Satan, but we included them for gameplay reasons. - Darkrenown
+ubi solitudinem faciunt pacem appellant; they make a wasteland and call it peace.
+Pronoun: 3rd person (use my name)
+10
+5
+4
+Reactions:
+Reply
+Report
+squid_whisperer
+Sergeant
+21 Badges
+Jun 27, 2024
+74
+614
+Mar 19, 2025
+Add bookmark
+#15
+Very nice! Did you ever consider for estates to abrogate part of their power to the crown as a function of their satisfaction/loyalty? That might feel the most natural, that mostly power resides in the estates, but the lend that power to the crown as long as they are loyal.
+Thanks again, for involving the community so closely with these excellent dev diaries!
+2
+Reactions:
+Reply
+Report
+ibvfteh
+Lt. General
+38 Badges
+Feb 9, 2019
+1.597
+9.577
+Mar 19, 2025
+Add bookmark
+#16
+Johan said:
+Proximity now traces along rivers, where it's even easier to propagate proximity and market access downstream.
+Click to expand...
+Is it both ways or only downstream (I think it was sad somewhere before to be only downstream and a lot of people argued it should be bidirectional as you travel to the place and then back either way going both river directions once)?
+How different are markets now compared to the before?
+9
+5
+1
+Reactions:
+Reply
+Report
+AHumpierRogue
+Colonel
+46 Badges
+Apr 27, 2019
+1.172
+7.501
+Mar 19, 2025
+Add bookmark
+#17
+Looks very cool. One thing I will hope for is that you stick to your guns with control and proxmity being hard to manage!
+9
+3
+Reactions:
+Reply
+Report
+bloof5k
+First Lieutenant
+34 Badges
+Aug 3, 2020
+289
+1.529
+Mar 19, 2025
+Add bookmark
+#18
+So_MeOne said:
+Interesting! It is always good to see the Developers adjust the game, by taking to heart players' suggestions. Personally, I like that now we can have our Parliament in a physical building, it gives more immersion.
+Here is another thing... I guess that Tinto Talk about revisiting the Peace System, if not next week, will be at a later date, right? After all, it was one of, if not the most requested system, when it comes to players wanting it to be changed...
+Click to expand...
+I hope that they go with something like the Vic3 system.  As much shit as that game gets that peace system is onto something, allowing both sides to press wargoals in a deal.
+5
+1
+1
+1
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Mar 19, 2025
+Add bookmark
+#19
+So_MeOne said:
+Here is another thing... I guess that Tinto Talk about revisiting the Peace System, if not next week, will be at a later date, right? After all, it was one of, if not the most requested system, when it comes to players wanting it to be changed...
+Click to expand...
+Its not getting any changes.  Still no quantum computers on the market.
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+105
+45
+16
+9
+9
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Mar 19, 2025
+Add bookmark
+#20
+Old_Sealand said:
+What if I want to strengthen certain estate power to 100% and weaken all the rest estates? Pretty much to play as if that estate is ruling the nation.
+Click to expand...
+max privileges for one, and increase their numbers
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+53
+6
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+12
+Next
+1 of 12
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

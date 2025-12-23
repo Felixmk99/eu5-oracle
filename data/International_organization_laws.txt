@@ -1,0 +1,5341 @@
+Source URL: https://eu5.paradoxwikis.com/International_organization_laws
+Source Date: 2025-12-19
+
+Please help with verifying or updating older sections of this article.
+At least some were last verified for
+version
+pre-release.
+Europa Universalis 5
+Laws
+Succession
+Religious
+Military
+Administrative
+Socioeconomic
+Estate
+International organization
+This page is
+automatically generated
+from the game files. It should not be edited directly.
+Instead, please suggest changes or improvements on the
+talk page
+.
+Autocephalous Patriarchate
+[
+edit
+|
+edit source
+]
+Religious Laws
+[
+edit
+|
+edit source
+]
+Nature
+[
+edit
+|
+edit source
+]
+Known also as physis (
+φύσις
+), this tenet rests at the core of our beliefs. It stands for the undisputed fact that Jesus Christ is of a dual and harmonious nature. The coexistence of humanity and divinity is the basis of coexistence that we shall strive to live by.
+Potential
+international_organization_type: international_organization_type:autocephalous_patriarchate
+Allow
+leader_country:
+can_pay_price: price:christian_tenet_price
+Locked
+custom_tooltip:
+text: fundamental_law_tt
+At least one of:
+All of:
+var:religion:
+Orthodoxy
+international_organization_has_policy:
+Dual Nature
+All of:
+var:religion:
+Miaphysitism
+international_organization_has_policy:
+Composite Nature
+All of:
+var:religion:
+Nestorianism
+international_organization_has_policy:
+Separate Nature
+Requires Vote
+Policy
+Allow
+Time to implement
+On Activate
+Price
+Single Nature
+There can only be one nature of Jesus.
+var:religion:
+Neither of:
+this:
+Orthodoxy
+this:
+Miaphysitism
+this:
+Nestorianism
+1 years
+custom_tooltip:
+text: change_maintenance_tt
+every_international_organization_member:
+set_variable: enable_single_nature_pm_variable
+if:
+limit:
+has_variable: enable_composite_nature_pm_variable
+remove_variable: enable_composite_nature_pm_variable
+if:
+limit:
+has_variable: enable_dual_nature_pm_variable
+remove_variable: enable_dual_nature_pm_variable
+if:
+limit:
+has_variable: enable_separate_nature_pm_variable
+remove_variable: enable_separate_nature_pm_variable
+50
+Composite Nature
+The two natures of Jesus are combined into a single one (
+μια φύσις
+).
+var:religion:
+Miaphysitism
+1 years
+custom_tooltip:
+text: change_maintenance_tt
+every_international_organization_member:
+set_variable: enable_composite_nature_pm_variable
+if:
+limit:
+has_variable: enable_single_nature_pm_variable
+remove_variable: enable_single_nature_pm_variable
+if:
+limit:
+has_variable: enable_dual_nature_pm_variable
+remove_variable: enable_dual_nature_pm_variable
+if:
+limit:
+has_variable: enable_separate_nature_pm_variable
+remove_variable: enable_separate_nature_pm_variable
+50
+Dual Nature
+The aspect of Jesus contains a dual nature, both human and divine (
+Δυοφυσιτισμός
+).
+var:religion:
+Orthodoxy
+1 years
+custom_tooltip:
+text: change_maintenance_tt
+every_international_organization_member:
+set_variable: enable_dual_nature_pm_variable
+if:
+limit:
+has_variable: enable_single_nature_pm_variable
+remove_variable: enable_single_nature_pm_variable
+if:
+limit:
+has_variable: enable_composite_nature_pm_variable
+remove_variable: enable_composite_nature_pm_variable
+if:
+limit:
+has_variable: enable_separate_nature_pm_variable
+remove_variable: enable_separate_nature_pm_variable
+50
+Separate Nature
+While hosting two natures, divinity and humanity, these two aspects of Jesus are completely separate.
+var:religion:
+Nestorianism
+1 years
+custom_tooltip:
+text: change_maintenance_tt
+every_international_organization_member:
+set_variable: enable_separate_nature_pm_variable
+if:
+limit:
+has_variable: enable_single_nature_pm_variable
+remove_variable: enable_single_nature_pm_variable
+if:
+limit:
+has_variable: enable_dual_nature_pm_variable
+remove_variable: enable_dual_nature_pm_variable
+if:
+limit:
+has_variable: enable_composite_nature_pm_variable
+remove_variable: enable_composite_nature_pm_variable
+50
+Christology
+[
+edit
+|
+edit source
+]
+The thelogical study around the nature of Christ, His identity and the union of his various natures is a delicate art. Many scholars classify Christ as fully divine, thus they subscribe to High Christology, while other adhere to the disciplines of Low Christology.
+Potential
+international_organization_type: international_organization_type:autocephalous_patriarchate
+Allow
+leader_country:
+can_pay_price: price:christian_tenet_price
+Requires Vote
+Policy
+Time to implement
+Price
+High Christology
+Christ is unequivocally divine.
+1 years
+50
+Low Christology
+Christ is a mere human.
+1 years
+50
+Liturgical Practices
+[
+edit
+|
+edit source
+]
+Various worship practices centered around hymns, readings and rites.
+Potential
+international_organization_type: international_organization_type:autocephalous_patriarchate
+Allow
+leader_country:
+can_pay_price: price:christian_tenet_price
+Requires Vote
+Policy
+Time to implement
+Price
+Byzantine Rites
+By adhering to practices popularized by Byzantine priests, we can borrow some of the legitimacy of their faiths.
+1 years
+50
+Local Rites
+Emphasize our own local rites over others.
+1 years
+50
+Catholicism-Influenced Rites
+Introduce rites such as mass, sacraments and liturgy of the hours, in adjacency to the Catholicism practices.
+1 years
+50
+Essence
+[
+edit
+|
+edit source
+]
+Known also as ousia (
+ουσία
+), this tenet represents the presence of Divinity as part of the architecture of the universe around us, and our struggle to embrace it fully.
+Potential
+international_organization_type: international_organization_type:autocephalous_patriarchate
+Allow
+leader_country:
+can_pay_price: price:christian_tenet_price
+Requires Vote
+Policy
+Time to implement
+Price
+Accept the Tenet of Essence
+Our patriarchate will integrate this aspect into its core beliefs, embraced by all our members.
+1 years
+50
+Reject the Tenet of Essence
+Our patriarchate will reject this aspect into its core beliefs, embraced by all our members.
+1 years
+50
+Person
+[
+edit
+|
+edit source
+]
+Deriving from the core concept of concrete reality (
+υπόστασις
+) this tenet delves into the philosophical and fundamental reality and substance that supports all reality. Having made its appearance in ancient debates, it resurfaced as an important proponent in determining the nature of the Holy Trinity, where it describes its three proponents as sharing one divine essence.
+Potential
+international_organization_type: international_organization_type:autocephalous_patriarchate
+Allow
+leader_country:
+can_pay_price: price:christian_tenet_price
+Requires Vote
+Policy
+Time to implement
+Price
+Accept the Tenet of Person
+Our patriarchate will integrate this aspect into its core beliefs, embraced by all our members.
+1 years
+50
+Reject the Tenet of Person
+Our patriarchate will reject this aspect into its core beliefs, embraced by all our members.
+1 years
+50
+Mask
+[
+edit
+|
+edit source
+]
+Known also as prosopon (
+πρόσωπον
+), this tenet marries the concept of divine identity and person (
+υπόστασις
+). Its goal is to underline the uniqueness and value in personhood both in the divine and believers.
+Potential
+international_organization_type: international_organization_type:autocephalous_patriarchate
+Allow
+leader_country:
+can_pay_price: price:christian_tenet_price
+Requires Vote
+Policy
+Time to implement
+Price
+Accept the Tenet of Mask
+Our patriarchate will integrate this aspect into its core beliefs, embraced by all our members.
+1 years
+50
+Reject the Tenet of Mask
+Our patriarchate will reject this aspect into its core beliefs, embraced by all our members.
+1 years
+50
+Christological Debates
+[
+edit
+|
+edit source
+]
+Debates on the aspect of Christ, our stance towards our brethren sects and our position on the nature of worship are the lifeblood of keeping our belief alive and vibrant!
+Potential
+international_organization_type: international_organization_type:autocephalous_patriarchate
+Allow
+leader_country:
+can_pay_price: price:christian_tenet_price
+Requires Vote
+Policy
+Time to implement
+Price
+Allow Christological Debates
+Our patriarchate will integrate this aspect into its core beliefs, embraced by all our members.
+1 years
+50
+Forbid Christological Debates
+Our patriarchate will reject this aspect into its core beliefs, embraced by all our members.
+1 years
+50
+Double Sabbath
+[
+edit
+|
+edit source
+]
+The Sabbath has been the holy day reserved to God since the times of Moses. It may still be preserved as a day of rest, or it could be considered to be superseded by the Lord's Day on Sunday.
+Potential
+international_organization_type: international_organization_type:autocephalous_patriarchate
+Allow
+leader_country:
+can_pay_price: price:christian_tenet_price
+Requires Vote
+Policy
+Time to implement
+Price
+Allow Double Sabbath
+Both Sunday and Saturday are considered sacred.
+1 years
+50
+Forbid Double Sabbath
+The observance of the Sabbath is no longer necessary when celebrating the Lord's Day on Sunday.
+1 years
+50
+Catholic Church
+[
+edit
+|
+edit source
+]
+Religious Laws
+[
+edit
+|
+edit source
+]
+Veneration of Saints and Reliquaries
+[
+edit
+|
+edit source
+]
+The official stance of the Catholic Church on the matter of veneration of saints and reliquaries.
+Potential
+international_organization_type: international_organization_type:catholic_church
+Locked
+Not:
+is_situation_active: situation:council_of_trent
+international_organization_has_locked_law:
+law: cc_veneration_of_saints_and_reliquaries
+Requires Vote
+Policy
+Time to implement
+On Deactivate
+On Fully Activated
+Sunt in Regno Dei
+The veneration of saints and reliquaries is an essential part of the Catholicism doctrine.
+1 years
+Licet ad Colenda
+While an essential part of Catholicism doctrine, the veneration of saints and reliquaries is restricted to a smaller core of approved objects.
+1 years
+Ubi Moyses Ascendit
+The veneration of saints and reliquaries is prohibited.
+1 years
+lock_resolution_effect:
+type: benedictus_deus
+unlock_resolution_effect:
+type: benedictus_deus
+Society of Jesus
+[
+edit
+|
+edit source
+]
+The official relations of the Catholic Church towards the Order of the Jesuits.
+Potential
+international_organization_type: international_organization_type:catholic_church
+Allow
+custom_tooltip:
+text: cc_society_of_jesus_tt
+has_variable: society_of_jesus_founded
+Locked
+Not:
+is_situation_active: situation:council_of_trent
+international_organization_has_locked_law:
+law: cc_society_of_jesus
+Requires Vote
+Policy
+Time to implement
+On Activate
+Dominus Ac Redemptor Noster
+The Society of Jesus is not supported by the Catholic Church.
+1 years
+international_organization_lock_global_law_effect:
+type: society_of_jesus
+Regimini Militantis Ecclesiae
+The Society of Jesus is the official representative of the [GetInternationalOrganization('catholic_church').GetLeaderTitle] and is allowed to spread the faith with all its might.
+1 years
+international_organization_unlock_global_law_effect:
+type: society_of_jesus
+Persecution of Witchcraft
+[
+edit
+|
+edit source
+]
+The official stance of the Catholic Church on the existance of Witchcraft and other occult practices.
+Potential
+international_organization_type: international_organization_type:catholic_church
+Allow
+custom_tooltip:
+text: cc_witchcraft_tt
+has_variable: witchcraft_discussed
+Locked
+Not:
+is_situation_active: situation:council_of_trent
+international_organization_has_locked_law:
+law: cc_witchcraft
+Requires Vote
+Policy
+Time to implement
+Sicut Malefici Aegyptii
+Witchcraft is not acknowledged as real by the Catholic Church.
+1 years
+Summis Desiderantes
+As the
+Malleus Maleficarum
+demands, we need to find and persecute all signs of witchcraft.
+1 years
+Hindu Branch
+[
+edit
+|
+edit source
+]
+Religious Laws
+[
+edit
+|
+edit source
+]
+Tradition
+[
+edit
+|
+edit source
+]
+The specific traditions and beliefs followed by this
+Hindu Branch
+.
+Potential
+international_organization_type: international_organization_type:hindu_branch
+Locked
+international_organization_has_law:
+Tradition
+Policy
+Country Modifier
+Vaishnavism
+Vaishnavism is the
+Hindu Branch
+centered around the worship of Viṣṇu and his ten
+Avatars
+.
++3.00
+Avatars Allowed
+Shaivism
+Shaivism is the
+Hindu Branch
+revering Śiva as the supreme
+God
+. It is the
+Hindu Branch
+more focused on asceticism and yoga.
+Enable Self Control:
+yes
+Shaktism
+Shaktism is the
+Hindu Branch
+centered around the worship of the Mother Goddess, known as Devī or Śakti, represented and revered in her many different forms.
++1.00
+Avatars Allowed
+Smartism
+Smartism is the
+Hindu Branch
+that does not consider any
+God
+to be above any other, and instead worships equally the five
+Gods
+Gaṇeśa, Śiva, Śakti, Viṣṇu, and Sūrya.
+Enable Smartism Gods:
+yes
+Holy Roman Empire
+[
+edit
+|
+edit source
+]
+Golden Bull
+[
+edit
+|
+edit source
+]
+The Golden Bull is the decree of the Holy Roman Empire which defines and creates the constitutional structure of the Empire, especially the Electoral College. Other laws and Imperial Reforms all build on the Golden Bull.
+Potential
+international_organization_type: international_organization_type:hre
+Allow
+has_currency_to_vote_for_law:
+value: imperial_authority_uncontroversial_law
+Locked
+custom_description:
+text: hre_has_locked_law
+subject:
+Golden Bull
+hre_has_locked_law:
+law: golden_bull
+Policy
+Country Modifier
+On Activate
+International Organization Modifier
+Seal the Golden Bull
+The Golden Bull is the decree of the Holy Roman Empire which defines and creates the constitutional structure of the Empire, especially the Electoral College. Other laws and Imperial Reforms all build on the Golden Bull.
++0.02
+Monthly Imperial Authority
+hre_lock_law:
+law: golden_bull
+hre_setup_hre_variables: True
+hre_enable_all_imperial_laws: True
+hre_on_reform_passed_effect:
+amount: imperial_authority_uncontroversial_law
+custom_tooltip: hre_golden_bull_formalizes_electorate_tt
+custom_tooltip: hre_golden_bull_self_voting_regulated_via_electorate_law
+Enable Leave the Holy Roman Empire Peace:
+yes
+Forbidden Unjustified Wars Against Other Members:
+yes
+Uncodified Electoral Order
+Without the Golden Bull, the Holy Roman Empire's electoral and constitutional arrangements remain a patchwork of custom, precedent, and shifting alliances. The absence of a formal decree leaves the
+Electoral College
+more susceptible to disputes, intrigue, and political maneuvering.
+Allow Self Voting:
+yes
+Administrative Laws
+[
+edit
+|
+edit source
+]
+Landfriede
+[
+edit
+|
+edit source
+]
+The
+Landfriede
+, or 'land peace,' is a decree which dictates that disputes between members of the Holy Roman Empire must be settled in the Imperial Court rather than on the battlefield. This mandate helps us stay cohesive as an empire, rather than becoming weak through petty in-fighting.
+Potential
+international_organization_type: international_organization_type:hre
+hre_has_enabled_all_imperial_laws: True
+Allow
+hre_allowed_emperor_reform_proposal: True
+has_currency_to_vote_for_law:
+value: 50
+Policy
+Allow
+Country Modifier
+On Activate
+On Deactivate
+International Organization Modifier
+Absence of Landfriede
+'Might makes right' accurately describes the current practical politics of the Holy Roman Empire; disputes between our members will be resolved on the battlefield.
+hre_can_select_adjacent_reform_level:
+law: landfriede_law
+upper_level: 6
+lower_level: 4
++2.50%
+Stability Investment Cost
+hre_on_reform_level_passed_effect:
+law: landfriede_law
+level: 5
+law_imperial_authority_cost: imperial_authority_standard_law
+Institute the Landfriede
+The
+Landfriede
+, or 'land peace,' is a decree which dictates that disputes between members of the Holy Roman Empire must be settled in the Imperial Court rather than on the battlefield. This mandate helps us stay cohesive as an empire, rather than becoming weak through petty in-fighting.
+hre_has_selected_policy_of_this_law:
+law: landfriede_law
+hre_can_select_adjacent_reform_level:
+law: landfriede_law
+upper_level: 5
+lower_level: 3
+hre_on_reform_level_passed_effect:
+law: landfriede_law
+level: 4
+law_imperial_authority_cost: imperial_authority_standard_law
+Expand the Landfriede
+The
+Landfriede
+gains additional influence and recognition amongst members of the Holy Roman Empire.
+hre_has_selected_policy_of_this_law:
+law: landfriede_law
+hre_can_select_adjacent_reform_level:
+law: landfriede_law
+upper_level: 4
+lower_level: 2
+hre_on_reform_level_passed_effect:
+law: landfriede_law
+level: 3
+law_imperial_authority_cost: imperial_authority_standard_law
+custom_tooltip:
+text: landfriede_parliament_issue_rank_2
+international_organization_unlock_parliament_issue_effect:
+type: hre_demand_internal_peace
+international_organization_lock_parliament_issue_effect:
+type: hre_demand_internal_peace
+Empower the Landfriede
+The
+Landfriede
+is now a powerful institution. Members of the Holy Roman Empire greatly respect its authority.
+hre_has_selected_policy_of_this_law:
+law: landfriede_law
+hre_can_select_adjacent_reform_level:
+law: landfriede_law
+upper_level: 3
+lower_level: 1
+hre_on_reform_level_passed_effect:
+law: landfriede_law
+level: 2
+law_imperial_authority_cost: imperial_authority_standard_law
+custom_tooltip:
+text: landfriede_parliament_issue_rank_3
+international_organization_unlock_parliament_issue_effect:
+type: hre_demand_internal_peace
+international_organization_lock_parliament_issue_effect:
+type: hre_demand_internal_peace
+Ewiger Landfriede
+The
+Landfriede
+is at its apex of influence and power within the Holy Roman Empire, and private warfdare between member states has been permanently outlawed. Any disputes that arise are subject to judgment in the Imperial Court.
+hre_has_selected_policy_of_this_law:
+law: landfriede_law
+hre_can_select_adjacent_reform_level:
+law: landfriede_law
+upper_level: 2
+lower_level: 0
+hre_on_reform_level_passed_effect:
+law: landfriede_law
+level: 1
+law_imperial_authority_cost: imperial_authority_standard_law
+custom_tooltip:
+text: landfriede_parliament_issue_rank_4
+international_organization_unlock_parliament_issue_effect:
+type: hre_demand_internal_peace
+international_organization_lock_parliament_issue_effect:
+type: hre_demand_internal_peace
++1
+Emperor-Comfort Policies
+Outlaw Internal Warfare
+Restrict the capabilities of the members of the Holy Roman Empire and effectively outlaws warfare within the Empire.
+hre_allowed_emperor_reform_proposal: True
+hre_has_selected_policy_of_this_law:
+law: landfriede_law
+hre_num_of_emperor_comfort_policies_active:
+value: 4
+hre_can_select_adjacent_reform_level:
+law: landfriede_law
+upper_level: 1
+lower_level: -1
+hre_on_reform_level_passed_effect:
+law: landfriede_law
+level: 0
+law_imperial_authority_cost: imperial_authority_standard_law
+custom_tooltip:
+text: landfriede_parliament_issue_rank_4
+international_organization_unlock_parliament_issue_effect:
+type: hre_demand_internal_peace
+international_organization_lock_parliament_issue_effect:
+type: hre_demand_internal_peace
+Imperial Diet
+[
+edit
+|
+edit source
+]
+The Court Assembly is an ancient system, and therefore many of its stipulations and procedures are very outdated. It is time to rework it and establish a proper Imperial Diet that better protects the diverse interests of all members of the Holy Roman Empire.
+Potential
+international_organization_type: international_organization_type:hre
+hre_has_enabled_all_imperial_laws: True
+Allow
+hre_allowed_emperor_reform_proposal: True
+Policy
+Allow
+Country Modifier
+On Activate
+Traditional Diet
+Having never been formally codified, the system of the Court Assembly is in dire need of reform.
+always: False
+hre_allowed_emperor_reform_proposal: True
+hre_has_selected_policy_of_this_law:
+law: imperial_diet_law
+hre_can_select_adjacent_reform_level:
+law: imperial_diet_law
+upper_level: 1
+lower_level: -1
+has_currency_to_vote_for_law:
+value: imperial_authority_standard_law
+hre_on_reform_level_passed_effect:
+law: imperial_diet_law
+level: 0
+law_imperial_authority_cost: imperial_authority_standard_law
+Early Imperial Diet
+The earliest form of Imperial Diet represents the traditional order of the Holy Roman Empire. Only the Prince-Elector, Archbishop-Elector, and Imperial Prince may participate, excluding Free Imperial City and lower ecclesiastical entities from the legislative process.
+Strong voting power for the Emperor, Prince-Elector, Archbishop-Elector, and Imperial Prince
+Free Imperial City and Imperial Peasant Republic have no voting power
+Minor ecclesiastical roles like Imperial Prelate, Primas Germaniae, and Legatus Natus have limited power
+hre_allowed_emperor_reform_proposal: True
+hre_has_selected_policy_of_this_law:
+law: imperial_diet_law
+hre_can_select_adjacent_reform_level:
+law: imperial_diet_law
+upper_level: 1
+lower_level: 0
+has_currency_to_vote_for_law:
+value: imperial_authority_standard_law
++0.01
+Monthly Imperial Authority
+hre_on_reform_level_passed_effect:
+law: imperial_diet_law
+level: 1
+law_imperial_authority_cost: imperial_authority_standard_law
+set_parliament_type: parliament_type:hre_early_imperial_diet
+hre_on_reform_level_passed_opinion_effect_all_members:
+strength: mild_prince_friendly
+Bicameral Imperial Diet
+The Bicameral Imperial Diet expands representation by granting voting rights to ecclesiastical dignitaries and princely rulers alike, forming two chambers within the Diet.
+Standard power for Emperor, Prince-Elector, Archbishop-Elector, and Imperial Prince
+Imperial Prelate gain meaningful influence
+Free Imperial City and Imperial Peasant Republic still lack representation
+hre_allowed_emperor_reform_proposal: True
+hre_has_selected_policy_of_this_law:
+law: imperial_diet_law
+hre_can_select_adjacent_reform_level:
+law: imperial_diet_law
+upper_level: 3
+lower_level: 1
+has_currency_to_vote_for_law:
+value: imperial_authority_standard_law
++0.02
+Monthly Imperial Authority
+hre_on_reform_level_passed_effect:
+law: imperial_diet_law
+level: 2
+law_imperial_authority_cost: imperial_authority_standard_law
+set_parliament_type: parliament_type:hre_bi_camerial_imperial_diet
+hre_on_reform_level_passed_opinion_effect_all_members:
+strength: mild_prince_friendly
+Tricameral Imperial Diet
+With the Tricameral Imperial Diet, Free Imperial City finally gain a decisive voice. The Imperial Diet now consists of three chambers — ecclesiastical, princely, and civic — reflecting a more inclusive balance of power.
+Balanced power among Emperor, Prince-Elector, Archbishop-Elector, Imperial Prince, Free Imperial City, and minor theocratic roles
+Imperial Peasant Republic gain the highest influence here
+Most inclusive form of the Diet
+hre_allowed_emperor_reform_proposal: True
+hre_has_selected_policy_of_this_law:
+law: imperial_diet_law
+hre_can_select_adjacent_reform_level:
+law: imperial_diet_law
+upper_level: 4
+lower_level: 2
+has_currency_to_vote_for_law:
+value: imperial_authority_standard_law
++0.035
+Monthly Imperial Authority
+hre_on_reform_level_passed_effect:
+law: imperial_diet_law
+level: 3
+law_imperial_authority_cost: imperial_authority_standard_law
+set_parliament_type: parliament_type:hre_tri_camerial_imperial_diet
+hre_on_reform_level_passed_opinion_effect_all_members:
+strength: mild_prince_friendly
+hre_on_reform_level_passed_opinion_effect_free_cities:
+strength: prince_friendly
+Perpetual Diet
+[
+edit
+|
+edit source
+]
+Previously, Imperial Diets convened irregularly in various cities across the Holy Roman Empire, requiring the [GetUniqueInternationalOrganization('hre').GetLeaderTitle] and other representatives to travel each time. By establishing a permanent, continuously-sitting Diet, we shall create a standing assembly that operates on a system of constant deliberation, rather than sporadic meetings.
+Potential
+international_organization_type: international_organization_type:hre
+hre_has_enabled_all_imperial_laws: True
+Allow
+hre_allowed_emperor_reform_proposal: True
+has_currency_to_vote_for_law:
+value: imperial_authority_standard_law
+Locked
+custom_description:
+text: hre_has_locked_law
+subject:
+Perpetual Diet
+hre_has_locked_law:
+law: perpetual_diet_law
+Policy
+Allow
+On Activate
+On Deactivate
+Traveling Diet
+The [GetUniqueInternationalOrganization('hre').GetLeaderTitle] and other representatives will travel to different cities across the Holy Roman Empire, convening Diets where and when needed rather on a regular schedule or in a set location.
+always: False
+Perpetual Diet
+Previously, Imperial Diets convened irregularly in various cities across the Holy Roman Empire, requiring the [GetUniqueInternationalOrganization('hre').GetLeaderTitle] and other representatives to travel each time. By establishing a permanent, continuously-sitting Diet, we shall create a standing assembly that operates on a system of constant deliberation, rather than sporadic meetings.
+At least one of:
+international_organization_has_policy:
+Bicameral Imperial Diet
+international_organization_has_policy:
+Tricameral Imperial Diet
+hre_on_reform_passed_effect:
+amount: imperial_authority_standard_law
+international_organization_unlock_parliament_issue_effect:
+type: hre_establish_perpetual_diet
+hre_lock_law:
+law: perpetual_diet_law
+international_organization_lock_parliament_issue_effect:
+type: hre_establish_perpetual_diet
+every_international_organization_owned_location:
+remove_variable: diet_location
+Centralization Laws
+[
+edit
+|
+edit source
+]
+Power of the [GetUniqueInternationalOrganization('hre').GetLeaderTitle]
+[
+edit
+|
+edit source
+]
+The Power of the [GetUniqueInternationalOrganization('hre').GetLeaderTitle] is a complicated topic. Members of the Holy Roman Empire and Prince-Elector alike have conflicting interests with those of the [GetUniqueInternationalOrganization('hre').GetLeaderTitle], yet they recognize that a powerless  [GetUniqueInternationalOrganization('hre').GetLeaderTitle] is in no position to protect the Empire.
+Potential
+international_organization_type: international_organization_type:hre
+hre_has_enabled_all_imperial_laws: True
+Policy
+Allow
+Country Modifier
+On Activate
+On Deactivate
+International Organization Modifier
+Holy Roman Figurehead
+The [GetUniqueInternationalOrganization('hre').GetLeaderTitle] is no longer a monarch with power within the Holy Roman Empire. All laws and policies are now in the hands of the Imperial Diet and the Prince-Elector.
+hre_has_selected_policy_of_this_law:
+law: power_of_the_emperor_law
+hre_can_select_adjacent_reform_level:
+law: power_of_the_emperor_law
+upper_level: 6
+lower_level: 4
+has_currency_to_vote_for_law:
+value: imperial_authority_prince_very_friendly_law
+−0.10
+Monthly Imperial Authority
+hre_on_reform_level_passed_effect:
+law: power_of_the_emperor_law
+level: 5
+law_imperial_authority_cost: imperial_authority_prince_very_friendly_law
+hre_on_reform_level_passed_opinion_effect_all_members:
+strength: prince_very_friendly
+international_organization_unlock_parliament_issue_effect:
+type: hre_force_emperor_to_abdicate
+hre_allow_emperor_reform_proposals: True
+international_organization_lock_parliament_issue_effect:
+type: hre_force_emperor_to_abdicate
+Kaisertum
+The power held by the [GetUniqueInternationalOrganization('hre').GetLeaderTitle] is carefully balanced: strong enough to protect and reform the Holy Roman Empire, yet not so overwhelming as to threaten our Prince-Elector or member states.
+hre_has_selected_policy_of_this_law:
+law: power_of_the_emperor_law
+hre_can_select_adjacent_reform_level:
+law: power_of_the_emperor_law
+upper_level: 5
+lower_level: 3
+has_currency_to_vote_for_law:
+value: imperial_authority_standard_law
+hre_on_reform_level_passed_effect:
+law: power_of_the_emperor_law
+level: 4
+law_imperial_authority_cost: imperial_authority_standard_law
+Enable Imperial Ban:
+yes
+Improved Imperial Authority
+The authority of the [GetUniqueInternationalOrganization('hre').GetLeaderTitle] is vastly expanded, allowing them to enforce policies in the Imperial Diet for the betterment of the Holy Roman Empire.
+hre_allowed_emperor_reform_proposal: True
+hre_num_of_emperor_comfort_policies_active:
+value: 2
+hre_can_select_adjacent_reform_level:
+law: power_of_the_emperor_law
+upper_level: 4
+lower_level: 2
+has_currency_to_vote_for_law:
+value: imperial_authority_controversial_law
++0.50
+Diplomatic Reputation
++0.02
+Monthly Imperial Authority
+hre_on_reform_level_passed_effect:
+law: power_of_the_emperor_law
+level: 3
+law_imperial_authority_cost: imperial_authority_controversial_law
+hre_on_reform_level_passed_opinion_effect_all_members:
+strength: controversial
+Enable Imperial Ban:
+yes
+Can Overrule the Imperial Diet:
+yes
+Revoke Privilegia
+The many liberties and privileges granted to the Imperial Princes are hereby abolished. The [GetUniqueInternationalOrganization('hre').GetLeaderTitle] shall centralize authority, turning the Holy Roman Empire into a unified entity under singular rule.
+hre_allowed_emperor_reform_proposal: True
+hre_has_selected_policy_of_this_law:
+law: power_of_the_emperor_law
+hre_num_of_emperor_comfort_policies_active:
+value: 5
+hre_can_select_adjacent_reform_level:
+law: power_of_the_emperor_law
+upper_level: 3
+lower_level: 1
+has_currency_to_vote_for_law:
+value: imperial_authority_opposed_law
++0.10
+Monthly Prestige
++0.10
+Monthly Imperial Authority
++1.00
+Diplomatic Reputation
+hre_on_reform_level_passed_effect:
+law: power_of_the_emperor_law
+level: 2
+law_imperial_authority_cost: imperial_authority_opposed_law
+hre_on_reform_level_passed_opinion_effect_all_members:
+strength: opposed
+leader_country:
+trigger_event_non_silently:
+id: hre.100
+Enable Imperial Ban:
+yes
+Can Overrule the Imperial Diet:
+yes
+Renovatio Imperii
+Decentralization in the Holy Roman Empire is no more. The entire Empire shall be united into a single nation-state, which will shape the fate of the world itself!
+hre_allowed_emperor_reform_proposal: True
+hre_has_selected_policy_of_this_law:
+law: power_of_the_emperor_law
+hre_num_of_emperor_comfort_policies_active:
+value: 5
+hre_can_select_adjacent_reform_level:
+law: power_of_the_emperor_law
+upper_level: 2
+lower_level: 0
+has_currency_to_vote_for_law:
+value: imperial_authority_rebellious_law
+hre_on_reform_level_passed_effect:
+law: power_of_the_emperor_law
+level: 1
+law_imperial_authority_cost: imperial_authority_rebellious_law
+leader_country:
+trigger_event_non_silently:
+id: hre.102
+Enforced Internal Peace:
+yes
+Enable Imperial Ban:
+yes
+Can Overrule the Imperial Diet:
+yes
+Elector Laws
+[
+edit
+|
+edit source
+]
+Imperial Succession
+[
+edit
+|
+edit source
+]
+The succession of the Holy Roman Empire is a delicate matter. The right of succession to the Imperial Throne is prescribed in the Imperial Laws.
+Potential
+international_organization_type: international_organization_type:hre
+hre_has_enabled_all_imperial_laws: True
+Allow
+hre_allowed_emperor_reform_proposal: True
+Locked
+custom_description:
+text: hre_has_locked_law
+subject:
+Imperial Succession
+hre_has_locked_law:
+law: imperial_succession_law
+Policy
+Allow
+On Activate
+International Organization Modifier
+Agnatic Succession
+The Imperial Crown of the Holy Roman Empire can only be worn by male rulers.
+hre_can_select_adjacent_reform_level:
+law: imperial_succession_law
+upper_level: 4
+lower_level: 2
+has_currency_to_vote_for_law:
+value: imperial_authority_standard_law
+hre_on_reform_level_passed_effect:
+law: imperial_succession_law
+level: 3
+law_imperial_authority_cost: imperial_authority_standard_law
+custom_tooltip:
+text: hre_agnatic_succession_policy_custom_tooltip
+Pragmatic Sanction
+The gender of our ruler is irrelevant. Female rulers may wear the Imperial Crown of the Holy Roman Empire as rightfully as their male counterparts.
+hre_has_selected_policy_of_this_law:
+law: imperial_succession_law
+hre_can_select_adjacent_reform_level:
+law: imperial_succession_law
+upper_level: 3
+lower_level: 1
+has_currency_to_vote_for_law:
+value: imperial_authority_opposed_law
+At least one of:
+international_organization:hre:
+international_organization_has_policy:
+Pragmatic Sanction
+international_organization:hre:
+leader_country:
+heir:
+is_female: True
+hre_on_reform_level_passed_effect:
+law: imperial_succession_law
+level: 2
+law_imperial_authority_cost: imperial_authority_opposed_law
+custom_tooltip:
+text: hre_pragmatic_sanction_policy_opinion_impact
+every_international_organization_member:
+limit:
+Not:
+this: root.leader_country
+At least one of:
+succession_law: heir_selection:partition_inheritance
+succession_law: heir_selection:salic_law
+add_opinion:
+target: root.leader_country
+modifier: opinion_hre_passed_opposed_law
+Allow Empresses:
+yes
+Imperial Voting
+[
+edit
+|
+edit source
+]
+The Holy Roman Empire is built upon the principle of Imperial election. The nature of that election defines the balance of power in the Empire.
+Potential
+international_organization_type: international_organization_type:hre
+hre_has_enabled_all_imperial_laws: True
+Allow
+hre_allowed_emperor_reform_proposal: True
+Policy
+Allow
+Country Modifier
+On Activate
+On Deactivate
+International Organization Modifier
+Leader Change Method
+Rotating Emperorship
+To prevent any single ruler from consolidating power, the Empire enforces a rotation system that actively discourages re-election of incumbents.
+hre_can_select_adjacent_reform_level:
+law: imperial_voting_law
+upper_level: 6
+lower_level: 4
+has_currency_to_vote_for_law:
+value: imperial_authority_prince_friendly_law
+−200
+Reasons to Elect
+−0.025
+Monthly Imperial Authority
+hre_on_reform_level_passed_effect:
+law: imperial_voting_law
+level: 5
+law_imperial_authority_cost: imperial_authority_prince_friendly_law
+Allow Self Voting:
+no
+−1
+Emperor-Comfort Policies
+Free Electorate
+Electors are fully independent in choosing the next Emperor. Self-voting is permitted.
+hre_has_selected_policy_of_this_law:
+law: imperial_voting_law
+hre_can_select_adjacent_reform_level:
+law: imperial_voting_law
+upper_level: 5
+lower_level: 3
+has_currency_to_vote_for_law:
+value: imperial_authority_prince_friendly_law
+hre_on_reform_level_passed_effect:
+law: imperial_voting_law
+level: 4
+law_imperial_authority_cost: imperial_authority_prince_friendly_law
+Allow Self Voting:
+yes
+Emperor Dynastic Preference
+Electors favor candidates belonging to the Emperor's dynasty, consolidating dynastic power over the electoral system.
+hre_has_selected_policy_of_this_law:
+law: imperial_voting_law
+hre_can_select_adjacent_reform_level:
+law: imperial_voting_law
+upper_level: 4
+lower_level: 2
+has_currency_to_vote_for_law:
+value: imperial_authority_uncontroversial_law
+hre_on_reform_level_passed_effect:
+law: imperial_voting_law
+level: 3
+law_imperial_authority_cost: imperial_authority_uncontroversial_law
+hre_on_reform_level_passed_opinion_effect_all_members:
+strength: controversial
+Allow Self Voting:
+yes
+Emperor Successor Preference
+The Emperor promotes the candidacy of their own successor. Imperial policy begins to favor dynastic continuity.
+hre_has_selected_policy_of_this_law:
+law: imperial_voting_law
+hre_can_select_adjacent_reform_level:
+law: imperial_voting_law
+upper_level: 3
+lower_level: 1
+has_currency_to_vote_for_law:
+value: imperial_authority_opposed_law
++50
+Reasons to Elect
++0.02
+Monthly Imperial Authority
+hre_on_reform_level_passed_effect:
+law: imperial_voting_law
+level: 2
+law_imperial_authority_cost: imperial_authority_opposed_law
+hre_on_reform_level_passed_opinion_effect_all_members:
+strength: opposed
+Erbkaisertum
+The elective monarchy is abolished. The Empire becomes a fully hereditary monarchy, solidifying dynastic rule at the cost of Imperial legitimacy.
+hre_has_selected_policy_of_this_law:
+law: imperial_voting_law
+hre_can_select_adjacent_reform_level:
+law: imperial_voting_law
+upper_level: 2
+lower_level: 0
+has_currency_to_vote_for_law:
+value: imperial_authority_opposed_law
+−0.05
+Monthly Imperial Authority
+hre_on_reform_level_passed_effect:
+law: imperial_voting_law
+level: 1
+law_imperial_authority_cost: imperial_authority_opposed_law
+hre_lock_law:
+law: electorate_organization_law
+hre_lock_law:
+law: electorate_religion_law
+hre_lock_law:
+law: imperial_succession_law
+hre_enact_fixed_succession: True
+hre_on_reform_level_passed_opinion_effect_all_members:
+strength: opposed
+hre_unlock_law:
+law: electorate_organization_law
+hre_unlock_law:
+law: electorate_religion_law
+hre_unlock_law:
+law: imperial_succession_law
+hre_repeal_fixed_succession:
+policy: emperor_successor_preference_policy
+Allow Self Voting:
+yes
++1
+Emperor-Comfort Policies
+none
+Electorate Organization
+[
+edit
+|
+edit source
+]
+The Prince-Elector are a group of powerful Nobility and Clergy who have the privilege to vote for their next [GetUniqueInternationalOrganization('hre').GetLeaderTitle].
+Potential
+international_organization_type: international_organization_type:hre
+hre_has_enabled_all_imperial_laws: True
+Allow
+hre_allowed_emperor_reform_proposal: True
+Locked
+custom_description:
+text: hre_has_locked_law
+subject:
+Electorate Organization
+hre_has_locked_law:
+law: electorate_organization_law
+Policy
+Allow
+Country Modifier
+On Activate
+On Deactivate
+International Organization Modifier
+Elector Council
+The Prince-Elector are at their peak of their power as they expand their ranks by three additional seats, and also add three additional Archbishop-Elector. Additionally, they gain the right to elect an Anti-King who can replace the current [GetUniqueInternationalOrganization('hre').GetLeaderTitle] in the Imperial Diet if left unchallenged. This gives the Electors the de facto power to force a re-election of the current [GetUniqueInternationalOrganization('hre').GetLeaderTitle].
+hre_has_selected_policy_of_this_law:
+law: electorate_organization_law
+hre_can_select_adjacent_reform_level:
+law: electorate_organization_law
+upper_level: 6
+lower_level: 4
+has_currency_to_vote_for_law:
+value: imperial_authority_prince_very_friendly_law
+−0.10
+Monthly Imperial Authority
+Excluded from Electorship:
+yes
+hre_on_reform_level_passed_effect:
+law: electorate_organization_law
+level: 5
+law_imperial_authority_cost: imperial_authority_prince_friendly_law
+hre_clear_emperor_from_electorship: True
+hre_on_reform_level_passed_opinion_effect_all_members:
+strength: prince_very_friendly
+international_organization_unlock_parliament_issue_effect:
+type: hre_force_emperor_to_abdicate
+international_organization_lock_parliament_issue_effect:
+type: hre_force_emperor_to_abdicate
++3
+Max Prince-Elector
++2
+Max Archbishop-Elector
+−2
+Emperor-Comfort Policies
+Expanded Electors
+The Prince-Elector expand their ranks by two additional seats, and also add two additional Archbishop-Elector. Only significant promises and pledges can earn the favor of an Prince-Elector.
+hre_has_selected_policy_of_this_law:
+law: electorate_organization_law
+hre_can_select_adjacent_reform_level:
+law: electorate_organization_law
+upper_level: 5
+lower_level: 3
+has_currency_to_vote_for_law:
+value: imperial_authority_prince_friendly_law
+Excluded from Electorship:
+yes
+−0.05
+Monthly Imperial Authority
+hre_on_reform_level_passed_effect:
+law: electorate_organization_law
+level: 4
+law_imperial_authority_cost: imperial_authority_prince_friendly_law
+hre_clear_emperor_from_electorship: True
+hre_on_reform_level_passed_opinion_effect_all_members:
+strength: prince_friendly
++1
+Max Prince-Elector
++1
+Max Archbishop-Elector
+−1
+Emperor-Comfort Policies
+Electorate
+The Prince-Elector expand their ranks by one additional Prince-Elector and one additional Archbishop-Elector. Additionally, earning an Prince-Elector's vote is reliant than ever on pledges and promises.
+hre_has_selected_policy_of_this_law:
+law: electorate_organization_law
+hre_can_select_adjacent_reform_level:
+law: electorate_organization_law
+upper_level: 4
+lower_level: 2
+has_currency_to_vote_for_law:
+value: imperial_authority_uncontroversial_law
+hre_on_reform_level_passed_effect:
+law: electorate_organization_law
+level: 3
+law_imperial_authority_cost: imperial_authority_uncontroversial_law
+Limited Electors
+The number of Prince-Elector is limited to seven. Votes for Emperorship can be favored, though pledges and promises are a powerful and reliable tool to win an Prince-Elector's vote.
+hre_can_select_adjacent_reform_level:
+law: electorate_organization_law
+upper_level: 3
+lower_level: 1
+has_currency_to_vote_for_law:
+value: imperial_authority_controversial_law
+Can Revoke Electorship:
+yes
+hre_on_reform_level_passed_effect:
+law: electorate_organization_law
+level: 2
+law_imperial_authority_cost: imperial_authority_controversial_law
+hre_on_reform_level_passed_opinion_effect_all_members:
+strength: controversial
+−1
+Max Prince-Elector
+−1
+Max Archbishop-Elector
+Integrated Electors
+The Prince-Elector are curtailed, and one of their voting rights is transferred to the [GetUniqueInternationalOrganization('hre').GetLeaderTitle].
+hre_has_selected_policy_of_this_law:
+law: electorate_organization_law
+hre_can_select_adjacent_reform_level:
+law: electorate_organization_law
+upper_level: 2
+lower_level: 0
+has_currency_to_vote_for_law:
+value: imperial_authority_opposed_law
+Is Elector:
+yes
+Can Revoke Electorship:
+yes
+hre_on_reform_level_passed_effect:
+law: electorate_organization_law
+level: 1
+law_imperial_authority_cost: imperial_authority_opposed_law
+hre_on_reform_level_passed_opinion_effect_all_members:
+strength: opposed
+custom_tooltip:
+text: integrated_electors_policy_tt
+if:
+limit:
+num_countries_with_special_status(special_status:elector):
+GREATER_THAN_EQUAL: max_countries_with_special_status(special_status:elector)
+ordered_country_with_special_status_of_type:
+type: elector
+order_by:
+value: great_power_score
+multiply: -1
+check_range_bounds: False
+max: 1
+root:
+international_organization_remove_special_status:
+type: special_status:elector
+country: prev
+if:
+limit:
+root:
+international_organization_has_leader: True
+add_opinion:
+target: root.leader_country
+modifier: opinion_rescinded_electorship
+if:
+limit:
+num_countries_with_special_status(special_status:archbishop_elector):
+GREATER_THAN_EQUAL: max_countries_with_special_status(special_status:archbishop_elector)
+ordered_country_with_special_status_of_type:
+type: archbishop_elector
+order_by:
+value: great_power_score
+multiply: -1
+check_range_bounds: False
+max: 1
+root:
+international_organization_remove_special_status:
+type: special_status:archbishop_elector
+country: prev
+if:
+limit:
+root:
+international_organization_has_leader: True
+add_opinion:
+target: root.leader_country
+modifier: opinion_rescinded_electorship
++1
+Emperor-Comfort Policies
+−2
+Max Prince-Elector
+−2
+Max Archbishop-Elector
+Free City Laws
+[
+edit
+|
+edit source
+]
+Free Cities
+[
+edit
+|
+edit source
+]
+The Free Cities of the Holy Roman Empire are self-ruling cities with autonomy. They are usually where Imperial Diet meetings are held.
+Potential
+international_organization_type: international_organization_type:hre
+hre_has_enabled_all_imperial_laws: True
+Allow
+hre_allowed_emperor_reform_proposal: True
+Policy
+Allow
+Country Modifier
+On Activate
+On Deactivate
+International Organization Modifier
+Free Cities Abolished
+The Free Imperial Cities are no more. No town or city will be under the protection of the [GetUniqueInternationalOrganization('hre').GetLeaderTitle].
+hre_has_selected_policy_of_this_law:
+law: free_city_law
+hre_can_select_adjacent_reform_level:
+law: free_city_law
+upper_level: 6
+lower_level: 4
+has_currency_to_vote_for_law:
+value: imperial_authority_prince_very_friendly_law
+hre_on_reform_level_passed_effect:
+law: free_city_law
+level: 5
+law_imperial_authority_cost: imperial_authority_prince_very_friendly_law
+hre_on_reform_level_passed_opinion_effect_all_members:
+strength: prince_very_friendly
+hre_disable_free_cities: True
+hre_enable_free_cities: True
+Unprotected Free Cities
+Free Cities no longer enjoy the protection of the [GetUniqueInternationalOrganization('hre').GetLeaderTitle] when defending themselves from ambitious princes.
+hre_has_selected_policy_of_this_law:
+law: free_city_law
+hre_can_select_adjacent_reform_level:
+law: free_city_law
+upper_level: 5
+lower_level: 3
+has_currency_to_vote_for_law:
+value: imperial_authority_prince_friendly_law
+hre_on_reform_level_passed_effect:
+law: free_city_law
+level: 4
+law_imperial_authority_cost: imperial_authority_prince_friendly_law
+hre_on_reform_level_passed_opinion_effect_all_members:
+strength: prince_friendly
+hre_disable_free_cities_protection: True
+hre_enable_free_cities_protection: True
+Free Cities
+Free Cities are protected by the [GetUniqueInternationalOrganization('hre').GetLeaderTitle] and enjoy extensive autonomy over facilitating trade in their markets.
+hre_can_select_adjacent_reform_level:
+law: free_city_law
+upper_level: 4
+lower_level: 2
+has_currency_to_vote_for_law:
+value: imperial_authority_standard_law
++20.00%
+Trade Capacity
+hre_on_reform_level_passed_effect:
+law: free_city_law
+level: 3
+law_imperial_authority_cost: imperial_authority_standard_law
+Cities of the [GetUniqueInternationalOrganization('hre').GetLeaderTitle]
+Free Cities autonomy is limited by the [GetUniqueInternationalOrganization('hre').GetLeaderTitle]. Though still capable of performing diplomacy of their own, the cities are now one step closer to becoming part of the administration of the [GetUniqueInternationalOrganization('hre').GetLeaderTitle].
+hre_has_selected_policy_of_this_law:
+law: free_city_law
+hre_can_select_adjacent_reform_level:
+law: free_city_law
+upper_level: 3
+lower_level: 1
+hre_num_of_emperor_comfort_policies_active:
+value: 1
+has_currency_to_vote_for_law:
+value: imperial_authority_controversial_law
+hre_on_reform_level_passed_effect:
+law: free_city_law
+level: 2
+law_imperial_authority_cost: imperial_authority_controversial_law
+hre_enable_free_city_subjects: True
+if:
+limit:
+exists: leader_country
+hidden_effect:
+save_temporary_scope_value_as:
+name: average_free_city_antagonism
+value: 0
+save_temporary_scope_value_as:
+name: antagonism_bomb_members
+value: 0
+save_temporary_scope_value_as:
+name: average_free_city_antagonism
+value:
+value: scope:average_free_city_antagonism
+if:
+limit:
+scope:antagonism_bomb_members:
+GREATER_THAN: 0
+divide: scope:antagonism_bomb_members
+every_country_with_special_status_of_type:
+type: free_city
+root.leader_country:
+save_temporary_scope_value_as:
+name: average_free_city_antagonism
+value:
+value: scope:average_free_city_antagonism
+add:
+value: bias_value(antagonism_broke_subject_union)
+multiply:
+value: prev.great_power_score
+divide: 200
+save_temporary_scope_value_as:
+name: antagonism_bomb_members
+value:
+value: scope:antagonism_bomb_members
+add: 1
+if:
+limit:
+exists: scope:average_free_city_antagonism
+custom_tooltip: free_city_subjugation_antagonism_tt
+hre_disable_free_city_subjects: True
+Direct Imperial Cities
+Free Cities are now under the direct administration of the [GetUniqueInternationalOrganization('hre').GetLeaderTitle]. With heavily limited autonomy, the city-states are de facto outposts within the Holy Roman Empire for the Imperial Crown.
+hre_has_selected_policy_of_this_law:
+law: free_city_law
+hre_can_select_adjacent_reform_level:
+law: free_city_law
+upper_level: 2
+lower_level: 0
+hre_num_of_emperor_comfort_policies_active:
+value: 2
+has_currency_to_vote_for_law:
+value: imperial_authority_opposed_law
+hre_on_reform_level_passed_effect:
+law: free_city_law
+level: 1
+law_imperial_authority_cost: imperial_authority_opposed_law
+hre_enable_direct_free_city_subjects: True
+if:
+limit:
+exists: leader_country
+hidden_effect:
+save_temporary_scope_value_as:
+name: average_free_city_antagonism
+value: 0
+save_temporary_scope_value_as:
+name: antagonism_bomb_members
+value: 0
+save_temporary_scope_value_as:
+name: average_free_city_antagonism
+value:
+value: scope:average_free_city_antagonism
+if:
+limit:
+scope:antagonism_bomb_members:
+GREATER_THAN: 0
+divide: scope:antagonism_bomb_members
+every_country_with_special_status_of_type:
+type: free_city
+root.leader_country:
+save_temporary_scope_value_as:
+name: average_free_city_antagonism
+value:
+value: scope:average_free_city_antagonism
+add:
+value: bias_value(antagonism_broke_subject_union)
+multiply:
+value: prev.great_power_score
+divide: 200
+save_temporary_scope_value_as:
+name: antagonism_bomb_members
+value:
+value: scope:antagonism_bomb_members
+add: 1
+if:
+limit:
+exists: scope:average_free_city_antagonism
+custom_tooltip: free_city_subjugation_antagonism_tt
+hre_disable_direct_free_city_subjects: True
++1
+Emperor-Comfort Policies
+Free City Rights
+[
+edit
+|
+edit source
+]
+Obtaining the status of a Free Imperial City is not easy. This exclusive title must be conferred by the [GetUniqueInternationalOrganization('hre').GetLeaderTitle].
+Potential
+international_organization_type: international_organization_type:hre
+hre_has_enabled_all_imperial_laws: True
+Allow
+hre_allowed_emperor_reform_proposal: True
+hre_enabled_free_cities: True
+Policy
+Allow
+On Activate
+Only Germanic Free Cities
+The Holy Roman Empire is first and foremost German, and the privilege of a Free Imperial City reflects this reality.
+has_currency_to_vote_for_law:
+value: imperial_authority_standard_law
+custom_tooltip: german_free_cities_only_policy_at
+Brethren-Cultured Free Cities
+The Empire has a long history with the Netherlandish, Swiss, and Italian. This justifies allowing non-German states to receive the desired Free Imperial City status.
+has_currency_to_vote_for_law:
+value: imperial_authority_standard_law
+custom_tooltip: german_and_german_adjacent_free_cities_policy_at
+Indiscriminate Free City Rights
+The status of a Free Imperial City is no longer tied to geography or culture. Every nation who wishes to may petition the [GetUniqueInternationalOrganization('hre').GetLeaderTitle] for this title.
+has_currency_to_vote_for_law:
+value: imperial_authority_standard_law
+custom_tooltip: empire_wide_free_cities_policy_at
+Military Laws
+[
+edit
+|
+edit source
+]
+Imperial Register
+[
+edit
+|
+edit source
+]
+The Imperial Register is a list that specifies the exact number of troops each estate must supply to the [GetUniqueInternationalOrganization('hre').GetLeaderTitle].
+Potential
+international_organization_type: international_organization_type:hre
+hre_has_enabled_all_imperial_laws: True
+Allow
+hre_allowed_emperor_reform_proposal: True
+Policy
+Allow
+On Activate
+Manpower
+International Organization Modifier
+Payments Implemented
+No Military Contribution
+None of the estates are obligated to provide the [GetUniqueInternationalOrganization('hre').GetLeaderTitle] with additional troops.
+has_currency_to_vote_for_law:
+value: imperial_authority_prince_friendly_law
+hre_has_selected_policy_of_this_law:
+law: military_contribution
+hre_can_select_adjacent_reform_level:
+law: military_contribution
+upper_level: 1
+lower_level: -1
+custom_tooltip: manpower_from_cities_tt
+hre_on_reform_level_passed_effect:
+law: military_contribution
+level: 0
+law_imperial_authority_cost: imperial_authority_prince_friendly_law
+Cities Contribution
+The Free Imperial City are obligated to provide the [GetUniqueInternationalOrganization('hre').GetLeaderTitle] with additional forces.
+has_currency_to_vote_for_law:
+value: imperial_authority_standard_law
+hre_has_selected_policy_of_this_law:
+law: military_contribution
+hre_can_select_adjacent_reform_level:
+law: military_contribution
+upper_level: 2
+lower_level: 0
+custom_tooltip: manpower_from_cities_tt
+hre_on_reform_level_passed_effect:
+law: military_contribution
+level: 1
+law_imperial_authority_cost: imperial_authority_standard_law
+hre_on_reform_level_passed_opinion_effect_free_cities:
+strength: controversial
+imperial_army_contribution
+Electors Contribution
+The Prince-Elector and Archbishop-Elector are obligated to provide the [GetUniqueInternationalOrganization('hre').GetLeaderTitle] with additional forces.
+has_currency_to_vote_for_law:
+value: imperial_authority_standard_law
+hre_has_selected_policy_of_this_law:
+law: military_contribution
+hre_can_select_adjacent_reform_level:
+law: military_contribution
+upper_level: 3
+lower_level: 1
+custom_tooltip: manpower_from_electors_tt
+hre_on_reform_level_passed_effect:
+law: military_contribution
+level: 2
+law_imperial_authority_cost: imperial_authority_standard_law
+hre_on_reform_level_passed_opinion_effect_electors:
+strength: controversial
+imperial_army_contribution
+Princes Contribution
+The Imperial Prince are obligated to provide the [GetUniqueInternationalOrganization('hre').GetLeaderTitle] with additional forces.
+has_currency_to_vote_for_law:
+value: imperial_authority_controversial_law
+hre_has_selected_policy_of_this_law:
+law: military_contribution
+hre_can_select_adjacent_reform_level:
+law: military_contribution
+upper_level: 4
+lower_level: 2
+custom_tooltip: manpower_from_princes_tt
+hre_on_reform_level_passed_effect:
+law: military_contribution
+level: 3
+law_imperial_authority_cost: imperial_authority_controversial_law
+hre_on_reform_level_passed_opinion_effect_all_members:
+strength: controversial
+imperial_army_contribution
+Great Imperial Army
+All members of the Holy Roman Empire are obligated to provide the [GetUniqueInternationalOrganization('hre').GetLeaderTitle] with additional forces.
+has_currency_to_vote_for_law:
+value: imperial_authority_opposed_law
+hre_has_selected_policy_of_this_law:
+law: military_contribution
+hre_can_select_adjacent_reform_level:
+law: military_contribution
+upper_level: 5
+lower_level: 3
+custom_tooltip: great_imperial_army_tt
+hre_on_reform_level_passed_effect:
+law: military_contribution
+level: 4
+law_imperial_authority_cost: imperial_authority_opposed_law
+hre_on_reform_level_passed_opinion_effect_all_members:
+strength: opposed
++1
+Emperor-Comfort Policies
+imperial_army_contribution
+Religious Laws
+[
+edit
+|
+edit source
+]
+Imperial Religion
+[
+edit
+|
+edit source
+]
+The very foundations of the Holy Roman Empire are built on religious beliefs.
+Potential
+international_organization_type: international_organization_type:hre
+Allow
+hre_allowed_emperor_reform_proposal: True
+Locked
+custom_description:
+text: hre_has_locked_law
+subject:
+Imperial Religion
+hre_has_locked_law:
+law: imperial_religion
+Policy
+Allow
+On Activate
+Potential
+Imperial Religion - Catholicism
+The virtues and values of traditional Catholicism dictate life within the Holy Roman Empire.
+hre_has_selected_policy_of_this_law:
+law: imperial_religion
+has_currency_to_vote_for_law:
+value: imperial_authority_standard_law
+hre_on_reform_level_passed_effect:
+law: imperial_religion
+level: 1
+law_imperial_authority_cost: imperial_authority_standard_law
+hre_lock_law:
+law: imperial_religion
+hre_set_imperial_religion:
+type: religion
+value: catholic
+hre_bind_voting_to_religion: True
+Imperial Religion - Lutheranism
+The The Reformation has changed our views on religion forever, making way for Lutheranism to become the religion of the Empire.
+hre_has_selected_policy_of_this_law:
+law: imperial_religion
+has_currency_to_vote_for_law:
+value: imperial_authority_standard_law
+hre_on_reform_level_passed_effect:
+law: imperial_religion
+level: 1
+law_imperial_authority_cost: imperial_authority_standard_law
+hre_lock_law:
+law: imperial_religion
+hre_set_imperial_religion:
+type: religion
+value: lutheran
+hre_bind_voting_to_religion: True
+religion:lutheran:
+is_religion_enabled: True
+Imperial Religion - Hussitism
+The Western Schism has exposed the world to the Hussitism teachings which now dominate the Imperial life.
+hre_has_selected_policy_of_this_law:
+law: imperial_religion
+has_currency_to_vote_for_law:
+value: imperial_authority_standard_law
+hre_on_reform_level_passed_effect:
+law: imperial_religion
+level: 1
+law_imperial_authority_cost: imperial_authority_standard_law
+hre_lock_law:
+law: imperial_religion
+hre_set_imperial_religion:
+type: religion
+value: hussite
+hre_bind_voting_to_religion: True
+religion:hussite:
+is_religion_enabled: True
+Imperial Religion - Calvinism
+Our faith in Calvinism is strong, and should be a foundational part of the Empire from now on. It is therefore our sacred calling to follow Calvinism teachings.
+hre_has_selected_policy_of_this_law:
+law: imperial_religion
+has_currency_to_vote_for_law:
+value: imperial_authority_standard_law
+hre_on_reform_level_passed_effect:
+law: imperial_religion
+level: 1
+law_imperial_authority_cost: imperial_authority_standard_law
+hre_lock_law:
+law: imperial_religion
+hre_set_imperial_religion:
+type: religion
+value: calvinist
+hre_bind_voting_to_religion: True
+religion:calvinist:
+is_religion_enabled: True
+Imperial Religion - Christianity
+The finer matters of religion are no longer of such importance. All of Christianity shall be embraced as the religion of the Empire, no matter the sect.
+hre_has_selected_policy_of_this_law:
+law: imperial_religion
+has_currency_to_vote_for_law:
+value: imperial_authority_standard_law
+hre_on_reform_level_passed_effect:
+law: imperial_religion
+level: 1
+law_imperial_authority_cost: imperial_authority_standard_law
+hre_lock_law:
+law: imperial_religion
+hre_set_imperial_religion:
+type: religion_group
+value: christian
+international_organization:hre:
+remove_variable: hre_imperial_religion
+hre_bind_voting_to_religion_group: True
+At least one of:
+religion:lutheran:
+is_religion_enabled: True
+religion:hussite:
+is_religion_enabled: True
+religion:calvinist:
+is_religion_enabled: True
+Electorate Religious Law
+[
+edit
+|
+edit source
+]
+Religion is a major pillar of the Holy Roman Empire for Emperors and Prince-Elector alike.
+Potential
+international_organization_type: international_organization_type:hre
+Allow
+hre_allowed_emperor_reform_proposal: True
+Locked
+custom_description:
+text: hre_has_locked_law
+subject:
+Electorate Religious Law
+hre_has_locked_law:
+law: electorate_religion_law
+Policy
+Allow
+On Activate
+Only Imperial Religion Group
+Prince-Elector are free to adhere to whichever denominations of our state religion they prefer. This does not, however, condone heathenry, which will not be tolerated.
+hre_has_selected_policy_of_this_law:
+law: electorate_religion_law
+has_currency_to_vote_for_law:
+value: imperial_authority_standard_law
+hre_on_reform_level_passed_effect:
+law: electorate_religion_law
+level: 2
+law_imperial_authority_cost: imperial_authority_standard_law
+hre_lock_law:
+law: electorate_religion_law
+hre_bind_electorship_to_religion_group: True
+Only Imperial Religion
+Prince-Elector are requied follow the Imperial religion in order to maintain their status.
+hre_has_selected_policy_of_this_law:
+law: electorate_religion_law
+has_currency_to_vote_for_law:
+value: imperial_authority_standard_law
+hre_on_reform_level_passed_effect:
+law: electorate_religion_law
+level: 1
+law_imperial_authority_cost: imperial_authority_standard_law
+hre_lock_law:
+law: electorate_religion_law
+hre_bind_electorship_to_religion: True
+Socioeconomic Laws
+[
+edit
+|
+edit source
+]
+Imperial Tax Law
+[
+edit
+|
+edit source
+]
+The Holy Roman Empire requires gold to function like any other political entity. A series of tax laws can be applied to siphon gold from the members to ensure financial stability of the Empire.
+Potential
+international_organization_type: international_organization_type:hre
+Allow
+hre_allowed_emperor_reform_proposal: True
+Locked
+hre_has_enabled_all_imperial_laws: False
+Policy
+Allow
+Country Modifier
+On Activate
+Gold
+International Organization Modifier
+Payments Implemented
+No Taxation
+The empire is in no need of additional gold. Lifting the taxation burdens of its members allows the administration to focus on other tasks instead.
+hre_can_select_adjacent_reform_level:
+law: monetary_contribution
+upper_level: 1
+lower_level: -1
+has_currency_to_vote_for_law:
+value: imperial_authority_standard_law
++5.00%
+Efficiency of Our Cabinet
+hre_on_reform_level_passed_effect:
+law: monetary_contribution
+level: 0
+law_imperial_authority_cost: imperial_authority_standard_law
+Treasury Taxation
+While the [GetUniqueInternationalOrganization('hre').GetLeaderTitle] can open their own coffers to solve many issues, a financial buffer in the form of a proper treasury would allow the current and future emperors to better finance internal affairs in the Holy Roman Empire.
+hre_has_selected_policy_of_this_law:
+law: monetary_contribution
+hre_can_select_adjacent_reform_level:
+law: monetary_contribution
+upper_level: 2
+lower_level: 0
+has_currency_to_vote_for_law:
+value: imperial_authority_standard_law
++0.05
+Monthly Prestige
+hre_on_reform_level_passed_effect:
+law: monetary_contribution
+level: 1
+law_imperial_authority_cost: imperial_authority_standard_law
+Unlock Contribute to Organization Treasury:
+yes
+imperial_treasury_contribution
+Direct Taxation
+The Roman Month is not enough to cover the protection of the Holy Roman Empire. A new tax needs to be established which directly finances the [GetUniqueInternationalOrganization('hre').GetLeaderTitle].
+hre_has_selected_policy_of_this_law:
+law: monetary_contribution
+hre_can_select_adjacent_reform_level:
+law: monetary_contribution
+upper_level: 2
+lower_level: 0
+has_currency_to_vote_for_law:
+value: imperial_authority_controversial_law
++0.05
+Monthly Prestige
+hre_on_reform_level_passed_effect:
+law: monetary_contribution
+level: 1
+law_imperial_authority_cost: imperial_authority_controversial_law
+hre_on_reform_level_passed_opinion_effect_all_members:
+strength: controversial
+imperial_contribution
+Imperial Taxation
+Only the taxation of all our member states can sustain the financial challenges of the Holy Roman Empire.
+hre_has_selected_policy_of_this_law:
+law: monetary_contribution
+hre_can_select_adjacent_reform_level:
+law: monetary_contribution
+upper_level: 3
+lower_level: 1
+has_currency_to_vote_for_law:
+value: imperial_authority_opposed_law
++0.10
+Monthly Prestige
+hre_on_reform_level_passed_effect:
+law: monetary_contribution
+level: 2
+law_imperial_authority_cost: imperial_authority_opposed_law
+hre_on_reform_level_passed_opinion_effect_all_members:
+strength: opposed
++1
+Emperor-Comfort Policies
+Unlock Contribute to Organization Treasury:
+yes
+imperial_contribution
+imperial_treasury_contribution
+Japanese Shogunate
+[
+edit
+|
+edit source
+]
+Administrative Laws
+[
+edit
+|
+edit source
+]
+Clan Residence
+[
+edit
+|
+edit source
+]
+There should be clear laws defining where the leaders of the different clans must reside, to properly keep the balance of power.
+Potential
+international_organization_type: international_organization_type:japanese_shogunate
+Allow
+leader_country:
+at_war: False
+stability:
+GREATER_THAN_EQUAL: stability_extreme_bonus
+situation:nanbokuchou:
+situation_has_ended: True
+Requires Vote
+Policy
+On Activate
+On Pay Price
+Potential
+Appointed Posts
+The various clan leaders have specific posts appointed by the [GetUniqueInternationalOrganization('japanese_shogunate').GetLeaderTitle], to whom they own their allegiance. This allows flexibility in how the country is administred.
+custom_tooltip: enable_grant_shugo_office_tt
+custom_tooltip: enable_revoke_shugo_office_tt
+custom_tooltip: enable_claim_shugo_office_tt
+international_organization:japanese_shogunate.leader_country:
+add_stability: stability_extreme_penalty
+Established Domains
+The clans have their own domains, to which they have hereditary rights. This will free the bureaucracy of the Japanese Shogunate and allow it to focus on more important tasks, but will also strengthen the power of the clans.
+custom_tooltip: enable_claim_shugo_office_tt
+international_organization:japanese_shogunate.leader_country:
+add_stability: stability_extreme_penalty
+Sankin-kōtai
+The Sankin-kōtai is a system where the vassals of the Japanese Shogunate alternate between the capital and their lands. When in the capital, they are naturally expected to display their wealth, and that financial burden should use up enough of their funds to prevent any mischief.
+international_organization:japanese_shogunate.leader_country:
+add_stability: stability_extreme_penalty
+Not:
+is_situation_active: situation:sengoku
+Military Laws
+[
+edit
+|
+edit source
+]
+Buke Shohatto
+[
+edit
+|
+edit source
+]
+A series of edicts defining the proper behavior of the samurai. They are designed to inspire the samurai to improve themselves.
+Potential
+international_organization_type: international_organization_type:japanese_shogunate
+international_organization_has_unlocked_law_trigger:
+type: jap_buke_shohatto
+Allow
+leader_country:
+at_war: False
+stability:
+GREATER_THAN_EQUAL: stability_extreme_bonus
+Requires Vote
+Policy
+Country Modifier
+On Pay Price
+Enforced Buke Shohatto
+Our samurai have a clear model to follow for self-improvement, and they are obligated to abide by it.
++0.10
+Monthly Progress to Quality
++0.10
+Monthly Progress to Aristocracy
++0.10
+Monthly Army Tradition
+−5.00%
+Noble Estate Satisfaction Equilibrium
+international_organization:japanese_shogunate.leader_country:
+add_stability: stability_extreme_penalty
+Buke Shohatto Guidelines
+The Buke Shohatto is considered a set of general guidelines rather than hard rules, and serves as a romantic ideal to emulate rather than a strict code to obey.
++0.10
+Monthly Progress to Humanist
++0.10
+Monthly Progress to Decentralization
++10.00%
+Cultural Tradition %
+−5.00%
+Peasant Estate Satisfaction Equilibrium
+international_organization:japanese_shogunate.leader_country:
+add_stability: stability_extreme_penalty
+Socioeconomic Laws
+[
+edit
+|
+edit source
+]
+Overseas Interaction
+[
+edit
+|
+edit source
+]
+Japan has always had the luxury of being separated from other countries by the sea. This distance makes closing our borders to the outside world very easy.
+Potential
+international_organization_type: international_organization_type:japanese_shogunate
+Allow
+leader_country:
+at_war: False
+stability:
+GREATER_THAN_EQUAL: stability_extreme_bonus
+situation:sengoku:
+situation_has_ended: True
+Requires Vote
+Policy
+Country Modifier
+On Pay Price
+Sakoku
+Free from outside influences, our territory is sure to improve its productivity and economic growth.
+Foreigners Banned from Imports and Exports:
+yes
+−20.00%
+Stability Investment Cost
++0.20
+Monthly Progress to Inward
+international_organization:japanese_shogunate.leader_country:
+add_stability: stability_extreme_penalty
+Opened the Country
+With our borders open to the world, both trade and new ideas can flow freely through through.
++50.00%
+Stability Investment Cost
++5.00%
+Monthly Research Progress %
+international_organization:japanese_shogunate.leader_country:
+add_stability: stability_extreme_penalty
+Jurchen Confederation
+[
+edit
+|
+edit source
+]
+Administrative Laws
+[
+edit
+|
+edit source
+]
+Administration Law
+[
+edit
+|
+edit source
+]
+This law defines the way our people will be administered.
+Potential
+international_organization_type: international_organization_type:jurchen_confederation
+Allow
+leader_country:
+tribal_cohesion:
+GREATER_THAN: 10
+Locked
+custom_tooltip:
+text: 5_years_cd
+leader_country:
+has_variable: local_adm_law_cooldown_variable
+Requires Vote
+Policy
+Country Modifier
+Time to implement
+On Activate
+Tribal Administration
+Administration will be handled at a tribal level, with each tribal leader making the decisions for their group.
++0.10
+Monthly Progress to Unsinicized
++0.10
+Monthly Progress to Decentralization
++0.03
+Monthly Tribal Cohesion
+5 years
+leader_country:
+set_variable:
+name: local_adm_law_cooldown_variable
+value: True
+years: 5
+add_tribal_cohesion: tribal_cohesion_weak_penalty
+if:
+limit:
+ruler_or_regent:
+has_variable: difficult_sinicization_variable
+add_tribal_cohesion: tribal_cohesion_mild_penalty
+add_stability: stability_mild_penalty
+every_international_organization_member:
+change_societal_value:
+type: centralization_vs_decentralization
+value: societal_value_minor_move_to_right
+Sinicized Administration
+Administration will be handled at a confederation level, with the leader directing our people.
++0.10
+Monthly Progress to Centralization
++0.10
+Monthly Progress to Sinicized
++5.00%
+Efficiency of Our Cabinet
+−0.05
+Monthly Tribal Cohesion
+5 years
+leader_country:
+set_variable:
+name: local_adm_law_cooldown_variable
+value: True
+years: 5
+add_tribal_cohesion: tribal_cohesion_weak_penalty
+if:
+limit:
+ruler_or_regent:
+has_variable: difficult_sinicization_variable
+add_tribal_cohesion: tribal_cohesion_mild_penalty
+add_stability: stability_mild_penalty
+every_international_organization_member:
+change_societal_value:
+type: centralization_vs_decentralization
+value: societal_value_minor_move_to_left
+Bureaucratic Law
+[
+edit
+|
+edit source
+]
+This law lays out the legal framework employed by our bureaucracy.
+Potential
+international_organization_type: international_organization_type:jurchen_confederation
+Allow
+leader_country:
+tribal_cohesion:
+GREATER_THAN: 10
+Locked
+custom_tooltip:
+text: 5_years_cd
+leader_country:
+has_variable: legal_law_cooldown_variable
+Requires Vote
+Policy
+Country Modifier
+Time to implement
+On Activate
+No Legal Framework
+No legal framework will be set.
++0.20%
+Stability Decay
++0.05
+Monthly Tribal Cohesion
++0.10
+Monthly Progress to Unsinicized
+5 years
+leader_country:
+set_variable:
+name: legal_law_cooldown_variable
+value: True
+years: 5
+add_tribal_cohesion: tribal_cohesion_weak_penalty
+if:
+limit:
+ruler_or_regent:
+has_variable: difficult_sinicization_variable
+add_tribal_cohesion: tribal_cohesion_mild_penalty
+add_stability: stability_mild_penalty
+Basic Legal Framework
+A basic framework will be set.
++0.05
+Monthly Progress to Centralization
+−5.00%
+Proximity Cost
+−0.03
+Monthly Tribal Cohesion
+5 years
+leader_country:
+set_variable:
+name: legal_law_cooldown_variable
+value: True
+years: 5
+add_tribal_cohesion: tribal_cohesion_weak_penalty
+if:
+limit:
+ruler_or_regent:
+has_variable: difficult_sinicization_variable
+add_tribal_cohesion: tribal_cohesion_mild_penalty
+add_stability: stability_mild_penalty
+Sinicized Legal Framework
+A Chinese bureaucratic system will be set.
++0.05
+Monthly Progress to Centralization
++0.10
+Monthly Progress to Sinicized
+−10.00%
+Proximity Cost
+−0.10
+Monthly Tribal Cohesion
+5 years
+leader_country:
+set_variable:
+name: legal_law_cooldown_variable
+value: True
+years: 5
+add_tribal_cohesion: tribal_cohesion_weak_penalty
+if:
+limit:
+ruler_or_regent:
+has_variable: difficult_sinicization_variable
+add_tribal_cohesion: tribal_cohesion_mild_penalty
+add_stability: stability_mild_penalty
+Unification Law
+[
+edit
+|
+edit source
+]
+States whether the tribes of the Confederation can either act independently, or be forced to submit to a central authority.
+Potential
+international_organization_type: international_organization_type:jurchen_confederation
+total_members:
+GREATER_THAN: 1
+Requires Vote
+Policy
+Allow
+Time to implement
+On Fully Activated
+Bid for Unification
+The time to unite our decentralized tribes under a central authority has come! By adopting a more sophisticated social framework, we can make a bid to unite all tribes under our Confederation.
+leader_country:
+tribal_cohesion:
+GREATER_THAN: 10
+At least one of:
+societal_value:centralization_vs_decentralization:
+LESS_THAN: -75
+societal_value:sinicized_vs_unsinicized:
+LESS_THAN: -75
+5 years
+leader_country:
+trigger_event_non_silently: jurchen_confederation_events.17
+custom_tooltip: will_ask_members_to_submit_tt
+Delegated Authority
+Every local tribe of the confederation has its own authority, and can make decisions and operate independently.
+Estate Laws
+[
+edit
+|
+edit source
+]
+Court Etiquette Law
+[
+edit
+|
+edit source
+]
+This law establishes which court etiquette rules will be applied.
+Potential
+international_organization_type: international_organization_type:jurchen_confederation
+Allow
+leader_country:
+tribal_cohesion:
+GREATER_THAN: 10
+Locked
+custom_tooltip:
+text: 5_years_cd
+leader_country:
+has_variable: court_law_cooldown_variable
+Requires Vote
+Policy
+Country Modifier
+Time to implement
+On Activate
+No Court Etiquette
+No specific rules will be enforced at court.
+−1.00%
+Expected Cost of Court
++0.02
+Monthly Tribal Cohesion
++0.10
+Monthly Progress to Unsinicized
+5 years
+leader_country:
+set_variable:
+name: court_law_cooldown_variable
+value: True
+years: 5
+add_tribal_cohesion: tribal_cohesion_weak_penalty
+if:
+limit:
+ruler_or_regent:
+has_variable: difficult_sinicization_variable
+add_tribal_cohesion: tribal_cohesion_mild_penalty
+add_stability: stability_mild_penalty
+Basic Court Etiquette
+Basic rules will be enforced at court.
++1.00
+Diplomatic Reputation
+−1.00%
+Expected Cost of Court
++0.10
+Monthly Progress to Sinicized
+5 years
+leader_country:
+set_variable:
+name: court_law_cooldown_variable
+value: True
+years: 5
+add_tribal_cohesion: tribal_cohesion_weak_penalty
+if:
+limit:
+ruler_or_regent:
+has_variable: difficult_sinicization_variable
+add_tribal_cohesion: tribal_cohesion_mild_penalty
+add_stability: stability_mild_penalty
+Sinicized Court Etiquette
+Rules inspired by the Chinese court will be enforced at ours.
++1.00%
+Expected Cost of Court
++0.10
+Monthly Progress to Sinicized
++0.05
+Monthly Prestige
+−0.05
+Monthly Tribal Cohesion
+5 years
+leader_country:
+set_variable:
+name: court_law_cooldown_variable
+value: True
+years: 5
+add_tribal_cohesion: tribal_cohesion_weak_penalty
+if:
+limit:
+ruler_or_regent:
+has_variable: difficult_sinicization_variable
+add_tribal_cohesion: tribal_cohesion_mild_penalty
+add_stability: stability_mild_penalty
+Socioeconomic Laws
+[
+edit
+|
+edit source
+]
+Clan Taxation Law
+[
+edit
+|
+edit source
+]
+This law defines the level of Taxation that will be applied to our people.
+Potential
+international_organization_type: international_organization_type:jurchen_confederation
+Allow
+leader_country:
+tribal_cohesion:
+GREATER_THAN: 10
+Locked
+custom_tooltip:
+text: 5_years_cd
+leader_country:
+has_variable: tax_law_cooldown_variable
+Requires Vote
+Policy
+Country Modifier
+Time to implement
+On Activate
+No Tax Obligations
+Our people will not be subject to taxation.
++2.50%
+Estates Satisfaction Equilibrium
++0.01
+Monthly Tribal Cohesion
++0.10
+Monthly Progress to Unsinicized
+5 years
+leader_country:
+set_variable:
+name: tax_law_cooldown_variable
+value: True
+years: 5
+add_tribal_cohesion: tribal_cohesion_weak_penalty
+if:
+limit:
+ruler_or_regent:
+has_variable: difficult_sinicization_variable
+add_tribal_cohesion: tribal_cohesion_mild_penalty
+add_stability: stability_mild_penalty
+Fair Tax Obligations
+Our people will pay basic taxes.
++10.00%
+Tax Efficiency
++0.10
+Monthly Progress to Sinicized
+−0.03
+Monthly Tribal Cohesion
+5 years
+leader_country:
+set_variable:
+name: tax_law_cooldown_variable
+value: True
+years: 5
+add_tribal_cohesion: tribal_cohesion_weak_penalty
+if:
+limit:
+ruler_or_regent:
+has_variable: difficult_sinicization_variable
+add_tribal_cohesion: tribal_cohesion_mild_penalty
+add_stability: stability_mild_penalty
+Extensive Tax Obligations
+Our people will pay normal taxes, plus additional taxes related to luxury articles.
++10.00%
+Tax Efficiency
+−0.05
+Monthly Tribal Cohesion
+−5.00%
+Estates Satisfaction Equilibrium
++0.10
+Monthly Progress to Sinicized
+5 years
+leader_country:
+set_variable:
+name: tax_law_cooldown_variable
+value: True
+years: 5
+add_tribal_cohesion: tribal_cohesion_weak_penalty
+if:
+limit:
+ruler_or_regent:
+has_variable: difficult_sinicization_variable
+add_tribal_cohesion: tribal_cohesion_mild_penalty
+add_stability: stability_mild_penalty
+Formal Script Law
+[
+edit
+|
+edit source
+]
+This law declares which script or writing system must be used to write official documentation.
+Potential
+international_organization_type: international_organization_type:jurchen_confederation
+Allow
+leader_country:
+tribal_cohesion:
+GREATER_THAN: 5
+Locked
+custom_tooltip:
+text: 5_years_cd
+leader_country:
+has_variable: script_law_cooldown_variable
+Requires Vote
+Policy
+Country Modifier
+Time to implement
+On Activate
+Mongolian Script
+Mongolian script will be used.
++0.10
+Monthly Progress to Traditionalist
++0.10
+Monthly Progress to Unsinicized
++0.03
+Monthly Tribal Cohesion
+5 years
+leader_country:
+set_variable:
+name: script_law_cooldown_variable
+value: True
+years: 5
+add_tribal_cohesion: tribal_cohesion_weak_penalty
+if:
+limit:
+ruler_or_regent:
+has_variable: difficult_sinicization_variable
+add_tribal_cohesion: tribal_cohesion_mild_penalty
+add_stability: stability_mild_penalty
+every_international_organization_member:
+change_societal_value:
+type: traditionalist_vs_innovative
+value: societal_value_large_move_to_left
+Sinicized Writing
+The Chinese system of writing will be used.
++5.00%
+Monthly Research Progress %
++0.10
+Monthly Progress to Sinicized
++0.05
+Monthly Progress to Centralization
+−0.05
+Monthly Tribal Cohesion
+5 years
+leader_country:
+set_variable:
+name: script_law_cooldown_variable
+value: True
+years: 5
+add_tribal_cohesion: tribal_cohesion_weak_penalty
+if:
+limit:
+ruler_or_regent:
+has_variable: difficult_sinicization_variable
+add_tribal_cohesion: tribal_cohesion_mild_penalty
+add_stability: stability_mild_penalty
+every_international_organization_member:
+change_societal_value:
+type: centralization_vs_decentralization
+value: societal_value_move_to_left
+Economic Law
+[
+edit
+|
+edit source
+]
+This law defines the distribution of all crops grown in our settlements.
+Potential
+international_organization_type: international_organization_type:jurchen_confederation
+Allow
+leader_country:
+tribal_cohesion:
+GREATER_THAN: 10
+Locked
+custom_tooltip:
+text: 5_years_cd
+leader_country:
+has_variable: economic_framework_cooldown_variable
+Requires Vote
+Policy
+Country Modifier
+Time to implement
+On Activate
+Shared Crops
+Settlements are encouraged to trade crops between them.
++0.10
+Monthly Progress to Traditional Economy
++10.00%
+Food Production %
++0.10
+Monthly Progress to Unsinicized
++0.03
+Monthly Tribal Cohesion
+5 years
+leader_country:
+set_variable:
+name: economic_framework_cooldown_variable
+value: True
+years: 5
+add_tribal_cohesion: tribal_cohesion_weak_penalty
+if:
+limit:
+ruler_or_regent:
+has_variable: difficult_sinicization_variable
+add_tribal_cohesion: tribal_cohesion_mild_penalty
+add_stability: stability_mild_penalty
+Decentralized Farming Villages
+Settlements are meant to be self-sustaining.
++0.05
+Monthly Progress to Traditional Economy
++0.10
+Monthly Progress to Sinicized
++0.02
+Stability Investment
+5 years
+leader_country:
+set_variable:
+name: economic_framework_cooldown_variable
+value: True
+years: 5
+add_tribal_cohesion: tribal_cohesion_weak_penalty
+if:
+limit:
+ruler_or_regent:
+has_variable: difficult_sinicization_variable
+add_tribal_cohesion: tribal_cohesion_mild_penalty
+add_stability: stability_mild_penalty
+Resource Extraction Bureaus
+Distribution of crops between settlements will be carried out at the highest level.
++20.00%
+Maximum RGO Size
++0.10
+Monthly Progress to Capital Economy
++0.10
+Monthly Progress to Sinicized
+−0.05
+Monthly Tribal Cohesion
+5 years
+leader_country:
+set_variable:
+name: economic_framework_cooldown_variable
+value: True
+years: 5
+add_tribal_cohesion: tribal_cohesion_weak_penalty
+if:
+limit:
+ruler_or_regent:
+has_variable: difficult_sinicization_variable
+add_tribal_cohesion: tribal_cohesion_mild_penalty
+add_stability: stability_mild_penalty
+Trade Relations Law
+[
+edit
+|
+edit source
+]
+This law sets out constraints for trade partnerships.
+Potential
+international_organization_type: international_organization_type:jurchen_confederation
+Allow
+leader_country:
+tribal_cohesion:
+GREATER_THAN: 10
+Locked
+custom_tooltip:
+text: 5_years_cd
+leader_country:
+has_variable: trade_law_cooldown_variable
+Requires Vote
+Policy
+Country Modifier
+Time to implement
+On Activate
+Restricted Clan Trade
+Trade will be restricted to exchanges between clans.
++15.00%
+Market Protection
++0.10
+Monthly Progress to Unsinicized
++0.03
+Monthly Tribal Cohesion
++0.10
+Monthly Progress to Mercantilism
+5 years
+leader_country:
+set_variable:
+name: trade_law_cooldown_variable
+value: True
+years: 5
+add_tribal_cohesion: tribal_cohesion_weak_penalty
+if:
+limit:
+ruler_or_regent:
+has_variable: difficult_sinicization_variable
+add_tribal_cohesion: tribal_cohesion_mild_penalty
+add_stability: stability_mild_penalty
+Allow Foreign Exchanges
+Trade will be free for our people.
++0.10
+Monthly Progress to Sinicized
++0.10%
+Monthly Prosperity
++25.00%
+Institution Growth
+−0.05
+Monthly Tribal Cohesion
+5 years
+leader_country:
+set_variable:
+name: trade_law_cooldown_variable
+value: True
+years: 5
+add_tribal_cohesion: tribal_cohesion_weak_penalty
+if:
+limit:
+ruler_or_regent:
+has_variable: difficult_sinicization_variable
+add_tribal_cohesion: tribal_cohesion_mild_penalty
+add_stability: stability_mild_penalty
+Chinese Tribute
+Trade with China will be allowed.
++10.00%
+Pop Migration Speed
++0.10
+Monthly Progress to Sinicized
++1.00%
+Trade Efficiency
+−0.03
+Monthly Tribal Cohesion
+5 years
+leader_country:
+set_variable:
+name: trade_law_cooldown_variable
+value: True
+years: 5
+add_tribal_cohesion: tribal_cohesion_weak_penalty
+if:
+limit:
+ruler_or_regent:
+has_variable: difficult_sinicization_variable
+add_tribal_cohesion: tribal_cohesion_mild_penalty
+add_stability: stability_mild_penalty
+Clan Diplomacy Law
+[
+edit
+|
+edit source
+]
+This law describes how diplomacy will be handled by our people.
+Potential
+international_organization_type: international_organization_type:jurchen_confederation
+Allow
+leader_country:
+tribal_cohesion:
+GREATER_THAN: 10
+Locked
+custom_tooltip:
+text: 5_years_cd
+leader_country:
+has_variable: diplomacy_law_cooldown_variable
+Requires Vote
+Policy
+Country Modifier
+Time to implement
+On Activate
+No Embassies
+No embassies can be set anywhere.
++0.10
+Monthly Progress to Unsinicized
++0.10
+Monthly Progress to Belligerent
++0.03
+Monthly Tribal Cohesion
+5 years
+leader_country:
+set_variable:
+name: diplomacy_law_cooldown_variable
+value: True
+years: 5
+add_tribal_cohesion: tribal_cohesion_weak_penalty
+if:
+limit:
+ruler_or_regent:
+has_variable: difficult_sinicization_variable
+add_tribal_cohesion: tribal_cohesion_mild_penalty
+add_stability: stability_mild_penalty
+Clan Embassies
+Clans will be allowed to carry out their own diplomatic actions.
++0.10
+Monthly Progress to Sinicized
++1.00
+Diplomatic Capacity
++0.03
+Antagonism Change Modifier
+−0.03
+Monthly Tribal Cohesion
+5 years
+leader_country:
+set_variable:
+name: diplomacy_law_cooldown_variable
+value: True
+years: 5
+add_tribal_cohesion: tribal_cohesion_weak_penalty
+if:
+limit:
+ruler_or_regent:
+has_variable: difficult_sinicization_variable
+add_tribal_cohesion: tribal_cohesion_mild_penalty
+add_stability: stability_mild_penalty
+Allow Chinese Embassies
+Diplomatic actions will be carried out at the highest level, following Chinese rules.
++0.10
+Monthly Progress to Sinicized
++0.05
+Monthly Progress to Centralization
+−0.05
+Monthly Tribal Cohesion
+5 years
+leader_country:
+set_variable:
+name: diplomacy_law_cooldown_variable
+value: True
+years: 5
+add_tribal_cohesion: tribal_cohesion_weak_penalty
+if:
+limit:
+ruler_or_regent:
+has_variable: difficult_sinicization_variable
+add_tribal_cohesion: tribal_cohesion_mild_penalty
+add_stability: stability_mild_penalty
+Middle Kingdom
+[
+edit
+|
+edit source
+]
+Administrative Laws
+[
+edit
+|
+edit source
+]
+Provincial Governorship
+[
+edit
+|
+edit source
+]
+The vastness of the Middle Kingdom is unparalleled. In order to effectively rule our massive holdings, we shall establish a system of provincial administrators.
+Potential
+international_organization_type: international_organization_type:middle_kingdom
+Allow
+has_variable: celestial_authority
+var:celestial_authority:
+GREATER_THAN: celestial_authority_very_strong_bonus
+leader_country:
+government_power:
+GREATER_THAN_EQUAL: 25
+leader_country:
+gold:
+GREATER_THAN_EQUAL:
+value: this.monthly_income_trade_and_tax
+multiply:
+value: 6
+add:
+value: 1
+multiply:
+value: international_organization:middle_kingdom.total_members
+divide: 10
+max: 100000
+Requires Vote
+Policy
+On Activate
+On Pay Price
+Potential
+Curtailed Governors
+Provincial governors only spread corruption and laziness. We must keep them on a short leash so that the authority of the central government is not diluted even in the most faraway regions.
+change_celestial_authority:
+value: celestial_authority_very_strong_penalty
+international_organization:middle_kingdom:
+leader_country:
+add_government_power: government_power_ultimate_penalty
+add_gold:
+value: this.monthly_income_trade_and_tax
+multiply:
+value: -6
+add:
+value: -1
+multiply:
+value: international_organization:middle_kingdom.total_members
+divide: 10
+min: -100000
+Established Provincial Governors
+The position of provincial governor is prestigious, and very much in demand. Established governors with clearly assigned territory and administration duties will allow the cogs of our government to turn more smoothly.
+change_celestial_authority:
+value: celestial_authority_very_strong_penalty
+international_organization:middle_kingdom:
+leader_country:
+add_government_power: government_power_ultimate_penalty
+add_gold:
+value: this.monthly_income_trade_and_tax
+multiply:
+value: -6
+add:
+value: -1
+multiply:
+value: international_organization:middle_kingdom.total_members
+divide: 10
+min: -100000
+Zǒngdū
+The territory of the Middle Kingdom is too vast for simple governors to handle. Let us establish the position of the Zǒngdū, a viceroy overseeing more than one province. They will be directing the provincial affairs as the [GetUniqueInternationalOrganization('middle_kingdom').GetLeaderTitle]'s representative so that the less crucial matters do not have to be reported to the capital.
+change_celestial_authority:
+value: celestial_authority_very_strong_penalty
+international_organization:middle_kingdom:
+leader_country:
+add_government_power: government_power_ultimate_penalty
+add_gold:
+value: this.monthly_income_trade_and_tax
+multiply:
+value: -6
+add:
+value: -1
+multiply:
+value: international_organization:middle_kingdom.total_members
+divide: 10
+min: -100000
+The Gǎitǔguīliú System
+The native Chieftains in remote prefectures, also known as Tǔsī, are hereditary rulers of local minorities. These leaders might seem useful now and then due to their ties with the locals, but they have frequently proven to be a long-term risk to regional stability. By slowly replacing them with officials appointed by the central government, maintaining tranquillity on a regional level will become easier.
+international_organization:middle_kingdom:
+leader_country:
+custom_tooltip: unlock_gaituguiliu_tt
+change_celestial_authority:
+value: celestial_authority_very_strong_penalty
+international_organization:middle_kingdom:
+leader_country:
+add_government_power: government_power_ultimate_penalty
+add_gold:
+value: this.monthly_income_trade_and_tax
+multiply:
+value: -6
+add:
+value: -1
+multiply:
+value: international_organization:middle_kingdom.total_members
+divide: 10
+min: -100000
+custom_tooltip: unlock_gaituguiliu_tt
+Lǐfān Yuàn
+To manage the numerous subjects and lesser states from outlying regions within and beyond the Imperial border, the Ministry of Rites is now deemed to be insufficient and inappropriate. We shall establish an office that focuses on dealing with them.
+change_celestial_authority:
+value: celestial_authority_very_strong_penalty
+international_organization:middle_kingdom:
+leader_country:
+add_government_power: government_power_ultimate_penalty
+add_gold:
+value: this.monthly_income_trade_and_tax
+multiply:
+value: -6
+add:
+value: -1
+multiply:
+value: international_organization:middle_kingdom.total_members
+divide: 10
+min: -100000
+international_organization:middle_kingdom:
+leader_country:
+culture:
+has_culture_group: Jurchen
+Tiānxià
+[
+edit
+|
+edit source
+]
+The concepts of our territorial influence and expansion are guaranteed by our right to rule, which is granted by Heaven itself.
+Potential
+international_organization_type: international_organization_type:middle_kingdom
+Allow
+has_variable: celestial_authority
+var:celestial_authority:
+GREATER_THAN: celestial_authority_very_strong_bonus
+leader_country:
+government_power:
+GREATER_THAN_EQUAL: 25
+leader_country:
+gold:
+GREATER_THAN_EQUAL:
+value: this.monthly_income_trade_and_tax
+multiply:
+value: 6
+add:
+value: 1
+multiply:
+value: international_organization:middle_kingdom.total_members
+divide: 10
+max: 100000
+Requires Vote
+Policy
+On Activate
+On Pay Price
+Expand the Tiānxià
+The sovereignty of the Middle Kingdom and its right to rule shall remain undisputed so long as its divine duty is enforced. All those under Heaven are protected by the Dragon Throne, as various subjects bowing to it.
+international_organization:middle_kingdom:
+custom_tooltip:
+text: chi_have_extra_celestial_governor_tt
+change_celestial_authority:
+value: celestial_authority_very_strong_penalty
+international_organization:middle_kingdom:
+leader_country:
+add_government_power: government_power_ultimate_penalty
+add_gold:
+value: this.monthly_income_trade_and_tax
+multiply:
+value: -6
+add:
+value: -1
+multiply:
+value: international_organization:middle_kingdom.total_members
+divide: 10
+min: -100000
+Restrict the Tiānxià
+Only the direct authority of the Middle Kingdom can be entrusted to rule all under Heaven. The Dragon Throne cannot belittle itself by delegating its authority to lesser countries.
+change_celestial_authority:
+value: celestial_authority_very_strong_penalty
+international_organization:middle_kingdom:
+leader_country:
+add_government_power: government_power_ultimate_penalty
+add_gold:
+value: this.monthly_income_trade_and_tax
+multiply:
+value: -6
+add:
+value: -1
+multiply:
+value: international_organization:middle_kingdom.total_members
+divide: 10
+min: -100000
+Military Laws
+[
+edit
+|
+edit source
+]
+Jakūn Gūsa
+[
+edit
+|
+edit source
+]
+Serving mainly as our military, the Eight Banners system also function as the basis of the organization of society in the Middle Kingdom. Their role should be clearly defined, so that they do not lose their focus.
+Potential
+international_organization_type: international_organization_type:middle_kingdom
+At least one of:
+current_age: age_4_reformation
+current_age: age_5_absolutism
+current_age: age_6_revolutions
+Allow
+has_variable: celestial_authority
+var:celestial_authority:
+GREATER_THAN: celestial_authority_very_strong_bonus
+leader_country:
+government_power:
+GREATER_THAN_EQUAL: 25
+leader_country:
+gold:
+GREATER_THAN_EQUAL:
+value: this.monthly_income_trade_and_tax
+multiply:
+value: 6
+add:
+value: 1
+multiply:
+value: international_organization:middle_kingdom.total_members
+divide: 10
+max: 100000
+culture:
+has_culture_group: Jurchen
+has_advance: the_eight_banners
+Requires Vote
+Policy
+On Pay Price
+Revise the Jakūn Gūsa
+The Banner army has served us dutifully, delivering blows to our enemies and securing crucial victories. If we are to maintain their top form and discipline, we must reform and improve them, or they will be at risk of decadence.
+change_celestial_authority:
+value: celestial_authority_very_strong_penalty
+international_organization:middle_kingdom:
+leader_country:
+add_government_power: government_power_ultimate_penalty
+add_gold:
+value: this.monthly_income_trade_and_tax
+multiply:
+value: -6
+add:
+value: -1
+multiply:
+value: international_organization:middle_kingdom.total_members
+divide: 10
+min: -100000
+Chinese Jakūn Gūsa
+The Jakūn Gūsa served well when on the northern steppes, but as part of the Middle Kingdom they would need to be integrated into the Chinese system.
+change_celestial_authority:
+value: celestial_authority_very_strong_penalty
+international_organization:middle_kingdom:
+leader_country:
+add_government_power: government_power_ultimate_penalty
+add_gold:
+value: this.monthly_income_trade_and_tax
+multiply:
+value: -6
+add:
+value: -1
+multiply:
+value: international_organization:middle_kingdom.total_members
+divide: 10
+min: -100000
+Socioeconomic Laws
+[
+edit
+|
+edit source
+]
+Civil Registration
+[
+edit
+|
+edit source
+]
+A system aimed at keeping track of all our subjects within our realm as a step towards improving the quality of life for all under our banner.
+Potential
+international_organization_type: international_organization_type:middle_kingdom
+Allow
+has_variable: celestial_authority
+var:celestial_authority:
+GREATER_THAN: celestial_authority_very_strong_bonus
+leader_country:
+government_power:
+GREATER_THAN_EQUAL: 25
+leader_country:
+gold:
+GREATER_THAN_EQUAL:
+value: this.monthly_income_trade_and_tax
+multiply:
+value: 6
+add:
+value: 1
+multiply:
+value: international_organization:middle_kingdom.total_members
+divide: 10
+max: 100000
+Requires Vote
+Policy
+On Pay Price
+Delegated Civil Registration
+We will let our provincial governors control the registration process in their own provinces. This may result in a lack of efficiency, but they will feel their authority has been respected.
+change_celestial_authority:
+value: celestial_authority_very_strong_penalty
+international_organization:middle_kingdom:
+leader_country:
+add_government_power: government_power_ultimate_penalty
+add_gold:
+value: this.monthly_income_trade_and_tax
+multiply:
+value: -6
+add:
+value: -1
+multiply:
+value: international_organization:middle_kingdom.total_members
+divide: 10
+min: -100000
+Centralized Civil Registration
+The central government authority will take control of the registration process in order to improve efficiency, although the local governors will not like this appropriation of their duties.
+change_celestial_authority:
+value: celestial_authority_very_strong_penalty
+international_organization:middle_kingdom:
+leader_country:
+add_government_power: government_power_ultimate_penalty
+add_gold:
+value: this.monthly_income_trade_and_tax
+multiply:
+value: -6
+add:
+value: -1
+multiply:
+value: international_organization:middle_kingdom.total_members
+divide: 10
+min: -100000
+Tax Base System
+[
+edit
+|
+edit source
+]
+Taxation is the basis of any country's economy. By establishing a proper taxation system throughout the Middle Kingdom, we can more effectively reap the wealth of our territories.
+Potential
+international_organization_type: international_organization_type:middle_kingdom
+current_age: age_4_reformation
+Allow
+has_variable: celestial_authority
+var:celestial_authority:
+GREATER_THAN: celestial_authority_very_strong_bonus
+leader_country:
+government_power:
+GREATER_THAN_EQUAL: 25
+leader_country:
+has_reform: government_reform:single_whip_law
+gold:
+GREATER_THAN_EQUAL:
+value: this.monthly_income_trade_and_tax
+multiply:
+value: 6
+add:
+value: 1
+multiply:
+value: international_organization:middle_kingdom.total_members
+divide: 10
+max: 100000
+leader_country.capital.market:
+Not:
+is_import_banned:
+Silver
+Requires Vote
+Policy
+On Pay Price
+Rice-Based Tax
+The traditional tax and currency standard for centuries, Rice, will continue to serve as the basis of our taxation system.
+change_celestial_authority:
+value: celestial_authority_very_strong_penalty
+international_organization:middle_kingdom:
+leader_country:
+add_government_power: government_power_ultimate_penalty
+add_gold:
+value: this.monthly_income_trade_and_tax
+multiply:
+value: -6
+add:
+value: -1
+multiply:
+value: international_organization:middle_kingdom.total_members
+divide: 10
+min: -100000
+Single Whip Policy
+By enacting the Single Whip Policy, we will establish Silver as the basis of our taxation system, enforcing that all financial obligations to the central government are paid in this precious metal.
+change_celestial_authority:
+value: celestial_authority_very_strong_penalty
+international_organization:middle_kingdom:
+leader_country:
+add_government_power: government_power_ultimate_penalty
+add_gold:
+value: this.monthly_income_trade_and_tax
+multiply:
+value: -6
+add:
+value: -1
+multiply:
+value: international_organization:middle_kingdom.total_members
+divide: 10
+min: -100000
+Cèfēng Tǐzhì
+[
+edit
+|
+edit source
+]
+The tributary system has been present in the Middle Kingdom since its inception, as all nations around it dutifully recognize the authority of the [GetUniqueInternationalOrganization('middle_kingdom').GetLeaderTitle].
+Potential
+international_organization_type: international_organization_type:middle_kingdom
+Allow
+has_variable: celestial_authority
+var:celestial_authority:
+GREATER_THAN: celestial_authority_very_strong_bonus
+leader_country:
+government_power:
+GREATER_THAN_EQUAL: 25
+leader_country:
+gold:
+GREATER_THAN_EQUAL:
+value: this.monthly_income_trade_and_tax
+multiply:
+value: 6
+add:
+value: 1
+multiply:
+value: international_organization:middle_kingdom.total_members
+divide: 10
+max: 100000
+Requires Vote
+Policy
+On Pay Price
+Free Cèfēng Tǐzhì
+Countries will naturally recognize the superiority of the [GetUniqueInternationalOrganization('middle_kingdom').GetLeaderTitle] and prostrate themselves before the Dragon Throne with their tribute, without the need for rules or regulations to that effect.
+change_celestial_authority:
+value: celestial_authority_very_strong_penalty
+international_organization:middle_kingdom:
+leader_country:
+add_government_power: government_power_ultimate_penalty
+add_gold:
+value: this.monthly_income_trade_and_tax
+multiply:
+value: -6
+add:
+value: -1
+multiply:
+value: international_organization:middle_kingdom.total_members
+divide: 10
+min: -100000
+Codified Cèfēng Tǐzhì
+A codified, hierarchical tributary system best serves the [GetUniqueInternationalOrganization('middle_kingdom').GetLeaderTitle], as it makes it clear which states provide the greatest benefit to the Dragon Throne and therefore deserve commensurate rewards.
+change_celestial_authority:
+value: celestial_authority_very_strong_penalty
+international_organization:middle_kingdom:
+leader_country:
+add_government_power: government_power_ultimate_penalty
+add_gold:
+value: this.monthly_income_trade_and_tax
+multiply:
+value: -6
+add:
+value: -1
+multiply:
+value: international_organization:middle_kingdom.total_members
+divide: 10
+min: -100000
+Kējǔ Examination
+[
+edit
+|
+edit source
+]
+The Imperial Examination system aims to identify the best and most educated candidates to serve in our bureaucracy. This will ensure that only the brightest minds in our nation are the ones turning the wheels of the administration, and thus that they turn smoothly.
+Potential
+international_organization_type: international_organization_type:middle_kingdom
+Allow
+has_variable: celestial_authority
+var:celestial_authority:
+GREATER_THAN: celestial_authority_very_strong_bonus
+leader_country:
+government_power:
+GREATER_THAN_EQUAL: 25
+leader_country:
+gold:
+GREATER_THAN_EQUAL:
+value: this.monthly_income_trade_and_tax
+multiply:
+value: 6
+add:
+value: 1
+multiply:
+value: international_organization:middle_kingdom.total_members
+divide: 10
+max: 100000
+Requires Vote
+Policy
+On Activate
+On Pay Price
+Potential
+New Kējǔ Formats
+This reform aims at refining the process behind the selection of candidates and potential bureaucrats during the Imperial Examination. Introducing new formats of tests and holding candidates to higher standards will certainly benefit our administration.
+international_organization:middle_kingdom:
+custom_tooltip: new_keju_formats_policy.tt
+change_celestial_authority:
+value: celestial_authority_very_strong_penalty
+international_organization:middle_kingdom:
+leader_country:
+add_government_power: government_power_ultimate_penalty
+add_gold:
+value: this.monthly_income_trade_and_tax
+multiply:
+value: -6
+add:
+value: -1
+multiply:
+value: international_organization:middle_kingdom.total_members
+divide: 10
+min: -100000
+Focus on Classics
+The classical texts of Confucianism and Daoism have served as the basis of the Kējǔ Examination for centuries. Such historical traditions are not to be broken lightly.
+change_celestial_authority:
+value: celestial_authority_very_strong_penalty
+international_organization:middle_kingdom:
+leader_country:
+add_government_power: government_power_ultimate_penalty
+add_gold:
+value: this.monthly_income_trade_and_tax
+multiply:
+value: -6
+add:
+value: -1
+multiply:
+value: international_organization:middle_kingdom.total_members
+divide: 10
+min: -100000
+Direct Appointment
+Being a learned individual does not necessarily mean that someone is apt for government work. Direct appointment of people suited for the task will be more efficient.
+custom_tooltip: direct_appointment.tt
+change_celestial_authority:
+value: celestial_authority_very_strong_penalty
+international_organization:middle_kingdom:
+leader_country:
+add_government_power: government_power_ultimate_penalty
+add_gold:
+value: this.monthly_income_trade_and_tax
+multiply:
+value: -6
+add:
+value: -1
+multiply:
+value: international_organization:middle_kingdom.total_members
+divide: 10
+min: -100000
+Introduce Martial Examination
+The bureaucrats taking the Imperial exams shall not only be tested on their skills in statecraft, but on their archery and horsemanship as well.
+change_celestial_authority:
+value: celestial_authority_very_strong_penalty
+international_organization:middle_kingdom:
+leader_country:
+add_government_power: government_power_ultimate_penalty
+add_gold:
+value: this.monthly_income_trade_and_tax
+multiply:
+value: -6
+add:
+value: -1
+multiply:
+value: international_organization:middle_kingdom.total_members
+divide: 10
+min: -100000
+international_organization_has_unlocked_policy_trigger:
+type: military_examination
+Outwards View
+[
+edit
+|
+edit source
+]
+The Middle Kingdom has been expanding its power outwards since its inception, but external threats mean we require a certain degree of caution about who is able to enter its borders.
+Potential
+international_organization_type: international_organization_type:middle_kingdom
+Allow
+has_variable: celestial_authority
+var:celestial_authority:
+GREATER_THAN: celestial_authority_very_strong_bonus
+leader_country:
+government_power:
+GREATER_THAN_EQUAL: 25
+leader_country:
+gold:
+GREATER_THAN_EQUAL:
+value: this.monthly_income_trade_and_tax
+multiply:
+value: 6
+add:
+value: 1
+multiply:
+value: international_organization:middle_kingdom.total_members
+divide: 10
+max: 100000
+Requires Vote
+Policy
+On Pay Price
+Allow Trade
+It is no mere coincidence that the Silk Road has been the source of much prosperity for the Middle Kingdom, for it is through trade and foreign exchange that a nation benefits.
+change_celestial_authority:
+value: celestial_authority_very_strong_penalty
+international_organization:middle_kingdom:
+leader_country:
+add_government_power: government_power_ultimate_penalty
+add_gold:
+value: this.monthly_income_trade_and_tax
+multiply:
+value: -6
+add:
+value: -1
+multiply:
+value: international_organization:middle_kingdom.total_members
+divide: 10
+min: -100000
+Hǎijìn
+The seas and oceans bring trouble. Piracy, smuggling... sometimes even would-be usurpers hide themselves behind waves and tides. And yet, maritime trade also brings fortune and discovery. In order to let wealth and innovations flow freely into our great realm, we should establish Seaban regulations.
+change_celestial_authority:
+value: celestial_authority_very_strong_penalty
+international_organization:middle_kingdom:
+leader_country:
+add_government_power: government_power_ultimate_penalty
+add_gold:
+value: this.monthly_income_trade_and_tax
+multiply:
+value: -6
+add:
+value: -1
+multiply:
+value: international_organization:middle_kingdom.total_members
+divide: 10
+min: -100000
+multiple
+[
+edit
+|
+edit source
+]
+[
+edit
+|
+edit source
+]
+Mutual Offense
+[
+edit
+|
+edit source
+]
+The policy outlining how members will support each other in the event of them declaring war against another country.
+Potential
+At least one of:
+international_organization_type: international_organization_type:foreign_league_france
+international_organization_type: international_organization_type:foreign_league_hre
+international_organization_type: international_organization_type:foreign_league_iberia
+international_organization_type: international_organization_type:italian_league_1
+international_organization_type: international_organization_type:italian_league_2
+international_organization_type: international_organization_type:italian_league_3
+international_organization_type: international_organization_type:jurchen_confederation
+international_organization_type: international_organization_type:tribal_confederation
+international_organization_type: international_organization_type:colonial_federation
+Allow
+always: True
+Policy
+Diplomatic Capacity Cost
+Assured Offense
+Members will automatically join in offensive wars declared by other members.
+assured_offence_upkeep_cost
+Automatic Offense
+Members will automatically be called into offensive wars declared by other members, but do not have to accept.
+automatic_offence_upkeep_cost
+Possible Offense
+Members will be able to be called into offensive wars declared by other members, but do not have to accept.
+possible_offence_upkeep_cost
+No Offense
+Members will be not able to be called into offensive wars declared by other members.
+Military Laws
+[
+edit
+|
+edit source
+]
+Mutual Defense
+[
+edit
+|
+edit source
+]
+The policy outlining how members will defend each other in the event of war being declared.
+Potential
+At least one of:
+international_organization_type: international_organization_type:defensive_league
+international_organization_type: international_organization_type:jurchen_confederation
+international_organization_type: international_organization_type:tribal_confederation
+international_organization_type: international_organization_type:colonial_federation
+Allow
+always: True
+Policy
+Potential
+Diplomatic Capacity Cost
+No Defense
+Members will be not able to be called into defensive wars declared on other members.
+Not:
+international_organization_type: international_organization_type:defensive_league
+Possible Defense
+Members will be able to be called into defensive wars declared on other members, but do not have to accept.
+possible_defence_upkeep_cost
+Automatic Defense
+Members will automatically be called into defensive wars declared on other members, but do not have to accept.
+automatic_defence_upkeep_cost
+Assured Defense
+Members will automatically join in defensive wars declared on other members.
+assured_defence_upkeep_cost
+Mutual Offense
+[
+edit
+|
+edit source
+]
+The policy outlining how members will support each other in the event of them declaring war against another country.
+Potential
+At least one of:
+international_organization_type: international_organization_type:foreign_league_france
+international_organization_type: international_organization_type:foreign_league_hre
+international_organization_type: international_organization_type:foreign_league_iberia
+international_organization_type: international_organization_type:italian_league_1
+international_organization_type: international_organization_type:italian_league_2
+international_organization_type: international_organization_type:italian_league_3
+international_organization_type: international_organization_type:jurchen_confederation
+international_organization_type: international_organization_type:tribal_confederation
+international_organization_type: international_organization_type:colonial_federation
+Allow
+always: True
+Policy
+Diplomatic Capacity Cost
+Assured Offense
+Members will automatically join in offensive wars declared by other members.
+assured_offence_upkeep_cost
+Automatic Offense
+Members will automatically be called into offensive wars declared by other members, but do not have to accept.
+automatic_offence_upkeep_cost
+Possible Offense
+Members will be able to be called into offensive wars declared by other members, but do not have to accept.
+possible_offence_upkeep_cost
+No Offense
+Members will be not able to be called into offensive wars declared by other members.
+Sect
+[
+edit
+|
+edit source
+]
+Religious Laws
+[
+edit
+|
+edit source
+]
+Main Philosophy
+[
+edit
+|
+edit source
+]
+The main current of philosophy and teachings that form the core beliefs of a sect.
+Potential
+international_organization_type: international_organization_type:sect
+Locked
+always: True
+Policy
+Confucianism
+Confucianism is a philosophy developed from the teachings of Confucius, or Kǒng Fūzǐ, emphasizing social harmony and the righteousness of government institutions.
+Daoism
+Daoism is a philosophy emphasizing living in harmony with the
+Dào
+, the living force of the universe, and the concept of
+Wúwéi
+, or 'action with no-action'.
+Pure Land Buddhism
+Pure Land Buddhism is one of the most followed schools of East Asian Buddhism, and is centered around the idea of achieving rebirth in a Buddha's Pure Land. The most common Pure Land is that of the Buddha Amitābha, and the most important teachings are the
+Three Pure Land Sutras
+. The principal form of practice is the mindfulness of the Buddha, via repeating the name of the Buddha as a form of recitation.
+Lotus School
+The Lotus School, so named to honor the importance of the
+Lotus Sutra
+, is one of the earliest Buddhist schools developed in China. It emphasizes the doctrine of the
+One Vehicle
+, promoting an inclusive view and understanding of all Buddhist teachings.
+Dharma School
+Called
+Wéishí
+or
+Fǎxiàng
+in China, and
+Hossō
+in Japan, the Dharma School tradition emerged from India and has had a profound influence on Eastern Buddhism. It focuses on idealism and the idea that reality is only consciousness, and emphasizes the practices of yoga and meditation.
+Flower Garland School
+Taking its name from the
+Flower Garland Sutra
+, and called
+Huáyán
+in China,
+Kegon
+in Japan, and
+Hwaeom
+in Korea, Flower Garland School is one of the main Buddhist traditions developed in China. It emphasizes the doctrine of interpenetration, wherein all things exist in a state of mutual dependence and are simultaneously present within each other.
+Meditation School
+The Meditation School was founded by Bodhidharma, according to tradition, and is called
+Chán
+in China,
+Zen
+in Japan,
+Seon
+in Korea and
+Thiền
+in Vietnam. Though meditation is a general practice in Buddhism, this school emphasizes its use as a means of achieving enlightenment, usually in a sitting position, but also while performing physical activities like martial arts.
+Mantra School
+The Mantra School, called
+Zhēnyán
+in China and
+Shingon
+in Japan, focuses on the esoteric practices of Vajrayāna, especially those called the 'three mysteries': mudra, mantra, and mandala. Its practices have been very influential in the development of many other schools of Buddhism.
+Shugendō
+Emerging as a syncretism of mixed practices from Buddhism, Shintō, and Onmyōdō, Shugendō aims for the achievement of supernatural powers via religious training in the mountains. Mountain worship and trekking are the main focuses of this sect, as well as other esoteric practices and rituals.
+Azhaliism
+When Tantric Buddhist practices came into Yúnnán, they mixed with traditions of Chinese, Tibetan, and Burmese origin, creating a hybrdized faith. As such, Azhaliism has emerged as a relatively localized tradition, similar yet distinct from the other, bigger schools.
+Musok
+Centered around the worship of deities and ancestral spirits, Musok beliefs have been present in Korea since before the introduction of Buddhism. Even after that, its beliefs, practices, and rituals continue to be an important part of the region's culture.
+Mūlasarvāstivāda
+One of the earliest Buddhist schools in India, the traditions of Mūlasarvāstivāda have almost disappeared from most currents of Buddhism, only surviving in Tibetan Buddhism and in Indonesia. There, the first current to arrive was Hīnayāna, and the Mūlasarvāstivāda, together with Tantric Practices, became prominent during the Śrīvijaya Empire.
+Mahāvihāra
+A center of Buddhist scholarship since the religion first arrived on the island, Sailan has developed its own tradition of Theravāda Buddhism. As such, it has been influential in the development and spread of Buddhism in other neighboring areas, especially since the start of the decline of Buddhism in mainland India.
+Burmese Buddhism
+Although strongly influenced by the Mahāvihāra Buddhism of Sailan, other forms of Buddhism have spread around Burma. Eastern Buddhism and Theravāda traditions, as well as Hinduism and also some remnants of pre-Buddhism beliefs, have all blended together, giving rise to a particular flavor of Theravāda. While very similar to the one practiced in Sailan, this sect also incorporates many elements of Eastern Buddhism and other esoteric traditions.
+Lankavong
+Many different forms of Buddhism have been present in the lands of Thai people for ages, from Chinese-influenced Eastern Buddhism to earlier Indian Buddhist traditions. Eventually, the Theravāda tradition from Sailan became the main school of thought, but influence from earlier traditions and even from Thai folk beliefs still remain.
+Khmer Buddhism
+The first form of Buddhism that entered the Khmer area was Eastern Buddhism, with strong Tantric influence, which replaced the Hindu beliefs already present in the region. Over time, Theravāda replaced Eastern Buddhism, and a great shift was made towards monastic life.
+Tantric Practices
+[
+edit
+|
+edit source
+]
+Vajrayāna, also called Tantric Buddhism or Esoteric Buddhism, is a form of Buddhism that incorporates many tantric, esoteric, and ritualistic practices. Its development has been strongly influenced by other religions, especially Hinduism.
+Potential
+international_organization_type: international_organization_type:sect
+international_organization_has_policy:
+Tantric Practices
+Locked
+international_organization_has_policy:
+Tantric Practices
+Policy
+Tantric Practices
+Vajrayāna, also called Tantric Buddhism or Esoteric Buddhism, is a form of Buddhism that incorporates many tantric, esoteric, and ritualistic practices. Its development has been strongly influenced by other religions, especially Hinduism.
+No Tantric Practices
+No Tantric Practices
+Sect School
+[
+edit
+|
+edit source
+]
+The particular school of this sect, which may have some differences from mainstream of teachings.
+Potential
+international_organization_type: international_organization_type:sect
+At least one of:
+international_organization_has_policy:
+Nichiren
+international_organization_has_policy:
+Nyingma School
+international_organization_has_policy:
+Kadam School
+international_organization_has_policy:
+Kagyu School
+international_organization_has_policy:
+Sakya School
+international_organization_has_policy:
+Jonang School
+Locked
+always: True
+Policy
+Nichiren
+Founded by the Buddhist monk Nichiren, most of its doctrine comes from the
+Lotus Sutra
+, but opposes any form of deviation from mainstream teachings, including esoteric practices and rituals. It dictates that one's actions and their consequences, not only meditation, affect the achievement of enlightenment.
+Jōdo Shinshū
+A school of Pure Land Buddhism, it was founded by Shinran, a monk originally from the Tendai school. He became disillusioned and went to study the traditions of Pure Land Buddhism, eventually founding a new branch. Focusing on
+Nenbutsu
+, the recitation of the name of the Buddha, the expression
+Namu Amida Butsu
+has almost become synonymous with this school, used as a way of showing gratitude to the Buddha Amida.
+Nyingma School
+The oldest school of Tibetan Buddhism, it contains unique teachings not seen in any other form of Buddhism. It considers
+Dzogchen
+, 'Great Perfection', the most direct path to enlightenment, prescribing this method above those advocated by other schools. However, it has been criticized by rival schools for lacking connection to later Indian tantric practices, as its texts derive from the first introduction of Buddhism into Tibet.
+Kadam School
+Stressing compassion, study, and discipline, it attempts to create a comprehensive and systematic Mahāyāna Buddhist path to achieving enlightenment. It also has the objective of integrating laypeople into Buddhist daily life, while reserving tantric practices for advanced initiates.
+Kagyu School
+The Kagyu School focuses on the
+Mahāmudrā
+, the 'Great Seal', which is the symbol of attaining knowledge or awareness of the intrinsic emptiness of reality. Although the school itself has diverged into multiple sub-schools, all with their own small differences of interpretation and practices, all recognize the Mahāmudrā.
+Sakya School
+Originating in the Sakya Monastery, it focuses on
+Lamdré
+, a system of meditation with the maxim that the result of the practice is already intrinsically contained within the path. These teachings are contained in the tantra of
+Hevajra
+, and the school contains multiple tantric practices.
+Jonang School
+The main practice of the Jonang School is the Kālacakra Tantra, and the school is a defender of the Shentong philosophy. In it, it holds that physical reality is empty of inherent existence, but in contrast ultimate reality — or Buddha-nature — is not. Buddha-nature is filled with its own innumerable awakened qualities.
+Sikhism
+[
+edit
+|
+edit source
+]
+Administrative Laws
+[
+edit
+|
+edit source
+]
+guru_arjan Teachings
+[
+edit
+|
+edit source
+]
+The teachings established by guru_arjan.
+Potential
+international_organization_type: international_organization_type:sikhism
+exists: character:guru_arjan
+Locked
+At least one of:
+international_organization_has_policy:
+Adi Granth
+international_organization_has_policy:
+Holy Abode
+international_organization_has_policy:
+Martyrdom
+Requires Vote
+Policy
+Country Modifier
+Adi Granth
+A collection of hymns from past Gurū compiled by guru_arjan that will serve as the basis for our holy scriptures.
++10.00%
+Institution Growth
++0.025
+Monthly Progress to Innovative
+Holy Abode
+By enshrining the sacred scriptures inside the holy temples, we will turn them as the place of residence of Ik Onkar and a focus of pilgrimage for all Sikhism faithful.
++10.00%
+Cultural Influence %
++0.025
+Monthly Progress to Centralization
+Martyrdom
+Our belief in Sikhism is strong, and we will not abandon it even under the threat of torture or even death.
++5.00%
+Army Morale
++0.025
+Monthly Progress to Defensive
+Military Laws
+[
+edit
+|
+edit source
+]
+guru_hargobind Teachings
+[
+edit
+|
+edit source
+]
+The teachings established by guru_hargobind.
+Potential
+international_organization_type: international_organization_type:sikhism
+exists: character:guru_hargobind
+Locked
+At least one of:
+international_organization_has_policy:
+Akal Takht
+international_organization_has_policy:
+Protection of the Poor
+international_organization_has_policy:
+Mīrī Pīrī
+Requires Vote
+Policy
+Country Modifier
+Akal Takht
+The 'Throne of the Timeless One' will serve as the unquestionable seat of power for our Gurū and Sikhism.
++0.10
+Monthly Devotion
++0.10
+Monthly Legitimacy
++0.10
+Monthly Republican Tradition
++0.025
+Monthly Progress to Aristocracy
+Protection of the Poor
+The power of military should not be used to oppress and become a tyrant, but to protect the vulnerable from such tyrants.
+−0.025
+Monthly War Exhaustion
++0.025
+Monthly Progress to Free Subjects
+Mīrī Pīrī
+Only by combining temporal power and spiritual authority under the figure of the Gurū can Sikhism truly achieve its deserved glory.
++2.50%
+Discipline
++0.025
+Monthly Progress to Belligerent
+Khalsa
+[
+edit
+|
+edit source
+]
+A warrior community tasked with the defense of Sikhism and its followers, its rules of conduct and initiation will set a standard for all the faithful.
+Potential
+international_organization_type: international_organization_type:sikhism
+exists: character:guru_gobind_singh
+Requires Vote
+Policy
+Country Modifier
+Potential
+Guru Panth
+The leadership of Sikhism would lay on the Khalsa as a whole, which would serve as its Gurū.
++0.05
+Monthly Army Tradition
++0.025
+Monthly Progress to Belligerent
+Khalsa Fauj
+Only by organizing the military forces of the Khalsa into a mighty army will they will be able to serve their function as protectors of Sikhism.
+−5.00%
+Infantry Maintenance Cost
++0.025
+Monthly Progress to Quantity
+international_organization_has_unlocked_policy_trigger:
+type: khalsa_fauj
+Amrit Sanskar
+The members of the Khalsa are not just brutes thrown to fight, but refined individuals who uphold the rites of initiation and the rules of conduct and dress code placed upon them as members of the community. The prestige of the Khalsa is not on the might of its warriors but on the appeal of their purity.
++5.00%
+Pop Conversion Speed %
++0.025
+Monthly Progress to Humanist
+international_organization_has_unlocked_policy_trigger:
+type: amrit_sanskar
+Religious Laws
+[
+edit
+|
+edit source
+]
+guru_nanak Teachings
+[
+edit
+|
+edit source
+]
+The teachings established by guru_nanak.
+Potential
+international_organization_type: international_organization_type:sikhism
+exists: character:guru_nanak
+Locked
+At least one of:
+international_organization_has_policy:
+Vaṇḍ Chakō
+international_organization_has_policy:
+Kirat Karō
+international_organization_has_policy:
+Nām Japō
+Requires Vote
+Policy
+Country Modifier
+Vaṇḍ Chakō
+Meaning 'share and consume', it is one of the pillars of guru_nanak. It encourages the sharing of all that is available and the collective consume of it by the community.
++10.00%
+Estates Satisfaction Equilibrium
++0.025
+Monthly Progress to Communalism
+Kirat Karō
+Meaning 'work honestly', it is one of the pillars of guru_nanak. It means dedication and honestly to hard labor, as exercise of what Ik Onkar has given us.
++5.00%
+Production Efficiency
+Nām Japō
+Meaning 'recite His name', it is one of the pillars of guru_nanak. It means to meditate and contemplate the many names of Ik Onkar, to achieve connection with Him.
++0.01
+Stability Investment
++0.025
+Monthly Progress to Spiritualist
+guru_angad Teachings
+[
+edit
+|
+edit source
+]
+The teachings established by guru_angad.
+Potential
+international_organization_type: international_organization_type:sikhism
+exists: character:guru_angad
+Locked
+At least one of:
+international_organization_has_policy:
+Gurmukhī Script
+international_organization_has_policy:
+Langar Community
+international_organization_has_policy:
+Mall Akhāṛā
+Requires Vote
+Policy
+Country Modifier
+Gurmukhī Script
+A script developed and standardized by guru_angad, it will become the primary scripture for Sikhism.
++0.01
+Monthly Literacy
++0.025
+Monthly Progress to Innovative
+Langar Community
+A communal kitchen attached to any temple, they will serve food freely to all people, regardless of their creed, status, or ethnicity.
++10.00%
+Food Production %
++0.025
+Monthly Progress to Communalism
+Mall Akhāṛā
+Wrestling arenas for the people to practice will serve not only as a way to keep their bodies healthy, but also as an improvement of their martial prowess.
++5.00%
+Infantry Power
++0.025
+Monthly Progress to Land
+guru_ram_das Teachings
+[
+edit
+|
+edit source
+]
+The teachings established by guru_ram_das.
+Potential
+international_organization_type: international_organization_type:sikhism
+exists: character:guru_ram_das
+Locked
+At least one of:
+international_organization_has_policy:
+Urbanization Projects
+international_organization_has_policy:
+Scripture Hymns
+international_organization_has_policy:
+Masand System
+Requires Vote
+Policy
+Country Modifier
+Urbanization Projects
+Through serious dedication and communal voluntary work, the holiest and most splendorous of Sikhism cities can be built.
++0.0010
+Monthly Development
++0.025
+Monthly Progress to Inward
+Scripture Hymns
+The scripture is the holiest of books, and it has to be embellished by the appropriate hymns lauding its glory.
++0.10
+Monthly Prestige
++0.025
+Monthly Progress to Spiritualist
+Masand System
+A system of missionaries and preachers, they will spread the Sikhism further away from the Gurū while serving as tax collectors at the same time.
++5.00%
+Pop Conversion Speed %
++0.025
+Monthly Progress to Outward
+guru_gobind_singh Teachings
+[
+edit
+|
+edit source
+]
+The teachings established by guru_gobind_singh.
+Potential
+international_organization_type: international_organization_type:sikhism
+exists: character:guru_gobind_singh
+Locked
+At least one of:
+international_organization_has_policy:
+Sikhism Pluralism
+international_organization_has_policy:
+Dharamyudh
+international_organization_has_policy:
+Dasam Granth
+Requires Vote
+Policy
+Country Modifier
+Sikhism Pluralism
+While the Khalsa is intended to be the protector of Sikhism, not all the faithful are part of it. As such, it inherently proves there is pluralism inside the faith, and that is something that enriches us.
+−1.00%
+Expected Cost of Court
++0.025
+Monthly Progress to Plutocracy
+Dharamyudh
+A 'war of righteousness' is any war that serves the purpose of defending Sikhism and its followers. War should be a last resort, but all must be ready to wage it to defend the faith and stop tyranny.
+−0.025
+Monthly War Exhaustion
++0.025
+Monthly Progress to Spiritualist
+Dasam Granth
+A collection of various texts of poetry composed by guru_gobind_singh, it is considered equal in status to the Adi Granth and it is enshrined next to it in the temples.
++5.00%
+Monthly Research Progress %
++0.025
+Monthly Progress to Innovative
+Socioeconomic Laws
+[
+edit
+|
+edit source
+]
+guru_amar_das Teachings
+[
+edit
+|
+edit source
+]
+The teachings established by guru_amar_das.
+Potential
+international_organization_type: international_organization_type:sikhism
+exists: character:guru_amar_das
+Locked
+At least one of:
+international_organization_has_policy:
+Dasvandh Tax
+international_organization_has_policy:
+Ānada Kāraja
+international_organization_has_policy:
+Sangat Equality
+Requires Vote
+Policy
+Country Modifier
+Dasvandh Tax
+Meaning the 'tenth part', it is a system of revenue collection which establishes that a tenth of one's income should be donated in the name of the Gurū.
++5.00%
+Maximum Tax
++0.025
+Monthly Progress to Capital Economy
+Ānada Kāraja
+Meaning 'act towards happiness', it is the wedding ceremony for Sikhism as defined by guru_amar_das. The hymns sung in it celebrate the union with the divine.
++10.00%
+Cultural Tradition %
++0.025
+Monthly Progress to Traditionalist
+Sangat Equality
+Men an women are equal under Ik Onkar, and thus both are equally valid to be part of the Sangat monastic community, and even to lead it.
+Gender Equality:
+yes
++0.025
+Monthly Progress to Humanist
+guru_har_rai Teachings
+[
+edit
+|
+edit source
+]
+The teachings established by guru_har_rai.
+Potential
+international_organization_type: international_organization_type:sikhism
+exists: character:guru_har_rai
+Locked
+At least one of:
+international_organization_has_policy:
+Impartial Manji Heads
+international_organization_has_policy:
+Fragrance of a Flower
+international_organization_has_policy:
+Nature Guardian
+Requires Vote
+Policy
+Country Modifier
+Impartial Manji Heads
+The ones at the head of our many religious administrations should not show partiality towards any opinion, but serve dutifully the interests of Sikhism.
+−0.10%
+Monthly Inflation
++0.025
+Monthly Progress to Decentralization
+Fragrance of a Flower
+If one plucks a flower with one hand and gives it away with the other, both hands get the same fragrance. As such, no matter our different religious beliefs, we are all touched by the same divine spirit.
++10.00%
+Improve Relations
++0.025
+Monthly Progress to Conciliatory
+Nature Guardian
+Our natural environment is not there to serve us, but for us to live in harmony with it. As such, we must protect it and provide for it as much as it provides for us.
++0.50%
+Prosperity Recovery
++0.025
+Monthly Progress to Communalism
+guru_har_krishan Teachings
+[
+edit
+|
+edit source
+]
+The teachings established by guru_har_krishan.
+Potential
+international_organization_type: international_organization_type:sikhism
+exists: character:guru_har_krishan
+Locked
+At least one of:
+international_organization_has_policy:
+Treat the Sick
+international_organization_has_policy:
+Unexpected Knowledge
+international_organization_has_policy:
+Young Humility
+Requires Vote
+Policy
+Country Modifier
+Treat the Sick
+Diseases and pestilence are the bane of humanity. We shall treat all sick people diligently, so that we can ensure a healthy society.
++5%
+Disease Resistance
++0.025
+Monthly Progress to Humanist
+Unexpected Knowledge
+The spiritual powers of the Gurū are undeniable, as they have been said to have known truths and facts that they had no way of knowing through normal methods. At the same time, people apparently illiterate may be able to discuss theology with the most learned scholar.
+−10.00%
+Embrace Institution Cost
++0.025
+Monthly Progress to Individualism
+Young Humility
+No matter how much one has learned, there are always sources of knowledge outside of one's grasp, and people who have mastered them. Even the younger ones may harbor knowledge out of the understanding of the more senior minds. In this sense, all minds are like that of an infant.
++5.00
+Max Literacy
++0.025
+Monthly Progress to Quality
+guru_tegh_bahadur Teachings
+[
+edit
+|
+edit source
+]
+The teachings established by guru_tegh_bahadur.
+Potential
+international_organization_type: international_organization_type:sikhism
+exists: character:guru_tegh_bahadur
+Locked
+At least one of:
+international_organization_has_policy:
+Word of a Sikhism
+international_organization_has_policy:
+Gurū Travels
+international_organization_has_policy:
+Resist Persecution
+Requires Vote
+Policy
+Country Modifier
+Word of a Sikhism
+The solemn vow of a follower of Sikhism is to be understood as been made in the presence of Ik Onkar, and as such it should be unbreakable.
++1.00
+Diplomatic Reputation
++0.025
+Monthly Progress to Conciliatory
+Gurū Travels
+If a Gurū stays only in one place, the message of Sikhism will not be able to spread. A Gurū must thus travel and have contact with foreign peoples and beliefs.
++1.00
+Tolerance of Heretical Beliefs
++0.025
+Monthly Progress to Outward
+Resist Persecution
+Enemies of the true faith will always persecute the faithful, but our beliefs are strong and they will not be able to break us.
++0.50
+Hostile Attrition
++0.025
+Monthly Progress to Defensive
+Guru Granth Sahib Teachings
+[
+edit
+|
+edit source
+]
+The teachings established in the Guru Granth Sahib.
+Potential
+international_organization_type: international_organization_type:sikhism
+exists: work_of_art:guru_granth_sahib
+Locked
+At least one of:
+international_organization_has_policy:
+Eternally Living Gurū
+international_organization_has_policy:
+Divine Justice
+international_organization_has_policy:
+Unchanging Writing
+Requires Vote
+Policy
+Country Modifier
+Eternally Living Gurū
+The Guru Granth Sahib is the final and sovereign eternal Gurū, which shall be the guiding light for all followers of Sikhism.
++10.00%
+Cultural Influence %
++0.025
+Monthly Progress to Outward
+Divine Justice
+The teachings encoded in the Guru Granth Sahib guide our society to live in peace and harmony, based on Ik Onkar and His justice.
++0.025%
+Population Growth
++0.025
+Monthly Progress to Free Subjects
+Unchanging Writing
+The Guru Granth Sahib was composed during the course of many years and by more than one Gurū, but it has now reached its definite and eternal form. Its writings shall no longer be altered in any way.
++10.00%
+Cultural Tradition %
++0.025
+Monthly Progress to Traditionalist
+Swiss Confederation
+[
+edit
+|
+edit source
+]
+Administrative Laws
+[
+edit
+|
+edit source
+]
+Internal Politics
+[
+edit
+|
+edit source
+]
+While the Swiss Confederation is first and foremost a union for defensive purposes, it is clear that the internal affairs of the Confederation must be handled too.
+Potential
+international_organization_type: international_organization_type:swiss_confederation
+Policy
+On Activate
+Forbid Internal Wars
+We cannot allow petty disputes to escalate into bloody conflicts. Every member of the Swiss Confederation shall state their issue with another member in front of the judges of the Confederation instead of on the battlefield.
+if:
+limit:
+Not:
+has_variable: sc_religious_chaos
+Not:
+international_organization_has_policy:
+Enforce Religious Unity
+custom_tooltip: sc_forbid_internal_wars_tt
+else:
+custom_tooltip: sc_forbid_same_religion_internal_wars_tt
+Allow Internal Wars
+Although generally not desirable, conflict is part of human nature, and it is through it that we get to grow stronger.
+Membership Regulation
+[
+edit
+|
+edit source
+]
+The Swiss Confederation is an organization originally made by the Swiss people to defend themselves against the growing influence of the Habsburg in the local region. However, the rules who can join are never set in stone...
+Potential
+international_organization_type: international_organization_type:swiss_confederation
+Policy
+On Activate
+Native Swiss Only
+The confederation is a Swiss organization, and as such only those who are of its culture and geography are allowed to join.
+custom_tooltip: sc_swiss_culture_and_geography_tt
+Swiss Culture
+The influence of the Swiss people is growing far beyond the historical area of the Swiss Confederation. Geographical limitations are no longer adequate, and as such the law needs reconsideration.
+custom_tooltip: sc_just_swiss_culture_tt
+Relatives of the Swiss
+The influence and power of the Swiss Confederation is projected not only by the Swiss people, but also those which we consider close relatives to our culture.
+custom_tooltip: sc_swiss_or_swiss_relative_tt
+Centralization Laws
+[
+edit
+|
+edit source
+]
+Swiss Unification
+[
+edit
+|
+edit source
+]
+The Swiss lands have been splintered for far too long. If the people of the Alps wish to see prosperity and security, they have to unite under a single banner.
+Potential
+international_organization_type: international_organization_type:swiss_confederation
+Allow
+trigger_if:
+limit:
+Not:
+has_global_variable: sc_unification_movement_event_happened
+custom_tooltip:
+text: sc_unification_movement_event_happened_tt
+has_global_variable: sc_unification_movement_event_happened
+trigger_if:
+limit:
+Not:
+At least one of:
+international_organization_has_policy:
+Swiss Alliance
+international_organization_has_policy:
+United War Efforts
+At least one of:
+international_organization_has_policy:
+Swiss Alliance
+international_organization_has_policy:
+United War Efforts
+trigger_if:
+limit:
+international_organization_has_unlocked_law_trigger:
+type: sc_religious_affairs
+Neither of:
+international_organization_has_policy:
+Mending the Schism
+All of:
+international_organization_has_policy:
+Enforce Religious Unity
+At least one of:
+any_international_organization_member:
+religion:
+Catholicism
+count: all
+any_international_organization_member:
+religion:
+Lutheranism
+count: all
+any_international_organization_member:
+religion:
+Calvinism
+count: all
+At least one of:
+international_organization_has_policy:
+Mending the Schism
+All of:
+international_organization_has_policy:
+Enforce Religious Unity
+custom_tooltip:
+text: sc_unification_same_religion_tt
+At least one of:
+any_international_organization_member:
+religion:
+Catholicism
+count: all
+any_international_organization_member:
+religion:
+Lutheranism
+count: all
+any_international_organization_member:
+religion:
+Calvinism
+count: all
+trigger_if:
+limit:
+exists: international_organization:hre
+international_organization_has_unlocked_law_trigger:
+type: sc_relations_with_hre
+Not:
+international_organization_has_law:
+Imperial Relations
+international_organization_has_law:
+Imperial Relations
+international_organization_has_policy:
+Forbid Internal Wars
+Policy
+Allow
+On Activate
+Found the Swiss Republic
+The principles and methods of the Swiss Confederation are well received as every Canton enjoys having their voices heard. Yet, the decentralized nature of the confederation will always endanger the safety and security of the Swiss people. It is time to unify the Confederation into a singular state while maintaining the Republic.
+trigger_if:
+limit:
+international_organization_has_law:
+Swiss Representative
+hidden_effect:
+remove_global_variable: sc_unification_movement_event_happened
+if:
+limit:
+has_valid_policy_vote_proposer: True
+var:io_law_proposer:
+custom_tooltip:
+text: sc_found_swiss_republic_specific_tt
+set_variable: swi_picked_gov_type_republic
+trigger_event_silently: flavor_swi.100
+else_if:
+limit:
+international_organization_has_leader: True
+leader_country:
+custom_tooltip:
+text: sc_found_swiss_republic_specific_tt
+set_variable: swi_picked_gov_type_republic
+trigger_event_silently: flavor_swi.100
+else:
+custom_tooltip: sc_found_swiss_republic_tt
+hidden_effect:
+if:
+limit:
+any_international_organization_member:
+is_ai: False
+ordered_international_organization_member:
+limit:
+is_ai: False
+order_by: total_population
+max: 1
+check_range_bounds: False
+set_variable: swi_picked_gov_type_republic
+trigger_event_silently: flavor_swi.100
+else:
+ordered_international_organization_member:
+order_by: total_population
+max: 1
+check_range_bounds: False
+set_variable: swi_picked_gov_type_republic
+trigger_event_silently: flavor_swi.100
+Found the Swiss Monarchy
+While it started as a republican union, the challenges the Swiss Confederation had to face have proven the superiority of a strong rule under a single Councillor. The future of the Swiss people can only be ensured under the authority of a proper Monarchy which shall replace the old Confederation.
+At least one of:
+international_organization_has_leader: True
+has_valid_policy_vote_proposer: True
+trigger_if:
+limit:
+Not:
+international_organization_has_law:
+Swiss Representative
+international_organization_has_law:
+Swiss Representative
+trigger_else:
+international_organization_has_policy:
+Lifelong
+international_organization_has_policy: [[Law#[GetUniqueInternationalOrganization('swiss_confederation').GetLeaderTitle] Power|Absolute Power]]
+hidden_effect:
+remove_global_variable: sc_unification_movement_event_happened
+if:
+limit:
+has_valid_policy_vote_proposer: True
+var:io_law_proposer:
+custom_tooltip:
+text: sc_found_swiss_monarchy_specific_tt
+set_variable: swi_picked_gov_type_monarchy
+trigger_event_silently: flavor_swi.100
+else_if:
+limit:
+international_organization_has_leader: True
+leader_country:
+custom_tooltip:
+text: sc_found_swiss_monarchy_specific_tt
+set_variable: swi_picked_gov_type_monarchy
+trigger_event_silently: flavor_swi.100
+else:
+custom_tooltip: sc_found_swiss_monarchy_tt
+Found the Swiss Theocracy
+Neither the free will of the Republican votes nor the authoritarian power of a Monarchy has led the Swiss Confederation to the position it is now, but the will of the divine. Only as a unified Theocracy can the Swiss people prosper in this world.
+At least one of:
+international_organization_has_leader: True
+has_valid_policy_vote_proposer: True
+trigger_if:
+limit:
+Not:
+international_organization_has_law:
+Swiss Representative
+international_organization_has_law:
+Swiss Representative
+trigger_else:
+international_organization_has_policy: [[Law#[GetUniqueInternationalOrganization('swiss_confederation').GetLeaderTitle] Power|Religious Power]]
+hidden_effect:
+remove_global_variable: sc_unification_movement_event_happened
+if:
+limit:
+has_valid_policy_vote_proposer: True
+var:io_law_proposer:
+custom_tooltip:
+text: sc_found_swiss_theocracy_specific_tt
+set_variable: swi_picked_gov_type_theocracy
+trigger_event_silently: flavor_swi.100
+else_if:
+limit:
+international_organization_has_leader: True
+leader_country:
+custom_tooltip:
+text: sc_found_swiss_theocracy_specific_tt
+set_variable: swi_picked_gov_type_theocracy
+trigger_event_silently: flavor_swi.100
+else:
+custom_tooltip: sc_found_swiss_theocracy_tt
+Election Laws
+[
+edit
+|
+edit source
+]
+Policy Proposal Frequency
+[
+edit
+|
+edit source
+]
+A law regulating the administration of law proposals within the Swiss Confederation.
+Potential
+international_organization_type: international_organization_type:swiss_confederation
+Policy
+International Organization Modifier
+Frequent Policy Proposals
+Adjustment of laws and policies is a frequent act, and as such happens in Swiss Confederation on a base of every 4 years.
++4
+Policy Vote Delay
+Moderate Policy Proposals
+While a significant process, administrating the laws and policy proposals within the Swiss Confederation takes considerable effort, which allows law proposals only every 8 years.
++8
+Policy Vote Delay
+Swiss Representative
+[
+edit
+|
+edit source
+]
+Every kind of organization will require a spokesman - a representative - who shall be the face to the political entities inside and outside of the organization. The Swiss Confederation might pose an exception to this rule though...
+Potential
+international_organization_type: international_organization_type:swiss_confederation
+Policy
+On Activate
+On Deactivate
+Leader Type
+Canton Representative
+Some Cantons happen to be richer and more influential than others. As such, the Swiss Confederation shall be represented not by a man but by a city-state.
+hidden_effect:
+if:
+limit:
+Not:
+international_organization_has_law:
+[[Law#[GetUniqueInternationalOrganization('swiss_confederation').GetLeaderTitle] Power|[GetUniqueInternationalOrganization('swiss_confederation').GetLeaderTitle] Power]]
+add_policy_to_international_organization: [[Law#[GetUniqueInternationalOrganization('swiss_confederation').GetLeaderTitle] Power|Representative Power]]
+if:
+limit:
+Not:
+international_organization_has_law:
+Election Method
+add_policy_to_international_organization:
+Lottery
+if:
+limit:
+Not:
+international_organization_has_law:
+Ruling Period
+add_policy_to_international_organization:
+Timed
+if:
+limit:
+All of:
+international_organization_has_law:
+Ruling Period
+Not:
+international_organization_has_law:
+Election Frequency
+add_policy_to_international_organization:
+4-yearly Elections
+international_organization_chooses_new_leader: this
+hidden_effect:
+remove_law_from_international_organization:
+[[Law#[GetUniqueInternationalOrganization('swiss_confederation').GetLeaderTitle] Power|[GetUniqueInternationalOrganization('swiss_confederation').GetLeaderTitle] Power]]
+remove_law_from_international_organization:
+Election Method
+remove_law_from_international_organization:
+Ruling Period
+remove_law_from_international_organization:
+Election Frequency
+country
+Councillor Representative
+The Cantons of the Swiss Confederation shall give up a bit of their influence to enact a single man to become the face of the Confederation.
+hidden_effect:
+if:
+limit:
+Not:
+international_organization_has_law:
+[[Law#[GetUniqueInternationalOrganization('swiss_confederation').GetLeaderTitle] Power|[GetUniqueInternationalOrganization('swiss_confederation').GetLeaderTitle] Power]]
+add_policy_to_international_organization: [[Law#[GetUniqueInternationalOrganization('swiss_confederation').GetLeaderTitle] Power|Representative Power]]
+if:
+limit:
+Not:
+international_organization_has_law:
+Election Method
+add_policy_to_international_organization:
+Lottery
+if:
+limit:
+Not:
+international_organization_has_law:
+Ruling Period
+add_policy_to_international_organization:
+Timed
+if:
+limit:
+All of:
+international_organization_has_law:
+Ruling Period
+Not:
+international_organization_has_law:
+Election Frequency
+add_policy_to_international_organization:
+4-yearly Elections
+international_organization_chooses_new_leader: this
+hidden_effect:
+remove_law_from_international_organization:
+[[Law#[GetUniqueInternationalOrganization('swiss_confederation').GetLeaderTitle] Power|[GetUniqueInternationalOrganization('swiss_confederation').GetLeaderTitle] Power]]
+remove_law_from_international_organization:
+Election Method
+remove_law_from_international_organization:
+Ruling Period
+remove_law_from_international_organization:
+Election Frequency
+character
+Election Method
+[
+edit
+|
+edit source
+]
+The process of electing the [GetUniqueInternationalOrganization('swiss_confederation').GetLeaderTitle] of the Swiss Confederation is a delicate matter which requires an exact legislature to be handled properly.
+Potential
+international_organization_type: international_organization_type:swiss_confederation
+international_organization_has_law:
+Swiss Representative
+Policy
+Leader Change Method
+Leadership Election Resolution
+Direct Vote
+The [GetUniqueInternationalOrganization('swiss_confederation').GetLeaderTitle] is directly elected by the members of the Swiss Confederation. Every member has a singular vote, and every member shall be eligible to represent the Confederation.
+vote
+resolution:swiss_election
+Lottery
+Only the Lord can decide who shall represent the Swiss Confederation. The election process is handled via a secret lottery process with fate as the conclusive factor.
+lottery
+Rotation
+The [GetUniqueInternationalOrganization('swiss_confederation').GetLeaderTitle] is decided by turns. Every member of the Swiss Confederation shall represent the confederation at least once before a former leader can take over the mantle once again.
+rotation
+Ruling Period
+[
+edit
+|
+edit source
+]
+The Confederation might have a [GetUniqueInternationalOrganization('swiss_confederation').GetLeaderTitle] representing it. Yet, it must be determined if said [GetUniqueInternationalOrganization('swiss_confederation').GetLeaderTitle] shall serve the union lifelong or until a certain time has passed.
+Potential
+international_organization_type: international_organization_type:swiss_confederation
+international_organization_has_law:
+Swiss Representative
+Policy
+On Deactivate
+Leader Change Trigger Type
+Timed
+The [GetUniqueInternationalOrganization('swiss_confederation').GetLeaderTitle] of the Swiss Confederation is only in charge for a set period of time. Afterwards, their term ends and a new [GetUniqueInternationalOrganization('swiss_confederation').GetLeaderTitle] shall be elected.
+if:
+limit:
+international_organization_has_law:
+Swiss Representative
+add_policy_to_international_organization:
+Lifelong
+timed
+Lifelong
+The [GetUniqueInternationalOrganization('swiss_confederation').GetLeaderTitle] of the Swiss Confederation serves for their entire life. Only upon their death or expulsion, an election shall be held.
+if:
+limit:
+international_organization_has_law:
+Swiss Representative
+add_policy_to_international_organization:
+Timed
+add_policy_to_international_organization:
+4-yearly Elections
+rulerchange
+Election Frequency
+[
+edit
+|
+edit source
+]
+As the matters of the Ruling Period are cleared, a new topic arises which handles the frequency of the elections of a new [GetUniqueInternationalOrganization('swiss_confederation').GetLeaderTitle].
+Potential
+international_organization_type: international_organization_type:swiss_confederation
+international_organization_has_law:
+Swiss Representative
+international_organization_has_policy:
+Timed
+Policy
+Months Between Leader Changes
+Biyearly Elections
+The [GetUniqueInternationalOrganization('swiss_confederation').GetLeaderTitle] of the Swiss Confederation shall be chosen every 2 years.
+24
+4-yearly Elections
+The [GetUniqueInternationalOrganization('swiss_confederation').GetLeaderTitle] of the Swiss Confederation shall be chosen every 4 years.
+48
+8-yearly Elections
+The [GetUniqueInternationalOrganization('swiss_confederation').GetLeaderTitle] of the Swiss Confederation shall be chosen every 8 years.
+96
+Foreign Laws
+[
+edit
+|
+edit source
+]
+Imperial Relations
+[
+edit
+|
+edit source
+]
+The Swiss Confederation has been part of the Holy Roman Empire since its inception. However, the The Reformation left a bitter taste for many members of the Confederation...
+Potential
+international_organization_type: international_organization_type:swiss_confederation
+exists: international_organization:hre
+international_organization_has_unlocked_law_trigger:
+type: sc_relations_with_hre
+Locked
+international_organization_has_law:
+Imperial Relations
+Policy
+On Activate
+Remain in the Empire
+While the Swiss Confederation is a capable network of alliance defending its members from foreign powers, it is ill-suited to withstand the military might of far greater states. Remaining in the Holy Roman Empire will provide the Swiss with more, much-needed support.
+custom_tooltip: sc_remain_in_the_hre_tt
+custom_tooltip:
+text: sc_prestige_malus_tt
+every_international_organization_member:
+limit:
+is_member_of_international_organization: international_organization:hre
+add_prestige: prestige_extreme_penalty
+Leave the Empire
+Although external enemies are not uncommon, the biggest threats the Swiss Confederation faces come from within the Holy Roman Empire itself, which originally promised to defend its members. Staying within the Empire only jeopardizes our own survivability.
+custom_tooltip: sc_leave_the_hre_tt
+custom_tooltip:
+text: sc_every_member_leaves_hre_tt
+every_international_organization_member:
+limit:
+is_member_of_international_organization: international_organization:hre
+international_organization:hre:
+remove_country_from_international_organization: prev
+every_owned_location:
+limit:
+is_owned_by_international_organization: international_organization:hre
+remove_from_international_organization: international_organization:hre
+if:
+limit:
+international_organization:hre:
+international_organization_has_leader: True
+international_organization:hre:
+leader_country:
+trigger_event_non_silently: flavor_swi.121
+Leadership Laws
+[
+edit
+|
+edit source
+]
+[GetUniqueInternationalOrganization('swiss_confederation').GetLeaderTitle] Power
+[
+edit
+|
+edit source
+]
+The representative of the Confederation could request for more power and influence within the union in order to strengthen their position on the public stage.
+Potential
+international_organization_type: international_organization_type:swiss_confederation
+international_organization_has_law:
+Swiss Representative
+Policy
+Allow
+Representative Power
+The [GetUniqueInternationalOrganization('swiss_confederation').GetLeaderTitle] has the right to request aid from the members of the Swiss Confederation which can range from financial to military support.
+Religious Power
+The power of the [GetUniqueInternationalOrganization('swiss_confederation').GetLeaderTitle] is limited with the exception in the matters of religious affairs of the Swiss Confederation.
+trigger_if:
+limit:
+law_visible_to_international_organization:
+Religious Affairs
+international_organization_has_policy:
+Mending the Schism
+international_organization_has_policy:
+Lifelong
+Absolute Power
+The leading [GetUniqueInternationalOrganization('swiss_confederation').GetLeaderTitle] rules over the Swiss Confederation as if it was a singular state. As such, they enjoy all the privileges and duties as if they were a monarch of the Confederation.
+trigger_if:
+limit:
+law_visible_to_international_organization:
+Imperial Relations
+international_organization_has_law:
+Imperial Relations
+international_organization_has_policy:
+Lifelong
+Military Laws
+[
+edit
+|
+edit source
+]
+War Politics
+[
+edit
+|
+edit source
+]
+The external threats of the Swiss Confederation are many. Unified terms of how the Swiss defend each other are needed if the Confederation is to survive the political anarchy around it.
+Potential
+international_organization_type: international_organization_type:swiss_confederation
+Policy
+Defensive Pact
+Members of the Swiss Confederation are only called to arms in a defensive war against external threats.
+Swiss Alliance
+Members of the Swiss Confederation may call each other to their side in their own expansion attempts. In case of an external invasion, all members are called to arms to defend their fellow comrades of the Confederation.
+United War Efforts
+The Swiss Confederation is similar to a singular political entity to all external states. Each war - be it offensive or defensive in nature - shall call the military of all the members of the Confederation.
+Religious Laws
+[
+edit
+|
+edit source
+]
+Religious Affairs
+[
+edit
+|
+edit source
+]
+With the breakout of the The Reformation, the religious unity of the Confederation is a precarious situation. A solution must be found or else the conflict of faith threatens to tear the union apart.
+Potential
+international_organization_type: international_organization_type:swiss_confederation
+international_organization_has_unlocked_law_trigger:
+type: sc_religious_affairs
+reformation_is_enabled: True
+Policy
+On Activate
+On Deactivate
+Mending the Schism
+The stability and safety of the Swiss Confederation is above the religious quarrels of the The Reformation. Every member shall withdraw hostile relations with members of a different faith.
+custom_tooltip:
+text: sc_clear_religious_chaos_tt
+remove_variable: sc_religious_chaos
+remove_variable: sc_blocked_votes_on_non_religious_policies
+hidden_effect:
+set_variable: sc_religious_chaos
+Enforce Religious Unity
+Religion plays a significant role in the lives of its members and as such the religious unity of the Swiss Confederation is of great priority. All cantons shall follow the same faith one way or another.
+custom_tooltip:
+text: sc_only_defending_same_religion_allies_tt
+remove_variable: sc_religious_chaos
+remove_variable: sc_blocked_votes_on_non_religious_policies
+hidden_effect:
+set_variable: sc_religious_chaos
+Union
+[
+edit
+|
+edit source
+]
+Centralization Laws
+[
+edit
+|
+edit source
+]
+Codified Inheritance
+[
+edit
+|
+edit source
+]
+In order to secure the stability of the Union, the inheritance laws of each member must be codified so that each state has the same line of succession.
+Potential
+international_organization_type: international_organization_type:union
+Allow
+international_organization_lifetime:
+GREATER_THAN_EQUAL: 10
+international_organization_has_law:
+Union Foundation
+Locked
+international_organization_has_policy:
+Unified Treasury
+Policy
+Allow
+Country Modifier
+On Activate
+On Deactivate
+International Organization Modifier
+Unified Succession Law
+The succession of the Union is regulated by the laws of the Senior Partner. Each member is forced to adopt these laws if applicable.
+is_same_ruler_personal_union: True
+has_active_senior_partner: True
+international_organization_has_policy:
+Establish Seniority
+Blocked from Changing Heir Selection:
+yes
+on_union_policy_change_effect: True
+apply_same_inheritance_policy_effect: True
+change_union_integration_level:
+value: 1
+change_union_integration_level:
+value: -1
++1
+Union Integration Level
+Enabled Negotiate Succession Law:
+yes
+Sovereign Succession Law
+No member within the Union can determine the legal rights of succession of another member. Each member's policies regarding the throne is a matter of own sovereignty.
++0.05
+Monthly Legitimacy
+on_union_policy_change_effect: True
+Economy of the Union
+[
+edit
+|
+edit source
+]
+One monarch might rule over multiple thrones, yet the members of the Union are very separated in their economy. This law shall bring all of them closer to each other.
+Potential
+international_organization_type: international_organization_type:union
+Allow
+international_organization_lifetime:
+GREATER_THAN_EQUAL: 20
+international_organization_has_law:
+Codified Inheritance
+Locked
+international_organization_has_law:
+Economy of the Union
+international_organization_has_policy:
+Unified External Diplomacy
+Policy
+Allow
+On Activate
+On Deactivate
+Can Build Buildings In Members
+Can Build Rgos In Members
+Can Build Roads In Members
+International Organization Modifier
+Payments Implemented
+Unified Treasury
+The different treasuries of the Union shall be unified into one single entity which fills the coffers of the monarch and allows them to spend the gold in the best interest of the Union.
+is_same_ruler_personal_union: True
+has_active_senior_partner: True
+international_organization_has_policy:
+Unified Succession Law
+on_union_policy_change_effect: True
+change_union_integration_level:
+value: 1
+change_union_integration_level:
+value: -1
++1
+Union Integration Level
+union_contribution
+Cooperative Investment
+The treasuries of the members of the Union serve nobody exclusively. They are part of the royal commune, and shall be used to improve the infrastructure of every member.
+on_union_policy_change_effect: True
+Diplomatic Liberties
+[
+edit
+|
+edit source
+]
+As the Union is led from a single throne, so comes the question of how the diplomacy of the Union shall be handled.
+The matters of warfare, though, are nonetheless in the hands of the Estates of our union partners.
+Potential
+international_organization_type: international_organization_type:union
+Allow
+international_organization_lifetime:
+GREATER_THAN_EQUAL: 30
+international_organization_has_law:
+Economy of the Union
+Locked
+international_organization_has_law:
+Diplomatic Liberties
+international_organization_has_policy:
+Aligned Legislature
+Policy
+Allow
+Country Modifier
+On Activate
+On Deactivate
+International Organization Modifier
+Unified External Diplomacy
+The diplomatic affairs of the Union are centralized in the Senior Partner, while the other members are limited in their foreign diplomacy. The matters of warfare, however, are still in the hands of the Estates, even though now they are significantly more incentivized to take less risks in their endeavors.
+is_same_ruler_personal_union: True
+has_active_senior_partner: True
+international_organization_has_policy:
+Unified Treasury
++25.00%
+War with No Casus Belli Cost
+−0.75
+Aggressiveness Modifier
++0.50
+Carefulness Modifier
+on_union_policy_change_effect: True
+change_union_integration_level:
+value: 1
+change_union_integration_level:
+value: -1
++1
+Union Integration Level
+Allow Enforce Peace in Union:
+yes
+Unlock Rein in Junior Diplomacy:
+yes
+Organized Diplomats
+The diplomats of the Union serve no singular banner, but the entirety of the Union. Each member has access to their abilities and can utilize them for their own foreign affairs.
++10.00%
+Diplomatic Capacity
++0.10
+Monthly Diplomats
++1.00
+Maximum Diplomats
+on_union_policy_change_effect: True
+Legislature of the Union
+[
+edit
+|
+edit source
+]
+The adminstration of the Union rqeuires a cohesive design. An approved, unitary system of a legislature is imperative to ensure the stability of the Union.
+Potential
+international_organization_type: international_organization_type:union
+Allow
+international_organization_lifetime:
+GREATER_THAN_EQUAL: 40
+international_organization_has_law:
+Diplomatic Liberties
+Locked
+international_organization_has_law:
+Legislature of the Union
+international_organization_has_law:
+Question of Unification
+Not:
+international_organization_has_policy:
+Federal Union
+Policy
+Allow
+Country Modifier
+On Activate
+On Deactivate
+International Organization Modifier
+Aligned Legislature
+In order to keep administrative cohesion and consistency within the Union, all laws and policies shall be aligned with the ones of the Senior Partner.
+is_same_ruler_personal_union: True
+has_active_senior_partner: True
+international_organization_has_policy:
+Unified External Diplomacy
+on_union_policy_change_effect: True
+apply_same_laws_policy_effect: True
+change_union_integration_level:
+value: 1
+change_union_integration_level:
+value: -1
++1
+Union Integration Level
+Federal Legislature
+Differences in customs and laws are no flaw but a primary aspect of the different members of the Union. As such, the design of policies is an untouchable responsibility of the member states instead of the ruler.
++10.00%
+Efficiency of Our Cabinet
+on_union_policy_change_effect: True
+Question of Unification
+[
+edit
+|
+edit source
+]
+The Union is in its most variations nothing but a loose confederation of different states ruled from the same throne. However, the possibility of a unification under the banner of the Senior Partner is not out of question...
+Potential
+international_organization_type: international_organization_type:union
+Allow
+international_organization_lifetime:
+GREATER_THAN_EQUAL: 50
+international_organization_has_law:
+Legislature of the Union
+Policy
+Allow
+On Activate
+On Deactivate
+Allow Member Annexation
+Annexation Speed
+International Organization Modifier
+Opinion Bonus
+Trust Bonus
+Rapid Unification of Crowns
+Further improvements in the different parts of the bureaucracy of the Senior Partner have led to an optimization of the annexation process of the Junior Partner.
+is_same_ruler_personal_union: True
+has_active_senior_partner: True
+international_organization_has_policy:
+Aligned Legislature
+At least one of:
+international_organization_has_policy:
+Rapid Unification of Crowns
+international_organization_has_policy:
+Swift Unification of Crowns
+on_union_policy_change_effect: True
+change_union_integration_level:
+value: 3
+change_union_integration_level:
+value: -3
+2
+Swift Unification of Crowns
+The diplomatic and administrative bureaucracy within the Senior Partner has been improved greatly, allowing for a quicker integration of the member states.
+is_same_ruler_personal_union: True
+has_active_senior_partner: True
+international_organization_has_policy:
+Aligned Legislature
+At least one of:
+international_organization_has_policy:
+Rapid Unification of Crowns
+international_organization_has_policy:
+Swift Unification of Crowns
+international_organization_has_policy:
+Unification of Crowns
+on_union_policy_change_effect: True
+change_union_integration_level:
+value: 2
+change_union_integration_level:
+value: -2
+1.5
+Unification of Crowns
+The time has come to centralize the Union at last! Under the graceful watch of the Senior Partner, the member states have agreed to processes of diplomatic annexation.
+is_same_ruler_personal_union: True
+has_active_senior_partner: True
+international_organization_has_policy:
+Aligned Legislature
+on_union_policy_change_effect: True
+change_union_integration_level:
+value: 1
+change_union_integration_level:
+value: -1
+1
+Enable Annexation of Members:
+yes
++1
+Union Integration Level
+Federal Union
+The Union is first and foremost a defensive alliance. No member state is interested in unifying the thrones into a single political entity, and the sovereignty of the each individual state is protected.
+on_union_policy_change_effect: True
+25
+5
+Federal Laws
+[
+edit
+|
+edit source
+]
+Mutual Offense
+[
+edit
+|
+edit source
+]
+Although first and foremost defensive in its nature, the military might of a Union can be called to support each other in military campaigns - if the state members agree to such obligation.
+Potential
+international_organization_type: international_organization_type:union
+Allow
+international_organization_lifetime:
+GREATER_THAN_EQUAL: 25
+Policy
+Allow
+On Activate
+Assured Offense
+The Union serves as an aggressive alliance. Enemies shall tremble as our soldiers move in unity against them.
+policy_is_voting_target:
+policy:
+Assured Offense
+on_union_policy_change_effect: True
+Duty for Offense
+The Union has a strong aggressive nature to it. Every member is appealed to follow their fellow members to the offensive war.
+policy_is_voting_target:
+policy:
+Duty for Offense
+on_union_policy_change_effect: True
+Possible Offense
+In order to survive, the Union must thrive through conquest and growth of their own power. Each member may be allowed to call in other members in times of war.
+policy_is_voting_target:
+policy:
+Possible Offense
+on_union_policy_change_effect: True
+Foundation Laws
+[
+edit
+|
+edit source
+]
+Union Foundation
+[
+edit
+|
+edit source
+]
+The law of the Union which determines its very nature and if it should follow a centralized or federal future - if it can stand the test of time.
+Potential
+international_organization_type: international_organization_type:union
+Allow
+international_organization_lifetime:
+GREATER_THAN_EQUAL: 5
+Locked
+international_organization_has_law:
+Union Foundation
+international_organization_has_policy:
+Unified Succession Law
+Policy
+Allow
+Country Modifier
+On Activate
+Has Parliament
+Establish Seniority
+The Union can only hold together from a single throne. Designating the senior partner of the Union shall also determine which throne shall represent the Union as a whole.
+is_same_ruler_personal_union: True
+custom_tooltip: union_senior_partner_policy_at
+custom_tooltip: union_unlocks_independence_casus_belli_tt
+custom_tooltip: union_unlocks_war_for_seniority_casus_belli_tt
+on_union_policy_change_effect: True
+if:
+limit:
+Not:
+has_variable: pre_selected_senior_partner
+custom_tooltip: union_senior_partner_policy_tt
+else:
+custom_tooltip: union_senior_partner_policy_specific_tt
+set_parliament_type: parliament_type:union_royal_assembly
+Maintain Federal Status
+The sovereignty of each member of the Union is untouchable and unquestionable. Even if each throne is ruled by a single ruler, it is not the monarch's business to meddle in the affairs of the union members.
++0.01
+Stability Investment
+on_union_policy_change_effect: True
+References
+[
+edit
+|
+edit source
+]
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=International_organization_laws&oldid=21237
+"

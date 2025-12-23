@@ -1,0 +1,621 @@
+Source URL: https://eu5.paradoxwikis.com/Advances
+Source Date: 2025-11-15
+
+Please help with verifying or updating older sections of this article.
+At least some were last verified for
+version
+pre-release.
+Europa Universalis 5
+Ages
+Age of Traditions
+Age of Renaissance
+Age of Discovery
+Age of Reformation
+Age of Absolutism
+Age of Revolutions
+Ages
+represent distinct periods of history. Most ages in
+Europa Universalis V
+last 100 years. Each age has three
+institutions
+, which each represent specific cultural or technological paradigm shifts. Each institution has an associated tree of
+advances
+which represent smaller innovations or specific technologies such as ship designs or production methods.
+List of ages
+[
+edit
+|
+edit source
+]
+Every century is its own age. Each age has its own rules, mechanics, and advance trees that can be progressed through.
+At the start of an age, each country will select one of three focuses,
+Administrative Ability
+,
+Diplomatic Ability
+, or
+Military Ability
+, which determines the options in the advance tree for that age.
+Age
+Start year
+Hegemons
+Effects
+Institutions
+Market prices
+Price stability
+Traditions
+Different societies have been established throughout the world for hundreds and thousands of years, and their foundations can be framed in traditions such as Legalism, Meritocracy, or Feudalism.
+Game start
+−10%
+Control impact on warscore
+Feudalism
+Legalism
+Meritocracy
+Up to 300%
+10%
+Renaissance
+A new era of knowledge, arts, and progress is emerging due to growing interactions and institutions in the medieval societies affected by Pax Mongolica, the Islamic Golden Age, and the European Renaissance.
+1342
+−20%
+Control impact on warscore
++100%
+Expected army size
++25%
+Diplomatic capacity
++25%
+Cultural tradition
++10%
+Antagonism religion influence
+−10%
+Levy combat efficiency
++10%
+Levy maintenance
+−20%
+Navy levy size
+Renaissance
+Banking
+Professional Armies
+Up to 300%
+10%
+Discovery
+At the dawn of the Early Modern era new continents are being mapped while feudal society is slowly giving way to centralized states.
+For an enterprising state this age can see the foundation of a worldwide empire.
+1437
+−40%
+Control impact on warscore
++200%
+Expected army size
++0.25
+Exploration monthly progress
+−25%
+Colonial maintenance
++15%
+Antagonism religion influence
+−20%
+Levy combat efficiency
++25%
+Levy maintenance
+−75%
+Navy levy size
+Unlocks Outward and Inward societal values
+New World
+Printing Press
+Pike and Shot
+Up to 400%
+8%
+Reformation
+From East to West this is the age of religious conviction, debates and mass movements. In Europe, the Protestant churches are entrenched while millenarianism takes hold of Iran and religious Syncretism shapes Indian society.
+1537
+−60%
+Control impact on warscore
++300%
+Expected army size
++33%
+Pop conversion speed
+−25%
+Trade maintenance
++20%
+Antagonism religion influence
++10%
+Antagonism culture influence
++10%
+Antagonism government type influence
+−30%
+Levy combat efficiency
++50%
+Levy maintenance
+−100%
+Navy levy size
+Unlocks Mercantilism and Free Trade societal values
+Confessionalism
+Global Trade
+Artillery
+Up to 500%
+6%
+Absolutism
+As governments wrest the absolute power in their countries from other parties, they are now able to devote themselves to the building of Empires. This is the age of the state, of rulers, and their armies.
+1637
+−80%
+Control impact on warscore
++400%
+Expected army size
++50%
+Income from colonial subjects
+−10%
+War score cost
++2
+Construction center max level
+−33%
+Revoke privilege cost
++25%
+Speed of integration
++10%
+Antagonism religion influence
++10%
+Antagonism societal value influence
++20%
+Antagonism culture influence
++20%
+Antagonism government type influence
+−40%
+Levy combat efficiency
++75%
+Levy maintenance
+−200%
+Navy levy size
+−10
+Loyalty of subjects
+Unlocks Absolutism and Liberalism societal values
+Manufactories
+Scientific Revolution
+Military Revolution
+Up to 500%
+4%
+Revolutions
+The questioning of rights, authority and the world itself during the Enlightenment has led to the rejection of the Ancient Regime. As Absolutism gives way to Revolution kingdoms may have to make place for Republics.
+1737
+−100%
+Control impact on warscore
++500%
+Expected army size
++100%
+Income from colonial subjects
+−20%
+War score cost
++5
+Construction center max level
++20%
+Antagonism societal value influence
++10%
+Antagonism culture influence
++25%
+Antagonism government type influence
+−50%
+Levy combat efficiency
++100%
+Levy maintenance
+−200%
+Navy levy size
+−30
+Loyalty of subjects
+Enlightenment
+Industrialization
+Levée en Masse
+Up to 500%
+2%
+Institutions
+[
+edit
+|
+edit source
+]
+Each age has three different institutions that slowly spread between locations and along trade routes. When a new age is reached, each institution starts with a 1% chance to spawn each month, growing over time so it spawns soon after the age starts. The location where an institution spawns depends on the game rules. Hovering over an institution that can spawn but has not appeared yet shows all valid spawn locations and the chance for each location to be selected. The location where an institution spawns gains a permanent modifier related to that institution.
+Once an institution has spread at least 20% in a country, it can be embraced at a scaled cost of
+Stability and
+Gold. Embracing an institution will unlock a new branch in the advances tree and begin to spread the institution from the country's capital. Embracing an institution also doubles its spread throughout the country but this bonus decreases with lack of control.
+Institutions spread to locations at the following rates:
+0.02
+⋅
+Literacy
+{\displaystyle 0.02\cdot {\text{Literacy}}}
+if the location's market's center has the institution
+0.05
+⋅
+Literacy
+{\displaystyle 0.05\cdot {\text{Literacy}}}
+if the location is the country capital and the country embraced the institution
+0.005
+⋅
+Literacy
+{\displaystyle 0.005\cdot {\text{Literacy}}}
+if the location shares a sea zone with a location where the institution is present
+0.01
+⋅
+Literacy
+{\displaystyle 0.01\cdot {\text{Literacy}}}
+if the location is adjacent to a location that has the institution and both locations are in the same country or from countries that have positive opinion of each other
+2
+⋅
+Control
+{\displaystyle 2\cdot {\text{Control}}}
+if the location's country embraced the institution
+(
+0.05
+⋅
+Literacy
+)
++
+(
+0.02
+⋅
+Development
+)
+{\displaystyle (0.05\cdot {\text{Literacy}})+(0.02\cdot {\text{Development}})}
+if the location is importing from a place that has the institution
+0.1
+⋅
+Literacy
+{\displaystyle 0.1\cdot {\text{Literacy}}}
+if the location met the institution spawning requirements and the Institution Spawn game rule is set to Dynamic
+Age of Traditions
+[
+edit
+|
+edit source
+]
+Institutions from the Age of Traditions start spawned and already spread from their historical location regardless of game rules.
+Institution
+Birthplace modifier
+Birthplace
+Feudalism
+Over time, most societies develop a need for a common structure with stronger and more permanent institutions of government. After the fall of the Roman Empire, this need came to be filled by a number of institutions and customs that taken together are often considered to be part of the European Feudal system.
+For similar reasons, permanent government and societal systems have formed all over the world, some of which have roots that go far further back than Feudalism itself.
++100
+Possible Nobles
+Aachen
+Legalism
+The theories behind Legalism have been integrating into Chinese societal structures for hundreds of years. The concept that pure idealism and domestic stability leads to a rich, prosperous state and a powerful army is deeply rooted in the forums of thought in the Eastern Asian domains.
+However, as merchants and migrants brought forth the exchange of ideas, the concept of Legalism made its way across the vast expanses of the Muslim world. There, it adopted the stance of a symbiotic relationship between heathens and believers in Islamic states.
+Legalism in Europe signified the rite of passage, from the dying grasps of the great Roman Empire to its remnant legal roots, many of which would later serve as the basis for new jurisprudence across the old continent.
++50%
+Local Pop Promotion Speed %
+Rome
+Meritocracy
+Many individuals of great prestige and in positions of power often chose to appoint those closest to them in influential spots.
+The advent of Meritocracy as an institution and a thought movement was largely popular in the courts of Imperial China. There, Confucius himself supported the notion that those who govern should do so on the basis of merit, not of inherited status.
+This led to the replacement of the Chinese nobility of blood ties to one based solely on meritocratic abilities. This institution's development would ripple across and beyond the borders of Asia and would eventually reach the royal courts of even European monarchs whose Nobles had a firm grasp on the mechanisms of power and authority.
++0.25
+Cultural Tradition
+Khanbaliq
+Age of Renaissance
+[
+edit
+|
+edit source
+]
+Institutions from the Age of Renaissance can only spawn in locations with the same culture as their country's primary culture.
+Institution
+Birthplace modifier
+Birthplace depending on game rules
+Historical
+Plausible
+Banking
+Money lending has existed since metal-based coins appeared in Antiquity. However, it depended on some individuals and their family groupings or on the Ancient States. A shift occurred in the Middle Ages, encouraged by the renewed growth of long-range commercial activities on the Eurasian continent and its peripheries.
+Specialized moneylenders began to organize when Jewish communities started operating between the Christian and Islamic worlds. However, the boom of credit demand that followed the Crusades in the 12th century encouraged merchants in the Italian city-states to create larger structures for money lending, effectively founding the first Banking institutions, such as the Peruzzi and Bardi houses.
+More instruments were developed, like bills of exchange and debt bonds, and Banking dynasties such as the Medici, Fugger or Welser soon became as powerful as States.
++1%
+Local Monthly Prosperity
+Genoa
+Region is Europe, Middle East or North Africa
+Over 1000 Burghers population
+Country's societal values are at least 50 towards Capital Economy
+Renaissance
+Starting now in the 14th century, the wealthy and powerful in the Italian City states have been patronizing artists and scholars willing to explore the old Roman and Greek societies of their forefathers.
+As a cultural movement the Renaissance already encompasses most of the region and has had a profound impact on literature, art, philosophy, and music. Humanist scholars are also analyzing the society in which they live, comparing it to the ideals of the Classical philosophers. Renaissance Humanism has grown into a more mature movement, ready to permeate all aspects of society. A new ideal for rulers as well as those who are ruled is spreading as quickly as the early Printers can distribute copies of these new ideas.
+A true Renaissance Humanist is an expert on everything from politics and philosophy to art, textual analysis, music, and architecture. The Renaissance is now ready to reshape the world to better fit its classical ideals.
++0.5
+Local Cultural Influence
+Florence
+Region is Emilia or Lombardy
+Location is a city or has an university
+Professional Armies
+Armies have existed since war was invented, many thousands of years ago. However, their form has changed over the centuries and different types of recruitment and organization have developed in different cultures and periods.
+In the Late Middle Ages, armies in a wide range of societies relied on levies based on the structures of feudal society, with knights and footmen forming a core that was levied seasonally. In some regions, however, states were powerful enough to finance standing armies, with professional soldiers who would be available for duty throughout the year.
+This system was also developed in Europe after the outbreak of the Hundred Year's War, being one of the main changes that promoted a Military Revolution in the Early Modern Age. Increasing the size and quality of Professional Armies, while finding new sources of revenue to finance them, soon became one of the main challenges for rulers around the world.
++50%
+Monthly Manpower
+Paris
+Region is Europe
+Has manpower
+Country's societal values are at least 10 towards Quality
+Age of Discovery
+[
+edit
+|
+edit source
+]
+Institution
+Birthplace modifier
+Birthplace depending on game rules
+Historical
+Plausible
+New World
+The discovery of the New World has heralded a new era not only for the colonizers and the colonized, but it has also led to the spread of materials and techniques as well as a realization of the vastness of the globe. As animals, crop types, silver and diseases spread across the Atlantic, the first steps have been taken towards a truly global economy. With foreign lands and people being mapped and documented, ideas as well as religious and philosophical debate are increasingly being colored by what we have found in overseas societies. Great minds feel the need to question what was once truth, and from Valladolid to Fatehpur Sikri, the nature of the world is now up for debate.
++50%
+Monthly Sailors
+Sevilla
+Region is Western Europe or North Africa
+Country has discovered the Azores, Canary Islands, or South Macaronesia
+Has a port
+Over 2000 Burghers population
+Dominant culture is the county's primary culture
+Pike & Shot
+A new type of warfare began to develop at the end of the 15th Century, in the midst of the Italian Wars. The generalization of pikemen in the Late Middle Ages as an alternative to men-at-arms who could successfully face heavy cavalry charges was accompanied by the development of portable firearms, mainly matchlock arquebuses and muskets. The soldiers now adopt a new formation, in which the pikemen form a square, while the arquebusiers fan out to the sides and front, and seek cover behind or inside the square in case the formation enters close combat. This new type of formation, called Pike & Shot, was favored by German Landsknechts and Spanish Tercios, and was soon adopted by other armies, reigning supreme on European battlefields for nearly two centuries, until superseded in the early 18th Century by line infantry formations armed with new flintlock muskets mounting bayonets.
++20%
+Local Weaponry Output
+Innsbruck
+Region is Europe or North Africa
+Has manpower
+Professional Armies institution present
+Country has the Gunpowder advance
+Country has more than 20% Army Tradition
+Country's societal values are at least 20 towards Land
+Printing Press
+The ability to mass-produce the written word would revolutionize the spread of information and in many ways early modern society as a whole. Pioneered by Renaissance men such as Venetian Printer Aldus Manutius, the new art helped fuel the Renaissance by making the translated classics more widely available. Later the Reformation benefitted greatly from the ability to spread critical publications and translations of the Holy Scriptures.
+Now that Printing has matured as a technique and spread throughout Europe, hundreds of thousands of copies of everything from Religious and Political pamphlets to scientific treatises and instructions on how to behave are circulating the continent. With print shops growing evermore commonplace, rulers have found it hard to contain the new technique as the comparatively easy means of production means censorship can be sidestepped by moving business across a border or even just changing the name on a title page.
++5%
+Local Max Literacy
+Mainz
+University
+Produces at least 5 Paper
+Over 1000 Burghers population
+Country's societal values are at least 20 towards Innovative
+Renaissance institution present
+Age of Reformation
+[
+edit
+|
+edit source
+]
+Institutions from the Age of Reformation can only spawn in Europe or North Africa.
+Institution
+Birthplace modifier
+Birthplace depending on game rules
+Historical
+Plausible
+Artillery
+The invention of gunpowder in Song China led to the development of a new device that would employ its firepower in warfare, the artillery. Although it spread throughout Eurasia in the 13th Century, its use as a common weapon system did not happen until the 15th century, as improvements in the cannon length and gunpowder recipe made artillery much more powerful, now posing a threat to stone-built castles and fortifications, the most common in Europe. Soon artillery would be used not only in sieges but also on battlefields, as smaller caliber guns now featured the mobility required to be quickly deployed and used. Its final development as a key warfare system would come in the 18th Century, especially after Napoleon perfected its use at key points during battles.
++50%
+Local Cannon Output
+Constantinople
+Professional Armies institution present
+Gunsmith
+Tools Guild
+Country's societal values are at least 20 towards Offensive
+Confessionalism
+Catholicism has been regarded as a unitary entity for a long time, but the advent of the various Protestant Faiths has put an end to that. With the rise of a myriad of different interpretations of what the Faith should be, Christianity is anything but united. But where before any deviance from the Church could be easily labeled as heretic, now the lines creating the differences have become blurrier at least.
+As such, there has been an increasing interest both for religious and secular authorities alike to clearly define the shapes of their specific confessions, enforcing their particular rules and views on all aspects of faith and life. This allows them a more firm grip on the faith of their population, but also increases the differentiation and thus animosity with all the other confessions.
++100%
+Local Pop Conversion Speed %
+Augsburg
+Printers Shop
+Town or City
+Religion is Catholicism
+Country's primary religion is Catholicism
+Country's societal values are at least 25 towards Spiritualist
+Global Trade
+Goods have been moved across continents since antiquity. But where this was previously limited to a set number of routes and goods such as the manufactured goods of India and China finding their way across the Indian Ocean and along the Silk Road, all trade is now increasingly becoming part of a greater world network. With the discovery of the Americas, sea routes around Africa and the crossing of the Pacific Ocean, local trade networks are being connected into one world-spanning interconnected web.
+Silver mined in the Andes is now being boxed and taken via Europe all the way to China and India. Iron mined and wrought in Scandinavia is being sold in West Africa by English merchants, and others are making a fortune just distributing cloth and spices within the Southeast Asian trade sphere. Local Indian merchants are investing in future European trade ventures. It may still be early to speak of a truly Global Economy, but surely the first seeds have been sown.
++2.5%
+Market Attraction
+Lisbon
+Banking institution present
+New World institution present
+City
+Market center
+Location's market has traded at least 500 goods
+Age of Absolutism
+[
+edit
+|
+edit source
+]
+Institutions from the Age of Absolutism can only spawn in Europe or North Africa.
+Institution
+Birthplace modifier
+Birthplace depending on game rules
+Historical
+Plausible
+Manufactories
+While a number of technical innovations during the course of the 16th and 17th centuries have increased the output of production for some products such as iron or cloth to an extent, the biggest improvement in the field of production has come in the form of new forms of organization. By creating manufactories, often outside the city limits, merchant capitalists can both bypass the ancient guild laws that inhibit mass production, and pioneer ways to increase production through the organization and specialization of labor in one place. The forerunners of the later Industrialization were able to increase output by facilitating access to raw materials and mass organization of labor rather than by expensive new machinery. This is in itself a huge change over the often heavily regulated methods of old, however, and together with later technical advances this new mode of production will come to revolutionize society.
+−25%
+Buildings Cost
+Derby
+Banking institution present
+Over 20000 Burghers population
+Country's societal values are at least 30 towards Capital Economy
+At least 81 total building levels
+Military Revolution
+The continuous state of war affecting Europe in the 16th and 17th Centuries leads to a sharp increase in the size of armies, as a necessity born of the growing authority of competing absolutist regimes. The infantry is now armed en masse with flintlock muskets, greatly increasing their firepower and performance in battle by being deployed in the innovative line formation, replacing the old Pike & Shot. Those needs also affect the capabilities of the state administration as it continues to expand to handle the manpower and finances required by this increase in the size of the military. That also is spearheading the development of the supply chains required to feed and sustain armies, through intermediate depots that support the operational armies. The result of these advances would be none other than an upsurge of wars between increasingly militarized countries in the 18th Century.
++0.001
+Local Monthly Development
+Stockholm
+Country capital
+Over 30000 population
+Pike & Shot institution present
+Artillery institution present
+Country's societal values are at least 20 towards Offensive
+Scientific Revolution
+It is clear that the world is smaller now than ever before. The rise of a global trade and the printing industry led to an increased flow of people and ideas, allowing for a more widespread dissemination of knowledge. This in turn resulted in a more thorough questioning and analysis of the reality of the world. What was once just accepted as fact is now questioned, what was only poorly understood is now observed, and what was only supposed, tested.
+The recent advancements in areas such as mathematics, physics., or biology are undeniable, but the real revolution is the change in the perception and approach towards science itself and the way of understanding it. Systematic experimentation is the true scientific revolution, and it will surely change completely our conception of the world.
++10%
+Local Max Literacy
+Cambridge
+University
+At least 31 literacy
+Printing Press institution present
+Country's societal values are at least 20 towards Innovative
+Age of Revolutions
+[
+edit
+|
+edit source
+]
+Institution
+Birthplace modifier
+Birthplace depending on game rules
+Historical
+Plausible
+Enlightenment
+The last century has seen Rationalism and Empiricism gaining an ever-increasing popularity among the great minds of the age. In letters, publications and coffee houses, kings, scientists, philosophers, and littérateurs are discussing the merits of tolerance, the scientific method, and the spreading of the ideals of the Enlightenment to all of humanity. From universities or courts of enlightened monarchs, expeditions are being sent to measure, catalog, weigh, and map the world so that we can better understand the laws that govern everything around us. Others discuss the laws that govern society and try to reach an understanding of the Rights of Man.
+Great projects such as the colossal undertaking of creating a complete encyclopedia of all knowledge or a complete index of all plants, animals, and fungi in the world are being pursued for the greater good of humanity. The Light of Reason has been lit and many will not rest until it has been brought to all corners of the earth.
+−5%
+Unrest
+Paris
+Region is Europe or North Africa
+University
+At least 31 literacy
+Scientific Revolution institution present
+Country's societal values are at least 20 towards Innovative
+Industrialization
+The dawn of the 18th century gave rise to many new institutions as man's thirst for growth took hold. Advances in the field of production, and manufacturing as well as the introduction of complicated machinery will change the world as we know it on a global scale. The rise of the Industrial Revolution brings about international and lasting changes not just in commerce and business but in the fabric of society itself. Inventions such as the power loom and steam engines shall push the capabilities of mankind to its highest zenith yet.
++5%
+Production Efficiency
+Blackburn
+Region is Europe or North Africa
+Manufactories institution present
+Over 2000 Burghers population
+At least 121 total building levels
+Country's societal values are at least 30 towards Capital Economy
+Levée en Masse
+Warfare is an ever-evolving concept, innovated and honed generation after generation. The 18th century saw the rise of powerful empires, each with its own ambitions. To satisfy the need for expansion and provide the fuel necessary to fulfill these ambitions, new nationwide conscription laws will be drafted and signed in effect, raising armies of all unmarried young men, the size of which will shape the course of history.
++25%
+Levy Size
+Paris
+Military Revolution institution present
+Country capital
+Over 200000 population
+Country's societal values are at least 0 towards Quantity
+Advances
+[
+edit
+|
+edit source
+]
+Advances represent ideas, inventions, technologies, and other examples of progress that are unlocked over time. Each country can research one advance at a time, and each age has its own set of advances.
+If a country is not researching an advance, it can store up to 12 months of research progress. Once an advance is selected for research, it begins with research progress equal to the stored value.
+The base research cost for an advance is 25
+[1]
+. This cost is modified by
++15%
+[2]
+for each age after the Age of Tradition, up to
++75%
+more in the Age of Revolutions. Advances from previous ages have an
+−8
+[3]
+research point discount.
+Research Cost per Age
+Age
+Is current age
+Is previous age
+Age of Traditions
+25
+17
+Age of Renaissance
+28.75
+19.55
+Age of Discovery
+32.5
+22.1
+Age of Reformation
+36.25
+24.65
+Age of Absolutism
+40
+27.2
+Age of Revolutions
+43.75
+29.75
+References
+[
+edit
+|
+edit source
+]
+↑
+NDefines.NCountry.BASE_RESEARCH_COST = 25
+in
+Defines
+.
+↑
+NDefines.NCountry.AGE_RESEARCH_MODIFIER = 0.15
+in
+Defines
+.
+↑
+NDefines.NCountry.PREVIOUS_AGE_REDUCTION = −8
+in
+Defines
+.
+Mechanics
+Realm
+Country
+•
+Government
+•
+Parliament
+•
+Estate
+•
+Reforms
+•
+Laws
+•
+Characters
+•
+Missions
+Economy & Research
+Economy
+•
+Goods
+•
+R.G.O.
+•
+Market
+•
+Building
+•
+Population
+•
+Age
+Diplomacy & Warfare
+Diplomacy
+•
+Subjects
+•
+International organization
+•
+Warfare
+•
+Combat
+•
+Military
+The world
+Location
+•
+Culture
+•
+Religion
+•
+Language
+•
+Exploration
+•
+Situations
+•
+Disasters
+•
+Diseases
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=Age&oldid=18330
+"

@@ -1,0 +1,451 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-6-april-3rd-2024.1657435/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #6 - April 3rd, 2024
+Thread starter
+Johan
+Start date
+Apr 3, 2024
+Welcome to the sixth Tinto Talks, where we talk about the design and features of our not yet announced game, with the codename ‘Project Caesar’.
+Hey, before jumping into todays topic, I would like to show something very fresh out of the oven, based on your feedback last week. This is why we are doing these Tinto Talks, to make Project Caesar your game as much as ours...
+Today we will delve into three concepts that are rather new to our games, but first, we’ll talk about locations a bit more.
+Not every location on the map is the same, especially not in a game of such scope as Project Caesar. By default, every ownable land location is a rural settlement, but there are two “upgrades” to it that can be done. First, you can find a town in a location, which allows you to increase the population capacity of the location and allows for a completely different set of buildings than a rural settlement.  Finally, you can grant city rights to a town, which allows for even further advantages. Now you may wonder, why don’t I make every location into cities?  Besides the cost and the population requirement, there is also the drawback that each of them tend to reduce your food production, while also adding more nobles, clergy and lots of burghers to your country.
+Stockholm, Dublin and Belgrade are examples of towns at the start of the game, while cities include places like Beijing, Alexandria and Paris.
+Here you can see the control that Sweden currently has.
+Control
+Every location that you own has a control value, which is primarily determined by the proximity it has to the capital, or another source of authority in your country. There are only a few things that can increase it above the proximity impact, but many things that can decrease it further.
+This is probably the most important value you have, as it determines how much value you can get out of a location, as it directly impacts how much you can tax the population in that location, and the amount of levies they will contribute when called.  A lack of control, reduces the crown power you gain from its population, while also reduces the potential manpower and sailors you can get, and weakens the market attraction of your own markets, making them likelier to belong to foreign markets if they have too low control.
+Proximity
+So what is proximity? It is basically a distance to capital value, where traveling on the open sea is extremely costly.  Proximity is costly over land, but along coastlines where you have a high maritime presence you can keep a high proximity much further.  Tracing proximity along a major river reduces the proximity cost a fair bit, and if you build a road network that will further reduce the proximity costs.
+There are buildings that you can build, like a Bailiff that will act as a smaller proximity source, but that has the slight drawback of adding more nobles to the location, and with a cost in food for them.
+Maritime Presence
+In every coastal location around your locations, or where you have special buildings, you have a maritime presence.  This is slowly built up over time based on your ports and other buildings you have in adjacent locations. Placing a navy in the location helps improve it quicker, but blockades and pirates will decrease it quickly, making it absolutely vital to protect your coastlines in a war, or you’ll suffer the consequences for a long time.
+As mentioned earlier, the maritime presence impacts the proximity calculations, but it also impacts the power of your merchants in the market the seazone is a part of.
+Stay tuned, next week we’ll be doing an overview of the economy system, which has quite a lot of new features, as well as features from older games.
+390
+215
+21
+9
+3
+1
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+42
+Next
+1 of 42
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Apr 3, 2024
+Add bookmark
+#2
+Wow.
+53
+4
+2
+1
+Reactions:
+Reply
+Report
+D
+Dongerino
+Evropa's Gemmiest Herald
+43 Badges
+Jun 27, 2015
+1.131
+10.921
+Apr 3, 2024
+Add bookmark
+#3
+Best part of the week
+135
+34
+3
+Reactions:
+Reply
+Report
+theJalden
+Major
+56 Badges
+Dec 7, 2013
+509
+1.331
+Apr 3, 2024
+Add bookmark
+#4
+Nice, thanks for taking community input into account!
+Now onto the Johology
+Johan said:
+Not every location on the map is the same, especially not in a game of such scope as Project Caesar. By default, every ownable land location is a rural settlement, but there are two “upgrades” to it that can be done. First, you can find a town in a location, which allows you to increase the population capacity of the location and allows for a completely different set of buildings than a rural settlement.  Finally, you can grant city rights to a town, which allows for even further advantages. Now you may wonder, why don’t I make every location into cities?  Besides the cost and the population requirement, there is also the drawback that each of them tend to reduce your food production, while also adding more nobles, clergy and lots of burghers to your country.
+Stockholm, Dublin and Belgrade are examples of towns at the start of the game, while cities include places like Beijing, Alexandria and Paris.
+Click to expand...
+Did not see that coming, designated towns and cities can make for a very dynamic map. I wonder if this will be how Free Cities are defined, such as you might see in the HRE.
+Johan said:
+Control
+snip
+Proximity
+snip
+Click to expand...
+Much like communication efficiency in M&T, those are good mechanics and I'm happy to see them in the game. I find them to be intuitive, while also a good anti-blobbing mechanic. Local administration building to increase control is a pretty standard mechanic.
+Johan said:
+Maritime Presence
+In every coastal location around your locations, or where you have special buildings, you have a maritime presence.  This is slowly built up over time based on your ports and other buildings you have in adjacent locations. Placing a navy in the location helps improve it quicker, but blockades and pirates will decrease it quickly, making it absolutely vital to protect your coastlines in a war, or you’ll suffer the consequences for a long time.
+As mentioned earlier, the maritime presence impacts the proximity calculations, but it also impacts the power of your merchants in the market the seazone is a part of.
+Click to expand...
+So in a war, if you are blockaded then maritime presence breaks down and with it "control" of far flung provinces. I assume there will be a "patrol coastline" mission for navies in that case, microing navies to bump up maritime presence would be tedious. Also very happy to hear about pirates.
+Johan said:
+Click to expand...
+The Hanseatic League is it's own tag? Or if its a trade league is the maritime presence of member countries merged?
+Johan said:
+Stay tuned, next week we’ll be doing an overview of the economy system, which has quite a lot of new features, as well as features from older games.
+Click to expand...
+Hard to understate how hyped I am for next week
+Last edited:
+Apr 3, 2024
+Toggle signature
+"I and my companions suffer from a disease of the heart which can only be cured by gold" Hernan Cortes
+63
+5
+2
+Reactions:
+Reply
+Report
+Gurtannon
+General
+28 Badges
+Mar 10, 2024
+1.702
+9.943
+Apr 3, 2024
+Add bookmark
+#5
+Nice
+Toggle signature
+UltraOttomanist Turk
+6
+1
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Apr 3, 2024
+Add bookmark
+#6
+Can we keep Dhimmi icon?
+98
+6
+5
+Reactions:
+Reply
+Report
+Traxium318
+Captain
+91 Badges
+Apr 28, 2013
+319
+2.013
+Apr 3, 2024
+Add bookmark
+#7
+When I did read "Road building" I saw heaven. Thanks Johan Al Gaib.
+Last edited:
+Apr 3, 2024
+Toggle signature
+#ReviveImperatorRome #pls
+Spanish PDX content creator mostly on Project Cesar, Vic3 and CK3
+59
+31
+22
+Reactions:
+Reply
+Report
+Kajo007
+Recruit
+21 Badges
+Mar 18, 2021
+3
+6
+Apr 3, 2024
+Add bookmark
+#8
+Looks cool and clean!
+4
+Reactions:
+Reply
+Report
+Paweud
+Ex- 2D Artist         Mesoamerica Universalis
+48 Badges
+May 5, 2014
+482
+1.276
+Apr 3, 2024
+Add bookmark
+#9
+Damn.
+Toggle signature
+I was responsible for the 2D Art in Mesoamerica Universalis
+https://forum.paradoxplaza.com/forum/index.php?threads/mod-mesoamerica-universalis.970935/
+http://steamcommunity.com/sharedfiles/filedetails/?id=861977085
+​
+2
+Reactions:
+Reply
+Report
+Cassilda
+Queen in Yellow
+119 Badges
+Oct 18, 2005
+1.664
+2.677
+Apr 3, 2024
+Add bookmark
+#10
+The fact that the EUV will be considering navies for logistics and actual control of the land as mechanics is a huge improvement compared to EUIV, if properly implemented.
+I'm seriously hoping it moves from map painting to a realistic simulation approach.
+137
+39
+3
+3
+Reactions:
+Reply
+Report
+DoctorSnakes
+Second Lieutenant
+24 Badges
+Jun 13, 2020
+114
+489
+Apr 3, 2024
+Add bookmark
+#11
+Does control have a minimum value, or can it reach 0% if it's far enough away?
+21
+4
+Reactions:
+Reply
+Report
+Lord Lambert
+I cover Tinto Talks on Youtube
+92 Badges
+Jan 26, 2014
+4.643
+30.666
+Apr 3, 2024
+Add bookmark
+#12
+Imperator
+M&T
+‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
+EU5
+Toggle signature
+I play Paradox games on youtube, check me out here if you like:
+Lord Lambert
+Moving armies on a detailed map is about half the fun of a PDS game - Johan
+My signature has changed.
+This was not my choice.
+​
+103
+31
+23
+9
+Reactions:
+Reply
+Report
+riadach
+Field Marshal
+81 Badges
+Jun 4, 2012
+4.797
+6.592
+Apr 3, 2024
+Add bookmark
+#13
+I imagine this increases the value of having subjects who will have their own capitals to control areas from.
+Toggle signature
+CK3 Suggestion: Tribal Confederations
+CK3 Suggestion: Landed Adventurers Mannerbund
+61
+20
+3
+3
+Reactions:
+Reply
+Report
+Imperialismo
+Sergeant
+58 Badges
+Apr 16, 2021
+97
+815
+Apr 3, 2024
+Add bookmark
+#14
+WUNDERBAR!!!!! I'm so excited to see how managing a large realm is gonna be with this new proximity and control system.
+21
+3
+Reactions:
+Reply
+Report
+MatGel
+Private
+6 Badges
+Apr 25, 2014
+15
+216
+Apr 3, 2024
+Add bookmark
+#15
+Huh, so I guess it isn't EU V after all. Turns out it was MEIOU 4.0.  Not gonna lie, this makes it even better.
+76
+43
+7
+5
+4
+Reactions:
+Reply
+Report
+K
+KevinMezzi
+Recruit
+27 Badges
+Aug 12, 2020
+5
+15
+Apr 3, 2024
+Add bookmark
+#16
+Thanks for the new Tinto Talk, but did West Sweden really have such a low control?
+7
+5
+Reactions:
+Reply
+Report
+LordVarangian
+Emperor of Missions
+1 Badges
+Apr 9, 2018
+27
+127
+Apr 3, 2024
+Add bookmark
+#17
+Real
+Toggle signature
+Co-Owner of Europa Expanded
+Europa Expanded wishes to add flavor to all countries in EU4. The latest update was
+The Caliphate
+update, which added 1000+ missions, unique disasters, new formables, and tons of new reforms in the Islamic World
+2
+1
+Reactions:
+Reply
+Report
+G
+GrandEurypterid
+Captain
+81 Badges
+May 22, 2017
+341
+884
+Apr 3, 2024
+Add bookmark
+#18
+Roads confirmed! New naval mechanics confirmed! Truly this is a glorious day for the completely unknown game. There is nothing quite like infrastructure that is visible and useful on the map, instead of just being a pretty picture or a province buff.
+46
+14
+2
+1
+Reactions:
+Reply
+Report
+R
+RMS Oceanic
+Field Marshal
+49 Badges
+Jan 27, 2014
+2.807
+4.873
+Apr 3, 2024
+Add bookmark
+#19
+Can control sort of behave like EU4 Autonomy, where you can consciously reduce your control in a location in exchange for less unrest?
+7
+3
+Reactions:
+Reply
+Report
+StelarCF
+First Lieutenant
+67 Badges
+Apr 5, 2013
+277
+334
+Apr 3, 2024
+Add bookmark
+#20
+How can proximity be made faster? Can roads and canals be built? Techs?
+12
+3
+1
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+42
+Next
+1 of 42
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

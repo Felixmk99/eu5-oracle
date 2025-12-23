@@ -1,0 +1,459 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-22-24th-of-july.1696537/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #22 - 24th of July
+Thread starter
+Johan
+Start date
+Jul 24, 2024
+Welcome to another Tinto Talks, the Happy Wednesday where we give you fun information about the top secret Project Caesar.
+Today we will talk a little bit more about how armies work and take a look at how combat works. I’d say the entire unit and combat system is based on the mechanics of the EU series, but we’ve taken influences on combat and organization of armies from March of the Eagles, ideas of the connection between Regiments and Pops from Victoria, and logistics and automation from Imperator, to create what we believe is the best of all systems.
+I am now assuming that you all read Tinto Talks #11, where we talked about different types of regiments like levies, mercenaries and regulars, and discussed how manpower worked. If you have not read it already, go to
+https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-11-8th-of-may-2024.1675078/
+before you continue reading this.
+Regiments can be recruited in any location you have built the infrastructure to allow recruitment in, Levies can be raised in any province capital, and mercenaries in any capital, city or town.  While regular regiments go as low as 100 men at the start of the game, Levies, which fight much much less efficiently, can be organized in up to 1,000 per regiment from the start, with the Chinese even having levy regiments of 1,500 at the start. Why does it work like this? Well, calling up a levy as Poland and get 11,000 men, but 110 regiments is a bit too much, but you can live with it. Delhi, Mamluks and others with 700 regiments are rather too much; and as usual, Yuan breaks everything, where even with low control and wrong culture, calling up a levy, and being forced to handle 1800+ regiments is a bit too much to most of us human beings.
+Before we go into how combat itself will work, when two armies that are hostile to each other are present in the same location, there are some things that will need to be explained. As in many other games, you have as much control over your armies as you want to, and you can move them around and reorganize them to your heart's content.
+With the granularity of the map though, we could no longer use days as the smallest tick, but have to resort to hours as the time tick. The day ticks from 8:00 to 19.00 every day, and the remaining hours are skipped over (representing the fact that armies need to rest and are not always on the move). Now some may be worried that the game will be slower and perform worse, well.. When you fight a war and you care about it, you probably play at a slower speed, but at max speed the game should be as fast as EU4 or Imperator.
+However, we have something here that we will only tease about today, and will talk about in a future Tinto Talks, ie, a powerful objective system that uses the same AI components as the AI itself uses.
+Is it objectively better to give an objective?
+An army is a group of regiments that are organized as a single entity. These can be led by a character who may or may not have traits for being a general. If they don’t have a trait they may get one after a large battle.
+The abilities of the character have a lot of impact on the military aspects, and each attribute has at least three different benefits.
+It is always better to have a commander than not..
+The regiments themselves can be deployed to one of four parts of an army. They could be in the center, they could be on the left flank, they could be on the right flank, or they could be in the reserves. While you can micromanage your army in detail, there are also ways to autobalance your armies. We often refer to one of these four parts as a section as a common word.
+Very WiP UI, but these are the feudal levies of Poland..
+So how does combat work? There are a lot of similarities here with EU4, but we only have 1 type of main phase, but the dice roll is rerolled as frequently as that game.
+The battle starts with a bombard phase, where any unit that can bombard, which is basically only artillery units, will be able to fire on the opposing army. The Artillery will be able to damage units in the opposing “section”, so your left flank fires on the enemies right flank etc. If there are no units in the opposing section, it can fire at any sector that is not the reserves.
+In the main phase combat works like this.
+Each section tries to get as many units to engage as their maximum frontage allows. Most of the time, every regiment has the same frontage value. They will attack their opposing section until there are no possible units left there, and then they will hit enemies in the closest section.
+Only engaged regiments will fight in the current round of combat. And a regiment will try to fight another engaged regiment in the opposing section first. If there is none in an opposite Section, they can attack any other Sections, where a unit with a good flanking ability can do extra damage. If there is no opposing unit engaged, they will damage the morale of all regiments in that section.
+So how does a regiment engage then? Well, at each tick, they roll a dice and check against their initiative, and if they succeed, then they become engaged. This chance increases for every hour of combat. This will make you want to have every section of your army to have units that can engage quickly, to allow your heavy hitters to get enough time to engage. Now this may not always be an option, especially in the earlier game when your selection of units is rather low.
+Every regiment, even those in the reserves, have a ticking penalty to morale every hour of the battle.
+A regiment that gets too low morale, will break and leave their section until the end of the combat, and will be in the broken units section.
+If there are not enough regiments in a section to cover the frontage, there will be a chance for units in the reserve to reinforce that section. However, only enough units for the possible frontage of the battle attempts to reinforce each hour. So having huge doomstacks has no advantage.
+The broken units section are the regiments that have been routed in the current battle. They will no longer participate in this battle at all, even if their regiments are still a part of an army that is engaged.
+A battle is over when one side has no regiments in their three front sections or the army retreats due to no morale or a manual order to retreat.
+Pretty decent army, but not sure it will win against 11,000 polish levies.
+There are some important new attributes to think about for units.
+Combat Speed
+: This is how quickly units can move up from the reserves section to fill holes in another section.
+Frontage
+: There is a limited amount of regiments that fight from each section. Topology and Vegetation can reduce this, and some units may require more or less frontage. At the start of the game, a regular 100 men sized regiment uses the same frontage as a full 3,600 men in the Napoleonic era. This is done to scale the numbers to feel properly historical while still getting good gameplay.
+Initiative
+: How quickly a unit can engage as soon as combat starts. Lighter units have higher initiative.
+Stay tuned, because next week we’ll talk about Logistics and Sieges, the most important part of winning wars!
+302
+150
+19
+7
+6
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+40
+Next
+1 of 40
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Jul 24, 2024
+Add bookmark
+#2
+Wow.
+21
+10
+3
+3
+2
+Reactions:
+Reply
+Report
+So_MeOne
+Second Lieutenant
+Aug 3, 2020
+121
+1.880
+Jul 24, 2024
+Add bookmark
+#3
+YES
+Edit: After reading this TT, I can say that combat system looks quite intriguing. Looking forward to see how it all plays out in-game.
+Last edited:
+Jul 24, 2024
+6
+Reactions:
+Reply
+Report
+P
+Pollllo
+Master
+Jul 17, 2022
+100
+397
+Jul 24, 2024
+Add bookmark
+#4
+When's the next Tinto Maps Feedback?
+15
+11
+3
+Reactions:
+Reply
+Report
+Aquila SPQR
+LEGATVS PROPRAETOR BYZABOO MEME-MAN
+Jul 3, 2010
+2.438
+18.068
+Jul 24, 2024
+Add bookmark
+#5
+Few seconds late, but I forgive you.
+22
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Jul 24, 2024
+Add bookmark
+#6
+Project Caesar name confirmed: Europa Universalis: March of the Eagles
+55
+10
+4
+2
+1
+Reactions:
+Reply
+Report
+Aquila SPQR
+LEGATVS PROPRAETOR BYZABOO MEME-MAN
+Jul 3, 2010
+2.438
+18.068
+Jul 24, 2024
+Add bookmark
+#7
+Old_Sealand said:
+Wow.
+Click to expand...
+So_MeOne said:
+YES
+Click to expand...
+EvsseH said:
+UI is actually pretty good
+Click to expand...
+All this posted literally two seconds after Johan posted this TT.
+41
+3
+1
+1
+Reactions:
+Reply
+Report
+P
+Pollllo
+Master
+Jul 17, 2022
+100
+397
+Jul 24, 2024
+Add bookmark
+#8
+Aquila SPQR said:
+All this posted literally two seconds after Johan posted this TT.
+Click to expand...
+Goes to show we don't go outside enough.
+25
+4
+1
+1
+Reactions:
+Reply
+Report
+Traxium318
+Captain
+91 Badges
+Apr 28, 2013
+319
+2.013
+Jul 24, 2024
+Add bookmark
+#9
+I had to F5 so hard my keyboard broke
+Toggle signature
+#ReviveImperatorRome #pls
+Spanish PDX content creator mostly on Project Cesar, Vic3 and CK3
+15
+1
+Reactions:
+Reply
+Report
+M
+Memejutsu
+Recruit
+Jul 20, 2022
+9
+30
+Jul 24, 2024
+Add bookmark
+#10
+Will there be an artificial Province Limit like in Hoi4? Because that would suck for map-making mods. If yes, what will it be?
+5
+3
+1
+Reactions:
+Reply
+Report
+tsr-aph
+Colonel
+66 Badges
+Mar 11, 2021
+952
+2.863
+Jul 24, 2024
+Add bookmark
+#11
+"This chance increases for every hour of combat" Confirmation that PC ticks in units of time smaller than days?
+42
+4
+1
+Reactions:
+Reply
+Report
+Panther-1
+Private
+11 Badges
+Apr 28, 2021
+19
+45
+Jul 24, 2024
+Add bookmark
+#12
+Will the ottomans be able to combat artillery early as they used artillery in battles a lot earlier than the rest of Europe
+13
+2
+Reactions:
+Reply
+Report
+S
+SolarMaster
+Corporal
+Jun 24, 2024
+29
+315
+Jul 24, 2024
+Add bookmark
+#13
+Since PC now simulates hours in a day as ticks, will there be any representation of seasonal day length variation? If it is winter in, say, Russia, wouldn't that mean armies have less daylight hours to move (and same with summer days being longer)?
+Toggle signature
+Just some random romaboo on the internet...
+39
+11
+1
+1
+Reactions:
+Reply
+Report
+D
+Dongerino
+Evropa's Gemmiest Herald
+43 Badges
+Jun 27, 2015
+1.131
+10.921
+Jul 24, 2024
+Add bookmark
+#14
+Johan said:
+Sieges, the most important part of winning wars!
+Click to expand...
+13
+1
+1
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Jul 24, 2024
+Add bookmark
+#15
+tsr-aph said:
+"This chance increases for every hour of combat" Confirmation that PC ticks in units of time smaller than days?
+Click to expand...
+I literally say that earlier in the post.
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+200
+21
+6
+5
+3
+Reactions:
+Reply
+Report
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Jul 24, 2024
+Add bookmark
+#16
+combat and organization of armies from March of the Eagles
+The regiments themselves can be deployed to one of four parts of an army. They could be in the center, they could be on the left flank, they could be on the right flank, or they could be in the reserves.
+Click to expand...
+Does that mean you can use different leaders on mid and flanks and reserve, like in March of the Eagles?
+(representing the fact that armies need to rest and are not always on the move)
+Click to expand...
+What happens when you use Force March?
+Is there possibility to use different tactics, like you can in HOI4 for example? Since it would make sense to have that sort of ability, during the eras, where military tactics changed/innovated the most.
+9
+1
+Reactions:
+Reply
+Report
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Dec 14, 1999
+22.327
+276.553
+Jul 24, 2024
+Add bookmark
+#17
+Memejutsu said:
+Will there be an artificial Province Limit like in Hoi4? Because that would suck for map-making mods. If yes, what will it be?
+Click to expand...
+pretty sure we dont have one.
+Toggle signature
+Johan Andersson
+Studio Manager Paradox Tinto -
+Follow me at Twitter!
+"A patch is never late! Nor is it ever early. It arrives precisely when I mean it to do!"
+For our Patching and Expansion Policy, read here...
+Read here why EU4 requires steam!
+66
+30
+6
+Reactions:
+Reply
+Report
+R
+RMS Oceanic
+Field Marshal
+49 Badges
+Jan 27, 2014
+2.807
+4.873
+Jul 24, 2024
+Add bookmark
+#18
+Dongerino said:
+Click to expand...
+If it's a one-for-one port of EU4 sieges, yes, but hopefully they'll avoid the perma-42% rerolls
+8
+Reactions:
+Reply
+Report
+Vispian
+First Lieutenant
+43 Badges
+May 18, 2024
+205
+1.243
+Jul 24, 2024
+Add bookmark
+#19
+Dope!
+Toggle signature
+got dyslexia so excuse my rushed grammar - too busy to keep up with my feedback posts sorry
+Reply
+Report
+Jarzki
+Second Lieutenant
+35 Badges
+Oct 30, 2018
+115
+2.067
+Jul 24, 2024
+Add bookmark
+#20
+If I recall correctly, discipline here works similarly to EU IV. In that case, it seems, that having a good commander will be really crucial for winning battles.
+1
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+40
+Next
+1 of 40
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

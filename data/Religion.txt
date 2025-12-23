@@ -1,0 +1,1222 @@
+Source URL: https://eu5.paradoxwikis.com/Religion
+Source Date: 2025-12-22
+
+Please help with verifying or updating older sections of this article.
+At least some were last verified for
+version
+pre-release.
+Europa Universalis 5
+Religion
+List of religions
+Holy sites
+A Religion is any system of beliefs that belongs to a
+Religion Group
+. Every character and pop has a Religion (and may be converted to a different one).
+Religion status
+[
+edit
+|
+edit source
+]
+Each country will regard religions in one of three ways:
+Primary Religion
+is the official religion within a country. It gives access to different content and mechanics and pops with a different religion will slowly convert to the primary religion under the right conditions. Each country has a Religious Unity, which is the percentage of pops that follow its primary religion. Every 1% Religious Unity increases the clergy estate satisfaction equilibrium by 0.1%. The primary religion can be changed every 10 years to any religion present in the country. This costs 50
+Stability and may have additional requirements depending on the Religious Conversions game rule. Changing the primary religion will also convert the ruler and various characters to the new religion.
+Heretic Religions
+are religions that are part of the same religion group.
+Heathen Religions
+are religions that are part of a different religion group.
+Each country has a tolerance towards each religion type, which by default is
++1
+for the primary religion,
+-2.5
+for heretic religions and
+-5
+for heathen religions. Tolerance affects the satisfaction of pops with the same religion and opinion of countries with that primary religion.
+Each country has a Religious Unity, which is the percentage of pops that follow its primary religion. Every 1% Religious Unity gives the following bonuses:
++0.1%
+Clergy Estate Satisfaction Equilibrium
++0.001
+Monthly Karma
+Religion opinion
+[
+edit
+|
+edit source
+]
+Different religions have changing religion opinions of each other, which affects how countries view each other based on their primary religion.
+Religion opinion
+Country opinion
+Enemy
+−30
+Negative
+−10
+Neutral
+0
+Positive
++5
+Kindred
++15
+Religion opinion on Pop satisfation
+[
+edit
+|
+edit source
+]
+Religion opinions also has effect on pop satisfaction, unlike cultrual opinions, by default all non-primary religion pops loses 5 satisfaction at neutral opinion, each level of opinion(
+and
+) affect it by 5 points more, effectively equal to 1 level of tolerance.
+Religion opinion
+Pop Satisfaction
+Enemy
+−20
+Negative
+−10
+Neutral
+−5
+Positive
+0
+Kindred
++10
+Religion Tolerance
+[
+edit
+|
+edit source
+]
+Default tolerance values
+[
+edit
+|
+edit source
+]
+Tolerance of the True Faith
+Tolerance of Heretical Beliefs
+Tolerance of Heathen Beliefs
++1
+−2.5
+−5
+Tolerance affects the satisfaction of pops depending on their religion.
+Each point of tolerance gives
++5
+pop satisfaction
+, while negative tolerance gives similar panalties.
+Common sources of tolerance
+[
+edit
+|
+edit source
+]
+This section lists broadly available (non-country / non-faith locked) sources that modify tolerance. Some entries are gated by government type but remain generally applicable.
+Source
+True Faith
+Heretic
+Heathen
+Societal value
+:
+Spiritualist
++2
+—
+—
+Societal value
+:
+Humanist
+—
++1
++1
+Age of Renaissance
+(
+Focus):
+Tolerance Ideas
+—
++1
++1
+Age of Reformation
+(
+Focus):
+Ecumenism
+—
++1
+—
+Age of Reformation
+(
+Focus):
+Devoutness
++1
+—
+—
+Age of Absolutism
+(
+Focus):
+Humanist Tolerance
+—
++1
++1
+Age of Revolutions
+:
+Enlightenment
+—
++1
++1
+Reform
+:
+Religious Tolerance
+(
+≥50 Humanist
+)
+—
++1
++1
+Law: Censorship
+:
+Strict Censorship
++1
+—
+—
+Law: Censorship
+:
+No Censorship
+—
++1
++1
+Law: Heir Religion
+:
+Same Religion
+(Monarchy)
++0.10
+—
+—
+Law: Heir Religion
+:
+Same Religion Group
+(Monarchy)
+—
++0.25
+—
+Law: Heir Religion
+:
+Any Religion
+(Monarchy)
+—
+—
++0.50
+Law: Legitimization of Power
+:
+The Social Contract
+(Monarchy)
+—
++1
++1
+Law: Nature of Our Faith
+:
+Belief and Unity
+(Theocracy)
+—
++1
++1
+Mechanics
+[
+edit
+|
+edit source
+]
+Different religions have different additional mechanics.
+Religious Influence
+is available to all Christian religions as well as Mayan Ritualism. It is a resource used to interact with and influence matters of its primary religion. Depending on the religion, the uses it will have will be different, as well as the ways for the country to acquire it.
+Religious Figures
+is available to all Islamic and Dharma religions except Sikhism. Religious figure characters will travel the earth and can be hired by countries that have the same religion to receive various bonuses.
+Saints
+is available to some Christian religions. A dead ruler of a country can be canonized into a saint, which will give the country prestige, government power and Clergy estate satisfaction equal to a fifteenth of the dead ruler's total abilities. Canonizing a ruler costs 150 Religious Influence.
+Autocephalous Patriarchate
+is available to a few Christian religions. It allows countries to join or create Autocephalous Patriarchate international organizations. Empires with at least 60 Prestige that control Al-'Iskandariyyah and are in an Autocephalous Patriarchate can create a holy site in their capital.
+Sects
+is available to certain Buddhist religions. It allows countries to join Sect international organizations. Joining a Sect costs 20 Stability and leaving a sect costs 10 Stability.
+Reform Desire
+is available to Catholicism. The religion has internal conflicts between what is the correct doctrine or not, and about what is part of the faith or not. As time goes by, the desire to reform becomes bigger, and will impact any future discussion about the doctrine of Catholicism.
+Religious Head
+is available to Catholicism. The ruler of the Papal States country will be the Pope, who is representative of the entire Catholicism religion.
+College of Cardinals
+is available to Catholicism. It unlocks the Cardinal Seat building, which will assign cardinals to the location where the building is constructed. Cardinals are characters representative of the Catholicism religion who are loyal to the country that owns the location. A country may use its cardinals to participate in Curia Actions.
+Rite Power
+is available to Miaphysitism. It ranges from 0 to 100 and allows the leader of an Autocephalous Patriarchate to modify the religion through the selection of various of its laws.
+Religion values
+[
+edit
+|
+edit source
+]
+Certain religions track certain values, which range from either -100 or 0 to 100.
+Value
+Religions
+Minimum
+Middle
+Maximum
+Karma
+Karma is measured on a scale from
+−100
+to
++100
+, and reflects the past deeds of a Country. A country will benefit the most when its karma is in balance, between
+−33
+and
++33
+.
+Eastern Buddhism
+Tibetan Buddhism
+Bön
+Jainism
+Saṃmitīya
+Theravāda
+Takes effect below -33
++2.5%
+Discipline
+Takes effect between -33 and +33
++5%
+Discipline
++2
+Diplomatic reputation
+Takes effect above +33
++1
+Diplomatic reputation
+Self Control
+Self Control is a measure of how a Country and its Ruler are renouncing pleasures and material possessions, and how they follow the path of Yoga.
+Jainism
+Manichaeism
+Starts at −10 and reaches max effect at −100
++10%
+Maximum tax
++20%
+Income from vassal subjects
+−0.05
+Monthly war exhaustion
++0.1
+Monthly progress to Belligerent
++10%
+Pop food consumption
+Takes effect between -10 and +10
++5%
+Estates satisfaction equilibrium
++5%
+Monthly research progress
++0.1
+Monthly prestige
+Starts at +10 and reaches max effect at +100
+−10%
+Pop food consumption
+−20%
+Diplomatic annexation cost
++0.01
+Stability investment
++0.1
+Rural migration attraction
++0.1
+Monthly progress to Spiritualist
+Purity
+It is the indication of how pure our Country is according to
+Shintō
+. Purity is lost by contact with anything impure, such as killing and losing People in Battles, or epidemics, as death and blood are impure. It is gained through performing religious acts, such as pilgrimages to Holy Sites or ritual suicide.
+Shintō
+Starts at 25 and decreases towards 0
++20%
+Army initiative
++20%
+Peasant estate satisfaction equilibrium
+−5%
+Noble estate satisfaction equilibrium
+−5%
+Clergy estate satisfaction equilibrium
+−5%
+Burgher estate satisfaction equilibrium
+−1
+Monthly honor
+No effects
+Starts at +75 and reaches max effect at +100
++1
+Monthly honor
+Harmony
+Harmony is a measure of how well the
+Country
+is following the principles of the Dào, without falling into being influenced by too much yīn or too much yáng.
+Sānjiào
+Starts at −11 and reaches max effect at −100
++5%
+Estates satisfaction equilibrium
++0.1
+Monthly harmony
+−0.005
+Monthly development
+Takes effect between -10 and +10
++0.001
+Monthly development
++0.5%
+Monthly prosperity
+Starts at +11 and reaches max effect at +100
++5%
+Estates satisfaction equilibrium
+−0.1
+Monthly harmony
+−0.5%
+Monthly prosperity
+Righteousness
+Righteousness is a measure of how the government is perceived to be following the philosophy and morals of Confucianism.
+Sānjiào
+Starts at 49 and reaches max effect at 0
+−5%
+Peasant estate satisfaction equilibrium
+−5%
+Noble estate satisfaction equilibrium
+−5%
+Clergy estate satisfaction equilibrium
+−5%
+Burgher estate satisfaction equilibrium
++0.1%
+Stability decay
+No effects
+Starts at 51 and reaches max effect at 100
++5%
+Peasant estate satisfaction equilibrium
++5%
+Noble estate satisfaction equilibrium
++5%
+Clergy estate satisfaction equilibrium
++5%
+Burgher estate satisfaction equilibrium
++0.1%
+Monthly control
++0.1
+Monthly prestige
+Yanantin
+Yanantin represents the balance between two complementary but opposing entities. Following the mindset of the
+Andean
+Cultures, harmony can only be achieved when a being, a man, darkness, the Sun, finds its complement and joins it, a woman, light, the Moon.
+Inti
+Starts at −1 and reaches max effect at −100
+−10%
+Pop join rebels threshold
++80%
+Peasant estate satisfaction equilibrium
+−5%
+Noble estate satisfaction equilibrium
+−5%
+Clergy estate satisfaction equilibrium
+−5%
+Burgher estate satisfaction equilibrium
+−1
+Monthly prestige
+Takes effect between -100 and +100
++0.1%
+Monthly control
++0.1
+Monthly prestige
+Starts at −1 and reaches max effect at −100
+−0.5
+Government power
+Based on government type:
+Legitimacy if Monarchy
+Republican Tradition if Republic
+Devotion if Theocracy
+Horde Unity if Steppe Horde
+Tribal Cohesion if Tribe
++0.2
+Monthly rebel growth
+Doom
+Doom is a special currency used by Countries with the
+Nahua
+Religion. Owning Locations—especially Urban Locations—passively increases Doom. Having a high Doom value decreases Research speed and the impact of Antagonism. There are a number of ways that decrease Doom, including killing Enemy troops in Combat and looting Locations with high Development.
+Nahua Ritualism
+Takes effect at 0
+No effects
+Starts at +1 and reaches max effect at +99
++50%
+Estates satisfaction equilibrium
++10%
+Stability decay
+−100
+Loyalty to overlord
+Takes effect at +100
+Ruler and its dynasty are sacrificed
+Doom is reset to 0
+Religious aspects
+[
+edit
+|
+edit source
+]
+Religious aspects is a mechanic available to numerous religions and allows each country that follows the religion to further specialize its own religion. Countries that do not have the Religious Influence mechanic can have up to one religious aspect and it is free. Countries that have the Religious Influence mechanic can have up to three religious aspects and each one costs 50 Religious Influence to add. Religious aspects cannot be changed or removed.
+This table is planned to be
+automatically generated
+and should not be edited directly.
+Instead, suggest changes on the
+talk page
+.
+Religious aspect
+Religion
+Effects
+Religious focus
+[
+edit
+|
+edit source
+]
+Religious focus is a mechanic available to
+Nahua Ritualism. Countries that follow the religion have access to religious focuses, which grant a penalty until they're completed and a permanent bonus when they're completed. Once all religious focuses have been completed, the Reform Society religious action will become available, which allows the religion to be reformed.
+This table is planned to be
+automatically generated
+and should not be edited directly.
+Instead, suggest changes on the
+talk page
+.
+Religious focus
+Effects until completed
+Effects when completed
+Monthly progress increased by
+Adopt Ōmeteōtl
+Despite the polytheistic nature of our religion, among our highest classes the worship of a unique almighty God named Ōmeteōtl is common. This God has the qualities of all Gods that are just the representation of these qualities. We will worship Ōmeteōtl as only God.
+−10%
+Maximum tax for Clergy estate
++2.5%
+Estates satisfaction equilibrium
++25%
+Education of heirs
+−0.1
+Monthly doom
+Clergy estate satisfaction
+Elevate our Patron God
+Each Nahua realm usually worships one God over the rest as their patron God. We will put our patron God not only at the top of our devotion, but as main God of our religion.
+−1
+Tolerance of the true faith
++20%
+Pop conversion speed
+Clergy estate power
+Establish the Cihuacōātl Position
+We will establish the figure of the Cihuacōātl (literally 'Serpent Woman'), similar to that of a vizier. This will help our rulers to manage our realm, by making the Cihuacōātl handling the city ruling so that the ruler can deal with the important issues.
++2%
+Expected cost of court
++10%
+Efficiency of our cabinet
+Progress towards either Centralization or Decentralization
+Expand the Cuāhpipiltin
+We will create a new caste in our society: the Cuāhpipiltin will be the nobles by service, in opposition to the Pīpiltin, the nobles by blood. They will be raised from military service, but also integrated from other tribes or vassals.
+−5%
+Noble estate satisfaction equilibrium
++10%
+Manpower
+Number of subjects
+Increase Militarism
+Our warriors are the ones providing us with captives that can be used for the most important sacrifices to our gods. We should make our society more militaristic to strengthen this influx of captives.
++20%
+Army maintenance
+−0.1%
+Army tradition decay
+Army tradition and number of Eagle/Jaguar warriors
+Institute the Flower Wars
+As our society depends on sacrifices, we need a way to get more of them. By instituting the 'Flower Wars' we can agree on fair combats with our neighbors and both sides can sacrifice captives to appease our Gods.
++100%
+Nobles power
+Unlocks the Flower War casus belli
+Nobility estate satisfaction
+Legal Reforms
+While our city-states do have their coded rules, as Nahua societies change, so should our legal codes. We will start a series of reforms in our legal codes that better adapt to our newer needs.
+−5%
+Estates satisfaction equilibrium
++100%
+Legalism in capital
+Crown estate power
+Raise Sacrifice Rate
+Our Gods sacrificed their blood for us humans, and we have a debt with them. But the amount of blood does not seem to be enough to satiate their thirst. We will increase the rate and prevalence of our sacrifices so that Our Gods' blood is replenished more quickly.
++100%
+Clergy power
+−0.01
+Monthly Doom
+−5
+Additional Doom from Appease the Gods
+Clergy estate satisfaction
+Religious schools
+[
+edit
+|
+edit source
+]
+Religious schools is a mechanic available to Hinduism, Jainism and all Islamic religions. Each religion will follow a certain religious school. If a religious figure is hired, the country can spend 50 Stability to change the religious school. Changing the religious school will reset Piety to 0.
+This table is
+automatically generated
+and should not be edited directly.
+Instead, suggest changes on the
+talk page
+.
+Name
+Modifier
+Enabled For Character
+Enabled For Country
+Sāṃkhya
+Very influential for the other schools of Indian philosophy, Sāṃkhya is a dualistic school based on rationality. It proposes that the world is composed of both matter and spirit, and that knowledge can only be gained through perception and rational inference.
++0.50
+Tolerance of Heathen Beliefs
++0.50
+Tolerance of Heretical Beliefs
+religion:
+Hinduism
+religion:
+Hinduism
+Yoga
+Similar in many ways to the Sāṃkhya school, Yoga also sees the universe as a duality and perception and rationality as ways of gaining knowledge. However, it adds that systematic practice and experimentation are also required to attain knowledge and liberation.
++0.025%
+Population Growth
+religion:
+Hinduism
+religion:
+Hinduism
+Nyāya
+Nyāya is a realist school, focusing on methodology and logic as the means of gaining knowledge. It states that our suffering is caused by mistakes due to incorrect knowledge and that liberation will be gained with the correct knowledge.
++0.01
+Monthly Literacy
+religion:
+Hinduism
+religion:
+Hinduism
+Vaiśeṣika
+Vaiśeṣika is a naturalist, atomistic school, claiming that all physical universe is formed by atoms and that all our experiences come from the aggregations and interactions of such atoms. A complete understanding of the world of experience is thus what brings us to knowledge.
++5.00
+Max Literacy
+religion:
+Hinduism
+religion:
+Hinduism
+Mīmāṃsā
+The Mīmāṃsā focuses on the methodology of interpretation and critical explanation of texts. As such, it has a greater focus on philology, the philosophy of languages, and linguistic analysis.
++10.00%
+Cultural Tradition %
+religion:
+Hinduism
+religion:
+Hinduism
+Vedānta
+A very influential and diverse school, Vedānta focuses on the study of the Vedas, claiming that they are the main source of knowledge, arguing that spiritual matters are beyond any kind of perception and inference by humans.
++1.00
+Tolerance of the True Faith
+religion:
+Hinduism
+religion:
+Hinduism
+Ibāḍī
+Believed to be a descendant of the Al-Khawārij, who first were supporters of 'Alī ibn Abī Ṭālib but later rejected his arbitration. The Ibāḍī school distanced itself from the Al-Khawārij following 'Abd Allāh ibn Ibāḍ, taking a more moderate approach and a more positive view towards different Muslim branches, having similarities with many of the other schools.
++0.025%
+Population Growth
+religion:
+Ibadism
+religion:
+Ibadism
+Mula Sangh
+Meaning 'root', it refers to the original practices of Jainism coming from Kundakunda, a Jainism monk from the second century who authored many texts on Jainism philosophy, and the most important teacher for Digambara Jainism.
++5.00
+Max Literacy
+religion:
+Jainism
+religion:
+Jainism
+Balatkara Gana
+A section of Mula Sangh, the Balatkara Gana monastic order of Jainism originated in the 8th century with the founder of the Santaran dynasty. As such, it is among the oldest in Jainism.
++10.00%
+Cultural Tradition %
+religion:
+Jainism
+religion:
+Jainism
+Kashtha Sangha
+A prominent Jainism Digambara monastic school across Northern and Western India, originated with Lohacharya, that is, Sudharmāsvāmī. He was the fifth disciple of Mahāvīra, the 24th (and last) of the Tīrthaṅkara.
++5.00%
+Pop Conversion Speed %
+religion:
+Jainism
+religion:
+Jainism
+Upkeśa Gaccha
+The oldest monastic order of Śvetāmbara Jainism, it follows the lineage of Pārasanātha, the 23rd Tīrthaṅkara, unlike most other schools that follow the lineage of Mahāvīra.
++0.10
+Monthly Legitimacy
+religion:
+Jainism
+religion:
+Jainism
+Kharatara Gaccha
+Also called
+Vidhisangha
+or
+Vidhimarga
+, meaning 'the Assembly' and 'Path of Proper Conduct' respectively, it is a Śvetāmbara monastic order that sees its own practices as the only spiritual correct ones. It encourages strict adherence to purity and religious doctrine and scriptures without deviation.
++0.01
+Stability Investment
+religion:
+Jainism
+religion:
+Jainism
+Tapa Gaccha
+Founded by Acharya Jagatchandra Suri, called 'The Meditative One', it is a Śvetāmbara monastic order that encourages veneration of religious figures and pilgrimage to holy temples.
++0.05
+Monthly Self Control
+religion:
+Jainism
+religion:
+Jainism
+Tristutik Gaccha
+Also known as Agama Gaccha, it is a Śvetāmbara monastic order that focuses on devotion and veneration of the Tīrthaṅkara in its rituals, considering them the only worthy of worship.
++0.25%
+Clergy Estate Satisfaction Recovery
+religion:
+Jainism
+religion:
+Jainism
+Ja'farī
+The Ja'farī Madhhab is named after Ja'far al-Ṣādiq, the sixth Imām, and it focuses on independent reasoning by experts of Islamic Law, prefering that over analogy when establishing the Law. It also allows for a temporary marriage lasting a predeterminate period of time.
++0.025%
+Population Growth
+At least one of:
+religion:
+Ibadism
+religion:
+Shiism
+At least one of:
+religion:
+Ibadism
+religion:
+Shiism
+societal_value:mysticism_vs_jurisprudence:
+GREATER_THAN_EQUAL: 50
+Ismā'īlī
+The Ismā'īlī Madhhab is named after Ismā'īl ibn Ja'far, the successor of Ja'far al-Ṣādiq, and was the dominant school of faith in the Fatimid Caliphate but has lost much ground since its fall. The Ismā'īlī school encompasses a number of increasingly divergent branches, and in many ways, they focus on the esoteric elements of Shiism faith more than the Ja'farī or Zaydī.
++0.10
+Monthly Legitimacy
++0.10
+Monthly Republican Tradition
++0.10
+Monthly Devotion
++0.10
+Monthly Horde Unity
++0.10
+Monthly Tribal Cohesion
+At least one of:
+religion:
+Ibadism
+religion:
+Shiism
+At least one of:
+religion:
+Ibadism
+religion:
+Shiism
+Zaydī
+Also called 'Fivers', the Zaydī current is named after Zayd ibn 'Alī, the grandson of Muḥammad's son 'Alī, and follows his teachings as described in the Majmu' al-Fiqh. Zaydī followers emphasize justice and human responsibility and descend from those who supported Zayd's original revolt against the Umayyad Caliph. Zaydī people entirely reject religious dissimulation as practiced by many Shiism followers, and it is the most similar to Sunnism.
++1.00
+Tolerance of Heretical Beliefs
+At least one of:
+religion:
+Ibadism
+religion:
+Shiism
+At least one of:
+religion:
+Ibadism
+religion:
+Shiism
+Imāmīya
+Also called 'Twelvers', Imāmīya believes that 'Alī, the successor of Muḥammad, was followed by twelve infallible Imām chosen by divine decree. The last Imām, al-Mahdī, is expected to return as the savior of mankind, finally enforcing justice and peace in the world. They mainly follow Ja'farī jurisprudence.
++5.00%
+Infantry Power
+At least one of:
+religion:
+Ibadism
+religion:
+Shiism
+At least one of:
+religion:
+Ibadism
+religion:
+Shiism
+Nizārī
+The Nizārī claim that Nizār ibn al-Mustanṣir was the true successor to the Fatimid Caliphate after his father death, and oppose al-Afḍal Shāhanshāh's coup to install Al-Musta'lī bi'llāh on the throne. Having originally split from the Ismā'īlī, they have gained adherents from many other branches, and they follow Ja'farī jurisprudence, focusing on pluralism and acceptance of differences.
++1.00
+Tolerance of Heathen Beliefs
+At least one of:
+religion:
+Ibadism
+religion:
+Shiism
+At least one of:
+religion:
+Ibadism
+religion:
+Shiism
+Musta'lī
+The Musta'lī stand in opposition to the Nizārī in that they accept the ascension of Al-Musta'lī bi'llāh to the throne of the Fatimid Caliphate. Although originating in Egypt, they later spread to Western India through missionary work.
++10.00%
+Pop Conversion Speed %
+At least one of:
+religion:
+Ibadism
+religion:
+Shiism
+At least one of:
+religion:
+Ibadism
+religion:
+Shiism
+Alevism
+Following the teachings of Ḥājī Baktāš Walī, Alevism is a syncretic mystical school, emerging from the Imāmīya school but incorporating traditions from Tengrism and older Turkic beliefs. It also takes some aspects of Sufism, like the presence of a spiritual leader and mysticism practices.
+−5.00%
+Pop Join Rebels Threshold
+At least one of:
+religion:
+Ibadism
+religion:
+Shiism
+At least one of:
+culture:
+has_culture_group: Turkic
+culture:
+Kurdish
+At least one of:
+religion:
+Ibadism
+religion:
+Shiism
+At least one of:
+culture:
+has_culture_group: Turkic
+culture:
+Kurdish
+'Alawī
+The 'Alawī, also called Nuṣairī, proclaim 'Alī ibn Abī Ṭālib, the first Imām according to Shiism beliefs, to be the manifestation of Allāh Himself. They differ substantially from the rest of the Shiism faith in both rituals and theology, believing in reincarnation and allowing the consumption of alcohol.
++1.00
+Tolerance of Heathen Beliefs
+At least one of:
+religion:
+Ibadism
+religion:
+Shiism
+culture:
+Alawite
+At least one of:
+religion:
+Ibadism
+religion:
+Shiism
+culture:
+Alawite
+Bektashi
+Named after Ḥājī Baktāš Walī, believed to be descendant of 'Alī ibn Abī Ṭālib, the Bektashi of Sufism nonetheless respects all companions of Muḥammad. Although originating from the Sunnism faith, it contains many beliefs and practices present also in other traditions, giving it many similarity to them.
++10.00%
+Infantry Power
+At least one of:
+religion:
+Sunnism
+religion:
+Shiism
+culture:
+Turkish
+At least one of:
+religion:
+Sunnism
+religion:
+Shiism
+culture:
+Turkish
+societal_value:mysticism_vs_jurisprudence:
+LESS_THAN_EQUAL: -50
+Chishtī
+Originating from Chisht-e Sharīf, the Chishtī rejects wordly power and promotes tolerance and love. It also promotes music and poetry as a form to connect with the love of Allāh.
+−10.00%
+Pop Join Rebels Threshold
+religion:
+Sunnism
+religion:
+Sunnism
+societal_value:mysticism_vs_jurisprudence:
+LESS_THAN_EQUAL: -50
+Ḵalwātī
+The Ḵalwātī takes its name from the act of retreating oneself for spiritual exercises in solitary. Thus, it emphasizes the individual ritual and spiritual practices, as well as retreat and asceticism.
++0.03
+Stability Investment
+At least one of:
+religion:
+Sunnism
+religion:
+Shiism
+At least one of:
+religion:
+Sunnism
+religion:
+Shiism
+societal_value:mysticism_vs_jurisprudence:
+LESS_THAN_EQUAL: -50
+Mevlevi
+Known for its whirling dervishes, the Mevlevi is formed upon the teachings of Jalāl al-Dīn Muḥammad Rūmī. It proclaims love as central to Islam, and it also emphasizes Sema, the movement meditation ceremony performed by way of whirling.
++10.00%
+Cultural Influence %
+At least one of:
+religion:
+Sunnism
+religion:
+Shiism
+At least one of:
+religion:
+Sunnism
+religion:
+Shiism
+societal_value:mysticism_vs_jurisprudence:
+LESS_THAN_EQUAL: -50
+Naqshbandī
+Tracing its origin to Ja'far ibn Muḥammad al-Ṣādiq, the Naqshbandī places more importance to the Sharī'ah than other related schools. Its practices are organized around the silent invocation and conciousness.
++0.10
+Monthly Legitimacy
+religion:
+Sunnism
+religion:
+Sunnism
+societal_value:mysticism_vs_jurisprudence:
+LESS_THAN_EQUAL: -50
+Qādirī
+Founded by 'Abdulqādir Gīlānī, the Qādirī promote a strict following of Sunnism law. It also has decentralized leadership, allowing each of its centers freedom of interpretation and practice, which has caused it to differenciate in multiple branches.
++0.10
+Monthly Prestige
+religion:
+Sunnism
+religion:
+Sunnism
+societal_value:mysticism_vs_jurisprudence:
+LESS_THAN_EQUAL: -50
+Ṣafavī
+Founded by Ṣāfī ad-Dīn Isḥāq Ardabīlī upon the Shāfi'ī teachings, the Ṣafavī has later gotten close to the Imāmīya thought. Its zeal and strength of belief make its followers be certain of their place in the universe.
++0.05
+Monthly Army Tradition
+At least one of:
+religion:
+Sunnism
+religion:
+Shiism
+At least one of:
+religion:
+Sunnism
+religion:
+Shiism
+societal_value:mysticism_vs_jurisprudence:
+LESS_THAN_EQUAL: -50
+Shāḏilī
+Following the teachings of Abū al-Ḥasan al-Shāḏilī, the Shāḏilī promotes a life of contemplation and to be constantly mindful of Allāh, even during normal everyday activities. Applying the teachings of Islam to the follower's own lives is the key to transform their existance.
++10.00%
+Cultural Tradition %
+At least one of:
+religion:
+Sunnism
+religion:
+Shiism
+At least one of:
+religion:
+Sunnism
+religion:
+Shiism
+societal_value:mysticism_vs_jurisprudence:
+LESS_THAN_EQUAL: -50
+Suhrawardī
+The Suhrawardī follows the teachings of Abū al-Najīb Abd al-Qādir Suhrawardī, but it is also influenced by the philosophy of Junayd of Baghdad. It states that people should devote themselves to true knownledge and being faithful to Allāh, renouncing natural desires in favor of the spiritual needs.
++10.00%
+Pop Conversion Speed %
+At least one of:
+religion:
+Sunnism
+religion:
+Shiism
+At least one of:
+religion:
+Sunnism
+religion:
+Shiism
+societal_value:mysticism_vs_jurisprudence:
+LESS_THAN_EQUAL: -50
+'Īsāwī
+Considered the most mystic of the religious schools, the 'Īsāwī has its roots from the lands of Maghreb whose heritage of psalms and prayers developed into rituals featuring dance and music.
++0.10%
+Monthly Prosperity
+At least one of:
+religion:
+Sunnism
+religion:
+Shiism
+has_global_variable: isawiyya_founded
+At least one of:
+religion:
+Sunnism
+religion:
+Shiism
+has_global_variable: isawiyya_founded
+societal_value:mysticism_vs_jurisprudence:
+LESS_THAN_EQUAL: -50
+Dīn-i Ilāhī
+Adopted from the Mongol code, Dīn-i Ilāhī treats all religions as different sects, allowing the freedom of thought within the realm.
++2.00
+Cultures Capacity
+−1.00
+Tolerance of the True Faith
++1.00
+Tolerance of Heathen Beliefs
+has_global_variable: din_i_ilahi_founded
+At least one of:
+religion:
+Shiism
+religion:
+Sunnism
+At least one of:
+religion:
+Shiism
+religion:
+Sunnism
+has_global_variable: din_i_ilahi_founded
+societal_value:mysticism_vs_jurisprudence:
+LESS_THAN_EQUAL: -50
+Ḥanafī
+The Ḥanafī Madhhab is named after Abū Ḥanīfa Al-Nu'mān ibn Thābit. The school originated in Kufa and is prominent throughout the Farsi and Turkic world, including northern India. Though textual sources in the Qur'ān and Ḥadīth are given preference, Ḥanafī followers have an inclusive view of sources and also employ analogy (Qiyās), juristic discretion (Istiḥsan), and local customs ('Urf) in their jurisprudence. Some view it as the most flexible of the schools.
++10.00
+Max Literacy for Clergy
++0.10
+Monthly Progress to Mysticism
+At least one of:
+religion:
+Ibadism
+religion:
+Sunnism
+At least one of:
+religion:
+Ibadism
+religion:
+Sunnism
+societal_value:mysticism_vs_jurisprudence:
+GREATER_THAN_EQUAL: 50
+Ḥanbalī
+The Ḥanbalī Madhhab is named after Aḥmad ibn Ḥanbal, and champions withholding from any speculative theology, Kalām. Ḥanbalī followers maintain that the Qur'ān and Sunnah are the only proper sources of jurisprudence and that they should be interpreted in a literal and traditionalist sense. Though it is accepted as a valid Madhhab, very few states actively promote the Ḥanbalī school, and it was banned by the Abbasid Caliphs.
+−5.00%
+Antagonism Received
++0.10
+Monthly Progress to Jurisprudence
+At least one of:
+religion:
+Ibadism
+religion:
+Sunnism
+At least one of:
+religion:
+Ibadism
+religion:
+Sunnism
+societal_value:mysticism_vs_jurisprudence:
+GREATER_THAN_EQUAL: 50
+Mālikī
+The Mālikī Madhhab is named after Mālik ibn Anas and is prominent in particular throughout North Africa and Iberia. Jurisprudence is primarily based on the work and interpretations of ibn Anas and his student Saḥnūn as described in the al-Muwaṭṭa' and the Mudawwanah. One of the foremost centers of learning within the Mālikī School is the Great Mosque of Āl Qayrawān, near Tunis.
++0.0010
+Monthly Development
++0.05
+Monthly Progress to Mysticism
+At least one of:
+religion:
+Ibadism
+religion:
+Sunnism
+At least one of:
+religion:
+Ibadism
+religion:
+Sunnism
+societal_value:mysticism_vs_jurisprudence:
+GREATER_THAN_EQUAL: 50
+Shāfi'ī
+The Shāfi'ī Madhhab is named after Imām Al-Shāfi'ī, and it is prominent in particular among Islam believers in Arabia, East Africa, and East Asia. Unlike other Madhhab, the Shāfi'ī reject Istiḥsan and Istislah as sources of Sharī'ah, instead only relying on what is textually in the Qur'ān or Ḥadīth.
++10.00%
+Trade Capacity
++0.05
+Monthly Progress to Jurisprudence
+At least one of:
+religion:
+Ibadism
+religion:
+Sunnism
+At least one of:
+religion:
+Ibadism
+religion:
+Sunnism
+societal_value:mysticism_vs_jurisprudence:
+GREATER_THAN_EQUAL: 50
+Ẓāhirī
+The Ẓāhirī advocates for a strict adherence to the text of the Qur'ān, and focus on its external or apparent meaning. According to them, there can not be any conclusion drawn from reading the texts that is not in the texts themselves, otherwise Allāh would have explicitly expressed those already.
++10.00%
+Pop Conversion Speed %
+At least one of:
+religion:
+Ibadism
+religion:
+Sunnism
+At least one of:
+religion:
+Ibadism
+religion:
+Sunnism
+societal_value:mysticism_vs_jurisprudence:
+GREATER_THAN_EQUAL: 50
+Ash'arī
+The Ash'arī School of Theology is focused on the authority of the scriptures and rationalism, and was founded in the 9th century by Abū al-Ḥasan al-Ash'arī. His teachings of all universe being composed of atoms became the basis of the Ash'arī School proposition that all matter and time has been created by Allāh, believing at the same time in free will and predestination.
++5.00%
+Monthly Research Progress %
+At least one of:
+religion:
+Ibadism
+religion:
+Sunnism
+At least one of:
+religion:
+Ibadism
+religion:
+Sunnism
+Māturīdī
+The Māturīdī School of Theology, taking the name from 'Abū Manṣūr al-Māturīdī, is a Sunnism school of theology emerging from the theological beliefs of the Ḥanafī School of Jurisprudence. It promotes the rational interpretation of the scriptures, and the importance of faith over one person's deeds.
++1.00
+Tolerance of the True Faith
+At least one of:
+religion:
+Ibadism
+religion:
+Sunnism
+At least one of:
+religion:
+Ibadism
+religion:
+Sunnism
+Aṯarī
+The Aṯarī School of Theology rejects a rational interpretation of the scriptures in favor of a stricter reading of the texts of the Qur'ān and Ḥadīth, considering them the sole authorities. Being against any form of religion innovation, refuses any kind of rationality that is not based upon the texts of the Qur'ān.
++0.03
+Stability Investment
+At least one of:
+religion:
+Ibadism
+religion:
+Sunnism
+At least one of:
+religion:
+Ibadism
+religion:
+Sunnism
+Mu'tazilī
+The Mu'tazilī School of Theology developed influenced by Greek and Indian philosophy and rationalism. It rejects the notion that the Qur'ān and Allāh are coexistent, expressing that the scripture must logically come after the originator. It defends reason as long as it serves people to understand religious matters, and it supports that evil originates from errors of humanity due to their free will.
+−5.00%
+Pop Join Rebels Threshold
+At least one of:
+religion:
+Ibadism
+religion:
+Sunnism
+At least one of:
+religion:
+Ibadism
+religion:
+Sunnism
+Wahhābī
+Emerging from the Ḥanbalī School as a revivalist movement, the Wahhābī School of Theology is against common Sufi practices like the veneration of holy people and pilgrimages to their shrines. It encourages a return to the original piety and practices of the first generations of Islam.
++0.02
+Stability Investment
++10.00%
+Pop Conversion Speed %
+−2.00
+Tolerance of Heretical Beliefs
+has_global_variable: wahabism_founded
+religion:
+Sunnism
+religion:
+Sunnism
+has_global_variable: wahabism_founded
+Religious actions
+[
+edit
+|
+edit source
+]
+This table is planned to be
+automatically generated
+and should not be edited directly.
+Instead, suggest changes on the
+talk page
+.
+Religious action
+Effects
+Requirements
+See also
+[
+edit
+|
+edit source
+]
+List of religions
+References
+[
+edit
+|
+edit source
+]
+Mechanics
+Realm
+Country
+•
+Government
+•
+Parliament
+•
+Estate
+•
+Reforms
+•
+Laws
+•
+Characters
+•
+Missions
+Economy & Research
+Economy
+•
+Goods
+•
+R.G.O.
+•
+Market
+•
+Building
+•
+Population
+•
+Age
+Diplomacy & Warfare
+Diplomacy
+•
+Subjects
+•
+International organization
+•
+Warfare
+•
+Combat
+•
+Military
+The world
+Location
+•
+Culture
+•
+Religion
+•
+Language
+•
+Exploration
+•
+Situations
+•
+Disasters
+•
+Diseases
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=Religion&oldid=21660
+"

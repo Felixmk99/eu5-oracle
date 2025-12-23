@@ -1,0 +1,449 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-15-june-5th-2024.1685161/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #15 - June 5th 2024
+Thread starter
+Johan
+Start date
+Jun 5, 2024
+Welcome to the 15th Tinto Talks, where we ask for feedback on our extremely crazily top secret game which has the codename Project Caesar.
+One thing that many have asked for has been a more in-depth dynastical gameplay, so here it is.
+Characters
+Before we delve into the dynamics of dynastic gameplay, we must first talk about their building blocks, the characters.
+Here is a European King with an early 18th century background.
+While not copying the Crusader Kings mechanics, a Character in Project Caesar is a bit more alive than in let's say EU4. A character is born, lives, and eventually dies.
+Every character has Administrative, Diplomatic and Military Attributes ranging from 0-100.  Of course, these attributes will not add any sort of mana, but they will impact how well the character will perform certain roles. One example is that the diplomatic ability of an admiral impacts the morale of the navy he leads.
+Newborn characters start with 0, but that grows until they are adults depending on what childhood trait they have. You can also assign your rulers’ children and grandchildren a specific education during their childhood
+This is a trait that when on the heir of the player it increases the chance of hunting accidents by 200%.
+Characters ruling a country will gain up to 3 traits, depending on how long they have ruled.
+They are gained while ruling a country. Characters that are generals or admirals will also get traits after combat. There are also unique traits for characters that are REDACTED or OTHER_SECRET_THING.
+Characters also have a culture they come from, a religion they follow, they keep track of where they were born, and where they currently are living. They belong to an estate, which for most characters tends to be the nobles estate.
+Many characters will have a father and/or a mother as well. For some historical characters at the start of the game that will not necessarily be true.
+The number of spouse(s) a character can have depends on religions and laws, but the number of children they get depends more on the fertility of the parents.
+So what can you do with characters?  Well, this is not Crusader Kings, so the characters themselves are not as important, and there are no character specific events like in Imperator either. In this game, characters are tools to be used for the greater good. If that means marrying off your daughter to secure an alliance with France, then that's what you have to do. You can arrange marriages in your country, send less useful characters into convents, ennoble great people, and much more.
+This is an African ruler, in his throne room, which while beautiful, is just a background image…
+Speaking of marriages, royal marriages in Project Caesar are not just sending a diplomat, here it is far more limited, as you have to actually marry real characters, and often this is a vital action. If you can’t arrange a royal marriage with a country of enough prestige, that has a young consort, you may be forced to marry a local noble from your country, or worse, even a lowborn.
+A Royal Marriage between two rulers will immediately form a union between those two countries. Every country has its own inheritance laws, which if they differ, may cause a Union to break, as the rulers would be different. This is probably not the audience where I need to explain the difference between Salic Law and Semi-Salic Law right?
+And who was the founder of this dynasty?
+Dynasties are important, as they impact diplomacy in direct and indirect ways. As some inheritance laws prefer their own dynasty, and having the same dynasty can improve opinions between countries.
+As in almost all previous GSG, the game will keep track of who has ruled that country before, just so you can go back and admire them. We have tried to get in as much history as possible here, even if my heathen content designers refuse to have Odin as the original King of Sweden!
+Of course regnal numbering and actual names depend on many different things..
+Stay tuned, next week we’ll be back and we will then talk about how the cabinet will work.
+Attachments
+european (1).jpg
+387,3 KB
+· Views: 0
+Last edited:
+Jun 5, 2024
+337
+184
+73
+17
+10
+7
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+43
+Next
+1 of 43
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+H
+HyperCopeEmia
+Corporal
+2 Badges
+Jul 1, 2023
+31
+1.034
+Jun 5, 2024
+Add bookmark
+#2
+140
+37
+2
+1
+Reactions:
+Reply
+Report
+So_MeOne
+Second Lieutenant
+Aug 3, 2020
+121
+1.880
+Jun 5, 2024
+Add bookmark
+#3
+Dynasty Map!
+Good job!
+27
+6
+Reactions:
+Reply
+Report
+Teng_Ri
+if u read this v1
+May 3, 2020
+597
+3.382
+Jun 5, 2024
+Add bookmark
+#4
+this ones gonna be fun
+16
+7
+3
+1
+Reactions:
+Reply
+Report
+Mindel
+AI Chatbot
+2 Badges
+Jan 23, 2018
+2.255
+11.180
+Jun 5, 2024
+Add bookmark
+#5
+Will estates have characters? For example, if you recruit a general from your noble estate, do you actually have a list of noble houses in your country from which you can choose to promote a character to a generalship?
+Also, will locations and provinces have characters, such as governors? This would be a nice way to implement "giving a province to an estate" by having estates have characters, and then being able to appoint those characters as governors or generals.
+Or, for that matter, diplomats, merchants, colonists, etc. They should all be implemented as characters.
+I hope that Project Caesar modernizes the old EU4 "3 advisors" setup to a full government council, with ministerial positions that you can appoint characters to. Something like the ruling council in CK, but with a much tighter connection to running the actual economics/administration/diplomacy of your nation.
+Last edited:
+Jun 5, 2024
+50
+28
+4
+Reactions:
+Reply
+Report
+D
+Dwicarucymru
+Second Lieutenant
+Oct 21, 2019
+151
+771
+Jun 5, 2024
+Add bookmark
+#6
+25
+14
+7
+2
+1
+Reactions:
+Reply
+Report
+S
+SSJ Sidious
+Private
+77 Badges
+Mar 13, 2024
+17
+223
+Jun 5, 2024
+Add bookmark
+#7
+I wanted to ask about a multiplayer feature. In Hearts of Iron 4 when someone desyncs the game automatically resyncs the lobby without anyone having to rejoin or rehost. Will this or a similar feature be in Project Caesar? One of the most frustrating parts about trying to play certain paradox games with friends is that you just end up with constant desyncs and it becomes very annoying/unplayable at times.
+16
+10
+Reactions:
+Reply
+Report
+Imperialismo
+Sergeant
+58 Badges
+Apr 16, 2021
+97
+815
+Jun 5, 2024
+Add bookmark
+#8
+CHARACTERS
+15
+2
+1
+Reactions:
+Reply
+Report
+D
+Dongerino
+Evropa's Gemmiest Herald
+43 Badges
+Jun 27, 2015
+1.131
+10.921
+Jun 5, 2024
+Add bookmark
+#9
+Oh my god, it's real. The Habsburg circular family tree will be real.
+90
+14
+12
+1
+Reactions:
+Reply
+Report
+The_Real_Player
+Corporal
+79 Badges
+Dec 25, 2018
+34
+179
+Jun 5, 2024
+Add bookmark
+#10
+Glad that it isn't going to be completely character focused but at least allows us to see what they look like and the lineage. Awesome!
+60
+7
+2
+Reactions:
+Reply
+Report
+Kubus12369_
+Corporal
+29 Badges
+Sep 28, 2021
+45
+169
+Jun 5, 2024
+Add bookmark
+#11
+Great, I was hoping for this
+23
+15
+10
+Reactions:
+Reply
+Report
+K
+Karlov
+Sergeant
+7 Badges
+Nov 25, 2018
+51
+526
+Jun 5, 2024
+Add bookmark
+#12
+My reaction on 3d graphic in Project Ceaser: "Oh, no!"
+127
+50
+28
+6
+2
+Reactions:
+Reply
+Report
+Kimudena
+First Lieutenant
+15 Badges
+Feb 17, 2021
+230
+1.054
+Jun 5, 2024
+Add bookmark
+#13
+I hope the family tree don't get buggy in the late game like in ck3 with hundreads of kids
+Toggle signature
+Tinto Talks are sponsored by
+Kingdom of Hungary
+in order to hide the existence of
+Voivodeship of Transylvania.
+25
+11
+1
+Reactions:
+Reply
+Report
+pheonicia
+Field Marshal
+90 Badges
+Feb 2, 2015
+3.510
+23.853
+Jun 5, 2024
+Add bookmark
+#14
+What happens if your dynasty ends because all the characters die?
+Toggle signature
+Will HOI4 be released on H hour CET of D Day? - Mannstien
+Once again though, there are no actual zombies, it is all hysteria and panic. - Darkrenown
+No, cats were invented in 1902 by Satan, but we included them for gameplay reasons. - Darkrenown
+ubi solitudinem faciunt pacem appellant; they make a wasteland and call it peace.
+Pronoun: 3rd person (use my name)
+21
+6
+Reactions:
+Reply
+Report
+ibvfteh
+Lt. General
+38 Badges
+Feb 9, 2019
+1.597
+9.577
+Jun 5, 2024
+Add bookmark
+#15
+Can character 3d models be turned off? I would like to use 2d instead...
+157
+40
+16
+7
+4
+Reactions:
+Reply
+Report
+I
+ImperatorRoman
+Colonel
+52 Badges
+Mar 18, 2014
+901
+2.098
+Jun 5, 2024
+Add bookmark
+#16
+Hell yeah dynastic trees and characters!!!
+11
+6
+3
+Reactions:
+Reply
+Report
+Lindaegan
+Colonel
+26 Badges
+Mar 28, 2023
+992
+5.541
+Jun 5, 2024
+Add bookmark
+#17
+Golly gee!
+Toggle signature
+O clouds in the sky, like a blue vesture spread
+Is he too with you there from Venkatam’s clear-stream hills?
+That the tears from my eyes should drown these hills, my breasts!
+Does it become his greatness to kill a woman’s essence thus?
+-
+Nachiyar Tirumozhi
+He, the first origin of this creation, whether he formed it all or did not form it,
+Whose eye controls this world in highest heaven, he verily knows it, or perhaps he knows not.
+-
+Rig Veda, Mandala X, 129.7
+2
+Reactions:
+Reply
+Report
+giorgosth128
+Captain
+43 Badges
+Oct 8, 2017
+313
+1.206
+Jun 5, 2024
+Add bookmark
+#18
+if another ruler looses their throne due to a coup will we ahve the choice to put them back or do our children get claims to that throne?
+25
+2
+Reactions:
+Reply
+Report
+Basileus2
+Colonel
+66 Badges
+Feb 1, 2015
+1.043
+4.832
+Jun 5, 2024
+Add bookmark
+#19
+Fantastic! I know some people will bellyache about 3d characters but as long as the model graphics are up to the CK3 standards and not the abominations of Imperator or Victoria 3 then I'm more than happy with that.
+Last edited:
+Jun 5, 2024
+Toggle signature
+Author of
+The German Century,
+a Kaiserreich AAR - Now complete!
+Author of
+Black Eagle Sun
+,
+sequel to
+The German Century -
+In progress
+63
+29
+21
+1
+1
+Reactions:
+Reply
+Report
+CorneliusBottomly
+First Lieutenant
+4 Badges
+Apr 3, 2018
+293
+2.004
+Jun 5, 2024
+Add bookmark
+#20
+The Polan dynasty WILL rule Poland
+17
+2
+1
+1
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+43
+Next
+1 of 43
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

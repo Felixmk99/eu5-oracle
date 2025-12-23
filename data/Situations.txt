@@ -1,0 +1,3031 @@
+Source URL: https://eu5.paradoxwikis.com/Situations
+Source Date: 2025-12-22
+
+Please help with verifying or updating older sections of this article.
+At least some were last verified for
+version
+pre-release.
+A situation
+Situations are major historical incidents that involve more than one country and are happening over a period of time. Opening a situation will change the map mode to visibly show all countries that are affected by the situation.
+Nanbokuchō Jidai
+[
+edit
+|
+edit source
+]
+Nanbokuchō Jidai
+The Nanbokuchō Jidai situation will start on 1st May 1337. It will affect every country that is part of the Japanese Shogunate international organization. When the Nanbokuchō Jidai situation starts, Daikakuji Court will take ownership of the following works of art: Kusanagi no Tsurugi, Yata no Kagami, and Yasakani no Magatama. In addition, every country that is part of the Japanese Shogunate except Daikakuji Court will gain the Nanbokuchō Jidai modifier, giving the following effects:
+−0.2
+Monthly Legitimacy
+−0.1
+Monthly Prestige
+The countries that are involved in the Nanbokuchō Jidai situation are either neutral or divided into two sides: Jimyōin Court supporters and Daikakuji Court supporters. Members of the same side cannot declare war on each other. When the situation starts, every country involved will be given the choice to support the side they supported historically, support the other side, or remain neutral.
+Supporting the side that was historical will give
++5
+Prestige. If Historical AI is turned on, all countries controlled by the AI will choose this.
+Supporting the opposing side will give
+−12
+Stability and
+−15
+Honor.
+Supporting neither side will give
+−2.5
+Stability and
+−5
+Honor.
+Any country that is at peace except Ashikaga can always change its side to neutral (which costs 10 Stability and Honor) or the opposing side (which costs 30 Stability and Honor).
+Historically, the countries supported the following side:
+Jimyōin Court
+Ashikaga
+Aisu
+Akamatsu
+Akana
+Aki
+Arima
+Asakura
+Ashina
+Buzen Nagano
+Chōsokabe
+Chūjō
+Chiba
+Daihōji
+Daijō
+Ema
+En'ya
+Hata
+Hatakeyama
+Hiraga
+Hishikari
+Honma
+Hosokawa
+Ikeda
+Imagawa
+Inawashiro
+Ise
+Ishidō
+Ishikawa
+Isshiki
+Itō
+Kagawa
+Kaneko
+Kii
+Kikkawa
+Kira
+Kō
+Kobayakawa
+Kotō
+Kōzai
+Kyōgoku
+Mashiko
+Masuda
+Matsuda
+Migita
+Minami
+Mitoya
+Miura
+Miya
+Mizawa
+Mogami
+Momonoi
+Mōri
+Munakata
+Nagano
+Naganuma
+Nakajima
+Nasu
+Nikaidō
+Nitsuki
+Ōba
+Oda
+Ogamo
+Ogasawara
+Ōgo
+Ōhira
+Ōkura
+Ōsaki
+Ōtomo
+Ōuchi
+Rokkaku
+Sagara
+Satake
+Shiba
+Shimazu
+Shōni
+Sō
+Sōma
+Sue
+Suetsugu
+Takashima
+Takeda
+Takō
+Taku
+Tō
+Togashi
+Toki
+Tōyama
+Tsuchimochi
+Ueno
+Uesugi
+Utsunomiya
+Wachi
+Waga
+Washizu
+Yabe
+Yamana
+Yamashiro
+Yoshimi
+Yuasa
+Yūki
+Daikakuji Court
+Akizuki
+Andō
+Anenokōji
+Asayama
+Aso
+Asonuma
+Date
+Doi
+Gotō
+Hatta
+Hei
+Hienuki
+Ii
+Ijūin
+Isa
+Kajiki
+Kasai
+Kawano
+Kawanobe
+Kikuchi
+Kimotsuki
+Kitabatake
+Kōsaka
+Kudō
+Kusunoki
+Kutsuna
+Miyoshi
+Nagai
+Nanbu
+Nawa
+Nitta
+Oguni
+Oyama
+Ōida
+Sagae
+Shijō
+Shō
+Suwa
+Tamura
+Tokunō
+Tozawa
+Yamaguchi
+Toshima
+Unnō
+The Nanbokuchō Jidai situation will only end when there is only one country with the Tennō special status. This allows the Japanese Shogunate to change its laws. The Tennō country will form the Yamato country and gain
++10
+Legitimacy and
++15
+Prestige. Kyōto will become its new capital if not already, it will gain a Gosho building, and the works of art Kusanagi no Tsurugi, Yata no Kagami, and Yasakani no Magatama will be moved there.
+While the situation is active, there is a 33% chance each month that of the following events will happen:
+All countries can get an event that gives them the Nanbokuchō Jidai casus belli for 4 years on a country that supports the other side, unless the two countries have a truce.
+Countries that are at war with another country that is part of the Japanese Shogunate may get an event to choose between
++5
+Societal Values Change towards Belligerent and
+−10
+Purity or
++5
+Societal Values Change towards Conciliatory and
+−5
+Prestige.
+Countries that have a casus belli on a country that supports the other side and does not have a truce with them may get an event to decide between declaring war on them or lose
+−10
+Prestige.
+Countries that have
+−50
+or less Opinion of the leader of their side and
+0
+or more Opinion of the leader of the opposing side can gain an event to switch sides. Accepting to switch sides will give
+−5
+Prestige,
+−15
+Honor, and
+−100
+Opinion of the leader of their former side. Refusing to switch sides will give
++5
+Prestige,
++5
+Honor, and
+−50
+Opinion of the leader of the opposing side.
+Countries with a ruler who is part of the Yamato dynasty and not under regency can get an event where they rally behind a new line and gain the Japanese Imperial Family government reform and become a Tennō in the Japanese Shogunate.
+Rise of the Turks
+[
+edit
+|
+edit source
+]
+Rise of the Turks
+The Rise of the Turks situation will start on 1st May 1337. It will affect
+Ottomans
+and every country that borders Ottomans, owns a location in the regions of Anatolia or Balkans, or has the Anatolian Beylik government reform.
+Every country that has the Anatolian Beylik government reform will be eligible to become the strongest Beylik. The strongest Beylik is calculated by military strength and monthly income, with subject countries receiving a
+−25%
+penalty to the calculation. The strongest Beylik gains access to unique situation actions and receives the following bonuses:
+If any location has the Conquered integration status there is a 4% chance each month to receive an event with the choices to either gain 20 integration progress and change societal values by 5 towards Communalism or gain 10 integration progress and receive 7 Stability.
+If the country has 0 or 1 subjects there is a 3% chance each month to receive an event to offer subjugation to a neighbor who is independent, at peace, not a rival, has the same primary religion, has the same common language and has less population. There is a 50% chance the neighbor will accept and a 50% chance to gain the Claims on Province casus belli for 4 years.
+If the country owns Kōnstantinoúpolis, at least 301 locations and at least 50 urban locations it will gain the rank of Empire if not one already
+When the situation starts, Ottomans will start as the strongest Beylik and will also gain the Legacy of Osman government reform. If another country becomes the strongest Beylik they will gain the Leader of the Turks government reform.
+If a country with the Anatolian Beylik government reform owns Erzurum, Konya, Sivas or Tabrīz will gain access to the Trunk Road to Erzurum estate privilege. The estate privilege increases in power the more of the required locations are controlled.
+The Rise of the Turks situation can end in 4 ways:
+It will end automatically in 1566.
+It will end automatically after 1401 if no independent Beylik owns at least 100 locations.
+It will end automatically if no country has the Anatolian Beylik government reform.
+It will end if a Beylik owns at least 500 locations and at least 50 urban locations, and either they are Ottomans or Ottomans no longer exist. The Beylik will gain the Legacy of Ottomans government reform, and unlock the Pashas government reform and the Eyalet Division policy. If the Beylik is Ottomans they will lose the Legacy of Osman government reform.
+Countries that are involved in the The Rise of the Turks situation and have the Anatolian Beylik government reform gain access to situation actions.
+Action
+Effects
+Cost
+Requirements
+Cooldown
+Create Uç Bey
+Choose a province to turn it into an Uç Bey subject
+Can only target provinces with non-capital border urban locations that produce manpower
+Scaled Gold
+5 years
+Raise a Bey Fortress
+Choose a City to build a Bey Fortress building
+Country gains
++5%
+Army Tradition
+When construction is completed gain
++10
+Prestige and the location gains Control and Prosperity that scales with location importance
+If built in Bursa, Ankara, Izmit, Konya, Kayseri, Sivas or Smyrna, location gains the Stronghold City modifier for 10 years, giving the following:
++20%
+Max Control
++0.2%
+Monthly Control
+−50%
+War Score Cost
+100 Gold
+1 year
+Invade Neighbor Beylik
+Gain the insulted Us casus belli against the targeted country
+Can only target independent neighbors with the Anatolian Beylik reform that have negative Stability or are in a civil war or regency
+10 Stability
+At peace
+2 years
+Inspect Fortifications
+Choose an area with at least one castle to give each castle
++20%
+Fort Defense for 10 years
+Cannot pick areas that already have the bonus
+5% Army Tradition
+At peace
+Regency
+3 years
+Offer Diplomatic Protection
+Can only target neighbor countries with less country strength and the Anatolian Beylik government reform that are not rivals or subjects
+75% chance the targeted country accepts
+Selected character marries a character from the targeted country
+Gain ownership of a non-capital location from the targeted country which becomes Integrated
+Targeted country gains a guarantee
+Both countries gain
++30
+Opinion and
++10
+Trust with each other
+Both countries gain a truce with each other for 3 years
+25% chance the targeted country refuses
+Gain the Insulted Us casus belli against the targeted country for 4 years
+Both countries lose
+−20
+Opinion with each other
+5 Prestige
+At peace
+Any male character from the ruler's dynasty available for marriage
+Regency
+1 year
+Seek Relations with Byzantium
+66% chance to gain one of the following:
+Take 6 months worth of income from Byzantine Empire
+The male character with the highest ability score from the Byzantine Empire joins the country (cannot pick ruler or heir)
+Gain the Sovereign of Anatolia modifier for 10 years, giving the following effects:
++10%
+Speed of Integration
++0.1
+Monthly Legitimacy
+33% chance the country loses
+−2.5
+government power and both countries gain a decaying
+−50
+opinion with each other
+10
+Government power
+Based on government type:
+Legitimacy if Monarchy
+Republican Tradition if Republic
+Devotion if Theocracy
+Horde Unity if Steppe Horde
+Tribal Cohesion if Tribe
+Byzantine Empire owns Kōnstantinoúpolis and is not a subject
+Higher country strength than Byzantine Empire
+At peace with Byzantine Empire
+At least 60
+Government power
+Based on government type:
+Legitimacy if Monarchy
+Republican Tradition if Republic
+Devotion if Theocracy
+Horde Unity if Steppe Horde
+Tribal Cohesion if Tribe
+5 years
+Press Claims
+Choose a neighbor province in Anatolia or Balkans to get a claim on it
+Cannot pick provinces belonging to an ally or overlord
+Scaled Gold
+Strongest Beylik
+2 years
+Invite Turkic Migration
+Pops of the primary culture will migrate from a province with more than 50% pops of that culture to one with less than 50% for 10 years
+Targeted province gains the Cultural Intermixing modifier for 5 years, giving the following effects:
++50
+Pop assimilation speed
+Only population from the primary culture or an accepted culture can grow
+Scaled Gold
+Strongest Beylik
+Owns at least 121 locations
+Turkic culture group
+More than 25% of population is of Greek culture
+2 years
+Guelphs and Ghibellines
+[
+edit
+|
+edit source
+]
+Guelphs and Ghibellines
+The Guelphs and Ghibellines situation will start on 1st June 1337. It will affect the Papal States, the emperor of the Holy Roman Empire, and every country that is located in the region of Italy or a member of the Guelphs or Ghibellines international organizations.
+The countries that are part of the Guelphs and Ghibellines situation are divided into two sides and international organizations: Guelphs and Ghibellines. The Papal States will always be part of the Guelphs while the the emperor of the Holy Roman Empire will always be part of the Ghibellines. On 21st June 1337 all other countries that are affected by the situation will be given the choice to align with either the Guelphs or the Ghibellines. All countries that become involved in the situation afterwards have a 2% chance each month to be asked to pick a side.
+The most powerful country in each international organization will be the leader and gain access to additional situation actions. When the situation starts Kingdom on Naples will be the leader of the Guelphs and Duchy of Upper Bavaria will be the leader of the Ghibellines. If a country who is not part of the Ghibellines becomes Holy Roman Emperor, it will be asked to join the international organization. Accepting gives
++5
+Imperial Authority, while refusing gives
+−10
+Imperial Authority.
+The situation tracks the progress made by both the Guelphs and the Ghibellines, which is based on their their total tax income compared to the total tax income of all countries that have the capital in the region of Italy. The Guelphs and Ghibellines situation situation can end in 3 ways:
+It will end if either the Guelphs reach 100% progress or the Ghibellines no longer exist. Every country with the capital located in the region of Italy that is part of the Holy Roman Empire will leave the international organization.
+It will end if either the Ghibellines reach 100% progress or the Guelphs no longer exist. Every country with the capital located in the region of Italy but not in the areas of Apuila, Lazio, Campania and Principato, Basilicata and Calabria, or Sicily, will join the Holy Roman Empire
+It will end automatically if neither side makes enough progress before 1437. All countries that are members of the Guelphs or Ghibellines will lose
+−10
+Prestige and
+−5
+Government Power. Every country with its capital located in the region of Italy and a member of both the Guelphs and the Holy Roman Empire will leave them both international organizations.
+When the Guelphs and Ghibellines situation ends the Guelphs and the Ghibellines international organizations will be disbanded.
+Countries that are involved in the Guelphs and Ghibellines situation gain access to situation actions.
+Action
+Effects
+Requirements
+Cooldown
+Join Faction
+Choose to join the Guelphs or the Ghibellines international organization.
+Part of the Guelphs or Ghibellines international organizations
+Left the Guelphs or the Ghibellines in the last 2 years
+Christian religion group
+Emperor or capital is in the region of Italy
+5 years
+Leave the Faction
+Leaves the Guelphs or Ghibellines international organization
+Part of the Guelphs or Ghibellines international organization
+Papal States
+Holy Roman Emperor
+2 years
+Request Aid
+Select a country from the same side to join a war against a country from the opposing international organization
+Can only ask for help from independent countries within diplomatic range
+50% chance the asked country accepts
+50% chance the asked country refuses and gives a
+−50
+Opinion penalty
+At war with a country from the opposing international organization
+Leader of either the Guelphs or Ghibellines
+1 year
+Support Imperial Rival
+Choose a rival of the Holy Roman Emperor to give it the Support of the Guelphs modifier, giving the following effects:
++25
+Papal relations
++40
+Reason to elect
+If the country becomes the Holy Roman Emperor they will reject every country interaction from members of the Ghibellines international organization
+The selected country will also gain a decaying
++50
+Opinion to and from members of the Guelphs international organization
+Leader of the Guelphs international organization
+5 years
+Sanction the Empire
+Lose
+−75
+Opinion with the Holy Roman Emperor
+Ghibellines international organization gains the Sanction of the Empire modifier, giving the following effects:
++10%
+Trade Maintenance
+−1%
+Trade Efficiency
+Guelphs international organization gains the Lifted Duties modifier, giving the following effects:
+−15%
+Tithe cost modifier
+Leader of the Guelphs international organization
+10 years
+Sanction the Papacy
+Lose
+−75
+Opinion with the Papal States
+Guelphs international organization gains the Sanction of the Papacy modifier, giving the following effects:
++10%
+Trade Maintenance
+−1%
+Trade Efficiency
+Ghibellines international organization gains the Lifted Duties modifier, giving the following effects:
+−15%
+Tithe cost modifier
+Leader of the Ghibellines international organization
+10 years
+Petition for Imperial Support
+50% chance to gain one of the following:
+Holy Roman Emperor gives 25% of its yearly gold income
+Alliance with the Holy Roman Emperor (cannot choose this if rival or at war with the Holy Roman Emperor)
+50% chance to gain a
+−50
+Opinion penalty
+Leader of the Guelphs international organization
+Holy Roman Empire international organization exists
+Holy Roman Emperor
+5 years
+Hundred Years' War
+[
+edit
+|
+edit source
+]
+Hundred Years War
+The Hundred Years' War situation will start on 1st July 1337 and affects every country with the capital located in the subcontinent of Western Europe. When the situation starts Kingdom of
+England
+and Kingdom of
+France
+will become enemies, losing a random rival if they reached the cap, and will also gain the The Throne of France casus belli on each other for 4 years.
+The Hundred Years' War situation can only end once either England and France achieves victory.
+Either country will achieve victory if the other country is destroyed or they subjugate it
+England will achieve victory if they enforce the Union with France peace treaty
+France will achieve victory if fewer than 4 locations in the region of France are owned by England and its subjects
+While the situation exists the England and France will have
+−1000
+Opinion with each other and will be prevented from forming new countries. In addition, the following events can happen each month for either country:
+If the countries are at peace with each other, there is a 1% chance the country is offered to pay 200-900 Gold to hire a mercenary company of 2-6 Footmen regiments.
+If the countries are at peace with each other, do not have a truce with each other, and do not have a casus belli on each other, there is a 7% chance to gain the The Throne of France casus belli for 4 years.
+If the countries are at peace with each other, have a casus belli on each other, have War Exhaustion below 1, and have more than 90% of their full manpower, there is a 7% chance to be offered to go to war. Refusing costs 10 Prestige and forms a truce between the countries that lasts for 2 years. If a country controlled by the AI receives the event while Historical AI is turned on, they will always choose to go to war.
+Countries that are involved in the Hundred Years' War situation gain access to situation actions.
+Action
+Effects
+Cost
+Requirements
+Cooldown
+Demand Autonomy from France
+Choose to ask for one of the following:
+2.5 times France's monthly gold income and
+-50%
+Payment to Overlord for 10 years. Acceptance depends on France's income.
+-5%
+Antagonism Received for 20 years. Acceptance is 50%.
+Exemption from future offensive wars. Acceptance is 50%.
+France always accepts if it's twice stronger than England and always refuses if it's weaker than England.
+Scaled Gold
+10
+Government power
+Based on government type:
+Legitimacy if Monarchy
+Republican Tradition if Republic
+Devotion if Theocracy
+Horde Unity if Steppe Horde
+Tribal Cohesion if Tribe
+Subject of France
+Appanage subject type
+At peace
+Appanage with the capital in the same area has higher country strength
+10 years
+Request Papal Delegates
+The war between England and France ends in white peace
+Scaled Gold
+10 Legitimacy
+England or France
+Been for 4 years in a defensive war against the other country
+Papal States is a subject of England or France
+Papal States is at war with England or France
+15 years
+Influence French Subjects
+Choose an Appanage subject of France that is at peace, has less than 50 Loyalty and does not have the Diplomatic Betrayal modifier
+90% chance the subject gains 300 Gold and the Diplomatic Betrayal modifier for 5 years, giving the following effects:
+−100
+Loyalty to overlord
+Cannot be called to war by overlord
+10% chance the Gold cost is refunded and the subject and France gain 20 Opinion with each other
+300 Gold
+England
+At peace
+Fewer than 4 subjects of France have the Diplomatic Betrayal modifier
+2 months
+Grant Subject Titles
+The 3 subjects with least Loyalty gain
++20
+Opinion of France and
++15
+Loyalty for 15 years
+Scaled Gold
+10 Legitimacy
+France
+Any subject with below 50 Loyalty and the capital in the same region
+5 years
+Demand Promotion to Appanage
+90% chance the subject type is changed to Appanage
+10% chance the country and France lose
+−20
+Opinion with each other
+Scaled Gold
+10
+Government power
+Based on government type:
+Legitimacy if Monarchy
+Republican Tradition if Republic
+Devotion if Theocracy
+Horde Unity if Steppe Horde
+Tribal Cohesion if Tribe
+Subject of France
+Vassal subject type
+Ruler and the ruler of France are part of the same dynasty
+90+
+Government power
+Based on government type:
+Legitimacy if Monarchy
+Republican Tradition if Republic
+Devotion if Theocracy
+Horde Unity if Steppe Horde
+Tribal Cohesion if Tribe
+10 years
+Demand Border Adjustment
+Choose a former Core location belonging to a fellow subject to have it returned
+Can only choose locations that are not country capitals and their owner is not at war
+50% chance the request is accepted
+50% chance France decides based on its opinion of both countries and their difference in strength
+The supported country will gain
++20
+opinion with France while the rejected country will lose
+−20
+opinion with France
+Scaled Gold
+10
+Government power
+Based on government type:
+Legitimacy if Monarchy
+Republican Tradition if Republic
+Devotion if Theocracy
+Horde Unity if Steppe Horde
+Tribal Cohesion if Tribe
+Subject of France
+At peace
+France is at peace
+5 years
+Betray Our Allegiance
+Leave the war between England and France via white peace
+7 Stability
+Scaled Gold
+10
+Government power
+Based on government type:
+Legitimacy if Monarchy
+Republican Tradition if Republic
+Devotion if Theocracy
+Horde Unity if Steppe Horde
+Tribal Cohesion if Tribe
+Subject of England or France
+At war with the other country
+10 years
+Robert d'Artois
+[
+edit
+|
+edit source
+]
+The Hundred Years' War situation can also start sooner via an event chain. Between 1337 and 1342, if Robert d'Artois isn't killed before the event takes place and remains located in England, France will be given an event with two options:
+Demand Robert d'Artois. This gives
++10
+Prestige. If France is controlled by the AI while Historical AI is turned on, it will always choose this option.
+Do not demand Robert d'Artois. This gives
++7
+Stability and
+−10
+Prestige.
+If the first option is selected, England will get an event to respond.
+Refusing the demand. If England is controlled by the AI while Historical AI is turned on, it will always choose this option. This choice has the following effects:
+Societal values change by
++10
+towards Belligerent
+Gain the The Throne of France casus belli for 4 years
+Gain cores on the County of Artois and on the province of Amiens
+Gain
++25
+Army Tradition
+Gain
++10%
+Army Movement Speed and
++33%
+Shipbuilding Speed for 10 months
+If England conquers any location from the County of Artois after a war, it will receive an event option to turn the conquered locations into a vassal with Robert d'Artois as its first ruler
+Accept the demand. This choice has the following effects:
+Gain
++7
+Stability
+Lose
+−15
+Prestige
+Robert d'Artois moves to the court of France
+If the first option is selected, France will get an event to respond.
+Raise the banners. If France is controlled by the AI while Historical AI is turned on, it will always choose this option. This choice has the following effects:
+Societal values change by
++10
+towards Offensive
+Gain the Defend the Throne of France casus belli for 4 years
+Gain cores on every location owned by Duchy of Aquitaine and on the province of Amiens
+Gain
++10
+Army Tradition
+Halt further aggression. This choice changes societal values by
++3
+towards Defensive and gives
+−15
+Prestige
+Fall of Delhi
+[
+edit
+|
+edit source
+]
+Fall of Delhi
+The Fall of Delhi situation has a 1% chance to start each month as long as
+Delhi
+exists. It will affect Delhi, every country that borders, is a subject or an rival of Delhi, and every country that has its capital located within the subcontinent of India.
+The countries that are part of the Fall of Delhi situation are divided into two sides: Delhi and its primary opponent. The primary opponent will be the independent country with most levies and its capital located within the subcontinent of India that is not Delhi, a subject of Delhi, or allied with Delhi. If the primary opponent no longer meets these requirements, the country that does will become the new primary opponent. The primary opponent will always have the Wars of the Successors of Delhi modifier, giving the following effects:
+−20%
+Antagonism Received
+−33%
+Declaring War Cost
++10%
+Speed of Integration
+When the situation starts all subjects of Delhi gain 50 Liberty Desire and every country that is involved in the situation except Delhi will be asked to pick a side. Siding with Delhi gives
++20
+Opinion with Delhi. Siding with the opponent gives
+−20
+Opinion with Delhi, remove any alliance the country has with it, and if the country borders Delhi it will gain a Claims casus belli on up to 3 provinces owned by Delhi. If Historical AI is turned on all AI countries will side with the opponent.
+For the duration of the situation Delhi will receive the following penalties for every country that chose to side with its primary opponent:
+−0.2%
+Estates satisfaction equilibrium
+−0.25
+Loyalty of subjects
++0.01%
+Monthly rebel growth
+The situation tracks the Share of Power of both Delhi and its primary opponent, which is primarily affected by events that will happen to Delhi. If Delhi and its primary opponent go to war, the winning country will increase its Share of Power by 5%. The Fall of Delhi situation can end in multiple ways:
+It will end if Delhi has 100% share power. Delhi will gain
++25
+Legitimacy and gain
++20
+Stability.
+It will end if the primary opponent of Delhi has 100% share power.
+It will end if the country of Delhi is destroyed. The primary opponent of Delhi will gain
+−0.05
+Monthly War Exhaustion and
++10%
+Speed of Integration for 10 years.
+It will end if the Dissolution of Delhi disaster starts. It has a 2% chance to start each month while the Share of Power of the primary opponent is at least 50 and Delhi has less than 50 Stability.
+Every month Delhi has a 1% chance to receive an event to end the situation. Accepting to end the situation will remove the Core status from every location in the subcontinent of India that Delhi does not own and give
+−10
+Legitimacy and gain
++7
+Stability. Refusing to end the situation reduces Stability by
+−50
+and increases the primary opponent's Share of Power by
++10%
+.
+If Delhi begins employing slavery and the market used by Delhi's capital trades slaves, Delhi will unlock the Ḥabashī Advisors estate privilege and will gain a character with very high abilities and the Efficient Administrator trait. If the Nobility estate has the Only Nobility as Leaders estate privilege, it is revoked. While the situation is active, if the Ḥabashī Advisors estate privilege is present there is a 5% chance each month that the country will gain another character with the same ability and trait.
+During the Fall of Delhi situation, Delhi gains access to situation actions.
+Action
+Effects
+Cost
+Cooldown
+Strengthen Neighbor Relations
+Select an area to gain a decaying
++30
+Opinion from all countries with the capital in the said area
+Cannot choose the same country again until the bonus decays completely
+1 Diplomat
+Send Envoys
+Gain
++3%
+Share of Power
+Gain the Dehlavi Ambassadors modifier for 5 years, giving the following effects:
++3
+Diplomatic Reputation
++0.25
+Monthly Diplomats
+Scaled Gold
+5 years
+Appoint Governors
+Gain
++3%
+Share of Power
+Gain the Appointed Governors modifier for 5 years, giving the following effects:
+−20%
+Proximity Cost
++1%
+Monthly Control
+−0.1%
+Monthly Rebel Growth
+Scaled Gold
+5 years
+Demand Tribute
+Gain
++3%
+Share of Power
+Gain the Reaffirm Vassal Relations modifier for 5 years, giving the following effects:
++25
+Loyalty of Subjects
++20%
+Income from Vassal Subjects
+Scaled Gold
+5 years
+Appease the Nobles
+Gain
++3%
+Share of Power
+Nobility estate gains the spent gold
+Nobility estate gains
++5%
+Estate satisfaction
+Change societal values by
++10
+towards Aristocracy
+Gain the Noble Favors modifier for 5 years, giving the following effects:
++5%
+Noble Estate Satisfaction Equilibrium
+Prevents negative situation events involving the Nobility estate
+Scaled Gold
+5 years
+Red Turban Rebellions
+[
+edit
+|
+edit source
+]
+Red Turban Rebellions
+The Red Turban Rebellions situation will affect
+Yuán
+and every country that is a subject, rival or neighbor of Yuán or has its capital located within the subcontinent of China. The situation can start in two ways:
+Between 1345 and 1350 Yuán will receive an event where it can choose to imprison Xiāng Shān Tóng. Doing so will start the situation.
+After 1350 the situation will start if Yuán meets one of the following conditions:
+Less than 95 Stability
+Less than 50 Legitimacy
+The Commoners estate has less than 75% satisfaction
+Two estates have less than 75% satisfaction
+When the situation starts Yuán will lose
+−20
+Stability and Legitimacy and every subject will have its Liberty Desire maxed. The Middle Kingdom international organization will also lose
+−25
+Celestial Authority. In addition Yuán will gain the Red Turban Rebellions modifier, giving the following effects:
+−20%
+Efficiency of Our Cabinet
+−5%
+Estates Satisfaction Equilibrium
+−45%
+Levy Size
+−75%
+Mercenary Size
+−0.05
+Monthly Legitimacy
+−5%
+Monthly Rebel Growth
+−0.1
+Stability Investment
+The countries that are part of the Red Turban Rebellions situation are either neutral or divided into two sides and international organizations: Middle Kingdom and Red Turban Rebels. Every month after the situation starts, there is a 20% chance that a kingdom will want to split off Yuán to form an independent kingdom with the Warring State government reform and up to 8 of Yuán's most competent characters will join the new kingdom. If a human player is playing as Yuán, each time a kingdom will want to split off the player will receive the option to switch countries to the new kingdom. Every kingdom that split off will have an Allegiance to Yuán value, which is visible on the map when the situation is open. Countries that have it below 0% will join Red Turban Rebels, countries that have it above 50% will join Middle Kingdom, and countries that have it between 0% and 50% will be neutral.
+If a new kingdom sides with the rebellion it will start with
+−100%
+Allegiance to Yuán. Yuán will lose
+−12
+Stability and will declare war on the new kingdom using the Rein in the Rebels casus belli. The first kingdom that becomes independent and sides with the rebellion will be the leader of Red Turban Rebels.
+If a new kingdom sides with Middle Kingdom it will start with
+75%
+Allegiance to Yuán and will join all of Yuán's wars. Yuán can choose to prevent the kingdom from becoming independent and gain
++7
+Stability. If Yuán is controlled by the AI and Historical AI is turned on, it will always allow the kingdom to become independent.
+Kingdom
+Side
+Notes
+Dōngguǎn
+Middle Kingdom
+Lǐ
+Middle Kingdom
+Nánpíng
+Middle Kingdom
+Naghachu
+Middle Kingdom
+Köke Temür
+Middle Kingdom
+Sòng
+Red Turban Rebels
+Wú
+Red Turban Rebels
+Xià
+Red Turban Rebels
+Fāng
+Red Turban Rebels
+Will have fewer provinces
+Máo
+Red Turban Rebels
+Will have fewer provinces
+Tiānwàn
+Red Turban Rebels
+Each month afterwards there is a 10% chance that every subject with its capital located in the region of Tibet will become independent
+Chén
+Red Turban Rebels
+Each month afterwards there is a 10% chance that every subject with its capital located in the region of Korea will become independent
+Guanging
+Red Turban Rebels
+Each month afterwards there is a 10% chance that every owned location in the region of Manchuria will be abandoned and every subject with its capital located in the region of Manchuria will become independent
+Guō
+Red Turban Rebels
+Allows
+Míng
+to become independent
+Míng
+Red Turban Rebels
+Requires Guō to exist and will form an alliance with Guō
+Will start with 10000 Gold, 50 Stability, 50 Army Tradition, and an army made up of 6 Footmen, 4 Armored Horsemen and 4 Camp Followers regiments (does not apply if player switches to Míng)
+The Red Turban Rebellions situation can end in one of the following ways:
+Middle Kingdom can win after the situation has existed for 20 years if it has 0.5 Celestial Authority, Yuán has at least 90 Legitimacy and 30 Stability, and the Red Turban Rebels no longer exist. All countries that split off from Yuán and have more than +50% Allegiance to Yuán will be annexed by Yuán. Yuán will gain
++100
+Prestige,
++50
+Stability and
++50
+Legitimacy and will lose the Red Turban Rebellions. The Middle Kingdom international organization will gain
++20
+Celestial Authority. Every location in the regions of West China, South China, East China, North China and Xinjiang will become a core of Yuán, and Yuán will gain the Unify China casus belli against every independent country within these regions.
+Red Turban Rebels will win if its leader and subjects own 40% of West China, 45% of South China, 65% of East China and 65% of North China. The leader of the Red Turban Rebels will become an empire if not one already, join and become the leader of the Middle Kingdom, lose the Warring State government reform, and gain
++100
+Prestige,
++50
+Stability and
++50
+Legitimacy. The Red Turban Rebels will be disbanded.
+The situation will end if year is at least 1437 or the Middle Kingdoms international organization does not exist.
+Countries that are involved in the Red Turban Rebellions situation gain access to situation actions.
+Action
+Effects
+Cost
+Requirements
+Grant Titles
+Targeted country gains 80% of the spent Gold,
++15
+Allegiance to Yuán and
++25
+Opinion of Yuán
+Can only target countries within diplomatic range that are not at war with Yuán and have less than 86 Allegiance to Yuán
+Gain
++10
+Righteousness if primary religion is Sānjiào
+Scaled Gold
+5 Legitimacy
+1 Diplomat
+Yuán
+Negotiate with Rebels
+Targeted rebellion loses
+−25%
+Progress
+Can target rebellions with at least 30% progress
+Lose
+−10
+Righteousness if primary religion is Sānjiào
+Scaled Gold
+Yuán
+Appease the Court
+All estates gain
++5%
+Satisfaction
+Gain
++7
+Stability
+Gain
++10
+Righteousness if primary religion is Sānjiào
+Gain the Appeased the Court modifier for 3 years, giving the following effects:
+−25%
+Maximum Tax
++10%
+Estates Satisfaction Equilibrium
+Scaled Gold
+Yuán
+Call Loyalists to War
+Choose a loyalist country to join all wars against members of Red Turban Rebels
+The selected country will lose
+−5
+Allegiance to Yuán
+5 Celestial Authority
+1 Diplomat
+Yuán
+At war with a member of Red Turban Rebels
+Rekindle the Revolt
+Yuán declares war with the Rein in the Rebels casus belli
+Member of Red Turban Rebels
+At peace with Yuán
+Truce with Yuán
+Subject of Yuán
+Rein in Area
+Select an area to integrate every location and give them the Area Reign modifier for 10 years, giving the following effects:
++15%
+Max Control
+−20%
+Separatism
+Gain
++10
+Righteousness if primary religion is Sānjiào
+Member of Red Turban Rebels
+Any Conquered location that doesn't have the modifier
+Declare War for Regional Supremacy
+Declare war on the targeted country with the Regional Supremacy casus belli
+Cannot target own subjects or countries with the same ruler or a truce
+Lose
+−10
+Righteousness if primary religion is Sānjiào
+Member of Red Turban Rebels
+Independent
+Support Faction
+Give the Gold cost to a member of Red Turban Rebels or Middle Kingdom
+Both countries gain
++50
+Opinion with each other
+Scaled Gold
+Member of Red Turban Rebels
+Member of Middle Kingdom
+Join Yuán Defense
+Select a war between Yuán and a member of Red Turban Rebels to enter on the side of Yuán
+At peace with Yuán
+Member of Red Turban Rebels
+Declare Independence
+Gain
++7
+Stability
+Leave every war where the country is on the same side as Yuán
+Declare war with the Independence casus belli on Yuán
+Subject of Yuán
+At peace with Yuán
+Member of Red Turban Rebels
+The rulers of split off kingdoms may or may not be their historical rulers depending on the year when the situation takes place.
+Rise of Temür
+[
+edit
+|
+edit source
+]
+Rise of Temür
+The Rise of Temür situation will start in 1360 unless the character Temür Lang Borjigin Khān is killed. The situation will affect
+Timurid
+and every country that borders Timurid Horde, is a subject or rival of Timurid Horde, or has the capital located within the subcontinents of Central Asia, India or Middle East.
+When the situation starts the army-based kingdom Timurid Horde will form and gain
++25
+Army Tradition. Temür Lang Borjigin Khān will gain the traits Conqueror, Cruel, Strategist and Tactical Genius and will also gain the The Scourge from Central Asia modifier, giving the following effects:
++1
+Aggressiveness Modifier
+Auto Conquer when at War
+Can Always be a Military Leader
++50%
+Army Levy Size
+−5
+Maximum War Exhaustion
+Every 10 months Timurid Horde has a 75% chance to receive one of the following events.
+If the country has been at peace for a year it must either declare war an a neighbor who it's their ally, subject, or at truce with, or lose
+−5
+Horde Unity. If Timurid Horde is controlled by the AI receives while Historical AI is turned on, they will always declare war.
+If the country has both War Exhaustion and Temporary Antagonism it can choose to gain
+−2
+War Exhaustion,
+−2
+Temporary Antagonism or
++5
+Cultural Tradition for the primary culture.
+If the country's Manpower is not full but is increasing and has less than 10 War Exhaustion it will receive Manpower equal to 3 times its monthly Manpower income.
+If Timurid Horde has less military strength than Golden Horde it will receive an event where it can request an alliance with Golden Horde. If Golden Horde refuses Timurid Horde will gain the Temür Khān's Conquest casus belli on them. If Historical AI is turned on and Timurid Horde is controlled by the AI it will always request the alliance. If Historical AI is turned on and Golden Horde is controlled by the AI it will always accept the alliance. If Timurid Horde has more military strength than Golden Horde it will receive an event to break the alliance and declare war on Golden Horde using the Temür Khān's Conquest casus belli or lose
+−10
+Horde Unity. If Historical AI is turned on and Timurid Horde is controlled by the AI it will always go to war.
+If Timurid Horde conquers Delhi in a war it will receive
++7.5
+Army Tradition,
+−2
+War Exhaustion, and
+250+(income*5)
+Gold.
+If Timurid Horde conquers the capital of the Strongest Beylik from the Rise of the Turks situation it will receive
++20
+Prestige and imprison the ruler of the Strongest Beylik. The Strongest Beylik will gain
+−50
+Government Power,
+−50
+Stability,
+−20
+Prestige and
++5
+War Exhaustion.
+The Rise of Temür situation can end in 3 ways:
+It will end if Timurid Horde has either a ruler with less than 150 total abilities or has neither a ruler nor a heir.
+It will end if Timurid Horde does not exist or is a subject. The country that conquered or subjugated it will gain
++12
+Stability and
++15
+Prestige and will kill Temür Lang Borjigin Khān.
+It will end if Timurid Horde formed Mongolia. Timurid Horde will gain the Restorer of the Mongol Empire modifier for 100 years, giving the following effects:
++50%
+Amount Looted
+−33%
+Army Reinforcement Cost
+−5%
+Separatism
++0.1
+Monthly Horde Unity
+During the  Rise of Temür situation, Timurid Horde gains access to situation actions.
+Action
+Effects
+Cost
+Requirements
+Cooldown
+Plan Invasion
+Choose a neighbor country to gain the Temür Khān's Conquest casus belli on
+Cannot choose countries that are allies, own subjects, or have a truce with
+Gain
++5
+Antagonism
+18 months
+Select Core Region
+Choose a region where at least 40% of locations are owned to give every location Core status
+If the country is ruled by Temür Lang Borjigin Khān all conquered locations in the region will be automatically given Core status
+Scaled Gold
+At peace
+Can only be done once
+Reform into a Monarchy
+Change country type to Settled
+Change government to Monarchy
+Gain the Timurid Empire government reform
+Gain the rank of empire
+20 Horde Unity
+At peace
+Used the Select Core Region action
+Army-Based country
+Can only be done once
+Promote a Regional Culture
+Unlock and enact the Timurid Court policy
+Choose a culture present in the country to become the primary culture and its language the court language
+Choose two cultures to become accepted cultures
+Used the Select Core Region action
+Own all locations in the selected core region
+Can only be done once
+Western Schism
+[
+edit
+|
+edit source
+]
+Western Schism
+The Western Schism situation will start after 1360 once the ruler of Papal States dies. The situation will affect every country that has
+Catholicism
+as its primary religion. While the situation exists the Catholicism religion will gain the The Schism in the Catholic Church modifier, which blocks Curia actions and increases monthly reform desire by
++0.05%
+.
+When the situation starts
+France
+will also receive an event with the following choices:
+Support the Toulouse Papacy. If France is controlled by the AI receives while Historical AI is turned on, they will always support it. This will give
++10%
+Clergy Estate Satisfaction,
+−50
+Opinion with Papal States, and the Sided Against Rome modifier for 24 years, which gives  the following effects:
++0.5
+Monthly Prestige
+−0.25
+Monthly Religious Influence
++1
+Tolerance of the True Faith
+Do not support the Toulouse Papacy. This will give
+−20
+Prestige and
+−100
+Religious Influence.
+The countries that are part of the Western Schism situation are divided into two sides: Rome and Toulouse. Rome will always be led by Papal States while Toulouse will always be led by the country that has the most cardinals when the situation starts, other than Papal States. Both countries will gain
+−100
+decaying opinion with each other. Other countries affected by the situation can vote with either Rome or Toulouse, with the number of cardinals affected how much support each country gives. Estates from countries that vote with Toulouse will now pay their Catholic Church tithe to the country that leads the Toulouse side.
+The situation tracks the progress made by both the Rome and Toulouse, which is based on the number of cardinals in the countries that support either side. The Western Schism situation situation can end in 5 ways:
+It will end if Rome reaches 100% Vote Progress. Papal States will gain
++100
+Prestige and Religious Influence. Papal States will gain a new ruler of Median culture and its capital will be moved to Rome if the location is still owned.
+It will end if Toulouse reaches 100% Vote Progress. The main supporter of Toulouse will gain
++100
+Prestige and Religious Influence. Papal States will gain a new ruler of French culture and its capital will be moved to Avignon if the location is still owned.
+It will end if the Catholic Church international organization no longer exists.
+It will end if Papal States country no longer exists.
+It will end if there are no cardinals left in the world.
+Countries that are involved in the Western Schism situation gain access to situation actions.
+Action
+Effects
+Cost
+Requirements
+Cooldown
+Show Unity of Faith
+Choose a province to give it the Unity of Faith modifier for 5 years, giving the following effects:
++20
+Local Pop Conversion Speed
+−10%
+Unrest
+Change societal values by
++10
+towards Spiritualist
+Cannot pick provinces that already have the modifier
+Scaled Gold
+2 years
+Declare Oboediantia
+Choose to give Rome or Toulouse
++50%
+Vote Weight
+Gain
++10
+Opinion with the main supporter of the chosen side
+20 Religious Influence
+Cardinals
+Papal States
+4 years
+Demand Support from a Candidate
+Choose between Papal States or the main supporter of Toulouse
+66% chance to gain scaled Gold and
++20
+Opinion with the selected country
+33% chance to gain
++5
+Religious Influence and
+−20
+Opinion with the selected country
+20 Religious Influence
+Cardinals
+Papal States
+Situation has been active for a year
+6 years
+Each country involved in the Western Schism situation has a 1% chance to receive one of the following events each month.
+All countries can get an event where they have the option to gain a new character and convert 5% of the country population converts to Lutheranism, Calvinism, Catharism, Hussitism, Lollardy or Waldesian.
+All countries except Papal States can get an event where they lose
+−10%
+Estate Satisfaction and choose between gaining
++10
+Legitimacy or
++10
+Religious Influence.
+Countries that do not have cardinals and have a rival can get an event where they can choose to gain
++10
+Religious Influence and cause the rival to lose
+−20
+Opinion with Papal States but the rival will gain the Insulted Us casus belli for 4 years.
+Countries that have cardinals and have picked a side can get an event where they must choose between
++40
+mutual opinion with the supported side and
+−15%
+Pop Satisfaction in a location with Catholic pops or
++40
+mutual opinion with the chosen side and
+−20%
+Vote Weight for the supported side.
+Countries that have cardinals and have not picked a side can get an event where they lose
+−10%
+Clergy Estate Satisfaction.
+Countries that support Toulouse can get an event where they gain
++5%
+Clergy Estate Satisfaction and
++10
+Religious Influence.
+Papal States can get an event where it must choose between losing
+−7
+Stability or
+−10
+Religious Influence.
+Sengoku Jidai
+[
+edit
+|
+edit source
+]
+Sengoku Jidai
+The Sengoku Jidai situation will start after 1400 once the following requirements are met:
+There are at least 6 ongoing wars between members of the Japanese Shogunate
+The Shōgun of the Japanese Shogunate died
+The next Shōgun of the Japanese Shogunate has 50 or less Legitimacy, 20 or less Stability, a rebellion with at least 90% progress, or is in a civil war
+The situation will affect all members of the Japanese Shogunate. When it starts the Shōgun and every country with the Tennō status will lose
+−5
+Legitimacy and
+−10
+Prestige.
+Every month any member of the Japanese Shogunate that owns buildings in at least 5 locations where no other Extraterritorial country does, has less than
+−50
+Opinion with the Shōgun, and does not have the Tennō status, has a 10% chance to be offered an event to become a Daimyō. Refusing costs
+−10
+Prestige and
+−5
+Legitimacy. Accepting will turn the country into a Settled country, replace the Japanese Clan government reform if the country has it with Daimyō, take ownership of all locations with owned buildings and give them Core status, and lose
+−100
+Opinion with the Shōgun. When the situation starts the choice is accepted automatically and also gives
++10
+Prestige.
+Every month any member of the Japanese Shogunate has a 10% chance to gain the Sengoku Jidai casus belli on another member of the international organization unless they're already at war with, have a truce with them or already have a casus belli on them.
+Every month any member of the Japanese Shogunate that is at peace has a 10% chance to be offered to declare war on another member of the international organization they have a casus belli on. Refusing costs
+−10
+Prestige.
+The Sengoku Jidai situation can end in 3 ways:
+It will end if the Japanese Shogunate has only one member. The member will gain
++10
+Legitimacy,
++20
+Prestige and
++20
+Stability. The international organization will be destroyed.
+it will end if the Japanese Shogunate has only two members: the Shōgun and a country with either the Tennō status and Extraterritorial country type or a subject of the Shōgun. The international organization will be destroyed.
+It will end if all members of the Japanese Shogunate are the Shōgun, the Shōgun's subjects and extraterritorial countries that own buildings in only one location. The Shōgun will gain
++10
+Legitimacy,
++20
+Prestige and
++20
+Stability and the Japanese Shogunate will become able to change the Overseas Interaction law.
+If the country that is victorious in the Sengoku Jidai situation is Yamato, the country will be renamed to Japan.
+Countries that are involved in the Sengoku Jidai situation gain access to situation actions. They can only be used while the country is at peace.
+Action
+Effects
+Cost
+Requirements
+Cooldown
+Offer Hostage
+Choose a member of the Japanese Shogunate not at war with and a close relative of the ruler who is a child or an unmarried woman
+50% chance both countries gain
++150
+Opinion and
++20
+Trust with each other and the selected character moves to the target's court
+50% chance to lose
+−20
+Opinion with the target and
+−5
+Prestige
+10 Prestige
+15 Legitimacy
+6 months
+Ask for Hostage
+Choose a member of the Japanese Shogunate not at war with who has a close relative of the ruler who is a child or an unmarried woman
+50% chance both countries gain
++150
+Opinion and
++20
+Trust with each other, the selected character moves to the court and gain
++5
+Prestige
+50% chance to lose
+−20
+Opinion with the target
+Scaled Gold
+30 Prestige
+6 months
+Prove Heritage
+Gain
++20
+Legitimacy
+Scaled Gold
+Japanese Imperial Family government reform
+5 years
+Increment Recruitment
+Gain
++20%
+Manpower for 2 years
+Scaled Gold
+5% Army Tradition
+Manpower income
+2 years
+Attempt Imperial Restoration
+Change country type to Settled
+Take ownership of all locations with owned buildings and give them Core status
+Shōgun gains the Reassert Shōgun Authority casus belli on the country for 4 years
+50 Stability
+100 Opinion with the Shōgun
+Extraterritorial country type
+Present in locations with no other extraterritorial countries
+At least 5 locations with owned foreign buildings
+Japanese Imperial Family government reform
+Proclaim Clan Independence
+Change country type to Settled
+Take ownership of all locations with owned buildings and give them Core status
+Shōgun gains the Reassert Shōgun Authority casus belli on the country for 4 years
+If country has the Japanese Clan government reform it replaces it with Daimyō
+40 Stability
+100 Opinion with the Shōgun
+Extraterritorial country type
+Independent
+Present in locations with no other extraterritorial countries
+At least 5 locations with owned foreign buildings
+Japanese Imperial Family government reform
+Force End War
+Choose a war between members of the Japanese Shogunate that have Shinto primary religion
+50% chance the war ends in white peace and country gains
++10
+Legitimacy
+50% chance to lose
+−10
+Legitimacy and both countries lose
+−50
+Opinion with each other
+Scaled Gold
+15 Prestige
+Shinto primary religion
+Japanese Imperial Family government reform
+Revoke Land
+Choose a member of the Japanese Shogunate and a location they own or have foreign building in
+50% chance to take ownership of the selected location or destroy all foreign buildings owned by the target and gain
++10
+Legitimacy
+50% chance to gain the Reassert Shōgun Authority casus belli on the target and
+−10
+Legitimacy
+Cannot pick countries the Shōgun has the Reassert Shōgun Authority casus belli on
+Scaled Gold
+10 Prestige
+100 Opinion with the targed
+Shōgun of the Japanese Shogunate
+6 months
+Limit Clan's Authority
+Choose a member of the Japanese Shogunate with the Settled country type and fewer than 5 owned locations
+50% chance the target changes country type to Extraterritorial with 2 buildings in each previously-owned location and gain
++10
+Legitimacy
+50% chance to gain the Reassert Shōgun Authority casus belli on the target and
+−10
+Legitimacy
+Cannot pick countries the Shōgun has the Reassert Shōgun Authority casus belli on
+40 Stability
+30 Prestige
+100 Opinion with the targed
+Shōgun of the Japanese Shogunate
+6 months
+Summon to Court
+Choose a member of the Japanese Shogunate who is at peace
+50% chance the target loses
+−10
+Legitimacy and
+−7
+Stability while the Shōgun gains
++15
+Legitimacy
+50% chance to gain the Reassert Shōgun Authority casus belli on the target and lose
+−100
+Opinion with it
+Scaled Gold
+10 Prestige
+Shōgun of the Japanese Shogunate
+6 months
+Italian Wars
+[
+edit
+|
+edit source
+]
+Italian Wars
+The Italian Wars situation will start after 1437 once the following requirements are met:
+Guelphs and Ghibellines situation ended
+No country with the capital in the region of Italy and a primary culture from the Italian culture group owns more than 200 locations directly or via subjects
+There is a war where the defender is a country with the capital in the region of Italy and the attacker meets the following criteria:
+Religion group is Christianity
+Capital is not in the region of Italy
+The country leads the Holy Roman Empire Empire or its capital is in the region of France or Iberia
+The country leads the Holy Roman Empire Empire, is a great power, its rank is kingdom or empire, or its total population is above 5 million
+The Italian Wars situation will affect every country with the capital in the region of Italy or that already joined any side. The countries that are part of it are divided into up to six sides and international organizations:
+First Italian League will be led by the most powerful settled independent country with the capital located within the region of Italy.
+Second Italian League will be led by the second most powerful settled independent country with the capital located within the region of Italy.
+Third Italian League will be led by the third most powerful settled independent country with the capital located within the region of Italy.
+French League will be led by the most powerful settled independent country with the capital located within the region of France.
+Iberian League will be led by the most powerful settled independent country with the capital located within the region of Iberia.
+Holy Roman League will be led by the leader of the Holy Roman Empire.
+If fewer than 3 Italian sides exist, new sides can be created via the Create an Italian League action.
+If the leader of any side is a human player it will have the option to reject the creation of their side but this will cost
+−50
+Prestige and
+−25
+Government Power and if the country declared war on a country with the capital in the region of Italy and has less than 20% war score it will also gain
++5
+War Exhaustion.
+The Italian Wars situation will only end when one of the sides owns at least 200 locations in the region of Italy. The leader of the winning side will gain
++20
+Prestige and the Victory in the Italian Wars modifier for 15 years, giving the following effects:
++2
+Diplomatic Reputation
++0.25
+Monthly Army Tradition
+If one of the Italian Leagues win its members will gain
++5
+Trust with each other and every other country that has its capital in the region of Italy will gain
++15
+Prestige and
++7
+Stability. If one of the non-Italian Leagues win its members will gain
++10
+Prestige and its leader will gain
++100
+Opinion with every member of the same side.
+The situation will also end after 50 years pass or if every side has been destroyed. Every country that is either part of any league or owns a location in the regions of Italy, France or Iberia will lose
+−10
+Government Power. The leaders of the French League, Iberian League and Holy Roman League will lose
+−25
+Government Power instead.
+Countries that are involved in the Italian Wars situation gain access to situation actions.
+Action
+Effects
+Cost
+Requirements
+Cooldown
+Attract Condottieri
+Gain the Attract Condottieri modifier for 3 years, giving the following effects:
+−25%
+Hire Mercenary Premium Cost
+−0.05
+Monthly War Exhaustion
+10
+Government power
+Based on government type:
+Legitimacy if Monarchy
+Republican Tradition if Republic
+Devotion if Theocracy
+Horde Unity if Steppe Horde
+Tribal Cohesion if Tribe
+Not bankrupt
+Member of an Italian League, leader of a non-Italian league or capital is in Italy
+3 years
+Campaign in Italy
+Choose a neighboring province from Italy to gain the Claims casus belli on it for 5 years
+Cannot pick provinces belonging to a member of the same side or overlord
+Scaled Gold
+At peace
+Leader of French, Iberian or Holy Roman League
+4 years
+Send Aid
+Choose to sent to the leader of an Italian League attacked by the leader of a non-Italian League 50% of yearly Manpower or scaled Gold
+10 Prestige
+At peace
+Leader of any side, great power, or present in the region of Italy
+10% of maximum Manpower or enough Gold
+3 years
+Create an Italian League
+Create an Italian League international organization
+Every ally that is at peace and has positive opinion will be invited to join the international organization
+The chance for AI countries to join scales with their opinion
+Allies that refuse will lose
+−25
+Opinion
+Scaled Gold
+At peace
+Christianity religion group
+Own at least 12 locations
+Not bankrupt
+Not the leader of any side
+Fewer than 3 Italian Leagues exist
+Capital is in the region of Italy
+At least 5000 Manpower
+Great Pestilence
+[
+edit
+|
+edit source
+]
+Great Pestilence
+The Great Pestilence situation will always start together with a Great Pestilence outbreak. The situation will end when the Great Pestilence outbreak is over.
+The situation is available to every country that has or previously had the Great Pestilence disease within borders. It will display the origin of the disease, the number of affected locations, total deaths within the country and total deaths in the world.
+Every month countries affected by the Great Pestilence have a 9% chance to receive one of the following negative events:
+Choice between
+−12
+Stability and
+−15%
+Clergy and Commoners Estate Satisfaction or paying scaled Gold to gain
++2.5
+Stability and
++20%
+Clergy Estate Satisfaction. This event can only happen if the Great Pestilence infected more than 25% of a location.
+Choice between
+−12
+Stability and
++10%
+Control in a location,
++2.5
+Stability and
+−10%
+Control in a location, or
++7
+Stability and
+−10%
+Peasant Estate Taxes for 5 years. This event can only happen if the Great Pestilence infected more than 25% of a location.
+Choice between
+−12
+Stability and
++2.5
+Legitimacy or
+−10
+Legitimacy and a random pop that does not have the country's primary culture or primary religion from a location that has the Great Pestilence is destroyed. This event can only happen if there is any valid pop.
+Choice between
+−12
+Stability and
+−50%
+Pop Satisfaction in a random non-capital province or
+−7
+Stability and paying twice the monthly Manpower income and 5 times the monthly Gold income. This event can only happen if the country's primary culture and primary religion originate from the continent of America.
+Lose
+−12
+Stability and choice between paying scaled Gold or
+−5
+Legitimacy,
++10
+Societal Values Chance towards Free Subjects and in 5 rural locations the pops gain
++5%
+Satisfaction and 10-20% of them change social class to Tribesmen. This event can only happen if the country's primary culture and primary religion originate from the continent of America.
+Countries that are involved in the Great Pestilence situation gain access to situation actions, which will give the country a permanent modifier. Actions from the Great Pestilence situation have no cooldown and can be canceled at any point.
+Action
+Modifier
+Cost
+Sponsor Spiritual Protection
++5%
+Clergy Estate Satisfaction Equilibrium
++10%
+Clergy Power
+−10%
+Disease Resistance
+−0.05
+Monthly Doom
++0.2
+Monthly Progress to Spiritualist
++5%
+Peasant Estate Satisfaction Equilibrium
+Pay 10% of monthly Gold income
+Scaled Gold
+No Contact with Outsiders
+−3
+Diplomatic Reputation
+−3
+Monthly Diplomats
++0.5
+Monthly Progress to Inward
++0.5
+Monthly Progress to Traditional Economy
+Foreigners Banned from Imports and Exports
+10 Stability
+The Treaty
+[
+edit
+|
+edit source
+]
+The name of the situation depends on the location that was picked for the treaty
+The Treaty situation will start after 1437 after two countries with Catholicism as their primary religion and their capital in Europe have colonized the continent of America. Only those two countries will be affected by the situation.
+The situation has two stages and a location which divides colonization rights in the entire world vertically between the two countries. The location which divides the continent will initially be the colony of the second country but can can be moved during the first stage of the situation.
+When the situation starts the second country to make a colony in America will be asked to pick a location to meet with the first country that made a colony in America, which will also decide the name of the situation. The following locations will be available:
+Location
+Location prosperity
+Societal Values
+Other effects
+Country's capital
++5%
++5
+Towards Decentralization
+Other country's capital
++5%
++5
+Towards Decentralization
++20
+opinion with the other country
+Random location within the country
++5%
++5
+Towards Outward
++5
+Noble Estate Satisfaction
+The colony in America
++10%
++5
+Towards Decentralization
+Random location on the border between the countries
+(only available if the countries are neighbors)
++5%
++5
+Towards Decentralization
++10
+opinion with the other country
++5
+Noble Estate Satisfaction
+The first country to make a colony in America will change societal values by
++5
+towards Outward and gain
++10
+Opinion with the other country.
+The first stage of the situation is called
+The Treaty is being Discussed
+. It makes progress at a rate of 0.5% each month and unlocks the following situation actions. All actions can only be used once per year.
+Action
+Effects
+Cost
+Requirements
+Claim an Area
+Choose a discovered area without existing claims that has unowned locations to get a claim on
+Can only pick areas adjacent to those where locations are claimed or owned by the country or its subjects
+Cannot pick areas where any location is owned by a country with a non-pagan primary religion
+Cannot pick areas located in the continent of Europe or the subcontinents of China or India
+10 Prestige
+Push to Settle Treaty
+Situation gains
++10
+Progress to Ratification
+15 Religious Influence
+Shifting the Line
+Choose a discovered location up to two provinces away from the location which sets the line to become the new line location
+5 Progress to Ratification
+Exchange Sides
+Asks the other country to exchange sides on the line
+If the other country is controlled by the AI it will only agree if the other side contains more location than their own
+If the other country accepts it gives
++20
+Opinion
+If the other country refuses it gives
+−20
+Opinion
+15 Prestige
+15 Religious Influence
+5 Progress to Ratification
+Claim a Conflicting Area
+Choose a discovered area without existing claims that has unowned locations to get a claim on
+Can only pick areas where both countries or their subjects own locations
+Cannot pick areas located in the continent of Europe or the subcontinents of China or India
+Papal States gains 2 Favors from the country
+20 Prestige
+15 Opinion with Papal States
+More Diplomatic Reputation than the other country
+More Opinion with Papal States than the other country
+Revoke a Claim
+Choose a discovered area claimed by the other country to remove their claims
+Papal States gains 2 Favors from the country
+Scaled Gold
+30 Religious Influence
+15 Opinion with Papal States
+50 Opinion with the other country
+More Diplomatic Reputation than the other country
+More Opinion with Papal States than the other country
+When the first stage of the situation ends every country that has Catholicism as its primary religion will receive the option to change societal values by
++5
+towards either Inward or Outward.
+The second stage of the situation is called
+The Treaty is being Ratified
+. It tracks the relevance of the treaty, which starts at 50%, and unlocks the following situation actions.
+Action
+Effects
+Cost
+Requirements
+Upheld the Treaty Relevance
+Situation gains
++10
+Treaty Relevance
+15 Religious Influence
+Exchange Claims
+Choose an area claimed and an area claimed by the other country
+Asks the other country to swap the claimed areas
+If the other country is controlled by the AI it will decide based on the usefulness of both areas
+If the other country accepts it gives
++20
+Opinion
+If the other country refuses it gives
+−20
+Opinion
+Scaled Gold
+30 Religious Influence
+Demand the Transfer of a Claimed Province
+Choose a province in a claimed area where the other country has a colony
+50% chance to gain ownership of the province and
++20
+Opinion with the other country
+50% chance to gain a Claims casus belli on the province and
+−20
+Opinion with the other country
+5 Prestige
+20 Religious Influence
+Violate the Treaty
+Gain
++10
+Antagonism
+Gain the Violate the Treaty modifier, giving the following effects:
+Ignore Religious Colonial Claims
+−0.2
+Monthly Prestige
+−0.1%
+Monthly Treaty Relevance
+The modifier will be removed if the situation ends
+20 Religious Influence
+5
+Government power
+Based on government type:
+Legitimacy if Monarchy
+Republican Tradition if Republic
+Devotion if Theocracy
+Horde Unity if Steppe Horde
+Tribal Cohesion if Tribe
+Violate the Treaty
+Stop Violating the Treaty
+Remove the Violate the Treaty modifier
+Abandon all colonial charters in areas that aren't claimed
+Violate the Treaty
+The situation will only end if Treaty Relevance reaches 0%. When it ends all colonial claims provided by the treaty will be removed and every country that has Catholicism as its primary religion will receive the option to change societal values by
++5
+towards either Belligerent or Conciliatory.
+The Reformation
+[
+edit
+|
+edit source
+]
+The Reformation
+The The Reformation situation has a 4% chance to start each month after 1510. It will affect every country with the capital located within the continent of Europe and a Christian primary religion other than Miaphysitism or Nestorianism. The situation will keep track of the worldwide Lutheran and Catholic population.
+When the situation starts the Lutheranism religion will appear. A location in Europe that has an university building and Catholicism religion and is not Rome or owned by Papal States will have 50% of its Catholic pops convert to Lutheranism and gain the Lutheran Preachers building. Martin Luther will appear as a courtier in the country that owns the location. If multiple locations are valid the location will be chosen from a region in the following order:
+North Germany
+South Germany
+Scandinavia
+Iberia or Italy
+A few months later, if Bern has Catholicism as its dominant religion it will gain a Lutheran Preachers building and Huldrych Zwingli will appear as a courtier in the country that owns the location.
+Every month each location that has Catholicism as its dominant religion and borders a location that has a Lutheran Preachers building or Lutheranism as its dominant religion has a 12% chance to construct or upgrade a Lutheran Preachers building and a 8% chance to block further progress there for Lutheran Preachers buildings.
+Every month there is a 10% chance for a Lutheran Preachers building to be constructed in the following locations if their dominant religion is Catholicism:
+Halle after 1515
+Wittenberg after 1517
+København after 1520
+Âbo after 1530
+If a country involved in the situation has Catholicism as its primary religion and embraced the Printing Press institution it will receive an event with the following options:
+Spend 5 Religious Influence and 25% of all owned locations with Catholicism as their dominant religion gain a Lutheran Preachers building
+Gain
++10%
+Pop Assimilation Speed for 25 years
+If Basel has Catholicism as its dominant religion after 1530 the Calvinism religion will appear and the location will gain the Calvinist Preachers building. 2-3 months later between 5% and 50% of the Catholic pops in the country that owns Basel will convert to Calvinism and 25% of the pops belonging to the Clergy estate from Paris will convert to Calvinism. 1-3 years later between 5% and 50% of the Catholic pops in the country that owns Genève will convert to Calvinism. After 1534 there is a 10% chance each month for a Calvinist Preachers building to be constructed in Edinburgh and after 1542 there is a 1% chance each month for one to be constructed in Antwerpen.
+All countries that are affected by the situation except Papal States can choose to convert their religion to Lutheranism or Calvinism. If the country has Theocracy government it will be changed to Monarchy but incur a Stability and Prestige cost. Converting has the following requirements:
+Primary religion is Catholicism
+Country has pops that follow either Lutheranism or Calvinism
+Fewer than 20 countries have Lutheranism as their primary religion
+Fewer than 20 countries have Calvinism as their primary religion
+The The Reformation situation can end in two ways:
+It will end in year 1700
+It will end if the Council of Trent and War of Religions situations have ended
+Council of Trent
+[
+edit
+|
+edit source
+]
+Council of Trent
+The Council of Trent situation will start after 1530 as long as Catholicism religion has at least 25% Reform Desire. It will affect every country that has Catholicism or Lutheranism as its primary religion.
+When the situation starts the leader of the Catholic Church will lose a very large amount of Gold. Laws in the international organization will become changeable. Every country affected by the situation will be able to propose a law change, which will be debated by all members of the international organization.
+The Council of Trent ends when at least 5 debates failed or succeeded, or at the start of the Age of Absolutism. It will decide Catholicism view on the following religions: Lutheranism, Calvinism, Hussitism and Anglicanism.
+Ending
+Catholicism view on reformation religions
+>2 more debates passed than failed
+Kindred
+-2 <= debates passed - debated failed <= 2
+Negative
+2< debates failed than passed
+Enemy
+War of Religions
+[
+edit
+|
+edit source
+]
+War of Religions
+The War of Religions situation will start after 1590 if there is a war between a country that has Catholicism as its primary religion and a country that has Lutheranism or Calvinism as its primary religion while the Holy Roman Empire has both independent members that have Catholicism as their primary religion and independent members that have Lutheranism or Calvinism as their primary religion. The situation will affect every country that owns at least one location within the continent of Europe.
+The countries that are part of the War of Religions situation are either neutral or divided into two sides and international organizations: Catholic League and Protestant Union. The initial leaders of the international organizations will be the countries with the highest score that have Catholicism or Lutheranism or Calvinism respectively as their primary religion. After the situation has been active for at least 10 years the leaders of both sides will unlock a situation action to gain the Religious Supremacy casus belli on the leader of the opposing side for 4 years.
+The country that controls Hanau in 1639 will receive the option to gain Johann Jakob, an artist with an Artistic Skill of 84. The country that has Johann Jakob has a 5% chance each month to gain the work of art Magnum Opus 'Simplicissimus Teutsch'.
+Between 1605 and 1655 every country that has Catholicism as its primary religion, Czech or Danube Bavarian as its primary culture, and is at war using the Religious Supremacy casus belli has a 1% chance each month to be offered to gain the character Albrecht Wallenstein and gain a very large amount of scaled Gold. If the offer is refused he will join a neighbor country. The country that has Albrecht Wallenstein has a 5% chance each month to receive an event where it must choose between giving Albrecht Wallenstein the Unsuited for Command trait or gain
++3
+War Exhaustion and
+-15%
+Nobility Estate Satisfaction. If Albrecht Wallenstein gains the Unsuited for Command trait he will die in 6 months unless the the leader of either side in the situation occupies Dumbarton, in which case they will gain Albrecht Wallenstein.
+If a country's ruler is fighting in a battle in Europe against a country the Religious Supremacy casus belli was used on, there is a 4% chance it will gain the Inspirational Leader trait and a 36% chance it will die but the country will receive
++10
+Prestige and
++50
+Opinion with every country that has the same primary religion.
+The War of Religions situation can end in three ways. When it ends the Holy Roman Empire will have a new leader election.
+It will end if either side won a war that was using the Religious Supremacy casus belli.
+It will end if 80% of the countries affected by the situation desires peace. Any war between countries on opposing sides will end in white peace. The Holy Roman Empire will lose
+-50
+Imperial Authority and its religious laws will be changed to Imperial Religion: Christianity and Electorate Religious Law: Only Imperial Religion Group.
+It will end after 1737 once there are no wars that use the Religious Supremacy casus belli.
+The situation keeps track of which countries affected by the situation desire peace. A country will be considered to desire peace if it meets one of the following criteria:
+Has been at war for 6-10 years and War Exhaustion is above 80% of its maximum value
+Has been at war for 11-15 years and War Exhaustion is above 60% of its maximum value
+Has been at war for 16-20 years and War Exhaustion is above 40% of its maximum value
+Has been at war for 21-25 years and War Exhaustion is above 20% of its maximum value
+Has been at war for 26 years or more
+Columbian Exchange
+[
+edit
+|
+edit source
+]
+Columbian Exchange
+The Columbian Exchange situation will start after 1637 after any location in the continent of America has population from the Old World. It will affect any country in the world that uses a market with goods of the New World and any country with a primary culture originating from America that uses a market with goods of the Old World. The good must be produced or traded in at least one market present in the country.
+All countries affected by the situation will gain
++5
+Prestige and their societal values will change by
++10
+towards Outward, either when the situation starts or when they first become affected by it.
+The situation will end in year 1737.
+Countries that are involved in the Columbian Exchange situation gain access to situation actions.
+Action
+Effects
+Cost
+Requirements
+Cooldown
+Spread a New World Good
+Choose a good of the New World present in one of the country's markets
+Choose an owned location or a location owned by subjects to change its Raw Good to the selected one
+Location will lose
+-10
+Prosperity and its RGO will be set to level 1
+Goods can only be replaced in certain locations:
+Good
+Topography
+Climate
+Vegetation
+Restricted Regions
+Restricted Ares
+Potato
+Any
+Continental
+Mediterranean
+Oceanic
+Subtropical
+Farmlands
+Forest
+Woods
+Grasslands
+Jungle
+Sparse
+Tobacco
+Flatland
+Hills
+Continental
+Mediterranean
+Oceanic
+Subtropical
+Tropical
+Farmlands
+Forest
+Woods
+Grasslands
+Jungle
+Sparse
+Scandinavia,
+N. Atlantic Islands,
+Great Britain,
+Ireland,
+Ruthenia,
+Steppes,
+Russia,
+Ural,
+Mongolia,
+Kongo,
+Ethiopia,
+Nubia,
+Somalia,
+Madagascar,
+S. African Islands,
+Sahel,
+Canada,
+West Coast,
+Great Plains,
+Alaska,
+Brasil,
+Chaco,
+Australia,
+New Zealand
+New Hampshire,
+Maine,
+Hudson,
+Haudenosaunee,
+Allegheny,
+Maryland,
+West Virginia,
+Ohio,
+Indiana,
+Michigan,
+Illinois,
+Wisconsin,
+Alabama,
+Mississippi
+Maize
+Flatland
+Hills
+Continental
+Mediterranean
+Oceanic
+Subtropical
+Tropical
+Farmlands
+Forest
+Woods
+Grasslands
+Cocoa
+Flatland
+Hills
+Mountains
+Plateau
+Tropical
+Farmlands
+Forest
+Woods
+Jungle
+Bengal,
+Western India
+Mozambique,
+Ruvuma-Lurio,
+Gondwana,
+Telingana,
+Andhra,
+Vidarbha,
+Maharastra,
+Konkan,
+Lower Mekong,
+N. Tai Highland,
+Champa,
+Arakhan,
+Irrawady,
+Shan Highland,
+Kachin,
+Mayaab,
+Puuk,
+Chactemal
+Chili
+Flatland
+Plateau
+Wetlands
+Hills
+Continental
+Mediterranean
+Oceanic
+Subtropical
+Tropical
+Farmlands
+Forest
+Woods
+Grasslands
+Sparse
+Scaled Gold
+5 Prestige
+Spread an Old World Good
+Choose a good of the Old World present in one of the country's markets
+Choose an owned location in America or Oceania to change its Raw Good to the selected one
+Location will lose
+-10
+Prosperity and its RGO will be set to level 1
+Old World goods can target: Americas, Oceania, Macronesia.
+Goods can only be replaced in certain locations:
+Good
+Topography
+Climate
+Vegetation
+Restricted Regions
+Sugar
+Flatland
+Plateau
+Wetlands
+Mediterranean
+Subtropical
+Tropical
+Farmlands
+Grasslands
+Woods
+Forest
+Jungle
+Livestock
+Flatland
+Plateau
+Hills
+Mediterranean
+Subtropical
+Tropical
+Oceanic
+Continental
+Cold Arid
+Arid
+Farmlands
+Grasslands
+Sparse
+Desert
+Millet
+Flatland
+Plateau
+Hills
+Mediterranean
+Subtropical
+Tropical
+Oceanic
+Continental
+Cold Arid
+Arid
+Farmlands
+Grasslands
+Woods
+Sparse
+Horses
+Flatland
+Plateau
+Hills
+Mediterranean
+Oceanic
+Continental
+Cold Arid
+Arid
+Farmlands
+Grasslands
+Sparse
+Desert
+Wheat
+Flatland
+Plateau
+Mediterranean
+Subtropical
+Continental
+Oceanic
+Cold Arid
+Farmlands
+Grasslands
+Woods
+Sparse
+Cotton
+Flatland
+Mediterranean
+Subtropical
+Tropical
+Cold Arid
+Arid
+Farmlands
+Grasslands
+Woods
+Sparse
+Rice
+Flatland
+Wetlands
+Subtropical
+Tropical
+Farmlands
+Grasslands
+Forest
+Jungle
+Woods
+East Coast
+Wine
+Flatland
+Plateau
+Hills
+Mountains
+Mediterranean
+Oceanic
+Continental
+Cold Arid
+Farmlands
+Grasslands
+Woods
+Sparse
+Desert
+Caribbean
+Great Plains
+Coffee
+Flatland
+Plateau
+Hills
+Mountains
+Subtropical
+Tropical
+Farmlands
+Grasslands
+Sparse
+Desert
+Caribbean
+Great Plains
+East Coast
+Olives
+Flatland
+Plateau
+Hills
+Mediterranean
+Cold Arid
+Farmlands
+Grasslands
+Woods
+Sparse
+Saffron
+Flatland
+Plateau
+Hills
+Mediterranean
+Cold Arid
+Arid
+Farmlands
+Grasslands
+Sparse
+Pepper
+Flatland
+Plateau
+Hills
+Tropical
+Forest
+Woods
+Jungle
+Cloves
+Flatland
+Plateau
+Hills
+Tropical
+Jungle
+Scaled Gold
+5 Prestige
+Learn from Foreigners
+Choose a discovered country with more advances and a primary culture from the Old World
+Cannot choose countries at war with
+Gain
++10
+Trust of the selected country
+Gain
++2.5
+Research Progress if the country researched 1-5 more advances
+Gain
++5
+Research Progress if the country researched 6-10 more advances
+Gain
++10
+Research Progress if the country researched 11-15 more advances
+Gain
++15
+Research Progress if the country researched 16-20 more advances
+Gain
++20
+Research Progress if the country researched 21 or more advances
+10 Stability
+15
+Government power
+Based on government type:
+Legitimacy if Monarchy
+Republican Tradition if Republic
+Devotion if Theocracy
+Horde Unity if Steppe Horde
+Tribal Cohesion if Tribe
+Settled country type
+Primary culture originates from the continent of America
+1 year
+Absorb Institutions
+Choose a discovered country with more institutions and a primary culture from the Old World
+Cannot choose countries at war with
+Gain
++20
+Trust of the selected country
+Gain
++5%
+Institution Exposure if the country embraced 1 more institution
+Gain
++10%
+Institution Exposure if the country embraced 2 more institutions
+Gain
++25%
+Institution Exposure if the country embraced 3 more institutions
+20 Stability
+30
+Government power
+Based on government type:
+Legitimacy if Monarchy
+Republican Tradition if Republic
+Devotion if Theocracy
+Horde Unity if Steppe Horde
+Tribal Cohesion if Tribe
+Settled country type
+Primary culture originates from the continent of America
+1 year
+Golden Age of Piracy
+[
+edit
+|
+edit source
+]
+Golden Age of Piracy
+The Golden Age of Piracy situation will start after 1637 once at least 5 Colonial Nation subjects exist in the continent of America. The situation will affect every country that meets one of the following requirements:
+Primary culture originates from America and country has a navy
+Primary cultures originates from outside America and country owns locations or has subjects in America
+Navy Based country type
+Pirate Brethren government reform
+While the Golden Age of Piracy situation is active, if certain non-capital locations have Core integration status and less than 50% Control or Pop Satisfaction during certain years there is a 5% chance each month that they will become a Pirate Republic. Pirate Republics will start with Navy Based country type, Republic government type, Pirate Brethren government reform, 1000 Gold, a navy of 15 Galley, and a Pirate Stronghold under construction in the capital. They will start with the following laws: State Piracy, Council of Captains, Articles of Agreement, Smugglers' Haven, Authority of the Captain, Loyal Privateer Crews, Ship Boarding, Benefits for Privateers, Port Logs, Pirate Elective.
+Pirate Republic of Tortuga can appear after 1641 in Tortuga
+Pirate Republic of Port Royal can appear after 1651 in Yaguabo
+Pirate Republic of New Providence can appear between 1680 and 1714 in Bahama
+Pirate Republic of Libertalia can appear between 1690 and 1719 in Maroantsetra
+Pirate Republic of Tétouan can appear after 1690 in Tizgane
+If the previous owner of the location where a pirate republic was created was a human player or a subject of a human player, the human player will receive the option to switch to the pirate country.
+The Golden Age of Piracy situation can end in two ways:
+It will end after it has been active for 30 years if there are no independent Pirate Republics.
+It will end after it has been active for 50 years. If the country of Langkasuka exists its ruler will gain 20 to every ability and the country will gain the Great Pirate State modifier for 30 years, giving the following effects:
++0.2
+Monthly Navy Tradition
++0.5
+Monthly Republican Tradition
++15%
+Navy Morale
+Countries that are involved in the Golden Age of Piracy situation gain access to situation actions.
+Action
+Effects
+Cost
+Requirements
+Cooldown
+Request Anti-Piracy Policy
+Choose a country within diplomatic range where Piracy Law is not set to Anti-Piracy policy
+50% chance the target changes Piracy Law to Anti-Piracy policy and both countries gain
++25
+Opinion with each other
+50% chance both countries lose
+−25
+Opinion and
+−10
+Trust with each other
+10 Prestige
+Piracy Law is set to Anti-Piracy policy
+Navy Based country type
+Create Vassal Pirate Nation
+Creates a Pirate Republic Vassal
+The Pirate Republic will start with a navy of 12 Galley and will not have the laws of other pirate countries
+The Pirate Republic's starting Gold will be twice the Gold paid to create it
+If the actions is used by a human player it will bring the option to switch to the Pirate Republic
+Scaled Gold
+At least 10 ports
+At least 33% of expected ships in the navy
+A non-capital port location with less than 30% Control and a building that produces sailors
+Navy Based country type
+10 years
+Abandon Piracy
+Country type changes to Settled Country
+Remove the Pirate Brethren government reform
+Destroys every Pirate Stronghold, Black Market, Brothel, Harbor Tavern and Smugglers' Cove building
+50 Stability
+20% Navy Tradition
+Pirate Brethren government reform
+Attract Sailors
+Gain
++2.5%
+Navy Tradition and twice the monthly Sailors income (min 500)
+Pirate Brethren government reform
+Navy Based country type
+1 year
+Migrate to New Waters
+Choose an unowned coastal location to move the capital there and abandon the old capital
+The new capital will gain the Core integration status
+The Pirate Stronghold in the old capital will be removed and a new one will begin construction in the new capital
+500 Pops will migrate each month from the old capital to the new one for 24 months
+10 Stability
+5% Navy Tradition
+Pirate Brethren government reform
+Navy Based country type
+10 years
+Little Ice Age
+[
+edit
+|
+edit source
+]
+Little Ice Age
+The Little Ice Age situation will start in year 1645 and end in year 1715. When the situation starts all locations in the world that can have winter will gain the Harsh Winters of the Little Ice Age modifier, giving the following effects:
+−25%
+Local Food Capacity
+−25%
+Local Food Production %
+All countries that have their capital in an area that can have winter will be affected by the situation. The situation will bring various rare negative events to every country affected by it until it ends.
+In 1650 every country in the world will gain
+−10%
+Food Production for 10 years.
+In November 1708 all locations will lose between
+−3%
+and
+−15%
+of their Food Stockpile depending on the severity of their winter and every country affected by the situation will lose
+−50
+Stability and gain the Great Frost modifier for 2 years, giving the following effects:
+−100%
+Maize Output
+−100%
+Food Production %
+−2%
+Population Growth
+−100%
+Rice Output
+−100%
+Wheat Output
++50%
+Army Attrition
++50%
+Navy Attrition
+Countries that are involved in the Little Ice Age situation and have positive Stability gain access to situation actions.
+Action
+Effects
+Cost
+Cooldown
+Expand Provincial Food Production
+Choose a province affected by winter with less than 50% Food Stockpile to give it
++10%
+Food Production for 10 years
+The location with the highest food raw material production gains
++20%
+Raw Materials Output for 10 years
+5
+Government power
+Based on government type:
+Legitimacy if Monarchy
+Republican Tradition if Republic
+Devotion if Theocracy
+Horde Unity if Steppe Horde
+Tribal Cohesion if Tribe
+Enforce Rationing Policies
+Choose a market with its location owned and less than 30% Food Stockpile to give every Province Capital that uses it the Enforced Rationing Policy modifier for 10 years, giving the following effects:
+−10%
+Local Burghers Food Consumption
+−10%
+Local Clergy Food Consumption
+−10%
+Laborers Food Consumption
+−10%
+Local Nobles Food Consumption
+−10%
+Local Peasants Food Consumption
+−10%
+Local Slaves Food Consumption
++5%
+Unrest
+10 Stability
+Send Food Aid
+Choose a province with less than 10% Food Stockpile and a province with more than 80% Food Stockpile
+First province loses 30% Food Stockpile
+Second province gains 30% Food Stockpile if the two locations are connected by a road
+Second province gains 20% Food Stockpile if the two locations are not connected by a road
+Both provinces must be in the same region as the country capital and have the Harsh Winters of the Little Ice Age modifier
+Cannot choose the same province to provide food again for 2 years
+6 months
+People's Uprising
+[
+edit
+|
+edit source
+]
+People's Uprising
+The People's Uprising situation can start after year 1737 if any country is a Great Power and Revolutionary. It will affect every country with the Settled, Army Based or Navy Based country type.
+When the situation starts the strongest country that is a Great Power and not Revolutionary will suffer a Revolution. A month later every Revolutionary country will receive the Guillotine Method modifier for 20 years, which gives
++0.01
+Stability Investment. Revolutionary countries have Republic government type and receive the following permanent bonuses:
++25%
+Manpower
++25%
+Army morale
+−5
+Maximum war exhaustion
+The Revolutionary country with the highest Score will be the Revolutionary Target and receive the following permanent bonuses:
++10%
+Manpower
++10%
+Army morale
+−5
+Maximum war exhaustion
+Every month every country that is affected by the situation has a 1% chance to receive an event where it can accept or reject government reforms.
+Accepting government reforms will disable the Revolution disaster for 10 years, cause all pops that belong to the Nobility estate to lose
+-50%
+Satisfaction and create a rebellion, and the country will gain the Sweeping Govenmental Reformation modifier for 10 years, giving the following effects:
+−75%
+Change Policy Cost
++20%
+Legislative Efficiency
+−100%
+Noble Estate Satisfaction Equilibrium
+−75%
+Remove Government Reform Cost
+Rejecting government reforms will reduce the estate satisfaction and tax rate requirements for the Revolution disaster to trigger by 10% and give the Reforms Opposed modifier for 10 years, giving the following effects:
++25%
+Change Policy Cost
+−10%
+Legislative Efficiency
++10%
+Noble Estate Satisfaction Equilibrium
++25%
+Remove Government Reform Cost
+The People's Uprising situation will end once none of the Great Powers are Revolutionary and no country is affected by the Revolution disaster.
+Countries that are involved in the People's Uprising situation gain access to situation actions. All situation actions cost a scaled amount of Gold and 5 Government Power.
+Action
+Effects
+Requirements
+Cooldown
+Institute Governmental Purges
+Select a non-ruler character to execute
+Gain or lose Government Power and Stability
+If country is not a Revolutionary there is a chance to lose Satisfaction with the executed character's estate
+1 year
+Elevate Local Aristocracy
+Choose a province to give all pops who are part of the Nobility estate
++10%
+Satisfaction
+Change societal values by
+10
+towards Aristocracy and Serfdom
+Cannot choose the same province again for 2 years
+At peace
+6 months
+Demote Local Aristocracy
+Choose a province to remove all Nobles Power for 20 years and give all pops who are part of the Nobility estate
+−15%
+Satisfaction
+Change societal values by
+10
+towards Plutocracy and Free Subjects
+Cannot choose the same province again for 2 years
+At peace
+6 months
+Suppress Foreign Revolutionaries
+Choose a Revolutionary country to gain the Crush the Rebellion casus belli on for 4 years
+Cannot choose countries that are an ally, subject, overlord, or at truce with
+At peace
+Revolutionary
+5 years
+Assist Foreign Revolutionaries
+Choose a Revolutionary country to assist attacked by a country with the Crush the Rebellion casus belli
+Brings a choice between sending to the target 8 times the monthly manpower income or join their war as defender
+At peace
+Revolutionary
+At least 20% of maximum Manpower
+5 years
+Spread Revolutionary Sentiment
+Choose a country that is not Revolutionary or in a civil war that it is possible to declare war on
+If there is no rebellion in the target create a rebellion and target loses
+−20
+Stability
+If there is a rebellion in the target it gains 10% progress
+A province in the targeted country with less than 30% Control will join the rebellion
+At peace
+Revolutionary
+Independent
+5 years
+Reestablish the Parliamant
+Lose Government Power equal to Crown Power
+Change societal values by
++20
+towards Free Subjects
+Rights of the Crown law loses its policy
+Burghers and Commoners estates gain Satisfaction that scales with their Estate Power
+Nobility estate loses Satisfaction that scales with its Estate Power
+Rights of the Crown law is set to Absolute Rule policy
+Government Power is equal or greater than Crown Power
+5 years
+Colonial Revolution
+[
+edit
+|
+edit source
+]
+Colonial Revolution
+The Colonial Revolution situation can start after any Colonial Nation subject meets the following requirements:
+Is disloyal
+Embraced the Enlightenment institution
+Overlord's capital is in another continent
+Colonial Representation law is set to No Representation policy
+The situation will affect every country with the Settled, Army Based or Navy Based country type. Various events can take place during the situation for both Colonial Nation subjects and their overlords. Unlike other situation, the Colonial Revolution situation will never end.
+When the situation starts every Colonial Nation subject will gain
++5
+Prestige and every overlord of a Colonial Nation subject will lose
+−2.5
+Stability.
+If the societal values of an Overlord of a Colonial Nation subject are fully set to Liberalism there is a 0.1% chance each month for the country to be offered to release one of their Colonial Nation subjects, create an alliance with it, and gain
++12
+Stability. Refusing will give
+−12
+Stability and shift societal values from 100 to 50 towards Liberalism.
+Countries that are involved in the Colonial Revolution situation gain access to situation actions.
+Action
+Effects
+Cost
+Requirements
+Cooldown
+Give Colony Rebellion Support
+Choose a Colonial Nation subject of another country with less than 50 Opinion towards its overlord
+Target gains
++20
+Opinion with the country and
+−50
+Opinion with its overlord
+Scaled Gold
+Seek Support of Overlord's Rival
+Choose to ask for either Gold or Manpower from a random rival of the overlord
+66% chance the rival accepts and both countries gain
++50
+Opinion of each other
+33% chance the rival refuses and both countries lose
+−50
+Opinion of each other
+5 Prestige
+Colonial Nation subject type
+Overlord has a rival
+5 years
+Declare Independence War
+Declare war on the overlord with the Independence casus belli
+5 Stability
+Colonial Nation subject type
+At peace
+Less than 50 Subject Loyalty
+Create Colonial Federation
+Create a Colonial Federation international organization
+5 Prestige
+Colonial Nation subject type
+At peace
+Less than 25 Subject Loyalty
+In a Colonial Federation
+Join Colonial Federation
+Choose a Colonial Federation international organization to join
+5 Prestige
+Colonial Nation subject type
+In a Colonial Federation
+Give Representation to Colonial Subject
+Choose a Colonial Nation subject to change its Colonial Representation law to Representation in Parliament policy
+10 Prestige
+10
+Government power
+Based on government type:
+Legitimacy if Monarchy
+Republican Tradition if Republic
+Devotion if Theocracy
+Horde Unity if Steppe Horde
+Tribal Cohesion if Tribe
+Overlord of a Colonial Nation subject type
+Establish Goods Act
+Choose a Colonial Nation subject to take 50% of their yearly Gold income and give it
++10
+Liberty Desire
+10 Prestige
+Overlord of a Colonial Nation subject type
+5 years
+Aid Colonial War Efforts
+Choose a Colonial Nation subject to give it 25% of the yearly Manpower income and
+−10
+Liberty Desire
+Scaled Gold
+Overlord of a Colonial Nation subject type
+5 years
+Black Death
+[
+edit
+|
+edit source
+]
+Black Death
+If the Black Death situation can start, as well as when will it start, depends on the
+Black Death Outbreak Year
+game rule. The situation will always start together with a Bubonic Plague
+outbreak
+, its location depending on the
+Black Death Origin
+game rule. The situation will end when the Bubonic Plague outbreak is over.
+The situation is available to every country with the capital located outside the continent of America and will track the Bubonic Plague disease. It will display the origin of the disease, the number of affected locations, total deaths within the country and total deaths in the world. The situation will bring various negative events to every country that has the Bubonic Plague until it ends. When the situation ends, all negative modifiers brought by Black Death events will be removed.
+Countries that are involved in the Black Death situation gain access to situation actions, which will give the country a permanent modifier. Actions from the Black Death situation have no cooldown and can be canceled at any point.
+Action
+Effects
+Cost
+Requirements
+Move Court into Hiding
+Gain the Court in Isolation modifier, giving the following effects:
+−5%
+Burgher Estate Satisfaction Equilibrium
+−5%
+Clergy Estate Satisfaction Equilibrium
+−2.5%
+Noble Estate Satisfaction Equilibrium
+Halves the mortality rate of the Bubonic Plague for characters
+10 Stability
+Bubonic Plague present in the country
+Isolate Cities
+All urban locations gain the Isolating Cities modifier, giving the following effects scaled by control and urban locations:
+Up to
++0.5%
+monthly control
+Up to
+-80%
+bubonic plague impact
+Up to
+−10%
+production efficiency
+Up to
+−25%
+market attraction
+40 Stability
+5% Burghers Estate Satisfaction
+75% Burghers Estate Satisfaction
+Any urban location has a 20% Bubonic Plague infection rate
+Control the Food Market
+Bans the export of all food goods
+Gain the Control the Food Market modifier, giving the following effects:
+−10%
+Burgher Estate Satisfaction Equilibrium
++0.5
+Monthly Progress to Traditional Economy
+−2.5%
+Noble Estate Satisfaction Equilibrium
+−5%
+Peasant Estate Satisfaction Equilibrium
+10 Stability
+Bubonic Plague present in the country
+Isolate the Country
+Isolate the Country
+Gain the Isolate the Country modifier, giving the following effects:
+−10%
+Burgher Estate Satisfaction Equilibrium
++0.5
+Monthly Progress to Traditional Economy
++0.5
+Monthly Progress to Traditionalist
+−5%
+Peasant Estate Satisfaction Equilibrium
+Foreigners Banned from Imports and Exports
+10 Stability
+Control the Food Market
+Procure Remedies
+Gain
++7
+Stability
+Gain
++2.5
+Government Power
+Gain the Procure Remedies modifier, giving the following effects:
++5%
+Burgher Estate Satisfaction Equilibrium
++0.2
+Monthly Progress to Traditionalist
++5%
+Peasant Estate Satisfaction Equilibrium
+Pay 5% of monthly Gold income (min 1 Gold)
+Increases demand in all owned markets for the following, scaled by pops:
+Fiber Crops
+Gems
+Lumber
+Mercury
+Medicaments
+Incense (doubled if religion group is Islam)
+Liquor (only if religion group is not Islam)
+Canceling it gives
+−20
+Stability
+Scaled Gold
+Segregate the Infected
+Expel the Sick
+Segregate the Infected
+Gain the Segregate the Infected modifier, giving the following effects:
+−5%
+Burgher Estate Satisfaction Equilibrium
++15%
+Disease Resistance
++0.2
+Monthly Progress to Communalism
+−5%
+Peasant Estate Satisfaction Equilibrium
+10 Stability
+Bubonic Plague present in the country
+Procure Remedies
+Expel the Sick
+Expel the Sick
+Gain the Expel the Sick modifier, giving the following effects:
+−5%
+Burgher Estate Satisfaction Equilibrium
+Can Build Pest House
++0.5
+Monthly Progress to Communalism
+−5%
+Peasant Estate Satisfaction Equilibrium
+10 Stability
+Bubonic Plague present in the country
+Procure Remedies
+Segregate the Infected
+Sponsor Mass Forgiveness
+Gain
++12
+Stability
+Gain the Sponsor Mass Forgiveness modifier, giving the following effects:
++5%
+Clergy Estate Satisfaction Equilibrium
++10%
+Clergy Power
+−10%
+Disease Resistance
++0.2
+Monthly Progress to Spiritualist
++5%
+Peasant Estate Satisfaction Equilibrium
+Pay 10% of monthly Gold income
+Canceling it gives
+−20
+Stability
+Bubonic Plague present in the country
+Present Scapegoats
+Present Scapegoats
+Gain
++7
+Stability
+Gain the Find the Culprits modifier, giving the following effects:
++5%
+Clergy Estate Satisfaction Equilibrium
++20
+Pop Conversion Speed
++0.2
+Monthly Progress to Traditionalist
+−5%
+Peasant Estate Satisfaction Equilibrium
+−2
+Tolerance of Heathen Beliefs
+−2
+Tolerance of Heretical Beliefs
++1
+Tolerance of the True Faith
+Bubonic Plague present in the country
+Sponsor Mass Forgiveness
+Hussite Wars
+[
+edit
+|
+edit source
+]
+Hussite Wars
+If the Hussite Wars situation can start depends on either player choices or the
+Historical AI
+game rule. Between 1400 and 1480, as long as both Bohemia and Papal States are independent and Bohemia either has Hussitism as its primary religion or Hussitism is present in an least 20% of its locations, there is a 3% chance each month that Bohemia will get an event where between 5% and 50% of the Catholic pops will convert to Hussitism and the country will receive the following choices:
+Change the primary religion to Hussitism. If Bohemia is controlled by the AI while Historical AI is turned on, they will always choose to change the primary religion. The country will gain
++50
+Religious Influence and
+−25
+Decaying Opinion with all countries that have Catholicism as their primary religion and are not allies or subjects of Bohemia. In addition the country will gain the In Defense of Hussitism modifier for 3 years, giving the following effects:
++10%
+Army Morale
++0.3
+Monthly Religious Influence
+−0.03
+Monthly War Exhaustion
+Remain Catholic. If the primary religion is not Catholicism it will be changed to Catholicism. The country will lose
+−50
+Stability, Legitimacy, and Clergy Estate Satisfaction and Hussite pops will join any existing rebellion if there is one. In addition the country will gain the Civil War Looming modifier for 10 years, giving the following effects:
+−50%
+Estates Satisfaction Equilibrium
++2%
+Monthly Rebel Growth
+If the first option is selected, Papal States will receive an event with the following choices:
+Start the Hussite Wars situation and declare war on Bohemia with the Crush Hussitism casus belli. If Papal States is controlled by the AI while Historical AI is turned on, they will always choose to start the situation.
+Do not start the Hussite Wars situation. The country will lose
+−50
+Stability, Devotion, Clergy Estate Satisfaction and Opinion with all countries that have Catholicism as their primary religion while Bohemia will gain
++20
+Prestige.
+When the Hussite Wars situation starts the Holy Roman Emperor and every country that is a neighbor of Bohemia, has Catholicism as its primary religion, is not allied with, subject, at war or at truce with Bohemia, and is not a rival of Papal States will receive the choice to either form an alliance with Papal States and gain
++20
+Religious Influence and
++20%
+Clergy Estate Satisfaction or refuse and lose
+−10
+Religious Influence and
+−10%
+Clergy Estate Satisfaction. For the most powerful of these countries allying with Papal States will give
++25
+Religious Influence and
++20%
+Clergy Estate Satisfaction while refusing will give
+−20
+Religious Influence and
+−20%
+Clergy Estate Satisfaction. If Poland exists, is independent and is not allied with, subject, at war or at truce with Papal States it will receive an event to either join the war on the side of Bohemia and gain
++20
+Prestige and Stability and
++100
+Opinion with Bohemia or refuse and lose
+−7
+Stability and
+−10
+Legitimacy. If Poland is controlled by the AI while Historical AI is turned on, they will always choose to join the war. If Poland joins the war Teutons will also receive the same event other countries received.
+The Hussite Wars situation affects every country that has Catholicism or Hussitism as its primary religion. While the situation is active, every country that has Catholicism as its primary religion and is either a member of the Holy Roman Empire international organization or a neighbor of Bohemia will gain the Hussite Heresy modifier, giving the following effects:
+−2.5%
+Estates Satisfaction Equilibrium
+−0.1
+Monthly Religious Influence
+Every month Bohemia has a 5% chance receive a one-time event to receive a courtier with very high abilities and the Defensive Planner trait as well as
++25
+Army Tradition and
+-3
+War Exhaustion. In addition each month it has a 3.5% chance receive a repeatable event with the following choices:
+Gain
+-1
+War Exhaustion and Gold that scales with the Clergy estate tax base
+Gain
++2.5
+Stability,
++5%
+Nobility Estate Satisfaction and
+−10
+Legitimacy
+10% of Catholic pops will convert to Hussitism and gain
+−2.5
+Stability
+If Papal States is no longer at war, has more than 90% Manpower filled and its War Exhaustion is less than 1, there is a 33% chance to be offered the chance to go declare war Bohemia with the Crush Hussitism casus belli. Refusing will cost
+−10
+Prestige. If Papal States is controlled by the AI while Historical AI is turned on, they will always choose to go to war.
+The Hussite Wars situation can only end once either Catholicism or Hussitism achieve victory.
+Catholicism will achieve victory if the primary religion of Bohemia is Catholicism and the Papal States exist. All countries that have Catholicism as their primary religion will gain
+−20
+Stability and
+−25
+Legitimacy and all countries that have Hussitism as their primary religion will convert both their primary religion and that of their ruler and its family to Catholicism.
+Hussitism will achieve victory if the situation has been active for at least 30 years, Bohemia is at peace and its primary religion is Hussitism. All countries that have Hussitism as their primary religion will gain
++20
+Stability,
++10
+Legitimacy and
++50
+Religious Influence and 15 days later they will unlock the Four Articles government reform.
+Countries that are involved in the Hussite Wars situation gain access to situation actions. All situation actions costs 10 Religious Influence.
+Action
+Effects
+Requirements
+Cooldown
+Side with the Papal States
+Form an alliance with Papal States
+Join any war between Papal States and Bohemia on Papal States' side
+At peace
+Independent
+War between Papal States and Bohemia
+25 Opinion with Papal States
+Alliance with Papal States or Bohemia
+Truce with Bohemia
+10 years
+Side with Bohemia
+Form an alliance with Bohemia
+Join any war between Papal States and Bohemia on Bohemia's side
+At peace
+Independent
+War between Papal States and Bohemia
+25 Opinion with Papal States
+Alliance with Papal States or Bohemia
+Truce with Bohemia
+10 years
+Force Conversions
+Choose a province where the dominant religion is not Hussitism to give it the Heretic Conversion Efforts modifier for 10 years, giving the following effects:
++50
+Local Pop Conversion Speed
+Cannot pick a province that already has the modifier
+Hussitism primary religion
+1 year
+Prepare the Defenses
+Change societal values by
++20
+towards Defensive
+Choose a province to give it
++20%
+Fort Defense for 15 years and start the construction of a Castle in the province capital for only 10% of its cost if it doesn't have one
+Can only pick provinces that are fully owned
+Hussitism primary religion
+1 year
+Align with the Moderates
+Gain
++50
+Opinion with the 3 most populated neighbors that are not allies or subjects of either side
+Gain the Promoted the Moderates modifier for 10 years, giving the following effects:
+−5%
+Clergy Estate Satisfaction Equilibrium
++2
+Diplomatic Reputation
++0.5
+Monthly Progress to Conciliatory
++3
+Tolerance of Heretical Beliefs
+−1
+Tolerance of the True Faith
+If country has the Promoted Radicals modifier it gets removed
+Hussitism primary religion
+1 year
+Align with the Radicals
+Lose
+−50
+Opinion with the 5 most populated neighbors that are not allies or subjects of either side
+Gain the Promoted Radicals modifier for 10 years, giving the following effects:
++10%
+Damage Done versus heretics in Battle
+−10
+Diplomatic Reputation
++5%
+Pop Conversion Speed %
++0.5
+Monthly Progress to Belligerent
+If country has the Promoted the Moderates modifier it gets removed
+Hussitism primary religion
+1 year
+Demand Clerical Donations
+Gain Gold that scales with monthly income and Clergy estate power
+Clergy estate loses
+−10%
+Satisfaction
+Hussitism primary religion
+50%+ Clergy Estate Satisfaction
+Clergy estate has any estate power
+1 year
+Demand Merchant Donations
+Gain Gold that scales with monthly income and Burghers estate power
+Burghers estate loses
+−10%
+Satisfaction
+Hussitism primary religion
+50%+ Burghers Estate Satisfaction
+Burghers estate has any estate power
+1 year
+Demand Noble Donations
+Gain Gold that scales with monthly income and Nobility estate power
+Nobility estate loses
+−10%
+Satisfaction
+Hussitism primary religion
+50%+ Nobility Estate Satisfaction
+Nobility estate has any estate power
+1 year
+References
+[
+edit
+|
+edit source
+]
+Mechanics
+Realm
+Country
+•
+Government
+•
+Parliament
+•
+Estate
+•
+Reforms
+•
+Laws
+•
+Characters
+•
+Missions
+Economy & Research
+Economy
+•
+Goods
+•
+R.G.O.
+•
+Market
+•
+Building
+•
+Population
+•
+Age
+Diplomacy & Warfare
+Diplomacy
+•
+Subjects
+•
+International organization
+•
+Warfare
+•
+Combat
+•
+Military
+The world
+Location
+•
+Culture
+•
+Religion
+•
+Language
+•
+Exploration
+•
+Situations
+•
+Disasters
+•
+Diseases
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=Situations&oldid=21662
+"

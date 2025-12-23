@@ -1,0 +1,500 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-5-march-27th-2024.1647775/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #5 - March 27th, 2024
+Thread starter
+Johan
+Start date
+Mar 27, 2024
+Welcome to the fifth Tinto Talks, where we talk about the design for our upcoming top secret game with the codename ‘Project Caesar.’
+The state is me!  Oh, you meant E-state, sorry.. not me ..
+Today we will go into detail about one of the core systems in the game, and talk about how estates work.
+First of all, there are four estates in Project Caesar, which mostly map 1 to 1 with a social class:  Nobility, Clergy, Burghers and the Commoners. There is also the Crown, which represents the state itself.
+Each estate gains power based on the amount of population belonging to the estate, which is also modifiable by local attributes of where the population is, where some nobles may have very high power in a certain area, or whether a specific city has entrenched burgher rights there.
+This is the estates part of the government view, where you can see their power, current satisfaction, the equilibrium its trending toward, and what privileges it currently has.
+Every 1,000 nobles gives +50 estate power to their estate, while 1,000 peasants merely give +0.05 estate power as default. Then these are modified locally in every location, as mentioned above, and then in the entire country by laws, reforms and most notably the privileges that you have given the estates.
+The total power of all the 4 estates and the crown then together all add up to 100%, which is the effective power they have.
+Depending on your crown power, you either get a scaling penalty or scaling bonus, on aspects like the cost of revoking estate privileges, the cost of changing policies in laws, the efficiency of the cabinet, the expected costs of the court, and other things. If your crown power is weak, you need to have the estates really satisfied, or you will not get much out of any parliament you try to call.
+Each of the four estates has a current satisfaction and an equilibrium it will move towards.  Some estates, and some countries, will have the estate satisfaction moving quicker to the equilibrium than others. Each estate has 2 factors per type of estate in which their satisfaction impacts the entire country, where satisfaction above 50% gives a scaling bonus, and below, a scaling penalty.
+If the satisfaction is below 25%, this estate will not provide any levies. Most importantly, the estate satisfaction also impacts the satisfaction of the pops that belong to that estate, possibly creating rebel factions or even civil wars.
+Nobility impacts your prestige gain and your counterespionage.
+Clergy impacts your research speed and your diplomatic reputation.
+Burghers impact your merchant power and the production efficiency.
+Commoner impacts your food production and your stability costs.
+So what impacts the satisfaction equilibrium of an estate? The privileges they get, the current stability, some reforms may impact them, some laws may, how you tax them, and much more.  Some examples include clergy being happier with higher religious unity or burghers liking having more market centers in your country.
+# estate privileges
+Estate Privileges then? You may feel forced to grant privileges to estates to be able to tax them more, and you may be forced to grant privileges to get their support in parliament. All privileges impact the power of their estate, and many also increase their satisfaction equilibrium. They all have some impact on gameplay fitting the privilege, and often they also impact a societal value of their country.
+WiP ui, temporary graphics and no icons etc.
+There are many different privileges, and many unique ones depending on where and what type of country you play.
+We mentioned taxes before, and while this is not the development diary where we go into details about the economic system, it is important to mention that the estates of a country have wealth that is increased by the amount of money that you have not taken from them in taxes. Rich estates will use their wealth on many things, primarily to invest into things that benefit them, but will often also build things that also benefit the country.
+Next week we will talk about a few new concepts that are rather new to this game that have not been present in previous games, as we will talk about proximity, control and maritime presence, all concepts that need to be talked about in detail, before we go into the economy system.
+315
+184
+16
+8
+1
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+42
+Next
+1 of 42
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Mar 27, 2024
+Add bookmark
+#2
+I made a bet for 10€, that this game won't be called "Europa Universalis 5" or "Europa Universalis V".
+So if I lose the bet, I will be a bit short of cash on getting this game.
+Just saying...
+148
+36
+3
+2
+Reactions:
+Reply
+Report
+ConstantineK
+Sergeant
+19 Badges
+Jul 18, 2017
+74
+595
+Mar 27, 2024
+Add bookmark
+#3
+Oh good lord there is maps........
+18
+5
+5
+2
+Reactions:
+Reply
+Report
+Universalis_
+Sergeant
+18 Badges
+Aug 26, 2016
+91
+1.314
+Mar 27, 2024
+Add bookmark
+#4
+185
+38
+13
+2
+1
+Reactions:
+Reply
+Report
+Diamss
+Empereur des Français
+66 Badges
+Nov 29, 2021
+45
+424
+Mar 27, 2024
+Add bookmark
+#5
+I always look forward to these Tinto talks!
+(I use a translator, the translation may not be of good quality)
+I think this game should provide at least as much content for the ahistorical paths as for the historical paths.
+For example, if I play England and win the Hundred Years' War, there should be content, events, missions, maybe even government reforms or unique laws. I think that's really important for immersion, and knowing that you can play the same country in many different ways with just as much content no matter how you play it really enhances immersion in my opinion.
+I also think that the AI, instead of making decisions in semi-random events, should make decisions based on what's going on in the world, which would reinforce immersion and make the AI much stronger.
+In any case, this game seems to be heading in the right direction, even if I'm still a little worried about the release date.
+47
+26
+4
+2
+Reactions:
+Reply
+Report
+Wudadi
+Captain
+63 Badges
+Mar 19, 2014
+488
+104
+Mar 27, 2024
+Add bookmark
+#6
+Toggle signature
+CK2: Songs-Music of 64-Mongol-Uyghur-Khitan-Tibet-Han
+EU4: The Real Oriental Music/Songs Source MODs Collection
+189 Chinoiserie Music - I -
+189 Chinoiserie Music - II -
+104 Mongolia Uighur Tibet Songs-Music
+112 Manchu Korea Yamato Songs-Music
+101 Han Vietnam Southwest Songs-Music
+189 Japonisme Music - I -
+189 Japonisme Music - II -
+MP3 Version Download link:
+705 Oriental Music/Songs
+​
+4
+Reactions:
+Reply
+Report
+olivenkranz
+Imperator Enjoyer
+54 Badges
+May 13, 2020
+1.050
+1.472
+Mar 27, 2024
+Add bookmark
+#7
+It lives!
+Toggle signature
+Paradoxum, Imperatorem redde!
+- Not Augustus
+3
+Reactions:
+Reply
+Report
+D
+Dongerino
+Evropa's Gemmiest Herald
+43 Badges
+Jun 27, 2015
+1.131
+10.921
+Mar 27, 2024
+Add bookmark
+#8
+Blue Ragusa province. That one guy from that one thread won't be happy.
+35
+4
+1
+Reactions:
+Reply
+Report
+Andy_Dandy
+General
+57 Badges
+Jan 20, 2007
+2.370
+847
+Mar 27, 2024
+Add bookmark
+#9
+It’s so beautiful!
+2
+1
+Reactions:
+Reply
+Report
+oktaium
+Private
+76 Badges
+Jun 30, 2016
+16
+169
+Mar 27, 2024
+Add bookmark
+#10
+The map looks like Vic3, Ck3 and Imperator combined. Great work
+47
+5
+Reactions:
+Reply
+Report
+grommile
+Field Marshal
+68 Badges
+Jun 4, 2011
+24.211
+47.501
+Mar 27, 2024
+Add bookmark
+#11
+Diamss said:
+For example, if I play England and win the Hundred Years' War,
+Click to expand...
+Then you should become France.
+Toggle signature
+AI art is bad and you should feel bad for suggesting it.
+Products sold in open-beta condition should be labelled as such.
+Ceterum censeo Featured Content banner delenda est.
+53
+20
+15
+2
+1
+Reactions:
+Reply
+Report
+KoDiWulf
+Recruit
+42 Badges
+Oct 18, 2023
+3
+141
+Mar 27, 2024
+Add bookmark
+#12
+Will naval passages like the Bosporus, Dardanelles, Danish Belts, etc. be controllable? If Denmark can control the Danish Belts (at least later in the game) it gives some incentive for a country like Germany to build the Kiel Canal. It would also give some more benefits to controlling things like the Panama canal, and the Suez, and would give Russia a reason to want the Bosporus under its control, or any black sea power for that matter.
+It could also work off of tech levels, to use Eu4 terms. For example, having a certain "diplo tech" allows you to control the Bosporus. Some straits might need higher tech, as controlling the Danish belts would be much harder than controlling the Dardanelles. Having access to the oceans is a major aspect of why many countries did what they did. Most notably Russia, of course, but being able to freely traverse the Black/Baltic sea has been an important geopolitical issue for centuries.
+During a late game war, assuming Project Caesar goes this far, it would be an interesting dynamic to see an attacking army (for this example ottoman) occupying the (British) Suez, blocking British travel & isolating their colonies by requiring the British to go around Africa or through the pacific. It would certainly add an interesting dynamic to war, as it's advantageous to control these during wartime and could be used to create some interesting scenarios. For example, a Crimean War scenario. The British and Ottomans are at war with the Russians, and the British player boldly sails his whole fleet into the Black Sea. The Russian player can then march down, contest/occupy the entrance to the Black Sea, and possibly trap the British navy there.
+Perhaps this system would work on a tiered format, so you can
+-deny enemy ships
+-deny all warships
+-deny all ships
+ALSO, assuming the trade is less rigid than Eu4, it would be interesting to see how that could be influenced by your connection to the oceans being severed. This last part might be a bit ambitious, but just a thought.
+Using the tiers, it could change who gets affected and how. If France is trading with Russia and the Bosporus is blocked by the Byzantines, will French ships be allowed through? They aren't an enemy but they are trading with an enemy. This would give a third party (in this example France) incentive to either join on Russia's side to re-open trade, or try and enforce a peace to save their trade routes. It makes the politics and diplomacy more dynamic (especially for MP unless the AI is smart enough to comprehend it). Similar to how there is a "trade dispute" CB in eu4, there could be a "reopen trade" cb available when your trade line gets cut off by a war you're not in.
+Furthermore, it's even possible for your "country" to be severed by such a thing. Using the 1337 start date, I believe Genoa controls parts of the inner Black Sea coast. If Byzantium/Ottomans want to seize that territory, they could simply close off the entrance into the sea and take it without any ability for the Genoese navy to intervene (Unless they want to do a Gallipoli but let's not be silly now)
+This is
+VERY ROUGH
+mock-up to visualize the idea, I whipped it up very quickly so it looks terrible, but you get the idea:
+Last edited:
+Mar 27, 2024
+113
+7
+4
+1
+Reactions:
+Reply
+Report
+Gurtannon
+General
+28 Badges
+Mar 10, 2024
+1.702
+9.943
+Mar 27, 2024
+Add bookmark
+#13
+Could you make rhodes two location it was more important than lesbos I guess, it deserves two location
+Toggle signature
+UltraOttomanist Turk
+27
+4
+2
+1
+Reactions:
+Reply
+Report
+W
+William the Merry
+Field Marshal
+Mar 5, 2024
+2.553
+5.333
+Mar 27, 2024
+Add bookmark
+#14
+Cilician return to armenian highlands, lets go
+18
+3
+1
+Reactions:
+Reply
+Report
+S
+Stein14
+Major
+106 Badges
+Mar 19, 2019
+782
+2.809
+Mar 27, 2024
+Add bookmark
+#15
+Johan said:
+Welcome to the fifth Tinto Talks, where we talk about the design for our upcoming
+top secret game
+with the codename ‘Project Caesar.’
+Click to expand...
+Ok Johann sat laughing at these words in front of the keyboard, right?
+Toggle signature
+Googel translator is my friend.
+99
+8
+7
+Reactions:
+Reply
+Report
+linksradikal
+Private
+35 Badges
+Apr 7, 2019
+23
+223
+Mar 27, 2024
+Add bookmark
+#16
+The map looks really pretty. I really love the high granularity, and I really wanna see the hre now lol
+8
+7
+Reactions:
+Reply
+Report
+theJalden
+Major
+56 Badges
+Dec 7, 2013
+509
+1.331
+Mar 27, 2024
+Add bookmark
+#17
+Johan said:
+Each estate gains power based on the amount of population belonging to the estate, which is also modifiable by local attributes of where the population is, where some nobles may have very high power in a certain area, or whether a specific city has entrenched burgher rights there.
+Every 1,000 nobles gives +50 estate power to their estate, while 1,000 peasants merely give +0.05 estate power as default. Then these are modified locally in every location, as mentioned above, and then in the entire country by laws, reforms and most notably the privileges that you have given the estates.
+The total power of all the 4 estates and the crown then together all add up to 100%, which is the effective power they have.
+Click to expand...
+I can only really hope that the modifiers make up the bigger difference. Balance of power is a tricky thing to model, but it amounts to a mixture of legal/moral authority, wealth, organization/unity of purpose, and "firepower". Honestly I'd prefer to see the power of an estate purely based on the amount of wealth it controlled (with some modifiers based on laws) than on population, which seems less important. Of course, an estate's wealth would be jealously guarded, if a king were to empty out the coffer's of one that would cause some serious discontent.
+One thing I'd like to see eventually is estate "factions" with the nobles it may be between high nobles and lesser nobles, with the clergy it could be with different religious sects/heresies, with burghers there could be tension between traders and manufacturers.
+Johan said:
+Depending on your crown power, you either get a scaling penalty or scaling bonus, on aspects like the cost of revoking estate privileges, the cost of changing policies in laws, the efficiency of the cabinet, the expected costs of the court, and other things. If your crown power is weak, you need to have the estates really satisfied, or you will not get much out of any parliament you try to call.
+Click to expand...
+Estate privileges is a good mechanic, I can see a lot of gameplay potential, like a lot about the implementation in EU4.
+Johan said:
+Each of the four estates has a current satisfaction and an equilibrium it will move towards.  Some estates, and some countries, will have the estate satisfaction moving quicker to the equilibrium than others. Each estate has 2 factors per type of estate in which their satisfaction impacts the entire country, where satisfaction above 50% gives a scaling bonus, and below, a scaling penalty.
+If the satisfaction is below 25%, this estate will not provide any levies. Most importantly, the estate satisfaction also impacts the satisfaction of the pops that belong to that estate, possibly creating rebel factions or even civil wars.
+Nobility impacts your prestige gain and your counterespionage.
+Clergy impacts your research speed and your diplomatic reputation.
+Burghers impact your merchant power and the production efficiency.
+Commoner impacts your food production and your stability costs.
+Click to expand...
+So prestige, espionage, research speed, diplo-rep, merchant power, production efficiency, "food production" and stability are all mechanics in the game, to be elaborated on further. I think more military modifiers with the Nobility should be included, they were the back bone of any countries officer corps, maybe more effective knights? Higher manpower you can draw from? Stronger fort defense?
+Clergy makes sense for diplo-rep especially with other nations of the same religion. Research speed is interesting, maybe happy clergy will look the other way when innovations come around rather than try to squash it? I don't see any powerful estate particularly happy with the implementation of new technology. Even Burghers enjoy the current situation and wouldn't want to see anything come about to upset that. Speaking of Burghers, those modifiers sound good, as well as the commoners. I'm concerned that stability is just something that can be "bought up" like in EU4, which is a pretty cheap mechanic, please reconsider.
+Johan said:
+So what impacts the satisfaction equilibrium of an estate? The privileges they get, the current stability, some reforms may impact them, some laws may, how you tax them, and much more.  Some examples include clergy being happier with higher religious unity or burghers liking having more market centers in your country.
+Click to expand...
+So market centers are something you can build? Or do they want you to go out and conquer them?
+Johan said:
+# estate privileges
+Estate Privileges then? You may feel forced to grant privileges to estates to be able to tax them more, and you may be forced to grant privileges to get their support in parliament. All privileges impact the power of their estate, and many also increase their satisfaction equilibrium. They all have some impact on gameplay fitting the privilege, and often they also impact a societal value of their country.
+WiP ui, temporary graphics and no icons etc.
+There are many different privileges, and many unique ones depending on where and what type of country you play.
+Click to expand...
+This sounds fun, could see new ones unlocked with technology, or institutions.
+Johan said:
+We mentioned taxes before, and while this is not the development diary where we go into details about the economic system, it is important to mention that the estates of a country have wealth that is increased by the amount of money that you have not taken from them in taxes. Rich estates will use their wealth on many things, primarily to invest into things that benefit them, but will often also build things that also benefit the country.
+Click to expand...
+I like this too. It may make building a large empire more manageable. Building things in individual provinces was already a pain in EU4, with the explosion of provinces in this game (whatever that game might be) that would be even harder without some form of automation. It makes historical sense as well.
+Johan said:
+Next week we will talk about a few new concepts that are rather new to this game that have not been present in previous games, as we will talk about proximity, control and maritime presence, all concepts that need to be talked about in detail, before we go into the economy system.
+Click to expand...
+It sounds like there will be something similar to the M&T runner system? Or at least what that's attempting to model, that places that are farther away are harder to control. (BTW, loving how much of this game seems to be borrowing from that mod.) Maritime presence is also interesting, I wonder how that's related, if it relates to piracy or what. In the Mediterranean the seas were dominated by Italian merchants like Venice and Genoa, surely that bears a relation. It's no accident that early explorers were also Genoese and Venician.
+Last edited:
+Mar 27, 2024
+Toggle signature
+"I and my companions suffer from a disease of the heart which can only be cured by gold" Hernan Cortes
+25
+6
+6
+1
+1
+Reactions:
+Reply
+Report
+H
+Hoi3 Suchti
+Recruit
+41 Badges
+May 11, 2016
+9
+107
+Mar 27, 2024
+Add bookmark
+#18
+Can Estates force through law changes and reforms if they are dissatisfied and powerful enough? Even if you don't call parliament?
+14
+4
+3
+Reactions:
+Reply
+Report
+W
+William the Merry
+Field Marshal
+Mar 5, 2024
+2.553
+5.333
+Mar 27, 2024
+Add bookmark
+#19
+grommile said:
+Then you should become France.
+Click to expand...
+You would be influenced by France, and the nobility would likely be more francified, but you wouldn't lose all the institutional history of the last 400 years
+12
+1
+1
+Reactions:
+Reply
+Report
+HaxMode
+Captain
+12 Badges
+Dec 27, 2021
+496
+3.062
+Mar 27, 2024
+Add bookmark
+#20
+Toggle signature
+Babbling Buffoon
+138
+35
+9
+5
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+42
+Next
+1 of 42
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

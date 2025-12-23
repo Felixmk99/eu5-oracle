@@ -6,8 +6,8 @@ venv/
 .env
 
 # LlamaIndex & ChromaDB
-chroma_db/
-data/
+# chroma_db/  <-- Un-ignored to share pre-built index
+# data/       <-- Un-ignored to share source truth
 
 # Streamlit
 .streamlit/

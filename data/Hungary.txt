@@ -1,0 +1,283 @@
+Source URL: https://eu5.paradoxwikis.com/Hungary
+Source Date: 2025-12-21
+
+This is a
+compilation
+and strategy article for
+Hungary
+.
+Mechanics and flavor content are
+transcluded
+from other pages.
+Hungary
+Country type
+Settled
+Government type
+Monarchy
+Primary culture
+Hungarian
+Primary religion
+Catholicism
+Capital location
+Buda
+For centuries, the great Kingdom of Hungary has defended this bastion of Catholicism from the pagans and heathens that threaten beyond. Recent rebellions amongst the
+Nobility put this duty in danger, but thanks to the iron hand of King Anjou Károly, the disgruntled Nobility have been reined in, and the Hungarian faith has been renewed and reinforced.
+However, the future of Hungary is not to dwell in peace, as already new trouble is brewing in the southeast that will challenge the strength of the
+Regnum Marianum
+.
+What fate awaits the Kingdom of Hungary? Will it fall to the enemies of the righteous? Or will it stand proud before the onslaught of those who seek its demise?
+Formation
+[
+edit
+|
+edit source
+]
+Hungary is a
+Hungarian
+culture nation that begins as one of the
+Catholic
+kingdoms of Europe in 1337. Rural and undeveloped, it possesses only one city at the start of the game in Buda. It possesses several silver and gold mines in Slovakia and Transylvania which the player is advised to develop first. These should be retained as rural settlements to maintain the +100% RGO size bonus. The player should build roads and raise the control value for these provinces to maximize their income.
+A Hungary player should focus on increasing control and a gradual expansion of urbanization and literacy. The player can develop towns down the Danube River from Buda to maximize the proximity bonus from the capital.
+Hungary consists of the large, fertile Pannonian Basin, represented as farmlands and plains provinces. This makes central Hungary an excellent candidate for long-term population growth and urbanization.
+To Hungary’s west is the Holy Roman Empire, to the north Poland, to the east the steppe, and to the south the Balkans. The Carpathians are a natural boundary offering some security for the south, east, and north. Expansion into the Balkans would be its natural course of development, however due to the geography of regions like Bosnia developing control there may cost more than the benefit it confers, thus creating vassals or custom vassals may be preferable.
+Hungary begins with direct control over part of Croatia, while the rest of it exists in a personal union with Hungary, visible on the international organizations list at the bottom of the screen.
+As a
+Monarchy
+the Hungarians can only marry with states of a similar rank, its marriage prospects are often limited and its early dynasties may face extinction. However, this can bring benefits as within a few rulers the country may gain a Polish Piast or Austrian Habsburg ruler. As Hungary is strong enough to take seniority of its personal unions, this can result in a substantial expansion of its early power.
+Hungary’s one danger at the start of the game is Bohemia, which is the Holy Roman Emperor. Security or good relations with Bohemia frees the Hungarian player to focus on internal development or creating vassal states in the Balkans.
+Hungarian National Special Advances
+[
+edit
+|
+edit source
+]
+Age
+Advance
+Bonus
+Advance Prerequisite
+Special Advance Requirement
+Traditions
+Composite Light Cavalry
+Cavalry Power
++20.00%
+Feudalism Advance
+Is or was Hungary
+Traditions
+Castle Warriors
+Levy Recruitment Speed
++33.00%
+Composite Light Cavalry
+Is or was Hungary
+Renaissance
+A Renaissance Prince
+Peasant Estate Satisfaction Equilibrium
++2.50%
+Artist Salary
+-20.00%
+Patron of the Arts
+Is or was Hungary
+Renaissance
+Realm of Many Cultures
+Add Accepted Culture Cost
+-10.00%
+Cultures Capacity
++2.00
+Nobiliary Literature
+Is or was Hungary
+Discovery
+Reformed Coinage
+Monthly Inflation
+-0.10%
+Improved Trade Ships
+Is or was Hungary
+Discovery
+Found the Black Army
+Unlocks
+Hungarian Black Army
+Halberdiers
+Is or was Hungary
+Reformation
+Bulwark of Christianity
+Manpower
++10.00%
+Maurician Infantry
+Is or was Hungary
+Reformation
+The Catholic Shield
+Monthly Religious Influence
++0.10
+Tolerance of the True Faith
++1.00
+Divine Right to Conquer
+All of the below:
+Is or was Hungary
+Is Catholic
+Reformation
+Hungarian Hussars
+Unlocks
+Hungarian Hussars
+Pistoleers
+Is or was Hungary
+Reformation
+Hungarian Reformation
+National Church Power Cost
+-20.00%
+Tolerance of Own Faith
++1.00
+War Score Reformation
+All of the below:
+Is or was Hungary
+Either:
+Is Calvinist
+Is Lutheran
+Is Anglican
+Is Lollardy
+Is Hussite
+Reformation
+Realm of Many Religions
+Tolerance of Heretics
++1.00
+Tolerance of Heathens
++1.00
+War Score Reformation
+All of the below:
+Is or was Hungary
+Neither:
+Is Catholic
+Is Calvinist
+Is Lutheran
+Absolutism
+Curtail the Freedom of the Peasantry
+Maximum Tax for Peasants Estate
++10.00%
+Maximum RGO Size
++20.00%
+Architectural Engineering
+Is or was Hungary
+Absolutism
+Revolutionised Military Tactics
+Possible Frontage
++10.00%
+Aggressive Demands
+Is or was Hungary
+Revolutions
+Strengthen the Towns
+Possible Burghers in Towns and Cities
++500
+Nobles Power
+-50.00%
+Urbanisation
+Is or was Hungary
+Revolutions
+Hungarian Unity
+Army Morale
++10.00%
+Napoleonic Warfare
+Is or was Hungary
+References
+[
+edit
+|
+edit source
+]
+Countries
+Tabber requires Javascript to function.
+Eastern Europe
+Albania
+Arianiti
+Armenia
+Bosnia
+Bulgaria
+Byzantium
+Croatia
+Epirus
+Georgia
+Halych
+Hungary
+Kyiv
+Lithuania
+Mataranga
+Muscovy
+Muzaka
+Perm
+Poland
+Samtskhe
+Serbia
+Smolensk
+Teutonic Order
+Thopia
+Velikiy Novgorod
+Volhynia
+Vyatka
+Wallachia
+Western Europe
+Aragon
+Austria
+Aquitaine
+Balliol
+Brandenburg
+Brittany
+Bohemia
+Castile
+Denmark
+Dithmarschen
+England
+Florence
+France
+Guelders
+Granada
+Holland
+Iceland
+Moravia
+Milan
+Naples
+Navarre
+Norway
+Papal States
+Portugal
+Scania
+Scotland
+Sicily
+Spain
+Sweden
+Valencia
+Venice
+Wales
+Central Africa
+East Africa
+Ethiopia
+Kitara
+North Africa
+Morocco
+Tlemcen
+Tunis
+South Africa
+Zimbabwe
+West Africa
+Middle East
+Oman
+Ottomans
+Yemen
+Central Asia
+Timurid
+East Asia
+Chūzan
+Hokuzan
+Japan
+Míng
+Nanzan
+Ryūkyū
+Yuan
+South Asia
+Delhi
+Mughal
+South East Asia
+Khmer
+Majapahit
+North America
+Cahokia
+South America
+Australasia
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=Hungary&oldid=21607
+"

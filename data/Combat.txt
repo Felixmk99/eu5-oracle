@@ -1,0 +1,774 @@
+Source URL: https://eu5.paradoxwikis.com/Combat
+Source Date: 2025-11-29
+
+Please help with verifying or updating older sections of this article.
+At least some were last verified for
+version
+pre-release.
+A battle
+Each battle has an attacking side and a defending side. If the
+location
+does not have a fort, the first unit present before a battle will be the defender. If the location has a fort, the fort's controller will always be the defender.
+An army or navy that runs out of morale, loses a battle without all soldiers being killed, or is manually ordered by is country to retreat, will not fight another battle or receive new orders until it has reached its retreat destination.
+Winning a battle gives a prestige bonus to the victor, and in wars between countries it also gives warscore.
+Terrain
+[
+edit
+|
+edit source
+]
+The attacking side may receive penalties to their dice roll, depending on the location's Topography and Vegetation. If an attacking army crosses a river between two locations or lands from a sea zone its dice roll will be reduced by −1 and if it crosses a strait its dice roll will be reduced by −2.
+Deployment
+[
+edit
+|
+edit source
+]
+Sections
+[
+edit
+|
+edit source
+]
+Each unit or side in a combat has four sections. Center, left flank, right flank, and reserves. In the combat, units attempt to engage enemies in the opposite section. If there is none in an opposite section, they can attack any other section, dealing extra damage depending on the unit's flanking ability. If a unit is killed or retreats, units from the reserves can move up to replace them. If an army or navy arrives after a battle has started, it will be placed in the reserve section.
+Combat
+[
+edit
+|
+edit source
+]
+Overrun
+[
+edit
+|
+edit source
+]
+Please help improve this article or section by
+expanding it
+with: the stackwipe rules.
+Phases
+[
+edit
+|
+edit source
+]
+Combat is made up of multiple phases, which last 5 hours each. During each phase, both sides will roll a 6 sided dice, which determines how much damage each side will deal until the next phase. Each hour, units that are placed in the center, left flank or right flank sections have a chance to become engaged against enemy units that are placed in the same section. If the enemy army or navy does not have units in the same section, the nearest adjacent section will be targeted and the attacking unit may deal additional damage depending on its
+Flanking Ability. The chance for a unit to become engaged depends on its
+Initiative and is (Initiative*0.02)+(Hours*0.01). The maximum number of units that can be engaged at once depends on the location's
+Possible Frontage and each unit's
+Frontage.
+In land battles, if either army has an Artillery regiment combat will begin with the Bombard Phase, which lasts 5 hours and each hour Artillery regiments have a chance each hour to deal their Combat Power as damage to an enemy regiment on the same section. Afterwards, the combat phases will proceed as normal.
+For regiments, the amount of damage they deal is calculated as
+Combat Power multiplied by Strength. For ships, the amount of damage they deal depends on
+Cannons and the amount of damage they receive depends on
+Hull Size.
+Regulars deal bonus damage towards levy from Age of Traditions (250%), Age of Renaissance (125%), Age of Discovery (62.5%), Age of Reformation (31.25%).
+Target selection
+[
+edit
+|
+edit source
+]
+Please help improve this article or section by
+expanding it
+with: the rules deciding which unit will target which.
+Damage
+[
+edit
+|
+edit source
+]
+Strength damage
+[
+edit
+|
+edit source
+]
+Please help improve this article or section by
+expanding it
+with: formula.
+Morale damage
+[
+edit
+|
+edit source
+]
+Please help improve this article or section by
+expanding it
+with: formula.
+Unit stats
+[
+edit
+|
+edit source
+]
+Units have the following stats:
+Initiative is the chance that a unit will engage during the combat phase if placed in the center, left flank or right flank.
+Frontage determines how many units can fight at the same time. It is also affected by the topography or vegetation of a location.
+Food storage is the amount of food that a unit can carry. It is reduced by 50% if the unit retreats.
+Movement speed determines how fast a unit moves across the map.
+Combat speed determines how fast the unit moves from reserves to another section during battle. For ships, it also impacts how quickly a damaged ship can leave the current section to retreat.
+Flanking ability is how much damage the unit can inflict on units in a different section.
+Attrition loss is how much damage attrition does each month.
+Regiments have the following additional stats:
+Combat power is the direct damage dealing attribute of a regiment. It is multiplied with the manpower of the regiment to determine how much damage the regiment does.
+Maximum strength increases how many more men the regiment has, thus increasing its manpower cost. A regiment with a higher amount of manpower but with the same frontage is more effective in combat.
+Unit weight is compared against the army location's supply limit to determine whether the regiment will suffer attrition.
+Food consumption is the amount of food that a regiment will consume each month.
+Secure flanks provides a defensive bonus when there are friendly troops in a neighboring section. The bonus is doubled if both flanks are secure.
+Experience reducing the damage taken by 0.5% per point up to 50% at max eperience.
+Ships have the following additional stats:
+Cannons determine how much damage the ship does.
+Hull size reduces the damage the ship takes.
+Crew size determines how many sailors are requires for the ship to be operational.
+Transport capacity is how many regiments can embark on the ship.
+Anti-piracy impact is the effect the ship will have on privateers in their area.
+Blockade capacity determines how effective the ship is at blockading.
+Base Unit Stats
+category
+buildable
+max_strength
+combat_power
+impact
+combat
+bombard_efficiency
+artillery_barrage
+jungle
+wetlands
+mountains
+jungle
+wetlands
+mountains
+a_age_1_traditions_infantry
+army_infantry
+no
+0.1
+1
+a_age_2_renaissance_infantry
+army_infantry
+no
+0.2
+1
+a_age_3_discovery_infantry
+army_infantry
+no
+0.4
+1
+a_age_4_reformation_infantry
+army_infantry
+no
+0.8
+1.5
+a_age_5_absolutism_infantry
+army_infantry
+no
+1.6
+2.25
+a_age_6_revolutions_infantry
+army_infantry
+no
+3.2
+3
+a_age_1_traditions_cavalry
+army_cavalry
+no
+0.05
+4
+0.1
+0.1
+0.1
+-0.1
+-0.1
+-0.1
+a_age_2_renaissance_cavalry
+army_cavalry
+no
+0.1
+4
+0.1
+0.1
+0.1
+-0.1
+-0.1
+-0.1
+a_age_3_discovery_cavalry
+army_cavalry
+no
+0.2
+4
+0.1
+0.1
+0.1
+-0.1
+-0.1
+-0.1
+a_age_4_reformation_cavalry
+army_cavalry
+no
+0.3
+4
+0.1
+0.1
+0.1
+-0.1
+-0.1
+-0.1
+a_age_5_absolutism_cavalry
+army_cavalry
+no
+0.6
+4
+0.1
+0.1
+0.1
+-0.1
+-0.1
+-0.1
+a_age_6_revolutions_cavalry
+army_cavalry
+no
+1.2
+4
+0.1
+0.1
+0.1
+-0.1
+-0.1
+-0.1
+a_age_1_traditions_auxiliary
+army_auxiliary
+no
+0.05
+0.25
+a_age_2_renaissance_auxiliary
+army_auxiliary
+no
+0.1
+0.25
+a_age_3_discovery_auxiliary
+army_auxiliary
+no
+0.2
+0.25
+a_age_4_reformation_auxiliary
+army_auxiliary
+no
+0.3
+0.25
+a_age_5_absolutism_auxiliary
+army_auxiliary
+no
+0.6
+0.25
+a_age_6_revolutions_auxiliary
+army_auxiliary
+no
+1.2
+0.25
+a_age_1_traditions_artillery
+army_artillery
+no
+0.01
+2
+0.1
+1
+a_age_2_renaissance_artillery
+army_artillery
+no
+0.05
+3
+0.125
+3
+a_age_3_discovery_artillery
+army_artillery
+no
+0.1
+4
+0.15
+4
+a_age_4_reformation_auxiliary
+army_artillery
+no
+0.3
+5
+0.2
+5
+a_age_5_absolutism_artillery
+army_artillery
+no
+0.6
+6
+0.25
+7
+a_age_6_revolutions_artillery
+army_artillery
+no
+1.2
+8
+0.25
+9
+# impact = { <topography> / <vegetation> / <climate> }    # Modifies the damage the unit takes when fighting in certain terrain
+# combat = { <topography> / <vegetation> / <climate> }    # Modifies the damage the unit deals when fighting in certain terrain
+Standard Units From Each Age
+category
+copy_from
+strength_damage_done
+morale_damage_done
+morale_damage_taken
+combat_speed
+initiative
+light
+default
+buildable
+levy
+food_consumption_per_strength
+build_time_modifier
+mercenaries_per_location
+upgrades_to
+maintenance_demand
+construction_demand
+country_potential
+pop_type
+multiply
+Tradition
+a_footmen
+army_infantry
+a_age_1_traditions_infantry
+-0.05
+yes
+burghers
+0.1
+a_men_at_arms
+early_heavy_infantry_maintenance
+early_heavy_infantry_construction
+government_type !=   government_type:steppe_horde
+a_archers
+army_infantry
+a_age_1_traditions_infantry
+-0.1
+0.2
+5
+yes
+yes
+burghers
+0.1
+a_crossbowmen
+archer_infantry_maintenance
+archer_infantry_construction
+government_type !=   government_type:steppe_horde
+a_footmen_levy
+army_infantry
+a_footmen
+no
+yes
+a_horsemen
+army_cavalry
+a_age_1_traditions_cavalry
+-0.1
+0.2
+5
+yes
+nobles
+0.3
+a_cavalrymen
+a_armored_horsemen
+army_cavalry
+a_age_1_traditions_cavalry
+nobles
+0.3
+a_heavy_cavalrymen
+heavy_cavalry_maintenance
+heavy_cavalry_construction
+a_camp_followers
+army_auxiliary
+a_age_1_traditions_auxiliary
+peasants
+0.001
+a_supply_carts
+exists = government_type
+government_type != government_type:steppe_horde
+Renaissance
+a_men_at_arms
+army_infantry
+a_age_2_renaissance_infantry
+-0.1
+1
+a_halberdiers
+early_heavy_infantry_maintenance
+a_crossbowmen
+army_infantry
+a_age_2_renaissance_infantry
+-0.1
+0.2
+5
+yes
+burghers
+0.1
+a_early_arquebusiers
+early_heavy_infantry_construction
+a_handgonners
+army_infantry
+a_age_2_renaissance_infantry
+0.1
+-0.5
+5
+0.25
+0.25
+burghers
+0.1
+a_early_arquebusiers
+infantry_maintenance
+a_men_at_arms_levy
+army_infantry
+a_age_2_renaissance_infantry
+no
+yes
+burghers
+0.1
+infantry_construction
+a_cavalrymen
+army_cavalry
+a_age_2_renaissance_cavalry
+-0.1
+0.2
+5
+yes
+nobles
+0.3
+a_light_lancers
+a_heavy_cavalrymen
+army_cavalry
+a_age_2_renaissance_cavalry
+nobles
+0.3
+a_lancers
+heavy_cavalry_maintenance
+a_houfnice
+army_artillery
+a_age_2_renaissance_artillery
+burghers
+0.5
+a_falconet
+heavy_cavalry_construction
+a_supply_carts
+army_auxiliary
+a_age_2_renaissance_auxiliary
+peasants
+0.005
+a_supply_convoy
+Discovery
+a_halberdiers
+army_infantry
+a_age_3_discovery_infantry
+burghers
+0.1
+a_halberdiers
+early_heavy_infantry_maintenance
+a_early_arquebusiers
+army_infantry
+a_age_3_discovery_infantry
+-0.1
+0.2
+5
+yes
+burghers
+0.1
+a_arquebusiers
+early_heavy_infantry_construction
+a_matchlock_levy
+army_infantry
+a_age_3_discovery_infantry
+no
+yes
+burghers
+0.1
+a_light_lancers
+army_cavalry
+a_age_3_discovery_cavalry
+-0.1
+0.2
+5
+yes
+nobles
+0.3
+a_pistoleers
+a_lancers
+army_cavalry
+a_age_3_discovery_cavalry
+nobles
+0.3
+a_heavy_lancers
+heavy_cavalry_maintenance
+a_falconet
+army_artillery
+a_age_3_discovery_artillery
+peasants
+0.005
+a_chambered_cannon
+heavy_cavalry_construction
+a_supply_convoy
+army_auxiliary
+a_age_3_discovery_auxiliary
+peasants
+0.005
+a_baggage_train
+Reformation
+a_pikemen
+army_infantry
+a_age_4_reformation_infantry
+burghers
+0.1
+a_musketeers
+pikemen_maintenance
+a_arquebusiers
+army_infantry
+a_age_4_reformation_infantry
+-0.1
+0.2
+5
+yes
+burghers
+0.1
+a_hunters
+pikemen_construction
+a_flintlock_levy
+army_infantry
+a_age_4_reformation_infantry
+yes
+no
+yes
+a_pistoleers
+army_cavalry
+a_age_4_reformation_cavalry
+-0.1
+0.2
+5
+yes
+nobles
+0.3
+a_hussars
+a_heavy_lancers
+army_cavalry
+a_age_4_reformation_cavalry
+nobles
+0.3
+a_gallop_cavalry
+heavy_cavalry_maintenance
+a_chambered_cannon
+army_artillery
+a_age_4_reformation_artillery
+peasants
+0.005
+a_royal_mortar
+heavy_cavalry_construction
+a_baggage_train
+army_auxiliary
+a_age_4_reformation_auxiliary
+peasants
+0.005
+a_wagon_train
+Absolutism
+a_musketeers
+army_infantry
+a_age_5_absolutism_infantry
+burghers
+0.1
+a_fusiliers
+heavy_infantry_maintenance
+a_hunters
+army_infantry
+a_age_5_absolutism_infantry
+-0.1
+0.2
+5
+yes
+burghers
+0.1
+a_sharpshooters
+heavy_infantry_construction
+a_militiamen
+army_infantry
+a_age_5_absolutism_infantry
+yes
+no
+yes
+a_hussars
+army_cavalry
+a_age_5_absolutism_cavalry
+-0.1
+0.2
+5
+yes
+nobles
+0.3
+a_light_dragoons
+a_gallop_cavalry
+army_cavalry
+a_age_5_absolutism_cavalry
+nobles
+0.3
+a_cuirassiers
+heavy_cavalry_maintenance
+a_royal_mortar
+army_artillery
+a_age_5_absolutism_artillery
+peasants
+0.005
+a_flying_battery
+a_wagon_train
+army_auxiliary
+a_age_5_absolutism_auxiliary
+peasants
+0.005
+a_logistics_corps
+Revolutions
+a_fusiliers
+army_infantry
+a_age_6_revolutions_infantry
+burghers
+0.1
+heavy_infantry_maintenance
+a_sharpshooters
+army_infantry
+a_age_6_revolutions_infantry
+-0.1
+0.2
+5
+yes
+burghers
+0.1
+heavy_infantry_construction
+a_conscripts
+army_infantry
+a_age_6_revolutions_infantry
+yes
+no
+yes
+a_light_dragoons
+army_cavalry
+a_age_6_revolutions_cavalry
+-0.1
+0.2
+5
+yes
+nobles
+0.3
+a_cuirassiers
+army_cavalry
+a_age_6_revolutions_cavalry
+nobles
+0.3
+heavy_cavalry_maintenance
+a_flying_battery
+army_artillery
+a_age_6_revolutions_artillery
+peasants
+0.005
+a_logistics_corps
+army_auxiliary
+a_age_5_absolutism_auxiliary
+peasants
+0.005
+Sieges
+[
+edit
+|
+edit source
+]
+A siege
+When an army stops in an enemy location and said location is not protected by its own army, it will begin a siege. Each location has a Garrison number. When the garrison is killed or its morale is gone, the siege will be won by the attackers. If multiple allied armies are present in a siege, the country with the highest number of soldiers will always have the option to take control of the siege if not already.
+For a siege to progress, there needs to be at least as many men besieging it as the number of men in the garrison. For a location without fortifications, there needs to be at least 100 men, who will occupy the location in 15 days, but this can be changed by various factors.
+The attacker of a siege can always order an assault, which will add siege progress at a fast rate but also cause the army to lose soldiers. An assault cannot be cancelled once ordered. During a siege, up to 3 Breaches may occur, which will reduce the number of soldiers killed in the assault. Hovering over the button to order an assault will show an estimation of whether the assault will be successful or not.
+Each siege will last multiple phases. A phase lasts 30 days, but the number can be increased or decreased by various factors. Each phase will roll a die with the value between 1 and 14. The result of each dice roll is decreased by 1 for each Fort Level of the besieged location, increased by 2 for every Breach, and can be increased if the attacker's army has artillery regiments. The maximum dice roll bonus from artillery is initially 5 but can be increased by various factors. If the location is coastal and not blockaded, it also reduces the dice roll by 1. Depending on the dice roll, the following will happen:
+Dice result
+Effect
+Besieger dice bonus
+1
+Disease Outbreak
+2-4
+Status Quo
+5-11
+Supplies Shortage
+1
+12-13
+Food Shortage
+2
+14-15
+Water Shortage
+3
+16-19
+Defenders Desert
+2
+20
+Surrender
+Victory
+Constructions are paused in locations which are under siege.
+Artillery bonus appears to work as follows: each artillery regiment's artillery barrage stat is taken as its base stat multiplied by strength ratio, so a houfnice with a base barrage stat of 3.00 and 40/50 of its manpower will have a barrage stat of 2.40. Each of these barrage stats has the fort level subtracted from it, then all the barrage stats are added together, and the result divided by 3 is the dice roll bonus from artillery. So the hypothetical 40/50 manpower houfnice siegeing a level 2 fort would only contribute 0.133 to the dice roll bonus while a full-strength houfnice would contribute 0.333, and a houfnice at 33 or less manpower would contribute nothing at all.
+References
+[
+edit
+|
+edit source
+]
+Mechanics
+Realm
+Country
+•
+Government
+•
+Parliament
+•
+Estate
+•
+Reforms
+•
+Laws
+•
+Characters
+•
+Missions
+Economy & Research
+Economy
+•
+Goods
+•
+R.G.O.
+•
+Market
+•
+Building
+•
+Population
+•
+Age
+Diplomacy & Warfare
+Diplomacy
+•
+Subjects
+•
+International organization
+•
+Warfare
+•
+Combat
+•
+Military
+The world
+Location
+•
+Culture
+•
+Religion
+•
+Language
+•
+Exploration
+•
+Situations
+•
+Disasters
+•
+Diseases
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=Combat&oldid=19423
+"

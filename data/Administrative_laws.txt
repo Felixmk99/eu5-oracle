@@ -1,0 +1,2582 @@
+Source URL: https://eu5.paradoxwikis.com/Administrative_laws
+Source Date: 2025-12-19
+
+Please help with verifying or updating older sections of this article.
+At least some were last verified for
+version
+pre-release.
+Europa Universalis 5
+Laws
+Succession
+Religious
+Military
+Administrative
+Socioeconomic
+Estate
+International organization
+This page is
+automatically generated
+from the game files. It should not be edited directly.
+Instead, please suggest changes or improvements on the
+talk page
+.
+Unless otherwise stated, implementing a policy takes 2 years.
+List
+[
+edit
+|
+edit source
+]
+Feudal 'De Jure' Laws
+[
+edit
+|
+edit source
+]
+These are the laws that organize the feudal society of our country.
+Potential
+government_type: government_type:monarchy
+Only for
+Monarchy
+Policy
+Country Modifier
+Estate Preferences
+By Tradition
+Customary laws are commonly known and practiced in our country. Famous compilations of medieval customs include
+De Legibus et Consuetudinibus Angliae
+for England,
+Sachsenspiegel
+for northern Germany, or the
+Usatges of Barcelona
+for Catalonia.
++2.50%
+Peasant Estate Satisfaction Equilibrium
++0.10
+Monthly Progress to Inward
+Nobility
+Clergy
+Commoners
+By Blood
+The laws of our country reflect the nature of our people and the sovereign authority of our ruler, as expressed in the famous formula
+rex in regno suo est imperator regni sui
+- 'The king is emperor in his own kingdom.'
++10.00%
+Speed of Integration
++0.10
+Monthly Progress to Outward
+Burghers
+Royal Court Customs
+[
+edit
+|
+edit source
+]
+The traditions and the culture of the court play a significant role in the stability of the Monarchy. These customs will ensure the safe transition of power from ruler to heir, and limit the court intrigues significantly.
+Potential
+government_type: government_type:monarchy
+Only for
+Monarchy
+Policy
+Allow
+Country Modifier
+Estate Preferences
+Potential
+Aristocratic Court
+The Nobility are an integral part of our government. In order to better control, reward, and gain support from these ancient aristocratic families, the Nobility are tied closely to the monarch and the royal court.
++0.10
+Monthly Progress to Aristocracy
++5.00%
+Noble Estate Satisfaction Equilibrium
++1.00%
+Expected Cost of Court
+Nobility
+Balanced Court
+The royal court serves as the center of the state and culture. Administrative, diplomatic, and military actions are just as much of a focus of the court as the cultural and internal politics of the state are.
++10.00%
+Legislative Efficiency
+Clergy
+Court of Culture
+The court is first and foremost the household of the royal family, and serves as a center of culture and prestige. Governmental and administrative affairs are separated from court life.
++10.00%
+Cultural Influence %
++10.00%
+Skill of New Artists
++0.10
+Monthly Progress to Innovative
++1.00%
+Expected Cost of Court
+Burghers
+Itinerant Court
+To better manage the sheer size of our nation, the royal court is not bound to a single location. Instead, it migrates throughout the land and manages local administration on site.
+−33.00%
+Move Capital Cost
+−2.50%
+Proximity Cost through Land
++0.10
+Monthly Progress to Decentralization
+Rural Parliaments:
+yes
+Commoners
+Royal Harem
+Much of our court life is secluded and gender-segregated, centered around a harem where enslaved servants and concubines vie for influence over the ruler.
++0.10
+Monthly Prestige
+Allow Females in Cabinet:
+no
+Forbid Marriage with Lowborn:
+no
+Nobility
+All of:
+has_slavery: True
+religion.group:
+Islam
+Military Court
+Spending money on anything for the court beyond absolute necessities is a ridiculous notion that will only encourage complacency and laziness. The monarch will live a frugal live, and dedicate more of the budget towards the army.
+At least one of:
+current_age: age_5_absolutism
+current_age: age_6_revolutions
+−2.00%
+Expected Cost of Court
++0.10
+Monthly Progress to Land
+−0.20%
+Army Tradition Decay
+Nobility
+has_or_had_tag: PRU
+has_unlocked_policy_trigger:
+type: military_court_policy
+Timurid Court
+While warfare is the lifeblood of the state, music, art, and poetry are equally essential to the greatness of our country. Cultural traditions from the lands we have subdued will no longer be considered alien, but be used to develop our cultural enlightenment.
++3.00
+Cultures Capacity
++10.00%
+Cultural Influence %
+Burghers
+Commoners
+has_unlocked_policy_trigger:
+type: timurid_court_policy
+Valide Sultan
+'Paradise lies at the feet of your mother', and as such, the queen mother should hold the highest position at court, have the right to oversee council meetings, and through her wisdom and benevolence, play an important role in most affairs of the state.
++5.00%
+Efficiency of Our Cabinet
++0.05
+Monthly Legitimacy
+Forbid Marriage with Lowborn:
+no
+Nobility
+has_unlocked_policy_trigger:
+type: valide_sultan_court_policy
+Foreign Customs
+Instead of depending on our own culture, we can take inspiration from other courts in order to further strenghthen our owm.
++0.10
+Monthly Progress to Innovative
++15.00%
+Skill of New Artists
++2.00%
+Expected Cost of Court
++0.10
+Monthly Progress to Outward
+Burghers
+has_unlocked_policy_trigger:
+type: foreign_court_customs_policy
+Legitimization of Power
+[
+edit
+|
+edit source
+]
+A monarchy can only survive as long as its subjects believe in the legitimacy of their ruler. There are many ways in which rulers justify their power. As time goes on, new political philosophies will arise which explain the need for a strong government in their own ways.
+Policy
+Allow
+Country Modifier
+Estate Preferences
+Machiavellian Reign
+The state is above morals; above virtues and sins. The government must make decisions purely based on the beneficial gains for the state - even if they are deemed as evil. As such, the sovereign has the right to act for the benefit of the state without moral consideration.
+−10.00%
+Declaring War Cost
+−1.00
+Diplomatic Reputation
++0.05
+Monthly Progress to Belligerent
+Crown
+Les Six Livres de la République
+Absolute rule of a single monarch is as detrimental to the state as letting the masses rule themselves. The power of the monarch should not be subject to any faction within the state, though to some extent it should be limited by institutions to maintain a balance of power between ruler and the people.
++0.05
+Monthly Legitimacy
++0.02
+Stability Investment
+Clergy
+Nobility
+Two Treatises of Government
+The nature of humanity is characterized by reason and tolerance. No man is born evil. However, human nature leads our people to be selfish and act only for their own good.
+The government ensures that this selfishness is resolved in civil ways. It also serves to defend the natural rights of life, health, liberty, and possession.
+At least one of:
+current_age: age_5_absolutism
+current_age: age_6_revolutions
++2.50%
+Estates Satisfaction Equilibrium
++0.10
+Monthly Progress to Liberalism
+Burghers
+Leviathan
+Life without civilization, also called the state of nature, is anarchy. Every man is for himself, and a war of all against all is the only outcome possible without an absolute centralized authority to keep it all in check.
+Our people cede many rights to our sovereign authority for the sake of protection from utter decimation.
+At least one of:
+current_age: age_5_absolutism
+current_age: age_6_revolutions
++10.00%
+Crown Power
+−5.00%
+Separatism
++0.10
+Monthly Progress to Absolutism
+Crown
+The Social Contract
+The social contract is a concept wherein legitimate government arises from a mutual agreement among individuals to come together and form civil society.
+While certain limitations are put on the natural freedoms of people within that society, they are ceded in exchange for the security and benefits provided by the state.
+current_age: age_6_revolutions
++0.10
+Monthly Progress to Communalism
++1.00
+Tolerance of Heretical Beliefs
++1.00
+Tolerance of Heathen Beliefs
+Commoners
+Liberty of the Ancients vs. the Moderns
+The concepts of individualism and freedom have evolved significantly over the centuries, and older ideals differ greatly from modern interpretations. Our state can best secure the individual liberties and freedom of our people by synthesizing contemporary wisdom with that of the past.
+current_age: age_6_revolutions
++0.10
+Monthly Progress to Individualism
+−0.03%
+Monthly Rebel Growth
++2.50%
+Estates Satisfaction Equilibrium
+Burghers
+Harem Laws
+[
+edit
+|
+edit source
+]
+The harem is a significant institution within the royal household, and secures the production of heirs for the succession.
+Potential
+At least one of:
+has_policy: harem_policy
+has_policy: valide_sultan_court_policy
+Policy
+Country Modifier
+Estate Preferences
+Dispersed Harem
+The harem is scattered over several locations, and the concubines as itinerant as the royal court. When a concubine has given birth to a son, she is sent with him to a provincial location to oversee his education and train him for future governorship.
+−2.00%
+Expected Cost of Court
++0.05
+Monthly Progress to Decentralization
++5.00%
+Education of Heirs
+Commoners
+Secluded Harem
+Our harem is not for the eyes of the masses outside the royal court. As such, it holds a more secluded role within the household, and is strictly forbidden to directly interfere in the affairs of the monarch.
+−1.00%
+Expected Cost of Court
++20.00%
+Counterespionage
++0.05
+Monthly Progress to Traditionalist
+Clergy
+Public Harem
+Our harem does not only provide legitimate heirs, but is also a symbol of the royal family's wealth, power, and prestige. The beauty and talents of the harem's members are therefore proudly displayed to the public eye.
+−20.00%
+Counterespionage
++0.05
+Monthly Progress to Aristocracy
++0.10
+Monthly Legitimacy
+Nobility
+Powerful Harem
+The monarch is a mere puppet, dancing at the fingertips of cunning concubines and eunuchs. The true power of the state lies in the hands of the harem, and state affairs are handled by the women of the royal court.
+−5.00%
+Noble Estate Satisfaction Equilibrium
++0.05
+Monthly Progress to Conciliatory
++10.00%
+Crown Power
+Allow Females in Cabinet:
+yes
+Burghers
+Extravagant Harem
+The harem is a glittering, ostentatious display of wealth, and focused primarily on the ruler's personal pleasure. The concubines must be the most exquisite lineages, and they spend their days lounging in the pinnacle of luxury.
++2.00%
+Expected Cost of Court
++10.00%
+Skill of New Artists
++0.10
+Monthly Prestige
++0.05
+Monthly Progress to Inward
+Nobility
+Foundation of Republic
+[
+edit
+|
+edit source
+]
+Our Republic is founded on the principle that power should be in the hands of the people, not a single absolutist ruler. Yet as with any government, its laws and decisions must be respected and obeyed to maintain order, necessitating the creation of complex administrations in order to govern.
+Potential
+government_type: government_type:republic
+Only for
+Republic
+Policy
+Country Modifier
+Estate Preferences
+Republicanism
+This nation will is a guardian of Republican ideals, such as rule through elected representatives, civic virtue, and constitutional limits on power. Citizens actively participate in their governance through voting and holding office.
++0.10
+Monthly Republican Tradition
+Burghers
+Authoritarianism
+While it is not a monarchy, this form of republic concentrates power in the hands of a small ruling group that is not accountable to citizens. Dissent is not tolerated. Despite being a republic, administrations in these countries are more concerned with maintaining their own power than they are with the rights of their citizens.
++0.20%
+Monthly Control
+Nobility
+Political Dynasties
+Over time, several families have emerged as prominent leaders, frequently seeking and assuming roles in the government. At this point, it is expected of them to shoulder the burden of leadership, just as it is expected for the state to offer these responsibilities to their scions.
++1.00
+Diplomatic Capacity
++5.00%
+Noble Estate Satisfaction Equilibrium
++10.00%
+Nobles Power
+Nobility
+Meritocratic Rule
+Our republic does not elect its rulers based on connections or influence from the oligarchs. Instead, the masses of our country vote according to what skills the candidate offers. This system of meritocracy does not differentiate between genders, and is present in all aspects of our society.
++5.00%
+Trade Capacity
++5.00%
+Burgher Estate Satisfaction Equilibrium
++10.00%
+Burghers Power
+Burghers
+Virtues of Politeia
+Politeia balances the interests of both wealthy and common citizens through participation in government. This system creates stability through compromise, protecting the interests of both sides and ensuring that neither faction can dominate.
++2.50%
+Estates Satisfaction Equilibrium
++5.00%
+Peasant Estate Satisfaction Equilibrium
++10.00%
+Peasants Power
++0.05
+Monthly Progress to Free Subjects
+Commoners
+Religious Values
+Religious values inform political life in our republic, shaping both civic and governmental culture. Religious institutions play important advisory roles in public affairs, citizens are encouraged to consider religious ethics when voting, and leaders are expected to govern in accordance with moral teachings.
++1.00
+Tolerance of the True Faith
++5.00%
+Clergy Estate Satisfaction Equilibrium
++10.00%
+Clergy Power
+Clergy
+Election
+[
+edit
+|
+edit source
+]
+Elections are the cornerstone of our republic, ensuring that there are reasonable limits on those in power while giving the people the ability to select rulers that best serve their interests.
+Potential
+government_type: government_type:republic
+Allow
+has_regular_elections: True
+Only for
+Republic
+Policy
+Country Modifier
+Estate Preferences
+Consolidated Power
+The terms our officials currently serve are too short for them to fully realize larger and more complicated projects. This has the effects of feeding populist sentiment, and often leads to short-sighted, less effective policy development. Let us reform our election system to allow for longer terms so that our elected officials have the time they need to properly conduct their office.
++12
+Months between Elections
+Nobility
+Burghers
+Frequent Elections
+Serving long terms makes rulers reckless, and is contrary to the very idea of a republic. Let us reform our election system to set shorter term limits, thereby ensuring better accountability from our elected officials.
+−12
+Months between Elections
+Clergy
+Republican Power
+[
+edit
+|
+edit source
+]
+As any government, the Republic must not only make decisions, but also act upon them. To do so, it needs a way of exercising its executive capabilities so that they reach even the furthest areas of the country.
+Potential
+government_type: government_type:republic
+Only for
+Republic
+Policy
+Country Modifier
+Estate Preferences
+Broad Executive Power
+As our country grows, so does our need to be able to take swift actions. The only way to ensure this is by broadening the powers of the executive branch so that it can do whatever it needs without hindrance.
++20.00%
+Efficiency of Our Cabinet
+Burghers
+Devolution Of Powers
+No single person can rule a country as complex as ours. Concentrating such power in the hands of one ruler also runs contrary to the Republican ideals of our ancestors. Transferring some of our authority and responsibilities to local governments, which maintaining an ultimate centralized authority, is how we can best meet the needs of our ever-growing state.
++1
+Cabinet Seats
++0.10
+Monthly Progress to Decentralization
+Clergy
+Absolute Power of the President
+While some of our elected officials represent the people of their constituencies, we must never forget that it is the President who ultimately represents all our people. The role of our elected representatives should be merely to advise the President, who wields absolute power over the Republic.
+−0.05
+Monthly Republican Tradition
++20.00%
+Crown Power
++0.10
+Monthly Progress to Absolutism
+Crown
+New Men
+Those who hold on to power for too long cannot be trusted. Our Republic will now focus on electing new officials, ones whose hands are clean of corruption and shady business.
+−25.00%
+Change Heir Selection Cost
+−10.00%
+Set Cabinet Member Cost
+−10.00%
+Replace Cabinet Member Cost
+Commoners
+Administrative Principles
+[
+edit
+|
+edit source
+]
+If we wish to be an example for all our citizens, the Republic must uphold principles which dictate the course of action we take with our policies.
+Potential
+government_type: government_type:republic
+Only for
+Republic
+Policy
+Allow
+Country Modifier
+Estate Preferences
+Potential
+Political Principle
+As a Republic, the guiding principles of our state must be those that further the efficiency of our political apparatus and ideals.
++0.10
+Monthly Progress to Plutocracy
+−5.00%
+Proximity Cost
+Nobility
+Moral Principle
+One of the primary functions of the state is to uphold proper  moral values. As our Republic in many ways relies on the virtuous behavior of its citizens, corruption and sin must be exposed and rooted out for the good of the entire country.
++5.00%
+Clergy Estate Satisfaction Equilibrium
++0.10
+Monthly Progress to Conciliatory
+Clergy
+Protection Principle
+The highest principle of our republic is the protection of its people. Although not a popular topic in our government, it is important to maintain a military force for self-defense and maintenance of internal stability.
++10.00%
+Fort Defense
++0.10
+Monthly Progress to Inward
+Commoners
+Military Principle
+Our Republic is surrounded by enemies who seek to destroy us utterly. It is our uttermost priority - our principle - to use our military might to expand our borders.
+−10.00%
+Separatism
++0.10
+Monthly Progress to Belligerent
+Burghers
+Enlightened Principle
+The Enlightenment is the next intellectual and philosophical step for our society. Embracing the ideas of the Enlightenment is crucial if we wish to progress into a new era.
+has_embraced_institution: institution:enlightenment
++0.01
+Monthly Literacy
++0.10
+Monthly Progress to Humanist
+Burghers
+Commercialist Principle
+Our Republic is based on the principle of commercialism. Human nature is the driving factor behind the necessity of trade, capital, and business as our Burghers pursue profit.
+−10.00%
+Trade Range Used Over Sea
+Burghers
+country_type: building
+Republican Electorate Law
+[
+edit
+|
+edit source
+]
+Elections are the foundational concept of our republic, and as such, the most important factor in determining the course of the Republic is deciding who is eligible vote in those elections.
+Potential
+government_type: government_type:republic
+Only for
+Republic
+Policy
+Allow
+Country Modifier
+Estate Preferences
+Landholders
+The landholders are the heart of power in any society, and ours is no exception. Let us extend the power to vote to all who hold land, and weight their electoral power in accordance with the size of their properties.
++10.00%
+Nobles Levy Size
++5.00%
+Levy Combat Efficiency
++2.50%
+Noble Estate Satisfaction Equilibrium
++25.00%
+Nobles Power
++0.10
+Monthly Progress to Serfdom
+Nobility
+Citizenry
+A republic relies on its citizens to function, and so it is only right that each of our citizens holds the power to vote for who will lead the country. Attaining the privilege of citizenship will also be an incentive for our citizens to be on their best behavior.
++10.00%
+Burghers Levy Size
++5.00%
+Levy Combat Efficiency
++2.50%
+Burgher Estate Satisfaction Equilibrium
++25.00%
+Burghers Power
+Burghers
+Dynastic Rule
+Connections are more powerful than any sword could ever be. Through the installment of a dynasty as the political head of the state, we can build diplomatic relations with monarchies while still maintaining the principles of the republic.
+That the elected ruler seems to be a member of the same family is just a pure coincidence.
++0.10
+Monthly Progress to Aristocracy
++1.00
+Diplomatic Reputation
+Clergy
+Board of Admiralty
+The Board of Admiralty is the highest maritime office of the state. Led by the Lord High Admiral, the board ensures the military and commercial professionalism of our navy.
+num_of_ports:
+GREATER_THAN: 0
+−0.10%
+Navy Tradition Decay
++0.10
+Monthly Progress to Naval
+Burghers
+Military Rulership
+The republic is a thorn in the side of many potential enemies who seek to destroy us. For the sake of the country's safety, we granted the generals the reins of our government. May their experience and love for their home country protect the republic.
+−0.10%
+Army Tradition Decay
++20.00%
+Levy Combat Efficiency
++0.10
+Monthly Progress to Land
+Nobility
+Theocratic Leadership
+[
+edit
+|
+edit source
+]
+A Theocratic Leadership governs this country, where religious authorities hold political power and religious law often supersedes secular law.
+Potential
+government_type: government_type:theocracy
+Only for
+Theocracy
+Locked
+At least one of:
+tag: PAP
+and:
+has_reform: government_reform:military_order_reform
+has_policy: monastic_order
+Policy
+Allow
+Country Modifier
+Estate Preferences
+Potential
+Clerical State
+This state is ruled by the Clergy and uses the hierarchy of religious institutions for all government purposes.
++5.00%
+Tax Efficiency
+Clergy
+Monastic Order
+This country is ruled by the members of a Monastic Order. The order's hierarchy and rules replace the need for most laws and administration.
++0.10
+Monthly Progress to Quality
+−20.00%
+Fortification Maintenance
+Nobility
+The Papacy
+A political structure where the nation is governed by a spiritual leader, the Pope, the highest-ranking office of the Catholicism Church.
++0.10
+Monthly Religious Influence
++1.00
+Tolerance of the True Faith
+Clergy
+tag: PAP
+Patriarchate
+The authority of the Patriarch is the only one that can lead our country, as he is God's maximum representative.
+religion:
+Orthodoxy
++5.00%
+Clergy Estate Satisfaction Equilibrium
++1.00
+Tolerance of the True Faith
+Clergy
+religion:
+Orthodoxy
+Caliphate
+The Caliphate is ruled by the Caliph, the legitimate spiritual successor of the Prophet. Being both the temporal and spiritual higher authority in Islam, all Muslims owe obedience to the Caliph.
+religion.group:
+Islam
++0.10
+Monthly Devotion
++1.00
+Tolerance of the True Faith
+Clergy
+religion.group:
+Islam
+Legal Basis
+[
+edit
+|
+edit source
+]
+This legal foundation will serve as the basis for the state's first formal code of law. Its goal is simple, yet noble: to secure a just society where all may live in peace and prosperity.
+Potential
+has_tribal_government: True
+Allow
+has_tribal_government: True
+Policy
+Allow
+Country Modifier
+Estate Preferences
+Potential
+Codified Power
+There is nothing above the law. It makes the world a more just place, and balances the lives of everyone in our tribe.
++2.50%
+Estates Satisfaction Equilibrium
+Strong Community Customs
+It is one thing to collaborate in the government of our people — an important, but aseptic task.  It is another thing to share the same food, the same water, the same rituals under the same sun. The customs and ways of our people are something for all of us to share, celebrate, and maintain.
++10.00%
+Improve Relations
++0.10
+Monthly Progress to Communalism
+Commoners
+Yassa Decree
+The Yassa Decree is the oral law code of the [GetCountry('MGE').GetLongName]. Publicly declared by Činggis Khān himself, the decree serves as a binding rule within the horde which keeps the government stable and the subjects loyal to their khan.
++0.10
+Monthly Progress to Decentralization
+−2.50%
+Proximity Cost
+Nobility
+government_type: government_type:steppe_horde
+Brehon Law
+Brehon Law is a system of ancient Irish law that developed from pre-Christian customs and traditions. Its unique focus on restitution and compensation, rather than punishment, emphasizes the importance of social harmony and community relationships. However, its lack of formal legal institutions and enforcement mechanisms can lead to inconsistency and uncertainty in its application.
+has_embraced_institution: institution:legalism
++0.10
+Monthly Progress to Free Subjects
++10.00%
+Tax Efficiency
++2.50%
+Proximity Cost
+Commoners
+Burghers
+At least one of:
+culture.language: language:gaelic_language
+capital.region: region:ireland_region
+Tribal Organization
+[
+edit
+|
+edit source
+]
+Any group of people requires some form of organization in order to survive and thrive. Tribal organization emphasizes collective identity and customary law, and can be small- or large-scale.
+Potential
+has_tribal_government: True
+Allow
+has_tribal_government: True
+Policy
+Country Modifier
+Estate Preferences
+Potential
+Centralized Tribe
+Separation of our people inevitably leads to chaos. Placing all tribal authority under a single chief prevents conflicting directives, ensures clear chains of command, and allows swift, coordinated responses to threats.
++0.10%
+Monthly Control
+Crown
+Federal Tribe
+Together we are stronger. By becoming a Federation, the support that we get from our allies is one not based on diplomacy, but on kinship.
+−10.00%
+Proximity Cost
+Commoners
+Clan Council
+Trust between the people and their leaders is paramount. By electing a council of members with unquestionable dedication to our interests, we will ensure power is never held by a single person, and that our people's needs are fully met.
++5.00%
+Efficiency of Our Cabinet
+Clergy
+Steppe Warbands
+The tribe is ruled by a council of war chiefs who constantly seek out and recruit skilled fighters for their warbands.
++0.10
+Monthly Progress to Serfdom
++10.00%
+Manpower
+Nobility
+government_type: government_type:steppe_horde
+Jurchen Council
+A council of noble horse-lords and local clans, this loose administration aims at maintaining our estates and domain, and defending us from rival clans.
++0.05
+Monthly Progress to Centralization
+−10.00%
+War with No Casus Belli Cost
+−0.03
+Monthly Tribal Cohesion
+−25.00%
+Cavalry Maintenance Cost
+Nobility
+Crown
+has_tribal_government: True
+culture:
+has_culture_group: Jurchen
+Administrative System
+[
+edit
+|
+edit source
+]
+Any kind of state requires a system to administrate and organize its territory. By selecting an appropriate structure, we can ensure that our authority is enforced in even the most remote parts of our state.
+Potential
+has_tribal_government: False
+Unique
+Policy
+Country Modifier
+Estate Preferences
+Potential
+Autonomous Councils
+Our state consists of many different smaller states, each with their own customs and laws. All provinces, governed by their own councils, contribute to the central authority and align their policies along common lines.
++10.00%
+Legislative Efficiency
++0.10
+Monthly Progress to Decentralization
+Commoners
+Central Council
+The state is administrated as a single council wherein the members decide the policy of the state. Remote areas of our country will struggle to make their voice heard.
++5.00%
+Efficiency of Our Cabinet
++0.10
+Monthly Progress to Centralization
++0.10
+Monthly Progress to Aristocracy
+Nobility
+Clergy
+Local Courts
+The state rescinds many of their central powers in favor of local courts, which adapt their own administrations to best suit the needs and ways of the local population.
++0.10
+Monthly Progress to Decentralization
+−5.00%
+Pop Join Rebels Threshold
+−5.00%
+Max Control
+Burghers
+Feudal Administration
+We do not rule directly, but through subjects who swear loyalty to us. Influential members of the Nobility whose fealty can be assured are commanded to advise rulers of our subject nations of our pronouncements, which helps breed and maintain loyalty to the Crown.
++0.05
+Monthly Progress to Decentralization
++5.00%
+Food Production %
+Nobility
+Confederal Union
+A union of other, autonomous states which are the supreme authorities of their territories. The central government is limited to handling foreign politics, while internal affairs are resolved by the states.
++0.10
+Monthly Progress to Decentralization
++10.00
+Loyalty of Subjects
+Burghers
+current_age_or_later:
+age: age_3_discovery
+Federal State
+The state is an amalgamation of many different smaller states with their own customs and laws. All states, however, are under the rule of the federal government and as such are subject to federal laws.
++2.50%
+Estates Satisfaction Equilibrium
++0.05
+Monthly Progress to Decentralization
+Commoners
+current_age_or_later:
+age: age_4_reformation
+Absolute Rulership
+There are many people who demand to be given a role in the government, but in reality mostly want rewards without effort. A new interesting idea of absolutism is spreading, which is a system where we dispose of those parasites and govern alone.
++10.00%
+Crown Power
++0.10
+Monthly Progress to Absolutism
+Crown
+current_age_or_later:
+age: age_5_absolutism
+Unitary Administration
+The state is administrated as a single entity where the central government is the supreme authority of the nation. The provinces have little to say over the internal politics of the country.
+−2.50%
+Proximity Cost
++0.10
+Monthly Progress to Centralization
+Crown
+current_age_or_later:
+age: age_5_absolutism
+Pyatina Division
+The
+Pyatina
+is the highest administrative division in Novgorod's government. The republic is divided into five Pyatinas, four of which border the city of Novgorod directly, while the fifth encompasses more distant territories.
++0.10%
+Monthly Prosperity
++0.0010
+Monthly Development
+Burghers
+has_or_had_tag: NOV
+Eyalet Division
+The
+Eyalet
+administration is the primary division of the [GetCountry('TUR').GetLongName]. Every
+eyalet
+is ruled by a pasha, who in turn answers to the central government's Grand Vizier. The central laws of the state do not have to apply to every eyalet, and each pasha is free to incorporate local customs and mores to better rule their people.
+−5.00%
+Proximity Cost through Land
++2.50%
+Estates Satisfaction Equilibrium
++0.10
+Monthly Progress to Decentralization
+Nobility
+has_unlocked_policy_trigger:
+type: eyalet_division
+Merindad Division
+A
+Merindad
+is a geographical-administrative division in the kingdoms of Aragon, Castile, and Navarre. Merindads serve as intermediate administrative bodies between the central authority, the towns, and noble holdings. The head of a Merindad is the Merino, entrusted with administrative and judicial powers over their assigned territory as a representative of the ruler.
+−10.00%
+Proximity Cost
++0.0010
+Monthly Development
+Nobility
+At least one of:
+culture:
+Aragonese
+culture:
+Basque
+culture:
+Castilian
+has_or_had_tag: ARA
+Calpixque System
+This Nahua governance system has evolved beyond its initial structure of hereditary
+tlatoani
+leaders. Provinces are now administered by appointed officials: local stewards called
+calpixque
+, and high stewards called
+huecalpixque
+. These officials manage the provincial tribute system under the supervision of the
+petlacalcatl
+in the capital. In particularly unruly provinces, military governors known as
+cuauhtlatoani
+may be appointed to maintain control.
+−10.00%
+Proximity Cost
++5.00%
+Subject Income
+Nobility
+culture:
+Nahua
+Tongues Division
+The Tongue, or
+Langue
+System, categorizes members and assets based on ethnolinguistic divisions. Each Tongue is further subdivided into Priories, Grand Priories, Bailiwicks, and Commanderies. Each Langue has a designated headquarters, known as an
+auberge
+, located in the capital of the Order.
++10.00%
+Tax Efficiency
++25.00%
+Diplomatic Range
+Clergy
+has_or_had_tag: KNI
+Rajya
+The
+Rajyas
+are the main provinces of the [GetCountry('VIJ').GetLongName]. These territories are each jointly governed by a military commander and a member of the ruling dynasty. Administration is carried out in the region's native language, which allows these laws to be implemented more effectively.
++10.00%
+Tax Efficiency
++25.00%
+Diplomatic Range
+Nobility
+Commoners
+has_or_had_tag: VIJ
+Palaiyakkarars
+Our lands are home to numerous unincorporated tribes and clans who could provide valuable service to the state, if properly integrated into our administrative system. As a class, these
+Palaiyakkarar officials
+would serve as law enforcement, fortification builders, provincial representatives, and military officers. Most importantly, they could mobilize their kinsmen to provide us with a steady supply of capable manpower.
++10.00%
+Manpower
++10.00%
+Levy Size
+Nobility
+At least one of:
+culture.language: language:telugu_language
+culture.language: language:tamil_language
+culture.language: language:kannada_language
+culture.language: language:malayalam_language
+Zabt System
+It is in the best interest of our state to encourage economic productivity, while simultaneously keeping a constant watch over regional economies. However, we have not always been successful in our administrative efforts, as ruling over the economic activities of so many subjects requires significant amounts of both human and material resources.
+In order to solve this, we have created the
+zabt
+System, which establishes regular cadastral surveys to measure agricultural land, assess crop productivity, and classify land quality. Based on these surveys, standardized revenue rates are calculated and collected in cash rather than in-kind. This creates predictable, systematic taxation that ensures our state revenue reflects our actual agricultural capacity.
++2.00
+Cultures Capacity
++20.00%
+Speed of Integration
+Nobility
+Crown
+has_or_had_tag: MUG
+Prónoia System
+The Prónoia system functions as a means of temporarily transferring imperial fiscal rights, such as taxes or income from various sources, to individuals or institutions. Unlike the feudal system prevalent in Europe at the time, Prónoia grants were neither hereditary nor transferable, and ultimate ownership remained with the Emperor. In exchange for these privileges, the system ultimately served the purpose for the head of state to raise an army in times of need, and entailed that the troops had to mostly cover their own expenses.
+−10.00%
+Maximum Tax
+−10.00%
+Infantry Maintenance Cost
+Nobility
+has_or_had_tag: BYZ
+Not:
+has_unlocked_policy_trigger:
+type: reformed_pronoia_system
+Reformed Prónoia System
+Rather than allow the Prónoia governors to strengthen their hold on their lands, the system has been changed so any loopholes that made the title of governor hereditary or transferable can no longer be exploited.
+−10.00%
+Nobles Levy Size
+−2.50%
+Pop Join Rebels Threshold
++5.00%
+Tax Efficiency
++2.50%
+Noble Estate Satisfaction Equilibrium
+Crown
+has_or_had_tag: BYZ
+has_unlocked_policy_trigger:
+type: reformed_pronoia_system
+Adelantamiento System
+Led by an
+Adelantado
+, the
+Adelantamiento
+is an administrative system developed in Castile by which members of the Nobility are placed as governors over frontier or newly conquered territories, reporting directly to the ruler. Adelantados have broad military, judicial, and administrative authority in these remote regions, and often finance expeditions themselves in exchange for land and expanded governing rights.
+−10.00%
+Proximity Cost
++10.00%
+Speed of Integration
++10.00%
+Nobles Power
+Nobility
+culture:
+Castilian
+Decentralized Trade Federation
+We have delegated control over local economic affairs and business practices to the Nobility governors in those regions. This should help us greatly expand our trade network.
++5.00%
+Trade Range
++0.10
+Monthly Progress to Decentralization
+Burghers
+country_type: building
+is_merchant_republic: True
+Regulations of the Royal Court
+A series of documents denoting the main functions of our government, from coronation ceremony etiquette, to the daily activities of the Crown, to the maintenance of our army. This framework serves as a robust basis for our government and the privy council known as
+savaziro
+.
++0.10
+Monthly Progress to Aristocracy
++0.10
+Monthly Legitimacy
+−0.10%
+Army Tradition Decay
+Crown
+Nobility
+has_or_had_tag: GEO
+Office of the Mahapatih
+Equivalent in status to a prime minister, the
+Mahapatih
+has tremendous influence in our political sphere. As the second in command over the entire nation, whoever holds this office is charged with overseeing critical affairs of the state, such as military expansion and the effective operation of the government.
++0.02
+Antagonism Change Modifier
++1
+Possible Government Reforms
++0.10
+Monthly Progress to Naval
+Crown
+has_or_had_tag: MAJ
+Intelligence Agency
+[
+edit
+|
+edit source
+]
+The intelligence agency is an organization within the state which conducts spycraft activities such as espionage, cryptography, and providing security from internal threats.
+Policy
+Allow
+Country Modifier
+Estate Preferences
+On Activate
+On Deactivate
+Potential
+Home Security
+Our potential enemies are many, while friends are hard to come by. It is crucial for the safety of the state that our spies counter any secretive foreign threats within our borders.
++25.00%
+Counterespionage
+Crown
+Secret Police
+Many sovereigns assume their biggest threats are external. However, our own population could easily bring about the downfall of the government. A strong secret police that keeps a watchful eye on powerful members of our society is necessary to maintain unbroken authority at the top.
++5.00%
+Counterespionage
+−0.05%
+Monthly Rebel Growth
++0.10
+Monthly Progress to Absolutism
+Nobility
+Not:
+culture:
+has_culture_group: Chinese
+Jǐnyīwèi
+The
+Jǐnyīwèi
+, or 'Embroidered Uniform Guard', is the personal protection force of our ruler. It has full allowance to overrule judicial proceedings when prosecuting state enemies. Not even our ruler's own family members are safe from their reach!
++5.00%
+Counterespionage
+−0.05%
+Monthly Rebel Growth
+Nobility
+culture:
+has_culture_group: Chinese
+Oprichnik
+The
+Oprichniki
+, or 'Men aside', are a secret police force sworn to persecute any dangerous entity within our state. They are unswervingly loyal to the ruler, and their actions make them infamous among the civilians — an excellent deterrent for aberrant behavior.
++5.00%
+Counterespionage
+−10.00%
+Nobles Power
+−10.00%
+Clergy Power
+−10.00%
+Burghers Power
+Crown
+has_reform: government_reform:oprichnina
+Not:
+has_variable: oprichni_banished
+Spy Office
+Information is a weapon in its own right. In order to always stay one step ahead of our enemies, it is of great importance to establish a network of spies and informants in our service.
++15.00%
+Spy Network Construction
+Crown
+Not:
+culture:
+has_culture_group: French
+Cabinet Noir
+The
+Cabinet Noir
+, or 'Black Room', is responsible for reconnaissance, conducting espionage in foreign lands, and protecting the ruler from internal and external threats.
++25.00%
+Spy Network Construction
++5.00%
+Diplomatic Range
+Crown
+culture:
+has_culture_group: French
+Secretnoye Byuro
+The Secretnoye Byuro aims to punish Nobles convicted of political crimes, although occasionally it takes on cases of an apolitical nature. Punishments inflicted on those convicted are often made very painful and horrific, in order to dissuade critique towards the ruling regime.
+any_cabinet_action:
+this: cabinet_action:bironovshchina
+−10.00%
+Spy Network Construction
+−20.00%
+Nobles Power
++0.10
+Monthly Progress to Belligerent
+Crown
+Commoners
+culture:
+has_culture_group: East Slavic
+custom_tooltip:
+text: secretnoye_byuro_policy_tt
+has_variable: secretnoye_byuro
+Limit Chinese Court Influence
+The interests of our own estates have to come first before the external pressure and influences propagated by China.
++0.10
+Monthly Progress to Unsinicized
++2.50%
+Estates Satisfaction Equilibrium
+Clergy
+if:
+limit:
+country_exists:
+Yuán(CHI)
+add_opinion:
+target:
+Yuán(CHI)
+modifier: opinion_curbed_chinese_influence
+reverse_add_opinion:
+target:
+Yuán(CHI)
+modifier: opinion_curbed_chinese_influence
+if:
+limit:
+country_exists:
+Yuán(CHI)
+remove_opinion:
+target:
+Yuán(CHI)
+modifier: opinion_curbed_chinese_influence
+c:CHI:
+remove_opinion:
+target: root
+modifier: opinion_curbed_chinese_influence
+country_exists:
+Yuán(CHI)
+At least one of:
+is_subject_of:
+Yuán(CHI)
+capital:
+sub_continent: sub_continent:east_asia
+capital:
+sub_continent: sub_continent:south_east_asia
+Neither of:
+tag: CHI
+culture:
+has_culture_group: Chinese
+Bureaucracy
+[
+edit
+|
+edit source
+]
+In order to make the most of the lands and subjects we control we must enlarge, reorganize, and professionalize our bureaucracy. A robust organization can handle each part of our state and eliminate the need for ad hoc solutions. Let us put our universities at work to consider the best ways to efficiently rule and govern and let us encourage the sons of the nobility to serve the state with a pen in hand rather than a sword.
+Policy
+Allow
+Country Modifier
+Estate Preferences
+Potential
+Centralized Bureaucracy
+A centralized bureaucracy is anchored in the capital of the kingdom, with most decisions made by or in proximity to the ruler, and then distributed to the provinces.
+−20.00%
+Road Building Time
++0.10
+Monthly Progress to Centralization
+Crown
+Decentralized Bureaucracy
+A decentralized bureaucracy leaves more decisions to local administrators or governors, who are then answerable to the monarch.
++0.10%
+Monthly Prosperity
++0.10
+Monthly Progress to Decentralization
+Nobility
+Clergy
+Namestnik Office
+The
+namestnik
+is a bureaucratic position comparable to that of a viceroy. They are responsible for the local administration of our provinces and states.
+Not:
+has_variable: reduced_powers_namestnik
+−2.50%
+Proximity Cost
+Nobility
+culture:
+has_culture_group: East Slavic
+Rentekammeret
+The Treasury, or
+Rentekammeret
+will administrate our finances and the
+Rentemester
+will answer to the Ruler directly. This allows us better control over our country's finances.
+has_advance: dan_rentekammer_advance
++0.10
+Monthly Progress to Centralization
++5.00%
+Tax Efficiency
+Crown
+culture:
+Danish
+Autonomous Offices
+The merchants in our League enjoy particular privileges afforded by our custody. Despite them being confederated into a loose alliance forged based on mutual interest, they are not constrained by the strings of bureaucracy and red tape.
++0.05
+Monthly Progress to Capital Economy
+−25.00%
+Legislative Efficiency
++5.00%
+Burgher Estate Satisfaction Equilibrium
+Burghers
+country_type: building
+is_merchant_republic: True
+estate_power(estate_type:burghers_estate):
+GREATER_THAN: 0
+Port Logs
+By keeping a record of the traffic across our illicit ports, we can maintain a better grip on the goods and vessels that use our facilities.
++10.00%
+Tax Efficiency
++25.00%
+Ship-building Speed
+Burghers
+has_reform: government_reform:pirate_brethren_reform
+Cabinet Laws
+[
+edit
+|
+edit source
+]
+The cabinet is the highest office in the government and our ruler's personal advisors. Cabinet ministers and secretaries enjoy special privileges and rights.
+Policy
+Allow
+Country Modifier
+Estate Preferences
+Potential
+Administrative Clergy
+The Clergy already possess many of the skills we look for in administrators. They are well-educated, experienced scribes, and they have a higher calling. In many ways, allying ourselves with the Clergy would give us access to a skilled cadre of potential administrators.
++10.00%
+Efficiency of Our Cabinet
++0.10
+Monthly Progress to Traditionalist
++2.50%
+Clergy Estate Satisfaction Equilibrium
++0.05
+Possible Clerics in Towns and Cities
+Clergy
+Nobility of the Robe
+The aristocratic families of the realm must not only provide counsel, but also swear eternal loyalty to our ruler. But as our realm expands, it becomes ever more clear that they must perform service of the spirit as well as of the sword.
+It is time for a new generation of Nobility to serve. Shielded by robes and armed with pens, they will fight in service of our state just as their armored brothers do.
++0.05
+Monthly Army Tradition
++0.10
+Monthly Progress to Aristocracy
++2.50%
+Noble Estate Satisfaction Equilibrium
++0.005
+Possible Nobles in Towns and Cities
+Nobility
+Meritocratic Recruitment
+We cannot let tradition govern who deserves the privilege of serving our growing nation. Instead, we must look examine the abilties of every candidate. In a meritocratic system, administrators are chosen for their talents, and not for their parentage.
++0.05
+Monthly Navy Tradition
++2.50%
+Burgher Estate Satisfaction Equilibrium
++0.1
+Possible Burghers in Towns and Cities
++0.10
+Monthly Progress to Liberalism
+Burghers
+Dynastic Administration
+The estates are not trustworthy allies to the Crown, as they will always prioritize expanding their own influence over serving the state. Only the relatives of the ruler should be entrusted with managing our realm's administrative matters.
+−10.00%
+Clergy Power
+−10.00%
+Nobles Power
+−10.00%
+Burghers Power
+−10.00%
+Legislative Efficiency
++0.10
+Monthly Progress to Centralization
+Crown
+Yorkist Tradition
+Educated men of lower stature can contribute just as readily as the Clergy, and their practical experience makes them excellent additions to any governmental office. The Yorkist Tradition states that any literate man of notable background may join the ranks of governance, along with those who have devoted themselves to the service of God.
+ruler.dynasty: dynasty:york_dynasty
++0.10
+Monthly Progress to Plutocracy
++2.50%
+Clergy Estate Satisfaction Equilibrium
++2.50%
+Burgher Estate Satisfaction Equilibrium
++0.05
+Possible Clerics in Towns and Cities
++0.1
+Possible Burghers in Towns and Cities
+Clergy
+Burghers
+At least one of:
+has_or_had_tag: ENG
+has_or_had_tag: GBR
+has_variable: yorkist_tradition
+Sinicized Cabinet
+Our cabinet follows the model first adopted and promoted by some of China's most powerful dynasties, sharing the same influences and aiming at being proficient and capable.
+Not:
+any_international_organizations_member_of:
+international_organization_type: international_organization_type:jurchen_confederation
+international_organization_has_policy:
+Tribal Administration
+−10.00%
+Crown Power
++10.00%
+Efficiency of Our Cabinet
++0.10
+Monthly Progress to Sinicized
+Nobility
+Commoners
+At least one of:
+is_subject_of:
+Yuán(CHI)
+capital:
+sub_continent: sub_continent:east_asia
+capital:
+sub_continent: sub_continent:south_east_asia
+Neither of:
+tag: CHI
+culture:
+has_culture_group: Chinese
+Council of Captains
+Our pirate republic should be governed by the will of its fiercest captains. It is their alliance that holds our society together, and therefore their judgments should take precedence over any other authority.
++0.20
+Monthly Progress to Belligerent
++0.10
+Monthly Navy Tradition
+Nobility
+has_reform: government_reform:pirate_brethren_reform
+Legal Code
+[
+edit
+|
+edit source
+]
+For as long as people have gathered together in societies, they have created laws to govern their actions and interactions. Legal codes are a reflection of the values and beliefs of a society, shaping everything from how people conduct business to how they treat each other. They are the very fabric that holds a society together, providing a framework for order and justice. Despite their differences, people tend to share a common goal: to create a just and fair society where everyone can live in peace and prosperity.
+Potential
+At least one of:
+has_tribal_government: False
+religion:
+group:
+Islam
+Locked
+religion.group:
+Islam
+has_policy: sharia_law_policy
+Policy
+Allow
+Country Modifier
+Estate Preferences
+Potential
+Traditional Law
+There are a plethora of informal punitive systems developed by communities based on their customs, traditions, and values. These legal systems have been passed down orally from generation to generation and are deeply rooted in the culture and history of the community.
+The strength of Traditional Law lies in its ability to reflect the unique needs and values of a particular community. It is based on a shared understanding of what is right and wrong, and is often seen as more legitimate and accessible than formal legal systems. However, it can also be limited by its insularity and lack of flexibility.
++1.00%
+Estates Satisfaction Equilibrium
++0.10
+Monthly Progress to Decentralization
+Commoners
+Court of Appeals
+Gustavus Adolphus founded the first Swedish court of appeals, 'Svea Hovrätt', in 1614 as a higher instance than the old local courts, or 'tingsrätt'. Today there are six such courts in Sweden.
++0.10
+Monthly Progress to Free Subjects
++2.50%
+Estates Satisfaction Equilibrium
+−2.50%
+Pop Join Rebels Threshold
+Burghers
+Commoners
+has_unlocked_policy_trigger:
+type: court_of_appeals
+Civil Law
+Civil Law, a legal system with roots in ancient Rome, is known for its precise written codification of laws and regulations. However, the rigidity of its structure can hinder the adaptation required to address the evolving needs of the people. Nonetheless, Civil Law can bring peace and stability to even the most turbulent nation.
+has_embraced_institution: institution:legalism
++0.10
+Monthly Progress to Centralization
++10.00%
+Legislative Efficiency
+Clergy
+At least one of:
+capital.continent: continent:europe
+religion.group:
+Christianity
+Common Law
+Common Law is a legal system that originated amongst the Anglo-Saxon kingdoms. It is characterized by a reliance on precedent; judges are bound by their previous decisions rather than strict adherence to the written law of the state. This allows for a degree of predictability and consistency in legal decisions, but can also make it difficult to adapt to changing circumstances and may lead to the entrenchment of unjust or outdated laws.
+has_embraced_institution: institution:legalism
+−10.00%
+Stability Investment Cost
++2.50%
+Estates Satisfaction Equilibrium
+Commoners
+At least one of:
+culture.language: language:english_language
+capital.region: region:great_britain_region
+capital.region: region:ireland_region
+Vlach Law
+Uniquely blending pastoral traditions and legal norms, the Vlach Law encapsulates a distinct system governing Romanian communities across medieval Europe. It affirms the rights to travel, bear arms, and practice hunting while sparing them from mandatory labor for landowners, instead paying taxes in livestock or coin. Furthermore, it institutes a binding military service commitment tailored to each realm, creating a network of Romanian and legal heritage.
+has_embraced_institution: institution:legalism
++0.10
+Monthly Progress to Decentralization
++10.00%
+Peasants Levy Size
++5.00%
+Estates Satisfaction Equilibrium
+−10.00%
+Max Control
+Commoners
+At least one of:
+culture.language: language:romanian_language
+has_unlocked_policy_trigger:
+type: vlach_law_policy
+Sharī'ah Law
+Sharī'ah Law is a comprehensive and deeply entrenched legal system in Islamic countries that governs many aspects of life, from personal conduct to matters of state. It has provided stability and continuity for centuries, but its strict and sometimes harsh penalties can be controversial and divisive.
++10.00%
+Pop Conversion Speed %
++25.00%
+Clergy Power
+−1.00
+Tolerance of Heathen Beliefs
++1.00
+Prefers Court Language to be Liturgical Language
+Disallows Female Rulers:
+yes
+Clergy
+religion.group:
+Islam
+Pyrenean Law
+Pyrenean Law is a legal system native to the peoples living around the Pyrenean Mountains. Despite the fact that this law was influenced by both the Civil Law and the Gothic Law, it remained different from them. Based on traditional customs and practices, this legal system is so embedded in our culture than rulers are obliogated to adapt to it, rather than overriding it with their own systems.
+has_embraced_institution: institution:legalism
++0.10
+Monthly Progress to Free Subjects
++0.10
+Monthly Progress to Individualism
++10.00%
+Efficiency of Our Cabinet
+Commoners
+At least one of:
+culture:
+has_culture_group: Pyrenean
+has_or_had_tag: ARA
+Russkaya Pravda
+This was the legal code of Kievan Rus', heavily influenced by their Norse origins. It has been rewritten many times over the centuries since its inception, and is the main source of Old Russian Law.
+has_embraced_institution: institution:legalism
++0.10
+Monthly Progress to Serfdom
++5.00%
+Noble Estate Satisfaction Equilibrium
++1.00%
+Estates Satisfaction Equilibrium
+Nobility
+culture:
+has_culture_group: East Slavic
+Pskov Judicial Charter
+The Pskov Judicial Charter is the Old Russian legal code which was built on the Russkaya Pravda. It emcompasses many important features of the political, social, and economic life within Pskov.
+has_embraced_institution: institution:legalism
++0.05
+Monthly Progress to Capital Economy
++2.50%
+Estates Satisfaction Equilibrium
++2.50%
+Peasant Estate Satisfaction Equilibrium
+Burghers
+Commoners
+has_or_had_tag: PSK
+Novgorod Judicial Charter
+The Novgorod Judicial Charter is an Old Russian legal code which codifies many common practices within Novgorod. It also sets and defines the four positions in the Novgorodian court and covers the administrative matters of the state.
+has_embraced_institution: institution:legalism
++0.10
+Monthly Progress to Plutocracy
+−1.00%
+Expected Cost of Court
++5.00%
+Burgher Estate Satisfaction Equilibrium
+Burghers
+has_unlocked_policy_trigger:
+type: novgorod_judicial_charter_policy
+Upper Bavarian Land Rights
+The 'Upper Bavarian Land Rights' is a collection of old Bavarian legal codes which codifies many common practices within Bavaria. It also sets and defines the role of the Nobility in Bavaria's court and covers administrative matters of the state.
+has_embraced_institution: institution:legalism
++0.10
+Monthly Progress to Centralization
++2.50%
+Expected Cost of Court
++5.00%
+Noble Estate Satisfaction Equilibrium
++1.00%
+Burgher Estate Satisfaction Equilibrium
++1.00%
+Clergy Estate Satisfaction Equilibrium
++1.00%
+Peasant Estate Satisfaction Equilibrium
+Nobility
+has_unlocked_policy_trigger:
+type: bav_codex_bavarica
+At least one of:
+has_or_had_tag: BAV
+has_or_had_tag: UBV
+has_or_had_tag: LBV
+Cyfraith Hywel
+Welsh Law, also known as
+Cyfraith Hywel
+, is a unique legal system that emerged from the ancient customs of Wales. It differs from both Common Law and Civil Law in that it emphasizes restorative justice, placing a greater emphasis on compensation and reconciliation rather than punishment. The law was created by the Welsh kings and princes to promote unity and order among the Welsh people, and is known for its complexity and adherence to precedent.
+has_embraced_institution: institution:legalism
++0.10
+Monthly Legitimacy
++0.10
+Monthly Progress to Conciliatory
+−5.00%
+Efficiency of Our Cabinet
+Nobility
+At least one of:
+has_or_had_tag: WLS
+culture:
+Welsh
+Fetha Negest
+The
+Fetha Negest
+, or Justice of the Kings, is a theocratic legal code compiled by Abu'l-Fada'il ibn al-Assal, and is a significant work of justice. Drawing from apostolic writings and Byzantine law codes, it encompasses ecclesiastical and secular matters, and is further influenced by Roman law.
+has_embraced_institution: institution:legalism
++10.00%
+Clergy Power
++20.00%
+Clergy Estate Satisfaction Equilibrium
++0.50%
+Monthly Control
++0.10
+Monthly Progress to Centralization
+Clergy
+religion:
+Miaphysitism
+At least one of:
+capital.region: region:egypt_region
+All of:
+capital.region: region:ethiopia_region
+At least one of:
+has_unlocked_policy_trigger:
+type: fetha_negest_policy
+current_year:
+GREATER_THAN: 1500
+any_neighbor_country:
+has_policy: fetha_negest_policy
+All of:
+capital.region: region:nubia_region
+current_year:
+GREATER_THAN: 1400
+any_neighbor_country:
+has_policy: fetha_negest_policy
+Ordinances of Justice
+A set of legal frameworks aimed at curbing the power of influential Nobility that do not align themselves with the agenda of our central authority. These sets of jurisprudence aim at pushing back against a powerful noble class.
+has_embraced_institution: institution:legalism
+−15.00%
+Nobles Power
+−5.00%
+Noble Estate Satisfaction Equilibrium
++0.10
+Monthly Progress to Plutocracy
++2.50%
+Burgher Estate Satisfaction Equilibrium
+Crown
+government_type: government_type:republic
+At least one of:
+estate_power(estate_type:burghers_estate):
+GREATER_THAN_EQUAL: 0.5
+capital.continent: continent:europe
+religion.group:
+Christianity
+Consiglio Maggiore
+A body of aristocrats and various classes of citizens, including Burghers and artisans as well as bankers, the
+Consiglio Maggiore
+is in charge of the autocratic apparatus within our Republic.
+has_embraced_institution: institution:legalism
+−25.00%
+Peasant Estate Satisfaction Equilibrium
++1
+Cabinet Seats
++5.00%
+Nobles Power
++5.00%
+Burghers Power
+Nobility
+Burghers
+government_type: government_type:republic
+culture:
+has_culture_group: Italian
+Maiestas Carolina
+A set of laws and articles, drafted to greatly curb the power of the Nobility. The code entails the passing of noble property to the state in certain circumstances, as well as limiting the arbitrary powers of the Nobility throughout our realm.
+has_embraced_institution: institution:legalism
++0.10
+Monthly Progress to Centralization
+−10.00%
+Proximity Cost
+−25.00%
+Nobles Power
+−5.00%
+Noble Estate Satisfaction Equilibrium
+Crown
+Commoners
+has_or_had_tag: BOH
+has_unlocked_policy_trigger:
+type: maiestas_carolina
+Byzantine Law
+Byzantine law, evolving from Roman law with Christian and Hellenistic influence, largely derives from Justinian's
+Corpus Juris Civilis
+, which emphasizes ceremonial emperor roles, and reflects philosophical and religious ideals.
+has_embraced_institution: institution:legalism
++1
+Possible Government Reforms
++2.50%
+Clergy Estate Satisfaction Equilibrium
++0.10
+Monthly Progress to Centralization
+Clergy
+culture:
+Greek
+religion:
+Orthodoxy
+Law of the Pious Emperor
+A compendium of translated Greek Byzantine books of law and great works of ancient philosophy into the Serbian language, issued by Emperor ser_stefan_dusan.
++10.00%
+Efficiency of Our Cabinet
++33.00%
+Crown Power
+−5.00%
+Estates Satisfaction Equilibrium
++0.10
+Monthly Progress to Centralization
+Crown
+has_unlocked_policy_trigger:
+type: law_of_the_pious_emperor
+Goryeon Code
+The Goryeon Code, also known as
+Gyeongje Yukjeon
+-
+Six Codes of Governance
+- is the code of law of Korea. Shaped by the Chinese bureaucratic arts, this code has prevailed in our state for centuries.
+has_embraced_institution: institution:legalism
++0.10
+Monthly Progress to Centralization
++15.00%
+Legislative Efficiency
+Crown
+Clergy
+culture.language: language:korean_language
+Joseon Code
+The Joseon Code, also known as
+Gyeongguk Daejeon
+-
+National Code
+- is the revision of the old Goryeon Code. With the founding of a new dynasty, many laws and traditions of the previous code have been compiled anew in the current code.
+has_embraced_institution: institution:legalism
++0.10
+Monthly Progress to Centralization
+−5.00%
+Proximity Cost
+−0.025%
+Stability Decay
+Crown
+culture.language: language:korean_language
+has_unlocked_policy_trigger:
+type: joseon_code_policy
+The Great Code
+The Great Code shall be created to address all the critical problems that our dynasty faces and the ones that our predecessors faced. It will ensure that we will not fall to corruption and ministerial abuses of power!
+Crown
+has_unlocked_policy_trigger:
+type: chi_ming_dynasty_code_policy
+Scottish Civil Law
+The College of Justice has reformed our Civil Law towards a new standard. This Institution consists of well-educated members of our country, who will rule on any important topic concerning the
+Scots Law
+.
++0.10
+Monthly Progress to Centralization
++2.50%
+Estates Satisfaction Equilibrium
++5.00%
+Efficiency of Our Cabinet
+Nobility
+Clergy
+culture:
+Scots
+has_unlocked_policy_trigger:
+type: scottish_civil_law
+Sobornoye Ulozheniye
+The Sobornoye Ulozheniye serves as a foundational legal and social code that adapts the laws to fit a country with a strong centralized state and a clear social hierarchy. It builds upon the prevalent code and incorporates certain elements from the Byzantine code of law, solidifying class distinctions, and codifying a legal system that reflects the prevailing political and religious influences of the time.
+culture:
+has_culture_group: East Slavic
++0.10
+Monthly Progress to Serfdom
++5.00%
+Noble Estate Satisfaction Equilibrium
++5.00%
+Clergy Estate Satisfaction Equilibrium
++0.05
+Monthly Progress to Centralization
+Crown
+Nobility
+Clergy
+has_unlocked_policy_trigger:
+type: sobornoye_ulozheniye_policy
+Piotrków-Wiślica Statutes
+A set of statutes that shape our legislation and offer a robust frame for the future of our people, these statutes are comprehensive and extremely influential. Their jurisdiction impacts various aspects of our society, from private to public law and the responsibilities of each social class.
++0.05
+Monthly Progress to Centralization
++10.00%
+Maximum Tax
++2.50%
+Estates Satisfaction Equilibrium
+Crown
+has_unlocked_policy_trigger:
+type: piotrokow_wislica_statutes
+Regional Laws of Denmark
+The legal Codes of Jutland, Zealand, and Scania grants us regional legal systems. While prone to regionalism, it will represent the will of the Danish people.
++0.05
+Monthly Progress to Decentralization
++0.05
+Monthly Progress to Free Subjects
++0.05
+Monthly Progress to Naval
++2.50%
+Estates Satisfaction Equilibrium
+Commoners
+culture:
+Danish
+Danske Lov
+A unified legal code for our country will bring a new standardized legal framework for our government to work in and our subjects to appeal to.
+has_advance: dan_danish_legislation
++0.10
+Monthly Progress to Centralization
++0.10
+Monthly Progress to Free Subjects
++0.10
+Monthly Progress to Naval
+−10.00%
+Proximity Cost
+Crown
+Commoners
+culture:
+Danish
+Laws of Burgos
+This set of laws provides the legal framework for our activities and subjects in the colonial territories. It is especially concerned with the rights of the native population and their organization into the encomiendas system.
+At least one of:
+overlord:
+has_or_had_tag: CAS
+has_or_had_tag: SPA
+culture:
+Castilian
++0.20
+Monthly Progress to Serfdom
+−20.00%
+Expand Mining Cost
+−20.00%
+Expand Farming Cost
++20.00%
+Pop Conversion Speed %
+Nobility
+At least one of:
+is_subject_type: colonial_nation
+has_unlocked_policy_trigger:
+type: laws_of_burgos
+Leyes Nuevas
+The New Laws serve as an improved version building upon the Laws of Burgos, strengthening the control that we can assert in our colonial possessions.
+At least one of:
+overlord:
+has_or_had_tag: CAS
+has_or_had_tag: SPA
+culture:
+Castilian
++10.00%
+Legislative Efficiency
+−5.00%
+Proximity Cost
++2.50%
+Estates Satisfaction Equilibrium
+Crown
+At least one of:
+is_subject_type: colonial_nation
+has_unlocked_policy_trigger:
+type: new_laws_indies
+Siete Partidas
+The
+Siete Partidas
+is a compilation of statutory laws made by Alfonso X of Castile with the intention of uniformizing the legislation of his realm. It focuses on legislative issues, but also moral ones.
+At least one of:
+has_or_had_tag: CAS
+has_or_had_tag: SPA
+culture:
+Castilian
++0.10
+Monthly Progress to Centralization
++10.00%
+Legislative Efficiency
++5.00%
+Clergy Estate Satisfaction Equilibrium
+Clergy
+culture:
+Castilian
+Ordenamiento de Alcalá
+The Ordenamiento de Alcalá is a legal code that unifies and centralizes our diverse laws, asserting central authority over local customs and privileges.
+At least one of:
+has_or_had_tag: CAS
+has_or_had_tag: SPA
+culture:
+Castilian
++0.10
+Monthly Progress to Centralization
++10.00%
+Efficiency of Our Cabinet
++5.00%
+Noble Estate Satisfaction Equilibrium
+Nobility
+has_unlocked_policy_trigger:
+type: ordenamiento_de_alcala_policy
+Statutes of Lithuania
+A series of codified laws aimed at confirming the legal responsibilities and framework of the elites, as well as promoting a wave of centralization.
++0.20
+Monthly Progress to Centralization
++0.10
+Monthly Progress to Free Subjects
+−10.00%
+Revoke Privilege Cost
+Crown
+Commoners
+Sudebnik of Lithuania
+To combat the lack of a code within the nation, as well as the criminal activity conducted by those of the higher strata, the Sudebnik of Lithuania was writen in order to properly rein in the chaos, as well as give more power to the Crown.
++0.10
+Monthly Progress to Aristocracy
+−0.10%
+Monthly Rebel Growth
++2.50%
+Noble Estate Satisfaction Equilibrium
+Nobility
+has_unlocked_policy_trigger:
+type: lit_casimir_code_policy
+Articles of Agreement
+The Articles of Agreement are the cornerstone of the social order on board a pirate ship. They guarantee that every crewman has an equal vote in all matters and an equal share of all plunder. Articles such as these should be established for the republic itself, so that the liberty and equality of all pirates is secured.
++0.025
+Monthly Progress to Communalism
++0.05
+Monthly Republican Tradition
+−0.10%
+Monthly Rebel Growth
+Commoners
+has_reform: government_reform:pirate_brethren_reform
+kanun‐i Osmani
+A collection of legislations that together make up the laws of Ottomans, focused on providing internal stability for the numerous ethnicities rather than on conquering new lands.
+Nobility
+has_or_had_tag: TUR
+Aragonese Royal Ordinances
+The Royal Ordinances are a set of statutes issued to regulate various aspects of the royal court and household. These rules outline the roles and responsibilities of court officials and include detailed provisions for the coronation ceremony of Aragonese kings.
++0.10
+Monthly Progress to Centralization
++10.00%
+Legislative Efficiency
++5.00%
+Efficiency of Our Cabinet
+has_unlocked_policy_trigger:
+type: ara_royal_ordinances_policy
+Mongol Law
+Although secret from the public, the Mongol Law aimed for three things: obedience to the current ruler, binding together the people, and severely punishing any wrongdoing to the state. By keeping it secret from the public it can also be more easily changed to suit any other needs.
++10.00%
+Cavalry Power
++0.10
+Monthly Progress to Quantity
+−10.00%
+Legislative Efficiency
+has_policy: mongol_law_policy
+Nueva Recopilación
+A new compilation of the numerous laws within our realm, they will allow us to properly centralize and ensure control over our territories.
+has_unlocked_policy_trigger:
+type: nueva_recopilacion_policy
+Coutume de Normandie
+The codified customs of the [GetCountry('NRM').GetLongName] emphasize feudal land rights, noble privilege, and local autonomy. While favoring a decentralized and traditional society, these laws form a robust legal framework that ensures the power of the nobility and preserves the distinct identity of the [GetCountry('NRM').GetFlavorRank].
++0.10
+Monthly Progress to Serfdom
++0.10
+Monthly Progress to Decentralization
++10.00%
+Nobles Power
+Corpus Juris Civilis
+The great compilation of Roman law, ordered under Emperor Justinian, gathered centuries of rulings, edicts, and wisdom into a single body. The Codex, Digest, Institutes, and Novellae together have once again become the backbone of governance and justice, ensuring our authority, legal consistency, and the proper conduct of our government.
+−3.00%
+Pop Join Rebels Threshold
++1
+Cabinet Seats
++10.00%
+Efficiency of Our Cabinet
+Sharī'ah Jurisprudence
+[
+edit
+|
+edit source
+]
+Sharī'ah Law is a comprehensive and deeply entrenched legal system in Islamic countries that governs many aspects of life, from personal conduct to matters of state. It has provided stability and continuity for centuries, but its strict and sometimes harsh penalties can be controversial and divisive.
+Potential
+has_policy: sharia_law_policy
+Locked
+custom_tooltip:
+text: sharia_changed_through_main_school_tt
+religious_school:
+At least one of:
+this: religious_school:hanafi_school
+this: religious_school:hanbali_school
+this: religious_school:maliki_school
+this: religious_school:shafii_school
+this: religious_school:zahiri_school
+this: religious_school:ismaili_school
+this: religious_school:jafari_school
+this: religious_school:zaidi_school
+At least one of:
+has_policy: hanafi_policy
+has_policy: hanbali_policy
+has_policy: maliki_policy
+has_policy: shafii_policy
+has_policy: zahiri_policy
+has_policy: ismaili_policy
+has_policy: jafari_policy
+has_policy: zaidi_policy
+Policy
+Country Modifier
+Potential
+Ḥanafī Jurisprudence
+The Ḥanafī Madhhab is named after Abū Ḥanīfa Al-Nu'mān ibn Thābit. The school originated in Kufa and is prominent throughout the Farsi and Turkic world, including northern India. Though textual sources in the Qur'ān and Ḥadīth are given preference, Ḥanafī followers have an inclusive view of sources and also employ analogy (Qiyās), juristic discretion (Istiḥsan), and local customs ('Urf) in their jurisprudence. Some view it as the most flexible of the schools.
++0.05
+Monthly Progress to Communalism
+religion:
+Sunnism
+religious_school:
+Neither of:
+this: religious_school:hanbali_school
+this: religious_school:maliki_school
+this: religious_school:shafii_school
+this: religious_school:zahiri_school
+Ḥanbalī Jurisprudence
+The Ḥanbalī Madhhab is named after Aḥmad ibn Ḥanbal, and champions withholding from any speculative theology, Kalām. Ḥanbalī followers maintain that the Qur'ān and Sunnah are the only proper sources of jurisprudence and that they should be interpreted in a literal and traditionalist sense. Though it is accepted as a valid Madhhab, very few states actively promote the Ḥanbalī school, and it was banned by the Abbasid Caliphs.
++0.05
+Monthly Progress to Traditionalist
+religion:
+Sunnism
+religious_school:
+Neither of:
+this: religious_school:hanafi_school
+this: religious_school:maliki_school
+this: religious_school:shafii_school
+this: religious_school:zahiri_school
+Mālikī Jurisprudence
+The Mālikī Madhhab is named after Mālik ibn Anas and is prominent in particular throughout North Africa and Iberia. Jurisprudence is primarily based on the work and interpretations of ibn Anas and his student Saḥnūn as described in the al-Muwaṭṭa' and the Mudawwanah. One of the foremost centers of learning within the Mālikī School is the Great Mosque of Āl Qayrawān, near Tunis.
++0.05
+Monthly Progress to Spiritualist
+religion:
+Sunnism
+religious_school:
+Neither of:
+this: religious_school:hanafi_school
+this: religious_school:hanbali_school
+this: religious_school:shafii_school
+this: religious_school:zahiri_school
+Shāfi'ī Jurisprudence
+The Shāfi'ī Madhhab is named after Imām Al-Shāfi'ī, and it is prominent in particular among Islam believers in Arabia, East Africa, and East Asia. Unlike other Madhhab, the Shāfi'ī reject Istiḥsan and Istislah as sources of Sharī'ah, instead only relying on what is textually in the Qur'ān or Ḥadīth.
++2.50%
+Trade Efficiency
++0.05
+Monthly Progress to Free Trade
+religion:
+Sunnism
+religious_school:
+Neither of:
+this: religious_school:hanafi_school
+this: religious_school:hanbali_school
+this: religious_school:maliki_school
+this: religious_school:zahiri_school
+Ẓāhirī Jurisprudence
+The Ẓāhirī advocates for a strict adherence to the text of the Qur'ān, and focus on its external or apparent meaning. According to them, there can not be any conclusion drawn from reading the texts that is not in the texts themselves, otherwise Allāh would have explicitly expressed those already.
++0.05
+Monthly Progress to Conciliatory
++0.05
+Monthly Progress to Inward
+religion:
+Sunnism
+religious_school:
+Neither of:
+this: religious_school:hanafi_school
+this: religious_school:hanbali_school
+this: religious_school:maliki_school
+this: religious_school:shafii_school
+Ismā'īlī Jurisprudence
+The Ismā'īlī Madhhab is named after Ismā'īl ibn Ja'far, the successor of Ja'far al-Ṣādiq, and was the dominant school of faith in the Fatimid Caliphate but has lost much ground since its fall. The Ismā'īlī school encompasses a number of increasingly divergent branches, and in many ways, they focus on the esoteric elements of Shiism faith more than the Ja'farī or Zaydī.
++0.05
+Monthly Progress to Belligerent
++0.05
+Monthly Progress to Outward
+religion:
+Shiism
+religious_school:
+Neither of:
+this: religious_school:jafari_school
+this: religious_school:zaidi_school
+Ja'farī Jurisprudence
+The Ja'farī Madhhab is named after Ja'far al-Ṣādiq, the sixth Imām, and it focuses on independent reasoning by experts of Islamic Law, prefering that over analogy when establishing the Law. It also allows for a temporary marriage lasting a predeterminate period of time.
++0.05
+Monthly Progress to Humanist
+religion:
+Shiism
+religious_school:
+Neither of:
+this: religious_school:ismaili_school
+this: religious_school:zaidi_school
+Zaydī Jurisprudence
+Also called 'Fivers', the Zaydī current is named after Zayd ibn 'Alī, the grandson of Muḥammad's son 'Alī, and follows his teachings as described in the Majmu' al-Fiqh. Zaydī followers emphasize justice and human responsibility and descend from those who supported Zayd's original revolt against the Umayyad Caliph. Zaydī people entirely reject religious dissimulation as practiced by many Shiism followers, and it is the most similar to Sunnism.
++0.05
+Monthly Progress to Free Subjects
+religion:
+Shiism
+religious_school:
+Neither of:
+this: religious_school:ismaili_school
+this: religious_school:jafari_school
+Ibāḍī Jurisprudence
+Believed to be a descendant of the Al-Khawārij, who first were supporters of 'Alī ibn Abī Ṭālib but later rejected his arbitration. The Ibāḍī school distanced itself from the Al-Khawārij following 'Abd Allāh ibn Ibāḍ, taking a more moderate approach and a more positive view towards different Muslim branches, having similarities with many of the other schools.
++0.05
+Monthly Progress to Individualism
+religion:
+Ibadism
+Order of the Garter
+[
+edit
+|
+edit source
+]
+The Order of the Garter is a prestigious symbol of our realm's highest ideals, transcending time and uniting worthy people of diverse backgrounds and talents.
+Whether composed of the monarch's favorites, esteemed foreign dignitaries, devout members of the clergy, gifted artisans, or valiant warriors, this venerable order is the pinnacle of nobility and virtue.
+Potential
+has_unlocked_law_trigger:
+type: eng_order_of_the_garter_law
+government_type: government_type:monarchy
+Only for
+England
+Policy
+Country Modifier
+Estate Preferences
+Knights Companion
+As the noblest and bravest denizens of the realm, the Knights Companion are the very embodiment of courage, loyalty, and camaraderie. By elevating the most loyal members of the peerage, the Crown ensures that this prestigious order remains a bastion of chivalry, each member valiantly serving both the monarch and the nation.
++20.00%
+Efficiency of Our Cabinet
++50.00%
+Nobles Power
++5.00%
+Noble Estate Satisfaction Equilibrium
+Nobility
+Stranger Knights
+Through the inclusion of distinguished foreign rulers, diplomats, and knights, the Stranger Knights bring a wealth of diverse perspectives, and help the Crown extend its reach over our lands.
++1.00
+Maximum Diplomats
+−20.00%
+Counterespionage
++1.00
+Diplomatic Reputation
+Clergy
+Holy Brotherhood
+With divine guidance and unwavering faith, the Holy Brotherhood of the Order of the Garter is composed of esteemed bishops and other senior clerics. By elevating these devout servants of faith, the Crown will strengthen the spiritual foundation of the realm.
++10.00%
+Institution Growth
++10.00%
+Clergy Power
++5.00%
+Clergy Estate Satisfaction Equilibrium
+Clergy
+Patron of Arts
+Recognizing the power of culture and the arts to inspire and elevate the human spirit, the Crown uses the Order of the Garter as a means to foster creativity and promote the talents of the realm's most gifted citizens.
++1
+Possible Number of Artists
++10.00%
+Burghers Power
++5.00%
+Burgher Estate Satisfaction Equilibrium
+Burghers
+Alms Knights
+In an act of compassion and benevolence, the Order extends its charity to men-at-arms who return home from service impoverished, and knights who are left disinherited and landless by war.
++10.00%
+Pop Promotion Speed %
++10.00%
+Peasants Power
++5.00%
+Peasant Estate Satisfaction Equilibrium
+Commoners
+Machault's Five Percent Tax
+[
+edit
+|
+edit source
+]
+A new tax proposed by the Minister of Finance, accounting for one-twentieth of the annual income.
+Potential
+has_variable: enable_5_percent_tax
+Policy
+Country Modifier
+Estate Preferences
+Time to implement
+For All Estates
+The Five Percent Tax is collected from all people, regardless of their status.
++5.00%
+Tax Efficiency
+−2.50%
+Estates Satisfaction Equilibrium
+Crown
+2 months
+Only for Peasants
+The Five Percent Tax is collected only from the Commoners.
++10.00%
+Estate Enrichment
++10.00%
+Maximum Tax for Peasants Estate
+Nobility
+Clergy
+Burghers
+2 months
+Navarrese Adaptability
+[
+edit
+|
+edit source
+]
+Being positioned between two larger nations has forced our nation to adapt or die. With a mixture of intelligent alliances and swift military actions, our realm has managed to survive despite its smaller size. This ability to quickly adjust our actions to suit our specific needs is an edge that we should never lose.
+Potential
+has_or_had_tag: NAV
+Only for
+Navarre
+Policy
+Country Modifier
+Estate Preferences
+Belligerent Stance
+Only an aggressive attitude will keep us safe. We will use whatever tools we have to make it clear that whoever attacks us will pay a high cost.
++33.00%
+Casus Belli Creation Speed
+−4.00
+Diplomatic Reputation
++5.00%
+Spy Network Construction
+−5.00%
+War Score Cost
++0.10
+Monthly Progress to Belligerent
+Nobility
+Conciliatory Stance
+The time of fighting is over, and we must pivot towards employing more diplomacy. After all 'you catch more flies with honey than with vinegar'`.
+−33.00%
+Casus Belli Creation Speed
++20.00%
+Efficiency of Our Cabinet
++2.00
+Diplomatic Reputation
++5.00
+Loyalty of Subjects
++0.10
+Monthly Progress to Conciliatory
+Clergy
+Defensive Stance
+Our lands are rugged as our people. Let our enemies come and bleed in our soil; future harvests will grow stronger.
+−10.00%
+Army Movement Speed
++5.00%
+Combat Speed
+−10.00%
+Fortification Maintenance
++25.00%
+Fort Defense
++0.10
+Monthly Progress to Defensive
+Commoners
+Offensive Stance
+We fear nobody, and as the old saying goes 'the best defense is a good offense'. We will attack first, and be deadlier than those who threaten our existence!
++5.00%
+Army Movement Speed
++5.00%
+Assault Ability
+−50.00%
+Fort Defense
++5.00%
+Siege Ability
++0.10
+Monthly Progress to Offensive
+Nobility
+Six Ministries Supervision
+[
+edit
+|
+edit source
+]
+The work of the Six Ministries must be supervised by another agency, or perhaps even the monarch.
+Potential
+has_reform: government_reform:three_departments_system
+has_unlocked_law_trigger:
+type: six_ministries_overseer_law
+Policy
+Country Modifier
+Grand Chancellorship
+The Six Ministries shall report to the Chancellorship represented by the Left and Right Chancellor, the former of whom holds the senior positions.
+−10.00%
+Head of the Cabinet Promotion Cost Modifier
++5.00%
+Efficiency of Our Cabinet
+Grand Secretariat
+The Six Ministries will pass their paperwork on to the Grand Secretariat, who will conduct analysis and prepare it to be presented to the monarch.
++0.025
+Monthly Progress to Centralization
++10.00%
+Crown Power
+Direct Reports
+The Six Ministries will report directly to the monarch. This strengthens the authority of the monarch, but might also decrease efficiency of rule.
++0.10
+Monthly Progress to Centralization
++50.00%
+Crown Power
+−1
+Cabinet Seats
++0.10
+Monthly Progress to Absolutism
+Ashta Pradhan Council
+[
+edit
+|
+edit source
+]
+Ashta Pradhan -
+Modern Council of Ministers
+- is the system of ministerial delegation used by the Marathi people. The council is tasked with guiding the administration of the state, overviewing matters of the military, finances, diplomacy, and religion alike.
+Potential
+modifier:has_ashta_pradham_council_policies: True
+Policy
+Country Modifier
+Estate Preferences
+Peshwa Focus
+The Peshwa is the prime minister, responsible for the general administration of the state.
+The council will grant more power to the Peshwa, increasing their influence in the state.
++10.00%
+Speed of Integration
++10.00%
+Legislative Efficiency
+Clergy
+Mazumdar Focus
+The Mazumdar is the finance minister, responsible for managing the accounts of the state.
+The council will grant more power to the Mazumdar, increasing their influence in the state.
++10.00%
+Tax Efficiency
++2.50%
+Trade Efficiency
+Nobility
+Sacheev Focus
+The Sacheev is the secretary, responsible for the preparation of royal edicts and other policies of the state.
+The council will grant more power to the Sacheev, increasing their influence in the state.
+−10.00%
+Estates Power
++5.00%
+Estates Satisfaction Equilibrium
+Crown
+Waqia-Navis Focus
+The Waqia-Navis is the interior minister, responsible for the intelligence and espionage administration of the state.
+The council will grant more power to the Waqia-Navis, increasing their influence in the state.
++33.00%
+Counterespionage
+−10.00%
+Antagonism Received
+Crown
+Senapati Focus
+The Senapati is the commander-in-chief, responsible for the military and the defense of the state.
+The council will grant more power to the Senapati, increasing their influence in the state.
++5.00%
+Discipline
++0.03
+Monthly Army Tradition
+Nobility
+Dabir Focus
+The Dabir is the foreign minister, responsible for the diplomatic affairs of the state.
+The council will grant more power to the Dabir, increasing their influence in the state.
++1.00
+Diplomatic Reputation
++20.00%
+Improve Relations
+Crown
+Nyayadhish Focus
+The Nyayadhish is the chief justice, responsible for the civil and criminal matters of the state.
+The council will grant more power to the Nyayadhish, increasing their influence in the state.
++0.10%
+Monthly Control
++2.50%
+Estates Satisfaction Equilibrium
+Commoners
+Panditrao Focus
+The Panditrao is the high priest, responsible for the religious concerns of the state.
+The council will grant more power to the Panditrao, increasing their influence in the state.
++10.00%
+Pop Conversion Speed %
++0.01
+Monthly Literacy
+Clergy
+Mesta Council
+[
+edit
+|
+edit source
+]
+The Mesta Association together with its council protects the rights and interests of the livestock owners in our country.
+Potential
+At least one of:
+has_or_had_tag: CAS
+has_or_had_tag: SPA
+not:
+has_variable: abolish_mesta
+Policy
+Country Modifier
+Estate Preferences
+Potential
+Quadrillas Organization
+Based around the fixed principal Cities of the pastoral herds, this is the foundational organization of the Mesta. Their supervision ensures the security of our pastoral sheep herds of the Merino Breed.
++25.00%
+Wool Output
++10.00%
+Maximum Tax for Noble Estate
++2.50%
+Tax Efficiency
+Nobility
+Right of Possession
+The Right of Possession regulates rent prizes for pasture fields and serves as the legal groundwork for the Mesta sheep herds.
++50.00%
+Wool Output
++33.00%
+Expand Farming Cost
++10.00%
+Maximum Tax for Noble Estate
++5.00%
+Tax Efficiency
+Commoners
+has_unlocked_policy_trigger:
+type: right_of_possesion
+Examination System
+[
+edit
+|
+edit source
+]
+Those wishing to enter the civil service and advance as government officials must take a series of examinations testing their knowledge of Confucian literature and statecraft.
+Potential
+At least one of:
+culture:
+has_culture_group: Confucian-Influenced
+any_international_organizations_member_of:
+international_organization_type: international_organization_type:sect
+international_organization_has_policy:
+Confucianism
+custom_tooltip:
+text: has_neo_confucianism_tt
+has_variable: has_neo_confucianism
+All of:
+exists: international_organization:middle_kingdom
+is_member_of_international_organization: international_organization:middle_kingdom
+Not:
+is_leader_of_international_organization: international_organization:middle_kingdom
+Policy
+Country Modifier
+Estate Preferences
+On Activate
+Continuous Operation
+This policy ensures the continuous operation of the Examination System as it has been for the centuries prior.
++1
+Cabinet Seats
++5.00%
+Efficiency of Our Cabinet
+Burghers
+Clergy
+Commoners
+if:
+limit:
+not:
+has_variable: year_of_start_of_examination_system
+set_variable:
+name: year_of_start_of_examination_system
+value: current_year
+days: 8000
+Abolish the Examination System
+The abolishment of the Examination System is going to halt social mobility and will directly benefit those who are currently in power. Instead of meritocratic approach, new bureaucrats will be decided through personal, often corrupt, recommendations.
+−25.00%
+Pop Promotion Speed %
++10.00%
+Noble Estate Satisfaction Equilibrium
++0.10
+Monthly Progress to Centralization
+−25.00%
+Hire Advisor Cost
+Nobility
+Status of the Han
+[
+edit
+|
+edit source
+]
+Our dynasty originates from outside the core territory of the Middle Kingdom, making us outsiders to the Han Chinese majority.
+Potential
+is_leader_of_international_organization: international_organization:middle_kingdom
+Not:
+culture:
+has_culture_group: Chinese
+Policy
+Country Modifier
+Promote Chinese Bureaucracy
+Instead of hanging on the ways of the old, this policy will promote the adaptation of our administration to the expectations of the Han Chinese bureaucrats, who make up many of our statesmen.
++0.10
+Monthly Progress to Sinicized
+−25.00%
+Change Primary Culture Cost
++5.00%
+Efficiency of Our Cabinet
+Expel from Bureaucracy
+Due to the overwhelming influence of the Han Chinese, the supremacy of the old [GetUniqueInternationalOrganization('middle_kingdom').GetLeaderCountry.GetCulture.GetName] guard is threatened. They must be expelled from the upper echelons of society.
++0.10
+Monthly Progress to Unsinicized
++25.00%
+Cultural Influence %
++5.00%
+Pop Join Rebels Threshold
+Distribution of Scottish Clan Holdings
+[
+edit
+|
+edit source
+]
+The inheritance of Scottish holdings is divided proportional to clan influence, with larger clans recieving more holdings. Clan holdings are passed directly to the heir, unless a title is revoked or goes extinct.
+Potential
+At least one of:
+has_or_had_tag: SCO
+has_or_had_tag: SBL
+Policy
+Country Modifier
+Estate Preferences
+Time to implement
+Potential
+Direct Inheritance
+Holdings and titles are retained within a clan, only reverting back to the ruler when a clan lineage goes extinct.
++10.00%
+Parliament Base Support
++0.15
+Monthly Legitimacy
++10.00%
+Tribes Power
++10.00%
+Nobles Power
+−10.00%
+Crown Power
++5.00%
+Estates Satisfaction Equilibrium
++0.05
+Monthly Progress to Decentralization
+Nobility
+Tribes
+1 years
+Distributed by the Ruler
+Newly established holdings and titles are assigned by the ruler's preference. Larger clans are typically favored as allies by the ruler and receive the lionshare of new titles.
++0.10
+Monthly Legitimacy
++5.00%
+Tribes Power
++5.00%
+Nobles Power
+−5.00%
+Crown Power
+−5.00%
+Estate Enrichment
++2.50%
+Estates Satisfaction Equilibrium
+Crown
+1 years
+Dynastic Holdings
+New holdings and titles default to the ruling dynasty, only rarely being given by them to other Scottish clans.
++10.00%
+Crown Power
+−5.00%
+Estates Satisfaction Equilibrium
+−15.00%
+Revoke Privilege Cost
++0.05
+Monthly Progress to Centralization
+−10.00%
+Estate Enrichment
+Crown
+has_unlocked_policy_trigger:
+type: dynastic_holdings_conslidated
+Taxation
+[
+edit
+|
+edit source
+]
+Stable revenue is key for a functioning government. By implementing a legal taxation framework, we can regulate tax collection from individuals and entities.
+Potential
+has_variable: taxation_law
+Locked
+has_country_modifier: temporary_income_tax
+Policy
+Allow
+Country Modifier
+Estate Preferences
+Income Taxation
+Tax is directly sourced from the
+Pops
+, with a progressive rate structure that taxes
+Estates
+based on their income.
++20.00%
+Minimum Tax for Clergy Estate
++35.00%
+Minimum Tax for Noble Estate
++25.00%
+Minimum Tax for Burgher Estate
++15.00%
+Minimum Tax for Peasants Estate
+−5.00%
+Estates Satisfaction Equilibrium
+Crown
+Trade Taxation
+The bulk of tax revenue primarily comes from customs duties and excise taxes, which are shouldered by the Burghers.
+Not:
+has_estate_privilege:
+Toll & Tariff Exemptions
+−5.00%
+Burgher Estate Satisfaction Equilibrium
++50.00%
+Minimum Tax for Burgher Estate
+Nobility
+Clergy
+Commoners
+Traditional Taxation
+Taxes are derived from the
+Estates
+, with privileges dictating the level of taxation. Business as usual.
+modifier:has_a_parliamentary_system: True
++0.10
+Monthly Progress to Traditional Economy
+−25.00%
+Parliament Base Support
+Nobility
+Dahsala Taxation
+[
+edit
+|
+edit source
+]
+Instead of allowing local taxation laws to develop for the common people within India, organizing them all within the Dahsala Taxation will allow us to properly tax them.
+Potential
+has_unlocked_law_trigger:
+type: dahsala_system
+Policy
+Country Modifier
+Estate Preferences
+Zabiti System
+A system where the taxation is measured by the size of the land, as well as its value. The people have to pay either using silver or crops, and if their land was left uncultivated for a long time, then it is exempt from taxation until it has regained its productivity.
++10.00%
+Maximum Tax for Peasants Estate
+−5.00%
+Peasant Estate Satisfaction Equilibrium
+−10.00%
+Peasants Food Consumption
+Crown
+Ghalla Bakshi System
+Favored by the majority of the common people as it collects the state share through produce rather than paying the estimate of the crops.
++5.00%
+Peasant Estate Satisfaction Equilibrium
+−5.00%
+Cost of Purchasing Food
+Commoners
+Nasaq System
+The most arbitrary of the three methods, this system finds the average demand of the land of the past decades, and it is taxed according to these demands.
++10.00%
+Maximum Tax for Peasants Estate
+−5.00%
+Peasant Estate Satisfaction Equilibrium
+Crown
+References
+[
+edit
+|
+edit source
+]
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=Administrative_laws&oldid=21232
+"

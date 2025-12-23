@@ -1,0 +1,459 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-32-9th-of-october-2024.1708363/
+Source Date: 2025-12-23
+
+Previous dev diary
+Next dev diary
+Show only dev responses
+Tinto Talks #32 - 9th of October 2024
+Thread starter
+Johan
+Start date
+Oct 9, 2024
+Welcome to another Tinto Talks , the Happy Wednesday, where we talk about our upcoming, unannounced, supercalifragilisticexpialidocious game with the codename Project Caesar.
+Today we will talk about what happens when some of the pops in your country are not entirely convinced of its greatness.
+Rebel Factions
+There are five different categories that a rebel faction can belong to.
+Nationalist, for all independence movements.
+Pretender, for when they want another ruler.
+Slave, for when they want to be free.
+Religious, if a different religious group they want independence, else they want to convert the country
+Estate, for when they are really unhappy and want their society to change.
+A fair number of pops, and 12 locations, this could be a challenge..
+Pops and Rebel Factions
+Now let's go back to Tinto Talks #17, where we first mentioned that Pops have satisfaction, and when that is low enough a pop will join a rebel faction.  The levels at which a pop joins or leaves a faction have some different factors, but the way to keep a pop from joining a rebel is to make sure they are satisfied with life.
+Now, let's take a look at some Sardinian peasants in Cagliari, which has recently been conquered by Aragon, just before the start of the game.
+For some reason people tend to be a bit upset when conquered.
+Sadly we can not make the commoners estate more happy in Aragon, as they are already at 100% satisfaction, so the +25% bonus is the maximum we can get.  Otherwise to make the estates happy you can always reduce taxes or grant them more privileges.
+One obvious solution here is to make them integrated which would reduce the conquered penalty of 50% to 10%, however that will take about 25 years, which may not be quick enough to avoid an uprising.   If we build a castle we could add another 10% of satisfaction, and we could also station an army there to keep the peasants in line.
+As they lack access to wine and legumes, and currently trade in a muslim market, we could try to deny market access to Al-Jazair, and they would be slightly happier as the wine would be easier to get from an Italian market.
+All of this would make the satisfaction positive at least, but we need to get it above 29.74%, which is not feasible right now.
+A stable country has a higher threshold for rebels to join..
+Sadly we can not yet use the Pacify Population cabinet action which you can get in the Age of Absolutism which reduces the threshold for joining rebels by 5-10% depending on the competence of your monarch and cabinet.
+If we go back to rebel factions again, they have a progress value, where when it reaches 100%, and here the rebels, which will take about 23 years, so the uprising is likely to happen before the integration is done, unless you can weaken their power, or increase control over their territories so they get less money.
+Sadly Sardinia is a bit too far away for a road from Barcelona..
+So what happens when a rebel faction has progressed to 100% then? Well, one of two things will happen, either there will be a civil war or a revolt.  First the rebel faction forms a new country, with a relevant name, and takes ownership of the locations where it has a strong support.
+Revolts
+If they are a rebel type that wants to be independent, then they will start a revolt,  which is almost a war where the defender can re-annex any revolter without further aggressive expansion and can always afford the peace cost.
+If the culture of these revolting countries is from a country that exists on the map, they will call in the country they used to be a part of it into the revolt, and if they join, and the war is won, the revolter will become a part of the country that they belonged to in the past.
+Civil War
+These are started by pretenders, some religious rebels, or estate type rebels.  Civil Wars work differently than other wars in that you do not have to negotiate a peace. In Civil War, as soon as you would have taken control of a location from a siege or occupation, the location would immediately flip ownership of that location instead.
+This means that Civil Wars are almost always fought to the bitter end, and only one country can survive.
+End of a Civil War.
+As this system has a few similarities with the Civil War systems of Imperator Rome, we have to alleviate some concerns here. In Project Caesar there is no Game Over if you lose a Civil War, but instead you have the option to continue as the winning side.   One thing to consider here is that the winner will have different rulers, maybe a different religion, perhaps a new government type, dramatic changes to societal values, reforms and/or privileges.
+After all, if the peasants revolt and win, you will not keep your glorious full serfdom monarchy as it once was.
+You don’t have to continue, you can pick the other option for the game over screen!
+Next week we will talk more about Diplomacy, and that will for most of you be something you already are aware of, but it will list quite a few new aspects.
+264
+90
+13
+7
+4
+1
+Reactions:
+Reply
+Report
+Written by
+Johan
+Studio Manager Paradox Tinto
+Administrator
+Paradox Staff
+Moderator
+15 Badges
+Messages
+22.327
+Reaction score
+276.553
+1
+2
+3
+…
+Go to page
+Go
+20
+Next
+1 of 20
+Go to page
+Go
+Next
+Last
+Sort by date
+Sort by reaction score
+Old_Sealand
+Wow.
+43 Badges
+Jan 31, 2019
+405
+7.843
+Oct 9, 2024
+Add bookmark
+#2
+Wow.
+79
+57
+18
+5
+3
+3
+Reactions:
+Reply
+Report
+bluepotato81
+Second Lieutenant
+24 Badges
+Jun 12, 2024
+145
+1.862
+Oct 9, 2024
+Add bookmark
+#3
+Owo.
+Toggle signature
+Deliver me from mine enemies, O my God: defend me from them that rise up against me. Defend me from the workers of iniquity, and save me from bloody men. The mighty are gathered against me, awake to help me, and behold.
+Nor is there pain, or cause of pain, Or cease in pain, or noble path to lead from pain;
+The Master said, "Is it not pleasant to learn with a constant perseverance and application? Is it not delightful to have friends coming from distant quarters? Is he not a man of complete virtue, who feels no discomposure though men may take no note of him?"
+Do not despair of the mercy of Allāh. Indeed, Allāh forgives all sins. Indeed, it is He who is the Forgiving, the Merciful.
+The Tao that can be told is not the eternal Tao, and the name that can be named is not the eternal Name.
+It is not your duty to finish the work, but neither are you at liberty to neglect it;
+The finest essence here—that constitutes the self of this whole world; that is the truth; that is the self.
+O Son of Man! Veiled in My immemorial being and in the ancient eternity of My essence, I knew My love for thee; therefore I created thee, have engraved on thee Mine image and revealed to thee My beauty.
+Rise up for me, O Ahura, through Armaiti give strength, through the holiest Spirit give might, O Mazda, through the good Recompense, through the Right give powerful prowess, through Good Thought give the reward.
+O my mind, remember the Lord in meditation; He is the Destroyer of pain, the Eradicator of fear, the Sovereign Lord King. He is the Greatest Lover, the Merciful Master, the Enticer of the mind, the Support of His devotees - this is His very nature.
+In some ways, it is, in some ways, it is not, in some ways, it is, and it is not, in some ways, it is indescribable, in some ways, it is, and it is indescribable, in some ways, it is not, and it is indescribable, in some ways, it is, it is not, and it is indescribable.
+So be diligent in seeking knowledge, keeping company with those of understanding, and studying at all times, and you will attain goodness and blessings.
+An ash I know there stands, - Yggdrasill is its name, - a tall tree, showered - with shining loam. - From there come the dews - that drop in the valleys. - It stands forever green over - Urðr's well.
+Our God, with His mercy - Brought for us beauty and loveliness - He gave a command to the Pen of Power - We were thrown into the Mystery of Love.
+I saw my father, I saw him, and I gave him three requests. I asked him for a great heart, which can be carried by the big and the little. I asked him for calmness, in which there is no rebellion. I asked him for a level path, to rise to light’s place in peace.
+65
+13
+6
+5
+4
+1
+Reactions:
+Reply
+Report
+Wikaaa444
+Corporal
+51 Badges
+Mar 6, 2024
+28
+392
+Oct 9, 2024
+Add bookmark
+#4
+Wow.
+72
+3
+1
+1
+1
+Reactions:
+Reply
+Report
+AlbrechtAchilles
+Recruit
+35 Badges
+Jul 27, 2015
+1
+5
+Oct 9, 2024
+Add bookmark
+#5
+wow.
+70
+2
+1
+1
+1
+Reactions:
+Reply
+Report
+Metz
+Field Marshal
+107 Badges
+Nov 21, 2008
+7.108
+13.741
+Oct 9, 2024
+Add bookmark
+#6
+Wow
+62
+2
+1
+1
+1
+Reactions:
+Reply
+Report
+Morneb2000
+Sergeant
+24 Badges
+Jul 5, 2024
+55
+401
+Oct 9, 2024
+Add bookmark
+#7
+Wow.
+Toggle signature
+He is Risen! Christ is King!
+62
+2
+1
+1
+1
+Reactions:
+Reply
+Report
+Thrudgelmir2333
+Colonel
+83 Badges
+Nov 14, 2016
+1.181
+12.002
+Oct 9, 2024
+Add bookmark
+#8
+Damn Scots. They've ruined Scotland!
+Last edited:
+Oct 9, 2024
+Toggle signature
+I express strong disappointment towards PDX.
+EUV Proposals:
+Iberia
+/
+Morocco
+/
+Tunisia
+/
+Angola
+/
+Mozambique
+/
+Achievements
+/
+Portu-galicia Flags
+139
+11
+7
+Reactions:
+Reply
+Report
+Sutixela
+Second Lieutenant
+32 Badges
+Oct 13, 2019
+125
+967
+Oct 9, 2024
+Add bookmark
+#9
+How this was published a moment ago and there's already a gazillion comments.
+9
+1
+1
+1
+Reactions:
+Reply
+Report
+A
+Aliandre
+Corporal
+68 Badges
+Jan 30, 2020
+29
+98
+Oct 9, 2024
+Add bookmark
+#10
+Wow
+52
+2
+2
+1
+1
+Reactions:
+Reply
+Report
+Metz
+Field Marshal
+107 Badges
+Nov 21, 2008
+7.108
+13.741
+Oct 9, 2024
+Add bookmark
+#11
+Can you find rebels and then if they win, they will have friendlier politics or even be your vassals?
+7
+Reactions:
+Reply
+Report
+perceval350
+Major
+53 Badges
+Apr 3, 2024
+664
+2.938
+Oct 9, 2024
+Add bookmark
+#12
+Will rebels be more likely to rise up when your country is in a rough situation ?
+8
+Reactions:
+Reply
+Report
+nyetflix2
+Lt. General
+Nov 13, 2022
+1.574
+9.424
+Oct 9, 2024
+Add bookmark
+#13
+Oh, we're talking about rebels. I was hoping to learn about land raids and border skirmishes.
+Toggle signature
+EU5 Mesoamerica feedback
+9
+1
+Reactions:
+Reply
+Report
+R
+racnes
+Sergeant
+Jul 12, 2023
+68
+195
+Oct 9, 2024
+Add bookmark
+#14
+What about natives when you colonizing or already colonized a location?
+I guess it falls under nationalist rebels umberalla when fully colonized but I'm curious about during the colonization process.
+12
+7
+Reactions:
+Reply
+Report
+perceval350
+Major
+53 Badges
+Apr 3, 2024
+664
+2.938
+Oct 9, 2024
+Add bookmark
+#15
+Could religious rebels also simply ask for better tolerance laws ?
+27
+5
+1
+Reactions:
+Reply
+Report
+TheDust92
+Mother was a hamster, father smelt of elderberries
+58 Badges
+Jun 9, 2020
+4.210
+23.135
+Oct 9, 2024
+Add bookmark
+#16
+We are back!
+Reply
+Report
+Andy_Dandy
+General
+57 Badges
+Jan 20, 2007
+2.370
+847
+Oct 9, 2024
+Add bookmark
+#17
+perceval350 said:
+Will rebels be more likely to rise up when your country is in a rough situation ?
+Click to expand...
+I indeed hope so.
+1
+Reactions:
+Reply
+Report
+perceval350
+Major
+53 Badges
+Apr 3, 2024
+664
+2.938
+Oct 9, 2024
+Add bookmark
+#18
+How will pretenders work if there is no loyalty system for characters ?
+8
+Reactions:
+Reply
+Report
+L
+lewismac
+Recruit
+56 Badges
+Feb 26, 2017
+2
+10
+Oct 9, 2024
+Add bookmark
+#19
+Sutixela said:
+How this was published a moment ago and there's already a gazillion comments.
+Click to expand...
+Wow.
+25
+7
+2
+1
+Reactions:
+Reply
+Report
+nyetflix2
+Lt. General
+Nov 13, 2022
+1.574
+9.424
+Oct 9, 2024
+Add bookmark
+#20
+I preferred the term "separatist" to "nationalist", nationalism seems a bit out of scope for the period.
+Toggle signature
+EU5 Mesoamerica feedback
+106
+21
+4
+1
+Reactions:
+Reply
+Report
+1
+2
+3
+…
+Go to page
+Go
+20
+Next
+1 of 20
+Go to page
+Go
+Next
+Last
+Show hidden low quality content
+You must log in or register to reply here.
+Share:
+Facebook
+X (Twitter)
+Reddit
+Tumblr
+WhatsApp
+Share
+Link

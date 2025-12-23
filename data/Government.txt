@@ -1,0 +1,852 @@
+Source URL: https://eu5.paradoxwikis.com/Government
+Source Date: 2025-12-12
+
+Please help with verifying or updating older sections of this article.
+At least some were last verified for
+version
+pre-release.
+Governments at the start of the game
+Every
+Country
+has a Government of a specific
+Government Type
+located in its
+Capital
+.
+Governments consist of the
+Ruler
+and the
+Cabinet
+, and are shaped by
+Societal Values
+,
+Government Reforms
+, and
+Laws
+.
+Government types
+[
+edit
+|
+edit source
+]
+Each country has a government type, which defines the inner structure of its government. The government type determines the Government Power resource used and the
+succession laws
+available, but also unlocks specific laws, government reforms, estate privileges, and advances.
+Countries that are at peace, do not have a disaster and are not bankrupt or part of an Union can change their government type at the cost of 50
+Stability and 25 Government Power. This will also change the country type to
+Settled if not already. A very few formable countries will change government type when formed and some historical flavor events can change government type.
+Papal States,
+Yuán and countries that are electors or emperor of the Holy Roman Empire cannot change government.
+Tribe and
+Steppe Horde governments can only reform into
+Monarchy
+,
+Republic
+and
+Theocracy governments can reform into each other.
+Government type
+Government power
+Laws
+Estate privileges
+Other effects
+Requirements
+Monarchy
+A Monarchy is a Government Type based upon the principle of undivided personal sovereignty, where the Ruler is the first among the elites. The Heir is normally determined by the Dynasty of the Monarch and in most cases they rule for life.
+Monarchs can use Royal Marriages to secure Alliances, and can even inherit foreign Countries through Personal Unions. However, succession is often a troublesome matter, and Monarchies may easily fall into Regencies or under the influence of foreign Dynasties.
+Legitimacy
+Feudal 'De Jure' Laws
+Levy Law
+Royal Court Customs
+Order of the Garter
+Succession laws
+Cognatic Primogeniture
+Absolute Cognatic Primogeniture
+Salic Law
+Semi-Salic Law
+Partition Inheritance
+Youngest Son of Ruler
+Tanistry Elective
+Elective Succession
+Dynastic Elective Succession
+Favored Son Succession
+Admiral Election
+Military Regime
+Ritual Selection
+Fratricide
+Mamluk Succession
+Union of Crown Succession
+Dynastic Cognatic Primogeniture
+Matrilineal Salic Law
+Judicial Election
+Auxilium et Consilium
+Manorial Courts
+Royal Marriage Rights
+Nobility have more Estate Power than Burghers if Republic
+Nobility have more Estate Power than Clergy if Theocracy
+95+ Aristocracy societal value if Republic or Theocracy
+25+ Aristocracy societal value if Tribe
+0+ Humanist societal value if Theocracy
+0+ Centralization societal value if Tribe
+Urban capital if Steppe Horde
+50+ Subjects loyalty if Steppe Horde
+25%+ Average Control in capital region if Steppe Horde
+Dominant culture in capital is primary culture if Steppe Horde
+Republic
+A Republic is a Government Type where the Rulers are chosen by Elections to serve as the representants of the citizen body for a set period of time. Depending on the Succession Law the Ruler may belong to any of the Estates.
+The strength of the political institutions makes Republics more resilient to inheritance issues, but the less personal nature of rule limits the diplomatic tools at their disposal. As such, Dynasties play a lesser role and Republics cannot benefit from Royal Marriages.
+Republican Tradition
+Foundation of Republic
+Election
+Republican Power
+Administrative Principles
+Republican Electorate Law
+Succession laws
+Republic 2 Year Terms
+Republic 4 Year Terms
+Oligarchic Elective
+Lottery Election
+Doge Election
+Peasant Elective
+Veche Selection
+Selection of the new Bank Executive
+Pirate Elective
+Signoria Selection
+Diarchic Election
+Admiral Election
+Military Regime
+Elective Potestate
+Military Dictatorship
+Toll & Tariff Exemptions
+Dedicated Merchant Courts
+Elite Patronage
+Maintain Clerical Proceedings
+State Official Oaths
+Mandatory Clerical Donations
+Increased Civic Engagement
+Inherited Offices
+Recognized Communes
+Prefers court language to be market language
+80+ Government Power
+95+ Plutocracy societal value
+50+ Humanist societal value if Theocracy
+Burghers have more Estate Power than Nobility if Monarchy
+Burghers have more Estate Power than Clergy if Theocracy
+Steppe Horde
+A Steppe Horde is a Government Type based upon on military power of its Ruler. Relatives of the current Ruler have a higher chance to become the Heir, but seniority and personal Abilities are also highly regarded.
+Rulers are issued from the elite members of the society and will only keep the loyalty of their peers as long as they prove themselves capable of subjugating, razing, and plundering neighboring Countries. Because of that, succession is a momentous event for a Steppe Horde, and might even lead to collapse if the new Ruler fails to demonstrate its might.
+Horde Unity
+Legal Basis
+Tribal Organization
+Tribal Cultural Identity
+Tribal Religious Values
+Tribal Migration
+Tribal Modernization
+Succession laws
+Tribal Oldest Male
+Ritual Selection
+Share of the Spoils
+Tribal Host
+Tribal Autonomy
+Prefers court language to be common language
+Auto conquer when at war
+Can raze
+Can raid borders
+−75%
+Downgrading to rural settlement cost
+−50
+Horde unity change on ruler death
+Reforming government takes 20 years
+Cannot reform into Steppe Horde
+Theocracy
+A Theocracy is a Government Type based on the principle of divine sovereignty, where the Ruler is issued from the servants of the faith and secular matters are subordinated to religious authority.
+Rulers are usually chosen to rule for life by some form of Election, which allows for a less disruptive transfer of power.
+Devotion
+Theocratic Leadership
+Holy Mission
+Nature of our Faith
+Divine Cause
+Succession laws
+Bishopric Elective
+Theocratic Elective
+Grandmaster Elective
+Abbot Elective
+Abbess Elective
+Papal Conclave
+Admiral Election
+Military Regime
+Cardinal-Lead Guilds
+Sponsor Printing of Religious Texts
+Liturgical Mural Art
+Appoint Ecclesiastical Offices
+Control of the Borderlands
+Autonomous Local Commanders
+Prefers court language to be liturgical language
+80+ Government Power
+35%+ Clergy estate power
+95+ Spiritualist societal value
+Tribe
+A Tribe is a Government Type where the political power is structured first and foremost around the concept of kinship, be it by direct blood or perceived ancestry.
+Dynasties and family ties are therefore of prime importance when determining the Heir, who will always belong to the elite members of society, but very frequently seniority, personal Abilities, and military prowess are also highly regarded.
+Tribal Cohesion
+Legal Basis
+Tribal Organization
+Tribal Cultural Identity
+Tribal Religious Values
+Tribal Migration
+Tribal Modernization
+Succession laws
+Tribal Oldest Male
+Ritual Selection
+Tanistry Elective
+Tribal Matriarchal
+Tribal Matrilineal
+Share of the Spoils
+Tribal Host
+Tribal Autonomy
+Royal Marriage Rights
+Prefers court language to be common language
+−50%
+Downgrading to rural settlement cost
+−25%
+Nobles food consumption
+Cannot appoint a Head of Cabinet
+Cannot reform into Tribe
+Societal values
+[
+edit
+|
+edit source
+]
+Societal values during the Age of Discovery
+The societal values define the social and political structure of a
+country
+, the customs of its people and the characteristics of its legal body. Its effects can have a profound impact on how the country is played, and some advanced Government Reforms require specific combinations of Societal Values to be enacted. Societal values also play an important role in
+diplomacy
+, as countries with affine societal values will tend to have a higher Opinion of each other.
+Each societal value is an axis with two opposite poles that can reach up to 100. A country's position on the axis is primarily influenced by laws, reforms, estate privileges, and cabinet actions, and it drifts slowly over time towards one of the two poles. The higher a societal value, the more factors are needed to push it further. Hovering over a societal value will display all currently available options of increasing it.
+As a country progresses towards a societal value it will gain increasing bonuses and penalties, scaling from zero to the values displayed in the table below.
+Centralization
++50%
+Crown power
+−10%
+Proximity cost
+-20
+Subject loyalty
++30%
+Counterespionage
+A centralized country may be more efficient, while a decentralized country is more resilient.
+Decentralization
++5%
+Estates satisfaction equilibrium
+File:Global estate satisfaction recovery.png
++30
+Loyalty of subjects
+−30%
+Counterespionage
+Traditionalist
++2.5%
+Estates satisfaction equilibrium
++100%
+Cultural tradition
+−20%
+Stability investment cost
++200%
+Embrace institution cost
+A traditionalist country prioritizes stability and tradition over all other values, while an innovative country wants a more literate population and faster adoption of any new Institution.
+Innovative
++10%
+Max literacy
++100%
+Cultural influence
++20%
+Stability investment cost
+−50%
+Embrace institution cost
+Spiritualist
++20
+Possible clerics in towns and cities
++2
+Tolerance of the True Faith
++50%
+Pop conversion speed
+−50%
+Pop assimilation speed
++50%
+Antagonism religion influence
+A spiritualist country is pretty much organized around its Clerics, while a humanist country is much more tolerant towards Heretic and Heathen religions.
+Humanist
++1
+Tolerance of heathen beliefs
++1
+Tolerance of heretic beliefs
+−50%
+Pop conversion speed
++50%
+Pop assimilation speed
+−50%
+Antagonism religion influence
+Aristocracy
++5%
+Discipline
++10
+Possible nobles in towns and cities
++50%
+Nobles power
++2%
+Expected cost of court
+An aristocratic country is about having the leadership from those with noble blood, while a plutocratic country takes their leadership from the richest and most powerful.
+Plutocracy
++100
+Possible burghers in towns and cities
++50%
+Burghers power
++2.5%
+Trade efficiency
+−2%
+Expected cost of court
+Serfdom
++10%
+Raw materials output
++10%
+Supply limit
++20%
+Maximum tax for peasants estate
++10%
+Peasants food consumption
+A country with high serfdom is about exploiting the peasants as much as possible, whereas a country with free subjects treats peasants as human beings.
+Free Subjects
++100%
+Pop promotion speed
++0.1%
+Monthly prosperity
+−10%
+Maximum tax for peasants estate
+−10%
+Peasants food consumption
+Belligerent
+−10%
+War score cost
++10%
+Spy network construction
++33%
+Casus belli creation speed
+−4
+Diplomatic reputation
+−50%
+Antagonism given from taking land
+−30%
+Antagonism given from declaring war without casus belli
+−20%
+Antagonism given from breaking truce
+A belligerent country is a country that does not worry about the Opinion of other Countries. A conciliatory country appeases others, either due to being weaker, or it just believes that its easier to catch flies with honey.
+Conciliatory
++10%
+Efficiency of our cabinet
++10
+Loyalty of subjects
+−33%
+Casus belli creation speed
++4
+Diplomatic reputation
++30%
+Antagonism given from taking land
++30%
+Antagonism given from declaring war without casus belli
++20%
+Antagonism given from breaking truce
+Quality
++0.1
+Military tactics
++2%
+Army morale recovery speed
++25%
+Army initiative
++10%
+Army maintenance
+An Army that focuses on quality is focused on making each soldier perform better, while an Army focused on quantity tries to get more people to fight in the battles.
+Quantity
++25%
+Possible frontage
+−10%
+Unit food consumption
+−25%
+Army initiative
+−10%
+Army maintenance
+Offensive
++10%
+Siege ability
++10%
+Assault ability
+−10%
+Antagonism given from declaring war without casus belli
++10%
+Army movement speed
+−50%
+Fort defense
+A country that is focused on offensive prefers the attack, and using their Armies and Navies in Enemy Locations, while a defensive country relies more on their Forts to defeat the enemy.
+Defensive
+−20%
+Fortification maintenance
++50%
+Fort limit
++10%
+Combat speed
+−10%
+Army movement speed
++50%
+Fort defense
+Land
++5%
+Maximum RGO size
+−10%
+Proximity cost through land
+−10%
+Trade range used over land
++50%
+Trade range used over sea
+A country focused on land is usually a country without much of a coastline, while a naval-focused one may be those that values its coastline more than others.
+Naval
++30%
+Maritime presence
+−10%
+Proximity cost through maritime
++50%
+Trade range used over land
+−10%
+Trade range used over sea
+Capital Economy
+−3%
+Bank interest
++20%
+Production efficiency
+−10%
+Buildings cost
+−20%
+Food production
+A Country with a capital economy is more focused on earning money, particularly from Trade and Urban Locations, while one with a traditional economy is more oriented about living off what the land provides.
+Traditional Economy
++25%
+Population capacity
++20%
+Raw materials output
++10%
+Buildings cost
++20%
+Food production
+Individualism
++10%
+Army morale
++10%
+Navy morale
+−5%
+Estates satisfaction equilibrium
++50%
+Pop migration speed
+A country based on individualism may get more exceptional characters, while one focused on communalism is all about the greater good of society.
+Communalism
+−5%
+Pop join rebels threshold
+−50%
+Revoke privilege cost
++5%
+Estates satisfaction equilibrium
+−50%
+Pop migration speed
+Outward
++5
+Power projection
++33%
+Diplomatic capacity
++100%
+Monthly colonial migration
+−50%
+Cultural tradition
+−50%
+Antagonism language influence
+Available starting with the Age of Discovery
+An outward country focuses more on interacting with other countries, while an inward country looks inside its borders.
+Inward
++25%
+Crown power
++0.5%
+Global monthly control
+−50%
+Monthly colonial migration
++50%
+Cultural tradition
++50%
+Antagonism language influence
+Mercantilism
+−10%
+Trade maintenance
++10%
+Export cost from market for foreign traders
++50%
+Market protection
+−2.5%
+Trade efficiency
+Available starting with the Age of Reformation
+A mercantilist country aims to protect the market price of the produced goods in their country, while a country focused on free trade wants to benefit more from trades around the world.
+Free Trade
++100%
+Burghers trade capacity
++20%
+Trade advantage
+−25%
+Market protection
++2.5%
+Trade efficiency
+Absolutism
++100%
+Crown power
+−30%
+Revoke privilege cost
+−2.5%
+Pop join rebels threshold
+−5%
+Estates satisfaction equilibrium
+Available starting with the Age of Absolutism
+An Absolutist country will focus more on the centralized authority of its ruler while reining in the power of the different estates, while a Liberal country will emphasize the importance of civic liberties and legislative governing bodies.
+Liberalism
++20%
+Cultures capacity
+−10%
+Parliament request issue support impact
++2.5%
+Pop join rebels threshold
++5%
+Estates satisfaction equilibrium
+Mysticism and Jurisprudence
+[
+edit
+|
+edit source
+]
+The Mysticism-Jurisprudence societal value axis is only available to countries that have a primary religion from the Islamic, Druze or Yazidi religion group. If a country changes its primary religion to another one that has the axis the progress will be saved, but if it changes its primary religion to one that does not have the axis and later again to one that has the axis, progress will start from the middle of the axis.
+Mysticism
++10%
+Clergy estate satisfaction
++10%
+Army morale
++10%
+Pop conversion speed
+A Country towards Mysticism (a Bāṭin interpretation) looks for hidden and deeper meanings, while with a Jurisprudence (a Ẓāhir interpretation) focuses on the literal meanings of the Quran and Hadiths.
+Jurisprudence
++10%
+Clergy estate satisfaction
++10%
+Monthly research progress
++10%
+Efficiency of our cabinet
+Sinicized and Unsinicized
+[
+edit
+|
+edit source
+]
+The Sinicized-Unsinicized societal value axis is only available to countries outside the Chinese culture group that have their capital in the sub-continent of China or South-East Asia or are subjects of China. If a country loses the Sinicized-Unsinicized axis and later gains it back, progress will restart from the middle of the axis.
+Sinicized
+24px
++25%
+Administrative efficiency
++10%
+Monthly research progress
+−50%
+Cultural tradition
++20%
+Trade capacity
+A Sinicized country falls under the influence of the
+Middle Kingdom
+, as an extension of its jurisdiction. Whereas, an Unsinicized country stands as a proud sovereign of their politics and domain.
+Unsinicized
+−0.2%
+Prestige decay
+−33%
+Stability investment cost
++50%
+Cultural tradition
+−20%
+Trade capacity
+Cabinet
+[
+edit
+|
+edit source
+]
+The cabinet of a kingdom
+The Cabinet is the assembly of higher officials that help govern the country. Each country starts with 2 cabinet seats and the number can be increased by certain advances, the empire government rank. Appointing a cabinet member costs only a small amount of Gold but replacing a cabinet member costs 5
+Stability. By default only male
+characters
+can be appointed to the cabinet but there are a few ways to change this.
+Countries that do not have
+Tribe government can promote one of its cabinet members to Head of Cabinet. This costs 10 times as much
+Gold as appointing a cabinet member and also 5 Government Power. Having a Head of Cabinet increases the efficiency of the cabinet by
++25%
+but the selected cabined member can no longer lead armies or navies or be removed from the cabinet and the Head of Cabinet cannot be changed until the current one dies.
+If the Head of Cabinet belongs to an estate other than the
+Crown, its estate will gain
++5%
+Satisfaction and
++25%
+Power.
+If the Head of Cabinet belongs to the
+Crown estate the country gains
++25%
+Crown Power and
++0.02
+Monthly Government Power.
+Each member of the cabinet can be assigned to a cabinet action. These are performed either until they are finished, or cancelled.
+This table is planned to be
+automatically generated
+and should not be edited directly.
+Instead, suggest changes on the
+talk page
+.
+Cabinet action
+[1]
+Effects
+[2]
+Requirements
+Assimilate Pops into our Culture
++40 Pop assimilation speed
+Change Societal Values
++0.1 Monthly societal change
+Convert Province
++40 Local pop conversion speed
+Develop Province
++0.0025 Monthly local development
+Diplomatic Endeavors
++25.0% Improve relations effect
++2.0 Diplomatic reputation
+Encourage Migration
++50.0% Pop migration speed
++1.00 Migration attraction
+Expel People
+Foster New Culture
+Increase Province Control
++10.0% Max control
++1.0% Monthly control
+Integrate Province
++1.0 Speed of Integration
+Rebel Crackdown
+-0.25% Monthly rebel progress
+Recovery Effort
++0.1% Population growth
++5.0% Prosperity recovery
+Reduce War Exhaustion
+-0.05 Monthly war exhaustion
+Settle Tribesmen
++500% Tribesmen to Peasants
+Stabilize Country
++0.05
+Stability Investment
+Strengthen Government
++0.1 Monthly Legitimacy
+Regency
+[
+edit
+|
+edit source
+]
+A Regency starts when a country loses its ruler and either does not have a heir or the heir is a child. Under a regency the country will be ruled by a character known as the regent. The regency will continue until a proper ruler is available. Regencies caused because the ruler is underage will end when the ruler becomes an adult but can be extended by 5 years at any point at the cost of 20 Government Power. While a country has a regency each year there is a 20% chance for a regency-related event to trigger.
+There are multiple types of regency possible. They follow a strict hierarchy, with the country using the first valid regency type from the following list.
+Regency
+Regent
+Effects
+Requirements
+Fraternal Struggle
+Member of the same dynasty as previous ruler
+−1
+Stability investment
++0.1
+Monthly progress to Belligerent
+Fraticide succession law
+Judicial Conclave
+Member of the Clergy estate with the same religion
+−0.1
+Stability investment
+Judicial Election succession law
+Mamlūk Succession
+Member of the Nobility estate with the Mamluk trait
++5%
+Noble estate satisfaction equilibrium
+−10%
+Clergy power
+−10%
+Burghers power
+−25%
+Peasants power
+Mamlūk Succession succession law
+Papal Conclave
+Male member of the Clergy estate with the same religion
+−0.1
+Stability investment
+Papal Conclave succession law
+Election Administration
+Member of the Burghers estate
+−0.1
+Stability investment
+Republic government type
+Nobles Regency
+Member of the Nobility estate
++5%
+Noble estate satisfaction equilibrium
+−10%
+Clergy power
+−10%
+Burghers power
+−25%
+Peasants power
++0.1
+Monthly progress to Aristocracy
+33%+ Nobility estate power
+Clergy Regency
+Member of the Clergy estate with the same religion
++5%
+Clergy estate satisfaction equilibrium
+−10%
+Nobles power
+−25%
+Burghers power
+−10%
+Peasants power
++0.1
+Monthly progress to Spiritualist
+33%+ Clergy estate power
+Burghers Regency
+Member of the Burghers estate
++5%
+Burghers estate satisfaction equilibrium
+−10%
+Nobles power
+−25%
+Clergy power
+−10%
+Peasants power
++0.1
+Monthly progress to Plutocracy
+33%+ Burghers estate power
+Peasants Regency
+Member of the Commoners estate
++5%
+Peasants estate satisfaction equilibrium
+−25%
+Nobles power
+−10%
+Clergy power
+−10%
+Burghers power
++0.1
+Monthly progress to Free Subjects
+33%+ Commoners estate power
+Overlord Regency
+Overlord's ruler
++20
+Loyalty to overlord
+Subject
+Overlord has a ruler
+Consort Regency
+Consort
++0.02
+Stability investment
+−5%
+Counterespionage
+Ruler is a child
+Consort
+Consort is blocked from cabinet
+Islamic religion group
+Tribal Matrilineal succession law
+Subject Regency
+Subject's ruler
+−20
+Loyalty of subjects
+−0.1
+Monthly prestige
+Overlord
+A subject has a ruler, 50% of the country's score, and higher country rank
+Lordship Regency
+Ruler of the High Kingship of Ireland
+No effects
+Member of the High Kingship of Ireland international organization
+Leader of High Kingship of Ireland has a ruler
+Interregnum
+Random male character if succession law is not Tribal Matrilineal
+Random female character if succession law is Tribal Matrilineal
+−0.1
+Stability investment
+Other valid regency type
+References
+[
+edit
+|
+edit source
+]
+↑
+Listed in
+Europa Universalis V\game\in_game\common\cabinet_actions
+↑
+Modified by cabinet efficiency
+Mechanics
+Realm
+Country
+•
+Government
+•
+Parliament
+•
+Estate
+•
+Reforms
+•
+Laws
+•
+Characters
+•
+Missions
+Economy & Research
+Economy
+•
+Goods
+•
+R.G.O.
+•
+Market
+•
+Building
+•
+Population
+•
+Age
+Diplomacy & Warfare
+Diplomacy
+•
+Subjects
+•
+International organization
+•
+Warfare
+•
+Combat
+•
+Military
+The world
+Location
+•
+Culture
+•
+Religion
+•
+Language
+•
+Exploration
+•
+Situations
+•
+Disasters
+•
+Diseases
+Retrieved from "
+https://eu5.paradoxwikis.com/index.php?title=Government&oldid=20971
+"
