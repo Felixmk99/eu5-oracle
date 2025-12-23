@@ -132,9 +132,10 @@ class RAGEngine:
         )
 
 @st.cache_resource(show_spinner="Waking up the Oracle...")
-def get_cached_chat_engine(data_dir: str, chroma_dir: str, _llm: LLM) -> any:
+def get_cached_chat_engine(data_dir: str, chroma_dir: str, _llm: LLM, model_name: str) -> any:
     """
     Streamlit-friendly wrapper to cache the RAG chat engine.
+    The model_name argument ensures the cache refreshes when switching LLMs.
     """
     engine = RAGEngine(data_dir, chroma_dir)
     return engine.get_chat_engine(_llm)
