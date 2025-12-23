@@ -21,11 +21,7 @@ warnings.filterwarnings("ignore", module="pydantic")
 warnings.filterwarnings("ignore", module="llama_index")
 
 import os
-from llm_factory import get_llm
-from rag_engine import get_cached_chat_engine
-from ingestion import DataIngestor
-from llama_index.core import Settings
-from llama_index.embeddings.huggingface import HuggingFaceEmbedding
+from core_engine import oracle_core
 
 # Load environment variables
 load_dotenv()
@@ -89,34 +85,12 @@ def ensure_ollama_server():
         return False, f"Failed to start Ollama: {e}"
 
 def initialize_brain(provider: str, model_name: str, api_key: str = None) -> tuple[bool, str]:
-    """Sets up the LLM and RAG engine in session state."""
-    try:
-        # 1. Initialize the LLM & Embeddings
-        import torch
-        device = "mps" if torch.backends.mps.is_available() else "cpu"
-        
-        Settings.embed_model = HuggingFaceEmbedding(
-            model_name="BAAI/bge-small-en-v1.5",
-            device=device,
-            embed_batch_size=32
-        )
-        
-        # Get the LLM instance from our factory
-        llm = get_llm(provider=provider, model_name=model_name, api_key=api_key)
-        st.session_state.llm_instance = llm
-        
-        # 2. Ingest Core Knowledge Sources
-        ingestor = DataIngestor(DATA_DIR)
-        ingestor.ingest_core_knowledge()
-        
-        # 3. Get the Chat Engine
-        # Note: We pass model_name to it to ensure cache busting when switching models
-        st.session_state.chat_engine = get_cached_chat_engine(
-            DATA_DIR, CHROMA_DIR, st.session_state.llm_instance, model_name
-        )
-        return True, f"Brain initialized with {provider} ({model_name})!"
-    except Exception as e:
-        return False, f"Initialization failed: {e}"
+    """Wraps oracle_core initialization for Streamlit."""
+    success, message = oracle_core.initialize_engine(provider, model_name, api_key)
+    if success:
+        st.session_state.chat_engine = oracle_core.chat_engine
+        st.session_state.llm_instance = oracle_core.llm_instance
+    return success, message
 
 # --- Sidebar ---
 server_running, status_msg = ensure_ollama_server()
@@ -226,10 +200,6 @@ if prompt := st.chat_input("Ask about Europa Universalis V..."):
 
         with st.chat_message("assistant"):
             with st.spinner("Thinking..."):
-                try:
-                    response = st.session_state.chat_engine.chat(prompt)
-                    response_text = str(response)
-                    st.markdown(response_text)
-                    st.session_state.messages.append({"role": "assistant", "content": response_text})
-                except Exception as e:
-                    st.error(f"Error: {e}")
+                response_text = oracle_core.query(prompt)
+                st.markdown(response_text)
+                st.session_state.messages.append({"role": "assistant", "content": response_text})

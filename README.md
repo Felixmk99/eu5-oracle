@@ -51,9 +51,19 @@ Check out the live Oracle here: [eu5-oracle.streamlit.app](https://eu5-oracle.st
 
 ## 💬 Running the App
 
+### Option 1: Web Interface
 ```bash
 streamlit run src/ui.py
 ```
+
+### Option 2: In-Game Overlay (Always on Top)
+Designed to be used while playing EU5!
+```bash
+python src/overlay.py
+```
+*   **Toggle Overlay**: Press `Ctrl + Alt + Space` while in-game.
+*   The overlay appears in the top-right and stays above the game.
+*   Works best in **Borderless Windowed** mode.
 
 *   The Oracle will automatically attempt to connect to a local Ollama server.
 *   If Ollama is missing, it will prompt you for a Groq key (or use the one from your `.env`).
