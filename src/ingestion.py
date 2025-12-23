@@ -4,6 +4,7 @@ from pathlib import Path
 import logging
 import re
 from datetime import datetime
+from youtube_transcript_api import YouTubeTranscriptApi
 
 # Setup basic logging
 logging.basicConfig(level=logging.INFO)
@@ -146,7 +147,7 @@ TINTO_TALKS_URLS = [
     "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-6-april-3rd-2024.1657435/",
     "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-7-10th-of-april.1662356/",
     "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-8-17th-of-april-2024.1666167/",
-    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-9-24th-of-april-2024.1670510/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tintoThe two lists that we have-talks-9-24th-of-april-2024.1670510/",
     "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-10-1st-of-may-2024.1673745/",
     "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-11-8th-of-may-2024.1675078/",
     "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-12-15th-of-may.1677441/",
@@ -286,32 +287,72 @@ class DataIngestor:
         # Global Fallback
         return datetime.now().strftime('%Y-%m-%d')
 
-    def scrape_url(self, url: str) -> bool:
-        """
-        Scrapes a static webpage and saves content to a .txt file.
-
-        Args:
-            url (str): The URL to scrape.
-
-        Returns:
-            bool: True if successful, False otherwise.
-        """
+    def scrape_youtube(self, url: str) -> bool:
+        """Extracts transcript from a YouTube video."""
         try:
-            response = requests.get(url, timeout=10)
+            video_id = None
+            if "v=" in url:
+                video_id = url.split("v=")[1].split("&")[0]
+            elif "youtu.be/" in url:
+                video_id = url.split("youtu.be/")[1].split("?")[0]
+            
+            if not video_id:
+                return False
+                
+            # Using the module-level API directly for better compatibility
+            import youtube_transcript_api
+            try:
+                # Try standard get_transcript first
+                transcript_data = youtube_transcript_api.YouTubeTranscriptApi.get_transcript(video_id)
+            except AttributeError:
+                # Fallback to list/fetch if get_transcript is missing in this version
+                ts_list = youtube_transcript_api.YouTubeTranscriptApi.list(video_id)
+                transcript_data = ts_list.find_transcript(['en']).fetch()
+
+            text = " ".join([t['text'] for t in transcript_data])
+            
+            filename = f"youtube_{video_id}.txt"
+            file_path = self.data_dir / filename
+            
+            with open(file_path, "w", encoding="utf-8") as f:
+                f.write(f"Source URL: {url}\n")
+                f.write(f"Source Date: {datetime.now().strftime('%Y-%m-%d')}\n\n")
+                f.write(text)
+                
+            logger.info(f"Successfully ingested YouTube transcript: {url}")
+            return True
+        except Exception as e:
+            logger.error(f"Failed to ingest YouTube transcript {url}: {e}")
+            return False
+
+    def scrape_url(self, url: str, prefix: str = "") -> bool:
+        """
+        Scrapes a static webpage or YouTube video and saves content to a .txt file.
+        """
+        if "youtube.com" in url or "youtu.be" in url:
+            return self.scrape_youtube(url)
+            
+        try:
+            # Use a slightly more realistic User-Agent to reduce Cloudflare triggers
+            headers = {
+                'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+            }
+            response = requests.get(url, headers=headers, timeout=10)
             response.raise_for_status()
             
+            if "Just a moment..." in response.text or "Client Challenge" in response.text:
+                logger.warning(f"Cloudflare block detected for {url}. Skipping.")
+                return False
+                
             # Get Publication Date
             pub_date = self._extract_publish_date(response.text, url)
             
             soup = BeautifulSoup(response.text, 'html.parser')
             
-            # 2. Extract content based on site type
-            # 2. Extract content based on site type
+            # Extract content based on site type
             if "paradoxwikis.com" in url:
-                # Target the main content area of MediaWiki
                 content_div = soup.find(id="mw-content-text")
                 if content_div:
-                    # Remove elements that introduce noise
                     for noise in content_div.find_all(['table', 'div'], class_=['infobox', 'navbox', 'toc', 'mw-editsection']):
                         noise.decompose()
                     text = content_div.get_text(separator='\n')
@@ -319,67 +360,34 @@ class DataIngestor:
                     text = soup.get_text(separator='\n')
             
             elif "forum.paradoxplaza.com" in url:
-                # Paradox Forum - Try RSS feed alternative for JavaScript-heavy pages
-                # Forum threads have an RSS feed version that's easier to scrape
-                if "/threads/" in url or "/developer-diary/" in url:
-                    thread_id = url.rstrip('/').split('.')[-1]
-                    rss_url = f"https://forum.paradoxplaza.com/forum/threads/.{thread_id}/index.rss"
-                    
-                    try:
-                        logger.info(f"Attempting RSS feed: {rss_url}")
-                        rss_response = requests.get(rss_url, timeout=10)
-                        rss_response.raise_for_status()
-                        rss_soup = BeautifulSoup(rss_response.text, 'html.parser')
-                        
-                        # Extract all post content from RSS items
-                        items = rss_soup.find_all('item')
-                        if items:
-                            posts = []
-                            for item in items:
-                                # Get post title and description
-                                title = item.find('title')
-                                description = item.find('description')
-                                
-                                if description:
-                                    # Clean HTML from description
-                                    desc_soup = BeautifulSoup(description.text, 'html.parser')
-                                    post_text = desc_soup.get_text(separator='\n')
-                                    posts.append(post_text)
-                            
-                            text = '\n\n---\n\n'.join(posts)
-                            logger.info(f"Successfully extracted {len(items)} posts from RSS feed")
-                        else:
-                            raise Exception("No items found in RSS feed")
-                    except Exception as rss_error:
-                        logger.warning(f"RSS feed failed ({rss_error}), trying HTML fallback")
-                        # Fallback to regular HTML scraping
-                        for script in soup(["script", "style"]):
-                            script.decompose()
-                        text = soup.get_text(separator='\n')
+                # Forum thread logic
+                content_div = soup.find('div', class_='p-body-content')
+                if not content_div:
+                    content_div = soup.find('article', class_='message-body')
+                
+                if content_div:
+                    text = content_div.get_text(separator='\n')
                 else:
-                    # Not a thread, use regular scraping
-                    for script in soup(["script", "style"]):
-                        script.decompose()
                     text = soup.get_text(separator='\n')
             
             else:
-                # Fallback for other sites: Remove script and style elements
                 for script in soup(["script", "style"]):
                     script.decompose()
                 text = soup.get_text(separator='\n')
             
-            # Basic cleaning: break into lines and remove leading/trailing whitespace
             lines = (line.strip() for line in text.splitlines())
-            # drop blank lines
             clean_text = '\n'.join(line for line in lines if line)
 
-            # Use URL slug for consistent filename matching (Predictable Naming)
-            slug = url.split("/")[-1].split("?")[0] # Remove query params if any
+            # Prevent saving empty or challenge pages
+            if len(clean_text) < 200:
+                logger.warning(f"Extracted content too short for {url}. Might be a block page.")
+                return False
+
+            slug = url.split("/")[-1].split("?")[0]
             if not slug or slug == "index.php": 
-                # Fallback for root or weird URLs
                 slug = soup.title.string if soup.title else "scraped_content"
             
-            filename = self._sanitize_filename(slug) + ".txt"
+            filename = prefix + self._sanitize_filename(slug) + ".txt"
             
             file_path = self.data_dir / filename
             with open(file_path, "w", encoding="utf-8") as f:
@@ -460,6 +468,6 @@ class DataIngestor:
             filename = "tinto_" + self._sanitize_filename(slug) + ".txt"
             if not (self.data_dir / filename).exists():
                 logger.info(f"Ingesting Tinto Talk: {url}")
-                self.scrape_url(url)
+                self.scrape_url(url, prefix="tinto_")
             else:
                 logger.debug(f"Tinto Talk {slug} already exists, skipping.")
