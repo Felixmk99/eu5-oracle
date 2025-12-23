@@ -4,7 +4,9 @@ from pathlib import Path
 import logging
 import re
 from datetime import datetime
-from youtube_transcript_api import YouTubeTranscriptApi
+import time
+from playwright.sync_api import sync_playwright
+from playwright_stealth import Stealth
 
 # Setup basic logging
 logging.basicConfig(level=logging.INFO)
@@ -136,8 +138,6 @@ CORE_WIKI_URLS = [
 ]
 
 # --- Tinto Talks (Developer Explanations) ---
-# PASTE YOUR TINTO TALKS URLs HERE (Paradox Forum threads, YouTube videos, etc.)
-# These are the developer's own explanations and are extremely valuable!
 TINTO_TALKS_URLS = [
     "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-1-february-28th-2024.1625360/",
     "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-2-march-6th-2024.1626415/",
@@ -147,7 +147,7 @@ TINTO_TALKS_URLS = [
     "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-6-april-3rd-2024.1657435/",
     "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-7-10th-of-april.1662356/",
     "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-8-17th-of-april-2024.1666167/",
-    "https://forum.paradoxplaza.com/forum/developer-diary/tintoThe two lists that we have-talks-9-24th-of-april-2024.1670510/",
+    "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-9-24th-of-april-2024.1670510/",
     "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-10-1st-of-may-2024.1673745/",
     "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-11-8th-of-may-2024.1675078/",
     "https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-12-15th-of-may.1677441/",
@@ -235,239 +235,167 @@ TINTO_TALKS_URLS = [
 
 class DataIngestor:
     """
-    Handles data collection from web pages and YouTube videos.
+    Handles data collection from web pages and manual files.
     Saves raw text to the data/ directory for RAG processing.
     """
 
     def __init__(self, data_dir: str):
-        """
-        Args:
-            data_dir (str): Path to save raw text files.
-        """
         self.data_dir = Path(data_dir)
         self.data_dir.mkdir(parents=True, exist_ok=True)
 
     def _sanitize_filename(self, name: str) -> str:
-        """Removes illegal characters from filenames."""
-        return re.sub(r'[\\/*?:"<>|]', "", name).replace(" ", "_")
+        """Removes illegal characters and trailing spaces from filenames."""
+        return re.sub(r'[\\/*?:"<>|]', "", name).strip().replace(" ", "_")
 
     def _extract_publish_date(self, html_content: str, url: str) -> str:
-        """
-        Attempts to extract a publication date from HTML metadata.
-        Targeting YouTube JSON-LD and common web meta tags.
-        """
-        # 1. Check for YouTube uploadDate in JSON-LD
-        if "youtube.com" in url or "youtu.be" in url:
-            match = re.search(r'"uploadDate":"(\d{4}-\d{2}-\d{2})', html_content)
-            if match:
-                return match.group(1)
-
-        # 2. Check for common meta tags (Wikitext / Forums)
+        """Attempts to extract a publication date from HTML metadata."""
         soup = BeautifulSoup(html_content, 'html.parser')
-        
-        # Meta property (OG)
         meta_date = soup.find("meta", property="article:published_time") or \
                     soup.find("meta", {"name": "dcterms.created"}) or \
                     soup.find("meta", property="og:updated_time")
         
         if meta_date and meta_date.get("content"):
-            # Extract just the YYYY-MM-DD part
             return meta_date["content"][:10]
 
-        # 3. Fallback: If it's a Paradox Wiki, look for "last modified" text
         footer = soup.find(id="footer-info-lastmod")
         if footer:
             match = re.search(r'(\d{1,2} \w+ \d{4})', footer.text)
             if match:
                 try:
                     return datetime.strptime(match.group(1), "%d %B %Y").strftime("%Y-%m-%d")
-                except:
-                    pass
-
-        # Global Fallback
+                except: pass
         return datetime.now().strftime('%Y-%m-%d')
 
-    def scrape_youtube(self, url: str) -> bool:
-        """Extracts transcript from a YouTube video."""
+    def _scrape_with_playwright(self, url: str) -> str:
+        """Fallback scraper using Playwright to bypass Cloudflare."""
         try:
-            video_id = None
-            if "v=" in url:
-                video_id = url.split("v=")[1].split("&")[0]
-            elif "youtu.be/" in url:
-                video_id = url.split("youtu.be/")[1].split("?")[0]
-            
-            if not video_id:
-                return False
+            with sync_playwright() as p:
+                browser = p.firefox.launch(headless=True)
+                # Create a context with a realistic user agent
+                context = browser.new_context(
+                    user_agent='Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:120.0) Gecko/20100101 Firefox/120.0'
+                )
+                page = context.new_page()
+                # Stealth may be Chromium-specific in some versions, skipping for Firefox test
                 
-            # Using the module-level API directly for better compatibility
-            import youtube_transcript_api
-            try:
-                # Try standard get_transcript first
-                transcript_data = youtube_transcript_api.YouTubeTranscriptApi.get_transcript(video_id)
-            except AttributeError:
-                # Fallback to list/fetch if get_transcript is missing in this version
-                ts_list = youtube_transcript_api.YouTubeTranscriptApi.list(video_id)
-                transcript_data = ts_list.find_transcript(['en']).fetch()
-
-            text = " ".join([t['text'] for t in transcript_data])
-            
-            filename = f"youtube_{video_id}.txt"
-            file_path = self.data_dir / filename
-            
-            with open(file_path, "w", encoding="utf-8") as f:
-                f.write(f"Source URL: {url}\n")
-                f.write(f"Source Date: {datetime.now().strftime('%Y-%m-%d')}\n\n")
-                f.write(text)
+                logger.info(f"Attempting Playwright (Firefox) scrape for {url}")
+                page.goto(url, wait_until="domcontentloaded", timeout=60000)
                 
-            logger.info(f"Successfully ingested YouTube transcript: {url}")
-            return True
+                # Loop to wait for Cloudflare challenge to pass
+                attempts = 0
+                while attempts < 10:
+                    title = page.title()
+                    if "Client Challenge" not in title and "Just a moment..." not in title:
+                        break
+                    logger.info(f"Cloudflare challenge detected (Title: {title}). Waiting 5s... ({attempts+1}/10)")
+                    time.sleep(5)
+                    attempts += 1
+                
+                # Final check for content
+                try:
+                    page.wait_for_selector(".message-body, .p-body-content", timeout=10000)
+                    logger.info(f"Content found after challenge. Title: {page.title()}")
+                except:
+                    logger.warning(f"Content selector not found. Current Title: {page.title()}")
+                
+                content = page.content()
+                browser.close()
+                return content
         except Exception as e:
-            logger.error(f"Failed to ingest YouTube transcript {url}: {e}")
-            return False
+            logger.error(f"Playwright scraping failed: {e}")
+            return ""
 
     def scrape_url(self, url: str, prefix: str = "") -> bool:
-        """
-        Scrapes a static webpage or YouTube video and saves content to a .txt file.
-        """
-        if "youtube.com" in url or "youtu.be" in url:
-            return self.scrape_youtube(url)
-            
+        """Scrapes a static webpage and saves content to a .txt file."""
         try:
-            # Use a slightly more realistic User-Agent to reduce Cloudflare triggers
-            headers = {
-                'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-            }
-            response = requests.get(url, headers=headers, timeout=10)
+            headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.472.124 Safari/537.36'}
+            response = requests.get(url, headers=headers, timeout=15)
             response.raise_for_status()
             
             if "Just a moment..." in response.text or "Client Challenge" in response.text:
-                logger.warning(f"Cloudflare block detected for {url}. Skipping.")
-                return False
+                logger.warning(f"Cloudflare block detected for {url}. Attempting Playwright fallback...")
+                html_content = self._scrape_with_playwright(url)
+                if not html_content or "Just a moment..." in html_content or "Client Challenge" in html_content:
+                    logger.error(f"Playwright also failed to bypass Cloudflare for {url}")
+                    return False
+            else:
+                html_content = response.text
                 
-            # Get Publication Date
-            pub_date = self._extract_publish_date(response.text, url)
+            pub_date = self._extract_publish_date(html_content, url)
+            soup = BeautifulSoup(html_content, 'html.parser')
             
-            soup = BeautifulSoup(response.text, 'html.parser')
+            # Stricter validation: title check
+            if soup.title and ("Client Challenge" in soup.title.string or "Just a moment..." in soup.title.string):
+                logger.error(f"Scraped content for {url} still identified as challenge page.")
+                return False
             
-            # Extract content based on site type
             if "paradoxwikis.com" in url:
                 content_div = soup.find(id="mw-content-text")
                 if content_div:
                     for noise in content_div.find_all(['table', 'div'], class_=['infobox', 'navbox', 'toc', 'mw-editsection']):
                         noise.decompose()
                     text = content_div.get_text(separator='\n')
-                else:
-                    text = soup.get_text(separator='\n')
-            
+                else: text = soup.get_text(separator='\n')
             elif "forum.paradoxplaza.com" in url:
-                # Forum thread logic
-                content_div = soup.find('div', class_='p-body-content')
-                if not content_div:
-                    content_div = soup.find('article', class_='message-body')
-                
-                if content_div:
-                    text = content_div.get_text(separator='\n')
-                else:
-                    text = soup.get_text(separator='\n')
-            
+                content_div = soup.find('div', class_='p-body-content') or soup.find('article', class_='message-body')
+                text = content_div.get_text(separator='\n') if content_div else soup.get_text(separator='\n')
             else:
-                for script in soup(["script", "style"]):
-                    script.decompose()
+                for script in soup(["script", "style"]): script.decompose()
                 text = soup.get_text(separator='\n')
             
             lines = (line.strip() for line in text.splitlines())
             clean_text = '\n'.join(line for line in lines if line)
 
-            # Prevent saving empty or challenge pages
-            if len(clean_text) < 200:
-                logger.warning(f"Extracted content too short for {url}. Might be a block page.")
-                return False
+            if len(clean_text) < 300: return False
 
             slug = url.split("/")[-1].split("?")[0]
-            if not slug or slug == "index.php": 
-                slug = soup.title.string if soup.title else "scraped_content"
+            if not slug or slug == "index.php": slug = soup.title.string if soup.title else "scraped_content"
             
             filename = prefix + self._sanitize_filename(slug) + ".txt"
-            
             file_path = self.data_dir / filename
             with open(file_path, "w", encoding="utf-8") as f:
-                f.write(f"Source URL: {url}\n")
-                f.write(f"Source Date: {pub_date}\n\n")
-                f.write(clean_text)
+                f.write(f"Source URL: {url}\nSource Date: {pub_date}\n\n{clean_text}")
             
             logger.info(f"Successfully scraped {url} to {filename}")
             return True
-
         except Exception as e:
             logger.error(f"Failed to scrape {url}: {e}")
             return False
 
     def ingest_core_knowledge(self) -> None:
-        """
-        Ingests the hardcoded Wiki pages and any manually uploaded transcripts.
-        """
-        # 1. Ingest Manual Sources (e.g., YouTube Transcripts)
-        # We look for a folder at the project root level
-        root_dir = self.data_dir.parent
-        manual_dir = root_dir / "manual_sources"
-        
+        """Ingests Wiki pages, Tinto Talks, and manual sources."""
+        # 1. Manual Sources (Trust these, no length check)
+        manual_dir = self.data_dir.parent / "manual_sources"
         if manual_dir.exists():
             for txt_file in manual_dir.glob("*.txt"):
-                # Avoid re-processing if the output file already exists
-                # We prefix with 'manual_' to keep them organized
-                dest_filename = f"manual_{txt_file.name}"
-                dest_path = self.data_dir / dest_filename
+                # Clean filename for destination
+                clean_name = self._sanitize_filename(txt_file.stem) + ".txt"
+                dest_path = self.data_dir / f"manual_{clean_name}"
                 
                 if not dest_path.exists():
-                    logger.info(f"Processing manual source: {txt_file.name}")
-                    try:
-                        content = txt_file.read_text(encoding='utf-8')
-                        
-                        # Add Metadata Header for RAG consistency
-                        # We use the current date so the RAG engine knows when we learned this
-                        current_date = datetime.now().strftime("%Y-%m-%d")
-                        final_content = (
-                            f"Source: Manual Upload ({txt_file.name})\n"
-                            f"Source Date: {current_date}\n"
-                            f"URL: local_file\n\n"
-                            f"{content}"
-                        )
-                        
-                        with open(dest_path, 'w', encoding='utf-8') as f:
-                            f.write(final_content)
-                    except Exception as e:
-                        logger.error(f"Failed to process {txt_file.name}: {e}")
-                else:
-                    logger.debug(f"Manual source {txt_file.name} already processed.")
+                    logger.info(f"Ingesting manual source: {txt_file.name}")
+                    content = txt_file.read_text(encoding='utf-8')
+                    header = f"Source: Manual ({txt_file.name})\nSource Date: {datetime.now().strftime('%Y-%m-%d')}\nURL: local_file\n\n"
+                    dest_path.write_text(header + content, encoding='utf-8')
 
-        # 2. Ingest Wiki
+        # 2. Wiki
         for url in CORE_WIKI_URLS:
-            # Use URL slug for consistent filename matching (Predictable Naming)
-            slug = url.split("/")[-1].split("?")[0] # Remove query params if any
-            if not slug or slug == "index.php": 
-                # Fallback for root or weird URLs
-                # We can't know the title without scraping, but for the check we need a slug.
-                # If we really can't guess, we might skip or force scrape.
-                # For the core list, they are all reliable slugs.
-                slug = "wiki_index"
-            
+            slug = url.split("/")[-1].split("?")[0] or "wiki_index"
             filename = self._sanitize_filename(slug) + ".txt"
             if not (self.data_dir / filename).exists():
-                logger.info(f"Ingesting core wiki page: {url}")
                 self.scrape_url(url)
-            else:
-                logger.debug(f"Core wiki page {slug} already exists, skipping.")
 
-        # 3. Ingest Tinto Talks (Developer Explanations)
+        # 3. Tinto Talks
         for url in TINTO_TALKS_URLS:
-            # Prefix with "tinto_" to identify these as high-priority developer sources
-            slug = url.split("/")[-1].split("?")[0]
-            if not slug:
-                slug = "tinto_talk"
-            
+            slug = url.split("/")[-1].split("?")[0] or "tinto_talk"
             filename = "tinto_" + self._sanitize_filename(slug) + ".txt"
             if not (self.data_dir / filename).exists():
-                logger.info(f"Ingesting Tinto Talk: {url}")
                 self.scrape_url(url, prefix="tinto_")
-            else:
-                logger.debug(f"Tinto Talk {slug} already exists, skipping.")
+
+if __name__ == "__main__":
+    import os
+    data_dir = os.path.join(os.getcwd(), "data")
+    ingestor = DataIngestor(data_dir)
+    print("🌍 Starting ingestion process...")
+    ingestor.ingest_core_knowledge()
+    print("✅ Ingestion process completed.")

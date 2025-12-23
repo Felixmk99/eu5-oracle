@@ -1,0 +1,54 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-1-february-28th-2024.1625360/
+Source Date: 2024-02-28
+
+Hello everyone and welcome to .. yeah, what is this really?
+
+Is this a game called “Tinto Talks?” No.. not really.
+
+First of all Tinto stands for “Paradox Tinto”, the studio which we founded in Sitges in 2020, with a few people moving down with me from PDS to Spain. We have now grown to be almost 30 people. Now, that is out of the way, what about the “Talks” part? Well…
+
+A long time ago, we started talking about a game as soon as we started working on it. Back in the long almost forgotten past we used to make games in about 8-9 months. I remember us announcing Vicky2 with just 2 mockup screenshots, and half a page of ideas.
+
+This changed a bit over time, with first the rule of not announcing a game until it passed its alpha milestone, in case it would be canceled… as happened with Runemaster. And then when projects started going from an 18 month development cycle with games like EU4 to many years like our more recent games, the time from announcement to release became much closer to the release of the game.
+
+Why does this matter?
+
+Well, from a development perspective communicating with the players is extremely beneficial, as it provides us with feedback. But if it's so late in the development process that you can not adapt to the feedback, then a development diary is “just” a marketing tool. I think games like Imperator might have looked different if we had involved the community earlier and listened to the feedback.
+
+If we look back at HoI4, this was from the first time we talked about Air Warfare, about 10 years ago, and it has not much in common with the release version.. 
+
+However, talking about a game for a long long time is not great for building hype either, and to be able to make proper huge announcements is an important part as well.
+
+So what is this then? Well, we call this sub-forum “Tinto Talks”. We will be talking about design aspects of the game we are working on. We will not tell you which game it is, nor be able to tell you when it will be announced, nor when it will be released.
+
+We will be talking with you here, almost every week, because we need your input to be able to shape this game into a masterpiece.
+
+Without you, and your input, that will not be possible.
+
+So what about Project Caesar then?
+
+Project Caesar? Yeah.. At PDS, which Tinto is a "child" of, we tend to use roman emperor/leader names for our games. Augustus was Stellaris, Titus was CK3, Sulla was Imperator, Nero was Runemaster, Caligula was V3 etc.. We even named our internal "empty project for clausewitz & jomini", that we base every new game on Marius.
+
+In Q2 2020, I started writing code on a new game, prototyping new systems that I wanted to try out. Adapting the lessons learned from what had worked well, and what had not worked well. Plus, recruiting for a completely new studio in Paradox Tinto, training people on how to make these types of games, while also making some expansions for EU4.
+
+Today though, even though we are a fair bit away from announcing our new game, we want to start talking weekly about the things we have worked on, to get your feedback on it, and adapt some of it to become even better.
+
+However, we’ll start with the vision, which is not really something you do change at this stage.
+
+Believable World
+
+You should be able to play the game and feel like you are in a world that makes sense, and feels rich and realistic. While not making the gaming less accessible, features should be believable and plausible, and avoid abstraction unless necessary.
+
+Setting Immersion
+
+Our games thrive on player imagination and “what if” scenarios. We ensure both a high degree of faithfulness to the setting which will give a “special feel” to the game. We will strive to give this game the most in-depth feeling of flavor possible.
+
+Replayability
+
+There should be many ways to play different starts and reasons to replay them. Different mechanics in different parts of the world create a unique experience depending on what you choose to play. With a deep and complex game, there should be so many choices and paths that the player should feel they can always come back to get a new story with the same start.
+
+Yeah, sounds ambitious right?
+
+Which games do YOU think represent these pillars well?
+
+Cheers, and next week, we’ll talk about the most important things in the world.. Besides family, beer, friends, and the Great Lord of the Dark… MAPS!

@@ -1,11 +1,14 @@
 llama-index-core==0.10.68.post1
+llama-index-readers-file
 llama-index-llms-ollama==0.2.2
 llama-index-llms-groq
 llama-index-vector-stores-chroma==0.1.10
 llama-index-embeddings-huggingface==0.2.3
 llama-index-embeddings-openai==0.1.11
-pydantic<2.0.0
-chromadb
+pydantic>=2.0.0
+playwright
+playwright-stealth
+chromadb==0.5.17
 streamlit>=1.24.0
 beautifulsoup4
 youtube-transcript-api

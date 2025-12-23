@@ -1,10 +1,10 @@
 import streamlit as st
-
 import warnings
 import importlib.metadata
 import socket
 import subprocess
 import time
+import os
 from pathlib import Path
 from dotenv import load_dotenv
 
@@ -20,8 +20,9 @@ except ImportError:
 warnings.filterwarnings("ignore", module="pydantic")
 warnings.filterwarnings("ignore", module="llama_index")
 
-import os
-from core_engine import oracle_core
+# Direct imports to avoid "core_engine" singleton issues
+from llm_factory import get_llm
+from rag_engine import RAGEngine
 
 # Load environment variables
 load_dotenv()
@@ -30,7 +31,8 @@ load_dotenv()
 st.set_page_config(
     page_title="EU5 Oracle",
     page_icon="🌍",
-    layout="wide"
+    layout="wide",
+    initial_sidebar_state="expanded"
 )
 
 # --- Constants ---
@@ -40,7 +42,7 @@ CHROMA_DIR = str(ROOT_DIR / "chroma_db")
 
 # LLM Options
 LLM_MODELS = {
-    "Local (Ollama)": ["llama3.1:8b", "llama3.1:latest", "phi3"],
+    "Local (Ollama)": ["llama3.1:8b", "llama3.1:latest", "phi3", "mistral-nemo"],
     "Groq": ["llama3-8b-8192", "llama3-70b-8192", "mixtral-8x7b-32768", "llama-3.1-70b-versatile"]
 }
 
@@ -51,10 +53,22 @@ if "messages" not in st.session_state:
 if "chat_engine" not in st.session_state:
     st.session_state.chat_engine = None
 
-if "llm_instance" not in st.session_state:
-    st.session_state.llm_instance = None
+if "llm_config" not in st.session_state:
+    st.session_state.llm_config = {"provider": None, "model": None}
 
 # --- Helper Functions ---
+
+@st.cache_resource(show_spinner="Loading Knowledge Base...")
+def get_global_index():
+    """
+    Loads the RAG index FROM DISK only once.
+    This object is shared across all sessions but is read-only safe.
+    Does NOT trigger ingestion.
+    """
+    engine = RAGEngine(DATA_DIR, CHROMA_DIR)
+    # This force-loads the index into memory/cache
+    index = engine.load_index()
+    return engine, index
 
 @st.cache_resource
 def ensure_ollama_server():
@@ -84,13 +98,31 @@ def ensure_ollama_server():
     except Exception as e:
         return False, f"Failed to start Ollama: {e}"
 
-def initialize_brain(provider: str, model_name: str, api_key: str = None) -> tuple[bool, str]:
-    """Wraps oracle_core initialization for Streamlit."""
-    success, message = oracle_core.initialize_engine(provider, model_name, api_key)
-    if success:
-        st.session_state.chat_engine = oracle_core.chat_engine
-        st.session_state.llm_instance = oracle_core.llm_instance
-    return success, message
+def initialize_chat_session(provider: str, model_name: str, api_key: str = None):
+    """
+    Creates a user-specific Chat Engine using the globally cached Index + User-selected LLM.
+    """
+    try:
+        # 1. Get the LLM (Fast)
+        llm = get_llm(provider, model_name, api_key)
+        
+        # 2. Get the Cached Index (Instant)
+        rag_engine, index = get_global_index()
+        
+        # 3. Create the Chat Engine (Lightweight)
+        # We manually recreate the get_chat_engine logic here or use a helper,
+        # but passing the llm into the engine class is cleaner.
+        # But `rag_engine.py`'s get_chat_engine calls `load_index` internally, which is fine since it's cached.
+        # Let's use the helper method on the engine instance but inject the pre-loaded index if possible?
+        # Actually RAGEngine.get_chat_engine just sets Settings.llm and calls load_index().
+        # Since load_index check DB count, it should be fast.
+        
+        st.session_state.chat_engine = rag_engine.get_chat_engine(llm)
+        st.session_state.llm_config = {"provider": provider, "model": model_name}
+        
+        return True, f"Brain activated: {provider} / {model_name}"
+    except Exception as e:
+        return False, f"Failed to initialize: {e}"
 
 # --- Sidebar ---
 server_running, status_msg = ensure_ollama_server()
@@ -109,9 +141,10 @@ with st.sidebar:
     )
     
     # 2. Model Selection
+    model_opts = LLM_MODELS.get(selected_provider, [])
     selected_model = st.selectbox(
         "Model Version",
-        LLM_MODELS[selected_provider]
+        model_opts
     )
     
     # 3. API Key Management (Secure)
@@ -129,60 +162,50 @@ with st.sidebar:
                 if not api_key:
                     st.warning("Please enter a Groq API key to use cloud backup.")
             else:
-                st.success("using GROQ_API_KEY from .env")
+                st.caption("🔑 Using key from environment")
 
     # 4. Status and Re-initialization
     st.divider()
     if st.session_state.chat_engine:
         st.success(f"🟢 Oracle Online")
-        st.caption(f"Provider: {selected_provider}")
-        st.caption(f"Model: {selected_model}")
+        st.caption(f"Brain: {st.session_state.llm_config['model']}")
     else:
         st.error("🔴 Oracle Offline")
         if not server_running and selected_provider == "Local (Ollama)":
-            st.warning(f"Ollama not detected. {status_msg}")
+            st.warning(f"Ollama issue: {status_msg}")
 
-    if st.button("Apply / Refresh Engine"):
+    if st.button("Apply / Refresh"):
         if selected_provider != "Local (Ollama)" and not api_key:
             st.error(f"Cannot initialize {selected_provider} without an API key.")
         else:
             with st.spinner(f"Configuring {selected_provider}..."):
-                success, message = initialize_brain(selected_provider, selected_model, api_key)
+                success, msg = initialize_chat_session(selected_provider, selected_model, api_key)
                 if success:
-                    st.success(message)
+                    st.success(msg)
                     st.rerun()
                 else:
-                    st.error(message)
+                    st.error(msg)
 
 # --- AUTO-INITIALIZATION ---
+# Automatically try to start if we are "offline" but have valid defaults
 if st.session_state.chat_engine is None:
-    # If Ollama is running OR we have an API key for the default fallback (Groq), try to auto-init
     should_auto_init = False
-    init_provider = selected_provider
-    init_model = selected_model
-    init_key = api_key
     
+    # Auto-start Local if available
     if selected_provider == "Local (Ollama)" and server_running:
         should_auto_init = True
-    elif selected_provider != "Local (Ollama)" and api_key:
+    # Auto-start Groq if Key is present
+    elif selected_provider == "Groq" and api_key:
         should_auto_init = True
         
     if should_auto_init:
-        with st.spinner(f"Auto-initializing {init_provider}..."):
-            success, message = initialize_brain(init_provider, init_model, init_key)
-            if success:
-                st.toast(f"Switched to {init_provider}!", icon="🚀")
-                st.rerun()
-            else:
-                st.error(message)
-
-    if selected_provider == "Groq" and not api_key:
-        st.info("💡 **Tip:** Get a free Groq API key at [console.groq.com](https://console.groq.com/)")
-
+        # Silent init
+        initialize_chat_session(selected_provider, selected_model, api_key)
+        st.rerun()
 
 # --- Main Interface ---
 st.title("🌍 EU5 Oracle")
-st.markdown("*Your private, local expert on Europa Universalis V.*")
+st.markdown("*Your strategic advisor for Project Caesar.*")
 
 # Chat History
 for message in st.session_state.messages:
@@ -190,16 +213,23 @@ for message in st.session_state.messages:
         st.markdown(message["content"])
 
 # User Input
-if prompt := st.chat_input("Ask about Europa Universalis V..."):
+if prompt := st.chat_input("Ask about estates, production, or control..."):
     if not st.session_state.chat_engine:
-        st.warning("Oracle is offline. Please check Ollama.")
+        st.warning("Oracle is offline. Please check configuration.")
     else:
         st.session_state.messages.append({"role": "user", "content": prompt})
         with st.chat_message("user"):
             st.markdown(prompt)
 
         with st.chat_message("assistant"):
-            with st.spinner("Thinking..."):
-                response_text = oracle_core.query(prompt)
-                st.markdown(response_text)
-                st.session_state.messages.append({"role": "assistant", "content": response_text})
+            with st.spinner("Consulting the archives..."):
+                try:
+                    # Stream response if possible (ChatEngine usually supports stream_chat)
+                    # For simplicity/safety with current engine, we use .chat()
+                    response = st.session_state.chat_engine.chat(prompt)
+                    response_text = str(response)
+                    
+                    st.markdown(response_text)
+                    st.session_state.messages.append({"role": "assistant", "content": response_text})
+                except Exception as e:
+                    st.error(f"Error analyzing query: {e}")

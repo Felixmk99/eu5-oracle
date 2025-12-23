@@ -1,0 +1,14 @@
+Source URL: https://forum.paradoxplaza.com/forum/developer-diary/tinto-talks-85-22nd-of-october-modding.1864004/
+Source Date: 2024-10-22
+
+(Note: This is a summary of the extracted dev diary content regarding modding in EU5)
+
+Modding Philosophy: EU5 is built on the Jomini Framework (similar to Victoria 3 and CK3), offering advanced scripting and localized GUI capabilities.
+
+Early Access for Mods: Several popular mods like Anbennar, Extended Timeline, Imperium Universalis, and Europa Expanded have had early access to ensure they can begin development before the game's official release.
+
+New Systems: Showcasing the scripting syntax for events, "Situations" (like the Rise of Ulm or the Reconquista), and International Organizations.
+
+Tool Support: Developers of community tools such as Arcanum (a specialized editor), Pdx.Tools (a save analyzer), and Pdx-Unlimiter are already preparing support for EU5.
+
+Fun Additions: A developer even implemented a fully functional Minesweeper mod within the EU5 engine in just 11 hours, highlighting the game's improved modding efficiency and features like "file watchers" that allow for live updates without restarting.

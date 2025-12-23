@@ -35,6 +35,8 @@ def extract_metadata_from_file(file_path: Path) -> dict:
         
     return metadata
 
+from llama_index.embeddings.huggingface import HuggingFaceEmbedding
+
 class RAGEngine:
     """
     Manages the RAG pipeline using LlamaIndex and ChromaDB.
@@ -45,6 +47,9 @@ class RAGEngine:
         """
         Initializes the RAG Engine paths.
         """
+        # Enforce local embedding model to avoid OpenAI dependency
+        Settings.embed_model = HuggingFaceEmbedding(model_name="BAAI/bge-small-en-v1.5")
+        
         self.data_dir = Path(data_dir)
         self.chroma_dir = Path(chroma_dir)
         self._db = chromadb.PersistentClient(path=str(self.chroma_dir))

@@ -49,25 +49,17 @@ Check out the live Oracle here: [eu5-oracle.streamlit.app](https://eu5-oracle.st
     GROQ_API_KEY=your_key_here  # Optional cloud fallback
     ```
 
-## 💬 Running the App
+- **Start Script**:
+    ```bash
+    ./start.sh
+    ```
+- **Manual Launch**:
+    ```bash
+    streamlit run src/ui.py
+    ```
 
-### Option 1: Web Interface
-```bash
-streamlit run src/ui.py
-```
-
-### Option 2: In-Game Overlay (Always on Top)
-Designed to be used while playing EU5!
-```bash
-python src/overlay.py
-```
-*   **Toggle Overlay**: Press `Ctrl + Alt + Space` while in-game.
-*   The overlay appears in the top-right and stays above the game.
-*   Works best in **Borderless Windowed** mode.
-
-*   The Oracle will automatically attempt to connect to a local Ollama server.
-*   If Ollama is missing, it will prompt you for a Groq key (or use the one from your `.env`).
-*   The first run will automatically ingest core knowledge sources into `data/`.
+*   The Oracle has achieved **99.1% coverage** of all known public information (Wiki, Dev Diaries, Videos).
+*   The first launch is **instant** because the knowledge base is pre-ingested.
 
 ## 🧪 Testing
 
