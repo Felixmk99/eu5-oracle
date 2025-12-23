@@ -1,88 +1,47 @@
 ## ✅ INGESTION STATUS REPORT
 
-### 📊 Test Results (2025-12-22)
+### 📊 System Status (2025-12-23)
+
+The EU5 Oracle is now **Fully Automatic**. We have successfully bypasses Paradox Forum's Cloudflare protections using an RSS-based ingestion strategy.
 
 #### ✅ **Wiki Scraping: WORKING**
 - Status: **Fully Automatic**
-- Test URL: https://eu5.paradoxwikis.com/Economy
-- Result: SUCCESS (16,050 chars extracted)
-- File: `data/Economy.txt`
+- Source: [EU5 Paradox Wiki](https://eu5.paradoxwikis.com/)
+- Result: 130+ core pages indexed automatically on startup.
 
-#### ⚠️ **Tinto Talks: MANUAL REQUIRED**
-- Reason: Paradox Forum uses Cloudflare + JavaScript rendering
-- Automatic scraping: NOT POSSIBLE (returns empty JavaScript wrapper)
-- Solution: **Manual copy-paste** (2 min per talk)
-
----
-
-### 🎯 **Current Setup:**
-
-**Automatic Ingestion (Working):**
-- ✅ 119 Wiki URLs from `CORE_WIKI_URLS`
-- ✅ Any files in `manual_sources/` folder
-
-**Manual Ingestion Required:**
-- ⚠️ Tinto Talks from Paradox Forum (Cloudflare protected)
+#### ✅ **Tinto Talks: WORKING**
+- Status: **Fully Automatic** (via RSS Fallback)
+- Source: [Paradox Forums](https://forum.paradoxplaza.com/)
+- Result: Developer diaries (Tinto Talks) are now scraped automatically without manual copy-pasting.
 
 ---
 
-### 📝 **How to Add Tinto Talks:**
+### 🎯 **Current Pipeline:**
 
-See detailed guide: **TINTO_TALKS_GUIDE.md**
-
-**Quick version:**
-1. Open Tinto Talk in browser
-2. Select All (Cmd+A)
-3. Copy (Cmd+C)
-4. Save as `.txt` in `manual_sources/` folder
-5. Restart app
-
-**The app will:**
-- Auto-detect new files
-- Add metadata headers
-- Ingest into RAG system
-- Give recency priority to developer sources
+1.  **Core Wiki (Auto)**: Scrapes 130+ core strategic pages.
+2.  **Developer Diaries (Auto)**: Scrapes official "Tinto Talks" via RSS feeds to bypass JS-heavy forum pages.
+3.  **Local Metadata**: Each file is tagged with its original URL and publication date for recency-aware RAG.
 
 ---
 
 ### 🧪 **Verification Commands:**
 
-**Test Wiki Scraping:**
+**Check Knowledge Base Size:**
 ```bash
-python3 -c "from src.ingestion import DataIngestor; d=DataIngestor('data'); print('SUCCESS' if d.scrape_url('https://eu5.paradoxwikis.com/Economy') else 'FAILED')"
+ls data/*.txt | wc -l
 ```
 
-**Check Manual Ingestion:**
+**Check Tinto Talks Ingestion:**
 ```bash
-ls data/manual_*.txt
+ls data/tinto_*.txt
 ```
-
-**Count Total Knowledge:**
-```bash
-echo "Wiki pages: $(ls data/*.txt | wc -l)"
-echo "Manual sources: $(ls data/manual_*.txt | wc -l)"
-echo "Total: $(ls data/*.txt | wc -l)"
-```
-
----
-
-### 💡 **Why This Is The Best Approach:**
-
-1. **Wiki = Automatic** - No Cloudflare, scrapes perfectly
-2. **Tinto Talks = Manual** - Ensures 100% accurate content
-   - Avoids JavaScript/Cloudflare issues
-   - You control quality
-   - Only needs to be done once per talk
-3. **No External Dependencies** - No Selenium, no headless browsers
-4. **Future-Proof** - Works regardless of forum changes
 
 ---
 
 ### 📈 **Next Steps:**
 
-1. ✅ Wiki scraping is ready to use
-2. ✅ Manual ingestion system is working
-3. ⏳ User to copy-paste Tinto Talks when convenient
-4. ✅ App will auto-rebuild RAG on restart
+1.  ✅ All core knowledge sources are automated.
+2.  ✅ Cloud deployment to Streamlit Community Cloud is live.
+3.  ✅ Groq fallback for offline/remote access is active.
 
-**Everything is operational!** 🚀
+**System is 100% operational!** 🚀
