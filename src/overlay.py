@@ -4,7 +4,7 @@ from PyQt6.QtWidgets import (
     QApplication, QMainWindow, QWidget, QVBoxLayout, 
     QLineEdit, QTextEdit, QLabel
 )
-from PyQt6.QtCore import Qt, QThread, pyqtSignal
+from PyQt6.QtCore import Qt, QThread, pyqtSignal, QPropertyAnimation, QEasingCurve, QPoint, QRect
 from PyQt6.QtGui import QColor, QPalette, QFont
 from pynput import keyboard
 
@@ -96,6 +96,15 @@ class OverlayWindow(QMainWindow):
         self.layout.addWidget(self.input_field)
 
         self.setCentralWidget(self.main_widget)
+        
+        # Animation Setup
+        self.anim = QPropertyAnimation(self, b"geometry")
+        self.anim.setDuration(300)
+        self.anim.setEasingCurve(QEasingCurve.Type.OutCubic)
+        
+        self.opacity_anim = QPropertyAnimation(self, b"windowOpacity")
+        self.opacity_anim.setDuration(250)
+
         self.hide() # Hidden by default
 
     def setup_engine(self):
@@ -143,10 +152,34 @@ class OverlayWindow(QMainWindow):
         self.chat_view.ensureCursorVisible()
 
     def toggle_visibility(self):
+        screen = QApplication.primaryScreen().geometry()
+        target_rect = QRect(screen.width() - 420, 50, 400, 500)
+        start_rect = QRect(screen.width(), 50, 400, 500) # Start from off-screen right
+
         if self.isVisible():
-            self.hide()
+            # Slide out animation
+            self.anim.setStartValue(self.geometry())
+            self.anim.setEndValue(start_rect)
+            self.opacity_anim.setStartValue(1.0)
+            self.opacity_anim.setEndValue(0.0)
+            self.anim.finished.connect(self.hide)
+            self.anim.start()
+            self.opacity_anim.start()
         else:
+            # Prepare for slide in
+            self.anim.finished.disconnect() # Clear old connections
+            self.setGeometry(start_rect)
+            self.setWindowOpacity(0.0)
             self.show()
+            
+            # Slide in animation
+            self.anim.setStartValue(start_rect)
+            self.anim.setEndValue(target_rect)
+            self.opacity_anim.setStartValue(0.0)
+            self.opacity_anim.setEndValue(1.0)
+            self.anim.start()
+            self.opacity_anim.start()
+            
             self.activateWindow()
             self.input_field.setFocus()
 
